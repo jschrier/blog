@@ -1,0 +1,37 @@
+---
+title: "How to Export Mathematica Notebooks into Jekyll-Friendly Markdown"
+date: 2022-07-18
+---
+
+```mathematica
+mb[kT_, m_, u_] := 4 Pi ( m/(2 kT Pi ))^{3/2} u^2 Exp[-m u^2/(2 kT)] 
+ 
+Plot[
+  {mb[1, 1, u], mb[2, 1, u], mb[1, 2, u]}, {u, 0, 8}, 
+  PlotStyle -> {Black, Red, Red}, 
+  Frame -> True, FrameTicks -> None, 
+  PlotLegends -> Placed[{"\[UpArrow]m", "\[UpArrow]T"}, {Right, Top}], 
+  FrameLabel -> {"Velocity", "Probability Density"}, 
+  ImageSize -> Small]
+
+```
+
+![0w426cskyjnx8](.../images/2022/7/18/0w426cskyjnx8.png)
+
+```mathematica
+toJekyll[name_, blogLocation_ : "~/Documents/GitHub/blog"] := With[
+    {blogFile = DateString["ISODate"] <> "-" <> name, 
+     imageLocation = FileNameJoin[{"images"}~Join~Map[ToString, DateList[][[;; 3]]]] 
+    }, 
+    CreateDirectory[imageLocation]; 
+    MDExport[
+     FileNameJoin[{blogLocation, "_posts", blogFile}], 
+     EvaluationNotebook[], 
+     "ImagesExportURL" -> FileNameJoin[{blogLocation, imageLocation}],
+     "ImagesFetchURL" -> URL@FileNameJoin[{"...", imageLocation}] 
+    ]] 
+ 
+toJekyll["demo"]
+```
+
+![1xnhrd4d1d0nm](.../images/2022/7/18/1xnhrd4d1d0nm.png)
