@@ -12,7 +12,7 @@ If raised, then Player II can either fold (losing the $1 ante) or check the bet 
 
 The strategy is as follows.  Player 1 will bluff if x < a and raise if x>b.  Player 2 will fold if Y <c.  
 
-What\[CloseCurlyQuote]s the optimal (stable) strategy?
+What is the optimal (stable) strategy?
 
 **Approach:**  View the problem geometrically and work out the areas of the different payout (for player I) as follows (because it is a zero sum game, anytime play I wins some reward p, Player II wins -p).
   ![1xja3ir83qyma](/blog/images/2022/7/19/1xja3ir83qyma.png)
@@ -38,7 +38,7 @@ soln = Solve[
 
 ![1pjanzppdu2tq](/blog/images/2022/7/19/1pjanzppdu2tq.png)
 
-(In agreement with known results from https://faculty.math.illinois.edu/~hildebr/ugresearch/HildebrandCalculusSpring2017-report.pdf , which is also the source of the figure above)
+(In agreement with known results from [https://faculty.math.illinois.edu/~hildebr/ugresearch/HildebrandCalculusSpring2017-report.pdf] , which is also the source of the figure above)
 
 How do the strategies change as the bet size, B, increases?
 
@@ -55,7 +55,7 @@ With[
 
 ![0cowkg1xemzay](/blog/images/2022/7/19/0cowkg1xemzay.png)
 
-What\[CloseCurlyQuote]s the expected value for Player 1 under optimal play for both players as a function of the bet size, B?
+What is the expected value for Player 1 under optimal play for both players as a function of the bet size, B?
 
 ```mathematica
 Plot[
@@ -65,7 +65,7 @@ Plot[
 
 ![1hfdnk8pbujr9](/blog/images/2022/7/19/1hfdnk8pbujr9.png)
 
-An interesting property is that if Player I adopts this strategy, then the payoff is fixed regardless of Player II\[CloseCurlyQuote]s choice:
+An interesting property is that if Player I adopts this strategy, then the payoff is fixed regardless of Player II is choice:
 
 ```mathematica
 Plot3D[
@@ -99,7 +99,7 @@ Plot[(p /. soln[[1, 2 ;; 3]] /. {B -> 1, a -> y}), {y, 0, 1}]
 
 ![0d631p0vsvucd](/blog/images/2022/7/19/0d631p0vsvucd.png)
 
-Another version: Suppose  II knows how Player I\[CloseCurlyQuote]s suboptimal bluff (wrong values of a)...can II take advantage of this?
+Another version: Suppose  II knows how Player I is suboptimal bluff (wrong values of a)...can II take advantage of this?
 
 ```mathematica
 Plot3D[
@@ -128,7 +128,7 @@ Plot[(p /. soln[[1, 2]] /. {B -> 2, a -> 0.2, c -> y}), {y, 0, 1},
 
 ![019dil2b8fzei](/blog/images/2022/7/19/019dil2b8fzei.png)
 
-How \[OpenCurlyDoubleQuote]good\[CloseCurlyDoubleQuote] or \[OpenCurlyDoubleQuote]bad\[CloseCurlyDoubleQuote] can this be:  Let\[CloseCurlyQuote]s try to find the minimum value (best case for II) 
+How "good" or "bad" can this be:  Let is try to find the minimum value (best case for II) 
 
 ```mathematica
 Plot[
