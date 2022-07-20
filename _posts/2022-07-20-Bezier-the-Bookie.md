@@ -66,7 +66,7 @@ BezierFunction[pts][0.5]
 (*{-0.525, -0.525, 1.05}*)
 ```
 
-What if they extend the game to three coin tosses, and the bookie gives a consolation prize--getting two coin tosses gives a payout of +$1.2 to the \[OpenCurlyDoubleQuote]best 2\[CloseCurlyDoubleQuote] winner.  The Bernstein basis is convex, so the expectation value (blue line) has to lie within the convex hull of the different outcomes (the different payout points)
+What if they extend the game to three coin tosses, and the bookie gives a consolation prize--getting two coin tosses gives a payout of +$1.2 to the \"best-two\" winner.  The Bernstein basis is convex, so the expectation value (blue line) has to lie within the convex hull of the different outcomes (the different payout points)
 
 ```mathematica
 pts = {{-1, 0.9}, {-1, 0.2}, {0.2, -1}, {0.9, -1}};
