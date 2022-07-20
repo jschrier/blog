@@ -4,9 +4,7 @@ Date: 2022-07-18
 Tags: metablogging
 ---
 
-Our goal here is to demonstrate how to Export Mathematica notebooks to Jekyll markdown using MDExport.
-
-This requires a bit of custom code, demonstrated below.
+Our goal here is to demonstrate how to Export Mathematica notebooks to Jekyll markdown using MDExport. This requires a bit of custom code, demonstrated below, which we'll use to define a function that automates the process.
 
 But first, a simple illustration of plotting [Maxwell-Boltzmann](https://en.wikipedia.org/wiki/Maxwell-Boltzmann_distribution) distribution
 
