@@ -38,7 +38,7 @@ Plot[
 The expectation value is just the Bezier curve as a function of the probability, where the control points of the Bezier curve are the different payout scenarios:
 
 ```mathematica
-pts = {{-1, 0.9}, {-1, -1}, {0.9, -1}};
+pts = { {-1, 0.9}, {-1, -1}, {0.9, -1} };
 Graphics[ {Blue, BezierCurve[pts], Red, Point[pts]}, ImageSize -> Small]
 BezierFunction[pts][0.5] 
 ```
@@ -52,7 +52,7 @@ BezierFunction[pts][0.5]
 We can consider the Bookie's return as a third dimension for our Bezier interpolation.  Again, each control point in our Bezier curve defines the payouts from the perspective of each player (gambler 1, gambler 2, bookie): 
 
 ```mathematica
-pts = {{-1, 0.9, 0.1}, {-1, -1, 2}, {0.9, -1, 0.1}};
+pts = { {-1, 0.9, 0.1}, {-1, -1, 2}, {0.9, -1, 0.1} };
 Graphics3D[ {Blue, BezierCurve[pts], Red, Point[pts]}]
 ```
 
@@ -66,10 +66,10 @@ BezierFunction[pts][0.5]
 (*{-0.525, -0.525, 1.05}*)
 ```
 
-What if they extend the game to three coin tosses, and the bookie gives a consolation prize--getting two coin tosses gives a payout of +$1.2 to the \[OpenCurlyDoubleQuote]best 2\[CloseCurlyDoubleQuote] winner.  The Bernstein basis is convex, so the expectation value (blue line) has to lie within the convex hull of the different outcomes (the different payout points)
+What if they extend the game to three coin tosses, and the bookie gives a consolation prize--getting two coin tosses gives a payout of +$1.2 to the \"best-two\" winner.  The Bernstein basis is convex, so the expectation value (blue line) has to lie within the convex hull of the different outcomes (the different payout points)
 
 ```mathematica
-pts = {{-1, 0.9}, {-1, 0.2}, {0.2, -1}, {0.9, -1}};
+pts = { {-1, 0.9}, {-1, 0.2}, {0.2, -1}, {0.9, -1} };
 Graphics[ {Blue, BezierCurve[pts], Red, Point[pts], Opacity[0.1], Green, ConvexHullMesh[pts]}, ImageSize -> Small]
 
 ```
@@ -77,7 +77,7 @@ Graphics[ {Blue, BezierCurve[pts], Red, Point[pts], Opacity[0.1], Green, ConvexH
 ![10m03xxn2t5m8](/blog/images/2022/7/20/10m03xxn2t5m8.png)
 
 ```mathematica
-pts = {{-1, 0.9, 0.1}, {-1, 0.2, 0.8}, {0.2, -1, 0.8}, {0.9, -1, 0.1}};
+pts = { {-1, 0.9, 0.1}, {-1, 0.2, 0.8}, {0.2, -1, 0.8}, {0.9, -1, 0.1} };
 Graphics3D[ {Blue, BezierCurve[pts], Red, Point[pts], Opacity[0.1], Green}]
 ```
 
@@ -86,7 +86,7 @@ Graphics3D[ {Blue, BezierCurve[pts], Red, Point[pts], Opacity[0.1], Green}]
 The problem becomes less interesting as the bookie becomes less greedy:
 
 ```mathematica
-pts = {{-1, 0.9}, {-0.6, 0.4}, {0.4, -0.6}, {0.9, -1}};
+pts = { {-1, 0.9}, {-0.6, 0.4}, {0.4, -0.6}, {0.9, -1} };
 Graphics[ {Blue, BezierCurve[pts], Red, Point[pts], Opacity[0.1], Green, ConvexHullMesh[pts]}, ImageSize -> Small]
 ```
 
