@@ -4,9 +4,9 @@ Date: 2022-07-21
 Tags: gambling optimization kelly
 ---
 
-I was intrigued by an article on John Parkhill's blog ([https://jparkhill.netlify.app/howtobet/]) about the discrete version of the [Kelly Criterion](https://en.wikipedia.org/wiki/Kelly_criterion). The core idea is that one uses a series of samples of returns and then determines a Kelly-optimal strategy for those samples;  the advantage of working with discrete samples (rather than "probabilities" deduced from such data) is that it captures realistic correlations.  The Kelly optimal bet vector, $c_k$, (i.e., the fraction of your wealth to wager on each  asset *k* )is found by minimizing the following loss function,
+I was intrigued by an [article on John Parkhill's blog](https://jparkhill.netlify.app/howtobet/) about the discrete version of the [Kelly Criterion](https://en.wikipedia.org/wiki/Kelly_criterion). The core idea is that one uses a series of samples of returns and then determines a Kelly-optimal strategy for those samples;  the advantage of working with discrete samples (rather than "probabilities" deduced from such data) is that it captures realistic correlations.  The Kelly optimal bet vector, $c_k$, (i.e., the fraction of your wealth to wager on each asset *k* )is found by minimizing the following loss function,
 ![1g90ageo2f9qw](/blog/images/2022/7/21/1g90ageo2f9qw.png)
-where *S* is the total number of samples, and *i*  is an index over samples, and $r_{\text{ik}}$ is the observed return of asset *k* at time *i*.  [John's blog](https://jparkhill.netlify.app/howtobet/) does some implementations in PyTorch and then introduces a partially-baked nontransitive die example (but only demonstrates things with a single roll).  My goal here was to think through this a bit (especially as I enjoyed reading the *[Fortune's Formula ](https://amzn.to/3OxwFJK)* book on Kelly), and make a very simple implementation, and build out application to the non-transitive dice example.
+where *S* is the total number of samples, and *i*  is an index over samples, and $r_{\text{ik}}$ is the observed return of asset *k* at time *i*.  [John's blog](https://jparkhill.netlify.app/howtobet/) does some implementations in PyTorch and then introduces a partially-baked nontransitive die example (but only demonstrates things with a single roll).  My goal here was to think through this a bit (especially as I enjoyed reading William Poundstone's book *[Fortune's Formula ](https://amzn.to/3OxwFJK)* on [Kelly](https://en.wikipedia.org/wiki/John_Larry_Kelly_Jr.), [Shannon](https://en.wikipedia.org/wiki/Claude_Shannon), and [friends](https://en.wikipedia.org/wiki/Edward_O._Thorp)), and make a very simple implementation, and build out application to the non-transitive dice example.
 
 ## A simple example:  Rolling Simple Dice and Nontransitive Dice
 
@@ -62,7 +62,7 @@ The premise of the[ Kelly Criterion](https://en.wikipedia.org/wiki/Kelly_criteri
 bet[percentBet_?NumericQ][total_, payoff_] := total + total*percentBet*payoff
 bet[percentBet_List][total_, payoff_] := total + total*percentBet . payoff 
  
-bet[percentBet_, sampleOutcomes_] := FoldList[bet[percentBet], 1, sampleOutcomes]
+bet[percentBet_, sampleOutcomes_] := FoldList[ bet[percentBet], 1, sampleOutcomes]
 ```
 
 Let's see how this performs on a log plot....
@@ -84,13 +84,11 @@ As we can see, the Kelly optimal bet gives a higher return,  and avoids the cras
 
 ## Now implement the Kelly Loss
 
-So how do we find the Kelly-optimal bet size, $c_k$?    We want to minimize the following loss function:
+So how do we find the Kelly-optimal bet size, $c_k$?    We want to minimize the loss function:
 
 ![0wdo5dvohzc3z](/blog/images/2022/7/21/0wdo5dvohzc3z.png)
 
-![1g1c8ddkg1n0v](/blog/images/2022/7/21/1g1c8ddkg1n0v.png)
-
-For a scalar case, this is pretty simple (we take advantage of the fact that addition by a scalar and Log are both Listable functions, so they apply to each term in the input list:
+For a scalar case, this is pretty simple (we take advantage of the fact that addition by a scalar and Log are both [Listable](https://reference.wolfram.com/language/ref/Listable.html) functions, so they apply to each term in the input list:
 
 ```mathematica
 kellyLoss[cAssets_?NumericQ, rAssets_List] := 
@@ -107,17 +105,17 @@ kellyLoss[cAssets_?VectorQ, rAssets_?MatrixQ] :=
      Log[(1 + cAssets . rik)], {rik, rAssets}]]
 ```
 
-This of course is bound to be less efficient, even if it is somewhat easier to understand or implement.  So let's play a little code golf to make it more idiomatic.  We can replace the Table construction with a Map, or better yet...just treat this as a matrix-vector multiply, taking advantage of the listable addition and Log functions:
+This of course is bound to be less efficient, even if it is somewhat easier to understand or implement.  So let's play a little code golf to make it more idiomatic.  We can replace the `Table` construction with a `Map`, or better yet...just treat this as a matrix-vector multiply, taking advantage of the listable addition and `Log` functions:
 
 ```mathematica
 (*code golf: version 2*)
-  kellyLoss2[cAssets_?VectorQ, rAssets_?MatrixQ] := -Mean [Log[(1 + cAssets . #)] & /@ rAssets] 
+kellyLoss2[cAssets_?VectorQ, rAssets_?MatrixQ] := -Mean[Log[(1 + cAssets . #)] & /@ rAssets] 
    
-  (*code golf: version 3*) 
-   kellyLoss3[cAssets_?VectorQ, rAssets_?MatrixQ] := -Mean@Log[(1 + rAssets . cAssets)]
+(*code golf: version 3*) 
+kellyLoss3[cAssets_?VectorQ, rAssets_?MatrixQ] := -Mean@Log[(1 + rAssets . cAssets)]
 ```
 
-These all give identical results (second outcome in the list), but it's an order of magnitude faster to use the third strategy.  (We could get even more speedups if we use NumericArray's instead of the general purpose lists, but its irrelevant for us here)
+These all give identical results (second outcome in the list), but it's an order of magnitude faster to use the third strategy.  (We could get even more speedups if we use `NumericArray` instead of the general purpose lists, but its irrelevant for us here)
 
 ```mathematica
 example2 = payoff[roll[#]] & /@ {die1, die2, die3} // Transpose;
@@ -132,7 +130,7 @@ kellyLoss3[{0.1, 0.1, 0.4}, example2] // RepeatedTiming
 (*{0.0219753, -0.00274043}*)
 ```
 
-To close this section, let's just define these functions for the single and multiple cases):
+To close this section, let's just define these functions for the single and multiple cases:
 
 ```mathematica
 Clear[kellyLoss]
@@ -142,7 +140,7 @@ kellyLoss[cAssets_?VectorQ, rAssets_?MatrixQ] := -Mean@Log[(1 + rAssets . cAsset
 
 ### Minimizing the Kelly Loss for a single asset
 
-I suppose you can do something fancy like a neural net (treat $c_k$ as a trainable set of weights, but any minimizer will do.).  Let's start with a single asset to try to evaluate:
+I suppose you can do something fancy like a neural net (treat $c_k$ as a trainable set of weights), but any minimizer will do.  Let's start with a single asset to try to evaluate:
 
 ```mathematica
 example = payoff@roll@die1; (*example data:  returns on die 1*) 
@@ -169,7 +167,7 @@ As stated earlier, the optimal bet is around 11% for this system.
 
 ### Pricing multiple assets 
 
-Now let's define a more complicated system--we have all three of the die.  These are uncorrelated, but the distribution of payouts varies.  Although the \[OpenCurlyDoubleQuote]average" payout for each is 1%, the payouts are distributed differently.
+Now let's define a more complicated system--we have all three of the die.  These are uncorrelated, but the distribution of payouts varies.  Although the average payout for each die is 1%, the payouts are distributed differently.
 
 ```mathematica
 payoff /@ {die1, die2, die3}
@@ -180,7 +178,7 @@ Mean /@ %
 (*{0.01, 0.01, 0.01}*)
 ```
 
-Let's generate some sample returns (for each bet), and use this to Minimize.  It's pretty straightforward, taking advantage of the VectorGreaterEqual symbol to constrain these to be positive reals...
+Let's generate some sample returns (for each bet), and use this to `Minimize`.  It's pretty straightforward, taking advantage of the `VectorGreaterEqual` symbol (which looks much nicer when not rendered in markdown) to constrain these to be positive reals...
 
 ```mathematica
 example2 = payoff[roll[#]] & /@ {die1, die2, die3} // Transpose;
@@ -217,7 +215,7 @@ Minimize[
 (*{-0.00132387, {c -> {0.185132, 0.176845, 0.638024}}}*)
 ```
 
-Let's see how well these different strategies perform on a newly generated test set (just to avoid the appearance of overfitting...)
+How well these different strategies perform on a newly generated test set (just to avoid the appearance of overfitting...)?
 
 ```mathematica
 example3 = payoff[roll[#]] & /@ {die1, die2, die3} // Transpose; 
@@ -235,7 +233,7 @@ ListLogPlot[
 
 ![0l4heycz47l07](/blog/images/2022/7/21/0l4heycz47l07.png)
 
-What's amazing here is that the returns are better with the three die then the best you can achieve with a single die. 
+What's amazing here is that the returns are better with the three dice than the best you can achieve with a single die, even though each of them returns 1% on average.
 
 ## Fun with asset allocation
 
