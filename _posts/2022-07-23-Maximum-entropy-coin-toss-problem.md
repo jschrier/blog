@@ -19,7 +19,9 @@ NMaximize[{-p . Log[2, p], (*maximize the entropy = -\sum_i p_i log(p_i) *)
 (*{1.8294, {p -> {0.0131595, 0.00045625, 0.0556762, 0.275116, 0.215116, 0.440475}}}*)
 ```
 
-This warning [is a consequence of the way numerical maximization is performed; it can be addressed by restricting the function to optimize over to real values](https://mathematica.stackexchange.com/questions/59706/maximize-violating-constraints).  Incorporating the idea that we only want the function that we are maximizing to consider real values improves the result.  
+(as usual, looks much cooler when `\[Element]` gets rendered into a nice symbol when pasted into a notebook.)
+
+The warning [is a consequence of the way numerical maximization is performed; it can be addressed by restricting the function to optimize over to real values](https://mathematica.stackexchange.com/questions/59706/maximize-violating-constraints). It is informative in that it is warning us that a better solution might be found.   Incorporating the idea that we only want the function that we are maximizing to consider real values improves the result.  
 
 ```mathematica
 NMaximize[{Re[-p . Log[2, p]],(*maximize the entropy*)
