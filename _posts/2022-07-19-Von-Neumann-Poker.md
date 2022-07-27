@@ -38,7 +38,7 @@ soln = Solve[
 
 ![1pjanzppdu2tq](/blog/images/2022/7/19/1pjanzppdu2tq.png)
 
-(In agreement with known results from [https://faculty.math.illinois.edu/~hildebr/ugresearch/HildebrandCalculusSpring2017-report.pdf] , which is also the source of the figure above)
+(In agreement with known results from (https://faculty.math.illinois.edu/~hildebr/ugresearch/HildebrandCalculusSpring2017-report.pdf) , which is also the source of the figure above)
 
 How do the strategies change as the bet size, B, increases?
 
