@@ -1,5 +1,5 @@
 ---
-Title: "maximum entropy coin toss, revisited"
+Title: "Maximum entropy coin toss, revisited"
 Date: 2022-07-28
 Tags: probability optimization thermodynamics
 ---
@@ -25,15 +25,15 @@ probabilities /. soln // N
 ![0a3kz6rfxhu4m](/blog/images/2022/7/28/0a3kz6rfxhu4m.png)
 
 ```
-(*{{0.0205324, 0.0385354, 0.0723234, 0.135737, 0.254752, 0.47812}}*)
+(*{ {0.0205324, 0.0385354, 0.0723234, 0.135737, 0.254752, 0.47812} }*)
 ```
 
 Which agrees with [our previous brute force optimization]({% post_url 2022-07-23-Maximum-entropy-coin-toss-problem %}).  The advantage is that we are only optimizing over a single variable, rather than 6 dimensions as before.
 
-If you're old-school, you can do this by hand by replacing  *lambda* = Exp[-beta], and express each of the probabilities as lambda^i.  Substitute these probabilities into the expectation value and then solve this polynomial equation for lambda. 
+If you're old-school, you can do this by hand by replacing  *lambda = Exp[-beta]*, and express each of the probabilities as *lambda^i*.  Substitute these probabilities into the expectation value and then solve this polynomial equation for *lambda*. 
 
 **Pro-tip:**  You can get a higher paying job if you say *[softmax](https://en.wikipedia.org/wiki/Softmax_function)* instead of Gibbs Distribution :-) 
 
 ```mathematica
-ResourceFunction["ToJekyll"]["maximum entropy coin toss, revisited", "probability optimization thermodynamics"]
+ResourceFunction["ToJekyll"]["Maximum entropy coin toss, revisited", "probability optimization thermodynamics"]
 ```
