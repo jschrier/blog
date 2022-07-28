@@ -4,7 +4,7 @@ Date: 2022-07-24
 Tags: finance
 ---
 
-[Chris Görög](https://www.linkedin.com/in/chrisgorog/) asks (24.07.2022): *"I knew there was a bug in the options pricing code I downloaded. I can't quite figure out exactly where they f*ed it up but they swapped the spot and strike prices. At infinite time or volatility the call option should be the same as the current stock price NOT the strike price. It just didn't make sense to get an option value greater than the current price since you should just buy the stock in that case. Feel good that I at least understand the limits of options. Also interesting that really options strategies should focus on buying options for stocks that will have an expected increase in volatility and marketing making for stocks that have high volatility. Real volatility tends to be lower than implied volatility to allow for risk to the market maker BUT the point is to identify the outliers on each side and trade as such."*  **All of this makes intuitive sense, but let's crunch the numbers together...**
+[Chris Görög](https://www.linkedin.com/in/chrisgorog/) asks: *"I knew there was a bug in the options pricing code I downloaded. I can't quite figure out exactly where they f*ed it up but they swapped the spot and strike prices. At infinite time or volatility the call option should be the same as the current stock price NOT the strike price. It just didn't make sense to get an option value greater than the current price since you should just buy the stock in that case. Feel good that I at least understand the limits of options. Also interesting that really options strategies should focus on buying options for stocks that will have an expected increase in volatility and marketing making for stocks that have high volatility. Real volatility tends to be lower than implied volatility to allow for risk to the market maker BUT the point is to identify the outliers on each side and trade as such."*  **All of this makes intuitive sense, but let's crunch the numbers together...**
 
 ```mathematica
 value[time_, volatility_, strike_ : 100, spot_ : 100, dividend_ : 0] :=FinancialDerivative[
@@ -12,7 +12,7 @@ value[time_, volatility_, strike_ : 100, spot_ : 100, dividend_ : 0] :=Financial
    {"InterestRate" -> 0.1, "Volatility" -> volatility, "CurrentPrice" -> spot, "Dividend" -> dividend}]
 ```
 
-Indeed, the option value converges to the spot (current) price as time to expiration increases,  in the absence of dividend.:
+Indeed, the option value converges to the spot (current) price as time to expiration increases, in the absence of dividend.:
 
 ```mathematica
 Plot[{value[t, 0.1, 10, 20], value[t, 0.1, 20, 10], value[t, 0.1, 20, 20]}, {t, 0, 50}, 
