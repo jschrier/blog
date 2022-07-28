@@ -4,9 +4,10 @@ Date: 2022-07-21
 Tags: gambling optimization kelly
 ---
 
-I was intrigued by an [article on John Parkhill's blog](https://jparkhill.netlify.app/howtobet/) about the discrete version of the [Kelly Criterion](https://en.wikipedia.org/wiki/Kelly_criterion). The core idea is that one uses a series of samples of returns and then determines a Kelly-optimal strategy for those samples;  the advantage of working with discrete samples (rather than "probabilities" deduced from such data) is that it captures realistic correlations.  The Kelly optimal bet vector, $c_k$, (i.e., the fraction of your wealth to wager on each asset *k* )is found by minimizing the following loss function,
+I was intrigued by an [article on John Parkhill's blog](https://jparkhill.netlify.app/howtobet/) about the discrete version of the [Kelly Criterion](https://en.wikipedia.org/wiki/Kelly_criterion). The core idea is that one uses a series of samples of returns and then determines a Kelly-optimal strategy for those samples;  the advantage of working with discrete samples (rather than "probabilities" deduced from such data) is that it captures realistic correlations.  The Kelly optimal bet vector, $c_k$, (i.e., the fraction of your wealth to wager on each asset *k*) is found by minimizing the following loss function,
 ![1g90ageo2f9qw](/blog/images/2022/7/21/1g90ageo2f9qw.png)
-where *S* is the total number of samples, and *i*  is an index over samples, and $r_{\text{ik}}$ is the observed return of asset *k* at time *i*.  [John's blog](https://jparkhill.netlify.app/howtobet/) does some implementations in PyTorch and then introduces a partially-baked nontransitive die example (but only demonstrates things with a single roll).  My goal here was to think through this a bit (especially as I enjoyed reading [William Poundstone's book *Fortune's Formula](https://amzn.to/3OxwFJK)* on [Kelly](https://en.wikipedia.org/wiki/John_Larry_Kelly_Jr.), [Shannon](https://en.wikipedia.org/wiki/Claude_Shannon), and [friends](https://en.wikipedia.org/wiki/Edward_O._Thorp)), and make a very simple implementation, and build out application to the non-transitive dice example.
+
+where *S* is the total number of samples, and *i*  is an index over samples, and $r_{\text{ik}}$ is the observed return of asset *k* at time *i*.  [John's blog](https://jparkhill.netlify.app/howtobet/) does some implementations in PyTorch and then introduces a partially-baked nontransitive die example (but only demonstrates things with a single roll).  My goal here was to think through this a bit (especially as I enjoyed reading [William Poundstone's book *Fortune's Formula*](https://amzn.to/3OxwFJK) on [Kelly](https://en.wikipedia.org/wiki/John_Larry_Kelly_Jr.), [Shannon](https://en.wikipedia.org/wiki/Claude_Shannon), and [friends](https://en.wikipedia.org/wiki/Edward_O._Thorp)), and make a very simple implementation, and build out application to the non-transitive dice example.
 
 ## A simple example:  Rolling Simple Dice and Nontransitive Dice
 
@@ -21,7 +22,7 @@ dice = {die1, die2, die3};
 roll[die_List, number_Integer : 10^5] := RandomChoice[die, number]
 ```
 
-Next, define a function to test  how often one die wins compared to another, given a list of samples:
+Next, define a function to test how often one die wins compared to another, given a list of samples:
 
 ```mathematica
 percentWins[rolls1_List, rolls2_List] := N@Mean@Boole@MapThread[Greater, {rolls1, rolls2}] 
