@@ -41,7 +41,7 @@ It is tempting to use this recursive result directly; however the number of term
 ```mathematica
 ({#, First@Timing@KnuthM[#, 0.5]}) & /@ Range[2, 14]
 
-(*{{2, 0.000041}, {3, 0.000024}, {4, 0.000061}, {5, 0.000178}, {6, 0.000563}, {7, 0.001849}, {8, 0.006331}, {9, 0.021513}, {10, 0.070539}, {11, 0.247147}, {12, 0.875677}, {13, 3.12324}, {14, 11.4004}}*)
+(*{ {2, 0.000041}, {3, 0.000024}, {4, 0.000061}, {5, 0.000178}, {6, 0.000563}, {7, 0.001849}, {8, 0.006331}, {9, 0.021513}, {10, 0.070539}, {11, 0.247147}, {12, 0.875677}, {13, 3.12324}, {14, 11.4004}}*)
 ```
 
 ```mathematica
@@ -69,7 +69,7 @@ KnuthM[n_, p_] := KnuthM[n, n, p]
 ```mathematica
 ({#, First@Timing@KnuthM[#, 0.5]}) & /@ Range[2, 14]
 
-(*{{2, 0.000048}, {3, 0.000025}, {4, 0.000035}, {5, 0.00006}, {6, 0.00004}, {7, 0.000046}, {8, 0.00005}, {9, 0.000055}, {10, 0.000062}, {11, 0.00007}, {12, 0.000094}, {13, 0.000086}, {14, 0.00009}}*)
+(*{ {2, 0.000048}, {3, 0.000025}, {4, 0.000035}, {5, 0.00006}, {6, 0.00004}, {7, 0.000046}, {8, 0.00005}, {9, 0.000055}, {10, 0.000062}, {11, 0.00007}, {12, 0.000094}, {13, 0.000086}, {14, 0.00009}}*)
 ```
 
 **Comment:** Observe the dramatic reduction of  time, especially for the largest cases.  A similar approach can be used for accelerating a symbolic expression, but this becomes unwieldy and slow for the very high order polynomial that gets produced.  So instead, we'll just utilize a numerical solution
