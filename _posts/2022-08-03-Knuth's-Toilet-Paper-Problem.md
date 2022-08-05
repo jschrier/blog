@@ -1,14 +1,14 @@
 ---
 Title: "Knuth's Toilet Paper Problem"
 Date: 2022-08-03
-Tags: recurrence probability
+Tags: recurrence probability nahin
 ---
 
-One of my innocent pleasures is reading probability puzzle books, a habit I started with [Paul Nahin's](https://en.wikipedia.org/wiki/Paul_J._Nahin) [Digital Dice](https://amzn.to/3OWmVbS).   Chapter 8 in [Nahin's book](https://amzn.to/3OWmVbS) presents [Donald Knuth's toilet paper problem (](https://doi.org/10.2307/2322567)[American Mathematical Monthly](https://doi.org/10.2307/2322567)[1984](https://doi.org/10.2307/2322567)).  [Knuth's paper](https://doi.org/10.2307/2322567) begins as follows: *"The toilet paper dispensers in a certain building are designed to hold two rolls of tissues, and a person can use either roll.  There are two kinds of people who use the rest rooms in the building: big-choosers and little-choosers.  A big-chooser always takes a piece of toilet paper from the roll that is currently larger, and a little-chooser always does the opposite.  However, when the two rolls are the same size, or only one roll is nonempty, everybody chooses the nearest nonempty roll.  When both rolls are empty, everybody has a problem.  Let us assume that people enter the toilet stalls independently at random, with probability p that they are big choosers ... If the janitor supplies a particular stall with two fresh rolls of toilet paper, both of length n, let Mn(p) be the number of portions left on one roll when the other roll first empties."*  **This problem can be solved by introducing a recurrence relationship, with some fun use of memoization for efficiency.**
+One of my innocent pleasures is reading probability puzzle books, a habit I started with [Paul Nahin's](https://en.wikipedia.org/wiki/Paul_J._Nahin) [*Digital Dice*](https://amzn.to/3OWmVbS).   Chapter 8 in [Nahin's book](https://amzn.to/3OWmVbS) presents [Donald Knuth's toilet paper problem (](https://doi.org/10.2307/2322567)[American Mathematical Monthly](https://doi.org/10.2307/2322567)[1984](https://doi.org/10.2307/2322567)).  [Knuth's paper](https://doi.org/10.2307/2322567) begins as follows: *"The toilet paper dispensers in a certain building are designed to hold two rolls of tissues, and a person can use either roll.  There are two kinds of people who use the rest rooms in the building: big-choosers and little-choosers.  A big-chooser always takes a piece of toilet paper from the roll that is currently larger, and a little-chooser always does the opposite.  However, when the two rolls are the same size, or only one roll is nonempty, everybody chooses the nearest nonempty roll.  When both rolls are empty, everybody has a problem.  Let us assume that people enter the toilet stalls independently at random, with probability p that they are big choosers ... If the janitor supplies a particular stall with two fresh rolls of toilet paper, both of length n, let Mn(p) be the number of portions left on one roll when the other roll first empties."*  **This problem can be solved by introducing a recurrence relationship, with some fun use of memoization for efficiency.**
 
 ## Initial Implementation
 
-Some consideration of the problem leads us to write the following recurrence relationships.
+Some consideration of the problem leads us to write the following recurrence relationships:
 
 ```mathematica
 Clear[KnuthM] 
