@@ -51,7 +51,7 @@ While the mean (expected value) is positive (predicting that we should have $6.2
 
 ## Defining an Equivalent Binomial Model
 
-To simplify the discussion, Stutzer introduces an equivalent binomial walk model, wherein at each discrete time we flip a fair coin: if heads we multiply our current wealth by (*1+u*) and if tails we multiply it by (*1-d*).  We can find the appropriate values of *u* and *d* by fitting to the expected return (1+drift) and volatility in our example): 
+To simplify the discussion, Stutzer introduces an equivalent [binomial lattice model](https://en.wikipedia.org/wiki/Lattice_model_(finance)), wherein at each discrete time we flip a fair coin: if heads we multiply our current wealth by (*1+u*) and if tails we multiply it by (*1-d*).  We can find the appropriate values of *u* and *d* by fitting to the expected return (1+drift) and volatility in our example): 
 
 ```mathematica
 Solve[
@@ -59,11 +59,8 @@ Solve[
    Sqrt[((1 + u)^2 + (1 - d)^2)/2 - (1 + drift)^2] == volatility, (*volatility*)
   {u, d}, PositiveReals]
 ```
-
-![124goscyd6txt](/blog/images/2022/8/6/124goscyd6txt.png)
-
 ```
-(*{{u -> 0.46, d -> 0.34}}*)
+(*{ {u -> 0.46, d -> 0.34}}*)
 ```
 
 Using these fitted parameters, we can simulate the outcome.  I'll just hand write a function for this:  
@@ -82,7 +79,7 @@ Histogram[binomialResult, {0.1}]
 (*{5.52688, 0.573392, 0.57237}*)
 ```
 
-The results are qualitatively the same as for the geometric Brownian motion case:  Positive expected value (dominated by rare "big win" scenarios), median loss, and most players lose.
+The results are qualitatively the same as for the geometric Brownian motion case:  Positive expected value (dominated by rare "big win" scenarios), median loss, and most players lose.  However, because of the discrete changes, we only get clumps of results, rather than the continuum of outcomes in GBM.
 
 ## The Value of Diversification 
 
