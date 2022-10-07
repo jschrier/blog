@@ -74,7 +74,7 @@ Once fit has been obtained and stored in scaler, it can be applied to any other 
 ```mathematica
 Histogram[
   scaler@transform[test], 
-  PlotRange -> {{0, 1}, Automatic}]
+  PlotRange -> { {0, 1}, Automatic}]
 ```
 
 ![1m2wbqw7pmkxf](/blog/images/2022/10/7/1m2wbqw7pmkxf.png)
