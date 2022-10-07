@@ -119,7 +119,7 @@ fit@scaler[train]
  
 Histogram[
   transform@scaler[test], 
-  PlotRange -> {{0, 1}, Automatic}]
+  PlotRange -> { {0, 1}, Automatic}]
 
 (*{-2.73525, 3.33049}*)
 ```
