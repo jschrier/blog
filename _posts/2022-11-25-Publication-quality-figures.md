@@ -4,7 +4,7 @@ Date: 2022-11-25
 Tags: mathematica, figures
 ---
 
-Some things that I have found useful in generating figures for scientific publications.
+Some things that I have found useful in generating figures for scientific publications (single column width, inset labelling, etc.)
 
 ```mathematica
 (* initialization *)
@@ -21,7 +21,7 @@ Plot[
 
 (* automating label placement *)
 ResourceFunction["PlotGrid"][
- {{ (* figure 1 *)},
+ { { (* figure 1 *)},
   { (* figure 2 *)}},
  Spacings -> 70,
  PlotLabels -> Automatic -> "a)",
