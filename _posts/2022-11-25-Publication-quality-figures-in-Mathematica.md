@@ -1,5 +1,5 @@
 ---
-Title: "Publication quality figures"
+Title: "Publication quality figures in Mathematica"
 Date: 2022-11-25
 Tags: mathematica, figures
 ---

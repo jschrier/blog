@@ -1,15 +1,15 @@
 ---
-Title: "Reading ThermoFischer XCalibur GCMS Files"
+Title: "Reading ThermoFischer XCalibur RAW Files"
 Date: 2023-01-04
 Tags: science, python
 ---
 
-_[Sarah Maurer](https://directory.ccsu.edu/person/sarah-maurer) asks:  I'm using a [GC/MS](https://en.wikipedia.org/wiki/Gas_chromatography–mass_spectrometry) to analyze some samples, but the ThermoFischer XCalibur software on the instrument only allows us to export the data one CSV at a time, which is an error prone process.  Is there any way to automate this?_  **I didn't solve the problem, but here are some notes on how we might do this with Python...**
+_[Sarah Maurer](https://directory.ccsu.edu/person/sarah-maurer) asks:  I'm using a [GC/MS](https://en.wikipedia.org/wiki/Gas_chromatography–mass_spectrometry) to analyze some samples, but the ThermoFischer XCalibur software on the instrument only allows us to export the data one CSV at a time, which is an error prone process.  Is there any way to automate this?_  **Here are some notes on how to do this in 2023...**
 
 
-# Using MSFileReader and the PyPiWin32
+# Using MSFileReader and the PyPiWin32 (not recommended)
 
-**tl;dr---this can do the trick and explains many things, but is deprecated** 
+**tl;dr---this can do the trick and explains many things, but relies on deprecated software and is a bit fiddly.  [This is not the way](https://tenor.com/bul54.gif)** 
 
 I found a [thorough (70 minute) YouTube video describining how to do this](https://www.youtube.com/watch?v=Aj5rd6p1Q1s)
 
@@ -24,9 +24,9 @@ Sample code begins at 13:32...and then switches to Python2.7---not sure if this 
 But then he walks through getting the spectra in a RAW file and illustrates many processes.
 
 
-# RawFileReader + RawQuant/RawTools
+# RawFileReader + RawQuant/RawTools (recommended)
 
-**tl;dr---This is an intermediate approach**
+**tl;dr---This appears to be some convenience wrappers around RawTools that should do what we want without programming [This is the way!](https://tenor.com/bpEmY.gif) alas...with C#...but there appears to be some command line programs and GUIs that do most of what we want to accomplish**
 
 [According to the internets](https://github.com/frallain/pymsfilereader), MSFileReader, the underlying library used by these bindings, is outdated and buggy. Thermo now recommends to use [RawFileReader](https://planetorbitrap.com/rawfilereader) to read Thermo RAW files. 
 
@@ -34,17 +34,16 @@ There is a python binding [RawQuant](https://github.com/kevinkovalchik/RawQuant)
 
 The authors have instead put their effort into [RawTools](https://github.com/kevinkovalchik/RawTools) a C# library which they claim is faster.  They also have a paper about it in [J. Proteom Res 2019](https://pubs.acs.org/doi/10.1021/acs.jproteome.8b00721) and it should work on any operating system.  It appears to be actively developed through May 2022. 
 
-Note that RawTools appears to be a standalone tool with a GUI, so it can probably be used _as is_ withought having to do any programming for what we want.
+Note that RawTools appears to be a standalone tool with a GUI, so it can probably be used _as is_ withought having to do any programming for what we want. **This is probably the best approach.**
 
-# RawFileReader
+# RawFileReader (?)
 
-**tl;dr--This is ThermoFischer's officially released C#-based parser for RAW files, which is intended to replace MSFileReader.  It appears to be active (updated yesterday!)**
+**tl;dr--This is ThermoFischer's officially released C#-based parser for RAW files, which is intended to replace MSFileReader.  It appears to be active (updated yesterday!) This is a lower level than RawTools above?** 
 
 [RawFileReader](https://github.com/thermofisherlsms/RawFileReader) is a group of .Net Assemblies written in C# used to read Thermo Scientific RAW files. The assemblies can be used to read RAW files on Windows, Linux, and MacOS using C# or other languages that can acces a .Net assembly.
 
 
-
-# Other resources
+# Other resources found in my readings
 
 * [pyMSFileReader](https://github.com/frallain/pymsfilereader) Python bindings for MSFileReader (tested on versions 3.0SP2 (August 2014) and 3.0SP3.)  However the author notes that these are deprecated, as discussed int he previous section
 * [mzXML](http://tools.proteomecenter.org/wiki/index.php?title=Formats%3AmzXML#Thermo.2FXCalibur) n open data format for storage and exchange of mass spectroscopy data, developed at the SPC/Institute for Systems Biology. mzXML provides a standard container for ms and ms/ms proteomics data and is the foundation of our proteomic pipelines. Raw, proprietary file formats from most vendors can be converted to the open mzXML format.

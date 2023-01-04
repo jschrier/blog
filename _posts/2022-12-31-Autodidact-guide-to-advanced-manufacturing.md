@@ -1,5 +1,5 @@
 ---
-Title: "An autodidact's guide to advanced manufacturing"
+Title: "Autodidact guide to advanced manufacturing"
 Date: 2022-12-31
 Tags: 3dprinting, fusion360, cnc, autodidact
 ---
@@ -10,8 +10,10 @@ Interested in teaching yourself about [advanced manufacturing](https://en.wikipe
 
 Build a 3d-printer from parts to understand the mechanics of what is going on.  
 [FDM](https://en.wikipedia.org/wiki/Fused_filament_fabrication) is the way to go when starting out...easier to work with, and can do many of the things you want.
+
 I had a good experience building the [Prusa MK3+](https://www.prusa3d.com) from a kit.
-It comes with a comprehensive build manual (which doubles as a "fix it" manual), and it has operated reliably for me. 
+It comes with a comprehensive build manual (which doubles as a "fix it" manual), and it has operated reliably for me. Additionally, as many of the parts are themselves 3D-printed, you'll learn some of the patterns of 3d-design (like embedded hex nuts, etc.)
+
 Having a printer to play with is very useful for getting the _Fingerspitzengefuhl_ of tolerances, ways of avoiding support structures (or using it as necessary), perimeter/infill design, and the properties of different materials. 
 Make lots of prints, and think about these issues.
 
@@ -20,17 +22,18 @@ Make lots of prints, and think about these issues.
 There are two general approaches to designing objects: Algorithmic (programming-like) computational geometry and CAD-based approaches.  
 In my opinion, you will want to try both.
 
-* Algorithmic* For algorithmic approaches, [OpenSCAD](https://openscad.org) is the most popular.  
+**Algorithmic** For algorithmic approaches, [OpenSCAD](https://openscad.org) is the most popular.  
 [Mathematica also supports 3D printing](https://reference.wolfram.com/language/guide/3DPrinting.html), although using the default computational geometry objects can get very slow for very complicated objects and you'll want to use the built-in [OpenCASCADE Link](https://reference.wolfram.com/language/OpenCascadeLink/tutorial/UsingOpenCascadeLink.html) for more complicated jobs.  
 As an example, my first self-made design was a Bauhaus chess set, comprised of very simple objects.  
-Later, I used OpenCASCADE to develop an [algorithmically-designed mail caddy] ({{ site.baseurl }}{% post_url 2022-07-22-Generating-3d-designs-with-OpenCASCADE-Link %}).
+Later, I used OpenCASCADE to develop an [algorithmically-designed mail caddy]({{ site.baseurl }}{% post_url 2022-07-22-Generating-3d-designs-with-OpenCASCADE-Link %}).
 The power of this approach is that you generate the solids programmatically, with all of the joy and pain that can bring.
 
 
-*CAD* You can play around with open-source packages if you like, but  [Autodesk Fusion360](https://www.autodesk.com/products/fusion-360/overview) is the king (it's free for academics, and free with some big limitations for others).  
+**CAD** You can play around with open-source packages if you like, but  [Autodesk Fusion360](https://www.autodesk.com/products/fusion-360/overview) is the king (it's free for academics, and free with some big limitations for others).  
 I recommend [Kevin Kennedy's Learn Fusion 360 in 30 days](https://www.youtube.com/watch?v=WKb3mRkgTwg&list=PLrZ2zKOtC_-DR2ZkMaK3YthYLErPxCnT-) series as a guide.  
+
 You could build a space shuttle in F360 (and sometimes it feels like it...).  
-Some day I'll post a few of the objects I've developed.
+Eventually I'll post a few of the objects I've developed.
 The power of this approach is that you generate the solids using a graphical user interface, and (if you use F360) can tap into a wide array of materials analysis methods, collision checking, generative design, etc.  
 
 
@@ -47,7 +50,7 @@ I got my start using the [SendCutSend](https://sendcutsend.com) service---very s
 Again, I recommend [Kevin Kennedy's tutorial](https://www.youtube.com/watch?v=PN4bd4rr4z8&list=PLrZ2zKOtC_-B_HAKUEXhaHyK-2ksfFx2K) on the topic.
 All of these skills are transferable to other laser cutters as well.
 
-(They'll also do folded sheet metal parts...and yes, [Kevin has a tutorial on how to design folded sheet metal parts in F360](https://www.youtube.com/watch?v=NXu8vVYvjrg)
+(They'll also do folded sheet metal parts...and yes, [Kevin has a tutorial on how to design folded sheet metal parts in F360](https://www.youtube.com/watch?v=NXu8vVYvjrg) )
 
 Now, strictly speaking, you don't need to learn any modeling to do interesting things with a laser cutter---you can use your favorite vector graphics softwares to design cuts and etchings.  
 But, it can be very powerful to combine laser cut parts with printed parts, and CAD software will let you do that in a straightforward way. 
