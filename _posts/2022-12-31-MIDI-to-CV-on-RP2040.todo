@@ -1,0 +1,11 @@
+---
+Title: "Building a MIDI to CV converter with the RP2040"
+Date: 2022-12-31
+Tags: music, electronics, 
+---
+
+I have a few MIDI keyboards mouldering in the house, and a newly built (by me) Erica/MKI modular synthesizer, but no way to get them to talk to one another.  
+
+Example: [https://axwax.eu/electronics/raspberry-pi-pico-as-midi-to-cv-converter/]
+
+My build:
