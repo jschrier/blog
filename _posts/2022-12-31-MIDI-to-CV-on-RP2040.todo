@@ -4,8 +4,28 @@ Date: 2022-12-31
 Tags: music, electronics, 
 ---
 
-I have a few MIDI keyboards mouldering in the house, and a newly built (by me) Erica/MKI modular synthesizer, but no way to get them to talk to one another.  
+**Goal:** I have a few MIDI keyboards mouldering in the house and a newly built (by me) [Erica/MKI modular synthesizer](https://www.hackster.io/fhdm-dev/use-arduino-libraries-with-the-rasperry-pi-pico-c-c-sdk-eff55c?f=1), but no way to get them to talk to one another.  So let's build a device which will generate output control voltages.  The premise is to read in MIDI signals, use a RP2040 microcontroller to interpret the commands, and then use a D2A converter to output the relevant control voltages.
 
-Example: [https://axwax.eu/electronics/raspberry-pi-pico-as-midi-to-cv-converter/]
+**Status**: Collecting parts and information 
 
-My build:
+# Precedent/previous work
+
+[AxWax has a two-part series](https://axwax.eu/series/raspberry-pi-pico-as-midi-to-cv-converter/) describing a build like this.   In his first episode he generates a control voltage (CV) (and uses the direct output from a RP2040 GPIO pin as the trigger).  In the second episode he expands this to generate two CV outputs and reads from some sensors.  This is a good starting point for our project 
+
+Like me, he uses an RP2040 and has a [python-based code posted online](https://gist.github.com/axwax/84dc05a1966a788cd8e69e324a0757d2). It uses the [SimpleMIDIDecoder.py](https://github.com/diyelectromusic/sdemp/blob/main/src/SDEMP/Micropython/SimpleMIDIDecoder.py) library.
+    
+Areas where I want to do things differently: (i) use a pre-build MIDI interface (with the optocoupler already incorporated); (ii) use a Quad D2A rather than use a dual...because...why not!   But otherwise, this is a solid starting point
+
+Some areas to pursue for the future
+* Software-defined LFO (just shape the control voltage)
+* Interesting software-defined sequencers
+* Get power from a Eurorack?  For now just run it off the USB serial power.
+
+# Bill of materials
+* [Adafruit MIDI featherwing](https://www.adafruit.com/product/4740) includes optoisolator and jacks. $6.95
+*  [Adafruit MCP4728 Quad DAC](https://www.adafruit.com/product/4470) $7.50
+* [Breadboard-friend 3.5mm audio jacks](https://www.adafruit.com/product/1699)  $0.95/easier
+* Raspberry Pi Pico  
+* Breadboard
+
+
