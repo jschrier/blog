@@ -5,7 +5,6 @@ Tags: ros, pico, electronics, automation
 ---
 
 **Goal:** Attach small actuators and sensors to a Rasberry Pi Pico (RP2040) and have it attach to present to a ROS2 network running on some other device.  Build this into a larger project
-
 **Status:** Some collected notes on resources.
 
 # Setup ROS2 on a Raspberry Pi
@@ -20,14 +19,9 @@ Working approach:  Install ROS2 development environment, on Ubuntu 20 on a Rapsb
 
 # Configure the Raspberry Pi PICO for MicroROS Development
 
-## Approach 0:  The Official Github for MicroROS on RP2040
+**Approach 0:  The Official Github for MicroROS on RP2040** [github page](https://github.com/micro-ROS/micro_ros_raspberrypi_pico_sdk) pretty plug and chug, runs micro-ros-agent in a docker container
 
-[github page](https://github.com/micro-ROS/micro_ros_raspberrypi_pico_sdk)
-
-pretty plug and chug, runs micro-ros-agent in a docker container
-
-## Approach 1: Use an Ubuntu snap to run the micro-ros-agent
-
+**Approach 1: Use an Ubuntu snap to run the micro-ros-agent**
 
 * Install some dependencies, etc. assuming you are running an Ubuntu machine [ubuntu blog](https://ubuntu.com/blog/getting-started-with-micro-ros-on-raspberry-pi-pico)
 then 
