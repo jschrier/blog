@@ -67,4 +67,17 @@ If you've learned F360 already, then at least the program design is relatively s
 Starting with your model, it is almost self-explanatory how to do simple 2D operations....but useful to have a guide. 
 Two videos that I found helpful were: a [12 minute video](https://www.youtube.com/watch?v=iqnvzxuXFTQ) and a [90 minute video](https://www.youtube.com/watch?v=TfqBKqzxl44&t=3s) My [first projects turned out OK](https://twitter.com/JoshuaSchrier/status/1608120496821870592).
 
+# Advanced resources
 
+(gleaned from a [12 Jan 2023 hackernews thread](https://news.ycombinator.com/item?id=34342251)...haven't fully explored these yet)
+
+* [Guerilla guide to CNC and resin casting (2013-2015)](https://lcamtuf.coredump.cx/gcnc/) 
+* [Resources for learning machining (2022)](https://www.r-c-y.net/posts/machining/)
+* [Dan Gelbart video series on prototyping](https://www.youtube.com/playlist?list=PLSGA1wWSdWaTXNhz_YkoPADUUmF1L5x2F)
+* [Textbook recommendations for learning Mechanical Engineering](https://news.ycombinator.com/item?id=34344285) (of course, if you're an autodidact the exact version doesn't matter, a used copy of any version would suffice)
+    * [Engineering Mechanics Statics](https://amzn.to/3Zyua0p) by Meriam and Kraige
+    * [Shigley's Mechanical engineering Design](https://amzn.to/3QKb0k7)
+
+
+
+*updated 16 Jan 2022*
