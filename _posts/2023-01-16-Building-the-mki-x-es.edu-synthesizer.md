@@ -72,7 +72,8 @@ Several modules require calibration or tuning by adjusting a trimpot or two. An 
 
   mse[{v0_, v1_, v2_}] := {v0, ((v1/v0 - 2)^2 + (v2/v0 - 4)^2)} 
    
-   obs = {{7.9, 16.9, 37.6}, (*clockwise most*)
+   obs = { 
+      {7.9, 16.9, 37.6}, (*clockwise most*)
       {12.9, 26.5, 55.2}, (*somewhere in the middle*)
       {16.4, 32.7, 66.08}, (*fine tune int he middle, and tune to middle C at zero CV*)
       {59.8, 101, 170}, (*still room to go more to the right*)
@@ -92,7 +93,7 @@ Several modules require calibration or tuning by adjusting a trimpot or two. An 
    mse /@ obs 
    ListLinePlot@Sort[%]
 
-(*{{7.9, 0.596219}, {12.9, 0.0808245}, {16.4, 0.000893813}, {59.8, 1.43583}, {71.2, 1.70816}, {65.4, 1.62996}, {55.7, 1.23827}, {19.8, 0.0286705}, {20.6, 0.0449618}, {20.3, 0.0404038}, {20., 0.03725}, {18.7, 0.0161572}, {17.7, 0.00338345}, {17.1, 0.00253069}, {16.7, 0.000179282}}*)
+(*{ {7.9, 0.596219}, {12.9, 0.0808245}, {16.4, 0.000893813}, {59.8, 1.43583}, {71.2, 1.70816}, {65.4, 1.62996}, {55.7, 1.23827}, {19.8, 0.0286705}, {20.6, 0.0449618}, {20.3, 0.0404038}, {20., 0.03725}, {18.7, 0.0161572}, {17.7, 0.00338345}, {17.1, 0.00253069}, {16.7, 0.000179282}}*)
 ```
 ![03j9gzandtmxx](/blog/images/2023/1/1/03j9gzandtmxx.png)
 
