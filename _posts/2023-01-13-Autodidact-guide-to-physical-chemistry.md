@@ -4,9 +4,9 @@ Date: 2023-01-06
 Tags: science, autodidact
 ---
 
-*[Ruslan Khafizov](https://www.linkedin.com/in/ruslankhafizov/) asks:  I've across [your book](
+*[Ruslan Khafizov](https://www.linkedin.com/in/ruslankhafizov/) asks:  I've come across [your book](
 https://uscibooks.aip.org/books/introduction-to-computational-physical-chemistry/)
-and I'm thinking of attempting to self-study physical chemistry "as if computers exist". What would you recommend for a first study of physical chemistry?*  **Here is my recommendation...tl;dr McQuarries and Simon's *Physical Chemistry: A Molecular Approach* is a solid choice **
+and I'm thinking of attempting to self-study physical chemistry "as if computers exist". What would you recommend for a first study of physical chemistry?*  **Here is my recommendation...tl;dr McQuarrie and Simon's Physical Chemistry: A Molecular Approach is a solid choice...**
 
 Actually Ruslan's question was a bit longer:  *I wanted to clarify what would be the recommended "main" textbook.
 [The book's website states](https://uscibooks.aip.org/books/introduction-to-computational-physical-chemistry/) "This book is mainly intended to be used in conjunction with an existing physical chemistry text, such as McQuarrie & Simon’s Physical Chemistry: A Molecular Approach"
