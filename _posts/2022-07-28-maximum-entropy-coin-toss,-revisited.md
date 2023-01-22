@@ -4,7 +4,7 @@ Date: 2022-07-28
 Tags: probability optimization thermodynamics
 ---
 
-Suppose that you roll a die many times and learn that the average value is 5--what is the most likely (maximum entropy) distribution of the probabilities?  [Last week we solved this by brute force]({{ site.baseurl }}{% post_url 2022-07-23-Maximum-entropy-coin-toss-problem %})...today we'll solve it by considering the [Gibbs Distribution](https://twitter.com/johncarlosbaez/status/1551949111032569857) (aka Boltzmann's Law):
+Suppose that you roll a die many times and learn that the average value is 5--what is the most likely (maximum entropy) distribution of the probabilities?  [Last week we solved this by brute force]({{ site.baseurl }}{% post_url 2022-07-23-Maximum-entropy-coin-toss-problem %})...today we'll solve it by considering the [Gibbs Distribution](https://twitter.com/johncarlosbaez/status/1551949111032569857) (aka Boltzmann's Law)...
 ![twitter](https://pbs.twimg.com/media/FYmfYAjVsAAlnU_?format=jpg&name=medium)
 
 ```mathematica

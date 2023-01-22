@@ -73,7 +73,7 @@ Two videos that I found helpful were: a [12 minute video](https://www.youtube.co
 
 * [Guerilla guide to CNC and resin casting (2013-2015)](https://lcamtuf.coredump.cx/gcnc/) 
 * [Resources for learning machining (2022)](https://www.r-c-y.net/posts/machining/)
-* [Dan Gelbart video series on prototyping](https://www.youtube.com/playlist?list=PLSGA1wWSdWaTXNhz_YkoPADUUmF1L5x2F) - the man loves his waterjet! But lots of interesting practical advice on design that is applicable to other modes
+* [Dan Gelbart video series on prototyping](https://www.youtube.com/playlist?list=PLSGA1wWSdWaTXNhz_YkoPADUUmF1L5x2F) - the man loves his waterjet! But also lots of interesting practical advice on design that is applicable to other modes
 * [Textbook recommendations for learning Mechanical Engineering](https://news.ycombinator.com/item?id=34344285) (of course, if you're an autodidact the exact version doesn't matter, a used copy of any version would suffice)
     * [Engineering Mechanics Statics](https://amzn.to/3Zyua0p) by Meriam and Kraige
     * [Shigley's Mechanical engineering Design](https://amzn.to/3QKb0k7)

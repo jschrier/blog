@@ -8,9 +8,9 @@ Seeing a [Suzanne Ciani](https://www.youtube.com/watch?v=M8mxnaXz0Ew) performanc
 
 # What I especially liked about the system
 
-**It was not my first kit in this process.**  I started by buying Ray Wilson's [Make:Analog Synthesizers](https://amzn.to/3Xgai0i) book,  acquiring a [PCB and parts kit from Tindie](https://www.tindie.com/products/ws786873/mfos-noise-toaster-lo-fi-noise-box-kit/), and [3d-printing an enclosure](https://www.thingiverse.com/thing:2418993).    **I do not recommend this route.** I never got the kit to work (the part tolerances were out of spec, but maybe I also did a bad soldering job?).  The circuit is not laid out in a way that is easy to debug, and one ends up making a rats nest to   There isn't really a comprehensive theory section in the book (although in retrospect I could fill that in).  
+**It was not my first kit in this process.**  I started by buying Ray Wilson's [Make:Analog Synthesizers](https://amzn.to/3Xgai0i) book,  acquiring a [PCB and parts kit from Tindie](https://www.tindie.com/products/ws786873/mfos-noise-toaster-lo-fi-noise-box-kit/), and [3d-printing an enclosure](https://www.thingiverse.com/thing:2418993).    **I do not recommend this route.** I never got the kit to work (the part tolerances were out of spec, but maybe I also did a bad soldering job?).  The circuit is not laid out in a way that is easy to debug, and one ends up making a rats nest to the surface controls.  There isn't really a comprehensive theory section in the book (although in retrospect I could fill that in now, but not when I was just starting.).  
 
-What I really wanted was to learn the theory (at least qualitatively) of analog design and to build small, easily testable submodules.  **The mki x es.EDU kit met this well.**   The manuals are available online and convinced me that this would be an educational project, rather than merely an exercise in soldering and knob twisting. There are also youtube videos that describe the theory (essentially just repeating what is in the PDF manuals) if you are into that type of thing.  I would sometimes watch the videos while drinking a martini, but generally preferred reading.  Some third parties have also made build-along videos, which are linked from the Ericasynth.lv website. 
+What I really wanted was to learn the theory (at least qualitatively) of analog design and to build small, easily testable submodules.  **The mki x es.EDU kit does this well.**   The manuals are available online and convinced me that this would be an educational project, rather than merely an exercise in soldering and knob twisting. There are also youtube videos that describe the theory (essentially just repeating what is in the PDF manuals) if you are into that type of thing.  I would sometimes watch the videos while drinking a martini, but generally preferred reading.  Some third parties have also made build-along videos, which are linked from the Ericasynth.lv website. 
 
  FWIW, I ordered mine from [Thonk.uk](https://www.thonk.co.uk/shop/erica-full-set/), taking advantage of the favorable exchange rate and free shipping and it arrived promptly in the US; it was a few bucks cheaper than ordering direct from Ericasynth.lv.
 
@@ -26,7 +26,7 @@ It is also useful to buy some convenience adapters for attaching multimeters and
 
 # Where to get spare parts
 
-While  breadboarding the envelope generator I short-circuited a potentiometer resulting in acrid smoke and a broken potentiometer. 
+While  breadboarding the envelope generator I short-circuited a potentiometer resulting in acrid blue smoke and a broken potentiometer. 
 (I also suspected that I had damaged an op-amp by shorting it, but then did some breadboard tests to convince myself it was OK). 
 
 The kit uses tall Song Huei potentiometers, available  (in the USA) from [Antique Electronic Supply](https://www.tubesandmore.com/products/potentiometer-song-huei-linear-9mm-tall)
