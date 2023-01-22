@@ -4,7 +4,7 @@ Date: 2023-01-22
 Tags: teaching, optimization, imaginary-syllabi
 ---
 
-A course for non-math majors on optimization and its role in hot- and cold-wars.  Students will learn  elementary aspects of mathematical optimization, with a special focus on linear programming, as viewed through the historical developments of WWII and the Cold War,  and do some relevant calculations in Mathematica. 
+A course for non-math majors on optimization and its role in hot- and cold-wars.  Students will learn  elementary aspects of mathematical optimization, with a special focus on linear programming, as viewed through the historical developments of WWII and the Cold War,  and do some relevant calculations in Mathematica. **Reading lists to include...**
 
 # Required Reading:
 

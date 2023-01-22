@@ -4,7 +4,7 @@ Date: 2022-11-25
 Tags: mathematica, figures
 ---
 
-Some things that I have found useful in generating figures for scientific publications (single column width, inset labelling, etc.)
+Some things that I have found useful in generating figures for scientific publications (single column width, inset labelling, etc.)...
 
 ```mathematica
 (* initialization *)

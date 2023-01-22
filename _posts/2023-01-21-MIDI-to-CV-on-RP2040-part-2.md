@@ -4,7 +4,7 @@ Date: 2023-01-21
 Tags: music, electronics, pico, analog, synth, i2c
 ---
 
-In a [previous post](({{ site.baseurl }}{% post_url 2022-12-31-MIDI-to-CV-on-RP2040 %})), we defined some of the ideas and resources for the system.  *In this post, we'll actually build the MIDI to CV gadget...* Along the way, we'll learn a bit about I2C programming on the Pico and MCP4728 DAC. 
+In a [previous post](({{ site.baseurl }}{% post_url 2022-12-31-MIDI-to-CV-on-RP2040 %})), we defined some of the ideas and resources for the system.  Along the way, we'll learn a bit about I2C programming on the Pico and MCP4728 DAC.  **In this post, we'll actually build the MIDI to CV gadget...** 
 
 
 # Bill of materials
@@ -17,7 +17,7 @@ In a [previous post](({{ site.baseurl }}{% post_url 2022-12-31-MIDI-to-CV-on-RP2
 
 # Load a Micro Python boot image
 
-[Load your favorite Micro python environment bootimage](https://www.raspberrypi.com/documentation/microcontrollers/micropython.html). I'll used `rp2-pico-20220618-v1.19.1.uf2`
+[Load your favorite Micro python environment bootimage](https://www.raspberrypi.com/documentation/microcontrollers/micropython.html). Here we use `rp2-pico-20220618-v1.19.1.uf2`
 
 # Scanning for I2C devices and their addresses
 
@@ -96,8 +96,8 @@ while (True):
 Hook up the output jack to the CV-in on your VCO and you'll here a nice voltage sweep.
 
 **Troubleshooting note and commentss:**  
-* [OSError 5 corresponds to the I2C device not responding](https://github.com/micropython/micropython/issues/1075).  Most of the advice you'l find online is about wrong address specifications, etc.  So as a sanity check, I check for the device found.  However, this is not the only problem that can arise. I found that a slightly loose connection on the SDA/SCL was just enough to allow for finding the devices, but still causing this error.  So try reseating your breadboard connections if you encounter this error.
-* [AxWax's circuit diagram](https://axwax.eu/series/raspberry-pi-pico-as-midi-to-cv-converter/) shows the MCP4728 VCC connected to the Pico's VBUS (which will be at 5V). I believe this to be mistaken.  While the MCP4728 can oeprate at either 3.3V or 5V, it's going to take 3.3V logic levels from the pico.  So it is more appropriate to wire it the way I describe. 
+* [OSError 5 corresponds to the I2C device not responding](https://github.com/micropython/micropython/issues/1075).  Most of the advice you'l find online is about wrong address specifications, etc.  So as a sanity check, I check for the device in the code above.  However, this is not the only problem that can arise: a slightly loose connection to SDA/SCL can allow for finding the devices but still causing this error when actually reading or writing to the device.  So try reseating your breadboard connections if you encounter this error.
+* [AxWax's circuit diagram](https://axwax.eu/series/raspberry-pi-pico-as-midi-to-cv-converter/) shows the MCP4728 VCC connected to the Pico's VBUS (which will be at 5V). I believe this to be mistaken.  While the MCP4728 can operate at either 3.3V or 5V, it's going to take 3.3V logic levels from the pico.  So it is more appropriate to wire it the way I describe. 
 
 # Gate trigger
 
@@ -221,5 +221,6 @@ while True:
 
 * Modify the EG to test the trigger
 * Get a MIDI cable (to test MIDI)
+* Dig into the MCP4728 settings (voltage ranges,e tc.)
 * Other programmatic stuff with the ports ( 3 more CVs, clock signals, ...))
-* Generating a note tuning/calibration table (by frequency counting)
+* Generating a note tuning/calibration table (by frequency counting on a PWM pin)

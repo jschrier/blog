@@ -4,7 +4,7 @@ Date: 2023-01-22
 Tags: teaching, gambling, probability, imaginary-syllabi
 ---
 
-An interdisciplinary capstone course on luck, skill, and the games of everyday life, combining mathematics, literature, and philosophy.  Practical activities to include playing blackjack, chess, and writing Monte Carlo simulations.
+An interdisciplinary capstone course on luck, skill, and the games of everyday life, combining mathematics, literature, and philosophy.  Practical activities to include playing blackjack, chess, and writing Monte Carlo simulations. **Reading lists to include...**
 
 # Required readings
 
