@@ -51,3 +51,9 @@ Note that RawTools appears to be a standalone tool with a GUI, so it can probabl
 * However, based on [a github pager ReAdW suggests that it requires MsFileReader_x64.exe](https://github.com/PedrioliLab/ReAdW)  Helpfull it provides a link to Thermo's github for that.
 * [XCaliburMethodReader](https://github.com/nickdelgrosso/XCaliburMethodReader) --- A simple command-line program for mass spectrometry researchers that extracts and converts data from Thermo XCalibur Method (.meth) files.
 * Proteowizard Toolkit: [2012 paper](https://www.nature.com/articles/nbt.2377), [2017 paper](https://pubmed.ncbi.nlm.nih.gov/28188540/), [another 2017 paper](https://link.springer.com/protocol/10.1007/978-1-4939-6747-6_23#citeas) 
+
+# Continued readings and gleanings
+
+*(updated 20 Jan 2023)*
+
+* Haas CP, Lübbesmeyer M, Jin EH, McDonald MA, Koscher BA, Guimond N, et al. Open-Source Chromatographic Data Analysis for Reaction Optimization and Screening. ChemRxiv 2022. [doi:10.26434/chemrxiv-2022-0pv2d](https://dx.doi.org/10.26434/chemrxiv-2022-0pv2d) --- describes a python library for reading and processing and extracting information from a variety of HPLC machines/vendors
