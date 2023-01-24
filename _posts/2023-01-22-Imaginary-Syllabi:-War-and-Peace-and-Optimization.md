@@ -9,6 +9,10 @@ A course for non-math majors on optimization and its role in hot- and cold-wars.
 # Required Reading:
 
 * Francis Spufford, [Red Plenty](https://amzn.to/3D5TT6z) --- a novel about the Soviet planned economy
+    - Chpt 1: Work assignment problem
+    - Chpt 4: Shortest path
+    - p. 95: assignment as linear program
+    - p. 98: necktie example of shadow prices
 * Paul Nahin, [When Least is Best](https://amzn.to/3Wn0ctq) --- narrative mathematics about optimization topics methods
 * *A book about Operations Research during WWII?*  Maybe Malcom Gladwell's [Bomber Mafia](https://amzn.to/3kwvGjt), despite qualms? Would really like engage Paul Samuelson and Abraham Wald during the WWII effort and the rise of Operations Research in the post-war US. Maybe Alex Abella's [Soldiers of Reason: The RAND Corporation and the Rise of the American Empire](https://amzn.to/3wkcrfw)
 * *Miscellaneous articles from old operations research journals?*
@@ -21,3 +25,8 @@ A course for non-math majors on optimization and its role in hot- and cold-wars.
 * Robert Bosch, [Opt Art](https://amzn.to/3HkB4PJ) --- introduction to linear optimization and its applications to creating mathematical art
 * Presh Talwar, [The Joy of Game Theory](https://amzn.to/3ZXPFrt) --- essays about game theory topics for a popular audience
 * Ken Binmore, [Playing for Real: A Text on Game Theory](https://amzn.to/3iXl7Wk) --advanced undergraduate course on game theory for economists and social scientists
+
+# Comments and Collaborators
+
+* Zachary Jones '25 adds: *Red Plenty is actually one of my favorite books of all time actually! I intend to do a blog post on Kantarovich's On the Best Use of Economic Resources. Dr. Siddiqi in the [Fordham] history department's research focuses on Soviet scientific history, so I think he would be the one to get in contact with. I have reached out to him before asking various questions, so he may be receptive to such a course. I would take an ICC+EP3 course titled "Linear Programming, Economic Planning, and the Cybernetic Imaginary" in a heartbeat.*
+
