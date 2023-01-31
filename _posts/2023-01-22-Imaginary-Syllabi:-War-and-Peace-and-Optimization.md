@@ -14,7 +14,7 @@ A course for non-math majors on optimization and its role in hot- and cold-wars.
     - p. 95: assignment as linear program
     - p. 98: necktie example of shadow prices
 * Paul Nahin, [When Least is Best](https://amzn.to/3Wn0ctq) --- narrative mathematics about optimization topics methods
-* *A book about Operations Research during WWII?*  Maybe Malcom Gladwell's [Bomber Mafia](https://amzn.to/3kwvGjt), despite qualms? Would really like engage Paul Samuelson and Abraham Wald during the WWII effort and the rise of Operations Research in the post-war US. Maybe Alex Abella's [Soldiers of Reason: The RAND Corporation and the Rise of the American Empire](https://amzn.to/3wkcrfw) ([NYT Review](https://www.nytimes.com/2008/09/21/books/review/Heilbrunn-t.html))
+* *A book about Operations Research during WWII?*  Maybe Malcom Gladwell's [Bomber Mafia](https://amzn.to/3kwvGjt) ([NYT Review](https://www.nytimes.com/2021/04/25/books/review/the-bomber-mafia-malcolm-gladwell.html)), despite qualms? Would really like engage Paul Samuelson and Abraham Wald during the WWII effort and the rise of Operations Research in the post-war US. Maybe Alex Abella's [Soldiers of Reason: The RAND Corporation and the Rise of the American Empire](https://amzn.to/3wkcrfw) ([NYT Review](https://www.nytimes.com/2008/09/21/books/review/Heilbrunn-t.html))
 * *Miscellaneous articles from old operations research journals?*
 * Thie & Keogh, [An Introduction to Linear Programming and Game Theory](https://amzn.to/3DtZ8NV) --- might be a good combo text; emphasis on graphical methods and use of excel, which we would supplement with a treatment in Mathematica
 
@@ -25,6 +25,14 @@ A course for non-math majors on optimization and its role in hot- and cold-wars.
 * Robert Bosch, [Opt Art](https://amzn.to/3HkB4PJ) --- introduction to linear optimization and its applications to creating mathematical art
 * Presh Talwar, [The Joy of Game Theory](https://amzn.to/3ZXPFrt) --- essays about game theory topics for a popular audience
 * Ken Binmore, [Playing for Real: A Text on Game Theory](https://amzn.to/3iXl7Wk) --advanced undergraduate course on game theory for economists and social scientists
+
+# Other books on reserve
+
+(Mostly gleanings from the bibliography of *Red Plenty*)
+* Michael Ellman, *Planning Problems in the USSR* (CUP 1973)
+* Philip Minkowski, *Machine Dreamss: Economics Becomes a Cyborg Science* (CUP, 2002)
+* F. A. Hayek, *The Use of Knowledge in Society* 
+* von Mises, *Socialism*
 
 # Comments and Collaborators
 
