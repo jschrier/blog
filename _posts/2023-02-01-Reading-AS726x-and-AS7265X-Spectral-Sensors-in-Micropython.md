@@ -3,7 +3,9 @@ Title: "Reading AS726X and AS7265X Spectral Sensors in Micropython"
 Date: 2023-02-01
 Tags: electronics, i2c, pico, micropython
 ---
-The [AS726X](https://learn.sparkfun.com/tutorials/as726x-nirvi?_ga=2.39829093.73129845.1675284181-552368455.1675284181) and [AS7265X](https://www.sparkfun.com/products/15050) spectral sensors give you the ability to read visible, UV, and IR over an I2C bus, and are relatively cheap ($27-$60 USD). The former focuses on just visible or IR, and the latter is a triad sensor that spans the entire spectrum.  
+The [AS726X](https://learn.sparkfun.com/tutorials/as726x-nirvi?_ga=2.39829093.73129845.1675284181-552368455.1675284181) and [AS7265X](https://www.sparkfun.com/products/15050) spectral sensors give you the ability to read visible, UV, and IR over an I2C bus, and are relatively cheap ($27-$60 USD). 
+The former focuses on just visible or IR, and the latter is a triad sensor that spans the entire spectrum. 
+**In this post, we'll walk you through setting this up and reading the sensor values...**
 
 # Github repositories for micropython libraries for interfacing with these sensors:
 * **AS726X**:  [jajberni/AS726X_LoPy](https://github.com/jajberni/AS726X_LoPy) and [rcolistete/MicroPytho_AS7262X_driver](https://github.com/rcolistete/MicroPython_AS7262X_driver)  and [KDUMod](https://git.csic.es/kduino/kdumod/-/blob/88d8f4873201dc97e8c0739d3ef738eb1d6401f3/module/lib/AS726X.py)
@@ -25,7 +27,7 @@ Connect the pico to your computer and [load your favorite Micro python environme
 
 ## Scan for I2C devices and their addresses
 
-Load Thonny or your favorite IDE and make sure it finds the pico (be sure that you are in Micropython mode).
+Load [Thonny](https://thonny.org) or your favorite IDE and make sure it finds the pico (be sure that you are in Micropython mode).
 
 As we are using a [Sparkfun MicroPro](https://www.sparkfun.com/products/18288) which comes with a QWIIC connector; the corresponding I2C  pins are GP16 & GP17 (which are on controller I2C0).  If you are using an ordinary Pico, you'll need to wire it up accordingly; GP16 and GP17 are totally legitimate pins for this purpose, but you can choose others if you prefer.
 
@@ -56,6 +58,8 @@ Scanning I2C bus.
 1 devices found.
 Decimal address: 73 , Hex address:  0x49
 ```
+(this is the default for the AS7263; it will be different for another sensor)
+
 ## Set up the library and test the light
 
 Let's do this using [jajberni/AS726X_LoPy](https://github.com/jajberni/AS726X_LoPy)'s library.
@@ -112,7 +116,6 @@ As described in the [documentation for the library](https://github.com/jajberni/
 ```python
 from machine import Pin, I2C
 from AS726X import AS726X # from https://github.com/jajberni/AS726X_LoPy
-from time import sleep
 
 # define the I2C pins
 I2C_SDA_PIN = 16
@@ -128,7 +131,7 @@ print("wavelengths (nm): ", sensor.get_wavelengths())
 # read the sensor with the light on
 sensor.take_measurements_with_bulb()
 results = sensor.get_calibrated_values()
-print("reading w/ light:", results) #print the results in the same order as the wavelengths
+print("reading w/ light:", results) #same order as the wavelengths
 
 # try it without the light on
 sensor.take_measurements()
