@@ -135,7 +135,6 @@ print("i2c devices found: ", [hex(i) for i in devices])
 dac1=mcp4728.MCP4728(i2c, MCP4728_I2C_ADDRESS)
 
 # sweep
-
 gateState = 0;
 while (True):
     for i in range(4096):
@@ -157,8 +156,7 @@ A nice aspect of using the [featherwing breakout](https://learn.adafruit.com/ada
 
 If you wire the power up correctly, you'll have a blue LED shiting from the bottom of the MIDI breakout board.  You'll have to see if the code works to check that you wired the UART's correctly.
 
-We'll use the [SimpleMIDIDecoder.py](https://github.com/diyelectromusic/sdemp/blob/main/src/SDEMP/Micropython/SimpleMIDIDecoder.py) and adapt [AxWax's code](https://axwax.eu/series/raspberry-pi-pico-as-midi-to-cv-converter/).  Here's my reworked code.  Be sure to save this as `main.py` so that it will run whenever the Pico boots up
-
+We'll use the [SimpleMIDIDecoder.py](https://github.com/diyelectromusic/sdemp/blob/main/src/SDEMP/Micropython/SimpleMIDIDecoder.py) and adapt [AxWax's code](https://axwax.eu/series/raspberry-pi-pico-as-midi-to-cv-converter/).  Here's my reworked code.  Be sure to save this as `main.py` so that it will run whenever the Pico boots up:
 ```python
 from machine import Pin, I2C, UART
 import mcp4728 # https://github.com/openfablab/mcp4728
@@ -193,13 +191,10 @@ def doMidiNoteOff(ch, cmd, note, vel):
     print("key off")
     gate.value(0)
 
-
 #initialize connections to I2C, gate outputs, and uart
-
 i2c=I2C(0, sda=Pin(I2C_SDA_PIN), scl=Pin(I2C_SCL_PIN), freq=400000)
 gate = Pin(GATE_PIN, Pin.OUT, value = 0)
 uart = UART(0, 31250, rx=Pin(UART_RX_PIN), tx=Pin(UART_TX_PIN))
-
                  
 # sanity checK: are there devices on the I2C bus
 devices = i2c.scan()
@@ -221,7 +216,9 @@ while True:
         md.read(uart.read(1)[0])
 
 ```
-*And that's when I realized....I don't have a MIDI cable!*  So I have to pick one up before confirming that this works.  [B&H to the rescue](https://www.bhphotovideo.com/c/product/158195-REG/Hosa_Technology_MID_305BK_Midi_to_Midi_STD.html)  **And it works!**  I've added some commands to echo the received key and the voltage values  to serial, as well as making sure they don't go outside the bounds that are allowed. I haven't quite figured out the proper way of calibration. Notes are be kind of all over, rather than being exactly in tune. But that's part of the charm.  
+*And that's when I realized....I don't have a MIDI cable!*  So I have to pick one up before confirming that this works.  [B&H to the rescue](https://www.bhphotovideo.com/c/product/158195-REG/Hosa_Technology_MID_305BK_Midi_to_Midi_STD.html)  
+
+*Update: 06 Feb 2023*  **And it works!**  I've added some commands to echo the received key and the voltage values  to serial, as well as making sure they don't go outside the bounds that are allowed. I haven't quite figured out the proper way of calibration. Notes are be kind of all over, rather than being exactly in tune. But that's part of the charm.  Also swapped out the voltage divider resistors in the EG modules so that they can be triggered by the logic gates on the Pico, and that works fine now.
 
 
 # Next Steps:
