@@ -25,7 +25,7 @@ A course for non-math majors on optimization and its role in hot- and cold-wars.
 * Robert Bosch, [Opt Art](https://amzn.to/3HkB4PJ) --- introduction to linear optimization and its applications to creating mathematical art
 * Presh Talwar, [The Joy of Game Theory](https://amzn.to/3ZXPFrt) --- essays about game theory topics for a popular audience
 * Ken Binmore, [Playing for Real: A Text on Game Theory](https://amzn.to/3iXl7Wk) --advanced undergraduate course on game theory for economists and social scientists
-
+* O'Conner & Robertson (1996) [History of matrices and determinants (website)](https://mathshistory.st-andrews.ac.uk/HistTopics/Matrices_and_determinants/)
 # Other books on reserve
 
 (Mostly gleanings from the bibliography of *Red Plenty*)

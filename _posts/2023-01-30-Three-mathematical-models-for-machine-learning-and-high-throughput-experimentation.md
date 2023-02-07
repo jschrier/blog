@@ -40,7 +40,7 @@ Machine learning methods are intended to increase *p*. These have a synergistic 
 
 ## Model 2: Normal distribution step model
 
-**Premise:**  We assume that we have a machine that is capable of performing *N* experiments per batch.   The machine is guided by a ML algorithm whose goal is to select a batch of experiments to try. The current state of knowledge of the model is described by *x*, which starts at *x =* 0.  To make a discovery, we must reach a state of knowledge of *x* = 100.  At each epoch, the algorithm selects new experiments that are a normal distribution around the best experimental result to date.  (In other words, ML provides a store of knowledge, and has some sort of local, but imperfect awareness of improvement.) After each batch of experiments, the algorithm is retrained and generates new experiments around the best experimental result found to date.  This gives us two free parameters: the batch size *N* and the standard deviation of the normal distribution predictions around the current best knowledge of the system--effectively how bold the model is in its extrapolations.  We\[CloseCurlyQuote]ll assume that a baseline ML algorithm has a unit standard deviation, and that an appropriately designed ML algorithm for discovering exceptional materials may be able to increase this to a larger value. 
+**Premise:**  We assume that we have a machine that is capable of performing *N* experiments per batch.   The machine is guided by a ML algorithm whose goal is to select a batch of experiments to try. The current state of knowledge of the model is described by *x*, which starts at *x =* 0.  To make a discovery, we must reach a state of knowledge of *x* = 100.  At each epoch, the algorithm selects new experiments that are a normal distribution around the best experimental result to date.  (In other words, ML provides a store of knowledge, and has some sort of local, but imperfect awareness of improvement.) After each batch of experiments, the algorithm is retrained and generates new experiments around the best experimental result found to date.  This gives us two free parameters: the batch size *N* and the standard deviation of the normal distribution predictions around the current best knowledge of the system--effectively how bold the model is in its extrapolations.  We'll assume that a baseline ML algorithm has a unit standard deviation, and that an appropriately designed ML algorithm for discovering exceptional materials may be able to increase this to a larger value. 
 
 ### How many steps are needed to reach the goal? 
 
@@ -183,7 +183,7 @@ ListPlot[data]
 
 ![0rdzyiicavaop](/blog/images/2023/1/30/0rdzyiicavaop.png)
 
-Now that we know it works, let\[CloseCurlyQuote]s compute the mean as a function of the batch size (in powers of two), plotting the result (on various log scales).  We\[CloseCurlyQuote]ll consider a very pessimistic problem where our initial state of knowledge only gives us a 0.01% = (1/10^4) probability of making an initial advance, increasing only to a 1% chance of improvement in the last stages. In contrast to the brute-force Monte Carlo simulation above, this calculation now runs almost instantaneously:
+Now that we know it works, let's compute the mean as a function of the batch size (in powers of two), plotting the result (on various log scales).  We'll consider a very pessimistic problem where our initial state of knowledge only gives us a 0.01% = (1/10^4) probability of making an initial advance, increasing only to a 1% chance of improvement in the last stages. In contrast to the brute-force Monte Carlo simulation above, this calculation now runs almost instantaneously:
 
 ```mathematica
 results3 = 
@@ -208,7 +208,13 @@ ListLogLogPlot[%%,
 
 **Conclusion:** We require several order of magnitude more epochs to reach a result if we perform experiments one at a time--and reduce this to a few hundred epochs if we perform experiments *en masse*.  In the end, the average cost is not much different--if we run 128 experiments in parallel we require only about 13% more resources (128*468/51773) would have been required if we run the experiments one at a time, and reduce the number of epochs required by a factor of 113.  So like the examples above, the HTE machinery must be much faster than the serial, sequential experimentation (for example, time delays induced with characterization etc.) to realize the benefit in elapsed time.  
 
+
 ```mathematica
 ToJekyll["Three mathematical models for machine learning and high-throughput experimentation", 
   "machine-learning, probability"]
 ```
+
+# Addenda
+
+**03 Feb 2023:** There are probably some nice analytical versions that one can devise using first-passage models in statistical physics. See [First look](https://arxiv.org/abs/2201.10048) and [textbook](https://amzn.to/3HY1AOY) by Sidney Redner.  That is, define a diffusive process of some type (corresponding to the above), and find a closed solution in 1D
+
