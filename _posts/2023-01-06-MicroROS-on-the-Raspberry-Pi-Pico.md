@@ -4,16 +4,17 @@ Date: 2023-01-06
 Tags: ros, pico, electronics, automation
 ---
 
-**Goal:** Attach small actuators and sensors to a Rasberry Pi Pico (RP2040) and have it attach to present to a ROS2 network running on some other device.  Build this into a larger project
-**Status:** Some collected notes on resources.
+**Goal:** Attach small actuators and sensors to a Rasberry Pi Pico (RP2040) and have it attach to present to a ROS2 network running on some other device.  Build this into a larger project.
+**This Post:** Some collected notes on resources. 
+**Status:** See [how-to-guide post](({{ site.baseurl }}{% post_url 2023-02-04-ROS-Setup-For-Raspberry-Pi-and-Pico %}))
+
 
 # Setup ROS2 on a Raspberry Pi
 
 One approach:  setup some Docker containers, etc.  This is a bit beyond what I know how to do and still get reliable access to the USB port
 
 
-Working approach:  Install ROS2 development environment, on Ubuntu 20 on a Rapsberry Pi and then just connect to that.  This is the approach argued for in [this article]
-(https://robofoundry.medium.com/easy-development-setup-for-robotics-using-ros2-and-raspberry-pi-53ecaddd857e) which also provides some helpful tips on configuring Sambda to allow easy access
+Working approach:  Install ROS2 development environment, on Ubuntu 20 on a Raspberry Pi and then just connect to that.  This is the approach argued for in [this article](https://robofoundry.medium.com/easy-development-setup-for-robotics-using-ros2-and-raspberry-pi-53ecaddd857e) which also provides some helpful tips on configuring Sambda to allow easy access
 
 [How to install ROS2 on Raspberry Pi](https://docs.ros.org/en/foxy/How-To-Guides/Installing-on-Raspberry-Pi.html).  Key take aways are to use the 64-bit Ubuntu
 
@@ -39,3 +40,6 @@ Demonstration of [how to publish sonar readings](https://canonical.com/blog/hc-s
 * [Sparkfun Arduino C libraries for the AS726X](https://github.com/sparkfun/Sparkfun_AS726X_Arduino_Library)
 * [How to use Arduino libraries on the RP2040](https://www.hackster.io/fhdm-dev/use-arduino-libraries-with-the-rasperry-pi-pico-c-c-sdk-eff55c?f=1)
 
+# Next Steps
+
+**Status:** See [how-to-guide post](({{ site.baseurl }}{% post_url 2023-02-04-ROS-Setup-For-Raspberry-Pi-and-Pico %}))

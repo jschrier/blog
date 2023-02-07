@@ -157,7 +157,7 @@ A nice aspect of using the [featherwing breakout](https://learn.adafruit.com/ada
 
 If you wire the power up correctly, you'll have a blue LED shiting from the bottom of the MIDI breakout board.  You'll have to see if the code works to check that you wired the UART's correctly.
 
-We'll use the [SimpleMIDIDecoder.py](https://github.com/diyelectromusic/sdemp/blob/main/src/SDEMP/Micropython/SimpleMIDIDecoder.py) and adapt [AxWax's code](https://axwax.eu/series/raspberry-pi-pico-as-midi-to-cv-converter/).  Here's my reworked code:
+We'll use the [SimpleMIDIDecoder.py](https://github.com/diyelectromusic/sdemp/blob/main/src/SDEMP/Micropython/SimpleMIDIDecoder.py) and adapt [AxWax's code](https://axwax.eu/series/raspberry-pi-pico-as-midi-to-cv-converter/).  Here's my reworked code.  Be sure to save this as `main.py` so that it will run whenever the Pico boots up
 
 ```python
 from machine import Pin, I2C, UART
@@ -180,12 +180,17 @@ semitone = 83.33 * mv  # calculate mV per semitone
 # MIDI callback routines
 
 def doMidiNoteOn(ch, cmd, note, vel):
-    global semitone
-    dac1.a.value = int((note–lowest_note)*semitone)
+    print("received note", note)
+    voltage_setting =int((note - lowest_note)*semitone)
+    if (voltage_setting > 4095 or voltage_setting <0):
+        print("voltage", voltage_setting, "out of range. resetting to limits")
+        voltage_setting = max( min(voltage_setting, 4095), 0)
+    dac1.a.value = voltage_setting
     gate.value(1)
+    print("turning on gate with DAC = ", voltage_setting)
     
 def doMidiNoteOff(ch, cmd, note, vel):
-    global semitone
+    print("key off")
     gate.value(0)
 
 
@@ -194,16 +199,17 @@ def doMidiNoteOff(ch, cmd, note, vel):
 i2c=I2C(0, sda=Pin(I2C_SDA_PIN), scl=Pin(I2C_SCL_PIN), freq=400000)
 gate = Pin(GATE_PIN, Pin.OUT, value = 0)
 uart = UART(0, 31250, rx=Pin(UART_RX_PIN), tx=Pin(UART_TX_PIN))
-     
-# sanity check: are there devices on the I2C bus?
+
+                 
+# sanity checK: are there devices on the I2C bus
 devices = i2c.scan()
 print("i2c devices found: ", [hex(i) for i in devices])
 
-# initialize DAC channel A as output
+# initialize DAC
 dac1=mcp4728.MCP4728(i2c, MCP4728_I2C_ADDRESS)
 dac1.a.value = 0
 
-# handle notes by defining callback functions
+# handle notes
 md = SimpleMIDIDecoder()
 md.cbNoteOn (doMidiNoteOn)
 md.cbNoteOff (doMidiNoteOff)
@@ -215,12 +221,13 @@ while True:
         md.read(uart.read(1)[0])
 
 ```
-*And that's when I realized....I don't have a MIDI cable!*  So I'll have to pick one up before confirming that this works
+*And that's when I realized....I don't have a MIDI cable!*  So I have to pick one up before confirming that this works.  [B&H to the rescue](https://www.bhphotovideo.com/c/product/158195-REG/Hosa_Technology_MID_305BK_Midi_to_Midi_STD.html)  **And it works!**  I've added some commands to echo the received key and the voltage values  to serial, as well as making sure they don't go outside the bounds that are allowed. I haven't quite figured out the proper way of calibration. Notes are be kind of all over, rather than being exactly in tune. But that's part of the charm.  
+
 
 # Next Steps:
 
-* Modify the EG to test the trigger
-* Get a MIDI cable (to test MIDI)
-* Dig into the MCP4728 settings (voltage ranges,e tc.)
+* ~~Modify the EG to test the trigger~~
+* ~~Get a MIDI cable (to test MIDI)~~
+* Dig into the MCP4728 settings (voltage ranges, etc.)
 * Other programmatic stuff with the ports ( 3 more CVs, clock signals, ...))
 * Generating a note tuning/calibration table (by frequency counting on a PWM pin)
