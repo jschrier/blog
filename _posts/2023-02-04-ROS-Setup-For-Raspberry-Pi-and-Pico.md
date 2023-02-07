@@ -15,28 +15,30 @@ Tags: ros, raspberrypi, pico, electronics, automation
 3. Using the Raspberry Pi Imager software: (i) select *Operating System>Use Custom...* and select your downloaded Ubuntu Image; (ii) Click the gear and configure an SSH user name/password and WiFi network and password.  Make this the same WiFi that your laptop is on.  Then press *Write* and let it rip. It will take about 5-10 minutes.  Transfer the SD card to the Pi and give it a minute to boot up.
 4. `ssh` into your machine using the username and password you set.  It should appear on your network as `ros.local`.
 5. Install ROS on the Pi, following these the instructions for [Humble Hawkbill](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html)  (or whatever distro you decide to use). When prompted, just say "yes" (by typing enter). You can ignore the comments prefaced by `#`.  This will take about an hour, so put on some tunes (e.g., [Tangerine Dream, Portsmouth 1976](https://www.youtube.com/watch?v=OfI-6s4llzc) and do some grading while you wait...
-```
-#ensure that the Ubuntu Universe repository is enabled.
+
+```bash
+# ensure that the Ubuntu Universe repository is enabled.
 sudo apt install software-properties-common
 sudo add-apt-repository universe
-#add the ROS 2 GPG key with apt.
+# add the ROS 2 GPG key with apt.
 sudo apt update && sudo apt install curl
 sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o /usr/share/keyrings/ros-archive-keyring.gpg
 
-#add the repository to your sources list.
+# add the repository to your sources list.
 echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu $(. /etc/os-release && echo $UBUNTU_CODENAME) main" | sudo tee /etc/apt/sources.list.d/ros2.list > /dev/null
 
-#Update your apt repository caches after setting up the repositories; the latter takes about 25 minutes and will require a restart
+# Update your apt repository caches after setting up the repositories; the latter takes about 25 minutes and will require a restart
 sudo apt update
 sudo apt upgrade
 sudo reboot
 
-#ssh back in and perform the ROS desktop and developer tool install
-#not sure if the desktop version is strictly necessary, and it will take up 3GB, FYI...and about 30 min
-#dev tool install is pretty quick
+# ssh back in and perform the ROS desktop and developer tool install
+# not sure if the desktop version is strictly necessary, and it will take up 3GB, FYI...and about 30 min
+# dev tool install is pretty quick
 sudo apt install ros-humble-desktop
 sudo apt install ros-dev-tools
 ```
+
 6. Test the ros install.  Run the following (in two separate terminals). You should see the talker saying that it’s Publishing messages and the listener saying I heard those messages.  This verifies both the C++ and Python APIs are working properly.
 ```
 #In one terminal, source the setup file and then run a C++ talker:
