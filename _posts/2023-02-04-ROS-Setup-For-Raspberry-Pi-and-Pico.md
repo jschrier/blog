@@ -1,12 +1,10 @@
 ---
 Title: "ROS Setup for Raspberry Pi and Pico"
 Date: 2023-01-06
-Tags: ros, raspberrypi, pico, electronics, automation
+Tags: ros, ros2, microros, raspberrypi, pico, electronics, automation
 ---
 
-[Last time, we collected some resources about the process.]((({{ site.baseurl }}{% post_url 2023-01-06-MicroROS-on-the-Raspberry-Pi-Pico %})))  In this post we'll take you step-by-step on installing ROS on a Raspberry Pi, configuring the ROS and MicroROS development environment, and getting to 
-
-
+[Last time, we collected some resources about the process.]({{ site.baseurl }}{% post_url 2023-01-06-MicroROS-on-the-Raspberry-Pi-Pico %}) In this post we'll take you step-by-step on installing ROS2 on a Raspberry Pi 3B+, configuring the ROS and MicroROS development environment, and getting to 'hello world'... **STATUS:  Successfully installed ROS2, but configuring the micro-ros-agent on Raspberry Pi 3B+ has some problems.**
 
 # Install Ubuntu on your Raspberry Pi
 
@@ -14,6 +12,9 @@ Tags: ros, raspberrypi, pico, electronics, automation
 2. Download the [Raspberry Pi Imager](https://www.raspberrypi.com/software/)
 3. Using the Raspberry Pi Imager software: (i) select *Operating System>Use Custom...* and select your downloaded Ubuntu Image; (ii) Click the gear and configure an SSH user name/password and WiFi network and password.  Make this the same WiFi that your laptop is on.  Then press *Write* and let it rip. It will take about 5-10 minutes.  Transfer the SD card to the Pi and give it a minute to boot up.
 4. `ssh` into your machine using the username and password you set.  It should appear on your network as `ros.local`.
+
+# Install ROS
+
 5. Install ROS on the Pi, following these the instructions for [Humble Hawkbill](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html)  (or whatever distro you decide to use). When prompted, just say "yes" (by typing enter). You can ignore the comments prefaced by `#`.  This will take about an hour, so put on some tunes (e.g., [Tangerine Dream, Portsmouth 1976](https://www.youtube.com/watch?v=OfI-6s4llzc) and do some grading while you wait...
 
 ```bash
@@ -51,7 +52,11 @@ source /opt/ros/humble/setup.bash
 ros2 run demo_nodes_py listener
 ```
 
-7. Next [follow the instructions to install the microROS development environment on Ubuntu](https://ubuntu.com/blog/getting-started-with-micro-ros-on-raspberry-pi-pico)
+# Install Micro-ROS Development Environment
+
+There are two separate things here.  First is relevant micro-ros SDK for the client MCU, and the second is the micro-ros-agent that runs on the host Pi.
+
+7. [Follow the instructions to install the microROS development environment on Ubuntu](https://ubuntu.com/blog/getting-started-with-micro-ros-on-raspberry-pi-pico)
 ```bash
 # another two gigs of dependencies, and about 10 minutes
 sudo apt install build-essential cmake g++ gcc-arm-none-eabi libnewlib-arm-none-eabi doxygen git python3
@@ -63,7 +68,7 @@ git clone --recurse-submodules https://github.com/raspberrypi/pico-sdk.git
 git clone https://github.com/micro-ROS/micro_ros_raspberrypi_pico_sdk.git
 ```
 
-8. Now configure the environment (as described in the [MicroROS documentation](https://github.com/micro-ROS/micro_ros_raspberrypi_pico_sdk/blob/humble/README.md).  By default `arm-none-eabi-gcc` should be in `/usr/bin/arm-none-eabi-gcc`, but if this is breaking, check `which arm-none-eabi-gcc` to confirm:
+8. Configure the environment (as described in the [MicroROS documentation](https://github.com/micro-ROS/micro_ros_raspberrypi_pico_sdk/blob/humble/README.md).  By default `arm-none-eabi-gcc` should be in `/usr/bin/arm-none-eabi-gcc`, but if this is breaking, check `which arm-none-eabi-gcc` to confirm:
 
 ```bash
 echo "export PICO_TOOLCHAIN_PATH=/usr/bin/" >> ~/.bashrc
@@ -93,7 +98,10 @@ Regardless of how you get the device mounted, now go ahead and copy the generate
 sudo cp pico_micro_ros_example.uf2 /media/pico
 ```
 After you do this, the Pico will reboot and present as a USB serial device.  You'll see it is still there (via `lsusb`), but instead of identifying as ` Raspberry Pi RP2 Boot` it will identify as merely `Raspberry Pi Pico`, and it won't have a ` blkid -o list` entry (because it is no longer identifying as a USB mass storage device).  Congratulations! You're now running your first MicroROS program.  But what is it saying?
-11. **DON'T DO THIS** I tried to [install micro-ros-agent](https://ubuntu.com/blog/getting-started-with-micro-ros-on-raspberry-pi-pico)...With Ubuntu it is supposed to be a `snap`  (*You see what I did there...*)...except there is no support for arm64. So it looks like we've gotta [build micro-ros-agent from scratch](https://github.com/micro-ROS/micro_ros_setup#building).  I guess it will set up a bunch of other things for ROS development later on so we might as well:
+
+# Installing the Micro-Ros-Agent
+
+11. **FAIL** I tried to [install micro-ros-agent](https://ubuntu.com/blog/getting-started-with-micro-ros-on-raspberry-pi-pico)...With Ubuntu it is supposed to be a `snap`  (*You see what I did there...*)...except there is no support for arm64. So it looks like we've gotta [build micro-ros-agent from scratch](https://github.com/micro-ROS/micro_ros_setup#building).  I guess it will set up a bunch of other things for ROS development later on so we might as well:
 ```bash
 source /opt/ros/humble/setup.bash  # assuming that we use ros2/humble distro
 sudo rosdep init
@@ -111,9 +119,9 @@ ros2 run micro_ros_setup create_agent_ws.sh
 ros2 run micro_ros_setup build_agent.sh  # really slow...8 hours plus...
 source install/local_setup.sh
 ```
-**STATUS**:  Still waiting for the micro-ros-agent build to complete :-( 11 hours and counting, and the Rapsberry Pi has been throttled the whole time.  This is probably not the way....
+**STATUS**:  Waited for the micro-ros-agent build to complete :-( 11 hours and counting, and the Rapsberry Pi has been throttled the whole time.  This is probably not the way....[Someone else raised this issue Dec 2022. tl;dr is that there is not enough memory/swap space on the Pi 3B+ (1GB total) to directly compile micro-ros-agent](https://github.com/micro-ROS/micro-ROS-Agent/issues/178) So maybe the easy fix is to use a heartier (better provisioned Pi as the host.)
 
-11. *SO DO THIS INSTEAD* So let's [try another way](https://answers.ros.org/question/373503/micro-ros-agent-on-raspberry-pi-3/).  In the end, micro-ros-agent is just a wrapper around XRCE-DDS, so go directly there:
+11. **FAIL** Let's [try another way](https://answers.ros.org/question/373503/micro-ros-agent-on-raspberry-pi-3/).  In the end, micro-ros-agent is just a wrapper around XRCE-DDS, so try to go directly there:
 ```bash
 sudo snap install micro-xrce-dds-agent
 sudo snap set core experimental.hotplug=true  #enable usb hot plugging
@@ -125,9 +133,12 @@ sudo snap connect micro-xrce-dds-agent:serial-port snapd:pico
 ```
 **STATUS**: This appears to establish a connection, but I'm not sure what is supposed to happen next...
 
-# Other setup notes
 
-* You might as well [set up additional WiFi networks to connect to.](https://askubuntu.com/questions/1245253/set-multiple-wifi-access-points-in-ubuntu-20-04)  Do this by editing the `/etc/netplan/50-cloud-init.yaml` file to add additional lines, then [reset netconfig](https://askubuntu.com/questions/1083390/netplan-apply-does-not-change-the-ip-address/1083497#1083497) with 
+
+# Other Pi setup notes
+
+* You might as well [set up additional WiFi networks to connect to.](https://askubuntu.com/questions/1245253/set-multiple-wifi-access-points-in-ubuntu-20-04)  Do this by editing the `/etc/netplan/50-cloud-init.yaml` file to add additional lines, then [reset netconfig](https://askubuntu.com/questions/1083390/netplan-apply-does-not-change-the-ip-address/1083497#1083497) by running:
+
 ```bash
 sudo nano /etc/netplan/50-cloud-init.yaml
 sudo netplan generate          # generate the config files
@@ -137,5 +148,6 @@ reboot                         # optional reboot the computer to confirm persist
 
 # Other passing thoughts
 
-* Given what a pain it is to compile micro-ros-agent on the Raspberry Pi, and the inconvenience of writing MicroROS code for the pico in C (instead of Python), perhaps there are other, better alternatives for this purpose?  For example [MQTT](https://www.tomshardware.com/how-to/send-and-receive-data-raspberry-pi-pico-w-mqtt) is a lightweight publish/subscribe architcture, and using the [mosquitto broker it can be connected to ROS](https://robofoundry.medium.com/combining-ros2-and-mqtt-on-esp32-to-send-twist-messages-bab758cf098)
+* Given what a pain it is to compile micro-ros-agent on the Raspberry Pi, and the inconvenience of writing MicroROS code for the pico in C (instead of Python), perhaps there are other, better alternatives for this purpose?  For example [MQTT](https://www.tomshardware.com/how-to/send-and-receive-data-raspberry-pi-pico-w-mqtt) is a lightweight publish/subscribe architcture, and using the [mosquitto broker it can be connected to ROS](https://robofoundry.medium.com/combining-ros2-and-mqtt-on-esp32-to-send-twist-messages-bab758cf098).  We'll [explore this in the next post](({{ site.baseurl }}{% post_url 2023-02-11-MQTT-and-ROS2-integration %}) ).
 * In the end, `micro-ros-agent` is just a wrapper around `DDS-XRCE` so [apparently you can just use that instead](https://answers.ros.org/question/373503/micro-ros-agent-on-raspberry-pi-3/)
+

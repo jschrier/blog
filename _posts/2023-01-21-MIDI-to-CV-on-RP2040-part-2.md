@@ -221,10 +221,11 @@ while True:
 *Update: 06 Feb 2023*  **And it works!**  I've added some commands to echo the received key and the voltage values  to serial, as well as making sure they don't go outside the bounds that are allowed. I haven't quite figured out the proper way of calibration. Notes are be kind of all over, rather than being exactly in tune. But that's part of the charm.  Also swapped out the voltage divider resistors in the EG modules so that they can be triggered by the logic gates on the Pico, and that works fine now.
 
 
-# Next Steps:
+# Next Steps/ Ideas for Future projects
 
 * ~~Modify the EG to test the trigger~~
 * ~~Get a MIDI cable (to test MIDI)~~
 * Dig into the MCP4728 settings (voltage ranges, etc.)
 * Other programmatic stuff with the ports ( 3 more CVs, clock signals, ...))
 * Generating a note tuning/calibration table (by frequency counting on a PWM pin)
+* As the mki x es.EDU only has a single VCO, it is annoying to tie it up.  So maybe just use the Pico itself as an oscillator (based on the MIDI signal) and have it generate wave outputs.  [Super easy to do this with a square wave](https://www.onetransistor.eu/2021/02/rpi-pico-pio-state-machine-square-wave.html) and not so tough to [generate an arbitrary waveform](https://www.instructables.com/Arbitrary-Wave-Generator-With-the-Raspberry-Pi-Pic/) (cute idea to use a home-brew R2R DAC....I suppose we could even use that for the CV as well). Can handle frequencies higher than any human can hear.  A side modification would be to put in a 10pin Eurorack header, and pull off +/-12VDC lines to power an op-amp into which you could feed the (capcitor decoupled...centered to zero) 3.3V signal so as to amplify it to the standard nominal +/-10VDC signal.  While you are at it, put in a voltage regulator to power the Pico off the 12VDC eurorack supply.  
