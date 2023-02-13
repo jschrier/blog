@@ -30,28 +30,29 @@ After installing the Mosquitto snap, the Mosquitto broker will be running with t
 `mosquitto_sub -h localhost -t 'snap/example' -v` . (The `-t snap/example` option sets the topic to subscribe to, and can be provided multiple times.  `#` or `+` can be used for wildcards, and `$SYS/#` allows you to see topics that the broker publishes about itself. The `-v` option means to print both the topic of the message as well as its payload.) Open up another terminal window and run `mosquitto_pub -h localhost -t 'snap/example' -m 'Hello world!'`  You should see the message get transferred. (`-m` indicates the message to get published on the topic).
 3. Once you have finished your testing, you will want to configure your broker to have encrypted connections and use authentication, possibly configuring bridges, which allow different brokers to share topics, or many other options.  To do this: 
 ```bash
-# create and edit config file for mosquitto broker like this
+#create and edit config file for mosquitto broker like this
 sudo cp /var/snap/mosquitto/common/mosquitto_example.conf /var/snap/
 mosquitto/common/mosquitto.conf
-# edit the moquitto.conf file as desired...
+#edit the moquitto.conf file as desired...
 
-# stop and start broker as needed
+#stop and start broker as needed
 sudo systemctl stop snap.mosquitto.mosquitto.service
 sudo systemctl start snap.mosquitto.mosquitto.service
 ```
-4. Install the `mqtt_bridge`
+
+4. Install the `mqtt_bridge`:
 ```bash
-# setup pre-reqs...
+#setup pre-reqs...
 sudo apt-get install python3-pip  # should already have this
 sudo apt-get install ros-humble-rosbridge-library
 sudo apt-get install mosquitto mosquitto-clients #only if you haven't used the snap above 
 
-# install the bridge
+#install the bridge
 git clone -b ros2 --single-branch https://github.com/groove-x/mqtt_bridge.git
 cd mqtt_bridge
 pip3 install -r requirement.txt
 source /opt/ros/humble/setup.bash 
-colcon build # throws an innocuous stderr about a deprecated library
+colcon build    #throws an innocuous stderr about a deprecated library
 ```
 5. Test the `mqtt_bridge`.  In a new terminal window run the bridge:
 ```bash
@@ -64,7 +65,7 @@ This creates interfaces `/ping` and `/pong` which respond to booleans.
 The details of how these get bridged from MQTT to/from ROS are described in the configuration file `mqtt_bridge/config/demo_params.yaml`.
 In another terminal window, use mosquitto to watch for MQTT messages:
 ```bash
-mosquitto_sub -t '#' -v  # look ma! no ROS setups sourced!
+mosquitto_sub -t '#' -v  #look ma! no ROS setups sourced!
 ```
 In another terminal window, publish a ROS message...it should show up in our mosquitto subscriber terminal:
 ```bash
