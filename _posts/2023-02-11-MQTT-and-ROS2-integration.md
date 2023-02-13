@@ -28,14 +28,14 @@ sudo snap install mosquitto
 After installing the Mosquitto snap, the Mosquitto broker will be running with the default configuration, which means it is listening for connections on port 1883 on the local computer only.  We'll configure the connection later.
 2. Test the broker:  In one terminal test the subscriber by running:
 `mosquitto_sub -h localhost -t 'snap/example' -v` . (The `-t snap/example` option sets the topic to subscribe to, and can be provided multiple times.  `#` or `+` can be used for wildcards, and `$SYS/#` allows you to see topics that the broker publishes about itself. The `-v` option means to print both the topic of the message as well as its payload.) Open up another terminal window and run `mosquitto_pub -h localhost -t 'snap/example' -m 'Hello world!'`  You should see the message get transferred. (`-m` indicates the message to get published on the topic).
-3. Once you have finished your testing, you will want to configure your broker to have encrypted connections and use authentication, possibly configuring bridges, which allow different brokers to share topics, or many other options.  To do this 
+3. Once you have finished your testing, you will want to configure your broker to have encrypted connections and use authentication, possibly configuring bridges, which allow different brokers to share topics, or many other options.  To do this: 
 ```bash
-### create and edit config file for mosquitto broker like this
+# create and edit config file for mosquitto broker like this
 sudo cp /var/snap/mosquitto/common/mosquitto_example.conf /var/snap/
 mosquitto/common/mosquitto.conf
-### edit the moquitto.conf file as desired...
+# edit the moquitto.conf file as desired...
 
-### stop and start broker as needed
+# stop and start broker as needed
 sudo systemctl stop snap.mosquitto.mosquitto.service
 sudo systemctl start snap.mosquitto.mosquitto.service
 ```
@@ -71,7 +71,7 @@ In another terminal window, publish a ROS message...it should show up in our mos
 source /opt/ros/humble/setup.bash
 ros2 topic pub /ping std_msgs/Bool "data: true"
 ```
-We can see the same message show up in ROS as well
+We can see the same message show up in ROS as well if we run the following:
 ```bash
 source /opt/ros/humble/setup.bash
  ros2 topic echo /pong
@@ -81,25 +81,25 @@ Stop the ros2 publisher and mosquitto subscribers.  And then try the following:
 mosquitto_pub -t 'ping' -m '{"data":false}'
 ```
 This should show up in your ros2 pong subscriber! Warnings: the mqtt_bridge is a bit fragile.  The messages have to be validly formatted JSON for this to work, and if they are not, you'll crash the bridge. 
-Other ros data types are also supported, e.g.,
+Other ros data types are also supported, e.g., this demo server also has a channel back that reports strings:
 ```bash
 ros2 topic echo /back  #look for things on the echo topic
 ``` 
-with
+The input channel is called echo:
 ```bash
 mosquitto_pub -t 'echo' -m '{"data": "foo"}'
 ```
 
-# TODO:  Sending MQTT from a Pico to ROS
+# Publishing MQTT from a Pico to ROS
 
 (We'll largely follow [a tutorial by peppe80](https://peppe8o.com/mqtt-and-raspberry-pi-pico-w-start-with-mosquitto-micropython/), which walks through installing and configuring mosquitto on the Raspberry Pi and running the MQTT code on the Pico W.) 
 
-5. Until now, we've only used MQTT within a given localhost. We need to open it up to the world.  Edit `/var/snap/mosquitto/common/mosquitto.conf` to add the following tow lines
+5. Until now, we've only used MQTT within a given localhost. We need to open it up to the world.  Edit `/var/snap/mosquitto/common/mosquitto.conf` to add the following two lines:
 ```
 allow_anonymous true
 listener 1883
 ```
-Then restart the mosquitto server so these changes take place
+Then restart the mosquitto server so these changes take place:
 ```bash
 sudo systemctl stop snap.mosquitto.mosquitto.service
 sudo systemctl start snap.mosquitto.mosquitto.service
@@ -108,6 +108,7 @@ sudo systemctl start snap.mosquitto.mosquitto.service
 6. We'll use a Raspberry Pi Pico W.  If you haven't already loaded micropython onto the device, then [grab the micropython uf2 file for the Pico W](https://micropython.org/download/rp2-pico-w/) and [flash it to the pico](https://www.tomshardware.com/how-to/raspberry-pi-pico-setup). I'll use `v1.19.1-859-g41ed01f13 (2023-02-09).uf2` 
 
 7. Assuming that you are using Thonny: Install `micropython-umqtt.simple` by going to the *Tools>Manage Packages...* menu.  Then run the following program on your PicoW.  Be sure to set the WIFI SSID and PASSWORD values appropriately.  You can look up the IP address of your mosquitto server by running `hostname -I` on the host:
+
 ```python
 import network
 import time
@@ -126,7 +127,6 @@ mqtt_server = '#YOUR SERVER IP'
 client_id = 'pico'
 topic_pub = b'ping'
 topic_msg = b'{"data":false}'
-
 
 def mqtt_connect():
     client = MQTTClient(client_id, mqtt_server, keepalive=3600)
@@ -147,14 +147,16 @@ while True:
     print('publishing topic: ', topic_pub, topic_msg)
     client.publish(topic_pub, topic_msg)
     time.sleep(1)
- ```   
+```  
 
- 8. You should be able to see these as MQTT messages on the Pi by `mosquitto_sub -t 'ping'`.  You should also be able to see these as ROS2 topic messages by `ros2 topic echo pong` (Assuming that you're still running the `mqtt_bridge` discussed above...if not then run it).  **Congratulations, you've now successfully used the PicoW as a publisher**
+ 8. You should be able to see these as MQTT messages on the Pi by `mosquitto_sub -t 'ping'`.  You should also be able to see these as ROS2 topic messages by `ros2 topic echo pong` (Assuming that you're still running the `mqtt_bridge` discussed above...if not then run it).  **Congratulations, you've now successfully used the Pico W as a publisher**
 
+# TODO: Subscribing to ROS messages via MQTT on the Pico W
+ 
  9. **TODO: Demonstrate PicoW as subscriber** (instructions)[https://peppe8o.com/mqtt-and-raspberry-pi-pico-w-start-with-mosquitto-micropython/]
 
 # Other passing notes
 
 * In principle you can also create a [TTY/MQTT bridge](https://www.metacodes.pro/funcodes/using_tty2mqtt_to_bridge_between_serial_communication_and_mqtt/) that would let us connect USB devices to MQTT to ROS...
 * An alternative to using MQTT would be to use the [ROSBridgeSuite](https://wiki.ros.org/rosbridge_suite) which lets you send JSON/Websocket commands to and from ROS.  [ROSBridgeSuite](https://github.com/RobotWebTools/rosbridge_suite) is the modern version of the [ros2-web-bridge](https://github.com/RobotWebTools/ros2-web-bridge) used in the [hadabot](https://www.hadabot.com) project. `mqtt_bridge` is using some of the libraries (JSON <-->ROS conversion) behind the scene.  
-
+* In the end...it seems like have lots of low-end devices on the system is kind of a pain.  It would be far simpler to have a Pi running ROS just drive syringe pumps and spectrometers via its own serial ports, rather than offloading this to microcontrollers.  The insertion of MQTT or rosbridge into the mix just makes it harder to deal wtih quality of service, etc. 
