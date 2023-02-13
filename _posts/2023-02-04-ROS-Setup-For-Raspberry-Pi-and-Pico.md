@@ -57,6 +57,7 @@ ros2 run demo_nodes_py listener
 There are two separate things here.  First is relevant micro-ros SDK for the client MCU, and the second is the micro-ros-agent that runs on the host Pi.
 
 7. [Follow the instructions to install the microROS development environment on Ubuntu](https://ubuntu.com/blog/getting-started-with-micro-ros-on-raspberry-pi-pico)
+
 ```bash
 # another two gigs of dependencies, and about 10 minutes
 sudo apt install build-essential cmake g++ gcc-arm-none-eabi libnewlib-arm-none-eabi doxygen git python3
@@ -80,6 +81,7 @@ source ~/.bashrc
 ```
 
 9. Compile the example:
+
 ```bash
 cd micro_ros_ws/src/micro_ros_raspberrypi_pico_sdk/
 mkdir build
@@ -89,19 +91,24 @@ make
 ```
 
 10. Copy it to the pico and run. Connect the pico by usb while holding the BOOTSEL button.  If you are running the desktop Ubuntu then it would automount, but [by default, Ubuntu Server does not automount USB mass sotrage devices](https://help.ubuntu.com/community/Mount/USB#Auto-mounting_.28Ubuntu_Server.29)  You used to be able to use `usbmount` but [this is no longer included in Ubuntu 20.04](https://askubuntu.com/questions/1308084/upstart-to-automount-usb-in-ubuntu-server-20-04).  You could try building `usbmount` from source, but we're probably not so interested in this functionality for now.  So let's just do it the old-fashioned way.   Confirm the device is present by running `lsusb` (you should see a device ` Raspberry Pi RP2 Boot`).  It should be present (but not mounted as) `/dev/sda1` (confirm this by running `blkid - o list` ), then manually mount it with:
+
 ```bash
 sudo mkdir /media/pico              # create a location for this 
 sudo mount /dev/sda1 /media/pico    # mount it to the location
 ```
+
 Regardless of how you get the device mounted, now go ahead and copy the generated `uf2` file to the device (Because I was lazy, I didn't bother with setting user write access to the drive when manually mounting it, so you need super user)
+
 ```bash 
 sudo cp pico_micro_ros_example.uf2 /media/pico
 ```
+
 After you do this, the Pico will reboot and present as a USB serial device.  You'll see it is still there (via `lsusb`), but instead of identifying as ` Raspberry Pi RP2 Boot` it will identify as merely `Raspberry Pi Pico`, and it won't have a ` blkid -o list` entry (because it is no longer identifying as a USB mass storage device).  Congratulations! You're now running your first MicroROS program.  But what is it saying?
 
 # Installing the Micro-Ros-Agent
 
 11. **FAIL** I tried to [install micro-ros-agent](https://ubuntu.com/blog/getting-started-with-micro-ros-on-raspberry-pi-pico)...With Ubuntu it is supposed to be a `snap`  (*You see what I did there...*)...except there is no support for arm64. So it looks like we've gotta [build micro-ros-agent from scratch](https://github.com/micro-ROS/micro_ros_setup#building).  I guess it will set up a bunch of other things for ROS development later on so we might as well:
+
 ```bash
 source /opt/ros/humble/setup.bash  # assuming that we use ros2/humble distro
 sudo rosdep init
@@ -122,6 +129,7 @@ source install/local_setup.sh
 **STATUS**:  Waited for the micro-ros-agent build to complete :-( 11 hours and counting, and the Rapsberry Pi has been throttled the whole time.  This is probably not the way....[Someone else raised this issue Dec 2022. tl;dr is that there is not enough memory/swap space on the Pi 3B+ (1GB total) to directly compile micro-ros-agent](https://github.com/micro-ROS/micro-ROS-Agent/issues/178) So maybe the easy fix is to use a heartier (better provisioned Pi as the host.)
 
 11. **FAIL** Let's [try another way](https://answers.ros.org/question/373503/micro-ros-agent-on-raspberry-pi-3/).  In the end, micro-ros-agent is just a wrapper around XRCE-DDS, so try to go directly there:
+
 ```bash
 sudo snap install micro-xrce-dds-agent
 sudo snap set core experimental.hotplug=true  #enable usb hot plugging
