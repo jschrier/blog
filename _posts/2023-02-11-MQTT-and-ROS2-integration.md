@@ -20,7 +20,7 @@ But how do we set it up?  We'll use the [Eclipse Mosquitto broker](https://mosqu
 [Robofoundry has a Sept 2022 demo](https://robofoundry.medium.com/combining-ros2-and-mqtt-on-esp32-to-send-twist-messages-bab758cf098) which we'll follow along with as well as the [mosquitto documentation](https://mosquitto.org/documentation/using-the-snap/) and the [mqtt-bridge ros2](https://github.com/groove-x/mqtt_bridge/tree/ros2) docuemntation.  
 The latter takes care of the serialization of ROS2 standard messages for us. 
 
-0. We've [already got a RPi 3B+ setup with Ubuntu 20.04 and ROS2/Humble]({{ site.baseurl }}{% post_url 2023-02-04-ROS-Setup-For-Raspberry-Pi-and-Pico %}) 
+0. We've [already got a RPi 3B+ setup with Ubuntu 20.04 and ROS2/Humble]({{ site.baseurl }}{% post_url 2023-02-04-ROS-Setup-For-Raspberry-Pi-and-Pico %}) .  No need for MicroROS, etc.  Just plain old ROS2 installed.
 1. We're running Ubuntu so we can [use a snap to install mosquitto]((https://mosquitto.org/documentation/using-the-snap/))---alternatively, instructions for [installing on Raspbian can be found elsewhere](https://peppe8o.com/mqtt-and-raspberry-pi-pico-w-start-with-mosquitto-micropython/)
 ```bash
 sudo snap install mosquitto
@@ -29,6 +29,7 @@ After installing the Mosquitto snap, the Mosquitto broker will be running with t
 2. Test the broker:  In one terminal test the subscriber by running:
 `mosquitto_sub -h localhost -t 'snap/example' -v` . (The `-t snap/example` option sets the topic to subscribe to, and can be provided multiple times.  `#` or `+` can be used for wildcards, and `$SYS/#` allows you to see topics that the broker publishes about itself. The `-v` option means to print both the topic of the message as well as its payload.) Open up another terminal window and run `mosquitto_pub -h localhost -t 'snap/example' -m 'Hello world!'`  You should see the message get transferred. (`-m` indicates the message to get published on the topic).
 3. Once you have finished your testing, you will want to configure your broker to have encrypted connections and use authentication, possibly configuring bridges, which allow different brokers to share topics, or many other options.  To do this: 
+
 ```bash
 #create and edit config file for mosquitto broker like this
 sudo cp /var/snap/mosquitto/common/mosquitto_example.conf /var/snap/
@@ -41,6 +42,7 @@ sudo systemctl start snap.mosquitto.mosquitto.service
 ```
 
 4. Install the `mqtt_bridge`:
+
 ```bash
 #setup pre-reqs...
 sudo apt-get install python3-pip  # should already have this
@@ -54,38 +56,51 @@ pip3 install -r requirement.txt
 source /opt/ros/humble/setup.bash 
 colcon build    #throws an innocuous stderr about a deprecated library
 ```
+
 5. Test the `mqtt_bridge`.  In a new terminal window run the bridge:
+
 ```bash
 cd mqtt_bridge
 source /opt/ros/humble/setup.bash
 source install/local_setup.bash
 ros2 launch mqtt_bridge demo.launch.py &
 ```
+
 This creates interfaces `/ping` and `/pong` which respond to booleans.  
 The details of how these get bridged from MQTT to/from ROS are described in the configuration file `mqtt_bridge/config/demo_params.yaml`.
 In another terminal window, use mosquitto to watch for MQTT messages:
+
 ```bash
 mosquitto_sub -t '#' -v  #look ma! no ROS setups sourced!
 ```
+
 In another terminal window, publish a ROS message...it should show up in our mosquitto subscriber terminal:
+
 ```bash
 source /opt/ros/humble/setup.bash
 ros2 topic pub /ping std_msgs/Bool "data: true"
 ```
+
 We can see the same message show up in ROS as well if we run the following:
+
 ```bash
 source /opt/ros/humble/setup.bash
  ros2 topic echo /pong
 ```
+
 Stop the ros2 publisher and mosquitto subscribers.  And then try the following:
+
 ```bash
 mosquitto_pub -t 'ping' -m '{"data":false}'
 ```
+
 This should show up in your ros2 pong subscriber! Warnings: the mqtt_bridge is a bit fragile.  The messages have to be validly formatted JSON for this to work, and if they are not, you'll crash the bridge. 
 Other ros data types are also supported, e.g., this demo server also has a channel back that reports strings:
+
 ```bash
 ros2 topic echo /back  #look for things on the echo topic
 ``` 
+
 The input channel is called echo:
 ```bash
 mosquitto_pub -t 'echo' -m '{"data": "foo"}'
