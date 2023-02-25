@@ -1,10 +1,10 @@
 ---
 Title: "Predicting Rare Earth Element Separation Chemistry"
 Date: 2023-02-25
-Tags: science, machine-learning, ml
+Tags: science, machinelearning, ml
 ---
 
-For a new project on f-element (rare earths and actinide) separation, I am trying to wrap my head around the literature.  There is a very nice recent result from De-en Jiang and co. where they created a dataset of 1600 lanthanide rare-earth separation experiments, featurizing the extractant molecules with fingerprints and RDKit style features, featuring the solvents with some properties, and featurizing the metals themselves with a few periodic properties.  (Liu et al, "Advancing Rare Earth Separations" *JACS Au* 2022 https://doi.org/10.1021/jacsau.2c00122 ). The supporting information contains the compete dataset (yay!) but not the neural network that they trained (although it describes it in the text).  **Let's reproduce their result by training our own neural network...**
+For a new project on f-element (rare earths and actinide) separation, I am trying to wrap my head around the literature.  There is a very nice [recent result](https://doi.org/10.1021/jacsau.2c00122) from [De-en Jiang](https://scholar.google.com/citations?user=BR4f0JYAAAAJ&hl=en&oi=ao) and co. where they created a dataset of 1600 lanthanide rare-earth separation experiments, featurizing the extractant molecules with fingerprints and RDKit style features, featuring the solvents with some properties, and featurizing the metals themselves with a few periodic properties.  (Liu et al, "Advancing Rare Earth Separations" *JACS Au* 2022 [https://doi.org/10.1021/jacsau.2c00122](https://doi.org/10.1021/jacsau.2c00122) ). The supporting information contains the compete dataset (yay!) but not the neural network that they trained (although it describes it in the text).  **Let's reproduce their result by training our own neural network...**
 
 ## Data Import and Preparation
 
@@ -127,13 +127,13 @@ This is a bit worse than what is reported in the supporting information (validat
 With[
   {predictedD = trainedNet /@ validationSet[[All, 1]], 
    actualD = validationSet[[All, 2]], 
-   parityLine = Plot[x, {x, -4, 4}, PlotStyle -> {{Red, Dotted}}] 
+   parityLine = Plot[x, {x, -4, 4}, PlotStyle -> { {Red, Dotted}}] 
   }, 
   Show[
    ListPlot[
     Transpose[{predictedD, actualD}], 
     Frame -> True, FrameLabel -> {"Predicted log D", "Actual log D"}, 
-    AspectRatio -> 1, PlotRange -> {{-3.1, 3.1}, {-3.1, 3.1}}, PlotStyle -> Black], 
+    AspectRatio -> 1, PlotRange -> { {-3.1, 3.1}, {-3.1, 3.1}}, PlotStyle -> Black], 
    parityLine]]
 ```
 
@@ -153,7 +153,7 @@ With[
 
 ```mathematica
 NotebookFileName[]
-ToJekyll["Predicting Rare Earth Element Separation Chemistry", "science, machine-learning, ml"]
+ToJekyll["Predicting Rare Earth Element Separation Chemistry", "science, machinelearning, ml"]
 
 (*"/Users/jschrier/Dropbox/journals/science/2023.02.25_jiang_lanthanide_model/2023.02.25_jiang_lanthanide_model.nb"*)
 ```
