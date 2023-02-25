@@ -139,6 +139,41 @@ With[
 
 ![0bdipd5a8icl1](/blog/images/2023/2/25/0bdipd5a8icl1.png)
 
+## How well does this perform relative to a Random Forest/GBT models?
+
+**Comment**: A limitation in the paper is that they don't have a baseline.  So let's make one with a simple random forest and GBT models.  For reference, the random forest trains in about 5 seconds and the GBT in about 30 seconds:
+
+```mathematica
+rf = Predict[trainingSet, Method -> "RandomForest", PerformanceGoal -> "Quality"]
+PredictorMeasurements[%, validationSet]
+%[{"RSquared", "MeanDeviation", "StandardDeviation"}]
+```
+
+![0rnoff0y5fpxq](/blog/images/2023/2/25/0rnoff0y5fpxq.png)
+
+![1gecl0doazjtp](/blog/images/2023/2/25/1gecl0doazjtp.png)
+
+```
+(*{0.794043, 0.440639, 0.618681}*)
+```
+
+```mathematica
+gbt = Predict[trainingSet, Method -> "GradientBoostedTrees", PerformanceGoal -> "Quality"]
+PredictorMeasurements[%, validationSet]
+%[{"RSquared", "MeanDeviation", "StandardDeviation"}]
+```
+
+![0ihs21pdp0b7i](/blog/images/2023/2/25/0ihs21pdp0b7i.png)
+
+![0ztz2brsson7b](/blog/images/2023/2/25/0ztz2brsson7b.png)
+
+```
+(*{0.802496, 0.442316, 0.605852}*)
+```
+
+Comparing these results to the ones from our neural network fit `{0.78438, 0.406454, 0.633028}` and the paper's reported results `{0.85, 0.34, 0.53}`, we can see that a simple RF or GBT without extensive hyperparameter tuning  essentially reproduces the best results in the paper, with only a fraction of the compute resources.  This might open the door for doing a [conformal prediction]({{ site.baseurl }}{% post_url 2022-07-30-Conformal-prediction-example %}) using the cheaper RF model.
+
+
 ## Next Steps/Improvements
 
 - Can we further improve the fit?
