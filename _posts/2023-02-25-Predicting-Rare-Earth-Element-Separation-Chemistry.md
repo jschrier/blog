@@ -171,8 +171,58 @@ PredictorMeasurements[%, validationSet]
 (*{0.802496, 0.442316, 0.605852}*)
 ```
 
-Comparing these results to the ones from our neural network fit `{0.78438, 0.406454, 0.633028}` and the paper's reported results `{0.85, 0.34, 0.53}`, we can see that a simple RF or GBT without extensive hyperparameter tuning  essentially reproduces the best results in the paper, with only a fraction of the compute resources.  This might open the door for doing a [conformal prediction]({{ site.baseurl }}{% post_url 2022-07-30-Conformal-prediction-example %}) using the cheaper RF model.
+Comparing these results to the ones from our neural network fit `{0.78438, 0.406454, 0.633028}` and the paper's reported results `{0.85, 0.34, 0.53}`, we can see that a simple RF or GBT without extensive hyperparameter tuning  essentially reproduces the best results in the paper, with only a fraction of the compute resources.  This might open the door for doing a [conformal prediction]({{ site.baseurl }}{% post_url 2022-07-30-Conformal-prediction-example %}) using the cheaper RF model.  [Johansen et al. discuss specific implementation details about regression conformal prediction with RF](https://link.springer.com/article/10.1007/s10994-014-5453-0)
 
+## Addendum: Optimizing using ADAM (27 Feb 2023)
+
+
+What if we try using default learning parameters ([ADAM](https://optimization.cbe.cornell.edu/index.php?title=Adam) as an optimizer, etc.)?  Let's retrain and find out:
+
+```mathematica
+result2 = NetTrain[net, trainingSet, All, 
+   LossFunction -> MeanAbsoluteLossLayer[],(*aka L1 loss*)
+   MaxTrainingRounds -> hyperparameter["epochs"]]
+```
+
+![1goqvqy9gh1ir](/blog/images/2023/2/27/1goqvqy9gh1ir.png)
+
+```mathematica
+Save["adamNet.wl", result2]; (* complete net results object on training history*)
+adamNet = result2["TrainedNet"]
+Export["adamNet.wlnet", adamNet] (*just the trained weights*)
+```
+
+![0wd9ud4i2mng9](/blog/images/2023/2/27/0wd9ud4i2mng9.png)
+
+```
+(*"adamNet.wlnet"*)
+```
+
+How well does it compare to the results in the paper (recall that they report report: `{0.85, 0.34, 0.53}`)?
+
+```mathematica
+NetMeasurements[adamNet, #, {"RSquared", "MeanDeviation", "StandardDeviation"}] & /@ {trainingSet, validationSet}
+
+(*{ {0.99287, 0.0618658, 0.115507}, {0.950707, 0.188798, 0.30267}}*)
+```
+
+Awesome!  We beating their metrics (although again, I suspect there may be some backdoor overfitting)
+
+```mathematica
+With[
+  {predictedD = adamNet /@ validationSet[[All, 1]], 
+   actualD = validationSet[[All, 2]], 
+   parityLine = Plot[x, {x, -4, 4}, PlotStyle -> {{Red, Dotted}}] 
+  }, 
+  Show[
+   ListPlot[
+    Transpose[{predictedD, actualD}], 
+    Frame -> True, FrameLabel -> {"Predicted log D", "Actual log D"}, 
+    AspectRatio -> 1, PlotRange -> { {-3.1, 3.1}, {-3.1, 3.1}}, PlotStyle -> Black], 
+   parityLine]]
+```
+
+![08qfh6xfqnbvr](/blog/images/2023/2/27/08qfh6xfqnbvr.png)
 
 ## Next Steps/Improvements
 
