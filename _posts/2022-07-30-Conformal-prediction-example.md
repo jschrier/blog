@@ -39,7 +39,7 @@ Show[data, predictions]
 
 ![0wtkhkiyhj4t9](/blog/images/2022/7/30/0wtkhkiyhj4t9.png)
 
-The *conformance function* S(x,y|X,Y) checks the accuracy of the prediction--a common choice is merely the absolute difference between the prediction and the observed values. We implement it as a function of the learned weights:
+The *conformance function* `S(x,y|X,Y)` checks the accuracy of the prediction--a common choice is merely the absolute difference between the prediction and the observed values. We implement it as a function of the learned weights:
 
 ```mathematica
 conformanceS[x_, y_, w_] := Abs[y - hatY[x, w]]
