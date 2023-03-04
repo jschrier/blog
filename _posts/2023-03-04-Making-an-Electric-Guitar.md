@@ -4,7 +4,7 @@ Date: 2023-03-04
 Tags: cnc, fusion360, music
 ---
 
-*Joseph Tardio asks:  I want to make a custom electric guitar...*  I'm always in for doing some Fusion360 and CNC projects, so**here's a guide to making your own custom electric guitar by CNC milling...**
+*Joseph Tardio asks:  I want to make a custom electric guitar...*  **I'm always in for a Fusion360 and CNC project...**
 
 ## Body
 

@@ -1,6 +1,6 @@
 ---
 Title: "Imaginary Books: Schopenhauer für Kinder"
-Date: 2023-03-05
+Date: 2023-03-04
 Tags: imaginary-books, children, philosophy
 ---
 
