@@ -1,7 +1,7 @@
 ---
 Title: "Imaginary Cinema: The Sting but with Chiguiros"
 Date: 2023-02-24
-Tags: imaginary-cinema, art
+Tags: imaginary-cinema, art, chiguiro
 ---
 
 **Premise:** Remake [The Sting](https://en.wikipedia.org/wiki/The_Sting), but with all of the characters played by [chiguiros](https://en.wikipedia.org/wiki/Capybara)....
