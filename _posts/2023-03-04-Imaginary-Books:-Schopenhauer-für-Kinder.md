@@ -1,7 +1,7 @@
 ---
 Title: "Imaginary Books: Schopenhauer für Kinder"
 Date: 2023-03-04
-Tags: imaginary-books, children, philosophy
+Tags: imaginary-books children philosophy
 ---
 
 **Premise:** A children's picture book about the philosophy of [Arthur Schopenhauer](https://en.wikipedia.org/wiki/Arthur_Schopenhauer)  **Outline...** (loosely based on [Die Welt als Wille und Vorstellung](https://en.wikipedia.org/wiki/The_World_as_Will_and_Representation))

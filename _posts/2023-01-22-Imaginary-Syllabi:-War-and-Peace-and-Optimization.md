@@ -1,7 +1,7 @@
 ---
 Title: "Imaginary Syllabi: War and Peace and Optimization"
 Date: 2023-01-22
-Tags: teaching, optimization, imaginary-syllabi
+Tags: teaching optimization imaginary-syllabi
 ---
 
 A course for non-math majors on optimization and its role in hot- and cold-wars.  Students will learn  elementary aspects of mathematical optimization, with a special focus on linear programming, as viewed through the historical developments of WWII and the Cold War,  and do some relevant calculations in Mathematica. **Reading lists to include...**
@@ -26,15 +26,16 @@ A course for non-math majors on optimization and its role in hot- and cold-wars.
 * Presh Talwar, [The Joy of Game Theory](https://amzn.to/3ZXPFrt) --- essays about game theory topics for a popular audience
 * Ken Binmore, [Playing for Real: A Text on Game Theory](https://amzn.to/3iXl7Wk) --advanced undergraduate course on game theory for economists and social scientists
 * O'Conner & Robertson (1996) [History of matrices and determinants (website)](https://mathshistory.st-andrews.ac.uk/HistTopics/Matrices_and_determinants/)
+
 # Other books on reserve
 
 (Mostly gleanings from the bibliography of *Red Plenty*)
 * Michael Ellman, *Planning Problems in the USSR* (CUP 1973)
-* Philip Minkowski, *Machine Dreamss: Economics Becomes a Cyborg Science* (CUP, 2002)
+* Philip Minkowski, *Machine Dreams: Economics Becomes a Cyborg Science* (CUP, 2002)
 * F. A. Hayek, *The Use of Knowledge in Society* 
 * von Mises, *Socialism*
 
 # Comments and Collaborators
 
-* (23 Jan 2023) Zachary Jones '25 adds: *Red Plenty is actually one of my favorite books of all time actually! I intend to do a blog post on Kantarovich's On the Best Use of Economic Resources. Dr. Siddiqi in the [Fordham] history department's research focuses on Soviet scientific history, so I think he would be the one to get in contact with. I have reached out to him before asking various questions, so he may be receptive to such a course. I would take an ICC+EP3 course titled "Linear Programming, Economic Planning, and the Cybernetic Imaginary" in a heartbeat.*
+* (23 Jan 2023) Zachary Jones '25 adds: *Red Plenty is actually one of my favorite books of all time actually! I intend to do a blog post on Kantarovich's On the Best Use of Economic Resources. [Dr. Siddiqi in the Fordham history department](https://www.asifsiddiqi.com)'s research focuses on Soviet scientific history, so I think he would be the one to get in contact with. I have reached out to him before asking various questions, so he may be receptive to such a course. I would take an ICC+EP3 course titled "Linear Programming, Economic Planning, and the Cybernetic Imaginary" in a heartbeat.*
 

@@ -1,7 +1,7 @@
 ---
 Title: "Imaginary Books: Famous Hungarians from A to Z"
 Date: 2023-03-04
-Tags: imaginary-books, children
+Tags: imaginary-books children
 ---
 
 **Premise:** A children's picture book with short biographies of famous Hungarians, with an emphasis on mathematics, science, engineering (but with occasional pop-culture figures to liven things up). Inspired by discussions with my friend Chris Görog about the *Erziehung* of his children.  **Entries to include...**
@@ -24,11 +24,11 @@ Tags: imaginary-books, children
 - **Polanyi family** [Michael](https://en.wikipedia.org/wiki/Michael_Polanyi) (1891-1976) physical chemist, economist, polymath & Nobel Laureate, [Karl](https://en.wikipedia.org/wiki/Karl_Polanyi)(1886-1964) economimic anthropologist, [John](https://en.wikipedia.org/wiki/John_Polanyi) (1929-) chemist & Nobel Laureate
 - **Q**
 - [Rubik, Erno](https://en.wikipedia.org/wiki/Ernő_Rubik) (1944-) Inventor of the epoynymous cube
-- [Szilard, Leo](https://en.wikipedia.org/wiki/Leo_Szilard) (1898-1964) Inventor of nuclear fission chain reaction  **displacing...**  [Soros, George](https://en.wikipedia.org/wiki/George_Soros) (1930-) Financier and philanthropist 
+- [Szilard, Leo](https://en.wikipedia.org/wiki/Leo_Szilard) (1898-1964) Inventor of nuclear fission chain reaction  **displacing...**  [Soros, George](https://en.wikipedia.org/wiki/George_Soros) (1930-) Financier, philanthropist, and favorite subject of conspiracy theorists 
 - [Teller, Edward](https://en.wikipedia.org/wiki/Edward_Teller) (1908-2003) Inventor of the hydrogen bomb   
 - [Uvardy, Ferdinand](https://en.wikipedia.org/wiki/Ferdinand_Udvardy) (1895-1946?) World War I flying ace
 - **V** *pick another von to fill things in...*
-- [Wigner, Eugene](https://en.wikipedia.org/wiki/Eugene_Wigner) (1902-1995) theoretical physicist & Nobel Laureate
-- **X** :  *Maybe we can put....*[Staller, Ilona](https://en.wikipedia.org/wiki/Ilona_Staller) (1951-) aka Cicciolina, an X-Rated film starlet 
+- [Wigner, Eugene](https://en.wikipedia.org/wiki/Eugene_Wigner) (1902-1995) theoretical physicist & Nobel Laureate; **alternate** [Wald, Abraham](https://www.privatdozent.co/p/the-legend-of-abraham-wald) (1902-1950) statistician
+- **X** :  *Maybe we can put....*[Staller, Ilona](https://en.wikipedia.org/wiki/Ilona_Staller) (1951-) aka Cicciolina, an *X-Rated* film actress 
 - **Y**
 - [Zsigmondy, Richard Adolf](https://en.wikipedia.org/wiki/Richard_Adolf_Zsigmondy) (1865-1929) Colloid chemist & Nobel Laureate
