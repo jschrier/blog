@@ -1,0 +1,120 @@
+---
+Title: "Imaginary Books: Schopenhauer für Kinder"
+Date: 2023-03-05
+Tags: imaginary-books, children, philosophy
+---
+
+**Premise:** A children's picture book about the philosophy of [Arthur Schopenhauer](https://en.wikipedia.org/wiki/Arthur_Schopenhauer)  **Outline...** (loosely based on [Die Welt als Wille und Vorstellung](https://en.wikipedia.org/wiki/The_World_as_Will_and_Representation))
+
+The trick is to have a proper mix of depressing text/wolrdview and cheerful pictures.  I think this will play better in the German market.  Each text has a page of figures, with a text description below.
+
+## Wer war Schopenhauer und was macht er?
+
+[[Introduction…who is Schopenhauer.  What is a philosopher.  What is he famous for.]]
+
+- [[Philosopher (what does a philosopher do?)]]
+- [[Daily routine: Philosophy, flute, walk, reading, theater]]
+- [[Emphasize the his poodle, Atma]]
+- [[Maybe downplay kicking the landlady down the stairs and misogyny...]]
+
+## Erstes Buch:  Die Vorstellung unterworfen dem Satze vom Grunde: das Objekt der Erfahrung und Wissenschaft. 
+
+- Kannst du die Welt wirklich kennen?  Leider nicht.
+- *Scientist in a labcoat.  Looking a a telescope.  Looking at a microscope*
+
+- Du siehst…du betastest…du hörst….du riechst…du schmeckst…aber alles ist nur Vorstellung.  
+- *Kid seeing, touching, listening to, etc. stuff*
+
+- Ein Traum erscheinst dich wahr, aber wenn du aufwachst, kennst du, dass er nur eine Vorstellung ist?
+- *Kid in a dream being chased by a monster/waking up in bed in a dark room scared; split with a monster child dreaming of chasing a human/waking up in bed sad*
+
+- Leider ebenso ist die Realität.  Deine Vorstellungen sind nur äußerlich.  Und der Schein trügt.  
+- *Pictures of everyday things as “hollow” and filled with psychedelic colors*
+
+- Du kannst nie die echte Welt kennen.  Du kannst nur Vorstellungen bekommen.  
+- *No idea how to illustrate this!* 
+
+- Alle deinen Vorstellungen sind äußerlich außer einem:  Der Wille.  Vielleicht du kannst ihn kennenlernen!
+- *Constrast inner perspective/external perspective*
+
+
+## Zweites Buch:  Die Objektivation des Willens. (*Book 2: Ontology*)
+
+- Was ist der Wille?   Alles ist der Wille.  Der Wille mag immer mehr.  Und der Wille hat dich kein lieb.  
+- *Question mark.  Hazy cloud “Der Wille”*
+
+- Die Atome willen Molekülen werden.  Die Molekülen willen Sternen und Planeten werden.  
+- *Atoms to molecules to sun + planets + galaxy*
+
+- Ein Kaninchen will Karotten fressen … eine hübsche Kanichenfrau lieben … Kanichenkinder … ein Kaninchenbau.
+- *Picture of rabbit eating a carrot cake, with another rabbit and a heart,  baby rabbits,  a rabbit house*
+
+- Ein Wolf will das Kaninchen fressen … um sein eigene Kinder zu füttern. 
+- *Wolf eating the rabbit (or rabit-shaped cake (with ears)) … giving carcass to baby wolves*
+
+- Du willst ein Spielzeug… einen Apfel …  einen Pulli … einen Verband.  Warum?   
+- *Child with toy, apple, sweater (shivering), band aid (for a skinned knee)  *
+
+- Dein Körper will nicht traurig … nicht verhungern … nicht frieren … nicht sterben.
+- *Body cross section.  Brain…thought bubble of toy(!).  Stomach … thought bubble of apple(!)  Skin…thought bubble of sweater(!)*
+
+- Der Wille liebt nichts and niemand.  Der Wille liebt nur großer zu werden.  
+- *Show powers-of-ten style molecules-ecosystems-apartment building-cities-planet-galaxy*
+
+
+## Drittes Buch:  Die Vorstellung, unabhängig vom Satze des Grundes: die Platonische Idee: das Objekt der Kunst.(*Book 3: Aesthetics*)
+
+- Kannst du wirklich glücklich sein?  Leider nicht.  
+- *Smiling child*
+
+- Der Wille  macht dich immer unzufrieden.
+- *Blue cloud of Der Wille up above…pulling marionette strings of the child as puppet*
+
+- Nach dem Essen wirst du nochmal Hunger haben.
+- *Picture of kid eating (night time).  Then picture of daytime and thought bubble of apple from stomach. (keep the Will/puppet strings from previous picture here)*
+
+- Deine Spielzeuge werden sich kaputt.  Diene Eltern und Freunde werden dich verlassen.
+- *Picture of broken toy.  Picture of a funeral.*
+
+- Du wirst enttäuschen … [sich?] kranken …  sterben.   Vielleicht ist es nicht so schlecht.  
+- *Picture of kid crying?, sick in bed, in a coffin, flower growing on grave & happy worms eating corpse*
+
+- ,,Jeden Abend sind wir um einen Tag ärmer.''
+
+- Du kannst dich beim Kunst vergnügen.  Für eine kurze Zeit vergesse den Willen!
+- *Museum wall with dutch still-life paintings.  Have Schopenhaur portrait pointing at still life*
+
+- ,,Jedes Kind ist gewissermaßen ein Genie und jedes Genie gewissermaßen ein Kind.''
+- *Kid painting a Picasso style painting in the foreground, and in the background a Picasso-style painting of a painter painting a child*
+
+
+## Viertes Buch:  Bei erreichter Selbsterkenntniß Bejahung und Verneinung des Willens zum Leben. (*Book 4: Ethics*)
+
+- ,,Wir denken selten an das, was wir haben, aber immer an das, was uns fehlt.''
+
+- Du hast eine Wahl: Unterstütze den Willen oder nicht.  Was willst du?
+- *Happy kid with exclamation point*
+
+- Der Wille macht das Leben voll Wünsche. [ Leb ohne Wünsche und tu wirst Freude haben.]
+- *return to picture of kid with thought bubbles.  Put a big “cancel” circle on each of the thought bubbles.*
+
+- Magst du dich diese Wünsche versagen?
+
+- Wann du Lust auf etwas hast, vernein sie!
+
+- Gib deine Lieblingsspielzeuge zu andere Kinder.  
+- *Giving toy to other children*
+- ,,Das Geld gleicht dem Seewasser. Je mehr davon getrunken wird, desto durstiger wird man.'' (*put zitate in [Fraktur](https://en.wikipedia.org/wiki/Fraktur) as part of image)
+
+
+- Sei immer gut zur böse, unglücklich und dumm Tiere (und Menschen).
+- *Feeding a angry cat*
+- ,,Wer gegen Tiere grausam ist, kann kein guter Mensch sein.''
+
+- Du wird noch leiden.  Schade.  
+- *Kid getting beat up  after giving away toys and feeding angry cats*
+- ,,Die Menschen sind wesentlich böse, wesentlich unglücklich, wesentlich dumm.''
+
+- ,,Das Schicksal mischt die Karten, wir spielen.''
+- *Picture of a poker table, with cards depicting different happy and sad fates that have been depicted in the book
+
