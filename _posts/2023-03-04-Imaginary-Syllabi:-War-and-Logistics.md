@@ -4,9 +4,7 @@ Date: 2023-03-04
 Tags: teaching optimization imaginary-syllabi
 ---
 
-An interdisciplinary course on the philosophy and history of logistics and war (as distinct from [economic optimization and war](({{ site.baseurl }}{% post_url 2023-01-22-Imaginary-Syllabi:-War-and-Peace-and-Optimization %})) proposed earlier).Students will focus on the philosophy/criticism of [Paul Virilio](https://en.wikipedia.org/wiki/Paul_Virilio), historical examples of logistics, and elementary aspects of mathematical modeling of logistics, with a special focus on linear programming and Monte Carlo simulations (performing relevant calculations in Mathematica). **Reading lists to include...**
-
-*Hat tip to Zachary Jones '25 for inspiring the idea (and telling me about his readings of Virilio)*
+*Inspired by a discussion with Zachary Jones '25:* An interdisciplinary course on the philosophy and history of logistics and war (as distinct from [economic optimization and war](({{ site.baseurl }}{% post_url 2023-01-22-Imaginary-Syllabi:-War-and-Peace-and-Optimization %})) proposed earlier).Students will focus on the philosophy/criticism of [Paul Virilio](https://en.wikipedia.org/wiki/Paul_Virilio), historical examples of logistics, and elementary aspects of mathematical modeling of logistics, with a special focus on linear programming and Monte Carlo simulations (performing relevant calculations in Mathematica). **Reading lists to include...**
 
 ## Required texts
 
@@ -22,6 +20,7 @@ An interdisciplinary course on the philosophy and history of logistics and war (
 - Liu, [Supply Chain Analytics](https://amzn.to/3JbgjH9) --- source of problems for data-analytics/ML type exercises
 
 ## Fordham stuff
+
  - Run this as an [Interdisciplinary Capstone](https://bulletin.fordham.edu/undergraduate/fordham-college-core-curriculum/capstone-courses/) (Philosophy + History + [Military Science](https://bulletin.fordham.edu/undergraduate/special-academic-programs/rotc/army-rotc-military-science/#coursestext) + [Gabelli](https://www.fordham.edu/gabelli-school-of-business/academic-programs-and-admissions/undergraduate-programs/) + Math).  Find some co-conspirators
 
 

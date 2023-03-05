@@ -1,12 +1,10 @@
 ---
 Title: "Imaginary Books: Schopenhauer für Kinder"
 Date: 2023-03-04
-Tags: imaginary-books children philosophy
+Tags: imaginary-books children philosophy deutsch
 ---
 
-**Premise:** A children's picture book about the philosophy of [Arthur Schopenhauer](https://en.wikipedia.org/wiki/Arthur_Schopenhauer)  **Outline...** (loosely based on [Die Welt als Wille und Vorstellung](https://en.wikipedia.org/wiki/The_World_as_Will_and_Representation))
-
-The trick is to have a proper mix of depressing text/wolrdview and cheerful pictures.  I think this will play better in the German market.  Each text has a page of figures, with a text description below.
+**Premise:** A children's picture book about the philosophy of [Arthur Schopenhauer](https://en.wikipedia.org/wiki/Arthur_Schopenhauer), loosely organized on [Die Welt als Wille und Vorstellung](https://en.wikipedia.org/wiki/The_World_as_Will_and_Representation). The trick is to have a proper mix of depressing text/wolrdview and cheerful pictures.  I think this will play better in the German market.  Each text line has a full-page figure (italicized text description).  Some quotations from [Schopy]((https://en.wikipedia.org/wiki/Arthur_Schopenhauer)) to be typset in [Fraktur](https://en.wikipedia.org/wiki/Fraktur) as part of graphic.  **Outline...** 
 
 ## Wer war Schopenhauer und was macht er?
 
@@ -53,13 +51,13 @@ The trick is to have a proper mix of depressing text/wolrdview and cheerful pict
 - *Wolf eating the rabbit (or rabit-shaped cake (with ears)) … giving carcass to baby wolves*
 
 - Du willst ein Spielzeug… einen Apfel …  einen Pulli … einen Verband.  Warum?   
-- *Child with toy, apple, sweater (shivering), band aid (for a skinned knee)  *
+- *Child with toy, apple, sweater (shivering), band aid (for a skinned knee)*
 
 - Dein Körper will nicht traurig … nicht verhungern … nicht frieren … nicht sterben.
 - *Body cross section.  Brain…thought bubble of toy(!).  Stomach … thought bubble of apple(!)  Skin…thought bubble of sweater(!)*
 
 - Der Wille liebt nichts and niemand.  Der Wille liebt nur großer zu werden.  
-- *Show powers-of-ten style molecules-ecosystems-apartment building-cities-planet-galaxy*
+- *Show [powers-of-ten style](https://en.wikipedia.org/wiki/Powers_of_Ten_(film)) molecules-ecosystems-apartment building-cities-planet-galaxy*
 
 
 ## Drittes Buch:  Die Vorstellung, unabhängig vom Satze des Grundes: die Platonische Idee: das Objekt der Kunst.(*Book 3: Aesthetics*)
@@ -78,34 +76,34 @@ The trick is to have a proper mix of depressing text/wolrdview and cheerful pict
 
 - Du wirst enttäuschen … [sich?] kranken …  sterben.   Vielleicht ist es nicht so schlecht.  
 - *Picture of kid crying?, sick in bed, in a coffin, flower growing on grave & happy worms eating corpse*
-
 - ,,Jeden Abend sind wir um einen Tag ärmer.''
 
 - Du kannst dich beim Kunst vergnügen.  Für eine kurze Zeit vergesse den Willen!
 - *Museum wall with dutch still-life paintings.  Have Schopenhaur portrait pointing at still life*
-
 - ,,Jedes Kind ist gewissermaßen ein Genie und jedes Genie gewissermaßen ein Kind.''
 - *Kid painting a Picasso style painting in the foreground, and in the background a Picasso-style painting of a painter painting a child*
 
 
 ## Viertes Buch:  Bei erreichter Selbsterkenntniß Bejahung und Verneinung des Willens zum Leben. (*Book 4: Ethics*)
 
-- ,,Wir denken selten an das, was wir haben, aber immer an das, was uns fehlt.''
+
 
 - Du hast eine Wahl: Unterstütze den Willen oder nicht.  Was willst du?
 - *Happy kid with exclamation point*
 
-- Der Wille macht das Leben voll Wünsche. [ Leb ohne Wünsche und tu wirst Freude haben.]
+- Der Wille macht das Leben voll Wünsche. Leb ohne Wünsche und tu wirst Freude haben.
 - *return to picture of kid with thought bubbles.  Put a big “cancel” circle on each of the thought bubbles.*
+- ,,Wir denken selten an das, was wir haben, aber immer an das, was uns fehlt.''
 
 - Magst du dich diese Wünsche versagen?
+- *?*
 
 - Wann du Lust auf etwas hast, vernein sie!
+- *?*
 
 - Gib deine Lieblingsspielzeuge zu andere Kinder.  
 - *Giving toy to other children*
-- ,,Das Geld gleicht dem Seewasser. Je mehr davon getrunken wird, desto durstiger wird man.'' (*put zitate in [Fraktur](https://en.wikipedia.org/wiki/Fraktur) as part of image)
-
+- ,,Das Geld gleicht dem Seewasser. Je mehr davon getrunken wird, desto durstiger wird man.'' 
 
 - Sei immer gut zur böse, unglücklich und dumm Tiere (und Menschen).
 - *Feeding a angry cat*
@@ -116,5 +114,8 @@ The trick is to have a proper mix of depressing text/wolrdview and cheerful pict
 - ,,Die Menschen sind wesentlich böse, wesentlich unglücklich, wesentlich dumm.''
 
 - ,,Das Schicksal mischt die Karten, wir spielen.''
-- *Picture of a poker table, with cards depicting different happy and sad fates that have been depicted in the book
+- *Picture of a poker table, with cards depicting different happy and sad fates that have been depicted in the book*
 
+## Parerga and Paralipomena 
+
+- [Brian Magee's interview with Frederick Copleston, S.J. about Schopenhauer is great](https://www.youtube.com/watch?v=Oef8CBoKRds) ... I love how Copleston speaks about Schoppy as if he was a somewhat disreputable schoolmate of his.
