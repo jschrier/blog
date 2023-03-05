@@ -1,7 +1,7 @@
 ---
 Title: "Imaginary Cinema: Doctor Zhivago but with Chiguiros"
 Date: 2023-02-24
-Tags: imaginary-cinema, art, chiguiro
+Tags: imaginary-cinema art chiguiro
 ---
 
 **Premise:** Remake [Doctor Zhivago](https://en.wikipedia.org/wiki/Doctor_Zhivago_(film)), but with all of the characters played by [chiguiros](https://en.wikipedia.org/wiki/Capybara)....

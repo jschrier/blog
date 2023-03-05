@@ -1,7 +1,7 @@
 ---
 Title: "MQTT and ROS2 integration"
 Date: 2023-02-10
-Tags: ros, ros2, microros raspberrypi, pico, electronics, automation 
+Tags: ros ros2 microros raspberrypi pico electronics automation 
 ---
 [My previous failure to successfully compile micro-ros-agent]({{ site.baseurl }}{% post_url 2023-02-04-ROS-Setup-For-Raspberry-Pi-and-Pico %}) illustrates some of the challenges of setting up ROS2 in constrained environments.  First, ROS2 is really complicated  to install and restricts us to running on Ubuntu, which might make it hard to do fancy hardware stuff on the Raspberry Pi host that would be easier in Raspbian.
 Second, if we want to use micro-ros on our microcontroller (e.g., pico) , we're back to programming in C/C++, which increases the barrier for students. Third, you need more than 1GB of RAM on the Pi 3B+ to compile the micro-ros-agent that serves as a bridge between these functionalities.  **How can we keep the advantages of the ROS Publish/Subscribe model, but simplify our microcontroller development and interfacing?** *In this post, we'll look at using MQTT as a lightweight publish/subscribe service and how it can be interfaced with ROS2...*

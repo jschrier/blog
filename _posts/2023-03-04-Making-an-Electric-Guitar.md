@@ -1,7 +1,7 @@
 ---
 Title: "Making an Electric Guitar"
 Date: 2023-03-04
-Tags: cnc, fusion360, music
+Tags: cnc fusion360 music
 ---
 
 *Joseph Tardio asks:  I want to make a custom electric guitar...*  **I'm always in for a Fusion360 and CNC project...**
