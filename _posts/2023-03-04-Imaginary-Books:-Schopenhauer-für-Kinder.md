@@ -45,10 +45,10 @@ Tags: imaginary-books children philosophy deutsch
 - *Atoms to molecules to sun + planets + galaxy*
 
 - Ein Kaninchen will Karotten fressen … eine hübsche Kanichenfrau lieben … Kanichenkinder … ein Kaninchenbau.
-- *Picture of rabbit eating a carrot cake, with another rabbit and a heart,  baby rabbits,  a rabbit house*
+- *Picture of rabbit in a bowtie eating a slice of carrot cake (taken from a cake that looks like a carrot), with another rabbit and a heart,  baby rabbits,  a rabbit house*
 
 - Ein Wolf will das Kaninchen fressen … um sein eigene Kinder zu füttern. 
-- *Wolf eating the rabbit (or rabit-shaped cake (with ears)) … giving carcass to baby wolves*
+- *Wolf eating the rabbit (or rabit-shaped cake (with ears)!) … giving carcass (or a slice) to happy baby wolves*
 
 - Du willst ein Spielzeug… einen Apfel …  einen Pulli … einen Verband.  Warum?   
 - *Child with toy, apple, sweater (shivering), band aid (for a skinned knee)*
@@ -79,7 +79,7 @@ Tags: imaginary-books children philosophy deutsch
 - ,,Jeden Abend sind wir um einen Tag ärmer.''
 
 - Du kannst dich beim Kunst vergnügen.  Für eine kurze Zeit vergesse den Willen!
-- *Museum wall with dutch still-life paintings.  Have Schopenhaur portrait pointing at still life*
+- *Museum wall with Dutch still-life paintings.  Have Schopenhaur portrait pointing at still life*
 - ,,Jedes Kind ist gewissermaßen ein Genie und jedes Genie gewissermaßen ein Kind.''
 - *Kid painting a Picasso style painting in the foreground, and in the background a Picasso-style painting of a painter painting a child*
 
@@ -119,3 +119,9 @@ Tags: imaginary-books children philosophy deutsch
 ## Parerga and Paralipomena 
 
 - [Brian Magee's interview with Frederick Copleston, S.J. about Schopenhauer is great](https://www.youtube.com/watch?v=Oef8CBoKRds) ... I love how Copleston speaks about Schoppy as if he was a somewhat disreputable schoolmate of his.
+
+# Sample images
+
+*added 05 Mar 2023* Courtesy of [Crayonfou](https://crayonfou.com)
+
+![figure of schopenhauer and atma at the museum](/blog/images/2023/3/4/schopy_fig1.jpg)
