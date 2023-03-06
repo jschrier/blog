@@ -4,7 +4,9 @@ Date: 2023-03-04
 Tags: imaginary-books children philosophy deutsch
 ---
 
-**Premise:** A children's picture book about the philosophy of [Arthur Schopenhauer](https://en.wikipedia.org/wiki/Arthur_Schopenhauer), loosely organized on [Die Welt als Wille und Vorstellung](https://en.wikipedia.org/wiki/The_World_as_Will_and_Representation). The trick is to have a proper mix of depressing text/wolrdview and cheerful pictures.  I think this will play better in the German market.  Each text line has a full-page figure (italicized text description).  Some quotations from [Schopy]((https://en.wikipedia.org/wiki/Arthur_Schopenhauer)) to be typset in [Fraktur](https://en.wikipedia.org/wiki/Fraktur) as part of graphic.  **Outline...** 
+**Premise:** A children's picture book about the philosophy of [Arthur Schopenhauer](https://en.wikipedia.org/wiki/Arthur_Schopenhauer), loosely organized on [Die Welt als Wille und Vorstellung](https://en.wikipedia.org/wiki/The_World_as_Will_and_Representation). The trick is to have a proper mix of depressing text/wolrdview and cheerful pictures.  I think this will play better in the German market.  Each text line has a full-page figure (italicized text description).  Some quotations from [Schopy]((https://en.wikipedia.org/wiki/Arthur_Schopenhauer)) to be typset in [Fraktur](https://en.wikipedia.org/wiki/Fraktur) as part of graphic.  **Outline and draft of text and images...** 
+![figure of schopenhauer and atma at the museum](/blog/images/2023/3/4/schopy_fig1.jpg)
+*Figure courtesy of [Crayonfou](https://crayonfou.com)*
 
 ## Wer war Schopenhauer und was macht er?
 
@@ -120,8 +122,4 @@ Tags: imaginary-books children philosophy deutsch
 
 - [Brian Magee's interview with Frederick Copleston, S.J. about Schopenhauer is great](https://www.youtube.com/watch?v=Oef8CBoKRds) ... I love how Copleston speaks about Schoppy as if he was a somewhat disreputable schoolmate of his.
 
-# Sample images
 
-*added 05 Mar 2023* Courtesy of [Crayonfou](https://crayonfou.com)
-
-![figure of schopenhauer and atma at the museum](/blog/images/2023/3/4/schopy_fig1.jpg)

@@ -34,7 +34,7 @@ Some notes on Benoit Mandelbrot & Richard Hudson, [The (Mis)behavior of Markets:
 - p. 263 fractal fingerprint
 
 
-## Some Mathematica fiddlings (todo)
+## Some Mathematica fiddlings 
 
 **Pull stock prices and plot daily differences and see how it differs from the Browninan walk model but looks like a long tail distribution:** 
 
