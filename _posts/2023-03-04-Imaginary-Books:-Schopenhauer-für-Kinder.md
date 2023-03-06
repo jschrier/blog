@@ -14,7 +14,7 @@ Tags: imaginary-books children philosophy deutsch
 
 - [[Philosopher (what does a philosopher do?)]]
 - [[Daily routine: Philosophy, flute, walk, reading, theater]]
-- [[Emphasize the his poodle, Atma]]
+- [[Emphasize his poodle, Atma]]
 - [[Maybe downplay kicking the landlady down the stairs and misogyny...]]
 
 ## Erstes Buch:  Die Vorstellung unterworfen dem Satze vom Grunde: das Objekt der Erfahrung und Wissenschaft. 
@@ -26,7 +26,7 @@ Tags: imaginary-books children philosophy deutsch
 - *Kid seeing, touching, listening to, etc. stuff*
 
 - Ein Traum erscheinst dich wahr, aber wenn du aufwachst, kennst du, dass er nur eine Vorstellung ist?
-- *Kid in a dream being chased by a monster/waking up in bed in a dark room scared; split with a monster child dreaming of chasing a human/waking up in bed sad*
+- *Kid in a dream being chased by a monster/waking up in bed in a dark room scared; split with a monster child dreaming of chasing a human/waking up in bed happy*
 
 - Leider ebenso ist die Realität.  Deine Vorstellungen sind nur äußerlich.  Und der Schein trügt.  
 - *Pictures of everyday things as “hollow” and filled with psychedelic colors*
@@ -50,7 +50,7 @@ Tags: imaginary-books children philosophy deutsch
 - *Picture of rabbit in a bowtie eating a slice of carrot cake (taken from a cake that looks like a carrot), with another rabbit and a heart,  baby rabbits,  a rabbit house*
 
 - Ein Wolf will das Kaninchen fressen … um sein eigene Kinder zu füttern. 
-- *Wolf eating the rabbit (or rabit-shaped cake (with ears)!) … giving carcass (or a slice) to happy baby wolves*
+- *Wolf eating a rabbit-shaped cake (with ears)! … giving a slice to happy baby wolves around the table*
 
 - Du willst ein Spielzeug… einen Apfel …  einen Pulli … einen Verband.  Warum?   
 - *Child with toy, apple, sweater (shivering), band aid (for a skinned knee)*
@@ -65,10 +65,10 @@ Tags: imaginary-books children philosophy deutsch
 ## Drittes Buch:  Die Vorstellung, unabhängig vom Satze des Grundes: die Platonische Idee: das Objekt der Kunst.(*Book 3: Aesthetics*)
 
 - Kannst du wirklich glücklich sein?  Leider nicht.  
-- *Smiling child*
+- *Smiling child, playing with a marionette toy*
 
-- Der Wille  macht dich immer unzufrieden.
-- *Blue cloud of Der Wille up above…pulling marionette strings of the child as puppet*
+- Der Wille macht dich immer unzufrieden.
+- *Blue cloud of Der Wille up above…pulling marionette strings of the child as puppet (who is himself playing with a marionette toy, but is now unhappy with it*
 
 - Nach dem Essen wirst du nochmal Hunger haben.
 - *Picture of kid eating (night time).  Then picture of daytime and thought bubble of apple from stomach. (keep the Will/puppet strings from previous picture here)*
@@ -108,11 +108,11 @@ Tags: imaginary-books children philosophy deutsch
 - ,,Das Geld gleicht dem Seewasser. Je mehr davon getrunken wird, desto durstiger wird man.'' 
 
 - Sei immer gut zur böse, unglücklich und dumm Tiere (und Menschen).
-- *Feeding a angry cat*
+- *Feeding an angry Atma (his poodle)*
 - ,,Wer gegen Tiere grausam ist, kann kein guter Mensch sein.''
 
 - Du wird noch leiden.  Schade.  
-- *Kid getting beat up  after giving away toys and feeding angry cats*
+- *Kid getting beat up  after giving away toys and feeding angry dogs*
 - ,,Die Menschen sind wesentlich böse, wesentlich unglücklich, wesentlich dumm.''
 
 - ,,Das Schicksal mischt die Karten, wir spielen.''
@@ -122,4 +122,7 @@ Tags: imaginary-books children philosophy deutsch
 
 - [Brian Magee's interview with Frederick Copleston, S.J. about Schopenhauer is great](https://www.youtube.com/watch?v=Oef8CBoKRds) ... I love how Copleston speaks about Schoppy as if he was a somewhat disreputable schoolmate of his.
 
+- Schopy und ich (another [Crayonfou](https://crayonfou.com) original, in the style of Max Beckman)
+
+![schopy und ich painting](/blog/images/2023/3/4/schopy_und_ich.jpg)
 
