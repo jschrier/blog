@@ -1,7 +1,7 @@
 ---
 Title: "Building the mki x es.EDU analog synthesizer"
 Date: 2023-01-16
-Tags: music, electronics, analog, synth
+Tags: music electronics analog synth
 ---
 
 Seeing a [Suzanne Ciani](https://www.youtube.com/watch?v=M8mxnaXz0Ew) performance at [Ambient.Church](https://ambient.church) inspired me to get into analog synthesizers. To learn more about the electronics aspects, I built the [mki x es.EDU analog synthesizer kit](https://www.ericasynths.lv/shop/diy-kits-1/mki-x-esedu-diy-system/) **Some notes, recommendations, and reflections on the process...**
