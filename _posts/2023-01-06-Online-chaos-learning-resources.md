@@ -1,7 +1,7 @@
 ---
 Title: "Online Chaos Learning Resources"
 Date: 2023-01-06
-Tags: chaos, autodidact
+Tags: chaos autodidact
 ---
 
 Learning resources about chaos, especially chaotic electrical circuits...

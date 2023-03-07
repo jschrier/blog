@@ -1,7 +1,7 @@
 ---
 Title: "Reading ThermoFischer XCalibur RAW Files"
 Date: 2023-01-04
-Tags: science, python
+Tags: science python
 ---
 
 _[Sarah Maurer](https://directory.ccsu.edu/person/sarah-maurer) asks:  I'm using a [GC/MS](https://en.wikipedia.org/wiki/Gas_chromatography–mass_spectrometry) to analyze some samples, but the ThermoFischer XCalibur software on the instrument only allows us to export the data one CSV at a time, which is an error prone process.  Is there any way to automate this?_  **Here are some notes on how to do this in 2023...**

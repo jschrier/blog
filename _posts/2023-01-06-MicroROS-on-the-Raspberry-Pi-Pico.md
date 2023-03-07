@@ -1,7 +1,7 @@
 ---
 Title: "MicroROS on the Rapsberry Pi Pico"
 Date: 2023-01-06
-Tags: ros, pico, electronics, automation
+Tags: ros pico electronics automation
 ---
 
 **Goal:** Attach small actuators and sensors to a Rasberry Pi Pico (RP2040) and have it attach to present to a ROS2 network running on some other device.  Build this into a larger project.

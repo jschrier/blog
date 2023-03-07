@@ -1,7 +1,7 @@
 ---
 Title: "Autodidact guide to physical chemistry"
 Date: 2023-01-06
-Tags: science, autodidact
+Tags: science autodidact
 ---
 
 *[Ruslan Khafizov](https://www.linkedin.com/in/ruslankhafizov/) asks:  I've come across [your book](
