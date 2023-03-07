@@ -1,6 +1,6 @@
 ---
 Title: "A Few of My Favorite Transformer Tutorials "
-Date: 2023-03-05
+Date: 2023-03-07
 Tags: machinelearning ml
 ---
 
