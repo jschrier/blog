@@ -4,7 +4,7 @@ Date: 2023-03-04
 Tags: imaginary-books children philosophy deutsch
 ---
 
-**Premise:** A children's picture book about the philosophy of [Arthur Schopenhauer](https://en.wikipedia.org/wiki/Arthur_Schopenhauer), loosely organized on [Die Welt als Wille und Vorstellung](https://en.wikipedia.org/wiki/The_World_as_Will_and_Representation). The trick is to have a proper mix of depressing text/wolrdview and cheerful pictures.  I think this will play better in the German market.  Each text line has a full-page figure (italicized text description).  Some quotations from [Schopy]((https://en.wikipedia.org/wiki/Arthur_Schopenhauer)) to be typset in [Fraktur](https://en.wikipedia.org/wiki/Fraktur) as part of graphic.  **Outline and draft of text and images...** 
+**Premise:** A children's picture book about the philosophy of [Arthur Schopenhauer](https://en.wikipedia.org/wiki/Arthur_Schopenhauer), loosely organized on [Die Welt als Wille und Vorstellung](https://en.wikipedia.org/wiki/The_World_as_Will_and_Representation). The trick is to have a proper mix of depressing text/worldview and cheerful pictures.  I think this will play better in the German market.  Each text line has a full-page figure (italicized text description).  Some quotations from [Schopy]((https://en.wikipedia.org/wiki/Arthur_Schopenhauer)) to be typset in [Fraktur](https://en.wikipedia.org/wiki/Fraktur) as part of graphic.  **Outline and draft of text and images...** 
 ![figure of schopenhauer and atma at the museum](/blog/images/2023/3/4/schopy_fig1.jpg)
 *Figure courtesy of [Crayonfou](https://crayonfou.com)*
 
@@ -22,7 +22,7 @@ Tags: imaginary-books children philosophy deutsch
 - Kannst du die Welt wirklich kennen?  Leider nicht.
 - *Scientist in a labcoat.  Looking a a telescope.  Looking at a microscope*
 
-- Du siehst…du betastest…du hörst….du riechst…du schmeckst…aber alles ist nur Vorstellung.  
+- Du siehst… du betastest… du hörst… du riechst… du schmeckst… aber alles ist nur Vorstellung.  
 - *Kid seeing, touching, listening to, etc. stuff*
 
 - Ein Traum erscheinst dich wahr, aber wenn du aufwachst, kennst du, dass er nur eine Vorstellung ist?
@@ -68,7 +68,7 @@ Tags: imaginary-books children philosophy deutsch
 - *Smiling child, playing with a marionette toy*
 
 - Der Wille macht dich immer unzufrieden.
-- *Blue cloud of Der Wille up above…pulling marionette strings of the child as puppet (who is himself playing with a marionette toy, but is now unhappy with it*
+- *Blue cloud of Der Wille up above…pulling marionette strings of the child as puppet (who is himself playing with a marionette toy, but is now unhappy with it)*
 
 - Nach dem Essen wirst du nochmal Hunger haben.
 - *Picture of kid eating (night time).  Then picture of daytime and thought bubble of apple from stomach. (keep the Will/puppet strings from previous picture here)*
@@ -87,8 +87,6 @@ Tags: imaginary-books children philosophy deutsch
 
 
 ## Viertes Buch:  Bei erreichter Selbsterkenntniß Bejahung und Verneinung des Willens zum Leben. (*Book 4: Ethics*)
-
-
 
 - Du hast eine Wahl: Unterstütze den Willen oder nicht.  Was willst du?
 - *Happy kid with exclamation point*

@@ -113,6 +113,29 @@ ListContourPlot[
 
 **Limitations:**  While the state of knowledge improves over time, our ability to make improvements at each step remains constant.  That is, our knowledge is cumulative, but does not have a compound-interest type effect. 
 
+**Addendum to Model 2:**  You can compute the PDF of the maximum value in a batch of N draws from a Gaussian distribution analytically.  It's fun to pencil it out in terms of error functions, but who has time for that these days. 
+
+```mathematica
+f = PDF@OrderDistribution[{NormalDistribution[], n}, n]
+```
+
+![0xs8tokoupq3n](/blog/images/2023/3/10/0xs8tokoupq3n.png)
+
+For example, suppose a batch of 96; let's plot the PDF of the maximum value in the batch, and estimate the maximum likelihood value
+
+```mathematica
+Plot[f[x] /. n -> 96, {x, 0, 10}, PlotRange -> All]
+```
+
+![1sxcyv0ap5fxr](/blog/images/2023/3/10/1sxcyv0ap5fxr.png)
+
+```mathematica
+NMaximize[f[x] /. n -> 96, x]
+
+(*{0.988625, {x -> 2.36023}}*)
+```
+
+
 ## Model 3: Probability of success is a function of current knowledge
 
 **Premise:**  Like the normal step model, we assume that we start at x = 0 and have to reach x = 100 to be successful.  We assume that we have a machine that is capable of performing *N* experiments per batch.  A ML algorithm has some value *p* of picking a winner, which starts very low.  If one winner is found, we advance to x+1.  The probability of success is given by p = (x+1)/100--i.e., we assume that at the early stages we know very little and as we amass better data we get better at picking the winner.  This seems to make sense in the asymptotic limits:  at x = 0 we know very little and at x = 99 we have a sure bet about the next step.  You could always scale down the denominator if you thought a 1% initial chance of improvement was too optimistic (and indeed we will look at that later).  But first some initial intuition by brute-force Monte Carlo:
