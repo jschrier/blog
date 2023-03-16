@@ -113,7 +113,7 @@ ListContourPlot[
 
 **Limitations:**  While the state of knowledge improves over time, our ability to make improvements at each step remains constant.  That is, our knowledge is cumulative, but does not have a compound-interest type effect. 
 
-**Addendum to Model 2:**  You can compute the PDF of the maximum value in a batch of N draws from a Gaussian distribution analytically.  It's fun to pencil it out in terms of error functions, but who has time for that these days. 
+**Addendum to Model 2:**  You can compute the PDF of the maximum value in a batch of N draws from a Gaussian distribution analytically.  It's fun to pencil it out in terms of error functions, but we can also just let the computer do the work:
 
 ```mathematica
 f = PDF@OrderDistribution[{NormalDistribution[], n}, n]
