@@ -34,6 +34,7 @@ A course for non-math majors on optimization and its role in hot- and cold-wars.
 * Philip Minkowski, *Machine Dreams: Economics Becomes a Cyborg Science* (CUP, 2002)
 * F. A. Hayek, *The Use of Knowledge in Society* 
 * von Mises, *Socialism*
+* Karl Schlögl, [The Soviet Century](https://press.princeton.edu/books/hardcover/9780691183749/the-soviet-century) (PUP, 2023)---"explores in evocative detail both the largest and smallest aspects of life in the USSR, from the Gulag, the planned economy, the railway system, and the steel city of Magnitogorsk to cookbooks, military medals, prison camp tattoos, and the ubiquitous perfume Red Moscow."
 
 # Comments and Collaborators
 

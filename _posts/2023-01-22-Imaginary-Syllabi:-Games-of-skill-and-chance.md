@@ -23,6 +23,7 @@ An interdisciplinary capstone course on luck, skill, and the games of everyday l
 * Ken Binmore, [Playing for Real: A Text on Game Theory](https://amzn.to/3iXl7Wk) --advanced undergraduate course on game theory for economists and social scientists
 * William Poundstone [Fortune's Formula](https://amzn.to/3wk1N8D) --- popular work on the Kelly criterion, with a side helping of Edward Thorp and Claude Shannon
 * Poker?  
+* Modern approaches to beating roulette sourced from a ([Bloomberberg 2023 article](https://archive.ph/7CmWl))---cross ref to books [The Eudaimonic Pie](https://amzn.to/3GuKAPl) and [Follow the Bouncing Ball](https://amzn.to/3nXo3Ek) 
 
 
 # Field trips:
