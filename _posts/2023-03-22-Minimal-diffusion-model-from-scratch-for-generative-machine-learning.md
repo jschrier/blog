@@ -84,7 +84,8 @@ With[
 Having constructed the diffusion process, our next step is to develop a model that can undo the diffusion.  It needs to take the time and the "diffused" x as inputs.  We'll rescale the time so that it is between -1/2 and +1/2, and just run this through a few fully-connected layers.  There's no rhyme or reason to this particular network architecture, and I'm sure it is totally overkill for the problem.  After defining the model, we'll use a NetGraph to put it together with the other pieces.  We'll need a set of parameters to define the model, so we'll save those in an association for convenience.
 
 ```mathematica
-(*convenience function for defining parameters*)parameters[nDim_, tMax_, nH_] := <|"nDim" -> nDim, "tMax" -> tMax, "nHidden" -> nH|> 
+(*convenience function for defining parameters*)
+parameters[nDim_, tMax_, nH_] := <|"nDim" -> nDim, "tMax" -> tMax, "nHidden" -> nH|> 
   
  (*allow our xt to accept the parameter association*) 
   xt[param_Association] := xt[param["tMax"]] 
@@ -153,7 +154,7 @@ Now we've got to extract the trained model and use it to generate new samples.  
 ```mathematica
 
   z[nSamples_, t_Integer] := RandomVariate[NormalDistribution[], nSamples] 
-   z[nSamples_, 1] := ConstantArray[0., nSamples] 
+  z[nSamples_, 1] := ConstantArray[0., nSamples] 
    
    timeStep[alpha_List, alphaBar_List, sigma_List, trainedModel_NetGraph][x_, t_Integer] := With[
      {output = NetMapThreadOperator[trainedModel]@
@@ -222,7 +223,7 @@ Histogram3D@generate[%, param, 10^4]
 
 Not bad!  We're certainly capture some of the aspects of the spiral, it's not as clean as we might like.
 
-Let's train the heck out of it (we'll just start from where we left off.  This will take ~6 minutes on CPU, provide you don't overhead your poor laptop). Again, this is probably too much, but maybe it is useful.  For each of our samples we have 200 times to consider, so if we perform 
+Let's train the heck out of it (we'll just start from where we left off.  This will take ~6 minutes on CPU, provide you don't overhead your poor laptop). Again, this is probably too much, but maybe it is useful.  For each of our samples we have 200 times to consider, so maybe 10^5 training rounds is not too unreasonable.
 
 ```mathematica
 trainedNetv2 = NetTrain[
