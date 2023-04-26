@@ -4,7 +4,7 @@ Date: 2023-04-22
 Tags: synth audio pico sequencer
 ---
 
-**Premise:  a [Bach chorale](https://bach-chorales.com/BachChorales.htm) sequencer wtih CV output** or alternatively a **Gregorian chant** sequencer
+**Premise:  a [Bach chorale](https://bach-chorales.com/BachChorales.htm) sequencer wtih CV output** or alternatively a **Gregorian chant** sequencer...
 
 # Resources
 
