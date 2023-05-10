@@ -166,3 +166,8 @@ t=((t>>5)|(t<<5))^((t>>8)|(t<<8))^((t>>11)|(t<<11))^((t>>13)|(t<<13))^((t>>17)|(
 # Other ideas
 
 * Could you learn a language generation model that tries to approximate a given waveform by generating Bytebeat code?  Try modifying a RNN/GRU/Transformer for [equational representations in Bernard Etienne's book](https://www.wolfram.com/language/introduction-machine-learning/deep-learning-methods/) for the task.
+
+# devices
+
+* [Prismatic Spray Bytebeat Adventure Synth](https://www.tindie.com/products/distropolis/prismatic-spray-bytebeat-adventure-synth/)---available on Tindie for 249 USD, with a few parameterizable equations (controlled by knobs).  The [manual](http://armanbohn.com/blog/wp-content/uploads/2022/10/Prismatic-Spray.pdf) is quite whimsical.
+* [Glitchstorm MkII recursive bytebeat synthesizer](https://www.tindie.com/products/jc2046/glitch-storm-multidimensional-synth-mkii-black/) --75 USD on Tindie; [Sourcecode available](https://github.com/spherical-sound-society/glitch-storm/blob/master/source-code/Glitch_Storm/ecuaciones.ino)

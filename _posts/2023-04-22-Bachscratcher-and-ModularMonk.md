@@ -8,7 +8,7 @@ Tags: synth audio pico sequencer
 
 # Resources
 
-* Digitzed JSB Chorales dataset in JSON [https://github.com/czhuang/JSB-Chorales-dataset] *problem*: does not distinguish between held and repeated notes (so no gate information)
+* Digitized JSB Chorales dataset in JSON [https://github.com/czhuang/JSB-Chorales-dataset] *problem*: does not distinguish between held and repeated notes (so no gate information)
 * Bach Soprano-line dataset only with note start and end times [https://archive.ics.uci.edu/ml/datasets/Bach+Chorales]
 * [Gregobase corpus](https://github.com/bacor/gregobasecorpus) preprocssed
 * [Gregobase](https://gregobase.selapa.net/chant.php?id=16787) uses a GABC format that encodes the melody and text...
