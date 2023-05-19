@@ -9,7 +9,7 @@ Tags: audio synth 8bit mathematica
 main() {
 for (;; t++) putchar(EXPRESSION); }
 ```
-where `EXPRESSION` consists of standard arithmetic and bitwise operators acting on integers; no function calls are allowed and the only variable is the time counter `t` which is never modified within the expression. While the expression is typically evaluated with 32 or more bits of integer accuracy, only the eight lowest bits of each result show up in the output, and this low byte is interpreted as unsigned [8-bit PCM sample values](https://en.wikipedia.org/wiki/Pulse-code_modulation) with the rate of 8000 samples per second.  Some examples, history and notes, and Mathematica implementations...
+where `EXPRESSION` consists of standard arithmetic and bitwise operators acting on integers; no function calls are allowed and the only variable is the time counter `t` which is never modified within the expression. While the expression is typically evaluated with 32 or more bits of integer accuracy, only the eight lowest bits of each result show up in the output, and this low byte is interpreted as unsigned [8-bit PCM sample values](https://en.wikipedia.org/wiki/Pulse-code_modulation) with the rate of 8000 samples per second.  **Some examples, history and notes, and Mathematica implementations...**
 
 # Examples
 
@@ -76,14 +76,14 @@ A nice melody:
 ```mathematica
 rrrola[t_] := With[
     {const = FromDigits["0xCA98"]}, 
-    BitOr[t *BitAnd[BitShiftRight[const, BitAnd[BitShiftRight[t, 9], 14]], 15], BitShiftRight[t, 8]]] 
+    BitOr[t*BitAnd[BitShiftRight[const, BitAnd[BitShiftRight[t, 9], 14]], 15], BitShiftRight[t, 8]]] 
  
 bytebeat@rrrola@Range[2^18]
 ```
 
 ![1019jeqt7muqg](/blog/images/2023/4/25/1019jeqt7muqg.png)
 
-I love the [Morse-code-like](https://en.wikipedia.org/wiki/Morse_code) rhythms in this one:
+I love the [Morse-code](https://en.wikipedia.org/wiki/Morse_code)-like rhythms in this one:
 
 ```mathematica
 mu6k[t_] := BitAnd[#, 63] &@BitOr[BitOr[BitXor[BitShiftRight[t, 6] , BitShiftRight[t, 8]], BitShiftRight[t, 12]], t] 
@@ -93,8 +93,17 @@ bytebeat@mu6k@Range[2^19]
 
 ![0c9j5b57ekt40](/blog/images/2023/4/25/0c9j5b57ekt40.png)
 
+# Other ideas
 
-# What does ChatGPT-3.5 know about Bytebeat? 
+* Could you learn a language generation model that tries to approximate a given waveform by generating Bytebeat code?  Try modifying a RNN/GRU/Transformer for [equational representations in Bernard Etienne's book](https://www.wolfram.com/language/introduction-machine-learning/deep-learning-methods/) for the task.
+
+# devices
+
+* [Prismatic Spray Bytebeat Adventure Synth](https://www.tindie.com/products/distropolis/prismatic-spray-bytebeat-adventure-synth/)---available on Tindie for 249 USD, with a few parameterizable equations (controlled by knobs).  The [manual](http://armanbohn.com/blog/wp-content/uploads/2022/10/Prismatic-Spray.pdf) is quite whimsical.
+* [Glitchstorm MkII recursive bytebeat synthesizer](https://www.tindie.com/products/jc2046/glitch-storm-multidimensional-synth-mkii-black/) --75 USD on Tindie; [Sourcecode available](https://github.com/spherical-sound-society/glitch-storm/blob/master/source-code/Glitch_Storm/ecuaciones.ino)
+
+
+# What does ChatGPT-3.5 know about Bytebeat? (25 Apr 2023) 
 
 **PROMPT: Generate some example byte beat formulas and explain what they sound like**
 
@@ -163,11 +172,3 @@ t=((t>>5)|(t<<5))^((t>>8)|(t<<8))^((t>>11)|(t<<11))^((t>>13)|(t<<13))^((t>>17)|(
 ```
 *(editor's note: no chord changes here...there's some weird loop this entered)*
 
-# Other ideas
-
-* Could you learn a language generation model that tries to approximate a given waveform by generating Bytebeat code?  Try modifying a RNN/GRU/Transformer for [equational representations in Bernard Etienne's book](https://www.wolfram.com/language/introduction-machine-learning/deep-learning-methods/) for the task.
-
-# devices
-
-* [Prismatic Spray Bytebeat Adventure Synth](https://www.tindie.com/products/distropolis/prismatic-spray-bytebeat-adventure-synth/)---available on Tindie for 249 USD, with a few parameterizable equations (controlled by knobs).  The [manual](http://armanbohn.com/blog/wp-content/uploads/2022/10/Prismatic-Spray.pdf) is quite whimsical.
-* [Glitchstorm MkII recursive bytebeat synthesizer](https://www.tindie.com/products/jc2046/glitch-storm-multidimensional-synth-mkii-black/) --75 USD on Tindie; [Sourcecode available](https://github.com/spherical-sound-society/glitch-storm/blob/master/source-code/Glitch_Storm/ecuaciones.ino)
