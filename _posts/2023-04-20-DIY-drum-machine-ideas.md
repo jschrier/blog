@@ -4,7 +4,7 @@ Date: 2023-04-20
 Tags: audio synth pico drum
 ---
 
-[My analog synthesizer](({{ site.baseurl }}{% post_url 2023-01-16-Building-the-mki-x-es.edu-synthesizer %})) lacks a drum machine.  A few thoughts towards a project, assuming you are not an analog purist and have a Raspberry Pi Pico floating around...
+[My analog synthesizer](({{ site.baseurl }}{% post_url 2023-01-16-Building-the-mki-x-es.edu-synthesizer %})) lacks a drum machine.  I suppose you could just [buy a Moog DFAM semimodular clone](https://www.synthtopia.com/content/2023/05/26/behringer-edge-now-shipping-with-199-list-price/), but... A few thoughts towards a project, assuming you are not an analog purist and have a Raspberry Pi Pico floating around...
 
 # Circuit design
 
