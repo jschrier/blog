@@ -6,7 +6,14 @@ Tags: music synth autodidact
 
 In the beginning, the LORD created [modular synthesizers]((({{ site.baseurl }}{% post_url 2023-01-16-Building-the-mki-x-es.edu-synthesizer %}))), and they were good. He sent his [Prophets](https://en.wikipedia.org/wiki/Prophet-5), [Bob](https://en.wikipedia.org/wiki/Robert_Moog) and [Don](https://en.wikipedia.org/wiki/Don_Buchla) and [Serge](https://en.wikipedia.org/wiki/Serge_Tcherepnin), who told all the peoples "Make a joyful noise unto the LORD all the earth, but thou shalt not eat of the fruit of the tree of the digital computer."  But the people hardened their hearts and did not listen.  So the LORD sent his prophet [Dieter](https://doepfer.de/home.htm), a voice crying in the wilderness, who said "Repent, repent! For the [Eurorack](https://en.wikipedia.org/wiki/Eurorack) is at hand." But the people said: "We have no King but [Gordon](https://en.wikipedia.org/wiki/Moore's_law)."  And so it came to pass that digital computers became numerous upon the face of the earth.  Then angel of the LORD came down and created a multitude of programs to confound their language, so that they may not understand one another's code.  "Now are you happy?" said the angel of the LORD.  [And the people said: "Do do do, do do do do, do do do do do..."](https://www.youtube.com/watch?v=PSafh_G3skU).  **A list of resources...**
 
-# Modular simulators
+# Analog synthesizers
+
+*This is the way*
+
+- Build one!  [I did...]({{ site.baseurl }}{% post_url 2023-01-16-Building-the-mki-x-es.edu-synthesizer %})
+- Great HN thread on [Introductions to Analog Synths](https://news.ycombinator.com/item?id=27822489) — the GA Tech videos on [ECE4450 L1: Analog Circuits for Music Synthesis: Introduction (Georgia Tech course)](https://www.youtube.com/watch?v=mYk8r3QlNi8&list=PLOunECWxELQS5bMdWo9VhmZtsCjhjYNcV) look especially nice
+
+# Analog/modular simulators
 
 If you are interested only in committing [venial sins](http://www.scborromeo.org/ccc/p3s1c1a8.htm), [VCV Rack](https://vcvrack.com) is a pretty decent open-source modular synthesis simulator.  
 It is certainly easier to copy paste a few more VCOs than it is to solder up a few more modules, but nobody said sloth was a virtue...
