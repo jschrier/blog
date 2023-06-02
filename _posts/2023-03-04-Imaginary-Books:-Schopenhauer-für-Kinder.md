@@ -34,7 +34,7 @@ Tags: imaginary-books children philosophy deutsch
 - Du kannst nie die echte Welt kennen.  Du kannst nur Vorstellungen bekommen.  
 - *No idea how to illustrate this!* 
 
-- Alle deinen Vorstellungen sind äußerlich außer einem:  Der Wille.  Vielleicht du kannst ihn kennenlernen!
+- Alle deinen Vorstellungen sind äußerlich außer einem:  Der Wille.  Vielleicht kannst du ihn kennenlernen!
 - *Constrast inner perspective/external perspective*
 
 
