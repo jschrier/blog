@@ -93,6 +93,9 @@ bytebeat@mu6k@Range[2^19]
 
 ![0c9j5b57ekt40](/blog/images/2023/4/25/0c9j5b57ekt40.png)
 
+**Addendum (02 June 2023):** With the advent of the new [LLMFunction](https://writings.stephenwolfram.com/2023/05/the-new-world-of-llm-functions-integrating-llm-technology-into-the-wolfram-language/) it is easy to use a pretrained [CodeImport prompt](https://resources.wolframcloud.com/PromptRepository/resources/CodeImport/) to read in "native" Bytebeat C expressions into Mathematica...
+
+
 # Other ideas
 
 * Could you learn a language generation model that tries to approximate a given waveform by generating Bytebeat code?  Try modifying a RNN/GRU/Transformer for [equational representations in Bernard Etienne's book](https://www.wolfram.com/language/introduction-machine-learning/deep-learning-methods/) for the task.
