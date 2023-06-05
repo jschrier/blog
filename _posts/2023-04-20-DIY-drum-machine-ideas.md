@@ -4,7 +4,7 @@ Date: 2023-04-20
 Tags: audio synth pico drum
 ---
 
-[My analog synthesizer](({{ site.baseurl }}{% post_url 2023-01-16-Building-the-mki-x-es.edu-synthesizer %})) lacks a drum machine.  I suppose you could just [buy a Moog DFAM semimodular clone](https://www.synthtopia.com/content/2023/05/26/behringer-edge-now-shipping-with-199-list-price/), but... A few thoughts towards a project, assuming you are not an analog purist and have a Raspberry Pi Pico floating around...
+[My analog synthesizer](({{ site.baseurl }}{% post_url 2023-01-16-Building-the-mki-x-es.edu-synthesizer %})) lacks a drum machine.  I suppose you could just [Moog DFAM](https://www.moogmusic.com/products/dfam-drummer-another-mother) or ([clone](https://www.synthtopia.com/content/2023/05/26/behringer-edge-now-shipping-with-199-list-price/)), but... **A few thoughts towards a project, assuming you are not an analog purist and have a Raspberry Pi Pico floating around...**
 
 # Circuit design
 
@@ -21,7 +21,7 @@ Tags: audio synth pico drum
 * [digital-synthesis drum machine](https://www.youtube.com/watch?v=A_Bv5Ad-Cy8)
 * If one gets [inspired by the classic TR-808 analog drum machine](http://mickeydelp.com/blog/anatomy-of-a-drum-machine)  the signals have the form of: *drum*: decaying sine wave; *snare*: noisy decaying sine wave; *cymbal*: white noise (can tweak this with a PRNG)
 * [Kurt Werner](https://ccrma.stanford.edu/~kwerner/) did a phd in simulating analog circuits, including the TR-808...and led me into a rabbit hole of [1-bit music](({{ site.baseurl }}{% post_url 2023-04-20-1-Bit-Music %}))
-* [Euclidean rhythms](https://en.wikipedia.org/wiki/Euclidean_rhythm), naturally...
+* [Euclidean rhythms](https://en.wikipedia.org/wiki/Euclidean_rhythm), naturally... (see also [post]({{ site.baseurl }}{% post_url 2023-06-03-Euclidean-Rhythm %}))
 * [Teensy-based drum machine](https://cdm.link/2023/02/diy-drum-machine-teensy/) --- looks like [C-code describing the various audioparameters and how they play with the switches and potentiometers](https://github.com/albnys/Drum-Machine/blob/main/Drum_machine.ino)
 * [Polaron](https://github.com/zueblin/Polaron) --teensy-based drum machine, nice interface, sequencer, c-code, open-source
 * [MadLab Funky Drummer](https://www.tindie.com/products/madlab/funky-drummer-kit/) is a simple PIC-based 8-bit drum machine (sounds pretty OK); the inventor's webpage has a [schematic and Elektor article for an earlier version](http://www.madlab.org/kits/drummer.html)

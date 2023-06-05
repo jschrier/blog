@@ -28,6 +28,10 @@ I can see the appeal, but it's not my style, because I like words and typing.  O
 
 # Supercollider 
 
+```
+And there came a voice to him, Rise, Peter, make music with your computer.  But Peter said, Not so, Lord; for I have never made music with anything digital. And the voice spake unto him again the second time, What the LORD hath cleansed, that call not thou common. ... And then Peter laid aside his soldering iron and went down to Joppa...
+```
+
 It seems that [supercollider](https://supercollider.github.io) is an open-source, text-based music programming environment (it's the successor to [CSound]()).
 Under the hood, it is a client/server model (like Max/MSP), programmed with an object-oriented programming language, with support for many primitives related to sound generation and processing.  
 There's a hardcopy book, but it's allegedly pretty outdated.

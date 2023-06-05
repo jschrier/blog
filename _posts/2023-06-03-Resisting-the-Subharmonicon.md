@@ -1,6 +1,6 @@
 ---
 Title: "Resisting the Subharmonicon"
-Date: 2023-06-02
+Date: 2023-06-03
 Tags: music synth analog supercollider
 ---
 
@@ -12,7 +12,7 @@ The [Moog Subharmonicon](https://www.moogmusic.com/products/subharmonicon) ... w
 
 Polyrhythm:
 - Clock 
-- 4x dividers 
+- 4x clock dividers 
 - Octatrig
 - Bus router
 - Sequencer 
@@ -22,11 +22,9 @@ Polyrhythm:
 - matrix mixer 
 
 
-
 # Supercollider
 
-[A first approximation)(https://scsynth.org/t/moog-subharmonicon/2483) --- copied below for easy references
-
+[A first approximation](https://scsynth.org/t/moog-subharmonicon/2483) --- copied below for easy references
 
 ```
 // Saw wave version
