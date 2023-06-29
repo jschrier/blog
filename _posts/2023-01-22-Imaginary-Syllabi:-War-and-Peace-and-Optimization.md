@@ -39,4 +39,4 @@ A course for non-math majors on optimization and its role in hot- and cold-wars.
 # Comments and Collaborators
 
 * (23 Jan 2023) Zachary Jones '25 adds: *Red Plenty is actually one of my favorite books of all time actually! I intend to do a blog post on Kantarovich's On the Best Use of Economic Resources. [Dr. Siddiqi in the Fordham history department](https://www.asifsiddiqi.com)'s research focuses on Soviet scientific history, so I think he would be the one to get in contact with. I have reached out to him before asking various questions, so he may be receptive to such a course. I would take an ICC+EP3 course titled "Linear Programming, Economic Planning, and the Cybernetic Imaginary" in a heartbeat.*
-
+* (10 Apr 2023) [Can Cybersocialist Planning Become a Reality?](https://jacobin.com/2023/04/cybersocialism-economic-planning-marxism-information-theory-econophysics/)

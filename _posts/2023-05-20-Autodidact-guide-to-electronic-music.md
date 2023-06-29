@@ -13,6 +13,13 @@ In the beginning, the LORD created [modular synthesizers]((({{ site.baseurl }}{%
 - Build one!  [I did...]({{ site.baseurl }}{% post_url 2023-01-16-Building-the-mki-x-es.edu-synthesizer %})
 - Great HN thread on [Introductions to Analog Synths](https://news.ycombinator.com/item?id=27822489) — the GA Tech videos on [ECE4450 L1: Analog Circuits for Music Synthesis: Introduction (Georgia Tech course)](https://www.youtube.com/watch?v=mYk8r3QlNi8&list=PLOunECWxELQS5bMdWo9VhmZtsCjhjYNcV) look especially nice
 
+# Field-Programmable analog arrays (added 27 June 2023)
+
+*This is also the way*
+
+- [ZRNA software-defined analog boards](https://zrna.org) for $89 including shipping (assuming they are available).  Built around the [AN231E04 analog array](http://www.anadigm.com/_doc/DS231000-U001.pdf), you get 4 comparators, 8 opamps, switched-capacitors and some auxiliary hardware that you can configure programmably (e.g., [via python](https://zrna.org/demos))...although the availability says "restocking" and the [last commit to the github repo was in 2019](https://github.com/zrna-research/zrna-api) which suggests to me that this might be unobtanium
+
+
 # Analog/modular simulators
 
 If you are interested only in committing [venial sins](http://www.scborromeo.org/ccc/p3s1c1a8.htm), [VCV Rack](https://vcvrack.com) is a pretty decent open-source modular synthesis simulator.  
@@ -56,6 +63,11 @@ Additionally things like [ProxySpace](https://thormagnusson.gitbooks.io/scoring/
 
 And if [1-bit music]({{ site.baseurl }}{% post_url 2023-04-20-1-Bit-Music %}) is your thing, the `Impulse` and `Dust` (random impulse) Ugens will be your thing.
 
+# Sonic Pi
+
+[Sonic Pi](https://sonic-pi.net) is a livecoding environment built on top of supercollider
+
+
 # Mathematica?
 
 There's a fairly rich set of [audio processing functionality in Mathematica](http://reference.wolfram.com/language/guide/AudioProcessing.html).  
@@ -82,4 +94,6 @@ But it's not clear to me that it will scale up to do ambitious audio projects in
 # Haskell?
 
 I find the idea of the [Haskell School of Music](https://amzn.to/3BOhacs) amusing, but it seems like the ultimate [yak-shave](https://en.wiktionary.org/wiki/yak_shaving) if your goal is making music....
+
+Alternatively [tidalcycles](https://sonic-pi.net) is a Haskell-based domain specific language for driving supercollider (comparable to, but with some differences from Sonic-Pi, mentioned above)
 
