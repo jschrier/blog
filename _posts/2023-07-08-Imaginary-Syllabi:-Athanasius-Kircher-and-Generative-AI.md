@@ -8,11 +8,11 @@ Tags: culture ai jesuits imaginary-syllabi teaching
 
 # Backstory and Motivations
 
-I went to the movies with [Joseph Tardio](https://amzn.to/3PNyQ02) to see the new documentary [Umberto Eco: A Library o the World](https://www.nytimes.com/2023/06/29/movies/umberto-eco-a-library-of-the-world-review.html). Eco was a huge fan of Kircher: [Eco boasted of possessing all but one of Kircher's books](https://lithub.com/umberto-ecos-favorite-books-give-new-meaning-to-the-phrase-deep-cut/) and Kircher has a walk-on roles in some of Eco's novels and scholarly works.  Eco described Kircher as "the most contemporary among our ancestors, and the most outdated among our contemporaries" and in the film, Eco expresses an admiration for which Kircher's writings seamlessly (and perhaps unknowingly to the author) blur fact and fiction.
+I went to the movies with [Joseph Tardio](https://amzn.to/3PNyQ02) to see the new documentary [Umberto Eco: A Library of the World](https://www.nytimes.com/2023/06/29/movies/umberto-eco-a-library-of-the-world-review.html). Eco was a huge fan of Kircher: [Eco boasted of possessing all but one of Kircher's books](https://lithub.com/umberto-ecos-favorite-books-give-new-meaning-to-the-phrase-deep-cut/) and Kircher has a walk-on roles in some of Eco's novels and scholarly works.  Eco described Kircher as "the most contemporary among our ancestors, and the most outdated among our contemporaries" and in the film, Eco expresses an admiration for which Kircher's writings seamlessly (and perhaps unknowingly to the author) blur fact and fiction.
 
-Discussing the documentary at the bar across the street (while we waited to see Godard's [Le Mépris](https://en.wikipedia.org/wiki/Contempt_(film))...double features!), I had a thought:[^2] Isn't Kircher a lot like the [stochastic parrots](https://dl.acm.org/doi/10.1145/3442188.3445922) of generative AI? Like Kircher, [generative AI models are trained on a vast corpus of human knowledge and draw upon this to generate high-probability combinations that are surprisingly good, but equally susceptible to hallucinations]((https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/)).  How might an engagement with Kircher and his ways of knowing be insightful for students as they try to live in a world with generative AI?  
+Discussing the documentary at the bar across the street (while we waited to see Godard's [Le Mépris](https://en.wikipedia.org/wiki/Contempt_(film))...double feature!), I had a thought:[^2] In what ways is criticism of Kircher like the [stochastic parrots](https://dl.acm.org/doi/10.1145/3442188.3445922) critique of generative AI? Like Kircher, [generative AI models are trained on a vast corpus of human knowledge and draw upon this to generate high-probability combinations that are surprisingly good, but equally susceptible to hallucinations]((https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/)).  Kircher was clearly learned---he knew 11 languages---but then uses this probabilistic training to go off-the-rails in a totally [bogus deciphering of Egyptian hieroglyphics](https://fathom.lib.uchicago.edu/1/777777122590/).
 
-Even more relevant, Kircher's [Organum Mathematicum](https://gate.unigre.it/mediawiki/index.php/Athanasius_Kircher’s_Organum_mathematicum._On_the_Evolutionary_Improbability_of_an_Information_Processing_Innovation) was a type of proto-computer, with a human-machine interface for creativity.  A great starting point for an interdisciplinary course.
+**How might an engagement with Kircher and his ways of knowing be insightful for students as they try to live in a world with generative AI?** Or:  How might the future that we live in be a future filled with digital Athanasius Kirchers (and would that be a good or bad thing)
 
 
 # Course topics
@@ -36,7 +36,7 @@ There are a few biographical-ish works on Kircher:
 
 # Readings: Latin
 
-Given that Kircher's works are all in Latin, and English translations are lacking, it is probably desirable that students build up some very basic Latin reading skills.  Also [Claude Pavur, SJ](https://amzn.to/3pD6avM) would approve of us continuing to make Latin part of the Jesuit higher-education curriculum, in lines with the *Ratio Studiorum*
+Given that Kircher's works are all in Latin, and English translations are lacking, it is probably desirable that students build up some very basic Latin reading skills.  Also, [Claude Pavur, SJ](https://amzn.to/3pD6avM) would approve of us continuing to make Latin part of the Jesuit higher-education curriculum, in lines with the *Ratio Studiorum*
 
 Use Orberg's [Lingua Latina](https://amzn.to/44hu1jI) for this purpose and have students work through it over the course of the semester.   
 
@@ -56,8 +56,9 @@ I'm a contrarian, and the students taking this course aren't necessarily technic
 
 # Parerga and Paralipomena
 
+- Riff on the idea of [word embeddings](https://en.wikipedia.org/wiki/Word_embedding) used in ML and Kircher's [Polygraphia Nova](https://en.wikipedia.org/wiki/Polygraphia_Nova).  c.f. Eco's [The Search for the Perfect Langauge](https://amzn.to/43f3UIX)
+- Kircher's [Organum Mathematicum](https://gate.unigre.it/mediawiki/index.php/Athanasius_Kircher’s_Organum_mathematicum._On_the_Evolutionary_Improbability_of_an_Information_Processing_Innovation) was a type of proto-computer, with a human-machine interface for creativity.  A great starting point for an interdisciplinary course.
 - The [cat organ](https://en.wikipedia.org/wiki/Cat_organ) would be an excellent addition to a [cat cafe](({{ site.baseurl }}{% post_url 2023-06-27-Great-ideas-from-Korea %}))
-- Riff on the idea of word embeddings and Kircher's [Polygraphia Nova](https://en.wikipedia.org/wiki/Polygraphia_Nova).  c.f. Eco's [The Search for the Perfect Langauge](https://amzn.to/43f3UIX)
 
 # Footnotes
 
