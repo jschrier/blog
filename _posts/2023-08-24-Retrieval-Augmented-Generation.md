@@ -183,4 +183,6 @@ LLMSynthesize[
 (*"According to the Catechism of the Catholic Church, to have eternal life, one must keep the commandments. Jesus stated, \"If you would enter into life, keep the commandments\" (Mt 19:16-17). The Decalogue, which includes the Ten Commandments, holds a privileged expression of the natural law, and obedience to these precepts implies obligations in both grave and light matters. It is also important to note that God's grace makes it possible to fulfill His commands."*)
 ```
 
-As you can see, this has reworded and paraphrased the retrieved text to answer the question.  Because we know what text was used, we could also provide a citation, if desired.
+As you can see, this has reworded and paraphrased the retrieved text to answer the question.  Because we know what text was used, we could also provide a citation, if desired. [*Ite, missa est.*](https://en.wikipedia.org/wiki/Ite,_missa_est)
+
+`2023.08.22_llm_qa_demo.nb`
