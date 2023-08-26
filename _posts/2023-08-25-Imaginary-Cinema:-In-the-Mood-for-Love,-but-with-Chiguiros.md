@@ -11,7 +11,7 @@ That's all. Think about it.
 ```mathematica
 mfl = WebImageSearch["In the Mood for love movie scene", 50];
 two = WebImageSearch["two capybaras", 20];
-c = WebImageSearch["capybara", 20];
+c = WebImageSearch["capybara", 20]; 
 ```
 
 ```mathematica

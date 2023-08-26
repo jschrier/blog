@@ -46,7 +46,7 @@ I'm a contrarian, and the students taking this course aren't necessarily technic
 
 - Start with Etienne Bernard's [Introduction to Machine Learning](https://www.wolfram-media.com/products/introduction-to-machine-learning/)
 - Then move into more [generative things with LLMs](https://www.wolfram.com/wolfram-u/courses/language-integrations/new-llm-functionality-in-wolfram-language/) using the [new LLM functionality in Mathematica 13.3](https://writings.stephenwolfram.com/2023/06/llm-tech-and-a-lot-more-version-13-3-of-wolfram-language-and-mathematica/)
-- Demonstrate different strategies of using/building LLMs, for example [retrieval augmented generation]({{ site.baseurl }}{% post_url 2023-08-24-Retrieval-Augmented-Generation %})
+- Demonstrate different strategies of using/building LLMs, for example [retrieval augmented generation]({{ site.baseurl }}{% post_url 2023-08-24-Retrieval-Augmented-Generation %}) or [prompt engineering]({{ site.baseurl }}{% post_url 2023-08-02-Imaginary-Syllabi:-Prompt-Engineering-And-Addressative-Magic %})
 
 
 # Fordham stuff

@@ -1,5 +1,5 @@
 ---
-Title: "Imaginary Cinema: Titanic but with Chiguiros"
+Title: "Imaginary Cinema: Titanic, but with Chiguiros"
 Date: 2023-03-04
 Tags: imaginary-cinema art chiguiro
 ---
