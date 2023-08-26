@@ -1,5 +1,5 @@
 ---
-Title: "Imaginary Cinema: The Sting but with Chiguiros"
+Title: "Imaginary Cinema: The Sting, but with Chiguiros"
 Date: 2023-02-24
 Tags: imaginary-cinema art chiguiro
 ---
