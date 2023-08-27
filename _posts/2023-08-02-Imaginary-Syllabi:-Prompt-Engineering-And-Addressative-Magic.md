@@ -26,6 +26,8 @@ There is a long tradition of Judeo-Christian magic (e.g., [Sefer ha-Razim](https
 
 What is this, if not [prompt engineering](https://en.wikipedia.org/wiki/Prompt_engineering)? 
 
+I agree with [Lilian Weng's "spicy take"](https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/)---most of prompt engineering is just simple tricks or wishful thinking. (But she does a nice job of illustrating what is demonstrably useful...)
+
 # É solo un Trucco! From magic to natural magic to science...
 
 (with reference to [La Grand Bellezza](https://en.wikipedia.org/wiki/The_Great_Beauty)...[É solo un Trucco!](https://www.youtube.com/watch?v=GOF_YCcg8OM) ) 
