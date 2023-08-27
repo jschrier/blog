@@ -47,9 +47,9 @@ But this is too easy, so instead we will demonstrate [three strategies.](https:/
 
 **Pro:**  This is widely used and easy to parallelize.
 
-**Con:** Disregards logical flow and structure of the text (splitting by word count will break across sentences, paragraphs, chains of thought
+**Con:** Disregards logical flow and structure of the text (splitting by word count will break across sentences, paragraphs, chains of thought)
 
-**Implementation:**  For sake of demonstration we\[CloseCurlyQuote]ll implement a chunk function we can use in subsequent work.  
+**Implementation:**  For sake of demonstration we'll implement a chunk function we can use in subsequent work.  
 
 ```mathematica
 (*divide into chunks with default length of 3000 words*)
@@ -160,7 +160,7 @@ ArrayPlot@DistanceMatrix[embeddings, DistanceFunction -> CosineDistance]
 
 ![11qoaisrqulx2](/blog/images/2023/8/27/11qoaisrqulx2.png)
 
-Now let\[CloseCurlyQuote]s cluster them together:
+Now let's cluster them together:
 
 ```mathematica
 clusters = StringRiffle /@ FindClusters[
@@ -176,7 +176,7 @@ Note that [FindClusters](http://reference.wolfram.com/language/ref/FindClusters.
 ```mathematica
 FindClusters[embeddings -> Range[Length[embeddings]], DistanceFunction -> CosineDistance]
 
-(*{{1, 2, 23}, {3, 42}, {4, 5, 6, 8, 9, 11, 13, 14, 18, 20, 21, 22, 25, 26, 27, 28, 29, 31, 32}, {7, 10, 15, 16, 17}, {12, 38, 39, 40}, {19}, {24, 30, 41}, {33}, {34, 35, 36, 37}, {43, 44, 45, 52, 53, 54, 55}, {46, 47}, {48}, {49, 50, 51}}*)
+(*{ {1, 2, 23}, {3, 42}, {4, 5, 6, 8, 9, 11, 13, 14, 18, 20, 21, 22, 25, 26, 27, 28, 29, 31, 32}, {7, 10, 15, 16, 17}, {12, 38, 39, 40}, {19}, {24, 30, 41}, {33}, {34, 35, 36, 37}, {43, 44, 45, 52, 53, 54, 55}, {46, 47}, {48}, {49, 50, 51}}*)
 ```
 
 All of our new clusters are below the token limit, but otherwise we might need to go in and break these up too.  For now we can skip this:
