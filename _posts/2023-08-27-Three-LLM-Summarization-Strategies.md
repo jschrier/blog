@@ -53,31 +53,31 @@ But this is too easy, so instead we will demonstrate [three strategies.](https:/
 
 ```mathematica
 (*divide into chunks with default length of 3000 words*)
-  chunk[sentences_List, chunkLength_ : 3000] := With[
-    {chunkGroups = Ceiling[#/chunkLength] &@Accumulate@WordCount@sentences}, 
-    StringRiffle /@ Values@ResourceFunction["GroupByList"][sentences, chunkGroups]]
+chunk[sentences_List, chunkLength_ : 3000] := With[
+  {chunkGroups = Ceiling[#/chunkLength] &@Accumulate@WordCount@sentences}, 
+  StringRiffle /@ Values@ResourceFunction["GroupByList"][sentences, chunkGroups]]
 ```
 
 ```mathematica
 (*summarize each chunk*)
-  summarizeChunks[sentences_List, chunkLength_ : 3000] := With[
-     {chunks = chunk[sentences, chunkLength]}, 
-     TextSentences@StringRiffle@
-       ParallelMap[ LLMResourceFunction["Summarize"], chunks]] 
+summarizeChunks[sentences_List, chunkLength_ : 3000] := With[
+  {chunks = chunk[sentences, chunkLength]}, 
+  TextSentences@StringRiffle@
+  ParallelMap[ LLMResourceFunction["Summarize"], chunks]] 
    
-  (*see if the current list of sentences exceeds a total word count*) 
-   exceedsWordCountQ[targetWordCount_Integer][sentences_List] := 
-    GreaterThan[targetWordCount]@WordCount@StringRiffle@sentences 
+(*see if the current list of sentences exceeds a total word count*) 
+exceedsWordCountQ[targetWordCount_Integer][sentences_List] := 
+  GreaterThan[targetWordCount]@WordCount@StringRiffle@sentences 
    
   (*apply summarizeChunks repeatedly until we are below the target wordcount length*) 
-   recursiveSummarize[sentences_List, targetLength_ : 3000] := 
-    NestWhile[ summarizeChunks, sentences, exceedsWordCountQ[targetLength]] // StringRiffle
+recursiveSummarize[sentences_List, targetLength_ : 3000] := 
+  NestWhile[ summarizeChunks, sentences, exceedsWordCountQ[targetLength]] // StringRiffle
 ```
 
 ```mathematica
 (*demo*)
-  output = recursiveSummarize[sentences] 
-   WordCount[%]
+output = recursiveSummarize[sentences] 
+WordCount[%]
 
 (*"In his address, President Biden congratulates members of Congress and highlights key leaders in the government. He emphasizes the progress and resilience of the United States, citing economic growth, the handling of COVID-19, and the preservation of democracy. He calls for unity and collaboration between Democrats and Republicans and outlines his plans to rebuild the middle class, invest in infrastructure, and address healthcare and climate change issues. The speaker claims that their administration has cut the deficit by over $1.7 trillion, the largest reduction in American history, while criticizing the previous administration for increasing the deficit. They also express their commitment to protecting Social Security and Medicare benefits and ask Congress to follow suit. Additionally, they discuss their plans to lower the deficit, extend the Medicare Trust Fund, and make the wealthy and big corporations pay their fair share in taxes. The text highlights America's commitment to defending democracy and standing against aggression, particularly in relation to Ukraine and China. It emphasizes the strength of America's position in the world and the progress made in areas such as healthcare, mental health, and veterans' support. The text also emphasizes the importance of democracy, the need to protect the right to vote, and the responsibility to uphold the rule of law."*)
 
@@ -96,20 +96,20 @@ But this is too easy, so instead we will demonstrate [three strategies.](https:/
 
 ```mathematica
 (*join the previous summary with the current chunk*)
-  joinedSummary[previousSummary_String, currentChunk_String] := With[
-     {input = StringRiffle[{previousSummary, currentChunk}]}, 
-     LLMResourceFunction["Summarize"][input]] 
+joinedSummary[previousSummary_String, currentChunk_String] := With[
+  {input = StringRiffle[{previousSummary, currentChunk}]}, 
+  LLMResourceFunction["Summarize"][input]] 
    
-  (*just fold in the summary and the next chunk until you're done*) 
-   refiningSummarize[sentences_List, chunkLength_ : 1000] := With[
-     {chunks = chunk[sentences, chunkLength]}, 
-     Fold[joinedSummary, chunks]]
+(*just fold in the summary and the next chunk until you're done*) 
+refiningSummarize[sentences_List, chunkLength_ : 1000] := With[
+  {chunks = chunk[sentences, chunkLength]}, 
+  Fold[joinedSummary, chunks]]
 ```
 
 ```mathematica
 (*demo*)
-  refiningSummarize[sentences] 
-   WordCount[%]
+refiningSummarize[sentences] 
+WordCount[%]
 
 (*"President Biden addressed Congress, discussing a range of issues including healthcare reform, climate action, police reform, immigration reform, protection of LGBTQ rights, and America's stance against China's aggression. He also emphasized the need to end cancer as we know it and restore trust in our institutions of democracy, calling for unity and a rejection of hate and extremism. Despite the challenges, he expressed optimism about the future of America and the capacity to overcome them together."*)
 
@@ -122,27 +122,28 @@ This is the strategy that [Tham advocates in his article](https://towardsdatasci
 
 1. Divide the text into groups of 10 sentences each (with an overlap of 2 sentence for continuity.)
 
-1. Summarize each chunk
+2. Summarize each chunk
 
-1. Compute an embedding vector for each chunk
+3. Compute an embedding vector for each chunk
 
-1. Cluster the embedding vectors--Tham uses [Louvain community detection](https://en.wikipedia.org/wiki/Louvain_method), aka Modularity optimization, which is one of the methods available in [FindGraphCommunities](http://reference.wolfram.com/language/ref/FindGraphCommunities.html).  But there is nothing intrinsically special about this, and we might instead think about using the variety of methods implemented in [FindClusters](http://reference.wolfram.com/language/ref/FindClusters.html) to do this for us.
+4. Cluster the embedding vectors--Tham uses [Louvain community detection](https://en.wikipedia.org/wiki/Louvain_method), aka Modularity optimization, which is one of the methods available in [FindGraphCommunities](http://reference.wolfram.com/language/ref/FindGraphCommunities.html).  But there is nothing intrinsically special about this, and we might instead think about using the variety of methods implemented in [FindClusters](http://reference.wolfram.com/language/ref/FindClusters.html) to do this for us.
 
-1. Aggregate the summaries in each cluster as new chunks
+5. Aggregate the summaries in each cluster as new chunks
 
 We will demonstrate how to do this for a single round (defining functions as we proceed) and then put it all together to do it iteratively until we reach a desired summary size.  To begin, define a function to do the sentence group chunking:
 
 ```mathematica
 (*chunk by sentence --- instead of by word count as we did above*)
-  sentenceChunk[sentences_List, chunkSize_ : 10, chunkOverlap_ : 2] :=StringRiffle /@ 
+sentenceChunk[sentences_List, chunkSize_ : 10, chunkOverlap_ : 2] :=
+  StringRiffle /@ 
     Partition[sentences, UpTo[chunkSize], chunkSize - chunkOverlap]
 ```
 
 Compute summaries of each chunk:
 
 ```mathematica
-summaries = 
-   ParallelMap[ LLMResourceFunction["Summarize"], sentenceChunk[sentences]];
+summaries = ParallelMap[ 
+  LLMResourceFunction["Summarize"], sentenceChunk[sentences]];
 ```
 
 Then generate embeddings for each chunk. It seems like an oversight, but [Mathematica 13.3](https://writings.stephenwolfram.com/2023/06/llm-tech-and-a-lot-more-version-13-3-of-wolfram-language-and-mathematica/) does not include a function for this; instead we will use the [OpenAILink](https://resources.wolframcloud.com/PacletRepository/resources/ChristopherWolfram/OpenAILink/) paclet.  Be sure to install it first, if you have not done so already.  We will use OpenAILink to generate embedding vectors for each chunk:
@@ -163,9 +164,10 @@ ArrayPlot@DistanceMatrix[embeddings, DistanceFunction -> CosineDistance]
 Now let's cluster them together:
 
 ```mathematica
-clusters = StringRiffle /@ FindClusters[
-     embeddings -> summaries, 
-     DistanceFunction -> CosineDistance];
+clusters = StringRiffle /@ 
+  FindClusters[
+    embeddings -> summaries, 
+    DistanceFunction -> CosineDistance];
 Length[%]
 
 (*13*)
@@ -195,22 +197,21 @@ Having demonstrated what a single pass looks like, we will define a function to 
 Needs["ChristopherWolfram`OpenAILink`"] 
  
 clusterSummarize[sentences_List] := Module[ 
-    {summaries, embeddings, clusters}, 
-    summaries = ParallelMap[ 
-      LLMResourceFunction["Summarize"], 
-      sentenceChunk[sentences]]; 
-    embeddings = ParallelMap[OpenAIEmbedding, summaries]; 
-    clusters = StringRiffle /@ 
-      FindClusters[
-       embeddings -> summaries, 
-       DistanceFunction -> CosineDistance]; 
-   (*return a list of new sentences*) 
-    TextSentences@StringRiffle[clusters] 
-   ] 
+  {summaries, embeddings, clusters}, 
+  summaries = ParallelMap[ 
+    LLMResourceFunction["Summarize"], sentenceChunk[sentences]]; 
+  embeddings = ParallelMap[OpenAIEmbedding, summaries]; 
+  clusters = StringRiffle /@ 
+    FindClusters[
+      embeddings -> summaries, 
+      DistanceFunction -> CosineDistance]; 
+  (*return a list of new sentences*) 
+  TextSentences@StringRiffle[clusters] 
+] 
   
  (*repeat this until we meet the target*)
 recursiveCluster[sentences_List, targetLength_ : 500] := 
-   NestWhile[ clusterSummarize, sentences, exceedsWordCountQ[targetLength]] // StringRiffle 
+  NestWhile[ clusterSummarize, sentences, exceedsWordCountQ[targetLength]] // StringRiffle 
   
  (*demo*)
 recursiveCluster[sentences]
