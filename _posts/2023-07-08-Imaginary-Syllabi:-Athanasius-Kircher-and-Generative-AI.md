@@ -48,6 +48,15 @@ I'm a contrarian, and the students taking this course aren't necessarily technic
 - Then move into more [generative things with LLMs](https://www.wolfram.com/wolfram-u/courses/language-integrations/new-llm-functionality-in-wolfram-language/) using the [new LLM functionality in Mathematica 13.3](https://writings.stephenwolfram.com/2023/06/llm-tech-and-a-lot-more-version-13-3-of-wolfram-language-and-mathematica/)
 - Demonstrate different strategies of using/building LLMs, for example [retrieval augmented generation]({{ site.baseurl }}{% post_url 2023-08-24-Retrieval-Augmented-Generation %}) or [prompt engineering]({{ site.baseurl }}{% post_url 2023-08-02-Imaginary-Syllabi:-Prompt-Engineering-And-Addressative-Magic %})
 
+# Ideas on organization and correspondences between Kircher and topics in a course
+
+- Kircher's Mathematics (e.g., [Arithmologia](https://maa.org/press/periodicals/convergence/mathematical-treasure-kircher-s-arithmologia))  --> basic vectors and matrix operations
+- Kircher's [Organum Mathematicum](https://gate.unigre.it/mediawiki/index.php/Athanasius_Kircher’s_Organum_mathematicum._On_the_Evolutionary_Improbability_of_an_Information_Processing_Innovation) --> Intro to computing
+- Kircher's [Polygraphia Nova](https://en.wikipedia.org/wiki/Polygraphia_Nova) --> [word/sentence embeddings](https://en.wikipedia.org/wiki/Word_embedding)
+- Kircher's writings on China --> [summarization methods]({{ site.baseurl }}{% post_url 2023-08-27-Three-LLM-Summarization-Strategies %})
+- Kircher's Hieroglyphic decipherng --> hallucinations
+- Kircher's encyclopedism --> [retrieval augmented generation methods]({{ site.baseurl }}{% post_url 2023-08-24-Retrieval-Augmented-Generation %})
+- [Noah's ark](https://honorsbookculture.ace.fordham.edu/kirchers-encyclopedic-visions) --> image generation/CLIP
 
 # Fordham stuff
 
@@ -59,7 +68,7 @@ I'm a contrarian, and the students taking this course aren't necessarily technic
 
 - Riff on the idea of [word embeddings](https://en.wikipedia.org/wiki/Word_embedding) used in ML and Kircher's [Polygraphia Nova](https://en.wikipedia.org/wiki/Polygraphia_Nova).  c.f. Eco's [The Search for the Perfect Langauge](https://amzn.to/43f3UIX)
 - Kircher's [Organum Mathematicum](https://gate.unigre.it/mediawiki/index.php/Athanasius_Kircher’s_Organum_mathematicum._On_the_Evolutionary_Improbability_of_an_Information_Processing_Innovation) was a type of proto-computer, with a human-machine interface for creativity.  A great starting point for an interdisciplinary course.
-- The [cat organ](https://en.wikipedia.org/wiki/Cat_organ) would be an excellent addition to a [cat cafe](({{ site.baseurl }}{% post_url 2023-06-27-Great-ideas-from-Korea %}))
+- The [cat organ](https://en.wikipedia.org/wiki/Cat_organ) would be an excellent addition to a [cat cafe]({{ site.baseurl }}{% post_url 2023-06-27-Great-ideas-from-Korea %})
 
 # Footnotes
 

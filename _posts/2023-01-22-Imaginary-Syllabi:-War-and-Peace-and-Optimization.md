@@ -30,7 +30,7 @@ A course for non-math majors on optimization and its role in hot- and cold-wars.
 # Other books on reserve
 
 (Mostly gleanings from the bibliography of *Red Plenty*)
-* Michael Ellman, *Planning Problems in the USSR* (CUP 1973)
+* Michael Ellman, *Planning Problems in the USSR* (CUP 1973)---this [stackexchange thread](https://skeptics.stackexchange.com/questions/22375/did-a-soviet-nail-factory-produce-useless-nails-to-improve-metrics) has some examples drawn from the book, including the problems of defining different objective functions (nail factory problem); the thread also describes some other possible books including  [Social Problems in a Free Society: Myths, Absurdities, and Realities by Myles J. Kelleher](https://books.google.no/books?id=iex_WiCGxqwC&pg=PA60&lpg=PA60&dq=soviet+nail+factory&source=bl&ots=l2HABsGALE&sig=ACfU3U2qeQneouPEQpJbCWzUfTp1YL9YNg&hl=en&sa=X&ved=2ahUKEwjrpI3P-qTkAhXD-ioKHY83DdEQ6AEwDnoECAkQAQ#v=onepage&q=soviet%20nail%20factory&f=false) ([alt link](https://books.google.com/books?id=iex_WiCGxqwC&pg=PA60&lpg=PA60&dq=%22the%20success%20of%20a%20nail%20factory%27s%22)) that may be interesting to dig into 
 * Philip Minkowski, *Machine Dreams: Economics Becomes a Cyborg Science* (CUP, 2002)
 * F. A. Hayek, *The Use of Knowledge in Society* 
 * von Mises, *Socialism*
