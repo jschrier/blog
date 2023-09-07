@@ -28,6 +28,10 @@ What is this, if not [prompt engineering](https://en.wikipedia.org/wiki/Prompt_e
 
 I agree with [Lilian Weng's "spicy take"](https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/)---most of prompt engineering is just simple tricks or wishful thinking. (But she does a nice job of illustrating what is demonstrably useful...)
 
+# Agents and Daemons
+
+[LLM-based agents](https://lilianweng.github.io/posts/2023-06-23-agent/) (incluing cheemical examples like ChemCrow) as golem-like creations ... or independently minded daemons
+
 # É solo un Trucco! From magic to natural magic to science...
 
 (with reference to [La Grand Bellezza](https://en.wikipedia.org/wiki/The_Great_Beauty)...[É solo un Trucco!](https://www.youtube.com/watch?v=GOF_YCcg8OM) ) 
