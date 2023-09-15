@@ -1,5 +1,5 @@
 ---
-Title: "Comparing tudent success rates with the Beta distributon"
+Title: "Comparing student success rates with the Beta distribution"
 Date: 2023-09-07
 Tags: teaching dei mathematica statistics
 ---
@@ -46,7 +46,7 @@ There must be a better way.
 
 What if we frame the problem in the following way: Suppose each group of students (Earthlings, Martians) is assigned a coin that results in passing the course with probability *p*, and flipping the coin determines their outcome in the course.  The bias on the coin reflects all possible factors (prior preparation, socioeconomic, discrimination by the instructor, grit, inherent intellectual superiority, etc.).    What is the distribution of coin weights, *p*, given an observed sample of outcomes?  
 
-Stated more formally, the observed class pass/fail outcomes are like a a coin that returns success with probability *p* (i.e., a [Bernoulli trial](https://mathworld.wolfram.com/BernoulliTrial.html)).  A round of *n* experiments corresponds to counting the number of successes in that series, i.e., a [Binomial distribution](https://mathworld.wolfram.com/BinomialDistribution.html).  For a given observation of *k* successes, there are different *p*\[CloseCurlyQuote]s can give rise to that outcome.  As an illustrative example, we can ask what are the probabilities that a coin of *p* will give *k=4* successes in *n=5* trials.  This is merely the probability density function:
+Stated more formally, the observed class pass/fail outcomes are like a a coin that returns success with probability *p* (i.e., a [Bernoulli trial](https://mathworld.wolfram.com/BernoulliTrial.html)).  A round of *n* experiments corresponds to counting the number of successes in that series, i.e., a [Binomial distribution](https://mathworld.wolfram.com/BinomialDistribution.html).  For a given observation of *k* successes, there are different *p* values that give rise to that outcome.  As an illustrative example, we can ask what are the probabilities that a coin of *p* will give *k=4* successes in *n=5* trials.  This is merely the probability density function:
 
 ```mathematica
 binomialPDF[n_, k_] := PDF[BinomialDistribution[n, #], k]*(n + 1) &
@@ -177,8 +177,8 @@ Quantile[martians, {0.05, 0.95}]
 (*{0.418197, 0.93715}*)
 ```
 
-Clearly the margins around the Martian value of *p* are quite wide, and encompass the Earthling ones. Thus, it does not seem that there is clear evidence of any systematic advantage or disadvantage for Martian students at the Academy.[ Kirk out](https://www.google.com/search?q=kirk+out+meme).  
+Clearly the margins around the Martian value of *p* are quite wide, and encompass the Earthling ones. Thus, it does not seem that there is clear evidence of any systematic advantage or disadvantage for Martian students at the Academy. [Kirk out](https://www.google.com/search?q=kirk+out+meme).  
 
 ```mathematica
-ToJekyll["Comparing student success rates with the Beta distributon", "teaching dei mathematica statistics"]
+ToJekyll["Comparing student success rates with the Beta distribution", "teaching dei mathematica statistics"]
 ```
