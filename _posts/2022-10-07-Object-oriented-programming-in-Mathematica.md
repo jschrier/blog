@@ -130,6 +130,10 @@ Histogram[
 
 In neither of these patterns is it automatic to be able to retrieve instance variables; you need to define explicit getter methods.
 
+## 
+
+ - [Flavors of OOP paradigms and their Mathematica implementation](https://mathematica.stackexchange.com/questions/119991/which-object-oriented-paradigm-approach-to-use-in-mathematica)
+
 ```mathematica
 ToJekyll["Object-oriented programming in Mathematica", "mathematica, programming, oop"]
 ```

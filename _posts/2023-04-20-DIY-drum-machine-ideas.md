@@ -26,7 +26,8 @@ Tags: audio synth pico drum
 * [Polaron](https://github.com/zueblin/Polaron) --teensy-based drum machine, nice interface, sequencer, c-code, open-source
 * [MadLab Funky Drummer](https://www.tindie.com/products/madlab/funky-drummer-kit/) is a simple PIC-based 8-bit drum machine (sounds pretty OK); the inventor's webpage has a [schematic and Elektor article for an earlier version](http://www.madlab.org/kits/drummer.html)
 * The [bleep drum](https://bleeplabs.com/product/the-bleep-drum/) was a simple kit that is no longer sold...but you can find the [22kHz drum samples](http://bleeplabs.com/2013/04/07/putting-your-own-samples-in-the-bleep-drum/) online at [github](https://github.com/BleepLabs/Bleep-Drum); this seems like a popular backend for kits like the [cumbia tropical drum](https://www.tindie.com/products/oficinadesonido/hanan-cumbia-tropical-drum-machine/), etc.
-* [PicoTouch capacitive midi keyboard](https://www.tindie.com/products/todbot/picotouch-capsense-midi-keyboard-for-raspi-pico/) and [PicoStepSeq](https://www.tindie.com/products/todbot/picostepseq-pcb/) designs.  Some inspiration for UI.    
+* [PicoTouch capacitive midi keyboard](https://www.tindie.com/products/todbot/picotouch-capsense-midi-keyboard-for-raspi-pico/) and [PicoStepSeq](https://www.tindie.com/products/todbot/picostepseq-pcb/) designs.  Some inspiration for UI.   
+* [CRUM Drum](https://www.thonk.co.uk/shop/crum-drum/) is a neat little semi-generative 4-voice drum machine; driven by a (pre-programmed) [Teensy](https://www.sparkfun.com/products/16996)
 
 
 # Other random thoughts
