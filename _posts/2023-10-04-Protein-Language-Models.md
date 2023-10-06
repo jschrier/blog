@@ -8,7 +8,7 @@ A chat with [Rudi Gunawan](https://scholar.google.com/citations?user=fx039lUAAAA
 
 # Model types
 
-Proteins seem like a language problem:  We have an alphabet of amino acids and we have a natural sequence.  So it makes sense to apply the same type of [transformer]({{ site.baseurl }}{% post_url 2023-03-07-A-Few-Of-My-Favorite-Transformer-Tutorials}) type models that are becoming popular for natural language processing (NLP).  If you'd like a more scholarly justification see the brief review by [Ofer et al, "The language of proteins: NLP, machine learning & protein sequences"](https://doi.org/10.1016/j.csbj.2021.03.022) (2021).  This review also goes into other (non-transformer) NLP-style approaches to the problem.
+Proteins seem like a language problem:  We have an alphabet of amino acids and we have a natural sequence.  So it makes sense to apply the same type of [transformer]({{ site.baseurl }}{% post_url 2023-03-07-A-Few-Of-My-Favorite-Transformer-Tutorials %}) type models that are becoming popular for natural language processing (NLP).  If you'd like a more scholarly justification see the brief review by [Ofer et al, "The language of proteins: NLP, machine learning & protein sequences"](https://doi.org/10.1016/j.csbj.2021.03.022) (2021).  This review also goes into other (non-transformer) NLP-style approaches to the problem.
 
 So let's quickly [review some transformer models for natural language processing](https://huggingface.co/docs/transformers/model_summary#natural-language-processing). 
 
