@@ -16,7 +16,7 @@ Tags: imaginary-books children
 - [Houdini, Harry](https://en.wikipedia.org/wiki/Harry_Houdini) (1874-1926) Magician and escape artist
 - **I**
 - [Jedlik, Anyos](https://en.wikipedia.org/wiki/Ányos_Jedlik) (1800-1895) Benedictine priest and inventor of the electric motor and optical gratings
-- [von Karman, Theodore](https://en.wikipedia.org/wiki/Theodore_von_Kármán) (1881-1963) pioneering aerospace engineer
+- [von Karman, Theodore](https://en.wikipedia.org/wiki/Theodore_von_Kármán) (1881-1963) pioneering aerospace engineer --- alternate [Karikó, Katalin](https://en.wikipedia.org/wiki/Katalin_Karikó) (1955-) Biochemist and Nobel Laureate (2023)
 - [Liszt, Franz](https://en.wikipedia.org/wiki/Franz_Liszt) (1811-1886) Composer and pianist
 - [Moholy-Nagy, Laszlo](https://en.wikipedia.org/wiki/László_Moholy-Nagy) (1895-1946) Painter, photographer, Bauhaus professor
 - [von Neuman, Janos (John)](https://en.wikipedia.org/wiki/John_von_Neumann) (1903-1957) Mathematician, computer scientist, physicist, and general polymath
