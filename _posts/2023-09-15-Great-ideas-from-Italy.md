@@ -1,6 +1,6 @@
 ---
 Title: "Great Ideas from Italy"
-Date: 2023-09-13
+Date: 2023-09-15
 Tags: travel
 ---
 
@@ -10,7 +10,7 @@ Business and art ideas inspired by my recent trip to northern Italy...
 
 - I should [buy a 3d scanner](https://3dprintingindustry.com/news/3dmakerpro-launches-new-high-resolution-0-01mm-accuracy-seal-3d-scanner-224112/): some targets include door knockers on houses in Italy, picture frames (esp. Baroque) in museuems
 - Really, we have 3d printing ...why isn't everything covered with the equivalent of Baroque/Rococo ornamentation?  Bauhaus was about coming up with good design that was compatible with machine production...but the nature of our machines have changed, so our design can change with it.
-- *Barokea*: 3d printed baroque furniture retrofits that you can add to Ikea products 
+- **Barokea**: 3d printed baroque furniture retrofits that you can add to Ikea products 
 - [wall-scale inkjet printers](https://thewallprinter.com/en/) that can print interior walls with tromp l'oeil decorations (like late baroque frescos) or outdoor walls (like Südtirol house painting of sundials)
 - use said 3d scanner to repair chess sets that are missing pieces, as found in random Genovese hotels (scan pieces and then print a replacement to send back)
 - [digital ceramic printing](https://www.ceramicprinting.com/ceramic-and-glass-printing-systems/), and subsequent use for tile-graffiti...
@@ -45,7 +45,7 @@ Business and art ideas inspired by my recent trip to northern Italy...
 
 - One man restaurant:  Could you use automation, kiosk ordering, and AI to let a single human run a restaurant (instead of hiring people)? It's a bit extreme, but maybe a useful thought exercise
 - self driving scooter rentals between Santa Margerita de Ligure and Portofino.  It's too long (and too unsafe) to walk it, but the bus runs infrequently. Live la Dolce Vita by riding a scooter along the ocean in Italy. Make it self driving and balancing so that less goes wrong.  
-- _Heir BnB_:  Luxury vacation rentals, but you have to be rich to offer or take a place.  
+- **Heir BnB**:  Luxury vacation rentals, but you have to be rich to offer or take a place.  
 - Import cheap (but good) 10-Euro italian Sunglasses
 - Genovese [pesto-making machines](https://twitter.com/JoshuaSchrier/status/1698674170324787471) that actually smash the basil and garlic in a mortar and pestle
 - Laser etching designs and logos on macaroons (for weddings, special events)...it's been done [1](https://www.youtube.com/watch?v=z4xtG1OXPaQ) [2](https://themakerbean.com/products/laser-engraved-macarons#:~:text=Put%20a%20special%20message%20on,birthday%20or%20any%20special%20occasion!)
@@ -53,7 +53,7 @@ Business and art ideas inspired by my recent trip to northern Italy...
 # Science / Education
 
 - Suppose that you want to teach students about using cloud labs in a pedagogical setting. Would it matter if you constructed a digital twin simulation of the experiment you wanted to run (in terms of learning goals)?  Why? 
-- Dream: Use AI to "read" the papers by [Bill Miller](https://scholar.google.com/citations?user=EfTP8DwAAAAJ&hl=en&oi=ao) and then propose mathematical theorems in chemical physics in his style.  Maybe this is not so crazy.  There is a recent paper on using formal theorem provers for chemical physics (https://arxiv.org/abs/2210.12150 ) and there is separate work on using generative AI to interact with Lean (https://github.com/lean-dojo/LeanDojoChatGPT ) It is pretty easy to "scan" in text from PDFs and extract text to mimic.... *Inspired by a dinner with [Michele Ceotto](https://scholar.google.com/citations?user=j6IXDosAAAAJ&hl=en&oi=ao) *
+- Dream: Use AI to "read" the papers by [Bill Miller](https://scholar.google.com/citations?user=EfTP8DwAAAAJ&hl=en&oi=ao) and then propose mathematical theorems in chemical physics in his style.  Maybe this is not so crazy.  There is a [recent paper on using formal theorem provers for chemical physics](https://arxiv.org/abs/2210.12150) and there is separate work on [using generative AI to interact with Lean](https://github.com/lean-dojo/LeanDojoChatGPT ) It is pretty easy to "scan" in text from PDFs and extract text to mimic....  *Inspired by a dinner with* [Michele Ceotto](https://scholar.google.com/citations?user=j6IXDosAAAAJ&hl=en&oi=ao) 
 
 
 
@@ -61,9 +61,9 @@ Business and art ideas inspired by my recent trip to northern Italy...
 
 (LLMs have [been on my mind a lot lately...](https://www.fordham.edu/media/home/departments-centers-and-offices/office-of-the-provost/pdfs/AI-Visioning-Committee-Recommendations.pdf))
 
-- Would you accept an AI-based spiritual director?  Most religions think it is appropriate to use written text as a guide to life...whether you think of this in terms reading scripture directly (and/or [bibliomancy](https://en.wikipedia.org/wiki/Bibliomancy)) or relying upon secondary sources such as the [Sayings of the Desert Fathers](https://en.wikipedia.org/wiki/Sayings_of_the_Desert_Fathers), [Rule of St. Benedict](https://en.wikipedia.org/wiki/Rule_of_Saint_Benedict), the [Imitatio Christi](https://en.wikipedia.org/wiki/The_Imitation_of_Christ) of Thomas A. Kempis or meta-manuals like the the [Spiritual Exercises](https://en.wikipedia.org/wiki/Spiritual_Exercises) of Ignatius of Loyola, etc.  So why not use these texts (with an appropriate RAG-based chatbot) to guide your life?  Somethings seems wrong about this, but I can't quite specify what it is. 
+- Would you accept an AI-based spiritual director?  Most religions think it is appropriate to use written text as a guide to life...whether you think of this in terms reading scripture directly, [bibliomancy](https://en.wikipedia.org/wiki/Bibliomancy), or relying upon secondary sources such as the [Sayings of the Desert Fathers](https://en.wikipedia.org/wiki/Sayings_of_the_Desert_Fathers), [Rule of St. Benedict](https://en.wikipedia.org/wiki/Rule_of_Saint_Benedict), the [Imitatio Christi](https://en.wikipedia.org/wiki/The_Imitation_of_Christ) of Thomas A. Kempis or meta-manuals like the the [Spiritual Exercises](https://en.wikipedia.org/wiki/Spiritual_Exercises) of Ignatius of Loyola, etc.  So why not use these texts with an appropriate [RAG-based chatbot]({{ site.baseurl }}{% post_url 2023-08-24-Retrieval-Augmented-Generation %})  to guide your life?  Somethings seems wrong about this, but I can't quite specify what it is. 
 
-- Autogenerated podcasts (using LLMs plus text to speech) based on today's news + some basic RAG with the themes of:  
+- Autogenerated podcasts (using LLMs plus text to speech) based on today's news + some [basic RAG]({{ site.baseurl }}{% post_url 2023-08-24-Retrieval-Augmented-Generation %}) with the themes of:  
     - Biblical interpretation/sermon 
     - Told parable like the ones about Diogenes the Cynic or the Analects of Confucius or the Chuang Tzu
     - As a recipe ("take one cup of top secret documents, two tablespoons of inciting the crowd over Twitter, ... ) ... perhaps alternatively in the style of a cocktail recipe (1 part...)
@@ -73,14 +73,14 @@ Business and art ideas inspired by my recent trip to northern Italy...
 - Generate theories about the [theft of the Gardiner Museum](https://www.gardnermuseum.org/organization/theft)
 - Rewrite the story of [Romeo and Juliet](https://en.wikipedia.org/wiki/Romeo_and_Juliet) in different towns, using relevant landmarks, demographic names 
 - Robots that hand-write machine generated texts
-- RAG-based Q&A system for physical chemistry using Libretext content 
+- RAG-based Q&A system for physical chemistry using [Libretext content](http://libretexts.org) 
 
 - LLM generated cookbooks (with images generated as well); this can have a sort of [Pale Fire](https://en.wikipedia.org/wiki/Pale_Fire) vibe of embeddding a story in the footnotes:
     - Cooking with Dante 
     - Lord Byron in Liguria 
     - Irish cooking with Oscar Wilde
 
-- Lifestyle /wellness coaching by LLMs: (best when the stakes of failure are low; most of these seem like a [HYDE](https://arxiv.org/abs/2212.10496/RAG type of problem)
+- Lifestyle /wellness coaching by LLMs: (best when the stakes of failure are low; most of these seem like a [HYDE](https://arxiv.org/abs/2212.10496)/RAG type of problem)
     - AI wine recommendations 
     - [Bach Flower Remedy](https://en.wikipedia.org/wiki/Bach_flower_remedies) "diagnosis" 
     - Diet (tell me what you ate, ...)
@@ -106,8 +106,5 @@ Business and art ideas inspired by my recent trip to northern Italy...
 - Reconnect with Markus Baenziger ([sculpture prof from Haverford](https://www.haverford.edu/users/mbaenzig) who lives in Brooklyn )
 - Go to more organ concerts
 - Build: [3d-printed model RC airplanes](https://blog.prusa3d.com/3dlabprint_3d-printed_airplanes_74900/)
-- Write/code: an minimal implementation of [Bayesian error estimateion in LLMs](https://arxiv.org/abs/2304.05341) to understand how this works
+- Write/code: an minimal implementation of [Bayesian error estimation in LLMs](https://arxiv.org/abs/2304.05341) to understand how this works
 - Build: [jubilee tool changing cartesian lab robot](http://jubilee3d.com)
-
-
-

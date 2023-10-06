@@ -99,3 +99,6 @@ Several modules require calibration or tuning by adjusting a trimpot or two. An 
 
 
 
+# Appendix:  Ideas for future hacks
+
+- The [power supply system](https://www.ericasynths.lv/media/instrukcija_2.pdf) uses a wall-wart to provide +12VDC @ 1 A as input to the bipolar converter.  In principle you can replace the wall-wart with USB-C by using a [HUB238  USB power supply chip](https://www.adafruit.com/product/5807) (which will readily supply 2-3A if you wish).

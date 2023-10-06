@@ -112,13 +112,13 @@ Plot[
 
 ## The Beta Distribution
 
-The function we derive above is actually well known in (Bayesian) statistics as the [BetaDistribution](http://reference.wolfram.com/language/ref/BetaDistribution.html).  For example, Downing\[CloseCurlyQuote]s [Think Bayes](https://www.greenteapress.com/thinkbayes/html/thinkbayes005.html) has a chapter on this problem.   A few concrete cases to consider:
+The function we derive above is actually well known in (Bayesian) statistics as the [BetaDistribution](http://reference.wolfram.com/language/ref/BetaDistribution.html).  For example, Downing's [Think Bayes](https://www.greenteapress.com/thinkbayes/html/thinkbayes005.html) has a chapter on this problem.   A few concrete cases to consider:
 
-- (blue) BetaDistribution[1, 1] corresponds to a uniform prior at the start of the experiment with no trials--we have no information about the coin and therefore assume that any value of *p* between 0 and 1 is equally possible.
+- (blue) `BetaDistribution[1, 1]` corresponds to a uniform prior at the start of the experiment with no trials--we have no information about the coin and therefore assume that any value of *p* between 0 and 1 is equally possible.
 
-- (green) BetaDistribution[10, 1] corresponds to observing 9 passes and zero failures.  
+- (green) `BetaDistribution[10, 1]` corresponds to observing 9 passes and zero failures.  
 
-- (orange) BetaDistribution[5, 2] = BetaDistribution[1+4, 1+1] corresponds to our Martians in the problem.  That is, we add to the first index for each successful pass and add to the second index for each fail. 
+- (orange) `BetaDistribution[5, 2]` (or `BetaDistribution[1+4, 1+1]`) corresponds to our Martians in the problem.  That is, we add to the first index for each successful pass and add to the second index for each fail. 
 
 ```mathematica
 Plot[
@@ -151,7 +151,7 @@ Plot[
 
 ![07d9994poe9tq](/blog/images/2023/9/7/07d9994poe9tq.png)
 
-Although the maximum likelihood estimate for *p* is the same (i.e., the peaks are centered at the same point), Martians are a worse bet than Earthlings:
+Although the maximum likelihood estimate for *p* is the same (i.e., the maxima of the distributions are centered at the same value), Martians are a worse bet than Earthlings:
 
 ```mathematica
 Probability[m < e, {e \[Distributed] earthlings, m \[Distributed] martians}] // N
@@ -159,9 +159,9 @@ Probability[m < e, {e \[Distributed] earthlings, m \[Distributed] martians}] // 
 (*0.6413*)
 ```
 
-*(unless we convert this to a numerical result; otherwise Mathematica will display a nice rational fraction, because at the end of the day it is just a counting problem that can be solved eactly)*
+*(unless we convert this to a numerical result Mathematica will display a nice rational fraction, because at the end of the day it is just a counting problem that can be solved eactly)*
 
-This is really interesting and perhaps surprising.  Although our disparity index calculation suggested they had the same outcome, given the data Martians may be less likely to pass (on average) than Earthlings, as we have uncertainty about their distribution.    That being said, this difference is far from any of the typical statistical significance level (should you believe in those things). 
+This is really interesting and perhaps surprising.  Although our disparity index calculation suggested they had the same outcome, Martians may be less likely to pass (on average) than Earthlings because of the uncertainty about their distribution from a fewer number of examples.    That being said, this difference is far from any of the typical statistical significance level ([should you believe in those things](https://www.nature.com/articles/d41586-019-00857-9)). 
 
 We can also determine the 90% confidence interval on *p* for each group based on these observations:
 
@@ -177,7 +177,7 @@ Quantile[martians, {0.05, 0.95}]
 (*{0.418197, 0.93715}*)
 ```
 
-Clearly the margins around the Martian value of *p* are quite wide, and encompass the Earthling ones. Thus, it does not seem that there is clear evidence of any systematic advantage or disadvantage for Martian students at the Academy. [Kirk out](https://www.google.com/search?q=kirk+out+meme).  
+Clearly the distribution of Martian *p* are quite wide, and encompass the Earthling ones. Thus, it does not seem that there is clear evidence of any systematic advantage or disadvantage for Martian students at the Academy. [Kirk out](https://www.google.com/search?q=kirk+out+meme).  
 
 ```mathematica
 ToJekyll["Comparing student success rates with the Beta distribution", "teaching dei mathematica statistics"]

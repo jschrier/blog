@@ -28,6 +28,9 @@ What is this, if not [prompt engineering](https://en.wikipedia.org/wiki/Prompt_e
 
 I agree with [Lilian Weng's "spicy take"](https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/)---most of prompt engineering is just simple tricks or wishful thinking. (But she does a nice job of illustrating what is demonstrably useful...)
 
+That being said, there are many interesting ideas to explore.  The [promptingguide.ai](https://www.promptingguide.ai) is a good resource (it is even linked to from the OpenAI cookbook)
+
+
 # Agents and Daemons
 
 [LLM-based agents](https://lilianweng.github.io/posts/2023-06-23-agent/) (incluing cheemical examples like ChemCrow) as golem-like creations ... or independently minded daemons
@@ -45,6 +48,10 @@ It's just a trick.  There's no magic.  [It's just linear algebra.](https://writi
 * [Jude Jones in the Philosophy department](https://www.fordham.edu/info/20945/philosophy_faculty_students_and_staff/7343/judith_jones) has ocasionally taught a course on [Harry Potter and Philosophy](https://fordhamobserver.com/32456/london/a-cup-of-tea-with-a-spoonful-of-magic/) and might be into this
 * Run this as an [Interdisciplinary Capstone course](https://bulletin.fordham.edu/undergraduate/fordham-college-core-curriculum/capstone-courses/) --- history, religion, philosophy, computer stuff
 
+
+# Parerga and Paralipomena
+
+* (added 03 Oct 2023) [Benjamin Breen has a post on describing his use of GPT-4 to translate 16th century Jesuit demonology texts](https://resobscura.substack.com/p/translating-latin-demonology-manuals); the [hackernews comments](https://news.ycombinator.com/item?id=37752272) are insightful;  possible reading for the class [Thinking with Demons](https://amzn.to/3tbX0Yy) which explores how the witchcraft craze of the 15-18th centuries was a product of "rationality"
 
 
 
