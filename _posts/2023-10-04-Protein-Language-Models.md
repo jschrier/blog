@@ -8,19 +8,19 @@ A chat with [Rudi Gunawan](https://scholar.google.com/citations?user=fx039lUAAAA
 
 # Model types
 
-Proteins seem like a language problem:  We have an alphabet of amino acids and we have a natural sequence.  So it makes sense to apply the same type of [transformer]({{ site.baseurl }}{% post_url 2023-03-07-A-Few-Of-My-Favorite-Transformer-Tutorials) type models that are becoming popular for natural language processing (NLP).  If you'd like a more scholarly justification see the brief review by [Ofer et al, "The language of proteins: NLP, machine learning & protein sequences"](https://doi.org/10.1016/j.csbj.2021.03.022) (2021).  This review also goes into other (non-transformer) NLP-style approaches to the problem .
+Proteins seem like a language problem:  We have an alphabet of amino acids and we have a natural sequence.  So it makes sense to apply the same type of [transformer]({{ site.baseurl }}{% post_url 2023-03-07-A-Few-Of-My-Favorite-Transformer-Tutorials}) type models that are becoming popular for natural language processing (NLP).  If you'd like a more scholarly justification see the brief review by [Ofer et al, "The language of proteins: NLP, machine learning & protein sequences"](https://doi.org/10.1016/j.csbj.2021.03.022) (2021).  This review also goes into other (non-transformer) NLP-style approaches to the problem.
 
 So let's quickly [review some transformer models for natural language processing](https://huggingface.co/docs/transformers/model_summary#natural-language-processing). 
 
 * **BERT** is an encoder-only transformer trained by masking tokens in the input; it's magic power is that it is bidirectional (it tries to predict the missing information from [c-terminus](https://en.wikipedia.org/wiki/C-terminus) to [n-terminus](https://en.wikipedia.org/wiki/N-terminus) **and then** from n-terminus to c-terminus). At the end of this we are left with an embedding that we can use as input to a neural network or whatever to make a prediction.  This makes it natural for infilling tasks (fill in the missing blank), but not well suited for de novo generation tasks
 
-* **GPT-x** (where x>=2 ) is a decoder-only transformer that predicts the next word moving from left-to right. That is to say it has a "causal" autoregressive training objective. Its strength is that this makes it easy to generate next tokens (hence allowing ChatGPT to exist). It's weakness is that it lacks the bidirectional context of BERT
+* **GPT-x** (where x>=2 ) is a decoder-only transformer that predicts the next word moving from left-to right. That is to say it has a "causal" autoregressive training objective. Its strength is that this makes it easy to generate next tokens (hence allowing ChatGPT to exist). A weakness is that it lacks the bidirectional context of BERT
 
 * **BART** is a text-infilling model where some text spans are replaced by a single mask token and the decoder predicts uncorrupted tokens.  This might be really interesting for peptides, but I haven't come across it yet.
 
 * [Convolutional neural networks](https://en.wikipedia.org/wiki/Convolutional_neural_network) are old-school (they're not transformers), but can also be used for proteins, but you might try them for pro teins as well... more below..
 
-* [XLNet](https://arxiv.org/abs/1906.08237) (& friends):  an autoregressive language model, but with a training objective which obtains full bidirectional attention by maximizing the likelihood over all permutations of a factorization order.  Authors claim that it performs better than BERT at BERT-like bidirectional tasks.
+* [XLNet](https://arxiv.org/abs/1906.08237) (and friends):  an autoregressive language model, but with a training objective which obtains full bidirectional attention by maximizing the likelihood over all permutations of a factorization order.  Authors claim that it performs better than BERT at BERT-like bidirectional tasks.
 
 # Pre-trained protein/peptide language models
 
