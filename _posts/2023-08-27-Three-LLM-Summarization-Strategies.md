@@ -146,7 +146,7 @@ summaries = ParallelMap[
   LLMResourceFunction["Summarize"], sentenceChunk[sentences]];
 ```
 
-Then generate embeddings for each chunk. It seems like an oversight, but [Mathematica 13.3](https://writings.stephenwolfram.com/2023/06/llm-tech-and-a-lot-more-version-13-3-of-wolfram-language-and-mathematica/) does not include a function for this; instead we will use the [OpenAILink](https://resources.wolframcloud.com/PacletRepository/resources/ChristopherWolfram/OpenAILink/) paclet.  Be sure to install it first, if you have not done so already.  We will use OpenAILink to generate embedding vectors for each chunk:
+Then generate embeddings for each chunk. It seems like an oversight, but [Mathematica 13.3](https://writings.stephenwolfram.com/2023/06/llm-tech-and-a-lot-more-version-13-3-of-wolfram-language-and-mathematica/) does not[^1] include a function for this; instead we will use the [OpenAILink](https://resources.wolframcloud.com/PacletRepository/resources/ChristopherWolfram/OpenAILink/) paclet.  Be sure to install it first, if you have not done so already.  We will use OpenAILink to generate embedding vectors for each chunk:
 
 ```mathematica
 Needs["ChristopherWolfram`OpenAILink`"]
@@ -228,3 +228,5 @@ ToJekyll["Three LLM Summarization Strategies", "ai mathematica llm"]
 
 (*"/Users/jschrier/Dropbox/journals/mathematica/2023.08.26_llm_summarization_strategies.nb"*)
 ```
+
+[^1]: Fake news!  You can use retrieve Embeddings directly using [OpenAI Service Connection](https://reference.wolfram.com/language/ref/service/OpenAI.html); `ServiceExecute["OpenAI", "Embedding", ...]`.  This also eliminates the need for the `ParallelMap` call, as the embedding service can take a list of texts as inputs and returns the list of embeddings.   However, I still think it would be a good idea to make this a top-level function, like `LLMSynthesize[]` rather than making it specific to a particular LLM service (I hope that 13.4 will support Claude, local-Llama, etc.)
