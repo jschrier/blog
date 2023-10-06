@@ -49,5 +49,9 @@ It's just a trick.  There's no magic.  [It's just linear algebra.](https://writi
 * Run this as an [Interdisciplinary Capstone course](https://bulletin.fordham.edu/undergraduate/fordham-college-core-curriculum/capstone-courses/) --- history, religion, philosophy, computer stuff
 
 
+# Parerga and Paralipomena
+
+* (added 03 Oct 2023) [Benjamin Breen has a post on describing his use of GPT-4 to translate 16th century Jesuit demonology texts](https://resobscura.substack.com/p/translating-latin-demonology-manuals); the [hackernews comments](https://news.ycombinator.com/item?id=37752272) are insightful;  possible reading for the class [Thinking with Demons](https://amzn.to/3tbX0Yy) which explores how the witchcraft craze of the 15-18th centuries was a product of "rationality"
+
 
 
