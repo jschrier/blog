@@ -32,6 +32,8 @@ In general, the idea of a foundational model is that we pre-train it on a large 
 
 * [ Convolutional autoencoding representations of proteins (2023)](https://www.biorxiv.org/content/10.1101/2022.05.19.492714v4) There are good reasons to eschew transformers---they scale quadratically with sequence length in run-time and memory.  So these folks from Microsoft used an efficient CNN which scales linearly with seuqence length.  The results are competitive to (sometimes superior) to transformers . [Code and pretrained weights online](https://github.com/microsoft/protein-sequence-models)
 
+- [ESM-2 (20230)](https://www.science.org/doi/10.1126/science.ade2574) another maksed transformer model.  They combine this with a downstreat task of determining protein folding (ESMFold). [Data and model weights online](https://github.com/facebookresearch/esm); the defalt distribution has some convenience [command line programs for computing embeddings in bulk](https://github.com/facebookresearch/esm#bulk_fasta)
+
 - [Regresssion Transformer (2023)](https://doi.org/10.1038/s42256-023-00639-z):  This is an XLNet-style transformer.  The core idea is that you concatenate the SMILES string and properties (expressed numerically with a special tokenization scheme).  Then you can fill in `[MASK]` tokens regardless of whether they are structural or property driven.  Applications to drug-likeness, molecular properties, protein sequence modeling, protein fluoresnce/stability (results of the latter are comparable to ProteinBERT mentioned above), and organic reaction yield prediction 
 
 # Stromateis
@@ -41,4 +43,5 @@ In general, the idea of a foundational model is that we pre-train it on a large 
 
 - [Mass2SMILES](https://doi.org/10.1101/2023.07.06.547963) is a transformer based model that takes MS/MS spectra as inputs and returns SMILES strings and functional group presence/absence
     - Mentions as an aside ways to compare spectra which may be useful for Maurer. Namely [Spec2Vec (Huber et al., 2021)](https://github.com/iomega/spec2vec), [MS2deepscore (Huber et al., 2021)](https://doi.org/10.1186/s13321-021-00558-4), [SIMILE (Treen 2022)](https://www.nature.com/articles/s41467-022-30118-9) 
+    - [MS2Mol](https://doi.org/10.26434/chemrxiv-2023-vsmpx-v4) is a BART-style alternative to this for MS/MS prediction of molecules.  Again, you get a nice embedding of the MS/MS spectrum which may be useful for projects with Maurer... 
 
