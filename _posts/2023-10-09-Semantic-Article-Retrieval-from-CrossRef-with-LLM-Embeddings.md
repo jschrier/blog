@@ -78,7 +78,7 @@ cr[[474]]
 
 Comment:  Also notice how this record lists the key as *DOI* instead of *doi* on other references.  So we need both...
 
-If we put this into production then we may want to handle this in a smarter way (e.g., grabbing all of the alternates and only keeping the first one that appears .  If there is no abstract, then we default to any title that is present.
+If we put this into production then we may want to handle this in a smarter way (e.g., grabbing all of the alternates and only keeping the first one that appears).  If there is no abstract, then we default to any title that is present.
 
 ```mathematica
 ClearAll[filter, articles] 
