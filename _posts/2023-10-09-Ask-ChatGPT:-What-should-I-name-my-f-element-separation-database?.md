@@ -12,11 +12,15 @@ Tags: llm gpt4 science askchatgpt
 3. SPLIT: Solvent-based Project for Lanthanide and actInide separaTion
 4. RELICS: Repository of f-Element, Lanthanide, and Actinide Solvent Separation Information
 5. FEAST: F-Element, Actinide, and Solvent Separation Technology
+
 **6. SALSA: Solvent Actinide Lanthanide Separation Archive**
+
 7. PALETTE: Project for Actinide and Lanthanide Separation Technology and Education
 8. ELASTIC: f-Element Lanthanide Actinide Solvent Separation Information Center
 9. TRACE: Technological Repository of Actinides and f-Element Chemical Extraction
+
 **10. CLASP: Comprehensive Lanthanide Actinide Separation Project**
+
 11. SIFT: Solvent Information for f-Element Technology
 12. FELIX: F-Element, Lanthanide, ActInide eXtraction database
 13. ALPHA: Actinide Lanthanide Project on Hydrometallurgical Applications
@@ -39,7 +43,9 @@ Sure, here are some ideas:
 5. SOLFED - SOLvent FE separation Database
 6. FEDSOL - F-Element Database for SOLvent separation
 7. FUSE - F-element Unifying Solvent Extraction
+
 **8. SAFE - Solvent Assisted F-Element extraction**
+
 9. SEFED - Solvent Extraction F-Element Database
 10. FEDSEP - F-Element Database for SEParations
 11. DEFSS - Database for Element F Solvent Separation
