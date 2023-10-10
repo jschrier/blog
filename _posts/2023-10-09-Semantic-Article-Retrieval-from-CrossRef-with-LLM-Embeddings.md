@@ -260,6 +260,7 @@ This certainly seems to be more uniformly about chemistry topics, although the r
 ## Elsewhere in the literature...
 
 - [Kumar et al. (2023) ](https://dx.doi.org/10.1021/acssuschemeng.3c03162)recently described the user of a BERT-based classifier for identifying relevant recycling literature.  Their literature review in the introduction also describes a number of specialized scientific terminology BERT models. They do keyword searches in the Elsevier database, followed by using their BERT-based supervised classifier to identify relevant articles.  (They subsequently use this for other data extraction tasks)
+- [Kedar & co. (2023)](https://github.com/Kedar-Materials-by-Design-Lab/Harnessing-GPT-3.5-for-Text-Parsing-in-Solid-State-Synthesis-case-study-of-ternary-chalchogenides#harnessing-gpt-35-for-text-parsing-in-solid-state-synthesis-case-study-of-ternary-chalchogenides ) text parsing for ternary chalcogenides with GPT3.5
 
 ```mathematica
 ToJekyll["Semantic Article Retrieval from CrossRef with LLM Embeddings", "science llm machinelearning ml mathematica"]
