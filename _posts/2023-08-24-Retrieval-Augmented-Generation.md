@@ -146,7 +146,7 @@ data = Dataset[<|"text" -> shorterTexts, "vector" -> embeddings|>];
 Save["catechism_embeddings.wl", data]
 ```
 
-Now we'll also use these to create a [NearestFunction](http://reference.wolfram.com/language/ref/NearestFunction.html) that can be applied to future data.  It is standard practice to use the CosineDistance when comparing embedding vectors.
+Now we'll also use these to create a [NearestFunction](http://reference.wolfram.com/language/ref/NearestFunction.html) that can be applied to future data.  It is standard practice to use the `CosineDistance` when comparing embedding vectors.
 
 ```mathematica
 lookupFn = Nearest[embeddings -> shorterTexts, DistanceFunction -> CosineDistance]
@@ -154,7 +154,7 @@ lookupFn = Nearest[embeddings -> shorterTexts, DistanceFunction -> CosineDistanc
 
 ![1rh4blq1fj1x9](/blog/images/2023/8/24/1rh4blq1fj1x9.png)
 
-If you were scaling this up, you would probably want to store the texts in a database and have the Nearest function just return keys that would be used for lookup.  Commercial offerings like [pinecone.io ](https://www.pinecone.io)can handle this for you.
+If you were scaling this up, you would probably want to store the texts in a database and have the `Nearest` function just return keys that would be used for lookup.  Commercial offerings like [pinecone.io ](https://www.pinecone.io)can handle this for you.
 
 ## Vector Retrieval
 
@@ -172,7 +172,7 @@ You'll notice that the text retrieved seems relevant but includes line numbers a
 
 ## Answer the query using the retrieved text
 
-Finally, we provide our input question and the  retrieved the closestText to the LLM;  Here we will use the built-in [LLMSynthesize](https://reference.wolfram.com/language/ref/LLMSynthesize.html) function, and a fairly minimal prompt.
+Finally, we provide our input question and the  retrieved the `closestText` to the LLM;  Here we will use the built-in [LLMSynthesize](https://reference.wolfram.com/language/ref/LLMSynthesize.html) function, and a fairly minimal prompt.
 
 ```mathematica
 LLMSynthesize[
@@ -186,3 +186,7 @@ LLMSynthesize[
 As you can see, this has reworded and paraphrased the retrieved text to answer the question.  Because we know what text was used, we could also provide a citation, if desired. [*Ite, missa est.*](https://en.wikipedia.org/wiki/Ite,_missa_est)
 
 `2023.08.22_llm_qa_demo.nb`
+
+# Parerga and Paralipomena
+
+- [HYDE](https://arxiv.org/abs/2212.10496) is a strategy whereby you ask your generative model to create possible answers to the question (it doesn't matter whether they are right or wrong), and then you use the embeddings of those generated sentences to perform the retrieval.  The idea here is that the the embedding of the question and the embedding of an answer are likely to be different, and you will be more likely to retrieve a relevant answer text if you compare it to other answer-y type values

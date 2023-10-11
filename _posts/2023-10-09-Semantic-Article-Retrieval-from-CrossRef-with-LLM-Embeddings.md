@@ -235,6 +235,8 @@ This certainly seems to be more uniformly about chemistry topics, although the r
 
     - A bigger list of known separation papers (with titles) may be helpful:  We can pull these (by DOI) from our various datasets, entered [manually](https://github.com/raver8/ML_chemical), from [IDeaL](https://www.oecd-nea.org/ideal/), etc.
 
+        - Alternatively, you might try a [HYDE](https://arxiv.org/abs/2212.10496)-like strategy and just have your favorite GPT-X model generate a list of a few hundred titles for f-element separations.
+
     - Several examples of data structure irregularity (missing titles, non-English titles, etc.) demonstrated above.  Keep this in mind. 
 
     - *Titles* are generally OK, but *abstracts* will be better for discriminating between topics.  We probably want to use abstract embeddings when available. But MOST of our entries do NOT have an abstract, so this will be limited.  So either just give up on abstracts or assume they will be limited.
