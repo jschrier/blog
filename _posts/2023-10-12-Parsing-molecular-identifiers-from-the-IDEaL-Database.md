@@ -216,7 +216,7 @@ We process each link one at a time, defining the output for each line as an Asso
 
 ### Map it over the list of entries
 
-Showtime!  Map this over links and convert it to a `Dataset``.  I use a `ParallelMap`` so that I can run multiple LLM calls simultaneously (which is the bottleneck).   It took less than 5 minutes to run.  However some errors came out.  We will deal with these later (*vide infra*):
+Showtime!  Map this over links and convert it to a `Dataset`.  I use a `ParallelMap` so that I can run multiple LLM calls simultaneously (waiting for the response is the bottleneck).   It took less than 5 minutes to run.  However some errors came out.  We will deal with these later (*vide infra*):
 
 ```mathematica
 results = ParallelMap[processURL, links] // Dataset
@@ -254,7 +254,7 @@ Length@Select[MissingQ]@Lookup["SMILES"]@Normal@Select[AssociationQ]@results
 
 **Comment:**  Yikes! This seems bad.  But it is probably not so bad in practice, because many of the problematic molecules have no distribution coefficient data? (*Spoiler alert: We will care about 75 of them...*) So I suggest that rather than try to fill all of these in, that one instead just see which entries are missing after doing the final merge.
 
-Before dealing with the (actual) errors, I save the results obtained so far to avoid giving OpenAI another dime.  To export as a spreadsheet we must remove rows that are not valid Associations (or stated more positively, we Select only rows that are validly structured before exporting: 
+Before dealing with the (actual) errors, I save the results obtained so far to avoid giving OpenAI another dime.[^1]   To export as a spreadsheet we must remove rows that are not valid Associations (or stated more positively, we Select only rows that are validly structured before exporting: 
 
 ```mathematica
 SetDirectory@NotebookDirectory[];
@@ -707,3 +707,4 @@ You can also [download the spreadsheet of unresolved entries with D values](/blo
 ```mathematica
 ToJekyll["Parsing molecular identifiers from the IDEaL Database", "llm mathematica science"]
 ```
+[^1]: Looking back at my usage log, I spent about $0.40 USD in total for all of the calls made in writing, debugging, and using this blog post.
