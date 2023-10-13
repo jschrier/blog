@@ -235,6 +235,8 @@ This certainly seems to be more uniformly about chemistry topics, although the r
 
     - A bigger list of known separation papers (with titles) may be helpful:  We can pull these (by DOI) from our various datasets, entered [manually](https://github.com/raver8/ML_chemical), from [IDeaL](https://www.oecd-nea.org/ideal/), etc.
 
+        - Alternatively, you might try a [HYDE](https://arxiv.org/abs/2212.10496)-like strategy and just have your favorite GPT-X model generate a list of a few hundred titles for f-element separations.
+
     - Several examples of data structure irregularity (missing titles, non-English titles, etc.) demonstrated above.  Keep this in mind. 
 
     - *Titles* are generally OK, but *abstracts* will be better for discriminating between topics.  We probably want to use abstract embeddings when available. But MOST of our entries do NOT have an abstract, so this will be limited.  So either just give up on abstracts or assume they will be limited.
@@ -260,6 +262,7 @@ This certainly seems to be more uniformly about chemistry topics, although the r
 ## Elsewhere in the literature...
 
 - [Kumar et al. (2023) ](https://dx.doi.org/10.1021/acssuschemeng.3c03162)recently described the user of a BERT-based classifier for identifying relevant recycling literature.  Their literature review in the introduction also describes a number of specialized scientific terminology BERT models. They do keyword searches in the Elsevier database, followed by using their BERT-based supervised classifier to identify relevant articles.  (They subsequently use this for other data extraction tasks)
+- [Kedar & co. (2023)](https://github.com/Kedar-Materials-by-Design-Lab/Harnessing-GPT-3.5-for-Text-Parsing-in-Solid-State-Synthesis-case-study-of-ternary-chalchogenides#harnessing-gpt-35-for-text-parsing-in-solid-state-synthesis-case-study-of-ternary-chalchogenides ) text parsing for ternary chalcogenides with GPT3.5
 
 ```mathematica
 ToJekyll["Semantic Article Retrieval from CrossRef with LLM Embeddings", "science llm machinelearning ml mathematica"]
