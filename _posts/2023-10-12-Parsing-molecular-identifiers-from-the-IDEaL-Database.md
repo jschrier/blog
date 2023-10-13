@@ -688,7 +688,7 @@ Counts@Lookup[missingInfo2, "containsDValuesQ"]
 
 ```mathematica
 Export["2023.10.12_inconsistent_entries_with_D_values.xlsx", 
-   Select[#["containsDValuesQ"] &]@missingInfo2];
+   Select[#["containsDValuesQ"] &]@Dataset@missingInfo2];
 ```
 
 ## Conclusion
@@ -697,7 +697,7 @@ Even so, we still have a large number of the results that can be used:
 
 ```mathematica
 Export["2023.10.12_completed_ideal_molecules.xlsx", 
-   Select[! MissingQ[#["SMILES"]] &]@results2];
+   Select[! MissingQ[#["SMILES"]] &]@Dataset@results2];
 ```
 
 You can [download the final spreadsheet file of correct values here](/blog/images/2023/10/12/2023.10.12_completed_ideal_molecules.xlsx). Merge this with your scraped data tables (indexing on the the URL or abbreviation fields) and you are off to the races.
