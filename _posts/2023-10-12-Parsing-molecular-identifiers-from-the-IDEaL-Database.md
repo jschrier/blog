@@ -691,18 +691,25 @@ Export["2023.10.12_inconsistent_entries_with_D_values.xlsx",
    Select[#["containsDValuesQ"] &]@Dataset@missingInfo2];
 ```
 
-## Conclusion
+# Conclusion
 
 Even so, we still have a large number of the results that can be used:
 
 ```mathematica
 Export["2023.10.12_completed_ideal_molecules.xlsx", 
    Select[! MissingQ[#["SMILES"]] &]@Dataset@results2];
+
+Export["2023.10.12_missing_entries.xlsx", Dataset[missingInfo2]];
 ```
 
 You can [download the final spreadsheet file of correct values here](/blog/images/2023/10/12/2023.10.12_completed_ideal_molecules.xlsx). Merge this with your scraped data tables (indexing on the the URL or abbreviation fields) and you are off to the races.
 
-You can also [download the spreadsheet of unresolved entries with D values](/blog/images/2023/10/12/2023.10.12_inconsistent_entries_with_D_values.xlsx) and the [spreadsheet containing the subset of these with inconsistent molecular formulas and masses](/blog//images/2023/10/12/2023.10.12_inconsistent_formula_masses_ideal.xlsx).
+You can also [download the spreadsheet of unresolved entries with D values](/blog/images/2023/10/12/2023.10.12_inconsistent_entries_with_D_values.xlsx) and the [spreadsheet containing the subset of these with inconsistent molecular formulas and masses](/blog//images/2023/10/12/2023.10.12_inconsistent_formula_masses_ideal.xlsx).  There is also a [complete list of all unresolved entries](/blog/images/2023/10/12/2023.10.12_completed_ideal_molecules.xlsx)
+
+# The Sequel:  The Revenge of ChemDraw
+
+Upon further poking on this, it turns out that [we can hack around this problem by AppleScripting Chemdraw to export SMILES strings.  We treat this in depth in the next post...](({{ site.baseurl }}{% post_url 2023-10-16-Parsing-Molecular-Identifiers-From-the-IDEaL-Database,-part-2  %}))
+
 
 ```mathematica
 ToJekyll["Parsing molecular identifiers from the IDEaL Database", "llm mathematica science"]
