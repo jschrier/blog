@@ -216,7 +216,7 @@ We process each link one at a time, defining the output for each line as an Asso
 
 ### Map it over the list of entries
 
-Showtime!  Map this over links and convert it to a `Dataset``.  I use a `ParallelMap`` so that I can run multiple LLM calls simultaneously (which is the bottleneck).   It took less than 5 minutes to run.  However some errors came out.  We will deal with these later (*vide infra*):
+Showtime!  Map this over links and convert it to a `Dataset`.  I use a `ParallelMap` so that I can run multiple LLM calls simultaneously (waiting for the response is the bottleneck).   It took less than 5 minutes to run.  However some errors came out.  We will deal with these later (*vide infra*):
 
 ```mathematica
 results = ParallelMap[processURL, links] // Dataset
@@ -254,7 +254,7 @@ Length@Select[MissingQ]@Lookup["SMILES"]@Normal@Select[AssociationQ]@results
 
 **Comment:**  Yikes! This seems bad.  But it is probably not so bad in practice, because many of the problematic molecules have no distribution coefficient data? (*Spoiler alert: We will care about 75 of them...*) So I suggest that rather than try to fill all of these in, that one instead just see which entries are missing after doing the final merge.
 
-Before dealing with the (actual) errors, I save the results obtained so far to avoid giving OpenAI another dime.  To export as a spreadsheet we must remove rows that are not valid Associations (or stated more positively, we Select only rows that are validly structured before exporting: 
+Before dealing with the (actual) errors, I save the results obtained so far to avoid giving OpenAI another dime.[^1]   To export as a spreadsheet we must remove rows that are not valid Associations (or stated more positively, we Select only rows that are validly structured before exporting: 
 
 ```mathematica
 SetDirectory@NotebookDirectory[];
@@ -691,19 +691,27 @@ Export["2023.10.12_inconsistent_entries_with_D_values.xlsx",
    Select[#["containsDValuesQ"] &]@Dataset@missingInfo2];
 ```
 
-## Conclusion
+# Conclusion
 
 Even so, we still have a large number of the results that can be used:
 
 ```mathematica
 Export["2023.10.12_completed_ideal_molecules.xlsx", 
    Select[! MissingQ[#["SMILES"]] &]@Dataset@results2];
+
+Export["2023.10.12_missing_entries.xlsx", Dataset[missingInfo2]];
 ```
 
 You can [download the final spreadsheet file of correct values here](/blog/images/2023/10/12/2023.10.12_completed_ideal_molecules.xlsx). Merge this with your scraped data tables (indexing on the the URL or abbreviation fields) and you are off to the races.
 
-You can also [download the spreadsheet of unresolved entries with D values](/blog/images/2023/10/12/2023.10.12_inconsistent_entries_with_D_values.xlsx) and the [spreadsheet containing the subset of these with inconsistent molecular formulas and masses](/blog//images/2023/10/12/2023.10.12_inconsistent_formula_masses_ideal.xlsx).
+You can also [download the spreadsheet of unresolved entries with D values](/blog/images/2023/10/12/2023.10.12_inconsistent_entries_with_D_values.xlsx) and the [spreadsheet containing the subset of these with inconsistent molecular formulas and masses](/blog//images/2023/10/12/2023.10.12_inconsistent_formula_masses_ideal.xlsx).  There is also a [complete list of all unresolved entries](/blog/images/2023/10/12/2023.10.12_completed_ideal_molecules.xlsx)
+
+# The Sequel:  The Revenge of ChemDraw
+
+Upon further poking on this, it turns out that [we can hack around this problem by AppleScripting Chemdraw to export SMILES strings.  We treat this in depth in the next post...](({{ site.baseurl }}{% post_url 2023-10-16-Parsing-Molecular-Identifiers-From-the-IDEaL-Database,-part-2  %}))
+
 
 ```mathematica
 ToJekyll["Parsing molecular identifiers from the IDEaL Database", "llm mathematica science"]
 ```
+[^1]: Looking back at my usage log, I spent about $0.40 USD in total for all of the calls made in writing, debugging, and using this blog post.
