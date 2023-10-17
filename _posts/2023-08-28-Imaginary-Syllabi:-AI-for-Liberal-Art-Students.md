@@ -10,7 +10,7 @@ Tags: ai imaginary-syllabi llm teaching mathematica
 
 # Motivations
 
-- ["Liberally-educated students need to be more than consumers of AI" (2023)](https://tedunderwood.com/2023/09/10/liberally-educated-students-need-to-be-more-than-consumers-of-ai/)--- students should actively engage with AI as creators and critics (and on a technical level), rather than just passive consumers, in order to navigate a future increasingly dominated by AI. The best way to do this is to have some fundamental mathematical/statistical/computational [chops](https://en.wiktionary.org/wiki/chops#:~:text=(plural%20only%2C%20originally%20US%20jazz,particular%20Crescent%20City%20jazz%20scene.), so they can be critical and adaptable.
+- ["Liberally-educated students need to be more than consumers of AI" (2023)](https://tedunderwood.com/2023/09/10/liberally-educated-students-need-to-be-more-than-consumers-of-ai/)--- students should actively engage with AI as creators and critics (and on a technical level), rather than just passive consumers, in order to navigate a future increasingly dominated by AI. The best way to do this is to have some fundamental mathematical/statistical/computational [chops](https://en.wiktionary.org/wiki/chops), so they can be critical and adaptable.
 
 # Computational Thinking
 

@@ -74,4 +74,4 @@ I'm a contrarian, and the students taking this course aren't necessarily technic
 # Footnotes
 
 [^1]: Any resemblance to the author of this blog is purely coincidental.
-[^2]: Not completely spontaneous:  I'm on a [committee about the university's response to generative AI](https://www.fordham.edu/media/home/departments-centers-and-offices/office-of-the-provost/pdfs/AI-Visioning-Committee-Recommendations.pdf), and also we were discussing ChatGPT and education at dinner the night before. 
+[^2]: Not completely spontaneous:  I was on a [committee about the university's response to generative AI](https://www.fordham.edu/media/home/departments-centers-and-offices/office-of-the-provost/pdfs/AI-Visioning-Committee-Recommendations.pdf), and also we were discussing ChatGPT and education at dinner the night before. 

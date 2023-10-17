@@ -197,9 +197,9 @@ Download these from the following links:
 - [2023.10.16_missing_entries_needs_proofing.xlsx](/blog/images/2023/10/16/2023.10.16_missing_entries_needs_proofing.xlsx)
 - [2023.10.16_all_correct_entries.xlsx](/blog/images/2023/10/16/2023.10.16_all_correct_entries.xlsx)
 
-## TODO:  Addendum (date)
+## Sneak preview
 
-Add information about completing the missing entries
+[Tune in next time]({{ site.baseurl }}{% post_url 2023-10-17-Parsing-Molecular-Identifiers-From-the-IDEaL-Database,-part-3 %}) to find out how we fix these 25 errant structures.  [Same bat-time, same bat-channel...](https://www.quora.com/What-does-Same-bat-time-same-bat-channel-mean)
 
 ```mathematica
 ToJekyll["Parsing Molecular Identifiers From the Ideal Database, part 2", "applescript mathematica chemdraw cdx science"]
