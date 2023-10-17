@@ -708,7 +708,7 @@ You can also [download the spreadsheet of unresolved entries with D values](/blo
 
 # The Sequel:  The Revenge of ChemDraw
 
-Upon further poking on this, it turns out that [we can hack around this problem by AppleScripting Chemdraw to export SMILES strings.  We treat this in depth in the next post...](({{ site.baseurl }}{% post_url 2023-10-16-Parsing-Molecular-Identifiers-From-the-IDEaL-Database,-part-2  %}))
+Upon further poking on this, it turns out that [we can hack around this problem by AppleScripting Chemdraw to export SMILES strings.  We treat this in depth in the next post...]({{ site.baseurl }}{% post_url 2023-10-16-Parsing-Molecular-Identifiers-From-the-IDEaL-Database,-part-2 %})
 
 
 ```mathematica
