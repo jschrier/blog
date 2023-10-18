@@ -1,5 +1,5 @@
 ---
-Title: "On the Metallic Scent of Old Coins"
+Title: "The Metallic Scent of Old Coins"
 Date: 2023-10-17
 Tags: science art
 ---
@@ -14,4 +14,4 @@ https://onlinelibrary.wiley.com/doi/10.1002/anie.200602100):
     - The other dominant molecules they found in the article (organophosphines) might be hard to come by, as they are not unlike chemical weapons (albeit the natural the dose is smaller)
 3. Also curatorially interesting: [Subsequent citations to the article](https://scholar.google.com/scholar?cites=1377909844769981842&as_sdt=5,32&sciodt=0,32&hl=en) talk about perceptions of smell and flavor related to chemotherapy 
 
-FYI: [Leah Brent's](https://www.linkedin.com/in/leah-brent-861842213/) exhibit has an opening reception on Thursday, October 26, 2023 from 6 – 8 in the [Reynolds Gallery](https://maps.app.goo.gl/dXLH7hZzVw735t4v7) at the [University of the Pacific](https://en.wikipedia.org/wiki/University_of_the_Pacific_(United_States))...for those that don't know, this is the *alma mater* of jazz pianist [Dave Brubeck](https://en.wikipedia.org/wiki/Dave_Brubeck)
+FYI: [Leah Brent's](https://www.linkedin.com/in/leah-brent-861842213/) exhibit runs 26 October - 24 November 2023 in the [Reynolds Gallery](https://maps.app.goo.gl/dXLH7hZzVw735t4v7) at the [University of the Pacific](https://en.wikipedia.org/wiki/University_of_the_Pacific_(United_States))...for those that don't know, this is the *alma mater* of jazz pianist [Dave Brubeck](https://en.wikipedia.org/wiki/Dave_Brubeck)
