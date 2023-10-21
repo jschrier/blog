@@ -4,7 +4,7 @@ Date: 2023-10-19
 Tags: science cheminformatics mathematica chemdraw chemistry
 ---
 
-Olivia Vanden Assem '25 asks:  *Why am I getting inconsistent* *[SMILES](https://en.wikipedia.org/wiki/Simplified_molecular-input_line-entry_system)**,* *[InChI](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-015-0068-4)**, and InChI Key results for the salt and neutral acid-base* *[representations](https://chem.libretexts.org/Courses/Intercollegiate_Courses/Cheminformatics/02%3A_Representing_Small_Molecules_on_Computers)* *of ammonium nitrate?*  **There are some quirks about interconversion between SMILES and InChI in standard implementations that can result in neutral and salt forms of a pair of molecules being different...** **
+Olivia Vanden Assem '25 asks:  *Why am I getting inconsistent [SMILES](https://en.wikipedia.org/wiki/Simplified_molecular-input_line-entry_system),[InChI](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-015-0068-4), and InChI Key results for the salt and neutral acid-base [representations](https://chem.libretexts.org/Courses/Intercollegiate_Courses/Cheminformatics/02%3A_Representing_Small_Molecules_on_Computers) of ammonium nitrate?*  **There are some quirks about interconversion between SMILES and InChI in standard implementations that can result in neutral and salt forms of a pair of molecules being different...** **
 
 Suppose we have [ammonium nitrate](https://en.wikipedia.org/wiki/Ammonium_nitrate).  We can represent this as two neutral molecules using the following InChI identifier:
 
