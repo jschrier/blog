@@ -4,7 +4,7 @@ Date: 2023-08-29
 Tags:  imaginary-syllabi teaching wine
 ---
 
-**Premise:** A senior capstone course in which wine is explored through the lens of a variety of natural science, social science, and humanity disciplines (along with a weekly wine tasting)...
+**Premise:** A senior capstone course[^1] in which wine is explored through the lens of a variety of natural science, social science, and humanity disciplines (along with a weekly wine tasting)...
 
 *In memoriam:* [Robert Germany (1974-2017)](https://www.haverford.edu/college-communications/news/robert-germany-1974–2017), Associate Professor of Classics at Haverford College  initiated this idea over many evening conversations, and a few glasses of wine. We never got past talking about it with colleagues, but I like to think that we would have pulled it off one day.
 
@@ -16,7 +16,7 @@ There's clearly a shadow curriculum here, which is teaching students how to know
 - Course meets once a week during a semester (13-15 weeks of instruction) for 3 hours/week.  The first 2/3 of each session is a seminar-style discussion; the last third is a structured wine tasting.
 - Recruit apporximately a dozen faculty members, each of whom will prepare readings and give and lead the discussion/tastings.  
 - Deans and Provosts have a hard time handling team-taught courses, even worse if you have a dozen instructors.  So instead, we'll expect each instructor to teach a single class *pro bono*, but with the understanding that they get to take home a case of wine (and assortment from the tastings throught the semester) as compensation.
-- Midterm: Students will propose and pitch a topical idea keeping in the theme of the course (how wine relates to their studies)
+- Midterm: Students will propose and pitch a topical idea keeping in the theme of the course (how wine relates to their major)
 - Final: Students will prepare readings and discussion materials about wine and some topic related to their major (which can serve as a database for future topics in the course)
 
 # Example lecture topics
@@ -39,6 +39,7 @@ There's clearly a shadow curriculum here, which is teaching students how to know
 - Business:  Guest speaker winemaker
 - Statistics:  ["Lady tasting tea" problems in statistics](https://en.wikipedia.org/wiki/Lady_tasting_tea), and how to make sense of wine ranking surveys, taste tests, etc.
 - Literature:  So many options to choose from....
+    - Jack London, [John Barleycorn](https://www.gutenberg.org/ebooks/318) is underappreciated, and captures the appeal and dismay of drinking.
 - Film: [Sideways](https://en.wikipedia.org/wiki/Sideways) screening
 - Environmental studies: Climate change and wine production
 - History:  The invention of champagne ([Veuve Cliquot popular biography](https://amzn.to/44wV3CU)...why this isn't a movie yet is beyond me as it is a great story)
@@ -58,3 +59,4 @@ There's clearly a shadow curriculum here, which is teaching students how to know
 - Demonstrate psychological experiments (most people can't tell the difference between red and white wine when blinded, evaluate these wines based on price)
 
 
+[^1]: Admittedly, there is so much material here that it could be an entire degree program.  Maybe it works best as an adult continuing education program...

@@ -11,8 +11,8 @@ Business and art ideas inspired by my recent trip to northern Italy...
 - I should [buy a 3d scanner](https://3dprintingindustry.com/news/3dmakerpro-launches-new-high-resolution-0-01mm-accuracy-seal-3d-scanner-224112/): some targets include door knockers on houses in Italy, picture frames (esp. Baroque) in museuems
 - Really, we have 3d printing ...why isn't everything covered with the equivalent of Baroque/Rococo ornamentation?  Bauhaus was about coming up with good design that was compatible with machine production...but the nature of our machines have changed, so our design can change with it.
 - **Barokea**: 3d printed baroque furniture retrofits that you can add to Ikea products 
-- [wall-scale inkjet printers](https://thewallprinter.com/en/) that can print interior walls with tromp l'oeil decorations (like late baroque frescos) or outdoor walls (like Südtirol house painting of sundials)
-- use said 3d scanner to repair chess sets that are missing pieces, as found in random Genovese hotels (scan pieces and then print a replacement to send back)
+- wall-scale inkjet printers (e.g., [TheWallPrinter](https://thewallprinter.com/en/) and [VerticalPrinters](https://verticalprinters.com)) that can print interior walls with tromp l'oeil decorations (like late baroque frescos) or outdoor walls (like Südtirol house painting of sundials)
+- use said 3d scanner to repair chess sets that are missing pieces, as found in random Genovese hotels (scan pieces and then print a replacement to send back)...inspired by an afternoon chess game at the bar of the [Bristol Palace in Genoa](https://maps.app.goo.gl/xuxaS6vhDQgbjGUK6)
 - [digital ceramic printing](https://www.ceramicprinting.com/ceramic-and-glass-printing-systems/), and subsequent use for tile-graffiti...
 
 
@@ -22,7 +22,7 @@ Business and art ideas inspired by my recent trip to northern Italy...
 - Renaissance paintings, but only the architecture (if you think about it, this [De Chirico's](https://en.wikipedia.org/wiki/Giorgio_de_Chirico) schtick)--optionally use AI-based inpainting to do this for you automagically if you are lazy
 - What is the statistical distribution of representations of different saints?  St. Francis seems tremendously popular. There are regional variations---e.g., [Sts. Cosmas and Damien](https://en.wikipedia.org/wiki/Saints_Cosmas_and_Damian) were super popular in Puglia, but you don't see a lot of them in the North.  On the other hand, I've seen a lot more of [St. Fillipo Neri](https://it.wikipedia.org/wiki/Filippo_Neri) here in the North.  I
 - Spiderman comic in the style of the [San Zeno](https://commons.wikimedia.org/wiki/San_Zeno_(Verona)) 13th/14th century frescos
-- Late medieval frescos depictitng the martyrdom of Tupac Shakur (or other slain rappers)
+- Late medieval frescos depicting the martyrdom of Tupac Shakur (or other slain rappers)
 - DIY [synthetic cubist collage ](https://www.tate.org.uk/art/art-terms/s/synthetic-cubism) kit...just add newspaper!  
 - [Mario Nigro.  Two awesome exhibits in Milan.](https://www.museodelnovecento.org/en/mostra/mario-nigro)  I bought the book.  He has this wonderful blend of geometry and asymmetry.  Trained as a chemist and pharmacist.
     - Inspired by watercolor squares series:  Black ink paintings to visualize latent spaces of generative image/text models. Use OpenTron to create dilutations and dispense (quantized).  Visualize a latent space in a generative mdel and then create text and images by re-reading what the camera sees (through this lossy medium)
