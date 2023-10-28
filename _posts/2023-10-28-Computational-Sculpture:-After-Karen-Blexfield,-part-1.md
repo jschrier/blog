@@ -4,7 +4,7 @@ Date: 2023-10-28
 Tags: art opencascade 3dprinting mathematica santafe sculpture
 ---
 
-Inspired by a walk down [Canyon Road](https://www.visitcanyonroad.com) on an October Saturday morning, I had many inspirations for sculptural works that could have a flavor of mathematics, computation, and [advanced manufacturing]({{ site.baseurl }}{% post_url 2022-12-31-Autodidact-guide-to-advanced-manufacturing  %}). At [Winterowd](https://fineartsantafe.com), I came across work by [Karen Bexfield](https://www.karenbexfield.com/portfolio), whose schtick is [kiln-formed glass](https://amzn.to/3QKmF4d) truncated bi-cones with holes in the surface:
+Inspired by a walk down [Canyon Road](https://www.visitcanyonroad.com) on an October Saturday morning, I had many inspirations for sculptural works that could have a flavor of mathematics, computation, and [advanced manufacturing]({{ site.baseurl }}{% post_url 2022-12-31-Autodidact-guide-to-advanced-manufacturing %}). At [Winterowd](https://fineartsantafe.com), I came across work by [Karen Bexfield](https://www.karenbexfield.com/portfolio), whose schtick is [kiln-formed glass](https://amzn.to/3QKmF4d) truncated bi-cones with holes in the surface:
 ![1wksbawzry2yn](img/1wksbawzry2yn.png)
 **How would you generate a family of these objects computationally, within the** **[constraint of FDM](https://www.hubs.com/knowledge-base/how-design-parts-fdm-3d-printing/)****?...**
 
@@ -147,7 +147,7 @@ Results are always copied to the clipboard for later use...
 
 ## Defining an Object in OpenCascade
 
-For building these types of objects we definitely want to use [OpenCascade](http://reference.wolfram.com/language/OpenCascadeLink/tutorial/UsingOpenCascadeLink.html) (which we have used in a [previous episode]({{ site.baseurl }}{% 2022-07-22-Generating-3d-designs-with-OpenCASCADE-Link %})):
+For building these types of objects we definitely want to use [OpenCascade](http://reference.wolfram.com/language/OpenCascadeLink/tutorial/UsingOpenCascadeLink.html) (which we have used in a [previous episode]({{ site.baseurl }}{% post_url 2022-07-22-Generating-3d-designs-with-OpenCASCADE-Link %})):
 
 ```mathematica
 Needs["OpenCascadeLink`"]
