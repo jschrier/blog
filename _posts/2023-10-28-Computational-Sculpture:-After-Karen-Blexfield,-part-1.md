@@ -18,7 +18,7 @@ A few preliminary considerations:
 
 ```mathematica
 Plot[
-  Highlighted[ Tan[x] , Placed ["Ball", {{Pi/4}, {3 Pi/4}}]], 
+  Highlighted[ Tan[x] , Placed ["Ball", { {Pi/4}, {3 Pi/4}}]], 
   {x, -Pi, Pi}]
 ```
 
@@ -59,7 +59,7 @@ allowedParameters = With[
       ( (h/(R - r + o) >= 1 || h/(R - r + o) <= -1)) && 
        ( ( h/(R - r - o) >= 1 || h/(R - r - o) <= -1) ) && 
        (o + r) <= R , 
-      {{r, 0.5, R}, {o, 0, R}, {h, 0, R}}]]; 
+      { {r, 0.5, R}, {o, 0, R}, {h, 0, R}}]]; 
  
 RegionPlot3D[allowedParameters, 
   PlotTheme -> "Scientific", 
@@ -98,7 +98,7 @@ topProfile[disk_Association] := With[
     {disk["color"], Rotate[c, disk["a"], {0, 0}]}] 
  
 sideView[disks_List] := Graphics[
-    Map[sideProfile, disks]~Join~{White, Line[{{0, -4}, {0, +4}}]}] 
+    Map[sideProfile, disks]~Join~{White, Line[{ {0, -4}, {0, +4}}]}] 
  
 topView[disks_List] := Graphics@Map[topProfile]@disks 
  
@@ -132,10 +132,10 @@ With[
     GraphicsRow[
      {Show[sideView[design], allowedGraphic[design]], 
       topView[design]}]], 
-   {{r1, init[[1, "r"]]}, 0.5, 4}, {{o1, init[[1, "o"]]}, 0.0, 4}, 
-   {{h1, init[[1, "h"]]}, -4, 0.01}, {{r2, init[[-1, "r"]]}, 0.5, 4}, 
-   {{o2, init[[-1, "o"]]}, 0.0, 4}, {{h2, init[[-1, "h"]]}, 0.01, 4}, 
-   {{a, init[[-1, "a"]]}, 0, Pi} 
+   { {r1, init[[1, "r"]]}, 0.5, 4}, { {o1, init[[1, "o"]]}, 0.0, 4}, 
+   { {h1, init[[1, "h"]]}, -4, 0.01}, { {r2, init[[-1, "r"]]}, 0.5, 4}, 
+   { {o2, init[[-1, "o"]]}, 0.0, 4}, { {h2, init[[-1, "h"]]}, 0.01, 4}, 
+   { {a, init[[-1, "a"]]}, 0, Pi} 
   ]]
 ```
 
@@ -161,7 +161,7 @@ shellThickness = 0.02; (*2 mm in inches; vase mode  will reduce to a single extr
  
 s = MapThread[
     OpenCascadeShapeTransformation[
-      OpenCascadeShape[OpenCascadeCircle[{{0, #2, #3}, n}, #1]], 
+      OpenCascadeShape[OpenCascadeCircle[{ {0, #2, #3}, n}, #1]], 
       RotationTransform[#4, n]] &, 
     Transpose@Lookup[example, {"r", "o", "h", "a"}]];
 
