@@ -1,11 +1,11 @@
 ---
-Title: "Computational Sculpture: After Karen Blexfield, part 1"
+Title: "Computational Sculpture: After Karen Bexfield, part 1"
 Date: 2023-10-28
 Tags: art opencascade 3dprinting mathematica santafe sculpture
 ---
 
 Inspired by a walk down [Canyon Road](https://www.visitcanyonroad.com) on an October Saturday morning, I had many inspirations for sculptural works that could have a flavor of mathematics, computation, and [advanced manufacturing]({{ site.baseurl }}{% post_url 2022-12-31-Autodidact-guide-to-advanced-manufacturing %}). At [Winterowd](https://fineartsantafe.com), I came across work by [Karen Bexfield](https://www.karenbexfield.com/portfolio), whose schtick is [kiln-formed glass](https://amzn.to/3QKmF4d) truncated bi-cones with holes in the surface:
-![1wksbawzry2yn](img/1wksbawzry2yn.png)
+![1wksbawzry2yn](/blog/images/2023/10/28/1wksbawzry2yn.png)
 **How would you generate a family of these objects computationally, within the** **[constraint of FDM](https://www.hubs.com/knowledge-base/how-design-parts-fdm-3d-printing/)****?...**
 
 A few preliminary considerations:
@@ -256,7 +256,7 @@ Import this into [PrusaSlicer](https://www.prusa3d.com/page/prusaslicer_424/) an
 
 ## Some aesthetic comments and future directions
 
-To make this self supporting, the rise/run behavior has to be much more shallow than what you see in the example Blexfield sculptures, so ours looks more like a lumpy potato :-)
+To make this self supporting, the rise/run behavior has to be much more shallow than what you see in the example Bexfield sculptures, so ours looks more like a lumpy potato :-)
 
 It may be more interesting to try another strategy; the ones with the flattened base could be self supporting in that axes. But we will leave that for a future project...
 
@@ -280,5 +280,5 @@ Reduction to practice awaits getting back home to my printer.
 - [Glass 3d-printing exists](https://all3dp.com/2/glass-3d-printing-simply-explained/).  One approach by [Maple Glass (Australia) essentially does FDM with glass rods](https://www.youtube.com/@MapleGlassPrinting) in a kiln. (They also sell a gadget to melt glass and make filaments).  [Glassomer sells a glass-based SLS resin](https://www.glassomer.com/products/glass-3d-printing.html) (formulated for 365nm, 385nm and 405nm--the latter being the wavelength of the [Prusa SL1S](https://www.prusa3d.com/category/original-prusa-sl1s-speed/), but alas, the build area is only 5 x 3.14 inches, so too small for works like these.
 
 ```mathematica
-ToJekyll["Computational Sculpture: After Karen Blexfield, part 1", "art opencascade 3dprinting mathematica santafe sculpture"]
+ToJekyll["Computational Sculpture: After Karen Bexfield, part 1", "art opencascade 3dprinting mathematica santafe sculpture"]
 ```
