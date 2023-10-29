@@ -265,19 +265,18 @@ It may be more interesting to try another strategy; the ones with the flattened 
 Reduction to practice awaits getting back home to my printer.
 
 - [Vase mode slicing](https://3dwithus.com/vase-mode-designs-and-settings): probably just use the default Prusa 0.45 mm extrusion width (for the default 0.4mm nozzle), and a 0.1mm layer height for maximum smoothness.  
-
     - Turn on a raft (maybe just one layer) and orient it so the largest circumference side is on the bottom for maximal adhesion support
-
     - Vase mode slicing in PrusaSlicer does not  seem to like the hole punched files; weird mesh output which results in disconnected regions.  Design solids instead.
         - [This post suggests](https://www.printables.com/model/149421-how-to-print-holes-in-vase-mode) that if you design a 0.5mm thickness wall (=0.02 inches) that holes are OK in vase mode, but you cannot have two holes in the same vase perimeter.
-
-    - [Another fun trick: ](https://hackaday.com/2022/05/15/3d-printing-hack-leverages-vase-mode-structurally/) you can print reinforced solid objects by inserting 0.4mm cut ribs into your model; using vase model in this way dramatically reduces the print time.  [Here is an example for printing RC models ](https://www.youtube.com/watch?v=MQ3f92hDAdY)where this acts as stiffening (with some more how-to tips in Fusion360 than the earlier video) 
-
+    - [Another fun trick: ](https://hackaday.com/2022/05/15/3d-printing-hack-leverages-vase-mode-structurally/) you can print reinforced solid objects by inserting 0.4mm cut ribs into your model; using vase model in this way dramatically reduces the print time.  [Here is an example for printing RC models](https://www.youtube.com/watch?v=MQ3f92hDAdY) where this acts as stiffening (with some more how-to tips in Fusion360 than the earlier video) 
     - People do [really cool stuff with Vase mode](https://www.printables.com/contest/124-vase-mode-vases).  Get some inspiration. 
+
 
 - [Matterhackers sells a variety of translucent PLA and PETG filaments](https://www.matterhackers.com/store/c/3d-printer-filament?filters=Y7VDJ,T0H50).  From what I gather, the translucency of PETG appears a bit nicer, so this might present an opportunity to experiment with a new material.
 
-- [Glass 3d-printing exists](https://all3dp.com/2/glass-3d-printing-simply-explained/).  One approach by [Maple Glass (Australia) essentially does FDM with glass rods](https://www.youtube.com/@MapleGlassPrinting) in a kiln. (They also sell a gadget to melt glass and make filaments).  [Glassomer sells a glass-based SLS resin](https://www.glassomer.com/products/glass-3d-printing.html) (formulated for 365nm, 385nm and 405nm--the latter being the wavelength of the [Prusa SL1S](https://www.prusa3d.com/category/original-prusa-sl1s-speed/), but alas, the build area is only 5 x 3.14 inches, so too small for works like these.
+- [Glass 3d-printing exists](https://all3dp.com/2/glass-3d-printing-simply-explained/). 
+  - [Maple Glass (Australia) essentially does FDM with glass rods](https://www.youtube.com/@MapleGlassPrinting) in a kiln. (They also sell a gadget to melt glass and make filaments).  
+  - [Glassomer sells a glass-based SLS resin](https://www.glassomer.com/products/glass-3d-printing.html) (formulated for 365nm, 385nm and 405nm--the latter being the wavelength of the [Prusa SL1S](https://www.prusa3d.com/category/original-prusa-sl1s-speed/), but alas, the build area is only 5 x 3.14 inches, so too small for works like these.
 
 ```mathematica
 ToJekyll["Computational Sculpture: After Karen Bexfield, part 1", "art opencascade 3dprinting mathematica santafe sculpture"]
