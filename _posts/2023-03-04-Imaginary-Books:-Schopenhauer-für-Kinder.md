@@ -120,6 +120,8 @@ Tags: imaginary-books children philosophy deutsch
 
 - [Brian Magee's interview with Frederick Copleston, S.J. about Schopenhauer is great](https://www.youtube.com/watch?v=Oef8CBoKRds) ... I love how Copleston speaks about Schoppy as if he was a somewhat disreputable schoolmate of his.
 
+- Paul Strathern, [Schopenhauer in 90 Minutes](https://amzn.to/46O3PyB) (1999)...a short, breezy read with an introduction to Schoppy's life and thought. Sort of an adult version of our book
+
 - Schopy und ich (another [Crayonfou](https://crayonfou.com) original, in the style of Max Beckman)
 
 ![schopy und ich painting](/blog/images/2023/3/4/schopy_und_ich.jpg)
