@@ -33,7 +33,7 @@ That being said, there are many interesting ideas to explore.  The [promptinggui
 
 # Agents and Daemons
 
-[LLM-based agents](https://lilianweng.github.io/posts/2023-06-23-agent/) (incluing cheemical examples like ChemCrow) as golem-like creations ... or independently minded daemons
+[LLM-based agents](https://lilianweng.github.io/posts/2023-06-23-agent/) (incluing cheemical examples like [ChemCrow)](https://arxiv.org/abs/2304.05376) as golem-like creations ... or independently minded daemons
 
 # É solo un Trucco! From magic to natural magic to science...
 
