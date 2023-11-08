@@ -105,7 +105,9 @@ exampleResult = compoundInformation[example]
 
 **Comment:** I am actually pleasantly surprised at how well this worked.  If you look at the string, it is quite ugly and I suspect there are many edge cases for a simple regexp.  What I like about this use case is that it fails in a transparent way---if we get bad data in our consistency check then we will just have to manually correct the data. 
 
-We can check for consistency against the listed molecular formula and molecular mass (rounding the latter to the nearest integer as good-enough.  In practice, getting the molecular formula correct should also get the mass correct, but I like a [ belt-and-suspenders](https://www.investopedia.com/terms/b/belt-and-suspenders.asp) approach.
+**Addendum (06 Nov 2023):** The new [function calling API options](https://platform.openai.com/docs/guides/function-calling) may allow you to simplify the prompt for returning JSON, in case you are trying this in the future.
+
+We can check for consistency against the listed molecular formula and molecular mass (rounding the latter to the nearest integer as good-enough.  In practice, getting the molecular formula correct should also get the mass correct, but I like a [belt-and-suspenders](https://www.investopedia.com/terms/b/belt-and-suspenders.asp) approach.
 
 ```mathematica
 moleculeConsistentQ[mol_Molecule, info_Association] := With[

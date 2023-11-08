@@ -262,11 +262,11 @@ It may be more interesting to try another strategy; the ones with the flattened 
 
 ## Notes on 3D-printing
 
-Reduction to practice awaits getting back home to my printer.
+Reduction to practice awaits getting back home to my printer. In the meantime, some notes on materials and settings:
 
 - [Vase mode slicing](https://3dwithus.com/vase-mode-designs-and-settings): probably just use the default Prusa 0.45 mm extrusion width (for the default 0.4mm nozzle), and a 0.1mm layer height for maximum smoothness.  
     - Turn on a raft (maybe just one layer) and orient it so the largest circumference side is on the bottom for maximal adhesion support
-    - Vase mode slicing in PrusaSlicer does not  seem to like the hole punched files; weird mesh output which results in disconnected regions.  Design solids instead.
+    - Vase mode slicing in PrusaSlicer does not like the hole punched files; weird mesh output which results in disconnected regions.  Design solids instead, as demonstrated above.
         - [This post suggests](https://www.printables.com/model/149421-how-to-print-holes-in-vase-mode) that if you design a 0.5mm thickness wall (=0.02 inches) that holes are OK in vase mode, but you cannot have two holes in the same vase perimeter.
     - [Another fun trick: ](https://hackaday.com/2022/05/15/3d-printing-hack-leverages-vase-mode-structurally/) you can print reinforced solid objects by inserting 0.4mm cut ribs into your model; using vase model in this way dramatically reduces the print time.  [Here is an example for printing RC models](https://www.youtube.com/watch?v=MQ3f92hDAdY) where this acts as stiffening (with some more how-to tips in Fusion360 than the earlier video) 
     - People do [really cool stuff with Vase mode](https://www.printables.com/contest/124-vase-mode-vases).  Get some inspiration. 

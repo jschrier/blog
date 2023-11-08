@@ -34,4 +34,4 @@ Tags: ai imaginary-syllabi llm teaching mathematica
 
 # Applications
 
-- Analyzing the [passage of time in literary narrative susing bag of words and LLMs](https://tedunderwood.com/2023/03/19/using-gpt-4-to-measure-the-passage-of-time-in-fiction/)
+- Analyzing the [passage of time in literary narrative using bag of words and LLMs](https://tedunderwood.com/2023/03/19/using-gpt-4-to-measure-the-passage-of-time-in-fiction/)
