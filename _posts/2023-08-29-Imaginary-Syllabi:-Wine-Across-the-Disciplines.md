@@ -47,6 +47,7 @@ There's clearly a shadow curriculum here, which is teaching students how to know
 - Theology: [Transubstantiation](https://en.wikipedia.org/wiki/Transubstantiation), the relic of [St. Januarius (aka San Gennaro](https://en.wikipedia.org/wiki/Januarius), for whom we have the [festival in Manhattan Little Italy](https://sangennaronyc.org))
 - American studies:  Prohibition
 - Islamic studies: [Wine in Sufi poetry](https://www.codedevino.com/world-of-wine/the-way-of-wine/sufism-and-wine), [Omar Khayyam](https://en.wikipedia.org/wiki/Rubaiyat_of_Omar_Khayyam), etc. 
+- Finance:  How do you valuate/price/invest in wine?  Draw from case studies in Cifuentes and Charlin, [The Worth of Art](https://amzn.to/3FZhqqO); last chapter discusses wine pricing
 
 # Example tasting topics ("labs")
 

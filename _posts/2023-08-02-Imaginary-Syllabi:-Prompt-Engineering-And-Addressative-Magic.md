@@ -18,7 +18,7 @@ Explore the parallel to [glitch tokens](https://www.lesswrong.com/posts/aPeJE8bS
 
 [Hekhalot mysticism](https://shwep.net/podcast/palaces-of-heavenly-wisdom-the-hekhalot-and-merkavah-traditions/) in proto-rabbinic Judaism involved cosmic ascents with special magical passwords needed to bypass guardians along the way. (Unlike the [Platonic ascent narratives](https://shwep.net/podcast/nowhere-to-go-but-up-philosophic-ascent-in-plato/) that just require making good decisions and being virtuous...)  If you do this, you gain secret knowledge about the way the universe works.
 
-It was recently discovered that entering a thousand repeated letters ("a a a a ....") may cause ChatGPT to [spit out other users' chats](https://twitter.com/nostalgebraist/status/1686576041803096065) ... a magical password that bypasses the guardians
+It was recently discovered that entering a thousand repeated letters ("a a a a ....") may cause ChatGPT to [spit out other users' chats](https://twitter.com/nostalgebraist/status/1686576041803096065) ... a magical password that bypasses the guardians!
 
 # Addressative Magic = Prompt Engineering
 
@@ -33,7 +33,11 @@ That being said, there are many interesting ideas to explore.  The [promptinggui
 
 # Agents and Daemons
 
-[LLM-based agents](https://lilianweng.github.io/posts/2023-06-23-agent/) (incluing cheemical examples like [ChemCrow)](https://arxiv.org/abs/2304.05376) as golem-like creations ... or independently minded daemons
+[LLM-based agents](https://lilianweng.github.io/posts/2023-06-23-agent/) (including chemical examples like [ChemCrow)](https://arxiv.org/abs/2304.05376) as golem-like creations ... or independently minded daemons .
+
+It maybe more insightful to use the [language of role-playing as a framework for discussing dialogue agents](https://doi.org/10.1038/s41586-023-06647-8)---as this still lets us use folk 
+psychological concepts (beliefs, desires, goals, ambitions, emotions, etc.) without falling into the trap of anthropomorphism. But there may be some parallels here as well, for example in the Aquinian/Scholastic theory angels (and I suspect Iamblicus' Proclus' treatment of various levels of divine entittes, but I need to do some more homework on this), insofar as they do not have the same types of mental states as humans.  (For example, according to Aquinas, angels cannot "learn".)
+
 
 # É solo un Trucco! From magic to natural magic to science...
 
@@ -52,6 +56,9 @@ It's just a trick.  There's no magic.  [It's just linear algebra.](https://writi
 # Parerga and Paralipomena
 
 * (added 03 Oct 2023) [Benjamin Breen has a post on describing his use of GPT-4 to translate 16th century Jesuit demonology texts](https://resobscura.substack.com/p/translating-latin-demonology-manuals); the [hackernews comments](https://news.ycombinator.com/item?id=37752272) are insightful;  possible reading for the class [Thinking with Demons](https://amzn.to/3tbX0Yy) which explores how the witchcraft craze of the 15-18th centuries was a product of "rationality"
-
+* (added 09 Nov 2023) [Secret History of Western Esotericism oddcast interview with Karin Valis](https://shwep.net/oddcast/karin-valis-on-magic-and-artificial-intelligence/) on Magic and Artificial Intelligence some things it reminded me about include
+    - Egyptian/Late Platonist/Theurgic interest in animating statues
+    - Theories of divination (and the incompatibility of some of those with mechanical means)
+    - [Valis' blog](https://mercurialminutes.substack.com) is a source of many rich ideas for this
 
 

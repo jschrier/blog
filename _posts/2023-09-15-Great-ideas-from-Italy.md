@@ -19,6 +19,7 @@ Business and art ideas inspired by my recent trip to northern Italy...
 # Visual Arts
 
 - Create a futures market on fine art (should you short the [Caravaggio in the Pallazo Bianco in Genova](https://en.wikipedia.org/wiki/Ecce_Homo_(Caravaggio)#Disputed_attribution)?)
+    - (*addendum 15 Nov 2023*) Cifuente and Charlin [The Worth of Art](https://amzn.to/3FZhqqO) has a nice discussion of how to price auction guarantees (which are essentially a strange put option) and loans against artwork; think about how you might be able to add a shorting counterparty.  As mentioned in the book, there is a very small cottage industry of hedge funds that deal in these things, so there is probably room for a richer market. 
 - Renaissance paintings, but only the architecture (if you think about it, this [De Chirico's](https://en.wikipedia.org/wiki/Giorgio_de_Chirico) schtick)--optionally use AI-based inpainting to do this for you automagically if you are lazy
 - What is the statistical distribution of representations of different saints?  St. Francis seems tremendously popular. There are regional variations---e.g., [Sts. Cosmas and Damien](https://en.wikipedia.org/wiki/Saints_Cosmas_and_Damian) were super popular in Puglia, but you don't see a lot of them in the North.  On the other hand, I've seen a lot more of [St. Fillipo Neri](https://it.wikipedia.org/wiki/Filippo_Neri) here in the North.  I
 - Spiderman comic in the style of the [San Zeno](https://commons.wikimedia.org/wiki/San_Zeno_(Verona)) 13th/14th century frescos
