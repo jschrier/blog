@@ -60,5 +60,6 @@ It's just a trick.  There's no magic.  [It's just linear algebra.](https://writi
     - Egyptian/Late Platonist/Theurgic interest in animating statues
     - Theories of divination (and the incompatibility of some of those with mechanical means)
     - [Valis' blog](https://mercurialminutes.substack.com) is a source of many rich ideas for this
+        - [Occult agencies (angels, daemons, etc.) have often been accorded limited to no free-will...moral agency resides in the human conjurer (or deity) who commands them.](https://mercurialminutes.substack.com/p/machine-learning-goetia)  This is an interesting point when thinking about legal liability of AI systems. 
 
 
