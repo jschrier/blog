@@ -4,7 +4,9 @@ Date: 2023-11-24
 Tags: mathematica openai chiguiro art
 ---
 
-By default (as of 24 Nov 2023, Mathematica 13.3), it appears that [ImageSynthesize](http://reference.wolfram.com/language/ref/ImageSynthesize.html) uses [Dall-E-2](https://openai.com/dall-e-2/) for image generation, as the results are kind of trash:
+By default (as of 24 Nov 2023, Mathematica 13.3), it appears that [ImageSynthesize](http://reference.wolfram.com/language/ref/ImageSynthesize.html) uses [Dall-E-2](https://openai.com/dall-e-2/) for image generation, as the results are kind of trash---**but with some tricks you can get it to use [Dall-E-3](https://openai.com/dall-e-3) instead...**:
+
+Here's an example using the default settings:
 
 ```mathematica
 ImageSynthesize["A cartoon of a a capybara riding a motorcycle and wearing a bowtie"]
