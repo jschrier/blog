@@ -18,8 +18,8 @@ Our default unit is Imperial (inches), and we will start with two Cones that hav
 
 ```mathematica
 bicone[R_] := {
-    Cone[{{0, 0, 0}, {0, 0, R}}, R], 
-    Cone[{{0, 0, 0}, {0, 0, -R}}, R]} 
+    Cone[{ {0, 0, 0}, {0, 0, R}}, R], 
+    Cone[{ {0, 0, 0}, {0, 0, -R}}, R]} 
  
 Manipulate[
   With[
@@ -27,7 +27,7 @@ Manipulate[
     cubes = { Cuboid[{5, 5, z1}, {-5, -5, -5}], 
       Cuboid[{5, 5, 5}, {-5, -5, z2}], 
       Cuboid[{ -5, y3, -5}, {5, 5, 5}]}, 
-    rot = RotationTransform[{{0, 0, 1}, {x2, y2, 1}}]}, 
+    rot = RotationTransform[{ {0, 0, 1}, {x2, y2, 1}}]}, 
   	
    CopyToClipboard[<|"cubes" -> cubes, "rotation" -> rot|>]; 
    Show[
@@ -38,12 +38,12 @@ Manipulate[
       rot@cubes[[2]], 
       cubes[[3]] 
      }], 
-    PlotRange -> {{-5, 5}, {-5, 5}, {-5, 5}}]], 
-  {{z1, -3}, 0, -4}, 
-  {{x2, 0}, 0, 4}, 
-  {{y2, 0}, 0, 4}, 
-  {{z2, 3}, 0, 4}, 
-  {{y3, 3}, 0, 4} 
+    PlotRange -> { {-5, 5}, {-5, 5}, {-5, 5}}]], 
+  { {z1, -3}, 0, -4}, 
+  { {x2, 0}, 0, 4}, 
+  { {y2, 0}, 0, 4}, 
+  { {z2, 3}, 0, 4}, 
+  { {y3, 3}, 0, 4} 
  ]
 ```
 
