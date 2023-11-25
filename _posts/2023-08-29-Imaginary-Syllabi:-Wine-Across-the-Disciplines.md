@@ -48,6 +48,10 @@ There's clearly a shadow curriculum here, which is teaching students how to know
 - American studies:  Prohibition
 - Islamic studies: [Wine in Sufi poetry](https://www.codedevino.com/world-of-wine/the-way-of-wine/sufism-and-wine), [Omar Khayyam](https://en.wikipedia.org/wiki/Rubaiyat_of_Omar_Khayyam), etc. 
 - Finance:  How do you valuate/price/invest in wine?  Draw from case studies in Cifuentes and Charlin, [The Worth of Art](https://amzn.to/3FZhqqO); last chapter discusses wine pricing
+- Mathematics:  Classic mathematical problems framed using wine-related tasks.  
+    - Kepler's [Nova stereometria doliorum vinariorum](https://maa.org/press/periodicals/convergence/kepler-the-volume-of-a-wine-barrel-keplers-nova-stereometria-doliorum-vinariorum), e.g., as treated in Paul Nahin's [When Least is Best:How Mathematicians Discovered Many Clever Ways to Make Things as Small (or as Large) as Possible](https://amzn.to/3sH6f3n) 
+    - [Niccolo Tartaglia's wine-dilution problem](https://puzzling.stackexchange.com/questions/28776/turning-wine-into-water/28781) from "General Trattato di Numeri" (1556) 
+    - *I was inspired to add these topics after seeing the example of * determining the pH of a sample of pinot noir with a noisy pH meter in [Cory Simon's recent tutorial on Bayesian inverse problems](https://doi.org/10.1063/5.0154773)
 
 # Example tasting topics ("labs")
 
