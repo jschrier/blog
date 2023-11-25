@@ -258,7 +258,7 @@ Import this into [PrusaSlicer](https://www.prusa3d.com/page/prusaslicer_424/) an
 
 To make this self supporting, the rise/run behavior has to be much more shallow than what you see in the example Bexfield sculptures, so ours looks more like a lumpy potato :-)
 
-It may be more interesting to try another strategy; the ones with the flattened base could be self supporting in that axes. But we will leave that for a future project...
+It may be more interesting to try another strategy; the ones with the flattened base could be self supporting in that axes. [But we will leave that for a future project...](({{ site.baseurl }}{% post_url 2023-11-25-Computational-Sculpture:-After-Karen-Bexfield,-part-2 %} ))
 
 ## Notes on 3D-printing
 
