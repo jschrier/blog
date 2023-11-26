@@ -26,7 +26,7 @@ Manipulate[
    {R = 4, 
     cubes = { Cuboid[{5, 5, z1}, {-5, -5, -5}], 
       Cuboid[{5, 5, 5}, {-5, -5, z2}], 
-      Cuboid[{ -5, y3, -5}, {5, 5, 5}]}, 
+      Cuboid[{-5, y3, -5}, {5, 5, 5}]}, 
     rot = RotationTransform[{ {0, 0, 1}, {x2, y2, 1}}]}, 
   	
    CopyToClipboard[<|"cubes" -> cubes, "rotation" -> rot|>]; 
