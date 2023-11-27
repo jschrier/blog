@@ -4,7 +4,7 @@ Date: 2023-11-25
 Tags: literature reading science
 ---
 
-Campus novels about academic life are so common.  But what about novels that are set at national laboratories (in which, the lab is itself a type of character).  Excluded are biographies, etc. **A few good ones I have read...**
+Campus novels about academic life are so common.  But what about novels that are set at national laboratories (in which, the lab is itself a type of character)?  **A few good ones I have read...**
 
 # Livermore
 
@@ -12,7 +12,7 @@ Campus novels about academic life are so common.  But what about novels that are
 
 # Los Alamos
 
-- Thomas McMahon, [Principles of American Nuclear Chemistry](https://amzn.to/3Ghj3Av) conveyed by a late-20s-year old in psychotherapy as he recollects his boyhood as a 13-year old growing up in the shadow of the Manhattan project.  Compelling read, all characters a roman a clef (e.g., the famous Italian Ferrini, the Danish physicist Ohr, ...).  (I suppose there is a chapter at Oak Ridge early on, but LANL is really the home here.)
+- Thomas McMahon, [Principles of American Nuclear Chemistry](https://amzn.to/3Ghj3Av) conveyed by a late-20s-year old in psychotherapy as he recollects his boyhood as a 13-year old growing up in the shadow of the Manhattan project.  Compelling read, and it is a fun game to guess the pseudonyms (e.g., the famous Italian physicist [Ferrini](https://en.wikipedia.org/wiki/Enrico_Fermi#Manhattan_Project), the Danish physicist [Ohr](https://en.wikipedia.org/wiki/Niels_Bohr#Manhattan_Project), [Gloria Mundi who dies of cancer](https://en.wikipedia.org/wiki/Richard_Feynman#Manhattan_Project), ...).  (I suppose there is a chapter at Oak Ridge early on, but LANL is really the home here.)
 
 # Berkeley
 
