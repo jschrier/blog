@@ -60,6 +60,7 @@ ToJekyll["Dall-E-3 image generation in Mathematica", "mathematica openai chiguir
 ```
 # Parerga and Paralipomena (28 Nov 2023)
 
-Came across some recent Wolfram Community posts that provide relevant functionality.
-- [LLMVisionSynthesize](https://community.wolfram.com/groups/-/m/t/3072318)...`LLMVisionFunction` for using GPT-4v.  Also shows a nice trick of using the `LLMPrompt["NothingElse"]["JSON"]` 
+Came across some recent Wolfram Community posts that provide relevant functionality:
+- [LLMVisionSynthesize](https://community.wolfram.com/groups/-/m/t/3072318)...and `LLMVisionFunction` for using GPT-4v.  Also shows a nice trick of using the `LLMPrompt["NothingElse"]["JSON"]` and `LLMPrompt["CodeWriter"]`.
+  - Available at `Import["https://raw.githubusercontent.com/antononcube/MathematicaForPrediction/master/Misc/LLMVision.m"] `
 - [callDALLE](https://community.wolfram.com/groups/-/m/t/3073374) .. and other functions that support thee Text-to-Speech API and GPT-vision (`callTTS`, `callGPTVision`)
