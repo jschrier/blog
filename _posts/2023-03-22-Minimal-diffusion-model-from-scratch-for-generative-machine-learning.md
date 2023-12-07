@@ -223,7 +223,7 @@ Histogram3D@generate[%, param, 10^4]
 
 Not bad!  We're certainly capture some of the aspects of the spiral, it's not as clean as we might like.
 
-Let's train the heck out of it (we'll just start from where we left off.  This will take ~6 minutes on CPU, provide you don't overhead your poor laptop). Again, this is probably too much, but maybe it is useful.  For each of our samples we have 200 times to consider, so maybe 10^5 training rounds is not too unreasonable.
+Let's train the heck out of it (we'll just start from where we left off.  This will take ~6 minutes on CPU, provide you don't overheat your poor laptop). Again, this is probably too much, but maybe it is useful.  For each of our samples we have 200 times to consider, so maybe 10^5 training rounds is not too unreasonable.
 
 ```mathematica
 trainedNetv2 = NetTrain[
@@ -251,7 +251,7 @@ This suggests that you really *do* need to run long training rounds like 10^5.  
 
 ## From "Diffusion" to "Stable Diffusion" 
 
-So far we've implemented a "vanilla" diffusion model.  The core idea behind[ stable diffusion](https://learnopencv.com/stable-diffusion-generative-ai/) is that one trains an autoencoder to generate the samples, and then performs diffusion in the latent space of the autoencoder.  (In contrast, in the example above, we're performing the diffusion process directly in the sample space).  
+So far we've implemented a "vanilla" diffusion model.  The core idea behind [stable diffusion](https://learnopencv.com/stable-diffusion-generative-ai/) is that one trains an autoencoder to generate the samples, and then performs diffusion in the latent space of the autoencoder.  (In contrast, in the example above, we're performing the diffusion process directly in the sample space).  
 
 You really need a larger example than this ([like generating MNIST images](https://mathematica.stackexchange.com/questions/269181/diffusion-probabilistic-model-in-deep-generative-modeling)) to show the value of this, but the [MNIST autoencoder described in the Mathematica documentation](http://reference.wolfram.com/language/tutorial/NeuralNetworksUnsupervised.html) would be a good starting point.  
 
