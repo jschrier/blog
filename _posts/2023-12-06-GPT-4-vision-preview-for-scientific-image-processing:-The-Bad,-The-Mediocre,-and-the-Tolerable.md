@@ -270,3 +270,56 @@ ServiceExecute["OpenAI", "ImageCreate",
 ToJekyll["GPT-4-vision-preview for scientific image processing: The Bad, The Mediocre, and the Tolerable", 
   "llm ai ml science"]
 ```
+
+## For a Few Tokens More
+
+**An experiment:**  What if we ask gpt-4-vision to make an SVG-type approximation of the image?  Then we could process that text into the value.  
+
+**Strengths:**  It appears to correctly assign the label names and group each data series.  
+
+**Weakness:**  It only finds 5 (of 7) points for each of the curves. 
+
+```mathematica
+LLMVisionSynthesize["Generate an SVG that captures the essential details (axes and data points for each entry) of this image. It is OK if the positions are approximate", 
+  ex, "MaxTokens" -> 900]
+
+(*"Below is a simple SVG representation of the graph in the image. Please note that the positions are approximate and the SVG code may lack full labels or legends as in the original image:```svg<svg width=\"600\" height=\"400\" xmlns=\"http://www.w3.org/2000/svg\"><!-- Axes --><line x1=\"50\" y1=\"350\" x2=\"50\" y2=\"50\" style=\"stroke:black; stroke-width:2\"/><line x1=\"50\" y1=\"350\" x2=\"550\" y2=\"350\" style=\"stroke:black; stroke-width:2\"/><!-- X-axis labels --><text x=\"50\" y=\"370\">0</text><text x=\"150\" y=\"370\">20</text><text x=\"250\" y=\"370\">40</text><text x=\"350\" y=\"370\">60</text><text x=\"450\" y=\"370\">80</text><text x=\"530\" y=\"370\">120</text><!-- Y-axis labels --><text x=\"30\" y=\"350\" text-anchor=\"end\">1E-3</text><text x=\"30\" y=\"275\" text-anchor=\"end\">0.1</text><text x=\"30\" y=\"200\" text-anchor=\"end\">1</text><text x=\"30\" y=\"125\" text-anchor=\"end\">10</text><text x=\"30\" y=\"50\" text-anchor=\"end\">1000</text><!-- Data Series 1: T2EHDGA --><polyline points=\"50,100 150,100 250,110 350,110 450,110\" style=\"fill:none;stroke:black;stroke-width:2\"/><rect x=\"45\" y=\"95\" width=\"10\" height=\"10\" style=\"fill:white;stroke:black;\"/><rect x=\"145\" y=\"95\" width=\"10\" height=\"10\" style=\"fill:white;stroke:black;\"/><rect x=\"245\" y=\"105\" width=\"10\" height=\"10\" style=\"fill:white;stroke:black;\"/><rect x=\"345\" y=\"105\" width=\"10\" height=\"10\" style=\"fill:white;stroke:black;\"/><rect x=\"445\" y=\"105\" width=\"10\" height=\"10\" style=\"fill:white;stroke:black;\"/><!-- Data Series 2: DMDOHEMA --><polyline points=\"50,150 150,160 250,160 350,160 450,160\" style=\"fill:none;stroke:black;stroke-width:2\"/><circle cx=\"50\" cy=\"150\" r=\"5\" style=\"fill:white;stroke:black;\"/><circle cx=\"150\" cy=\"160\" r=\"5\" style=\"fill:white;stroke:black;\"/><circle cx=\"250\" cy=\"160\" r=\"5\" style=\"fill:white;stroke:black;\"/><circle cx=\"350\" cy=\"160\" r=\"5\" style=\"fill:white;stroke:black;\"/><circle cx=\"450\" cy=\"160\" r=\"5\" style=\"fill:white;stroke:black;\"/><!-- Data Series 3: DHOA --><polyline points=\"50,280 150,290 250,290 350,290 450,290\" style=\"fill:none;stroke:black;stroke-width:2\"/><polygon points=\"48,280 52,280 50,270\" style=\"fill:white;stroke:black;\"/><polygon points=\"148,290 152,290 150,280\" style=\"fill:white;stroke:black;\"/><polygon points=\"248,290 252,290 250,280\" style=\"fill:white;stroke:black;\"/><polygon points=\"348,290 352,290 350,280\" style=\"fill:white;stroke:black;\"/><polygon points=\"448,290 452,290 450,280\" style=\"fill:white;stroke:black;\"/></svg>```Please note that:1. The shapes (rectangles, circles"*)
+```
+
+However, I could not get gpt-4 to take the above text (or even a simplified version) and extract the relevant portions of the SVG file text that is generated: 
+
+```mathematica
+LLMSynthesize["Use th values specified by the polyline points to create a markdown table of x and y values for each data series.  ```svg<svg width=600 height=400 xmlns=\"http://www.w3.org/2000/svg\"><!-- Axes --><line x1=50 y1=350 x2=50 y2=50 style=\"stroke:black; stroke-width:2\"/><line x1=50 y1=350 x2=550 y2=350 style=\"stroke:black; stroke-width:2\"/><!-- X-axis labels --><text x=50 y=370>0</text><text x=150 y=370>20</text><text x=250 y=370>40</text><text x=350 y=370>60</text><text x=450 y=370>80</text><text x=530 y=370>120</text><!-- Y-axis labels --><text x=30 y=350 text-anchor=end>1E-3</text><text x=30 y=275 text-anchor=end>0.1</text><text x=30 y=200 text-anchor=end>1</text><text x=30 y=125 text-anchor=end>10</text><text x=30 y=50 text-anchor=end>1000</text><!-- Data Series 1: T2EHDGA --><polyline points=\"50,100 150,100 250,110 350,110 450,110\" style=\"fill:none;stroke:black;stroke-width:2\"/><!-- Data Series 2: DMDOHEMA --><polyline points=\"50,150 150,160 250,160 350,160 450,160\" style=\"fill:none;stroke:black;stroke-width:2\"/><!-- Data Series 3: DHOA --><polyline points=\"50,280 150,290 250,290 350,290 450,290\" style=\"fill:none;stroke:black;stroke-width:2\"/></svg>```", 
+  LLMEvaluator -> <|"Model" -> "gpt-4"|>]
+
+(*"Data Series 1:| X Values | Y Values ||----------|----------||   5      |   10     ||   10     |   15     ||   15     |   20     ||   20     |   25     ||   25     |   30     |Data Series 2:| X Values | Y Values ||----------|----------||   10     |   20     ||   20     |   30     ||   30     |   40     ||   40     |   50     ||   50     |   60     |Data Series 3:| X Values | Y Values ||----------|----------||   30     |   60     ||   60     |   90     ||   90     |   120    ||   120    |   150    ||   150    |   180    |Please replace the values in the table with the actual values from your data series."*)
+```
+
+For a proof of concept,  could we extract the values for the first series (T2EHDGA) and the axes lables and perform a calculation that would get the correct result?  
+
+```mathematica
+
+  series1 = { {50, 100}, { 150, 100}, { 250, 110}, {350, 110}, { 450, 110}}; 
+   
+   xAxis = Interpolation[
+      { {50, 0}, {150, 20}, {250, 40}, {350, 60}, {450, 80}, {540, 120}}, 
+      InterpolationOrder -> 1]; 
+   
+   yAxis = Interpolation[
+      { {350, -3}, {275, -1}, {200, 0}, {125, 1}, {50, 3}}, 
+      InterpolationOrder -> 1]; 
+   
+   transformed = {xAxis[ #[[1]]], 10.^yAxis[#[[2]]]} & /@ series1
+
+(*{ {0, 46.4159}, {20, 46.4159}, {40, 25.1189}, {60, 25.1189}, {80, 25.1189}}*)
+```
+
+Comparing this to the values (for T2EHDGA)...we see that the results are still pretty bad.  In fact, they are qualitatively wrong (decreasing, rather than increasing):
+
+```mathematica
+GraphicsColumn[
+  {ListLogPlot[transformed, Joined -> True], 
+   Thumbnail[ex, Medium]}]
+```
+
+![1t19fpg2zrown](/blog/images/2023/12/6/1t19fpg2zrown.png)
