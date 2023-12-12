@@ -103,14 +103,14 @@ It is estimated that you could eat out for breakfast, lunch, and dinner at a dif
 
 (I think Georgian food and wine is excellent and underappreciated)
 
-- [Little Tblisi]() *west village*.  The garden is charming.
-- []() *Midtown, near GCT/UN* upsca
+- [Old Tblisi](https://maps.app.goo.gl/nZoaavwPXWAJLfPL9) *west village on Bleeker Street*.  The garden is charming. Great breads and stews.
+- [Aragavi](https://maps.app.goo.gl/JrXT6VCoAj62reu6A) *Midtown, near GCT/UN* A bit expensive, but a wide range of excellent dishes and wines (and Georgian moonshine)
 
 ## Farther afield
 
 - **Flushing, Queens:** Take the [7-train out to Flushing](https://maps.app.goo.gl/8fNVdS3N6UgKgX6c8) and find great, authentic chinese food from all over china. 
 - **Roosevelt Blvd, Queens:** Take the [7 train](https://maps.app.goo.gl/vsLASRbGiGEbSHsK9) for authentic south american cuisine
-- [Arthur Avenue, The Bronx](https://maps.app.goo.gl/22YoAr1HtmYh1ryD6):  Take the Metro North to Fordham and go to the authentic Little Italy of New York. Great restaurants, bakeries, pastries, coffee. [Zero Otto Nove](https://maps.app.goo.gl/f9nZG5ZxZPuuMEsb9) is a favorite. Or, while you are in the hood, get some [Albanian food](https://maps.app.goo.gl/oaF5HRZR46N8rCFV8).  And have a coffee at [Prince Coffeeshop]() (which is essentially the Starbucks of Albania)
+- [Arthur Avenue, The Bronx](https://maps.app.goo.gl/22YoAr1HtmYh1ryD6):  Take the Metro North to Fordham and go to the authentic Little Italy of New York. Great restaurants, bakeries, pastries, coffee. [Zero Otto Nove](https://maps.app.goo.gl/f9nZG5ZxZPuuMEsb9) is a favorite. Or, while you are in the hood, get some [Albanian food](https://maps.app.goo.gl/oaF5HRZR46N8rCFV8).  And have a coffee at [Prince Coffeeshop](https://maps.app.goo.gl/hVTkbK59mVWqCBGj8) (which is essentially the Starbucks of Albania)
 
 
 # Museums and attractions
@@ -127,12 +127,12 @@ It is estimated that you could eat out for breakfast, lunch, and dinner at a dif
 
 # Brooklyn
 
-- Industry city:  Fasinating history, and lots of good Japanese food, and a sake brewery
-- DUMBO: You can walk across the Brooklyn Bridge if you wish, ot else just take the train here.  Get the photo, then have a coal-fired pizza at Grimaldi's before the liberals make it illegal
+- [Industry city](https://maps.app.goo.gl/gqUGgzEfJ4NGZxND7):  Fasinating history, and lots of good Japanese food, and a [sake brewery (Brooklyn Kura)](https://maps.app.goo.gl/WZPWPt7vBn6BtaXG7)
+- [DUMBO](https://maps.app.goo.gl/eit6HmE5hWFp5LdEA): You can walk across the Brooklyn Bridge if you wish, ot else just take the train here.  [Take your photo](https://maps.app.goo.gl/eit6HmE5hWFp5LdEA), then have a coal-fired pizza at [Grimaldi's](https://maps.app.goo.gl/1ARzfFFLmQ3hRXFs5) before [the liberals make it illegal](https://nypost.com/2023/06/25/nyc-rules-crack-down-on-coal-wood-fired-pizzerias-must-cut-carbon-emissions-up-to-75/)
 - Greenpoint
 - Williamsburg
-- Bushwick:
-
+- [Bushwick](https://www.nyctourism.com/new-york/brooklyn/bushwick/): Be sure to stop by [Jupiter Disco](https://maps.app.goo.gl/wk8fVBKoQqr9tsYt5)
+- Bed Stuy:  I typically only come here to go to [Wonderville (a hipster indie videogame bar)](https://maps.app.goo.gl/vMXdrC5UheDQztX26) for [Electronic Music meetups](https://www.meetup.com/brooklyn-experimental-electronic-music-meetup/) (typically the last Thursday of the month, but somewhat irregular...)
 
 
 # Keep up on the latest

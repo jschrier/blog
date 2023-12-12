@@ -323,3 +323,13 @@ GraphicsColumn[
 ```
 
 ![1t19fpg2zrown](/blog/images/2023/12/6/1t19fpg2zrown.png)
+
+## A Fistful of Tokens
+
+Again, assuming we don't want to go the manual route of digitizing the values using [WebPlotDigitizer](https://automeris.io/WebPlotDigitizer/), one might instead consider specialty ML models that focus on data extraction:
+
+- Extracting bar chart / pie chart information seems to be relatively commonplace and part of established benchmarks 
+- Cliche et al. (2017) [Scatteract: Automated extraction of data from scatter plots](https://arxiv.org/abs/1704.06687)
+  - [Source code is available online](https://github.com/bloomberg/scatteract) 
+- Kawoosa et al (2023) [LYLAA: A Lightweight YOLO based Legend and Axis Analysis method for CHART-Infographics](https://dl.acm.org/doi/abs/10.1145/3573128.3609355)--just a focus on doing axis and legend analysis, but in a lightweight way.
+- Bajic and Job (2023) [Review of chart image detection and classification](https://link.springer.com/article/10.1007/s10032-022-00424-5)
