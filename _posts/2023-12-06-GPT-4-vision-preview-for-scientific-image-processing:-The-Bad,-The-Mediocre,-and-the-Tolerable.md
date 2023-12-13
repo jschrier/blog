@@ -4,7 +4,7 @@ Date: 2023-12-06
 Tags: llm ai ml science
 ---
 
-The new [GPT-4-vision-preview API](https://platform.openai.com/docs/guides/vision) has many exciting use cases.  But can it help us with interpreting figures in scientific papers? **tl;dr--we can sometimes verify approximate values and trends of data, but the current version does not handle quantitative data extraction from scientific figures...**
+The new [GPT-4-vision-preview API](https://platform.openai.com/docs/guides/vision) has many exciting use cases.  But can it help us with interpreting figures in scientific papers? **tl;dr--we can sometimes verify approximate values and trends of data, but the current version does not handle quantitative data extraction from scientific figures...** **UPDATE (12 Dec 2023): We get better results by taking a page-level perspective...**
 
 ## The Scientific Problem
 
@@ -273,7 +273,7 @@ ToJekyll["GPT-4-vision-preview for scientific image processing: The Bad, The Med
 
 ## For a Few Tokens More
 
-**An experiment:**  What if we ask gpt-4-vision to make an SVG-type approximation of the image?  Then we could process that text into the value.  
+*(11 Dec 2023)* **An experiment:**  What if we ask gpt-4-vision to make an SVG-type approximation of the image?  Then we could process that text into the value.  
 
 **Strengths:**  It appears to correctly assign the label names and group each data series.  
 
@@ -333,3 +333,4 @@ Again, assuming we don't want to go the manual route of digitizing the values us
   - [Source code is available online](https://github.com/bloomberg/scatteract) 
 - Kawoosa et al (2023) [LYLAA: A Lightweight YOLO based Legend and Axis Analysis method for CHART-Infographics](https://dl.acm.org/doi/abs/10.1145/3573128.3609355)--just a focus on doing axis and legend analysis, but in a lightweight way.
 - Bajic and Job (2023) [Review of chart image detection and classification](https://link.springer.com/article/10.1007/s10032-022-00424-5)
+
