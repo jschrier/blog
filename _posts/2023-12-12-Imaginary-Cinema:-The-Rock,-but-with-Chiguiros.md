@@ -9,14 +9,16 @@ Tags: imaginary-cinema art chiguiro
 That's all. Think about it.
 
 ```mathematica
-ServiceExecute["OpenAI", "ImageCreate", {"Prompt" -> "A scene from the movie \"The Rock\" but with a capybara as the character.  Depict Alcatraz in the background", 
+ServiceExecute["OpenAI", "ImageCreate", 
+   {"Prompt" -> "A scene from the movie \"The Rock\" but with a capybara as the character.  Depict Alcatraz in the background", 
    "Model" -> "dall-e-3"}]
 ```
 
 ![0zv64l06kze9b](/blog/images/2023/12/12/0zv64l06kze9b.png)
 
 ```mathematica
-description = LLMSynthesize["Describe some of the most visually compelling scenes in the movie \"The Rock\" with Sean Connery and Nicholas Cage.  Describe the visual aspects and what the characters look like, without their names. Make each description a separate string in a JSON list", 
+description = LLMSynthesize[
+   "Describe some of the most visually compelling scenes in the movie \"The Rock\" with Sean Connery and Nicholas Cage.  Describe the visual aspects and what the characters look like, without their names. Make each description a separate string in a JSON list", 
     LLMEvaluator -> <|"Model" -> "gpt-4"|>];
 ```
 
@@ -27,7 +29,8 @@ descriptionText = First /@ Values @ ImportString[#, "RawJSON"]& @ Transliterate[
 ```mathematica
 withChiguiros[description_String] := With[
    {prompt = "Depict all of the characters as capybaras having the physical descriptions in the text.  Create these in a photorealistic cinematic style, as if in a movie. The scene is: " <> description}, 
-   ServiceExecute["OpenAI", "ImageCreate", {"Prompt" -> prompt, "Model" -> "dall-e-3"}]]
+   ServiceExecute["OpenAI", "ImageCreate", 
+      {"Prompt" -> prompt, "Model" -> "dall-e-3"}]]
 ```
 
 ```mathematica
