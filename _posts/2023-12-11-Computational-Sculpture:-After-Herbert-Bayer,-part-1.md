@@ -4,13 +4,13 @@ Date: 2023-12-11
 Tags: sculpture santafe 3dprinting art llm
 ---
 
-During an afternoon stroll down [Canyon Road](https://www.visitcanyonroad.com), I stopped into [Peyton-Wright Gallery](https://peytonwright.com/modern/exhibitions/reflections-bauhaus-sculpture-painting/)...mostly because of the striking outdoor sculpture, which I would learn was part of the works of [Herbert Bayer (1900-1985)](https://en.wikipedia.org/wiki/Herbert_Bayer).  **I really enjoy the geometrical structure of his sculptures, inspiring a few investigations...** 
+During an afternoon stroll down [Canyon Road](https://www.visitcanyonroad.com), I stopped into [Peyton-Wright Gallery](https://peytonwright.com/modern/exhibitions/reflections-bauhaus-sculpture-painting/)...mostly because of the striking outdoor sculpture, which I would learn was part of the works of [Herbert Bayer (1900-1985)](https://en.wikipedia.org/wiki/Herbert_Bayer).  **I enjoy the geometrical structure of his sculptures, inspiring a few investigations...** 
 
 ## Attempt: Using GPT-4-Vision to Compose Objects
 
-**tl;dr--GPT-4-vision is still not quite up to the task of generating code to make these types of objects from photographs. 
+**tl;dr-- [GPT-4-vision](https://openai.com/research/gpt-4v-system-card) is still not quite up to the task of generating code to make these types of objects from photographs. 
 **
-We will start by retrieving some images.  I chose [Articulated Wall (1986)](https://bauhaus-movement.tumblr.com/post/179819978444/herbert-bayer-articulated-wall-1986) because it seems very striking and simple to represent in code, even if it may not be 3d-printable without supports (which is my usual *computational sculpture* criterion), unless you pring them as separate parts (see the last section for some ideas on this).  For the record, I did not see this sculpture (it lives in Denver). 
+We will start by retrieving some images.  I chose [Articulated Wall (1986)](https://bauhaus-movement.tumblr.com/post/179819978444/herbert-bayer-articulated-wall-1986) because it seems very striking and simple to represent in code, even if it may not be 3d-printable without supports (which is my usual *computational sculpture* criterion), unless you pring them as separate parts (see the last section for some ideas on this).  For the record, I did not see this sculpture ([it lives in Denver](https://maps.app.goo.gl/L5gQCPTjGt3w3f9Q9)). 
 
 ```mathematica
 img = WebImageSearch["Herbert Bayer Articulated Wall 1986"]
@@ -187,7 +187,7 @@ One way to print these without support is to make them stackable separate object
 
     - Again you would need positive rotation and negative rotation pieces (and top and bottom pieces are unique)
 
-    - This would be most economical in terms of material and print time, and also the most secure, but might sacrifice the aesthetics of uniform repetition that is characteristic of Bayer\[CloseCurlyQuote]s sculptural work.
+    - This would be most economical in terms of material and print time, and also the most secure, but might sacrifice the aesthetics of uniform repetition that is characteristic of Bayer's sculptural work.
 
     - This might be done recursively in OpenCascade, by using each piece and the next piece as inputs...increase the size of the next piece slightly (modify its arguments) and subtract it from the previous piece.
 
