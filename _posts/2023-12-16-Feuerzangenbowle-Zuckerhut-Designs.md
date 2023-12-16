@@ -1,15 +1,15 @@
 ---
 Title: "Feuerzangenbowle Zuckerhut Designs"
-Date: 2023-12-13
+Date: 2023-12-16
 Tags: art german scupture
 ---
 
-I love to make a good [Feuerzangenbowle](https://thewinegetter.com/2015/02/10/feuerzangenbowle-and-how-to-make-your-own-zuckerhut/) for my annual holiday party, but in the USA, [zuckerhutte are expensive](https://amzn.to/3uVXJhz).  Fortunately, it is easy to make your own (1 tsp water + 1 cup of sugar...pack into a conical glass).  But cone shapes are boring. If you are going to make your own, why not come up with other designs? **Ideas for hipster/slightly inappropriate zuckerhut designs...**
+I love to make a good [Feuerzangenbowle](https://thewinegetter.com/2015/02/10/feuerzangenbowle-and-how-to-make-your-own-zuckerhut/) for my annual holiday party, but in the USA, [zuckerhutte are expensive](https://amzn.to/3uVXJhz).  Fortunately, it is easy to make your own (1 tsp water + 1 cup of sugar...pack into a conical glass).  But cone shapes are boring. If you are going to make your own, why not come up with other designs? **Ideas for hipster zuckerhut designs...**
 
 - [Joan of Arc](https://en.wikipedia.org/wiki/Joan_of_Arc) at the stake
 - [Saint Lawrence, Deacon](https://en.wikipedia.org/wiki/Saint_Lawrence) on his gridiron. Patron saint of Barbeque.
 - [Self-immolating Buddhist monk seated in meditation](https://rarehistoricalphotos.com/the-burning-monk-1963/)
-- [Burning Man](https://images.app.goo.gl/PJswJ18iwJQ5UQJc6)
+- [Burning Man](https://images.app.goo.gl/PJswJ18iwJQ5UQJc6) / [Zozobra](https://burnzozobra.com)
 - [Sacred Heart of Jesus on Fire](https://aleteia.org/2022/06/21/why-is-the-sacred-heart-on-fire/)
 - [Burning bush](https://en.wikipedia.org/wiki/Burning_bush)...keep it ecumenical
 - [Library of Alexandria](https://images.app.goo.gl/v196qZXdjnqgybAP8)...just a classical building...on fire
@@ -31,4 +31,21 @@ I love to make a good [Feuerzangenbowle](https://thewinegetter.com/2015/02/10/fe
 
 # Acknowledgements
 
-Created over dinner with [Crayonfou](https://crayonfou.com). No Generative AI tools were harmed in the making of this list.
+Created over dinner with [Crayonfou](https://crayonfou.com). No Generative AI tools were harmed in the making of this list. But then I couldn't resist generating a few Dall-E-3 renderings
+
+
+```mathematica
+ServiceExecute["OpenAI", "ImageCreate", 
+  {"Prompt" -> "A feuerzangenbowle on fire, where the sugar cone is shaped like Joan of Arc made of sugar and on fire", 
+   "Model" -> "dall-e-3"}]
+```
+
+![1shxyylnebu8t](/blog/images/2023/12/16/1shxyylnebu8t.png)
+
+```mathematica
+ServiceExecute["OpenAI", "ImageCreate", 
+  {"Prompt" -> "A feuerzangenbowle, where the sugar cone is shaped like the skyline of dresden and is on fire", 
+   "Model" -> "dall-e-3"}]
+```
+
+![1pqjudye5e1z3](/blog/images/2023/12/16/1pqjudye5e1z3.png)
