@@ -18,6 +18,7 @@ I love to make a good [Feuerzangenbowle](https://thewinegetter.com/2015/02/10/fe
 - [Dresden cityscape](https://images.app.goo.gl/HjbTfmWdJQTdACXx8)...with hats off to my neighbor [Kurt Vonnegut](https://en.wikipedia.org/wiki/Slaughterhouse-Five); 
     - Other possible iconic cityscapes could be [Paris](https://en.wikipedia.org/wiki/Paris_Is_Burning_(film)), [London](https://en.wikipedia.org/wiki/London%27s_Burning_(The_Clash_song)), [Chicago](https://en.wikipedia.org/wiki/Great_Chicago_Fire), [Rome](https://en.wikipedia.org/wiki/Great_Fire_of_Rome), or just [burning down the house](https://en.wikipedia.org/wiki/Burning_Down_the_House)
 - Burning pile of books (or maybe just one book)
+- [Hernan Cortez burning his ships upon landing in Mexico](https://www.jstor.org/stable/335707) 
 
 # Fabrication methods
 
