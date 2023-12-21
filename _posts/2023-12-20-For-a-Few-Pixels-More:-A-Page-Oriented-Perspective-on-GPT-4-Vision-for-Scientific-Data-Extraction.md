@@ -4,7 +4,7 @@ Date: 2023-12-20
 Tags: llm ai ml science
 ---
 
-In a [previous post]( {{ site.baseurl }}{% post_url 2023-12-06-GPT-4-vision-preview-for-scientific-image-processing:-The-Bad,-The-Mediocre,-and-the-Tolerable %}), we explored some of the limitations of [gpt-4-vision-preview](https://platform.openai.com/docs/guides/vision) for interpreting scientific figures in papers. A [recent pre-print by Zhiling Zheng ](https://arxiv.org/abs/2312.05468)*[et al.](https://arxiv.org/abs/2312.05468)* demonstrated a useful strategy: Ask questions about images of the entire page. Surprisingly this does much better because it incorporates a variety of contextual information (figure captions, surrounding text, etc.).  They demonstrated their work on the properties of metal organic frameworks, and in this post we **demonstrate and adapt the strategy to solvent-solvent separation data...**
+In a [previous post]( {{ site.baseurl }}{% post_url 2023-12-06-GPT-4-vision-preview-for-scientific-image-processing:-The-Bad,-The-Mediocre,-and-the-Tolerable %}), we explored some of the limitations of [gpt-4-vision-preview](https://platform.openai.com/docs/guides/vision) for interpreting scientific figures in papers. A [recent pre-print by Zhiling Zheng ](https://arxiv.org/abs/2312.05468)*[et al.](https://arxiv.org/abs/2312.05468)* demonstrated a useful strategy: Ask questions about images of the entire page. Surprisingly this does much better because it incorporates a variety of contextual information (figure captions, surrounding text, etc.).  **Here we demonstrate and adapt their strategy to solvent-solvent separation data...**
 
 As in the previous post, we import the necessary library and use a sample file.  In this case we will use one of the page images we had examined before:
 

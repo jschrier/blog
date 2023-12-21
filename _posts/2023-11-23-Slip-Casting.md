@@ -37,3 +37,7 @@ A great discovery that I made during this exploration was the [VanTiki youtube c
 
 - [IUS Ceramics](https://claybucket.com) -- website with many resources on ceramics and glazing, including casting
 - [Colorado School of Mines](https://www.mines.edu/academics/program/ceramic-engineering/) and [Alfred University](https://www.alfred.edu/academics/colleges-schools/college-ceramics/) (about 5 hours north of NYC) offer degree programs in ceramic engineering
+
+# Parerga and Paralipomena
+
+- [Slab casting](https://hackaday.com/2023/12/20/slab-casting-a-new-way-to-combine-3d-printing-and-ceramics/) is another way in which you 3d print the (negative) mold, coat the mold in cornstarch, then press in clay and let it dry...no plaster mold required. 
