@@ -267,3 +267,7 @@ This certainly seems to be more uniformly about chemistry topics, although the r
 ```mathematica
 ToJekyll["Semantic Article Retrieval from CrossRef with LLM Embeddings", "science llm machinelearning ml mathematica"]
 ```
+
+# Other gleanings
+
+- (21 Dec 2023) There is now a [SentenceBERTEmbeddings](https://resources.wolframcloud.com/FunctionRepository/resources/SentenceBERTEmbedding/) convenience function in the repository
