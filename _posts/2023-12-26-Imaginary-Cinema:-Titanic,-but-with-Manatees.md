@@ -6,7 +6,7 @@ Tags: imaginary-cinema art manatee llm
 
 **Premise:**  Remake [Titanic](https://en.wikipedia.org/wiki/Titanic_(1997_film)) but with all the characters played by [manatees](https://en.wikipedia.org/wiki/Manatee)...
 
-That's it. Think about it. (See also: [The Titanic, but with Chiguiros]({{ site.baseurl }}{% post_url 2023-03-04-Imaginary-Cinema:-Titanic-but-with-Chiguiros.md %}))
+That's it. Think about it. (See also: [The Titanic, but with Chiguiros]({{ site.baseurl }}{% post_url 2023-03-04-Imaginary-Cinema:-Titanic-but-with-Chiguiros %}))
 
 ```mathematica
 description = LLMSynthesize[
