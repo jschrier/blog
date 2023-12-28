@@ -37,7 +37,8 @@ We can solve this by writing an [LLMTool](http://reference.wolfram.com/language/
 ```mathematica
 (*define the tool*)
   name2SMILES = LLMTool[
-     {"name2SMILES", (*tool name and descriptions*)"converts a given chemical name into the corresponding SMILES representation"}, 
+     {"name2SMILES", (*tool name and descriptions*)
+      "converts a given chemical name into the corresponding SMILES representation"}, 
      "name", (*input parameter*)
      Molecule[#name]["CanonicalSMILES"] & (*function to evaluate*) 
     ] 
@@ -83,7 +84,7 @@ Without the tools available, the results are very poor; here are three examples:
 ```mathematica
 LLMSynthesize["What is the molecular weight of 2-pyridyl(3-pyridyl) dithiophosphinic acid?"]
 
-(*"The molecular weight of 2-pyridyl(3-pyridyl) dithiophosphinic acid can be calculated by adding the atomic weights of all the atoms in the molecule.2-pyridyl(3-pyridyl) dithiophosphinic acid:- 2 pyridyl groups (C5H4N): (5 x 12.01) + (4 x 1.01) + 14.01 = 79.10 g/mol- 1 dithiophosphinic acid group (C5H6NO2PS2): (5 x 12.01) + (6 x 1.01) + 14.01 + 16.00 + 32.06 + (2 x 32.06) = 222.36 g/molAdding these together, the molecular weight of 2-pyridyl(3-pyridyl) dithiophosphinic acid is approximately 301.46 g/mol."*)
+(*"The molecular weight of 2-pyridyl(3-pyridyl) dithiophosphinic acid can be calculated by adding the atomic weights of all the atoms in the molecule. 2-pyridyl(3-pyridyl) dithiophosphinic acid:- 2 pyridyl groups (C5H4N): (5 x 12.01) + (4 x 1.01) + 14.01 = 79.10 g/mol- 1 dithiophosphinic acid group (C5H6NO2PS2): (5 x 12.01) + (6 x 1.01) + 14.01 + 16.00 + 32.06 + (2 x 32.06) = 222.36 g/mol Adding these together, the molecular weight of 2-pyridyl(3-pyridyl) dithiophosphinic acid is approximately 301.46 g/mol."*)
 ```
 
 ```mathematica
@@ -101,21 +102,24 @@ LLMSynthesize["What is the molecular weight of 2-pyridyl(3-pyridyl) dithiophosph
 Providing the tools solves the problem.  Note that we can provide an unnecessary CAS lookup tool and GPT will use the descriptions to determine the relevant tools to use:
 
 ```mathematica
-LLMSynthesize["What is the molecular weight of 2-pyridyl(3-pyridyl) dithiophosphinic acid? Obtain the result by converting to SMILES and computing the weight using the provided tools", 
+LLMSynthesize[
+  "What is the molecular weight of 2-pyridyl(3-pyridyl) dithiophosphinic acid? Obtain the result by converting to SMILES and computing the weight using the provided tools", 
   LLMEvaluator -> <|"Tools" -> {name2SMILES, name2CAS, smiles2Weight}|>]
 
 (*"The molecular weight of 2-pyridyl(3-pyridyl) dithiophosphinic acid is 252.29 g/mol."*)
 ```
 
 ```mathematica
-LLMSynthesize["Use the tools to compute the molecular weight of 2-pyridyl(3-pyridyl) dithiophosphinic acid", 
+LLMSynthesize[
+  "Use the tools to compute the molecular weight of 2-pyridyl(3-pyridyl) dithiophosphinic acid", 
   LLMEvaluator -> <|"Tools" -> {name2SMILES, name2CAS, smiles2Weight}|>]
 
 (*"The molecular weight of 2-pyridyl(3-pyridyl) dithiophosphinic acid is approximately 252.29 g/mol."*)
 ```
 
 ```mathematica
-LLMSynthesize["What is the molecular weight of 2-pyridyl(3-pyridyl) dithiophosphinic acid", 
+LLMSynthesize[
+  "What is the molecular weight of 2-pyridyl(3-pyridyl) dithiophosphinic acid", 
   LLMEvaluator -> <|"Tools" -> {name2SMILES, name2CAS, smiles2Weight}|>]
 
 (*"The molecular weight of 2-pyridyl(3-pyridyl) dithiophosphinic acid is approximately 252.29 g/mol."*)
