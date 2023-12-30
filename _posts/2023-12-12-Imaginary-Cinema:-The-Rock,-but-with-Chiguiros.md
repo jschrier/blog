@@ -1,7 +1,7 @@
 ---
 Title: "Imaginary Cinema: The Rock, but with Chiguiros"
 Date: 2023-12-12
-Tags: imaginary-cinema art chiguiro
+Tags: imaginary-cinema art chiguiro llm chatgpt
 ---
 
 **Premise:**  Remake [The Rock](https://en.wikipedia.org/wiki/The_Rock_(film)), but with all the characters played by [chiguiros](https://en.wikipedia.org/wiki/Capybara)...
