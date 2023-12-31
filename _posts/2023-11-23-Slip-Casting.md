@@ -1,7 +1,7 @@
 ---
 Title: "Slip casting"
 Date: 2023-11-23
-Tags: art santafe sculpture 3dprinting
+Tags: art santafe sculpture 3dprinting tiki
 ---
 
 I've never understood the fascination with pottery wheels---it seems labor intensive and imprecise. I also limits you to things that have cylindrical symmetry (although I suppose you could use a mechanical lathing mechanism like in wood turning...). Instead, **I'm much more interested in [slip casting](https://en.wikipedia.org/wiki/Slip_casting)...**

@@ -1,7 +1,7 @@
 ---
 Title: "Computational Sculpture: After Damon Hamm, part 1"
 Date: 2023-12-14
-Tags: sculpture art llm
+Tags: sculpture art llm gpt4v dall-e-3
 ---
 
 [Damon Hamm](https://www.damonhamm.com) writes: *I'm WAAAAAY into the idea of making my own custom agent that ingests my previous writings, proposals, and sculpture descriptions to write more like I would. ... Let's make something cool!* **Let's investigate taking photos of one of his sculptures and evolve them by using** **[GPT-4V(ision)](https://openai.com/research/gpt-4v-system-card)** **to describe the sculpture and** **[Dall-E-3](https://openai.com/dall-e-3)** **to generate a new image of a sculpture based on that description...**

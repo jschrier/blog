@@ -1,7 +1,7 @@
 ---
 Title: "Computational Painting: After Charles Demuth"
 Date: 2023-12-20
-Tags: llm ai art
+Tags: llm ai art gpt4 dall-e-3
 ---
 
 [Eldo asks](https://mathematica.stackexchange.com/questions/295191/how-can-we-reproduce-charles-demuths-figure-5-in-gold):  *How can we reproduce* [Charles Demuth's "Figure 5 in Gold"](https://www.metmuseum.org/art/collection/search/488315)?  **Some fiddling with Dall-E-3/GPT-4/(V)...**
