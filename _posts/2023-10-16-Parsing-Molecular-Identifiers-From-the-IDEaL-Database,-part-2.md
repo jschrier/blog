@@ -1,7 +1,7 @@
 ---
 Title: "Parsing Molecular Identifiers From the IDEaL Database, part 2"
 Date: 2023-10-16
-Tags: applescript mathematica chemdraw cdx science
+Tags: applescript mathematica chemdraw cdx science 
 ---
 
 *In our [last episode]({{ site.baseurl }}{% post_url 2023-10-12-Parsing-molecular-identifiers-from-the-IDEaL-Database  %}),* we tried screen-scraping the [IDEaL database](https://www.oecd-nea.org/ideal/) to build a [f-element separation database]({{ site.baseurl }}{% post_url 2023-10-06-(Mostly)-F-Element-Separation-Databases-I-Have-Known-And-Loved-(fESDIHKAL) %} ), but encountered a problem:  We could not resolve 105 of molecular structure entries (i.e., we could not parse the linked [ChemDraw](https://en.wikipedia.org/wiki/ChemDraw) file or the name or run a pubchem query and get a result that matched the listed molecular formula and molecular weight information).    In most cases, the problem is that alkyl sidechains are only presented implicitly as molecular formulas, rather than as explicit structures so we cannot generate a proper [Molecule](http://reference.wolfram.com/language/ref/Molecule.html).  After initially thinking we might have to retrieve these by hand (ughh...), I had a better idea:  Can the ChemDraw application correctly parse these implicit side chain specifications? It turns out that the answer is *yes*, and so this suggested a **solution:  Build the results by scripting the download, and running automated key commands in ChemDraw, to retrieve the data...**
