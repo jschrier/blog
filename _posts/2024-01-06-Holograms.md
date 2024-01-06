@@ -1,6 +1,7 @@
 ---
 Title: "Holograms"
-Date: 2024-01-01
+Date: 2024-01-06
+layout: post
 Tags: art science santafe holography
 ---
 
