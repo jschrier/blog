@@ -2,7 +2,7 @@
 Title: "Holograms"
 Date: 2024-01-06
 layout: post
-Tags: art science santafe holography
+tags: art science santafe holography
 ---
 
 I saw some work by [August Muth](https://www.augustmuth.com/about) in the [Vladem Contemporary](https://www.augustmuth.com/about), which turned me on to holography.  **Resources...** 
