@@ -58,9 +58,10 @@ ServiceExecute["OpenAI", "ImageCreate", {"Prompt" -> "A cartoon of a a capybara 
 ```mathematica
 ToJekyll["Dall-E-3 image generation in Mathematica", "mathematica openai chiguiro art"]
 ```
-# Parerga and Paralipomena (28 Nov 2023)
+# Parerga and Paralipomena 
 
 Came across some recent Wolfram Community posts that provide relevant functionality:
 - [LLMVisionSynthesize](https://community.wolfram.com/groups/-/m/t/3072318)...and `LLMVisionFunction` for using GPT-4v.  Also shows a nice trick of using the `LLMPrompt["NothingElse"]["JSON"]` and `LLMPrompt["CodeWriter"]`.
   - Available at `Import["https://raw.githubusercontent.com/antononcube/MathematicaForPrediction/master/Misc/LLMVision.m"] `
 - [callDALLE](https://community.wolfram.com/groups/-/m/t/3073374) .. and other functions that support thee Text-to-Speech API and GPT-vision (`callTTS`, `callGPTVision`)
+- [Prompting strategies for Dall-E-3, and advanced use of random seed settings, forbidden topics, etc.]((https://simonwillison.net/2023/Oct/26/add-a-walrus/?utm_source=tldrai#peeking-under-the-hood))
