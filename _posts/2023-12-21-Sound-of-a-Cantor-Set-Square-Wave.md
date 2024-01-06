@@ -1,7 +1,7 @@
 ---
 Title: "Sound of a Cantor Set Square Wave"
 Date: 2023-12-21
-Tags: fractal audio synth 8bit
+tags: fractal audio synth 8bit
 ---
 
 While reading Mandelbrot's [Fractal Geometry of Nature](https://amzn.to/3RRgI5H), I wondered about what would be the sound of a square wave defined by the intervals of each iteration of a [Cantor set](https://mathworld.wolfram.com/CantorSet.html).   One can imagine the first iteration is just a square wave (with a non-50% duty cycle), and that other iterations will potentially be waves with higher frequency. (This would define a niche genre of [1-bit music]( {{ site.baseurl }}{% post_url 2023-04-20-1-Bit-Music %} ) .)  **What will it sound like?...**

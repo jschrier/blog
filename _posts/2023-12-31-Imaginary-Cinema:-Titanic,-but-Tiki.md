@@ -1,7 +1,8 @@
 ---
 Title: "Imaginary Cinema: Titanic, but Tiki"
 Date: 2023-12-31
-Tags: imaginary-cinema tiki florida art llm gpt4 dall-e-3
+layout: post
+tags: imaginary-cinema tiki florida art llm gpt4 dall-e-3
 ---
 
 *Premise:*  Remake [Titanic]((https://en.wikipedia.org/wiki/Titanic_(1997_film))), but as a [Tiki](https://en.wikipedia.org/wiki/Tiki_culture)-themed animated movie (inspired over Mai Tais at [Bahi Hut](https://www.bahihut.com), which alleges to be Florida's oldest tiki bar)... 

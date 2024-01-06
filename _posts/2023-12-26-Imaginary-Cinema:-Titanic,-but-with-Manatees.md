@@ -1,7 +1,7 @@
 ---
 Title: "Imaginary Cinema: Titanic, but with Manatees"
 Date: 2023-12-26
-Tags: imaginary-cinema art manatees llm florida gpt4 dall-e-3
+tags: imaginary-cinema art manatees llm florida gpt4 dall-e-3
 ---
 
 **Premise:**  Remake [Titanic](https://en.wikipedia.org/wiki/Titanic_(1997_film)) but with all the characters played by [manatees](https://en.wikipedia.org/wiki/Manatee)...
