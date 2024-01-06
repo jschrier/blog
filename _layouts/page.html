@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+{% if page.lang %}
+<div class="page" lang="{{page.lang}}">
+{% else %}
+<div class="page">
+{% endif %}
+  <h1 class="page-title">{{ page.title }}</h1>
+  {{ content }}
+</div>
