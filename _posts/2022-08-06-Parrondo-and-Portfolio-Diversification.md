@@ -1,7 +1,7 @@
 ---
 Title: "Parrondo and Portfolio Diversification"
 Date: 2022-08-06
-Tags: finance investing parrondo montecarlo
+tags: finance investing parrondo montecarlo
 ---
 
 [Michael Stutzer](https://scholar.google.com/citations?hl=en&user=qeuZUMUAAAAJ&view_op=list_works), a professor of finance at University of Colorado, Boulder has written about how [portfolio diversification can be thought of as a Parrondo-like problem](https://leeds-faculty.colorado.edu/stutzer/Papers/ParadoxOfDiversification.PDF).  Essentially, one can think about rebalancing a portfolio to include some assets that have negative expected real returns (for example, treasury bonds) as being analogous to the [Parrondo paradox]({{ site.baseurl }}{% post_url 2022-08-05-Parrondo's-Paradox %}), and he constructs a simple binomial model to explain this in a pedagogically simple way.  **The results will not be surprising to any [Boglehead](http://bogleheads.org)...** 

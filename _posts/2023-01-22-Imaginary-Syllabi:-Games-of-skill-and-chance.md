@@ -1,7 +1,7 @@
 ---
 Title: "Imaginary Syllabi: Games of Skill and Chance "
 Date: 2023-01-22
-Tags: teaching gambling probability imaginary-syllabi
+tags: teaching gambling probability imaginary-syllabi
 ---
 
 An interdisciplinary capstone course on luck, skill, and the games of everyday life, combining mathematics, literature, and philosophy.  Practical activities to include playing blackjack, chess, and writing Monte Carlo simulations. **Reading lists to include...**

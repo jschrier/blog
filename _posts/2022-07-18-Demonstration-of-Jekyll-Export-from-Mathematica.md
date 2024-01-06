@@ -1,7 +1,7 @@
 ---
 Title: "Demonstration of Jekyll Export from Mathematica"
 Date: 2022-07-18
-Tags: metablogging
+tags: metablogging
 ---
 
 Our goal here is to demonstrate how to Export Mathematica notebooks to Jekyll markdown using MDExport. This requires a bit of custom code, demonstrated below, which we'll use to define a function that automates the process.
@@ -38,7 +38,7 @@ ToJekyll[title_, tags_ : "", blogLocation_ : "~/Documents/GitHub/blog"] := With[
         "ImagesFetchURL" -> URL[FileNameJoin[{"/blog", imageLocation}]]], 
       titleStr = StringJoin["---\nTitle: \"", title, "\""], 
       dateStr = StringJoin["Date: ", DateString["ISODate"]], 
-      tagStr = StringJoin["Tags: ", tags, "\n---\n"], 
+      tagStr = StringJoin["tags: ", tags, "\n---\n"], 
       outputFile = OpenWrite[FileNameJoin[{blogLocation, "_posts", blogFile}]]}, 
      
      WriteLine[outputFile, titleStr]; 

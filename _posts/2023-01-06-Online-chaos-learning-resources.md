@@ -1,7 +1,7 @@
 ---
-Title: "Online Chaos Learning Resources"
-Date: 2023-01-06
-Tags: chaos autodidact synth
+title: "Online Chaos Learning Resources"
+date: 2023-01-06
+tags: chaos autodidact synth
 ---
 
 Learning resources about chaos, especially chaotic electrical circuits and synthesizers...

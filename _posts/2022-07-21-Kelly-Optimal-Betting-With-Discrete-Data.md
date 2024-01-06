@@ -1,7 +1,7 @@
 ---
 Title: "Kelly Optimal Betting With Discrete Data"
 Date: 2022-07-21
-Tags: gambling optimization kelly
+tags: gambling optimization kelly
 ---
 
 I was intrigued by an [article on John Parkhill's blog](https://jparkhill.netlify.app/howtobet/) about the discrete version of the [Kelly Criterion](https://en.wikipedia.org/wiki/Kelly_criterion). The core idea is that one uses a series of samples of returns and then determines a Kelly-optimal strategy for those samples;  the advantage of working with discrete samples (rather than "probabilities" deduced from such data) is that it captures realistic correlations.  The Kelly optimal bet vector, $c_k$, (i.e., the fraction of your wealth to wager on each asset *k*) is found by minimizing the following loss function...

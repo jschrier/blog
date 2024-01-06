@@ -1,7 +1,7 @@
 ---
 Title: "Publication quality figures in Mathematica"
 Date: 2022-11-25
-Tags: mathematica figures
+tags: mathematica figures
 ---
 
 Some things that I have found useful in generating figures for scientific publications (single column width, inset labelling, etc.)...

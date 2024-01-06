@@ -1,7 +1,7 @@
 ---
 Title: "Von Neumann Poker"
 Date: 2022-07-19
-Tags: game-theory optimization geometry gambling
+tags: game-theory optimization geometry gambling
 ---
 
 In [Von Neumann poker](https://mindyourdecisions.com/blog/2015/01/20/game-theory-tuesdays-von-neumann-poker/), each player picks a random uniform variable X & Y drawn from [0,1].  Each player pays an ante of $1.  Whoever has the higher hand wins.  Each player sees only his own hand. **What's the optimal betting (and bluffing) strategy?**

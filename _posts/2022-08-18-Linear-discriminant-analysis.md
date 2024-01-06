@@ -1,7 +1,7 @@
 ---
 Title: "Linear discriminant analysis"
 Date: 2022-08-18
-Tags: ml statistics chemometrics
+tags: ml statistics chemometrics
 ---
 
 *[Bob LeSuer (aka BobTheChemist) asked: ](https://twitter.com/bobthechemist/status/1378004565438705664) *"Because it's Friday and I don't want to grade, I'm doing multivariate analysis with #Mathematica (yes, grading ranks that low).  PCA is working nicely.  @JoshuaSchrier do you have strategies for doing LDA with cross-validation?"*  This set me off on a Saturday morning project to learn [Linear Discriminant Analysis ](https://en.wikipedia.org/wiki/Linear_discriminant_analysis)(*not*  the [local density approximation](https://en.wikipedia.org/wiki/Local-density_approximation), although you can read about implementing that in [my book](https://uscibooks.aip.org/books/introduction-to-computational-physical-chemistry/)).   The best article I found was [Sebastian Raschka's "Linear Discriminant Analysis--Bit by Bit" ](https://sebastianraschka.com/Articles/2014_python _lda.html#lda-in-5-steps)which describes the basic idea, and then explains the LDA process in 5-steps, using the Fisher Iris dataset and an implementation in python. ([Gabriel Peyre has a nice animation,](https://twitter.com/gabrielpeyre/status/1384008861368020997) though.) LDA is similar to Principle Components Analysis (PCA), in that the goal is to project a dataset onto a lower-dimensional space, but with an additional goal of finding  axes that maximize the separation between different classes of outcomes.  After reducing your data in this way, you can then use your favorite machine classifier method.  **Let's see how to implement LDA  in Mathematica...**

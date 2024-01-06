@@ -1,7 +1,7 @@
 ---
 Title: "Conformal prediction example"
 Date: 2022-07-30
-Tags: machinelearning
+tags: machinelearning
 ---
 
 [Conformal prediction](https://jmlr.csail.mit.edu/papers/volume9/shafer08a/shafer08a.pdf) computes confidence intervals associated to any black box prediction method, without assuming any prior model on the sample in the dataset. More formally, conformal prediction bounds the miscoverage: P(Y notin set)<=α by computing the interval as quantile of runs of the method over the points in the dataset.  I was inspired to think through this [Gabriel Peyré's post,](https://twitter.com/gabrielpeyre/status/1544294291752865793) and the notes below closely follow his [notebook]( https://nbviewer.org/github/gpeyre/numerical-tours/blob/master/python/ml_11_conformal_prediction.ipynb)...

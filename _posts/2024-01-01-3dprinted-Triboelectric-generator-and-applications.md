@@ -1,8 +1,7 @@
 ---
 Title: "3d printed Triboelectric generator and applications"
 Date: 2024-01-01
-layout: post
-Tags: 3dprinting electronics science synthesizer
+tags: 3dprinting electronics science synthesizer
 ---
 
 Saw an [article with youtube video on Hackaday](https://hackaday.com/2023/12/31/3d-printing-your-own-triboelectric-generators/) about a 3d-printed [triboelectric generator](https://en.wikipedia.org/wiki/Triboelectric_effect), which describes the work in this paper [Fully enclosed microbeads structured TENG arrays for omnidirectional wind energy harvesting with a portable galloping oscillator](https://nanoscience.gatech.edu/paper/2023/1-s2.0-S1369702123003486-main.pdf) from Zhong Lin Wang's group at GATech.  Use your standard fdm printer, condutive filament, and insert some PTFE beads during a pause, so it is easy to do at home. Triboelectrics give you high voltage, but low current; you can always play some electronics tricks. In the paper they charge a 220 mF capacitor to 3 V in under 1 min, and under linear shaking at 3 Hz, the maximum peak power is 2.1 mW, the maximum average power is 1.2 mW. **How might this be applied?...**
