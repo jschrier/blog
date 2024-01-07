@@ -1,6 +1,7 @@
 ---
 title: "Demonstration of Jekyll Export from Mathematica"
 date: 2022-07-18
+modified: 2024-01-06
 tags: metablogging
 ---
 
