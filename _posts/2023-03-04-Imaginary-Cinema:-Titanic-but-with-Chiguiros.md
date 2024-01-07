@@ -1,7 +1,7 @@
 ---
-Title: "Imaginary Cinema: Titanic, but with Chiguiros"
-Date: 2023-03-04
-Tags: imaginary-cinema art chiguiro
+title: "Imaginary Cinema: Titanic, but with Chiguiros"
+date: 2023-03-04
+tags: imaginary-cinema art chiguiro
 ---
 
 **Premise:** Remake [Titanic](https://en.wikipedia.org/wiki/Titanic_(1997_film)), but with all of the characters played by [chiguiros](https://en.wikipedia.org/wiki/Capybara)....

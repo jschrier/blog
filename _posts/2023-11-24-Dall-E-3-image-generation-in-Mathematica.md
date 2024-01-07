@@ -1,7 +1,7 @@
 ---
-Title: "Dall-E-3 image generation in Mathematica"
-Date: 2023-11-24
-Tags: mathematica openai chiguiro art dall-e-3
+title: "Dall-E-3 image generation in Mathematica"
+date: 2023-11-24
+tags: mathematica chiguiro art dall-e-3
 ---
 
 By default (as of 24 Nov 2023, Mathematica 13.3), it appears that [ImageSynthesize](http://reference.wolfram.com/language/ref/ImageSynthesize.html) uses [Dall-E-2](https://openai.com/dall-e-2/) for image generation, as the results are kind of trash---**but with some tricks you can get it to use [Dall-E-3](https://openai.com/dall-e-3) instead...**:
@@ -58,9 +58,10 @@ ServiceExecute["OpenAI", "ImageCreate", {"Prompt" -> "A cartoon of a a capybara 
 ```mathematica
 ToJekyll["Dall-E-3 image generation in Mathematica", "mathematica openai chiguiro art"]
 ```
-# Parerga and Paralipomena (28 Nov 2023)
+# Parerga and Paralipomena 
 
 Came across some recent Wolfram Community posts that provide relevant functionality:
 - [LLMVisionSynthesize](https://community.wolfram.com/groups/-/m/t/3072318)...and `LLMVisionFunction` for using GPT-4v.  Also shows a nice trick of using the `LLMPrompt["NothingElse"]["JSON"]` and `LLMPrompt["CodeWriter"]`.
   - Available at `Import["https://raw.githubusercontent.com/antononcube/MathematicaForPrediction/master/Misc/LLMVision.m"] `
 - [callDALLE](https://community.wolfram.com/groups/-/m/t/3073374) .. and other functions that support thee Text-to-Speech API and GPT-vision (`callTTS`, `callGPTVision`)
+- [Prompting strategies for Dall-E-3, and advanced use of random seed settings, forbidden topics, etc.]((https://simonwillison.net/2023/Oct/26/add-a-walrus/?utm_source=tldrai#peeking-under-the-hood))

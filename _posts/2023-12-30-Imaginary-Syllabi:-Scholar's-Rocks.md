@@ -1,7 +1,8 @@
 ---
-Title: "Imaginary Syllabi: Scholar's Rocks"
-Date: 2023-12-30
-Tags: art imaginary-syllabi sculpture teaching 
+title: "Imaginary Syllabi: Scholar's Rocks"
+date: 2023-12-30
+layout: post
+tags: art imaginary-syllabi sculpture teaching 
 ---
 
 *Premise*: (Inspired by a visit to the [Ringling Museum's collection...](https://www.ringling.org/event/mountains-of-the-mind-scholars-rocks-from-china-and-beyond/)) A study of the geochemistry, cultural history, and aesthetics of [Scholar's Rocks](https://en.wikipedia.org/wiki/Gongshi) (*Gongshi*) (also Korean [suseok](https://en.wikipedia.org/wiki/Suseok)) and Japanese [suiseki](https://en.wikipedia.org/wiki/Suiseki), with a dose of 3d-printing and sculptural practice.  A framework to think about issues of generative/AI artwork, the boundary between human practice, nature, and chance in art, etc.  **Topics include...**

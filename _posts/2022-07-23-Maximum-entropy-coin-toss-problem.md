@@ -1,7 +1,7 @@
 ---
-Title: "Maximum entropy coin toss problem"
-Date: 2022-07-23
-Tags: probability optimization
+title: "Maximum entropy coin toss problem"
+date: 2022-07-23
+tags: probability optimization
 ---
 
 Inspired by a [tweet from John Carlos Baez](https://twitter.com/johncarlosbaez/status/1550527728272543744):  Suppose that you roll a die many times and learn that the average value is 5. What is the most likely (i.e., maximum entropy) distribution of the probabilities? **This can be expressed as a simple constrained optimization...**

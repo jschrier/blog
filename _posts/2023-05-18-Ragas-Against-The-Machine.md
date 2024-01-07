@@ -1,7 +1,7 @@
 ---
-Title: "Ragas Against the Machine"
-Date: 2023-05-18
-Tags: music ragas synth
+title: "Ragas Against the Machine"
+date: 2023-05-18
+tags: music ragas synth
 ---
 
 **Premise:** Electronic rendition of [ragas](https://en.wikipedia.org/wiki/Raga) (classical Indian music).  Because:  (i) interesting/programmable polyrythmic patterns ([taal](https://raag-hindustani.com/Rhythm.html)); (ii) ragas are something like a combination of mode and melody and framework for improvisation, which might be well suited for randomization/quantizing;(iii) drone sounds and glissandos of the [sitar](https://en.wikipedia.org/wiki/Sitar) and tone varied thumping of tablas are well suited to analog synthesizers or programming; (iv) Not totally heretical, as [Raga rock/pop](https://en.wikipedia.org/wiki/Raga_rock) exists; (v) amusing pun potential.  **Resources include...**

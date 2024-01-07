@@ -1,7 +1,7 @@
 ---
-Title: "Do carbon-carbon quadruple bonds exist?"
-Date: 2022-09-23
-Tags: chemistry science
+title: "Do carbon-carbon quadruple bonds exist?"
+date: 2022-09-23
+tags: chemistry science
 ---
 *Ethan Saunders '26 asks: "We learned about carbon-carbon single, double, and triple bonds...but do carbon-carbon quadruple bonds exist?"* __The short answer is: "maybe"....__
 

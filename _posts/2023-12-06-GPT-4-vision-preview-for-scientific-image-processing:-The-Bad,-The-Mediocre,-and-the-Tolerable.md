@@ -1,7 +1,7 @@
 ---
-Title: "GPT-4-vision-preview for scientific image processing: The Bad, The Mediocre, and the Tolerable"
-Date: 2023-12-06
-Tags: llm ai ml science gpt4v
+title: "GPT-4-vision-preview for scientific image processing: The Bad, The Mediocre, and the Tolerable"
+date: 2023-12-06
+tags: llm ai ml science gpt4v
 ---
 
 The new [GPT-4-vision-preview API](https://platform.openai.com/docs/guides/vision) has many exciting use cases.  But can it help us with interpreting figures in scientific papers? **tl;dr--we can sometimes verify approximate values and trends of data, but the current version does not handle quantitative data extraction from scientific figures...** **UPDATE (20 Dec 2023): [We get better results by taking a page-level perspective...]( {{ site.baseurl }}{% post_url 2023-12-20-For-a-Few-Pixels-More:-A-Page-Oriented-Perspective-on-GPT-4-Vision-for-Scientific-Data-Extraction %} ) **

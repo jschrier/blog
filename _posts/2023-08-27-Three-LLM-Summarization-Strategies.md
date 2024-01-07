@@ -1,7 +1,7 @@
 ---
-Title: "Three LLM Summarization Strategies"
-Date: 2023-08-27
-Tags: ai mathematica llm gpt3.5
+title: "Three LLM Summarization Strategies"
+date: 2023-08-27
+tags: ai mathematica llm gpt3.5
 ---
 
 [User5601 asks:](https://mathematica.stackexchange.com/questions/288538/need-short-summary-of-60-page-document-using-llmfunctions)*Is there any append/chunking solutions for getting OpenAI to summarize docs longer than the input limit through either one large or multiple ChatInput cells or some other programmatic way (using the [new LLM functionality in Mathematica 13.3](https://writings.stephenwolfram.com/2023/06/llm-tech-and-a-lot-more-version-13-3-of-wolfram-language-and-mathematica/))?* **A summary of strategies and implementations...**

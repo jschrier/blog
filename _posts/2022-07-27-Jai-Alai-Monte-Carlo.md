@@ -1,7 +1,7 @@
 ---
-Title: "Jai Alai Monte Carlo"
-Date: 2022-07-27
-Tags: gambling probability montecarlo
+title: "Jai Alai Monte Carlo"
+date: 2022-07-27
+tags: gambling probability montecarlo
 ---
 
 I recently read [Steven Skiena's](https://amzn.to/3z5VWVF) [Calculated Bets: Computers, Gambling, and Modeling to Win](https://amzn.to/3z5VWVF) which describes Jai Alai and his efforts to develop an effective betting system.  I enjoyed reading his *[Algorithm Design Manual](https://amzn.to/3OG3WCA),* and this one doesn't disappoint--*Calculated Bets* is a thoroughly enjoyable book, with a wry sense of humor.  Prof. Skiena has a [summary slide-deck on his website](https://www3.cs.stonybrook.edu/~skiena/PREVIOUS-VERSION/talks/talk-jaialai.pdf).  Alas, betting on Jai Alai probably isn't viable any more--[according to Wikipedia, as of July 2022 there is only one active professional fronton in the USA](https://en.wikipedia.org/wiki/Jai_alai#List_of_active_United_States_jai-alai_frontons).  **But there's an interesting probability problem that can be solved by simple Monte Carlo simulations...**

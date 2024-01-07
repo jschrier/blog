@@ -1,7 +1,7 @@
 ---
-Title: "Imaginary Syllabi: Wine Across the Disciplines"
-Date: 2023-08-29
-Tags:  imaginary-syllabi teaching wine
+title: "Imaginary Syllabi: Wine Across the Disciplines"
+date: 2023-08-29
+tags:  imaginary-syllabi teaching wine
 ---
 
 **Premise:** A senior capstone course[^1] in which wine is explored through the lens of a variety of natural science, social science, and humanity disciplines (along with a weekly wine tasting) **Topics include...**

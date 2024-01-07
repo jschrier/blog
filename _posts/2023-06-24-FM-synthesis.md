@@ -1,7 +1,7 @@
 ---
-Title: "FM synthesis"
-Date: 2023-06-24
-Tags: music diy supercollider
+title: "FM synthesis"
+date: 2023-06-24
+tags: music diy supercollider
 ---
 
 * [John Chowning's Stria (1977)](https://www.youtube.com/watch?v=988jPjs1gao) famous FM synthesis composition (from the inventor of the technique), and also uses a golden mean tuning

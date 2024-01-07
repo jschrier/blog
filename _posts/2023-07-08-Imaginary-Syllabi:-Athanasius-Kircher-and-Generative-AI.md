@@ -1,7 +1,7 @@
 ---
-Title: "Imaginary Syllabi:  Athanasius Kircher and Generative AI"
-Date: 2023-07-08
-Tags: culture ai jesuits imaginary-syllabi teaching
+title: "Imaginary Syllabi:  Athanasius Kircher and Generative AI"
+date: 2023-07-08
+tags: culture ai jesuits imaginary-syllabi teaching
 ---
 
 *Premise:*  Consider a general intelligence capable of producing text and images on demand about topics as diverse as chemistry, mathematics, music making, ancient and foreign languages, biblical hermaneutics, the invention of gadgets and scientific instruments, and descriptions of far-away lands.[^1] The output is voluminous, verbose, and presents arguments and sources about things that are true...and also about topics that are mythical or completely fabricated. Are we talking about [ChatGPT](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/) or the 17th century Jesuit polymath [Athansius Kircher](https://en.wikipedia.org/wiki/Athanasius_Kircher)? **How might a study of Kircher inform our approach to generative AI? A syllabus...**   
@@ -26,6 +26,7 @@ Discussing the documentary at the bar across the street (while we waited to see 
 
 There are a few biographical-ish works on Kircher:
 
+* Godwin, [Athanasius Kircher's Theatre of the World: His Life, Work, and the Search for Universal Knowledge](https://amzn.to/3tJE8ko) --- an examination of Kircher's work, with reproductions of his book etchings across the disciplines 
 * Glassie, [A Man of Misconceptions: The Life of an Eccentric in an Age of Change](https://amzn.to/44j2dvq) (2013) -- popular book, had positive reviews in Sci Am, NYT, New Yorker
 * Findlen (ed), [Athanasius Kircher: The Last Man Who Knew Everything](https://amzn.to/3D2iwAC) (2004) -- edited volume of essays on Kircher. Probably useful to have on reserve for reference 
 * Peters, [The Man Who Knew Everything: The Strange Life of Athanasius Kircher](https://amzn.to/3XEfzQx) (2017) -- my sense is that this is too popular/juvenile for our purposes, based on a skim online 
@@ -47,6 +48,7 @@ I'm a contrarian, and the students taking this course aren't necessarily technic
 - Start with Etienne Bernard's [Introduction to Machine Learning](https://www.wolfram-media.com/products/introduction-to-machine-learning/)
 - Then move into more [generative things with LLMs](https://www.wolfram.com/wolfram-u/courses/language-integrations/new-llm-functionality-in-wolfram-language/) using the [new LLM functionality in Mathematica 13.3](https://writings.stephenwolfram.com/2023/06/llm-tech-and-a-lot-more-version-13-3-of-wolfram-language-and-mathematica/)
 - Demonstrate different strategies of using/building LLMs, for example [retrieval augmented generation]({{ site.baseurl }}{% post_url 2023-08-24-Retrieval-Augmented-Generation %}) or [prompt engineering]({{ site.baseurl }}{% post_url 2023-08-02-Imaginary-Syllabi:-Prompt-Engineering-And-Addressative-Magic %})
+- Do some [image generation]({{ site.baseurl }}{% post_url 2023-11-24-Dall-E-3-image-generation-in-Mathematica %})
 
 # Ideas on organization and correspondences between Kircher and topics in a course
 
@@ -56,7 +58,7 @@ I'm a contrarian, and the students taking this course aren't necessarily technic
 - Kircher's writings on China --> [summarization methods]({{ site.baseurl }}{% post_url 2023-08-27-Three-LLM-Summarization-Strategies %})
 - Kircher's Hieroglyphic decipherng --> hallucinations
 - Kircher's encyclopedism --> [retrieval augmented generation methods]({{ site.baseurl }}{% post_url 2023-08-24-Retrieval-Augmented-Generation %})
-- [Noah's ark](https://honorsbookculture.ace.fordham.edu/kirchers-encyclopedic-visions) --> image generation/CLIP
+- [Noah's ark](https://honorsbookculture.ace.fordham.edu/kirchers-encyclopedic-visions) --> [image generation]({{ site.baseurl }}{% post_url 2023-11-24-Dall-E-3-image-generation-in-Mathematica %})/CLIP/[exploration of latent space](https://writings.stephenwolfram.com/2023/07/generative-ai-space-and-the-mental-imagery-of-alien-minds/)
 
 # Fordham stuff
 
@@ -70,6 +72,8 @@ I'm a contrarian, and the students taking this course aren't necessarily technic
 - Kircher's [Organum Mathematicum](https://gate.unigre.it/mediawiki/index.php/Athanasius_Kircher’s_Organum_mathematicum._On_the_Evolutionary_Improbability_of_an_Information_Processing_Innovation) was a type of proto-computer, with a human-machine interface for creativity.  A great starting point for an interdisciplinary course.
 - The [cat organ](https://en.wikipedia.org/wiki/Cat_organ) would be an excellent addition to a [cat cafe]({{ site.baseurl }}{% post_url 2023-06-27-Great-ideas-from-Korea %})
 - [Arca Musarithmica](https://www.arca1650.info/about.html) super cool website implementing Kircher's automatic music compositional theme
+
+- [Deviant interdisciplinarity](https://www.jstor.org/stable/41932111?seq=1) 
 
 # Footnotes
 

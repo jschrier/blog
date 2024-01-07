@@ -1,7 +1,7 @@
 ---
-Title: "Feuerzangenbowle Zuckerhut Designs"
-Date: 2023-12-16
-Tags: art german scupture
+title: "Feuerzangenbowle Zuckerhut Designs"
+date: 2023-12-16
+tags: art german sculpture
 ---
 
 I love to make a good [Feuerzangenbowle](https://thewinegetter.com/2015/02/10/feuerzangenbowle-and-how-to-make-your-own-zuckerhut/) for my annual holiday party, but in the USA, [zuckerhutte are expensive](https://amzn.to/3uVXJhz).  Fortunately, it is easy to make your own (1 tsp water + 1 cup of sugar...pack into a conical glass).  But cone shapes are boring. If you are going to make your own, why not come up with other designs? **Ideas for hipster zuckerhut designs...**

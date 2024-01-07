@@ -1,7 +1,7 @@
 ---
-Title: "Reading AS726X and AS7265X Spectral Sensors in Micropython"
-Date: 2023-02-01
-Tags: electronics i2c pico micropython
+title: "Reading AS726X and AS7265X Spectral Sensors in Micropython"
+date: 2023-02-01
+tags: electronics i2c pico micropython
 ---
 The [AS726X](https://learn.sparkfun.com/tutorials/as726x-nirvi?_ga=2.39829093.73129845.1675284181-552368455.1675284181) and [AS7265X](https://www.sparkfun.com/products/15050) spectral sensors give you the ability to read visible, UV, and IR over an I2C bus, and are relatively cheap ($27-$60 USD). 
 The former focuses on just visible or IR, and the latter is a triad sensor that spans the entire spectrum. 

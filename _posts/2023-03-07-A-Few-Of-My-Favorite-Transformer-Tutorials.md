@@ -1,7 +1,7 @@
 ---
-Title: "A Few of My Favorite Transformer Tutorials "
-Date: 2023-03-07
-Tags: machinelearning ml
+title: "A Few of My Favorite Transformer Tutorials "
+date: 2023-03-07
+tags: machinelearning ml
 ---
 
 So, you want to learn about [transformer models](https://en.wikipedia.org/wiki/Transformer_(machine_learning_model))?  Here are some of my favorite learning resources to get started:

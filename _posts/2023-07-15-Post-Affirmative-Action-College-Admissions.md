@@ -1,7 +1,7 @@
 ---
-Title: "Modest Proposal: Post Affirmative Action College Admissions"
-Date: 2023-07-15
-Tags: teaching politics
+title: "Modest Proposal: Post Affirmative Action College Admissions"
+date: 2023-07-15
+tags: teaching politics
 ---
 
 Following the [recent US Supreme Court ruling on Affirmative Action](https://www.nytimes.com/live/2023/06/29/us/affirmative-action-supreme-court), universities are scrambling to (re)define their admissions policies. [Justice Thomas](https://en.wikipedia.org/wiki/Clarence_Thomas)'s criticism of [Affirmative Action](https://en.wikipedia.org/wiki/Affirmative_action) is that it creates uncertainty  detrimental to high-performing minority graduates. A July 2023 [NY Times article](https://www.nytimes.com/2023/07/09/us/clarence-thomas-horatio-alger-association.html) desribes this as: "At Yale, \[Thomas\] was one of only 12 Black students in his law school class, admitted the year the law school introduced an affirmative action plan. His white classmates viewed him as a token, he felt — a belief in the corrosive effects of affirmative action that was only deepened by his failure to win the law firm job he had dreamed of.  “I’d graduated from one of America’s top law schools, but racial preference had robbed my achievement of its true value,” \[Thomas\] later wrote." A [neoliberal](https://en.wikipedia.org/wiki/Neoliberalism) approach would let the market sort things out:  Universities admit candidates as they wish, but must archive and disclose a [nutrition facts-style label](https://www.fda.gov/food/new-nutrition-facts-label/how-understand-and-use-nutrition-facts-label) to students and employers about how they made the decision.  **Here's a [modest proposal](https://en.wikipedia.org/wiki/A_Modest_Proposal) of how it could be implemented...**

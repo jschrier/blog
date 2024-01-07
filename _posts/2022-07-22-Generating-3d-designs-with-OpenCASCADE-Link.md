@@ -1,7 +1,7 @@
 ---
-Title: "Generating 3d-designs with OpenCASCADE Link"
-Date: 2022-07-22
-Tags: 3dprinting opencascade
+title: "Generating 3d-designs with OpenCASCADE Link"
+date: 2022-07-22
+tags: 3dprinting opencascade
 ---
 
 During the COVID-19 pandemic, I built a [Prusa MK3S+](https://www.prusa3d.com/category/original-prusa-i3-mk3s/) FDM 3d-printer from a kit.  After printing the requisite pre-made objects, I started designing my own objects.  Although I've more recently moved to doing a lot of work in [Autodesk Fusion360](https://www.autodesk.com/products/fusion-360/overview) (I cranked through [Kevin Kennedy's youtube tutorial ](https://www.youtube.com/watch?v=WKb3mRkgTwg&list=PLrZ2zKOtC_-C4rWfapgngoe9o2-ng8ZBr)over Christmas break), it is always fun to do algorithmically-designed objects--especially since you are printing each object on-demand.  My project here was to design a generative-designed mail caddy, where the size and placement of holes is completely random.  By using circles, it can be printed without supports, while reducing the amount of filament.  Also it looks cool. **To do this, I used the [OpenCASCADE Link](https://reference.wolfram.com/language/OpenCascadeLink/tutorial/UsingOpenCascadeLink.html) in Mathematica...**  

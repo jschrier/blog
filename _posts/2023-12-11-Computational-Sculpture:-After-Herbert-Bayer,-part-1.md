@@ -1,7 +1,7 @@
 ---
-Title: "Computational Sculpture: After Herbert Bayer, part 1"
-Date: 2023-12-11
-Tags: sculpture santafe 3dprinting art llm gpt4v
+title: "Computational Sculpture: After Herbert Bayer, part 1"
+date: 2023-12-11
+tags: sculpture santafe 3dprinting art llm gpt4v
 ---
 
 During an afternoon stroll down [Canyon Road](https://www.visitcanyonroad.com), I stopped into [Peyton-Wright Gallery](https://peytonwright.com/modern/exhibitions/reflections-bauhaus-sculpture-painting/)...mostly because of the striking outdoor sculpture, which I would learn was part of the works of [Herbert Bayer (1900-1985)](https://en.wikipedia.org/wiki/Herbert_Bayer).  **I enjoy the geometrical structure of his sculptures, inspiring a few investigations...** 

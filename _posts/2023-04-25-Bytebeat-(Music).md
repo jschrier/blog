@@ -1,7 +1,7 @@
 ---
-Title: "Bytebeat (music)"
-Date: 2023-04-25
-Tags: audio synth 8bit mathematica
+title: "Bytebeat (music)"
+date: 2023-04-25
+tags: audio synth 8bit mathematica
 ---
 
 [Bytebeat](https://stellartux.github.io/websynth/guide.html) is a genre of electronic music defined by short C programs of the form:

@@ -1,7 +1,7 @@
 ---
-Title: "Autodidact guide to advanced manufacturing"
-Date: 2022-12-31
-Tags: 3dprinting fusion360 cnc autodidact
+title: "Autodidact guide to advanced manufacturing"
+date: 2022-12-31
+tags: 3dprinting fusion360 cnc autodidact
 ---
 
 Interested in teaching yourself about [advanced manufacturing](https://en.wikipedia.org/wiki/Advanced_manufacturing), but don't want to commit to a [full-time apprenticeship](https://www.nyc.gov/site/sbs/careers/construction.page)?  Here is my autodidact's guide to learning some basic skills at home in your spare time... 

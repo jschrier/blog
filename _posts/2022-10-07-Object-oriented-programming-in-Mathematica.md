@@ -1,7 +1,7 @@
 ---
-Title: "Object-oriented programming in Mathematica"
-Date: 2022-10-07
-Tags: mathematica programming oop
+title: "Object-oriented programming in Mathematica"
+date: 2022-10-07
+tags: mathematica programming oop
 ---
 
 At its heart, Mathematica is a term replacement language, and includes primitives for both [functional programming ](http://reference.wolfram.com/language/guide/FunctionalProgramming.html) and [procedural programming](http://reference.wolfram.com/language/guide/ProceduralProgramming.html). But what about [object oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming) (OOP)?  **An** **[interesting blog post by Hirokazu Kobayashi](https://community.wolfram.com/groups/-/m/t/1796848)** **showed me how to get Mathematica** **[down with OOP](https://en.wikipedia.org/wiki/O.P.P._(song))****...**

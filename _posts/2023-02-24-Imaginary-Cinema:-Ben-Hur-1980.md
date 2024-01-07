@@ -1,7 +1,7 @@
 ---
-Title: "Imaginary Cinema: Ben Hur 1980"
-Date: 2023-02-24
-Tags: imaginary-cinema art
+title: "Imaginary Cinema: Ben Hur 1980"
+date: 2023-02-24
+tags: imaginary-cinema art
 ---
 **Premise:**  Remake [Ben-Hur](https://en.wikipedia.org/wiki/Ben-Hur_(1959_film)) but set in 1980s New York City...
 

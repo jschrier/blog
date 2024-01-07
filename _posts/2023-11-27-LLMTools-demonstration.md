@@ -1,7 +1,7 @@
 ---
-Title: "LLMTools demonstration"
-Date: 2023-11-27
-Tags: llm ai ml science chemistry cheminformatics gpt4
+title: "LLMTools demonstration"
+date: 2023-11-27
+tags: llm ai ml science chemistry cheminformatics gpt4
 ---
 
 Large-language models (LLMs) struggle with precise calculations needed for chemistry-related tasks.  In a recent paper, [Bran et al. described ChemCrow](https://arxiv.org/abs/2304.05376)--a series of computational [tools](https://platform.openai.com/docs/assistants/tools) that can be used by the LLM to perform intermediate calculations. **Here we show how to implement a few ChemCrow-style tools from scratch and use it to get GPT-3.5/4 to correctly compute SMILES and molecular weight information given an input chemical name...** 

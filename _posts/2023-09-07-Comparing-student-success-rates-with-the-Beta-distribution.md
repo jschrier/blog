@@ -1,7 +1,7 @@
 ---
-Title: "Comparing student success rates with the Beta distribution"
-Date: 2023-09-07
-Tags: teaching dei mathematica statistics
+title: "Comparing student success rates with the Beta distribution"
+date: 2023-09-07
+tags: teaching dei mathematica statistics
 ---
 
 [Sarah Maurer](https://scholar.google.com/citations?user=yiSNNfUAAAAJ&hl=en&oi=ao) asks:  *The* *[DEI community ](https://en.wikipedia.org/wiki/Diversity,_equity,_and_inclusion)* *uses an disparity index (which is the ratio of outcomes of a a group of interest relative to the outcomes in the total population of students) as a way to measure disparate outcomes for students (for example, the* *[DFW rate](https://www.everylearnereverywhere.org/blog/equity-and-dfwi-rate-or-dfw-rate/)* *).  But this seems like it does not handle errors associated with small numbers of events.  And what is a meaningful effect?  Is there a better way to do this?*  **The [Beta-distribution](https://en.wikipedia.org/wiki/Beta_distribution) to the rescue...**

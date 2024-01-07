@@ -1,7 +1,7 @@
 ---
-Title: "Euclidean Rhythm"
-Date: 2023-06-03
-Tags: music synth mathematica supercollider
+title: "Euclidean Rhythm"
+date: 2023-06-03
+tags: music synth mathematica supercollider
 ---
 
 [Euclidean rhythms](https://en.wikipedia.org/wiki/Euclidean_rhythm) are a way to space *n* onset events across *m* positions (essentially, pulses or beats) as evenly possible. Ffor example, 4 onsets across 16 positions, will result in 4 evenly spaced onsets. However, if  the number of onsets is relatively prime with respect to the number of pulses, the resulting pattern is more interesting. This was [discovered somewhat recently by Godfried T. Toussaint](http://cgm.cs.mcgill.ca/~godfried/publications/banff.pdf).  A [nice interactive javascript example is online with 4 samples](https://reprimande.github.io/euclideansequencer/).  Play with it and you'll hear some interesting ideas, especially if you choose relative primes. **But how do you implement it...**

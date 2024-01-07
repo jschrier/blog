@@ -1,7 +1,7 @@
 ---
-Title: "Minimal diffusion model from scratch for generative machine learning"
-Date: 2023-03-22
-Tags: ml machinelearning
+title: "Minimal diffusion model from scratch for generative machine learning"
+date: 2023-03-22
+tags: ml machinelearning
 ---
 
 Inspired by [François Flueret's post on a toy diffusion model](https://twitter.com/francoisfleuret/status/1558733449481027585), I decided to also explore the [Ho et al. 2020 "Denoising Diffusion Probabilistic Models" ](https://arxiv.org/abs/2006.11239)paper and try to write this up as a tutorial, based on [Prof. Flueret's code](https://fleuret.org/git-extract/pytorch/minidiffusion.py).  (Recently there was a [post on the mathematica stack exchange which used a MNIST digit generation  problem using a complicated UNet Model](https://mathematica.stackexchange.com/questions/269181/diffusion-probabilistic-model-in-deep-generative-modeling)--for pedagogical purposes I will stick with simple 1D and 2D probability distributions to illustrate the core ideas without complicating the code.)  [Lilian Weng has a nice tutorial explanation](https://lilianweng.github.io/posts/2021-07-11-diffusion-models/) of the mathematics of diffusion models that we can use as a resource, and [Hugging Face has a annotated implementation tutorial in PyTorch](https://huggingface.co/blog/annotated-diffusion).    Diffusion models (like other generative models) convert noise into a data sample.  The setup consists of two processes: (i) a fixed forward diffusion process *q* that gradually adds Gaussian noise to an image until it becomes pure noise; (ii) a learned reverse diffusion process *p_\theta* where a neural network is trained to gradually denoise an image starting from pure noise.  This process is conducted over *t* steps.  **Let's implement it!...**

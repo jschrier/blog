@@ -1,7 +1,7 @@
 ---
-Title: "Bezier the Bookie"
-Date: 2022-07-20
-Tags: probability gambling convexity
+title: "Bezier the Bookie"
+date: 2022-07-20
+tags: probability gambling convexity
 ---
 
 Two gamblers go to a bookie to make a bet:  Each pays a $1 to play a game in which they flip two coins.  If both are tails, then player A wins, and receives $1.9  (his net return is +$0.9).  If both are heads, then player B wins the $1.9.  In the case of one head and one tail, there's no clear winner, so both are out $1.  How do the payoffs behave as a function as the probability of the coin goes from p(Heads) = 0 to 1?  **This straightforward probability problem has a nice (and perhaps unexpected) interpretation in terms of [Bézier curves](https://en.wikipedia.org/wiki/Bézier_curve), which are more familiar in the context of computer graphics...**
