@@ -18,4 +18,8 @@ grep -h "^tags: " *.md | sed -e 's/tags: //;' | tr ' ' '\n'  | sort | uniq | whi
 ```
 
 (the `robots` line keeps them off the lawn of the index pages only)
-- You'll need to run this periodically to update new tags that are present. I put an `update_tags.sh` script into `_posts` to make this easy.
+    - You'll need to run this periodically to update new tags that are present. I put an `update_tags.sh` script into `_posts` to make this easy.
+
+- I was getting a bunch of links to the tag files at the top of every page, which was annoying.  It took me a while to figure out that this was being placed by the `_includes/header.html` and delete the resulting lines.  
+    - `head.html` is the non-displayed information (SEO details, metadata, previews, etc.)
+    - `header.html` is the printed header at the top of the page
