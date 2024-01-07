@@ -1,7 +1,7 @@
 ---
 title: "Ask ChatGPT: What should I name my f-element separation database?"
 date: 2023-10-06
-tags: llm gpt4 science askchatgpt
+tags: llm gpt4 science
 ---
 
 **HEY GPT-4:** *Propose 20 catchy acronyms for  [f-element, lanthanide, actinide solvent separation database project]({{ site.baseurl }}{% post_url 2023-10-06-(Mostly)-F-Element-Separation-Databases-I-Have-Known-And-Loved-(fESDIHKAL) %} )...*
