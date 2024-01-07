@@ -1,6 +1,6 @@
 ---
-Title: "What's the value of an option with a long time to expiry?"
-Date: 2022-07-24
+title: "What's the value of an option with a long time to expiry?"
+date: 2022-07-24
 tags: finance
 ---
 

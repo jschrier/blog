@@ -1,6 +1,6 @@
 ---
-Title: "Reading ThermoFischer XCalibur RAW Files"
-Date: 2023-01-04
+title: "Reading ThermoFischer XCalibur RAW Files"
+date: 2023-01-04
 tags: science python
 ---
 

@@ -1,6 +1,6 @@
 ---
-Title: "Object-oriented programming in Mathematica"
-Date: 2022-10-07
+title: "Object-oriented programming in Mathematica"
+date: 2022-10-07
 tags: mathematica programming oop
 ---
 

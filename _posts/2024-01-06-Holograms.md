@@ -1,6 +1,6 @@
 ---
-Title: "Holograms"
-Date: 2024-01-06
+title: "Holograms"
+date: 2024-01-06
 layout: post
 tags: art science santafe holography
 ---

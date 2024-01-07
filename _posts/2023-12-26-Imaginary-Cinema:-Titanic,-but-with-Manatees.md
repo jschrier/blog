@@ -1,6 +1,6 @@
 ---
-Title: "Imaginary Cinema: Titanic, but with Manatees"
-Date: 2023-12-26
+title: "Imaginary Cinema: Titanic, but with Manatees"
+date: 2023-12-26
 tags: imaginary-cinema art manatees llm florida gpt4 dall-e-3
 ---
 

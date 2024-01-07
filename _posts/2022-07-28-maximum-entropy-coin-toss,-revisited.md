@@ -1,6 +1,6 @@
 ---
-Title: "Maximum entropy coin toss, revisited"
-Date: 2022-07-28
+title: "Maximum entropy coin toss, revisited"
+date: 2022-07-28
 tags: probability optimization thermodynamics
 ---
 

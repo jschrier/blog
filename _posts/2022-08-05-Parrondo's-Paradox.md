@@ -1,6 +1,6 @@
 ---
-Title: "Parrondo's Paradox"
-Date: 2022-08-05
+title: "Parrondo's Paradox"
+date: 2022-08-05
 tags: gambling stochasticprocesses nahin montecarlo parrondo
 ---
 

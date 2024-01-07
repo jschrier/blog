@@ -1,6 +1,6 @@
 ---
-Title: "Parrondo and Portfolio Diversification"
-Date: 2022-08-06
+title: "Parrondo and Portfolio Diversification"
+date: 2022-08-06
 tags: finance investing parrondo montecarlo
 ---
 

@@ -1,7 +1,7 @@
 ---
-Title: "Imaginary Syllabi: AI for Liberal Art Students"
-Date: 2023-08-28
-Tags: ai imaginary-syllabi llm teaching mathematica
+title: "Imaginary Syllabi: AI for Liberal Art Students"
+date: 2023-08-28
+tags: ai imaginary-syllabi llm teaching mathematica
 ---
 
 **A collection of reading lists for introducing AI concepts and practice to a general population of starting undergraduates...**

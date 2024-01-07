@@ -1,7 +1,7 @@
 ---
-Title: "Computational Sculpture: After Karen Bexfield, part 1"
-Date: 2023-10-28
-Tags: art opencascade 3dprinting mathematica santafe sculpture
+title: "Computational Sculpture: After Karen Bexfield, part 1"
+date: 2023-10-28
+tags: art opencascade 3dprinting mathematica santafe sculpture
 ---
 
 Inspired by a walk down [Canyon Road](https://www.visitcanyonroad.com) on an October Saturday morning, I had many inspirations for sculptural works that could have a flavor of mathematics, computation, and [advanced manufacturing]({{ site.baseurl }}{% post_url 2022-12-31-Autodidact-guide-to-advanced-manufacturing %}). At [Winterowd](https://fineartsantafe.com), I came across work by [Karen Bexfield](https://www.karenbexfield.com/portfolio), whose schtick is [kiln-formed glass](https://amzn.to/3QKmF4d) truncated bi-cones with holes in the surface:

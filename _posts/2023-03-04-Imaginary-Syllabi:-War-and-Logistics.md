@@ -1,7 +1,7 @@
 ---
-Title: "Imaginary Syllabi: War and Logistics"
-Date: 2023-03-04
-Tags: teaching optimization imaginary-syllabi
+title: "Imaginary Syllabi: War and Logistics"
+date: 2023-03-04
+tags: teaching optimization imaginary-syllabi
 ---
 
 *Inspired by a discussion with Zachary Jones '25:* An interdisciplinary course on the philosophy and history of logistics and war (as distinct from [economic optimization and war](({{ site.baseurl }}{% post_url 2023-01-22-Imaginary-Syllabi:-War-and-Peace-and-Optimization %})) proposed earlier).Students will focus on the philosophy/criticism of [Paul Virilio](https://en.wikipedia.org/wiki/Paul_Virilio), historical examples of logistics, and elementary aspects of mathematical modeling of logistics, with a special focus on linear programming and Monte Carlo simulations (performing relevant calculations in Mathematica). **Reading lists to include...**

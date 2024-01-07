@@ -1,7 +1,7 @@
 ---
-Title: "(Mostly) f-Element Separation Databases I Have Known And Loved (fESDIHKAL)"
-Date: 2023-10-06
-Tags: machinelearning ml science 
+title: "(Mostly) f-Element Separation Databases I Have Known And Loved (fESDIHKAL)"
+date: 2023-10-06
+tags: machinelearning ml science 
 ---
 
 (with apologies to [the Shulgins](https://amzn.to/48JmuNh)) **A collection of references to (mostly) f-element hydrometallurgy / solvent extraction / [liquid-liquid extraction](https://en.wikipedia.org/wiki/Liquid–liquid_extraction) databases (lanthanides, actinides, plus Sc and Y so we can do** [rare earth separation]({{ site.baseurl }}{% post_url 2023-02-25-Predicting-Rare-Earth-Element-Separation-Chemistry %} ))...

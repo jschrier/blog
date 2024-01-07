@@ -1,6 +1,6 @@
 ---
-Title: "Imaginary Cinema: Titanic, but Tiki"
-Date: 2023-12-31
+title: "Imaginary Cinema: Titanic, but Tiki"
+date: 2023-12-31
 layout: post
 tags: imaginary-cinema tiki florida art llm gpt4 dall-e-3
 ---

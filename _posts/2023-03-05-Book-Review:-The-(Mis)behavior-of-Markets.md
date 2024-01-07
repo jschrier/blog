@@ -1,7 +1,7 @@
 ---
-Title: "Book Review: The (Mis)behavior of Markets"
-Date: 2023-03-05
-Tags: books finance math
+title: "Book Review: The (Mis)behavior of Markets"
+date: 2023-03-05
+tags: books finance math
 ---
 
 Some notes on Benoit Mandelbrot & Richard Hudson, [The (Mis)behavior of Markets: A Fractal View of Financial Turbulence](https://amzn.to/3JeTSRr) (2004).  **Premise:** The (geometric) Brownian motion model of asset prices, and the house built upon its Gaussian foundation (i.e., [Bachelier](https://en.wikipedia.org/wiki/Louis_Bachelier), [Markowitz efficient portfolios](https://en.wikipedia.org/wiki/Harry_Markowitz), Sharpe's [Capital Asset Pricing Model](https://en.wikipedia.org/wiki/Capital_asset_pricing_model), [Black-Scholes](https://en.wikipedia.org/wiki/Black–Scholes_model)) fails to capture the extreme variations present in real-data.  [Power law distributions](https://en.wikipedia.org/wiki/Power_law), [fractional Brownian motion](https://en.wikipedia.org/wiki/Fractional_Brownian_motion) (which has postive or negative time-correlations) and [multi-fractal](https://en.wikipedia.org/wiki/Multifractal_system) regime changes better capture observed variations...

@@ -1,7 +1,7 @@
 ---
-Title: "Imaginary Cinema: In the Mood for Love, but with Chiguiros"
-Date: 2023-08-25
-Tags: imaginary-cinema chiguiro art
+title: "Imaginary Cinema: In the Mood for Love, but with Chiguiros"
+date: 2023-08-25
+tags: imaginary-cinema chiguiro art
 ---
 
 **Premise:**  Remake [In the Mood for Love](https://en.wikipedia.org/wiki/In_the_Mood_for_Love), but with all the characters played by [chiguiros](https://en.wikipedia.org/wiki/Capybara)...

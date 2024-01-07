@@ -1,7 +1,7 @@
 ---
-Title: "Three mathematical models for machine learning and high-throughput experimentation"
-Date: 2023-01-30
-Tags: machine-learning probability
+title: "Three mathematical models for machine learning and high-throughput experimentation"
+date: 2023-01-30
+tags: machine-learning probability
 ---
 
 Since the seminal [2018 Mexico City report](http://mission-innovation.net/wp-content/uploads/2018/01/Mission-Innovation-IC6-Report-Materials-Acceleration-Platform-Jan-2018.pdf), there has been increased interest in developing autonomous research systems--aka, *self-driving laboratories--*that combine machine learning (ML) with robotic experimentation.   (For recent perspectives on this, see *[Stach et al. 2021](https://dx.doi.org/10.1016/j.matt.2021.06.036)* and *[Yano et al. 2022](https://dx.doi.org/10.1038/s41570-022-00382-w)*.). At least historically, automated experimentation implied high-throughput experimentation (HTE) with the goal of achieving large data scale.  An alternative are continuous systems, where experiments are performed one at a time--these seem like they are optimal for incorporating learning into the process. **How does HTE enable ML? Or vice versa?** The goal is to get some intuitions that can be used to inform a provocative perspective article on ML for exceptional materials.  It is also inspired by some ideas from a blog post on [High-Variance Management](https://blog.sbensu.com/posts/2023-01-18-high-variance-management/ ) (and [corresponding Julia notebook](https://blog.sbensu.com/posts/2023-01-18-high-variance-management-math/)), with examples from show business..  **In this post, we explore a few simple mathematical models for this interplay and limits of ML and HTE...**  

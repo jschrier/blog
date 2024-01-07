@@ -1,6 +1,6 @@
 ---
-Title: "Bezier the Bookie"
-Date: 2022-07-20
+title: "Bezier the Bookie"
+date: 2022-07-20
 tags: probability gambling convexity
 ---
 

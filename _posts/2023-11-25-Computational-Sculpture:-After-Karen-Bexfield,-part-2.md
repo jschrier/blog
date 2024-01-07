@@ -1,7 +1,7 @@
 ---
-Title: "Computational Sculpture: After Karen Bexfield, part 2"
-Date: 2023-11-25
-Tags: art opencascade 3dprinting mathematica santafe sculpture
+title: "Computational Sculpture: After Karen Bexfield, part 2"
+date: 2023-11-25
+tags: art opencascade 3dprinting mathematica santafe sculpture
 ---
 
 Our [last attempt at this project]({{ site.baseurl }}{% post_url 2023-10-28-Computational-Sculpture:-After-Karen-Bexfield,-part-1 %} ) resulted in a kind of lumpy potato from the lofting effect.  This suggested another approach: start with inherently conical structures.  **This results in a much more pleasing effect...**

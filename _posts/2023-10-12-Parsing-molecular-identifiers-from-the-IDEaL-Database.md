@@ -1,7 +1,7 @@
 ---
-Title: "Parsing molecular identifiers from the IDEaL Database"
-Date: 2023-10-12
-Tags: llm mathematica science gpt3.5
+title: "Parsing molecular identifiers from the IDEaL Database"
+date: 2023-10-12
+tags: llm mathematica science gpt3.5
 ---
 
 Suppose you (not-so-hypothetically) want to screen-scrape the [IDEaL database](https://www.oecd-nea.org/ideal/) in order to build your own [f-element separation database]({{ site.baseurl }}{% post_url 2023-10-06-(Mostly)-F-Element-Separation-Databases-I-Have-Known-And-Loved-(fESDIHKAL) %} ).  While it is straightforward to task a student with scraping the data tables, extracting machine-readable chemical structures is more challenging, as they do not provide standard chemical identifiers such as SMILES, InChI, etc.  However, they do provide Chemdraw files and IUPAC-ish names which we can try to parse.  This also provides an opportunity to do some LLM-based screen scraping. *(Spoiler alert:  We uncover approximately 105/438 entries with unresolvable structures, including 6 cases where the stated molecular formula is inconsistent with the stated molecular mass.)* **Mathematica to the rescue...**

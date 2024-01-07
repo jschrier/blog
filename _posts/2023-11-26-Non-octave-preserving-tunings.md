@@ -1,7 +1,7 @@
 ---
-Title: "Non-octave-preserving tunings"
-Date: 2023-11-26
-Tags: music xenharmonic
+title: "Non-octave-preserving tunings"
+date: 2023-11-26
+tags: music xenharmonic
 ---
 
 While skimming a back issue of *Mathematics Magazine*, I came across Jordan Schettler's article [Wendy Carlos’s Xenharmonic Keyboard](https://www.jstor.org/stable/48665908) which describes a continued fraction derivation of an [idea by Wendy Carlo](https://www.wendycarlos.com/resources/pitch.html)---whereas "traditional" tuning ideas are based on preserving the octave (2:1 frequency) ratio, we might alternatively just try to find equal tempered scales that give a good approximation to the perfect fifth (3:2) and major third (5:4) and forget about this giving an octave...  

@@ -1,7 +1,7 @@
 ---
-Title: "Imaginary Syllabi: ChatGPT and Addressative Magic"
-Date: 2023-08-02
-Tags: teaching imaginary-syllabi ai shwep
+title: "Imaginary Syllabi: ChatGPT and Addressative Magic"
+date: 2023-08-02
+tags: teaching imaginary-syllabi ai shwep
 ---
 
 *Premise:*  An introduction to [prompt engineering](https://en.wikipedia.org/wiki/Prompt_engineering) by exploring analogies to magic (defined as "ritual meant to effect changes in the world")... 

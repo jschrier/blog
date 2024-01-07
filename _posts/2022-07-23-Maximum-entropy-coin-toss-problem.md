@@ -1,6 +1,6 @@
 ---
-Title: "Maximum entropy coin toss problem"
-Date: 2022-07-23
+title: "Maximum entropy coin toss problem"
+date: 2022-07-23
 tags: probability optimization
 ---
 

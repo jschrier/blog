@@ -1,6 +1,6 @@
 ---
-Title: "Autodidact guide to advanced manufacturing"
-Date: 2022-12-31
+title: "Autodidact guide to advanced manufacturing"
+date: 2022-12-31
 tags: 3dprinting fusion360 cnc autodidact
 ---
 

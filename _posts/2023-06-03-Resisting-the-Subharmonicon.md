@@ -1,7 +1,7 @@
 ---
-Title: "Resisting the Subharmonicon"
-Date: 2023-06-03
-Tags: music synth analog supercollider
+title: "Resisting the Subharmonicon"
+date: 2023-06-03
+tags: music synth analog supercollider
 ---
 
 The [Moog Subharmonicon](https://www.moogmusic.com/products/subharmonicon) ... who can resist an analog synth based on the [subharmonic generative music theory of Schillinger](https://en.wikipedia.org/wiki/Joseph_Schillinger).  [See it in action, with tutorial.](https://www.youtube.com/watch?v=f5rsu8IdN8A) Polyrhythms and subharmonics, oh my. A trip to [Perfect Circuit](http://perfectcircuit.com) this weekend? **Or save $600 and do it in software...**

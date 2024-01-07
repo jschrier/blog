@@ -1,6 +1,6 @@
 ---
-Title: "Demonstration of Jekyll Export from Mathematica"
-Date: 2022-07-18
+title: "Demonstration of Jekyll Export from Mathematica"
+date: 2022-07-18
 tags: metablogging
 ---
 
@@ -36,8 +36,8 @@ ToJekyll[title_, tags_ : "", blogLocation_ : "~/Documents/GitHub/blog"] := With[
         EvaluationNotebook[], 
         "ImagesExportURL" -> FileNameJoin[{blogLocation, imageLocation}], 
         "ImagesFetchURL" -> URL[FileNameJoin[{"/blog", imageLocation}]]], 
-      titleStr = StringJoin["---\nTitle: \"", title, "\""], 
-      dateStr = StringJoin["Date: ", DateString["ISODate"]], 
+      titleStr = StringJoin["---\ntitle: \"", title, "\""], 
+      dateStr = StringJoin["date: ", DateString["ISODate"]], 
       tagStr = StringJoin["tags: ", tags, "\n---\n"], 
       outputFile = OpenWrite[FileNameJoin[{blogLocation, "_posts", blogFile}]]}, 
      

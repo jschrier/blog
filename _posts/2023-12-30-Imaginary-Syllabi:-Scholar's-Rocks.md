@@ -1,6 +1,6 @@
 ---
-Title: "Imaginary Syllabi: Scholar's Rocks"
-Date: 2023-12-30
+title: "Imaginary Syllabi: Scholar's Rocks"
+date: 2023-12-30
 layout: post
 tags: art imaginary-syllabi sculpture teaching 
 ---

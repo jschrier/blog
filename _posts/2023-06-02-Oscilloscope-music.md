@@ -1,7 +1,7 @@
 ---
-Title: "Oscilloscope music"
-Date: 2023-06-02
-Tags: music synth 
+title: "Oscilloscope music"
+date: 2023-06-02
+tags: music synth 
 ---
 
 [Michael Taylor](https://scholar.google.com/citations?user=lw_MEZgAAAAJ&hl=en&oi=ao) notes:  There is a whole community of people who try to make music (or at least a company called [Oscilloscope Movie.com](https://oscilloscopemusic.com) that sells software that converts blender models to sounds that can be displayed on an analog oscilloscope.  [Video overview](

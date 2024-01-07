@@ -1,6 +1,6 @@
 ---
-Title: "For a Few Pixels More: A Page-Oriented Perspective on GPT-4-Vision for Scientific Data Extraction"
-Date: 2023-12-20
+title: "For a Few Pixels More: A Page-Oriented Perspective on GPT-4-Vision for Scientific Data Extraction"
+date: 2023-12-20
 tags: llm ai ml science gpt4v
 ---
 

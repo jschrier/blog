@@ -1,6 +1,6 @@
 ---
-Title: "Conformal prediction example"
-Date: 2022-07-30
+title: "Conformal prediction example"
+date: 2022-07-30
 tags: machinelearning
 ---
 

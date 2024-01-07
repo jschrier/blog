@@ -1,7 +1,7 @@
 ---
-Title: "Probabilities of Mineral Formation"
-Date: 2023-02-23
-Tags: science data probability 
+title: "Probabilities of Mineral Formation"
+date: 2023-02-23
+tags: science data probability 
 ---
 I saw a fascinating talk by [Daniel Hummer](https://scholar.google.com/citations?hl=en&user=Lc2j6-YAAAAJ&view_op=list_works&sortby=pubdate) on "Data Mining the Past: Using Large Mineral Datasets to Trace Earth's Geochemical History"  **A few gleanings below...**
 

@@ -1,7 +1,7 @@
 ---
-Title: "Reviving the Hammond XB-2"
-Date: 2023-06-24
-Tags: music diy
+title: "Reviving the Hammond XB-2"
+date: 2023-06-24
+tags: music diy
 ---
 
 I've got a [Hammond XB-2](http://www.muzines.co.uk/articles/hammond-xb2/849) that I want to pull out of storage.  But from what I read, failures are common, as the caps age out, ROM chips fail, etc.  Keyboard Partners sells a [HX3 retrofit kit](http://wiki.keyboardpartner.de/index.php?title=XB2-Kit_mk3_User_Manual) for about [$700](https://shop.keyboardpartner.de/p/hx3-6-xb2-retrofit-kit) that is essentially a complete gut of the internal electronics, just keeping the case and input/outputs.  Upgrade is a [DIY project](http://wiki.keyboardpartner.de/index.php?title=XB2-Kit_mk3_Installation)

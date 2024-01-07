@@ -1,6 +1,6 @@
 ---
-Title: "Von Neumann Poker"
-Date: 2022-07-19
+title: "Von Neumann Poker"
+date: 2022-07-19
 tags: game-theory optimization geometry gambling
 ---
 

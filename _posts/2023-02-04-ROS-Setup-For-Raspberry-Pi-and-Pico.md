@@ -1,7 +1,7 @@
 ---
-Title: "ROS Setup for Raspberry Pi and Pico"
-Date: 2023-01-06
-Tags: ros ros2 microros raspberrypi pico electronics automation
+title: "ROS Setup for Raspberry Pi and Pico"
+date: 2023-01-06
+tags: ros ros2 microros raspberrypi pico electronics automation
 ---
 
 [Last time, we collected some resources about the process.]({{ site.baseurl }}{% post_url 2023-01-06-MicroROS-on-the-Raspberry-Pi-Pico %}) In this post we'll take you step-by-step on installing ROS2 on a Raspberry Pi 3B+, configuring the ROS and MicroROS development environment, and getting to 'hello world'... **STATUS:  Successfully installed ROS2, but configuring the micro-ros-agent on Raspberry Pi 3B+ has some problems.**

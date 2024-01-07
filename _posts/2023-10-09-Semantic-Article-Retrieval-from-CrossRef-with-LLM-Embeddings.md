@@ -1,7 +1,7 @@
 ---
-Title: "Semantic Article Retrieval from CrossRef with LLM Embeddings"
-Date: 2023-10-09
-Tags: science llm machinelearning ml mathematica
+title: "Semantic Article Retrieval from CrossRef with LLM Embeddings"
+date: 2023-10-09
+tags: science llm machinelearning ml mathematica
 ---
 
 Suppose you wanted to gather *all* of the scholarly articles related to a topic (e.g., [constructing a database of f-element solvent separations]({{ site.baseurl }}{% post_url 2023-10-06-(Mostly)-F-Element-Separation-Databases-I-Have-Known-And-Loved-(fESDIHKAL) %} ))?  You could do a keyword search, but that might include many useless papers or fail to include papers with the exact specified keywords in the title or abstract.  A modern approach would be to try to find articles that are semantically close by generating an [embedding vector](https://en.wikipedia.org/wiki/Word_embedding) that represented the document (using your favorite foundational language model) and then perform some sort of clustering or classification to retrieve documents of interest--this might be as simple as just finding documents where the vectors are close enough (below some threshold).  **A code sketch demonstration of how to conduct this process (and some of the complications that may arise)...**

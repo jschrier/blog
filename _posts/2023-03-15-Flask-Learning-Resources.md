@@ -1,7 +1,7 @@
 ---
-Title: "Flask Learning Resources"
-Date: 2023-03-15
-Tags: python webdev
+title: "Flask Learning Resources"
+date: 2023-03-15
+tags: python webdev
 ---
 I may have to bite the bullet and develop a CRUD application. Flask doesn't seem so bad.  Some reasonable resources like:
 - [Flask official documentation](https://flask.palletsprojects.com/en/2.2.x/)

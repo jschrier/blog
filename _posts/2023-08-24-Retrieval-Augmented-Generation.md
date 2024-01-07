@@ -1,7 +1,7 @@
 ---
-Title: "Retrieval Augmented Generation"
-Date: 2023-08-24
-Tags: ai mathematica llm theology
+title: "Retrieval Augmented Generation"
+date: 2023-08-24
+tags: ai mathematica llm theology
 ---
 
 [User5601 asks](https://mathematica.stackexchange.com/questions/288523/qa-system-using-llmsynthesize-and-nearest): How can I implement [retrieval augmented generation (RAG)](https://ai.meta.com/blog/retrieval-augmented-generation-streamlining-the-creation-of-intelligent-natural-language-processing-models/) using the [new LLM functionality in Mathematica 13.3](https://writings.stephenwolfram.com/2023/06/llm-tech-and-a-lot-more-version-13-3-of-wolfram-language-and-mathematica/)? There are many desirable reasons for using RAG: It allows you to provide your own domain-specific information  and to make citations to sources. **Let's implement a RAG that can answer questions using the** **[Catechism of the Catholic Church](https://www.vatican.va/archive/ENG0015/_INDEX.HTM)****...**

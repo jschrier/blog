@@ -1,7 +1,7 @@
 ---
-Title: "Parsing Molecular Identifiers From the Ideal Database, part 3"
-Date: 2023-10-17
-Tags: mathematica chemdraw science gpt3.5
+title: "Parsing Molecular Identifiers From the Ideal Database, part 3"
+date: 2023-10-17
+tags: mathematica chemdraw science gpt3.5
 ---
 
 In [our last episode]({{ site.baseurl }}{% post_url 2023-10-16-Parsing-Molecular-Identifiers-From-the-IDEaL-Database,-part-2  %}), we were left with 25 cases where the inferred molecule did not agree with the reported formula or molar mass, in our quest to to turn the [IDEaL database](https://www.oecd-nea.org/ideal/) into a comprehensive f-element separation database. **Here we fix them by hand and generate the final result...**

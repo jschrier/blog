@@ -1,7 +1,7 @@
 ---
-Title: "Protein Language Models"
-Date: 2023-10-04
-Tags: machinelearning ml science proteins llm
+title: "Protein Language Models"
+date: 2023-10-04
+tags: machinelearning ml science proteins llm
 ---
 
 A chat with [Rudi Gunawan](https://scholar.google.com/citations?user=fx039lUAAAAJ&hl=en&oi=ao) turned me on to the idea of using language models for peptide problems, which came up again in a chat with [Yujia Xu](https://hunter.cuny.edu/people/yujia-xu/) about designer collagen.  **Some notes on protein language models...**

@@ -1,6 +1,6 @@
 ---
-Title: "Jai Alai Monte Carlo"
-Date: 2022-07-27
+title: "Jai Alai Monte Carlo"
+date: 2022-07-27
 tags: gambling probability montecarlo
 ---
 

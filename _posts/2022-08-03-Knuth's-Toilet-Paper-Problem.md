@@ -1,6 +1,6 @@
 ---
-Title: "Knuth's Toilet Paper Problem"
-Date: 2022-08-03
+title: "Knuth's Toilet Paper Problem"
+date: 2022-08-03
 tags: recurrence probability nahin
 ---
 

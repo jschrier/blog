@@ -1,6 +1,6 @@
 ---
-Title: "3d printed Triboelectric generator and applications"
-Date: 2024-01-01
+title: "3d printed Triboelectric generator and applications"
+date: 2024-01-01
 tags: 3dprinting electronics science synthesizer
 ---
 

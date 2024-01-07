@@ -1,6 +1,6 @@
 ---
-Title: "Linear discriminant analysis"
-Date: 2022-08-18
+title: "Linear discriminant analysis"
+date: 2022-08-18
 tags: ml statistics chemometrics
 ---
 

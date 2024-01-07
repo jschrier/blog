@@ -1,6 +1,6 @@
 ---
-Title: "Sound of a Cantor Set Square Wave"
-Date: 2023-12-21
+title: "Sound of a Cantor Set Square Wave"
+date: 2023-12-21
 tags: fractal audio synth 8bit
 ---
 

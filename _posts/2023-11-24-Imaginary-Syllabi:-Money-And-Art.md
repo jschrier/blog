@@ -1,7 +1,7 @@
 ---
-Title: "Imaginary Syllabi: Money And Art"
-Date: 2023-11-24
-Tags: art imaginary-syllabi finance
+title: "Imaginary Syllabi: Money And Art"
+date: 2023-11-24
+tags: art imaginary-syllabi finance
 ---
 
 *Premise:*  **An exploration of money and art through history. Topics include...**

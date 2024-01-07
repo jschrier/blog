@@ -1,6 +1,6 @@
 ---
-Title: "Publication quality figures in Mathematica"
-Date: 2022-11-25
+title: "Publication quality figures in Mathematica"
+date: 2022-11-25
 tags: mathematica figures
 ---
 

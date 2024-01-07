@@ -1,6 +1,6 @@
 ---
-Title: "Generating 3d-designs with OpenCASCADE Link"
-Date: 2022-07-22
+title: "Generating 3d-designs with OpenCASCADE Link"
+date: 2022-07-22
 tags: 3dprinting opencascade
 ---
 

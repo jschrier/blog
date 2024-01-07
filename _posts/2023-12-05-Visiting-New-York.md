@@ -1,7 +1,7 @@
 ---
-Title: "Visiting New York"
-Date: 2023-12-05
-Tags: travel nyc
+title: "Visiting New York"
+date: 2023-12-05
+tags: travel nyc
 ---
 
 **A local's guide to visiting New York City...** (commonly offered advice to short term visitors, with an emphasis on places that are a bit more unusual and off the beaten path)

@@ -1,7 +1,7 @@
 ---
-Title: "Literature about National Laboratories"
-Date: 2023-11-25
-Tags: literature reading science
+title: "Literature about National Laboratories"
+date: 2023-11-25
+tags: literature reading science
 ---
 
 Campus novels about academic life are so common.  But what about novels that are set at national laboratories (in which, the lab is itself a type of character)?  **A few good ones I have read...**

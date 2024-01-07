@@ -1,7 +1,7 @@
 ---
-Title: "Predicting Rare Earth Element Separation Chemistry"
-Date: 2023-02-25
-Tags: science machinelearning ml
+title: "Predicting Rare Earth Element Separation Chemistry"
+date: 2023-02-25
+tags: science machinelearning ml
 ---
 
 For a new project on f-element (rare earths and actinide) separation, I am trying to wrap my head around the literature.  There is a very nice [recent result](https://doi.org/10.1021/jacsau.2c00122) from [De-en Jiang](https://scholar.google.com/citations?user=BR4f0JYAAAAJ&hl=en&oi=ao) and co. where they created a dataset of 1600 lanthanide rare-earth separation experiments, featurizing the extractant molecules with fingerprints and RDKit style features, featuring the solvents with some properties, and featurizing the metals themselves with a few periodic properties.  (Liu et al, "Advancing Rare Earth Separations" *JACS Au* 2022 [https://doi.org/10.1021/jacsau.2c00122](https://doi.org/10.1021/jacsau.2c00122) ). The supporting information contains the compete dataset (yay!) but not the neural network that they trained (although it describes it in the text).  **Let's reproduce their result by training our own neural network...**

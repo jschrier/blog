@@ -1,6 +1,6 @@
 ---
-Title: "Kelly Optimal Betting With Discrete Data"
-Date: 2022-07-21
+title: "Kelly Optimal Betting With Discrete Data"
+date: 2022-07-21
 tags: gambling optimization kelly
 ---
 

@@ -1,6 +1,6 @@
 ---
-Title: "Imaginary Syllabi: Games of Skill and Chance "
-Date: 2023-01-22
+title: "Imaginary Syllabi: Games of Skill and Chance "
+date: 2023-01-22
 tags: teaching gambling probability imaginary-syllabi
 ---
 

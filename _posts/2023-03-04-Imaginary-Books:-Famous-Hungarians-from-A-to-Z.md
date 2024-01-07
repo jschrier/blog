@@ -1,7 +1,7 @@
 ---
-Title: "Imaginary Books: Famous Hungarians from A to Z"
-Date: 2023-03-04
-Tags: imaginary-books children
+title: "Imaginary Books: Famous Hungarians from A to Z"
+date: 2023-03-04
+tags: imaginary-books children
 ---
 
 **Premise:** A children's picture book with short biographies of famous Hungarians, with an emphasis on mathematics, science, engineering (but with occasional pop-culture figures to liven things up). Inspired by discussions with [Chris Görog](https://www.linkedin.com/in/chrisgorog/) about the *Erziehung* of his children.  **Entries to include...**

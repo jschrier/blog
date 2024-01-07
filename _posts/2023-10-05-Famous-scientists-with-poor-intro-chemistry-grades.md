@@ -1,7 +1,7 @@
 ---
-Title: "Famous scientists with poor intro chemistry grades"
-Date: 2023-10-05
-Tags: science teaching 
+title: "Famous scientists with poor intro chemistry grades"
+date: 2023-10-05
+tags: science teaching 
 ---
 
 **To encourage the youth: A list of famous scientists who are "on the record" about receiving poor grades in general chemistry or organic chemistry...***

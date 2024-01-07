@@ -1,7 +1,7 @@
 ---
-Title: "Great Ideas from Italy"
-Date: 2023-09-15
-Tags: travel
+title: "Great Ideas from Italy"
+date: 2023-09-15
+tags: travel
 ---
 
 Business and art ideas inspired by my recent trip to northern Italy...
