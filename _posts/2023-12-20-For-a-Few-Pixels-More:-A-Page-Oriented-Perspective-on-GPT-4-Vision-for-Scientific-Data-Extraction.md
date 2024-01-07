@@ -154,7 +154,7 @@ LLMVisionSynthesize["Please analyze the provided image, which is a page from a s
 
 ## What should we name this post?
 
-What are the names of Clint Eastwood cowboy movies? Ideally I want to make a pun related to GPT, AI and Vision
+**GPT4> What are the names of Clint Eastwood cowboy movies? Ideally I want to make a pun related to GPT, AI and Vision**
 
 Clint Eastwood is known for his roles in several popular western films. Let's gather a list of these movies. 
 ![0418nf4m2zrai](img/0418nf4m2zrai.png)
