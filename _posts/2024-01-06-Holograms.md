@@ -41,3 +41,4 @@ I saw some work by [August Muth](https://www.augustmuth.com/about) in the [Vlade
     - T-rex coming out at you?
     - Texas long horn
     - rotating cube
+    - This is not so crazy.  Doing some internet searching, it appears that August Muth actually made some holographic art bolo ties that are on the secondary market! ([example](https://www.worthpoint.com/worthopedia/hologram-august-muth-bolo-tie-1943810215)) ([example](https://www.worthpoint.com/worthopedia/hologram-august-muth-bolo-tie-1943807840)) *and more on those pages*
