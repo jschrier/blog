@@ -334,3 +334,6 @@ Again, assuming we don't want to go the manual route of digitizing the values us
 - Kawoosa et al (2023) [LYLAA: A Lightweight YOLO based Legend and Axis Analysis method for CHART-Infographics](https://dl.acm.org/doi/abs/10.1145/3573128.3609355)--just a focus on doing axis and legend analysis, but in a lightweight way.
 - Bajic and Job (2023) [Review of chart image detection and classification](https://link.springer.com/article/10.1007/s10032-022-00424-5)
 
+## Next episode
+
+[We get better results by taking a page-level perspective...]( {{ site.baseurl }}{% post_url 2023-12-20-For-a-Few-Pixels-More:-A-Page-Oriented-Perspective-on-GPT-4-Vision-for-Scientific-Data-Extraction %} ) 
