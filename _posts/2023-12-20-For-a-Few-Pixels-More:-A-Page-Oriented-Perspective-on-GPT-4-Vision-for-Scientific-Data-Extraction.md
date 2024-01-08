@@ -154,7 +154,7 @@ LLMVisionSynthesize["Please analyze the provided image, which is a page from a s
 
 ## What should we name this post?
 
-What are the names of Clint Eastwood cowboy movies? Ideally I want to make a pun related to GPT, AI and Vision
+**GPT4> What are the names of Clint Eastwood cowboy movies? Ideally I want to make a pun related to GPT, AI and Vision**
 
 Clint Eastwood is known for his roles in several popular western films. Let's gather a list of these movies. 
 ![0418nf4m2zrai](img/0418nf4m2zrai.png)
@@ -180,3 +180,10 @@ Remember, the key to a good pun is playing with the words in a humorous or unexp
 ToJekyll["For a Few Pixels More: A Page-Oriented Perspective on GPT-4-Vision for Scientific Data Extraction", 
   "llm ai ml science"]
 ```
+
+# Parerga and paralipomena
+
+- [Set of Mark prompting](https://github.com/microsoft/SoM)---the idea is that you add bounding boxes/infills/marks to your image before providing it as input to GPT-4V.  Apparently this greatly improves performance.  You can also just number all the items (and optionally provide masking or bounding boxes) and it greatly improves results and reduces hallucinations. 
+  - Came across this in [Ju Li's CREST preprint](https://chemrxiv.org/engage/chemrxiv/article-details/655417d1dbd7c8b54b477786), where they use this to adjust settings for an SEM image.  
+  - But as a redditor said, ["combine it with Meta's segment anything and profit"](https://www.reddit.com/r/MachineLearning/comments/17bcikh/r_setofmark_som_unleashes_extraordinary_visual/)
+  - For quick hackery, just use the [YOLO v8 on the network repository](https://resources.wolframcloud.com/NeuralNetRepository/resources/YOLO-V8-Segment-Trained-on-MS-COCO-Data/)
