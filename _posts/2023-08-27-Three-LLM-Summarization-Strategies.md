@@ -230,3 +230,7 @@ ToJekyll["Three LLM Summarization Strategies", "ai mathematica llm"]
 ```
 
 [^1]: Fake news!  You can use retrieve Embeddings directly using [OpenAI Service Connection](https://reference.wolfram.com/language/ref/service/OpenAI.html); `ServiceExecute["OpenAI", "Embedding", ...]`.  This also eliminates the need for the `ParallelMap` call, as the embedding service can take a list of texts as inputs and returns the list of embeddings.   However, I still think it would be a good idea to make this a top-level function, like `LLMSynthesize[]` rather than making it specific to a particular LLM service (I hope that 13.4 will support Claude, local-Llama, etc.)
+
+# Parerga and paralipomena
+
+- (09 Jan 2024) The upcoming Mathematica 14.0 has a new [TextSummarize](https://reference.wolfram.com/language/ref/TextSummarize.html) function that provides control of context padding and window sizes, etc. if you do not want to deal with implementing this yourself.
