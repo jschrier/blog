@@ -61,7 +61,7 @@ Interpreter["ComputedNumber"]["Integrate[x, {x,0,1}]"]
 
 **In conclusion:** This is exactly what we want.
 
-**However:** A possible limitation is that a malicious code could still, in principle, crash our Kernel by requesting some difficult calculation (e.g., trying to do root solving on a high order polynomial.)
+**However:** A possible limitation is that a malicious code could still, in principle, crash our kernel by requesting some difficult calculation (e.g., trying to do root solving on a high order polynomial.)  Howeer, this can be limited by wrapping the evaluation in a [TimeConstrained](http://reference.wolfram.com/language/ref/TimeConstrained.html) and/or [MemoryConstrained](http://reference.wolfram.com/language/ref/MemoryConstrained.html) functions to impose a hard limit on the computational resources for the task.
 
 ## Implement the LLMTool
 
@@ -97,3 +97,7 @@ LLMSynthesize["What is 1+ Sin[7.8/Pi]?",
 ToJekyll["Accurate and safe LLM numerical calculations using Interpreter and LLMTool", 
   "llm gpt4 mathematica"]
 ```
+
+# Parerga and paralipomena
+
+- (10 Jan 2024) The new [Mathematica 14.0](https://writings.stephenwolfram.com/2024/01/the-story-continues-announcing-version-14-of-wolfram-language-and-mathematica/) includes an experimental [LLMTool repository](https://resources.wolframcloud.com/LLMToolRepository). It includes a [Wolfram Language Evaluator](https://resources.wolframcloud.com/LLMToolRepository/resources/WolframLanguageEvaluator/) tool, but unclear if this is sandboxed at all for safety.
