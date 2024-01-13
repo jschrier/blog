@@ -7,7 +7,7 @@ tags: travel nyc
 **A local's guide to visiting New York City...** (commonly offered advice to short term visitors, with an emphasis on places that are a bit more unusual and off the beaten path)
 
 
-# Transit
+## Transit
 
 Don't rent a car. 
 
@@ -18,7 +18,7 @@ You can use any "tap"-capable credit card to take buses and subways.  Just do th
 Cabs are generally cheaper than Ubers.  
 
 
-# Top tourist sites in an afternoon (with snacks)
+## Top tourist sites in an afternoon (with snacks)
 
 (My patent-pending tour of the highlights of Manhattan...bring your walking shoes)
 
@@ -50,7 +50,7 @@ Cabs are generally cheaper than Ubers.
 
 
 
-# Jazz Clubs
+## Jazz Clubs
 
 Of course the [Blue Note](https://www.bluenotejazz.com/nyc/) and [Village Vanguard](https://villagevanguard.com) are well known. Off the beaten path, and arguably more fun are:
 
@@ -65,13 +65,13 @@ Find out what is playing:
 - [Hot House Jazz](https://www.hothousejazz.com/calendar)
 - [WBGO.net](https://www.wbgo.org) local jazz radio station.
 
-# Eating 
+## Eating 
 
 (see above walking tour)
 
 It is estimated that you could eat out for breakfast, lunch, and dinner at a different restaurant for 70+ years before you would have to repeat yourself.  So this is merely a snapshot of some places that I think are either well-known for good reasons, or somewhat off the beaten path.
 
-## Midtown
+### Midtown
 
 - [Grand Central Oyster Bar](https://maps.app.goo.gl/ZtYVPnv1sMauVvUK6) -- this place always seems magical to me. The Martinis are good and generous.  
 - [Ophelia (bar)](https://maps.app.goo.gl/89LwnJ7omUhiyY6n7) --- great views of the city at this rooftop bar.
@@ -80,7 +80,7 @@ It is estimated that you could eat out for breakfast, lunch, and dinner at a dif
 - [All'Antico Vinaio](https://maps.app.goo.gl/48DxuFYqvfPQCvs7A)-- hole in the wall Florentine sandwich spot in Times Square. 
 - Xian Famous Foods (local chain, scattered around the city).  Western chinese noodles. Get the spicy lamb.
 
-## Flatiron/NOMAD-ish
+### Flatiron/NOMAD-ish
 
 - OMG [KOREATOWN](https://maps.app.goo.gl/BZcZ9c4KdEosWQw86). With an emphasis on Korean Barbeque.
     - For a bit more casual, [Jongro Barbeque](https://maps.app.goo.gl/7UYDFqrfXCSz2wHx9)--order the beef combination.  I prefer the upstairs which serves this with a side of intestines.  (Upstairs specializes in intestines, but they also serve a beef combo)
@@ -91,7 +91,7 @@ It is estimated that you could eat out for breakfast, lunch, and dinner at a dif
  - [Eataly](https://maps.app.goo.gl/NM5ftK5JsTHDoz156) these are everywhere now, but this one is special somehow. Restaurants on the roof and down below, but other noshing experiences available. Or just stop in for a gelato
  - [Memo's Shish Kebab](https://maps.app.goo.gl/FmEo5XenqJHLy4AC7) excellent turkish sandwiches. Get the chicken and lamb combo on the Turkish bread with the works.
 
-## Village-ish
+### Village-ish
 
 - There's a little Japan neighborhood near St. Mark's place.  Plenty of Udon, Japanese BBQ, etc. places to choose from, and hard to go wrong.
 - [Dolar Shop](https://maps.app.goo.gl/B5pmdwGSjucQidxq9) chinese hot pot
@@ -99,21 +99,21 @@ It is estimated that you could eat out for breakfast, lunch, and dinner at a dif
 - [Harbs](https://maps.app.goo.gl/P1RV2gBt6Bh3wiFw9) Japanese western-style cakes.  The location in Chelsea closed(?) but this one is still open.
 - 
 
-## Georgian food
+### Georgian food
 
 (I think Georgian food and wine is excellent and underappreciated)
 
 - [Old Tblisi](https://maps.app.goo.gl/nZoaavwPXWAJLfPL9) *west village on Bleeker Street*.  The garden is charming. Great breads and stews.
 - [Aragavi](https://maps.app.goo.gl/JrXT6VCoAj62reu6A) *Midtown, near GCT/UN* A bit expensive, but a wide range of excellent dishes and wines (and Georgian moonshine)
 
-## Farther afield
+### Farther afield
 
 - **Flushing, Queens:** Take the [7-train out to Flushing](https://maps.app.goo.gl/8fNVdS3N6UgKgX6c8) and find great, authentic chinese food from all over china. 
 - **Roosevelt Blvd, Queens:** Take the [7 train](https://maps.app.goo.gl/vsLASRbGiGEbSHsK9) for authentic south american cuisine
 - [Arthur Avenue, The Bronx](https://maps.app.goo.gl/22YoAr1HtmYh1ryD6):  Take the Metro North to Fordham and go to the authentic Little Italy of New York. Great restaurants, bakeries, pastries, coffee. [Zero Otto Nove](https://maps.app.goo.gl/f9nZG5ZxZPuuMEsb9) is a favorite. Or, while you are in the hood, get some [Albanian food](https://maps.app.goo.gl/oaF5HRZR46N8rCFV8).  And have a coffee at [Prince Coffeeshop](https://maps.app.goo.gl/hVTkbK59mVWqCBGj8) (which is essentially the Starbucks of Albania)
 
 
-# Museums and attractions
+## Museums and attractions
 
 - Obviously you go to the [Metropolitan Museum](https://www.metmuseum.org/) which is arguably the finest art museum in the USA (dare I say, the world).  But many visitors overlook the [Met Cloisters](https://maps.app.goo.gl/S7tN9RqMu2rCRVwR9) in Inwood---Rockefeller bough a bunch of medieval castles and monasteries...disassembled them...and reassembled them here, filled them with art, and then bought the land on the opposite side of the river (now Palisades park) so that it wouldn't be developed and ruin the view. Especially nice in the Spring and early Summer, when the gardens are open.
 - And while you're up there, go to the [Hispanic Society](https://hispanicsociety.org)---a free museum of art of Spain, Portugal, and Latin America. Excellent collection of El Greco's and Sarollas.
@@ -125,7 +125,7 @@ It is estimated that you could eat out for breakfast, lunch, and dinner at a dif
 - [Drawing Center](https://maps.app.goo.gl/1xu1n1BwW3kAJWUKA) *soho/chinatown* -- also excellent rotating exhibits. Free.
 - [Isamu Noguchi museum]() *long island city* --- dedicated to the work of the eponymous architect/sculptor.  There are plenty of breweries nearby, and the park offers a nice view of Manhattan. 
 
-# Brooklyn
+## Brooklyn
 
 - [Industry city](https://maps.app.goo.gl/gqUGgzEfJ4NGZxND7):  Fasinating history, and lots of good Japanese food, and a [sake brewery (Brooklyn Kura)](https://maps.app.goo.gl/WZPWPt7vBn6BtaXG7)
 - [DUMBO](https://maps.app.goo.gl/eit6HmE5hWFp5LdEA): You can walk across the Brooklyn Bridge if you wish, ot else just take the train here.  [Take your photo](https://maps.app.goo.gl/eit6HmE5hWFp5LdEA), then have a coal-fired pizza at [Grimaldi's](https://maps.app.goo.gl/1ARzfFFLmQ3hRXFs5) before [the liberals make it illegal](https://nypost.com/2023/06/25/nyc-rules-crack-down-on-coal-wood-fired-pizzerias-must-cut-carbon-emissions-up-to-75/)
@@ -135,7 +135,7 @@ It is estimated that you could eat out for breakfast, lunch, and dinner at a dif
 - Bed Stuy:  I typically only come here to go to [Wonderville (a hipster indie videogame bar)](https://maps.app.goo.gl/vMXdrC5UheDQztX26) for [Electronic Music meetups](https://www.meetup.com/brooklyn-experimental-electronic-music-meetup/) (typically the last Thursday of the month, but somewhat irregular...)
 
 
-# Keep up on the latest
+## Keep up on the latest
 
 - [Thrillist NYC](https://www.thrillist.com/new-york)
 - [Gothamist](https://gothamist.com)---more politics and local news oriented, but sometimes talks about events
