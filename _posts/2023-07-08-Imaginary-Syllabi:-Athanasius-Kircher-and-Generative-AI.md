@@ -1,7 +1,7 @@
 ---
 title: "Imaginary Syllabi:  Athanasius Kircher and Generative AI"
 date: 2023-07-08
-tags: culture ai jesuits imaginary-syllabi teaching
+tags: llm culture ai jesuits imaginary-syllabi teaching
 ---
 
 *Premise:*  Consider a general intelligence capable of producing text and images on demand about topics as diverse as chemistry, mathematics, music making, ancient and foreign languages, biblical hermaneutics, the invention of gadgets and scientific instruments, and descriptions of far-away lands.[^1] The output is voluminous, verbose, and presents arguments and sources about things that are true...and also about topics that are mythical or completely fabricated. Are we talking about [ChatGPT](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/) or the 17th century Jesuit polymath [Athansius Kircher](https://en.wikipedia.org/wiki/Athanasius_Kircher)? **How might a study of Kircher inform our approach to generative AI? A syllabus...**   
