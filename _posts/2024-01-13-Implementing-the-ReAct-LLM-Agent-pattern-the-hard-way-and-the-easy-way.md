@@ -20,18 +20,20 @@ However, I am not a fan of their code--it may be fine for running their suite of
 
 The core idea is to prompt the model, in a format like follows:
 
-*Think step by step. You run in a loop of THOUGHT, ACTION, PAUSE, OBSERVATION. 
+```
+Think step by step. You run in a loop of THOUGHT, ACTION, PAUSE, OBSERVATION. 
 At the end of the loop you output an ANSWER.
 Use THOUGHT to describe your thoughts about the question you have been asked.
 Use ACTION to run one of the actions available to you - then return PAUSE.
 OBSERVATION will be the result of running those actions.
 
 Your available actions are:
-...*
+...
+```
 
-Running locally on your computer is a program that takes the output, looks for a PAUSE/ ACTION command, and then runs a local program appropriately. It computes the results and provides this as input to the chat session as an OBSERVATION.  Repeat this until
+Running locally on your computer is a program that takes the output, looks for a PAUSE / ACTION command, and then runs a local program appropriately. It computes the results and provides this as input to the chat session as an OBSERVATION.  Repeat this until
 
-**SPOILER ALERT:**  After implementing the "traditional" ReAct pattern (ala LangChain, etc.), we will find that it is not necessary, and that the use of tool calling (with Wolfram LLMTools) allows us to dramatically simplify the code and get better results.  Essentially function calling/tool calling takes care of this iterative process for us.  So Skip ahead to the section on **A Better Way: Tool Calling** to just see the simple way to do it
+**SPOILER ALERT:**  After implementing the "traditional" ReAct pattern (ala LangChain, etc.), we will find that it is not necessary, and that the use of tool calling (facilitated by LLMTools) allows us to dramatically simplify the code and get better results.  Essentially function calling/tool calling takes care of this iterative process for us.  So Skip ahead to the section on **A Better Way: Tool Calling** to just see the simple way to do it
 
 ## Implementing ReAct the hard, old-fashioned way
 
