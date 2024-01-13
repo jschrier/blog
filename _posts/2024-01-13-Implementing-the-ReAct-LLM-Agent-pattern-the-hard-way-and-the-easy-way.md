@@ -33,7 +33,7 @@ Your available actions are:
 
 Running locally on your computer is a program that takes the output, looks for a PAUSE / ACTION command, and then runs a local program appropriately. It computes the results and provides this as input to the chat session as an OBSERVATION.  Repeat this until
 
-**SPOILER ALERT:**  After implementing the "traditional" ReAct pattern (ala LangChain, etc.), we will find that it is not necessary, and that the use of tool calling (facilitated by LLMTools) allows us to dramatically simplify the code and get better results.  Essentially function calling/tool calling takes care of this iterative process for us.  So Skip ahead to the section on **A Better Way: Tool Calling** to just see the simple way to do it
+**SPOILER ALERT:**  After implementing the "traditional" ReAct pattern (ala LangChain, etc.), we will find that it is not necessary, and that the use of tool calling (facilitated by LLMTools) allows us to dramatically simplify the code and get better results.  Essentially function calling/tool calling takes care of this iterative process for us.  So skip ahead to the section on **A Better Way: Tool Calling** to just see the simple way to do it
 
 ## Implementing ReAct the hard, old-fashioned way
 
