@@ -33,7 +33,7 @@ That being said, there are many interesting ideas to explore.  The [promptinggui
 
 # Agents and Daemons
 
-[LLM-based agents](https://lilianweng.github.io/posts/2023-06-23-agent/) (including chemical examples like [ChemCrow)](https://arxiv.org/abs/2304.05376) as golem-like creations ... or independently minded daemons .
+[LLM-based agents](https://lilianweng.github.io/posts/2023-06-23-agent/) (including chemical examples like [ChemCrow)](https://arxiv.org/abs/2304.05376)) as golem-like creations ... or independently minded daemons .
 
 It maybe more insightful to use the [language of role-playing as a framework for discussing dialogue agents](https://doi.org/10.1038/s41586-023-06647-8)---as this still lets us use folk 
 psychological concepts (beliefs, desires, goals, ambitions, emotions, etc.) without falling into the trap of anthropomorphism. But there may be some parallels here as well, for example in the Aquinian/Scholastic theory angels (and I suspect Iamblicus' Proclus' treatment of various levels of divine entittes, but I need to do some more homework on this), insofar as they do not have the same types of mental states as humans.  (For example, according to Aquinas, angels cannot "learn".)
@@ -61,5 +61,6 @@ It's just a trick.  There's no magic.  [It's just linear algebra.](https://writi
     - Theories of divination (and the incompatibility of some of those with mechanical means)
     - [Valis' blog](https://mercurialminutes.substack.com) is a source of many rich ideas for this
         - [Occult agencies (angels, daemons, etc.) have often been accorded limited to no free-will...moral agency resides in the human conjurer (or deity) who commands them.](https://mercurialminutes.substack.com/p/machine-learning-goetia)  This is an interesting point when thinking about legal liability of AI systems. 
+* (13 Jan 2024) Anthony Grafton, [Magus: The Art of Magic from Faustus to Agrippa](https://amzn.to/48vl092)--"the magus in sixteenth-century Europe was a distinctive intellectual type, both different from and indebted to medieval counterparts as well as contemporaries like the engineer, the artist, the Christian humanist, and the religious reformer. Alongside these better-known figures, the magus had a transformative impact on his social world." 
 
 
