@@ -101,3 +101,4 @@ ToJekyll["Accurate and safe LLM numerical calculations using Interpreter and LLM
 # Parerga and paralipomena
 
 - (10 Jan 2024) The new [Mathematica 14.0](https://writings.stephenwolfram.com/2024/01/the-story-continues-announcing-version-14-of-wolfram-language-and-mathematica/) includes an experimental [LLMTool repository](https://resources.wolframcloud.com/LLMToolRepository). It includes a [Wolfram Language Evaluator](https://resources.wolframcloud.com/LLMToolRepository/resources/WolframLanguageEvaluator/) tool, but unclear if this is sandboxed at all for safety.
+  - That said, you might just use the [WolframAlpha LLMTool](https://resources.wolframcloud.com/LLMToolRepository) to perform safe evaluations (at the cost of having to make an external API request and wait for it, rather than crunching the numbers on your own kernel)
