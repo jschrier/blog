@@ -227,6 +227,24 @@ There is certainly more to learn from [Lilian Weng's review](https://lilianweng.
 
 Of course, much of this particular example would probably get solved in one shot with the [WolframAlpha LLMTool](https://resources.wolframcloud.com/LLMToolRepository/resources/WolframAlpha/).
 
+## Is that all there is?
+
+Without naming names, some articles in the chemistry agent literature seem to conflate ReAct with agent behavior.  But as [Lilian Weng points out](https://lilianweng.github.io/posts/2023-06-23-agent/), there are actually three components here:
+
+- **Planning:** The agent methodically tackles complex tasks by breaking  them down into smaller subgoals and continually refining its strategies through self-reflection.
+   - Chain of Thought prompting is the archetype here.
+   - Properly, ReAct can be considered as a form of subreflection.
+
+- **Memory:** The model utilizes short-term memory for immediate learning  and employs external resources for long-term information retention  and recall.
+   - Short term memory might be implemented by in context prompts (and the chain of thought/ReAct pattern does fine on this)
+   - Long term local memory through use of the [TextStorage](https://resources.wolframcloud.com/LLMToolRepository/resources/TextStorage/) / [TextRetrieval](https://resources.wolframcloud.com/LLMToolRepository/resources/TextRetrieval/) tools
+   - [RAG]( {{ site.baseurl }}{% post_url 2023-08-24-Retrieval-Augmented-Generation %}) is the model for external interfacing
+
+- **Tool Use:** The agent supplements its pre-trained knowledge by fetching additional information through external APIs, enabling up-to-date responses and access to specialized data.
+   - As implemented above.  There is tendency to conflate tool use with the previous items.
+
+
+
 ```mathematica
 ToJekyll["Implementing the ReAct LLM Agent pattern the hard way and the easy way", 
   "llm gpt4 gpt3.5 ai mathematica"]
