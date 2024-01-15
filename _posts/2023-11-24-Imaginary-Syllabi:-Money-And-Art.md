@@ -7,7 +7,7 @@ tags: art imaginary-syllabi finance
 *Premise:*  **An exploration of money and art through history. Topics include...**
 
 - Artistic objects in prehistory
-    - Fiore (The Economic Side of Rock Art: Concepts on the Production of Visual Images)[https://www.researchgate.net/publication/350326907_THE_ECONOMIC_SIDE_OF_ROCK_ART_CONCEPTS_ON_THE_PRODUCTION_OF_VISUAL_IMAGES]
+    - Fiore [The Economic Side of Rock Art: Concepts on the Production of Visual Images](https://www.researchgate.net/publication/350326907_THE_ECONOMIC_SIDE_OF_ROCK_ART_CONCEPTS_ON_THE_PRODUCTION_OF_VISUAL_IMAGES)
 
 - What do we know about art labor in the greco-roman world?
     - [Conference (2011):  The Economics of Roman Art](http://oxrep.classics.ox.ac.uk/conferences/oxrep_6_economics_roman_art/)
@@ -43,6 +43,6 @@ tags: art imaginary-syllabi finance
 
 - Tax avoidance
   - Zhivko [Concealed Masterpieces: The Intersection of Taxation and the Art Market (2022)](https://www.taxnotes.com/featured-analysis/concealed-masterpieces-intersection-taxation-and-art-market/2022/09/23/7f3ks)---a good introduction to these issues, non-tangible art, written by a law student.
-- Pierson [Art in the Age of Tax Avoidance (2023)](http://dx.doi.org/10.2139/ssrn.4391036)--*"Utilizing the near universe of tax filings, we document both the extent of donations of art to non-profit organizations in the U.S. and their use as a method of tax avoidance. "**
+- Pierson [Art in the Age of Tax Avoidance (2023)](http://dx.doi.org/10.2139/ssrn.4391036)--*"Utilizing the near universe of tax filings, we document both the extent of donations of art to non-profit organizations in the U.S. and their use as a method of tax avoidance."*
 - [Pandora Papers reveal 1,600 works of art 'secretly traded' in tax havens (2022)](https://www.theartnewspaper.com/2022/02/02/pandora-papers-reveal-1600-works-of-art-in-tax-havens)
   
