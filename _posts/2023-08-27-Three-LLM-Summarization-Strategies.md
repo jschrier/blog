@@ -233,4 +233,4 @@ ToJekyll["Three LLM Summarization Strategies", "ai mathematica llm"]
 
 # Parerga and paralipomena
 
-- (09 Jan 2024) The upcoming Mathematica 14.0 has a new [TextSummarize](https://reference.wolfram.com/language/ref/TextSummarize.html) function that provides control of context padding and window sizes, etc. if you do not want to deal with implementing this yourself.
+- (09 Jan 2024) The new Mathematica 14.0 has a new [TextSummarize](https://reference.wolfram.com/language/ref/TextSummarize.html) function that provides control of context padding and window sizes, etc. if you do not want to deal with implementing this yourself.

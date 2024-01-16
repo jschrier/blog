@@ -33,7 +33,7 @@ Your available actions are:
 
 Running locally on your computer is a program that takes the output, looks for a PAUSE / ACTION command, and then runs a local program appropriately. It computes the results and provides this as input to the chat session as an OBSERVATION.  Repeat this until
 
-**SPOILER ALERT:**  After implementing the "traditional" ReAct pattern (ala LangChain, etc.), we will find that it is not necessary, and that the use of tool calling (facilitated by LLMTools) allows us to dramatically simplify the code and get better results.  Essentially function calling/tool calling takes care of this iterative process for us.  So Skip ahead to the section on **A Better Way: Tool Calling** to just see the simple way to do it
+**SPOILER ALERT:**  After implementing the "traditional" ReAct pattern (ala LangChain, etc.), we will find that it is not necessary, and that the use of tool calling (facilitated by LLMTools) allows us to dramatically simplify the code and get better results.  Essentially function calling/tool calling takes care of this iterative process for us.  So skip ahead to the section on **A Better Way: Tool Calling** to just see the simple way to do it
 
 ## Implementing ReAct the hard, old-fashioned way
 
@@ -143,6 +143,8 @@ result = react[
 
 This type of traditional implementation of ReAct precedes function calling in OpenAI, necessitating this iterative model calling and specification of ACTIONS. It might still be useful when using other models that do not support function calling natively.  However, the [general opinion of random people on the internet](https://www.reddit.com/r/LangChain/comments/178lhnc/openai_functions_vs_langchain_react_agents/) is that the built-in tool calling in OpenAI gpt-3.5-turbo and gpt-4-* is much better and more robust, so there is **no reason to implement your own ReAct handling pattern**.  (FWIW, other models like [Anthropic's Claude 2.1 also support tool calling](https://www.anthropic.com/index/claude-2-1), and I suspect this will just be a common feature regardless of model choice)
 
+**Terminology:** OpenAI terms the capability to invoke a single function as *functions*, and the capability to invoke one or more funcitons as *tools*.
+
 Essentially, the code below starts from scratch.  We will need to first create some [LLMTool](http://reference.wolfram.com/language/ref/LLMTool.html) definitions, and then we will use a [LLMConfiguration](http://reference.wolfram.com/language/ref/LLMConfiguration.html) to bundle together the ReAct prompt and tools.  You can then run the entire inference in a single [LLMSynthesize](http://reference.wolfram.com/language/ref/LLMSynthesize.html), although I will also show how to do it with [ChatObject](http://reference.wolfram.com/language/ref/ChatObject.html) and [ChatEvaluate](http://reference.wolfram.com/language/ref/ChatEvaluate.html).
 
 ### Define LLMTool 
@@ -226,6 +228,40 @@ In our [introductory LLMTools post, where we implemented some basic chemistry to
 There is certainly more to learn from [Lilian Weng's review](https://lilianweng.github.io/posts/2023-06-23-agent/).
 
 Of course, much of this particular example would probably get solved in one shot with the [WolframAlpha LLMTool](https://resources.wolframcloud.com/LLMToolRepository/resources/WolframAlpha/).
+
+Other ReAct-style prompts
+   - [empirical philosophy](https://github.com/williamcotton/empirical-philosophy/blob/main/articles/how-react-prompting-works.md)
+   ```
+Answer the following question as best you can. You have access to tools.
+ALWAYS use the following format:
+
+Question: the input question you must answer
+Thought: you should always think about what to do
+Action: the tool and input you plan to call
+Observation: the result of the action
+... (this Thought/Action/Observation can repeat N times)
+Thought: I now know the final answer
+Final Answer: the final answer to the original input question
+Begin! Reminder to always use the exact characters `Final Answer` when responding.
+   ```
+
+## Is that all there is?
+
+Without naming names, some articles in the (chemistry) agent literature seem to conflate ReAct with agent behavior.  But as [Lilian Weng points out](https://lilianweng.github.io/posts/2023-06-23-agent/), there are actually three components here:
+
+- **Planning:** The agent methodically tackles complex tasks by breaking  them down into smaller subgoals and continually refining its strategies through self-reflection.
+   - Chain of Thought prompting ("Think step by step.") is the archetype here.
+   - Properly, ReAct can be considered as a form of self-reflection planning
+
+- **Memory:** The model utilizes short-term memory for immediate learning and employs external resources for long-term information retention  and recall.
+   - Short term memory might be implemented by in context prompts (and the chain of thought/ReAct pattern does fine on this)
+   - Long term local memory through use of the [TextStorage](https://resources.wolframcloud.com/LLMToolRepository/resources/TextStorage/) / [TextRetrieval](https://resources.wolframcloud.com/LLMToolRepository/resources/TextRetrieval/) tools
+   - [RAG]( {{ site.baseurl }}{% post_url 2023-08-24-Retrieval-Augmented-Generation %}) is the model for external interfacing
+
+- **Tool Use:** The agent supplements its pre-trained knowledge by fetching additional information through external APIs, enabling up-to-date responses and access to specialized data.
+   - As implemented above.  There is tendency to conflate tool use with the previous items.
+
+
 
 ```mathematica
 ToJekyll["Implementing the ReAct LLM Agent pattern the hard way and the easy way", 
