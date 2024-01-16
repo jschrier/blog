@@ -50,7 +50,7 @@ So the approximation is a good one.  If you are a hardass on significant figures
 
 ### Evaluation with default GPT-4
 
-We are going to do this programmatically, because I do not like the tedium of grading.  We define a base configuration using `gpt-4-1106-preview`` and return the result in a formatted way.  By default, [LLMSynthesize](http://reference.wolfram.com/language/ref/LLMSynthesize.html) uses T = 1, but we will set that explicitly for reproducibility:
+We are going to do this programmatically, because I do not like the tedium of grading.  We define a base configuration using `gpt-4-1106-preview` and return the result in a formatted way.  By default, [LLMSynthesize](http://reference.wolfram.com/language/ref/LLMSynthesize.html) uses T = 1, but we will set that explicitly for reproducibility:
 
 ```mathematica
 baseConfig = LLMConfiguration[
@@ -166,7 +166,7 @@ answers = parseAnswer /@ results
 (*{4.929, 5.43, 4.93, 4.93, 5.43, 4.93, 5.43, 5.071, 4.929, 4.929, 4.9281, 5.43, 4.93, 5.43, 4.93, 4.93, 4.93, 5.43, 5.43, 4.929}*)
 ```
 
-Amazing!  We get it right 12/20 = 60% (as compared to only 10% reported in Clark et al.) Maybe [GPT-4's dreams of attending medical school](https://doctortanc.substack.com/p/ai-llm-outperforms-physicians-in#:~:text=Key%20Findings,(59.1%25%20vs%2033.6%25).) have not been crushed by the gen chem exam.... Perhaps also worth noting, is that in their paper, only 32% of Gen Chem students and 38% of Analytical Chemistry students got this correct, even after instruction....so GPT-4 out of the box is doing better than the typical large Midwestern university. 
+Amazing!  We get it right 12/20 = 60% (as compared to only 10% reported in Clark et al.) Maybe [GPT-4's dreams of attending medical school](https://doctortanc.substack.com/p/ai-llm-outperforms-physicians-in#:~:text=Key%20Findings,(59.1%25%20vs%2033.6%25).) have not been crushed by the gen chem exam.... Perhaps also worth noting, is that in their paper, only 32% of Gen Chem students and 38% of Analytical Chemistry students got this correct, even after instruction....so GPT-4 out of the box is doing better than the typical large Midwestern university student. 
 
 Take a closer look at one of the results that GPT-4 got wrong:
 
@@ -224,7 +224,7 @@ The pH of the 0.25 M NH4Cl solution is approximately 5.43.
 ANSWER: 5.43
 ```
 
-The strategy looks OK, but it looks like some of the arithmetic went awry.  But...we wouldn't have a student do these calculations without a calculator (or at least a slide rule...) and neither should we expect a large *language* model to perform precise numerical calculations.  Fortunately, [in a previous post we showed how to give LLMs a calculator]({{ site.baseurl }}{% post_url 2024-01-09-Accurate-and-safe-LLM-numerical-calculations-using-Interpreter-and-LLMTools %}).  (As an aside, it would be functionally easier to just let the LLM use Wolfram Alpha, but we don't want to be accused of cheating by having this side tool.  However, in a practical sense, the ChatGPT web app easily lets you include this as a tool.)
+The strategy looks OK, but it looks like some of the arithmetic went awry.  But...we wouldn't have a student do these calculations without a calculator (or at least a slide rule...) and neither should we expect a large *language* model to perform precise numerical calculations.  Fortunately, [in a previous post we showed how to give LLMs a calculator]({{ site.baseurl }}{% post_url 2024-01-09-Accurate-and-safe-LLM-numerical-calculations-using-Interpreter-and-LLMTools %}).  (As an aside, it would be functionally easier to just let the LLM use the [Wolfram Alpha tool](https://resources.wolframcloud.com/LLMToolRepository/resources/WolframAlpha/), but we don't want to be accused of cheating by having this side tool that is stronger than a calculator.  However, in a practical sense, the ChatGPT web app easily lets you [include Wolfram Alpha as a plugin](https://www.wolfram.com/wolfram-plugin-chatgpt/).)
 
 ### If you give an LLM a calculator...
 
@@ -270,7 +270,7 @@ parseAnswer /@ %
 
 ![14p7ctuxlw0k6](/blog/images/2024/1/16/14p7ctuxlw0k6.png)
 
-**Comment:**  Results are just about the same (12/20 right answers), and we are getting a few cases where we do not get a numerical result returned.  Let's start by looking at the first error
+**Comment:**  Results are just about the same (12/20 right answers), and we are getting a few cases where we do not get a numerical result returned.  Let's start by looking at the first error:
 
 ```mathematica
 resultsQ3aCalc[[2]]
@@ -513,11 +513,11 @@ parseAnswer /@ %
 
 ![0lu451ca6cmey](/blog/images/2024/1/16/0lu451ca6cmey.png)
 
-We get 15/20 = 75% correct just using GPT-4 out of the box.  (The gateway error is a technical problem, probably because OpenAI doesn't like us banging on their door or the WiFi is dodgy at my house.) Remember for comparison, Clark *et al.* reported that only 18% of Gen Chem students and 0% of Analytical Chem students at the large Midwestern university answered this correctly, even after instruction, and GPT-3.5 was also 0%.  So we get a big jump just by using a more recent version of GPT-4.  
+We get 15/20 = 75% correct just using GPT-4 out of the box.  (The gateway error is a technical problem, probably because OpenAI doesn't like us banging on their door or the WiFi is dodgy at my house.) Remember for comparison, Clark *et al.* reported that only 18% of Gen Chem students and 0% of Analytical Chem students at the large Midwestern university answered this correctly, even after instruction, and GPT-3.5 was also 0%.  So again we get a big jump just by using a more recent version of GPT-4....but can we do better?  
 
-### How well does  GPT-4 perform (*with* calculators and reflection)?
+### How well does GPT-4 perform (*with* calculators and reflection)?
 
-This strategy worked well before...does it work well here too?
+This strategy worked well before...will it work well here too?
 
 ```mathematica
 resultQ5aReflectAndCalculate = ParallelTable[
@@ -607,7 +607,7 @@ parseAnswer /@ ParallelTable[
 (*{1.20412, 1.20412}*)
 ```
 
-These next 2 results are also perfect answers.  So again we have a perfect (20/20=100%) response (compared to only 0% for GPT-3.5 and Analytical Chem students, and 18% of Gen Chem students at the large Midwestern University in the Clark et al. paper.) Again, GPT-4 is at the head of its class.
+These next 2 results are also perfect answers.  So once again we have a perfect (20/20=100%) response (compared to only 0% for GPT-3.5 and Analytical Chem students, and 18% of Gen Chem students at the large Midwestern University studied by Clark et al.) Again, GPT-4 is at the head of its class.
 
 ```mathematica
 ToJekyll["GPT-4 does acid (base chemistry)", 
