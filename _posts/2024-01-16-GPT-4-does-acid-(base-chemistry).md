@@ -10,7 +10,7 @@ A recent paper (Clark et al. "Comparing the Performance of College Chemistry Stu
 
 Here is a sample problem, for which they only get 10% correct:
 
-*Q3 (acid):  Calculate the pH of 0.25 M NH4Cl. Kb for NH3 = 1.8 *10^-5.*
+**Q3 (acid):**  *Calculate the pH of 0.25 M NH4Cl. Kb for NH3 = 1.8 *10^-5.*
 
 **ANSWER:**  Set up an ICE table, etc. See [OpenStax](https://openstax.org/books/chemistry-2e/pages/14-4-hydrolysis-of-salts) if you are rusty on acid/base equilibrium calculations.
 
@@ -396,7 +396,7 @@ This result (17/20) is only marginally better than our first attempt where we di
 
 ### Reflect and calculate
 
-Now give the bot a calculator again:
+Now give the bot a calculator along with asking it to reflect on its answer:
 
 ```mathematica
 reflectAndCalculate = LLMConfiguration[
@@ -421,9 +421,9 @@ parseAnswer /@ %
 
 ## Another sample problem: Titration of a weak base by a strong acid
 
-The Clark et al. study reports GPT-3.5 (and analytical chemistry students) had a *complete* failure rate on the following problem:
+The Clark et al. study reports GPT-3.5 (and analytical chemistry undergraduate students) had a *complete* failure rate on the following problem:
 
-*If 25.0 mL of 0.25 M HNO3 is combined with 15.0 mL of 0.25 M CH3NH2, what is the pH? Kb for CH3NH2 = 4.38 * 10^-4
+**Q5a** *If 25.0 mL of 0.25 M HNO3 is combined with 15.0 mL of 0.25 M CH3NH2, what is the pH? Kb for CH3NH2 = 4.38 * 10^-4*
 
 ***Answer:**  There is a stoichiometric excess of 2.5 mmol of the strong acid titrant, so one can ignore the base ([see OpenStax](https://openstax.org/books/chemistry-2e/pages/14-7-acid-base-titrations))  The total volume of analyte and titrant is 40.0 mL, so just form the ratio to determine [H3O+] and calculate the pH:
 
