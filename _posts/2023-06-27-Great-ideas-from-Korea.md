@@ -16,11 +16,13 @@ Business and art ideas inspired by my recent trip to Korea...
 
 (themes: combined retail with cafe; "destination" cafes with some hook (animals, poop, etc.))
 
+(all of the below exist in Seoul, except for the chiguiro cafe)
+
 - skate store + cafe
 - fashion store + cafe
 - poop cafe
-- chiguiro cafe
-- raccoon cafe
+- chiguiro cafe (AFAIK, doesn't exist in Seoul, but [they exist in Tokyo!](https://twitter.com/SebastianBae/status/1746900059180994625))
+- raccoon cafe 
 - instagramable cafe
 - record (LP) bars
 

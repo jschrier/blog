@@ -36,7 +36,7 @@ tags: art imaginary-syllabi finance
         - art-secured lending
         - pricing auction guarantees.  
 
-- [Damian Hirst](https://en.wikipedia.org/wiki/Damien_Hirst)---money as an art form (Saatchi writeoffs, diamond covered skulls, )
+- [Damian Hirst](https://en.wikipedia.org/wiki/Damien_Hirst)---money as an art form (Saatchi tax writeoffs, diamond covered skulls, etc.)
 
 - [Banksy](https://en.wikipedia.org/wiki/Banksy) stunts: shredding paintings at auctions, paintings you can't buy, unprovenanced art
 - Conceptual art and land art (art you cannot "sell")

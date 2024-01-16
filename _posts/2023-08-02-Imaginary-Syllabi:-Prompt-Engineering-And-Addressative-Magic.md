@@ -63,4 +63,14 @@ It's just a trick.  There's no magic.  [It's just linear algebra.](https://writi
         - [Occult agencies (angels, daemons, etc.) have often been accorded limited to no free-will...moral agency resides in the human conjurer (or deity) who commands them.](https://mercurialminutes.substack.com/p/machine-learning-goetia)  This is an interesting point when thinking about legal liability of AI systems. 
 * (13 Jan 2024) Anthony Grafton, [Magus: The Art of Magic from Faustus to Agrippa](https://amzn.to/48vl092)--*"the magus in sixteenth-century Europe was a distinctive intellectual type, both different from and indebted to medieval counterparts as well as contemporaries like the engineer, the artist, the Christian humanist, and the religious reformer. Alongside these better-known figures, the magus had a transformative impact on his social world."* 
 
+# Practical guidance
+
+- COSTAR (with examples from [ref](https://levelup.gitconnected.com/a-comprehensive-guide-to-prompt-engineering-unveiling-the-power-of-the-costar-template-944897251101))
+    - **Context:** Embed relevant context within your prompt to guide the model’s understanding of the task.  *(e.g., Context: Analyze the sentiment of a user review for a movie.)*
+    - **Output Format:** Specify the desired format of the model’s response to align with your objectives. *(e.g., Output Format: Provide a sentiment label (positive, negative, or neutral) along with a brief justification.)*
+    - **Specifications: Clearly define the task specifications and constraints to guide the model’s focus.** *(e.g.,  Specifications: Focus on the overall sentiment without getting into specific details. Consider both explicit and implicit expressions.)*
+    - **Task Examples: Include task-specific examples in the prompt to illustrate the desired behavior.** *(e.g., Task Examples: If the user expresses joy about the story-line, the model should identify and label it as a positive sentiment.)*
+    - **Additional Information: Supplement the prompt with any additional information that enhances the model’s understanding.** *(e.g., Additional Information: The movie genre is a romantic comedy.)*
+    - **Restrictions: Set boundaries and restrictions to guide the model’s behavior within specific parameters.** *(e.g., Restrictions: Limit the response to a maximum of three sentences.)*
+
 
