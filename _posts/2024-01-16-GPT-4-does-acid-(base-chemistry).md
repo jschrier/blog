@@ -23,7 +23,7 @@ With[ (*solve for the change*)
     Kw = 10^-14}, 
    NSolveValues[Kw/Kb == (10^-7 + x)*x/(0.25 - x), x, PositiveReals]] 
  
--Log[10, % + 10^-7] (*evaluate pH*)
+-Log[10, % + 10^-7] (* evaluate pH *)
 
 (*{0.0000117349}*)
 
@@ -263,10 +263,6 @@ resultsQ3aCalc = ParallelTable[
 parseAnswer /@ %
 
 ```
-
-![0ykh0zfh5sd2m](/blog/images/2024/1/16/0ykh0zfh5sd2m.png)
-
-![1blcwhle4u8zx](/blog/images/2024/1/16/1blcwhle4u8zx.png)
 
 ![14p7ctuxlw0k6](/blog/images/2024/1/16/14p7ctuxlw0k6.png)
 
@@ -529,10 +525,6 @@ resultQ5aReflectAndCalculate = ParallelTable[
 parseAnswer /@ %
 ```
 
-![0v021ykmhe3ws](/blog/images/2024/1/16/0v021ykmhe3ws.png)
-
-![14wbw83hmggg3](/blog/images/2024/1/16/14wbw83hmggg3.png)
-
 ![0xe20bgn6b661](/blog/images/2024/1/16/0xe20bgn6b661.png)
 
 **Comment:**  18/20 ran without a hitch!  Let's take a look at the two failures:
@@ -610,6 +602,5 @@ parseAnswer /@ ParallelTable[
 These next 2 results are also perfect answers.  So once again we have a perfect (20/20=100%) response (compared to only 0% for GPT-3.5 and Analytical Chem students, and 18% of Gen Chem students at the large Midwestern University studied by Clark et al.) Again, GPT-4 is at the head of its class.
 
 ```mathematica
-ToJekyll["GPT-4 does acid (base chemistry)", 
-  "science teaching gpt4 llm mathematica"]
+ToJekyll["GPT-4 does acid (base chemistry)", "science teaching gpt4 llm mathematica"]
 ```
