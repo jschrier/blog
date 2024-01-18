@@ -231,7 +231,8 @@ Of course, much of this particular example would probably get solved in one shot
 
 Other ReAct-style prompts
    - [empirical philosophy](https://github.com/williamcotton/empirical-philosophy/blob/main/articles/how-react-prompting-works.md)
-   ```
+
+```
 Answer the following question as best you can. You have access to tools.
 ALWAYS use the following format:
 
@@ -243,7 +244,7 @@ Observation: the result of the action
 Thought: I now know the final answer
 Final Answer: the final answer to the original input question
 Begin! Reminder to always use the exact characters `Final Answer` when responding.
-   ```
+```
 
 ## Is that all there is?
 
