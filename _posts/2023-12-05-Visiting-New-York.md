@@ -139,3 +139,4 @@ It is estimated that you could eat out for breakfast, lunch, and dinner at a dif
 
 - [Thrillist NYC](https://www.thrillist.com/new-york)
 - [Gothamist](https://gothamist.com)---more politics and local news oriented, but sometimes talks about events
+- [Eater NY](https://ny.eater.com) -- food news, at all price points
