@@ -38,3 +38,9 @@ tags: ai imaginary-syllabi llm teaching mathematica
 # Applications
 
 - Analyzing the [passage of time in literary narrative using bag of words and LLMs](https://tedunderwood.com/2023/03/19/using-gpt-4-to-measure-the-passage-of-time-in-fiction/)
+
+
+# Guest speakers
+
+- [Friar Paolo Benanti, TOR](https://en.wikipedia.org/wiki/Paolo_Benanti): vatican advisor on AI --- alas, it appears his writings are all in Italian
+
