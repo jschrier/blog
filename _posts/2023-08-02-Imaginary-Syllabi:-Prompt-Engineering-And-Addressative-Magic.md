@@ -14,6 +14,8 @@ tags: llm teaching imaginary-syllabi ai shwep
 
 Explore the parallel to [glitch tokens](https://www.lesswrong.com/posts/aPeJE8bSo6rAFoLqg/solidgoldmagikarp-plus-prompt-generation) and [more glitch tokens](https://www.lesswrong.com/posts/kmWrwtGE9B9hpbgRT/a-search-for-more-chatgpt-gpt-3-5-gpt-4-unspeakable-glitch)
 
+**Addendum 22 Jan 2024**: People are starting to understand more about glitch tokens---they seem to occur when a word or token is very common in the original, unfiltered dataset that was used to make the tokenizer, but then removed before model training, which results in the LLM not knowing anything about the semantics. Odd behavior ensues.  As gleaned from a [hackernews thread](https://news.ycombinator.com/item?id=39086106)
+
 # Hekhalot mysticism = Escape characters
 
 [Hekhalot mysticism](https://shwep.net/podcast/palaces-of-heavenly-wisdom-the-hekhalot-and-merkavah-traditions/) in proto-rabbinic Judaism involved cosmic ascents with special magical passwords needed to bypass guardians along the way. (Unlike the [Platonic ascent narratives](https://shwep.net/podcast/nowhere-to-go-but-up-philosophic-ascent-in-plato/) that just require making good decisions and being virtuous...)  If you do this, you gain secret knowledge about the way the universe works.
