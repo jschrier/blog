@@ -8,7 +8,7 @@ Some things that I have found useful in generating figures for scientific public
 
 ```mathematica
 (* initialization *)
-$PlotTheme = "Scientific"; (*sets defaults for Frame->True, etc.)
+$PlotTheme = "Scientific"; (*sets defaults for Frame->True, etc. *)
 singleColumn = 1.38*3.35*72; (*APL single column width, in inches*)
 
 (* usage with manual placement of inset labels *)
@@ -17,7 +17,7 @@ Plot[
    FrameLabel -> {"foo", "bar"},
    ImageSize -> singleColumn, 
    LabelStyle -> {12, Black},
-   Epilog -> Inset[Text[Style["(a)", FontSize -> 12]], ImageScaled[{0.9, 0.9}]]
+   Epilog -> Inset[Text[Style["(a)", FontSize -> 12]], ImageScaled[{0.9, 0.9}]]]
 
 (* automating label placement *)
 ResourceFunction["PlotGrid"][
