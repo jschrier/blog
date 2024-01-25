@@ -12,6 +12,7 @@ Business and art ideas inspired by my recent trip to northern Italy...
 - Really, we have 3d printing ...why isn't everything covered with the equivalent of Baroque/Rococo ornamentation?  Bauhaus was about coming up with good design that was compatible with machine production...but the nature of our machines have changed, so our design can change with it.
 - **Barokea**: 3d printed baroque furniture retrofits that you can add to Ikea products 
 - wall-scale inkjet printers (e.g., [TheWallPrinter](https://thewallprinter.com/en/) and [VerticalPrinters](https://verticalprinters.com)) that can print interior walls with tromp l'oeil decorations (like late baroque frescos) or outdoor walls (like Südtirol house painting of sundials)
+    - *Addendum 22 Jan 2024:** A critical review of the [Wallpen vertical printer](http://guillaumeslizewicz.com/posts/2023/vertical_printer/) via [hacker news](https://news.ycombinator.com/item?id=39079335)
 - use said 3d scanner to repair chess sets that are missing pieces, as found in random Genovese hotels (scan pieces and then print a replacement to send back)...inspired by an afternoon chess game at the bar of the [Bristol Palace in Genoa](https://maps.app.goo.gl/xuxaS6vhDQgbjGUK6)
 - [digital ceramic printing](https://www.ceramicprinting.com/ceramic-and-glass-printing-systems/), and subsequent use for tile-graffiti...
 

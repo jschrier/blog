@@ -14,6 +14,8 @@ tags: llm teaching imaginary-syllabi ai shwep
 
 Explore the parallel to [glitch tokens](https://www.lesswrong.com/posts/aPeJE8bSo6rAFoLqg/solidgoldmagikarp-plus-prompt-generation) and [more glitch tokens](https://www.lesswrong.com/posts/kmWrwtGE9B9hpbgRT/a-search-for-more-chatgpt-gpt-3-5-gpt-4-unspeakable-glitch)
 
+**Addendum 22 Jan 2024**: People are starting to understand more about glitch tokens---they seem to occur when a word or token is very common in the original, unfiltered dataset that was used to make the tokenizer, but then removed before model training, which results in the LLM not knowing anything about the semantics. Odd behavior ensues.  As gleaned from a [hackernews thread](https://news.ycombinator.com/item?id=39086106). 
+
 # Hekhalot mysticism = Escape characters
 
 [Hekhalot mysticism](https://shwep.net/podcast/palaces-of-heavenly-wisdom-the-hekhalot-and-merkavah-traditions/) in proto-rabbinic Judaism involved cosmic ascents with special magical passwords needed to bypass guardians along the way. (Unlike the [Platonic ascent narratives](https://shwep.net/podcast/nowhere-to-go-but-up-philosophic-ascent-in-plato/) that just require making good decisions and being virtuous...)  If you do this, you gain secret knowledge about the way the universe works.
@@ -36,7 +38,7 @@ That being said, there are many interesting ideas to explore.  The [promptinggui
 [LLM-based agents](https://lilianweng.github.io/posts/2023-06-23-agent/) (including chemical examples like [ChemCrow)](https://arxiv.org/abs/2304.05376)) as golem-like creations ... or independently minded daemons .
 
 It maybe more insightful to use the [language of role-playing as a framework for discussing dialogue agents](https://doi.org/10.1038/s41586-023-06647-8)---as this still lets us use folk 
-psychological concepts (beliefs, desires, goals, ambitions, emotions, etc.) without falling into the trap of anthropomorphism. But there may be some parallels here as well, for example in the Aquinian/Scholastic theory angels (and I suspect Iamblicus' Proclus' treatment of various levels of divine entities, but I need to do some more homework on this), insofar as they do not have the same types of mental states as humans.  (For example, according to Aquinas, [following Augustine (S.T. I.58.1)](https://www.newadvent.org/summa/1058.htm#article7), angels cannot "learn". (the intellect of the angel is not in potentiality w.r.t. certain forms of knowledge)
+psychological concepts (beliefs, desires, goals, ambitions, emotions, etc.) without falling into the trap of anthropomorphism. But there may be some parallels here as well, for example in the Aquinian/Scholastic theory angels (and I suspect Iamblicus' Proclus' treatment of various levels of divine entities, but I need to do some more homework on this), insofar as they do not have the same types of mental states as humans.  For example, according to Aquinas, [following Augustine (S.T. I.58.1)](https://www.newadvent.org/summa/1058.htm#article7), angels cannot "learn". (the intellect of the angel is not in potentiality w.r.t. certain forms of knowledge)
 
 
 # É solo un Trucco! From magic to natural magic to science...
