@@ -4,14 +4,14 @@ date: 2024-01-26
 tags: ml mathematica
 ---
 
-Pairwise difference regression (aka twin regression) is an underappreciated meta-ML approach.  The idea is to to take pairs of inputs `(x1, x2) and train your model to predict `y1-y2``.  One advantage is that this gives you N^2 training points (handy for those small-data science problems). At inference time, you select a sample of known reference `x->y`` data, and generate an estimate of the distribution of pairwise distances from those references for the point of interest.  Thus, the second advantage is that you get an approximate form of uncertainty quantification without having to train multiple models. Wetzel et al described this using neural networks (which they denote as *twin neural networks)* in [10.1002/ail2.78](https://dx.doi.org/10.1002/ail2.78).  Tynes et al described this strategy using tree methods in [10.1021/acs.jcim.1c00670](https://dx.doi.org/10.1021/acs.jcim.1c00670).  But going beyond this, Wetzel et al. also describe a semisupervised version which trains on triples ([doi:10.1088/2632-2153/ac9885](https://dx.doi.org/10.1088/2632-2153/ac9885)) --the supervised examples have the typical MSE loss and the unspervised examples are evaluated for their internal consistency of the predictions (they should sum to zero).   This gives you more data to train on and effectively regularizes the network for transductive (try to predict the labels of the unsupervised examples seen in training) or inductive (predict labels of examples that have not been seen at all), giving better performance.  **A minimal working implementation and demonstration of the idea...**
+Pairwise difference regression (aka twin regression) is an underappreciated meta-ML approach.  The idea is to to take pairs of inputs `(x1, x2)` and train your model to predict `y1-y2`.  One advantage is that this gives you `N^2` training points (handy for those small-data science problems). At inference time, you select a sample of known reference `x->y` data, and generate an estimate of the distribution of pairwise distances from those references for the point of interest.  Thus, the second advantage is that you get an approximate form of uncertainty quantification without having to train multiple models. Wetzel et al described this using neural networks (which they denote as *twin neural networks)* in [10.1002/ail2.78](https://dx.doi.org/10.1002/ail2.78).  Tynes et al describe a similar strategy using tree methods in [10.1021/acs.jcim.1c00670](https://dx.doi.org/10.1021/acs.jcim.1c00670).  But going beyond this, Wetzel et al. also describe a semisupervised version which trains on triples ([doi:10.1088/2632-2153/ac9885](https://dx.doi.org/10.1088/2632-2153/ac9885)) --the supervised examples have the typical MSE loss and the unspervised examples are evaluated for their internal consistency of the predictions (they should sum to zero).   This gives you more data to train on and effectively regularizes the network for transductive (try to predict the labels of the unsupervised examples seen in training) or inductive (predict labels of examples that have not been seen at all), giving better performance.  **A minimal working implementation and demonstration of the idea...**
 
 ## General setup: Model Architecture and Sample Data
 
 To be clear, this is not intended as a step-by-step reproduction of their work.  In fact, I did not even use their code as a reference, I just thought through it based on the paper.  And I do not mimic their specific training examples. 
 
 **Comment:**  Reference 24 in [their paper](https://dx.doi.org/10.1088/2632-2153/ac9885) alleges to point to the source code, but it is to the wrong repository (!)
-The correct repository with their tensorflow implementation is https://github.com/sjwetzel/PublicSemiSupervisedTNNR 
+The correct repository with their tensorflow implementation is [https://github.com/sjwetzel/PublicSemiSupervisedTNNR] 
 
 First, some general housekeeping.  For demonstration we will use the same network to evaluate the supervised TNN and the semi-supervised (transductive) approach--a vanilla 2-layer model and the Wine Quality dataset.  We will take only 1/3 of the data as labeled for training, standardizing the input values (Wetzel at all map this to [-1, +1] instead, but it accomplishes the same general idea):
 
@@ -36,7 +36,7 @@ First, some general housekeeping.  For demonstration we will use the same networ
 
 ## Supervised Learning (Baseline Twin Regressor)
 
-We will start by implementing the simple supervised twin neural network regressor:
+We will start by implementing the simple supervised twin neural network regressor.
 
 ### Train the Model
 
@@ -198,7 +198,7 @@ trainedSemisupervisedTNN = NetTrain[
 Use the same functions developed for the simple pair regressor to make a prediction--the only difference is that we have to extract the TNN layers out  of the trained network because it explicitly includes the loss functions and 
 
 ```mathematica
-semisupervisedTNNRegressor = prepareNetwork@NetExtract[trainedSemisupervisedTNN, {"tnn", "Net"}]
+semisupervisedTNNRegressor = prepareNetwork @ NetExtract[trainedSemisupervisedTNN, {"tnn", "Net"}]
 ```
 
 ![0mkrxpk3okhnw](/blog/images/2024/1/26/0mkrxpk3okhnw.png)
