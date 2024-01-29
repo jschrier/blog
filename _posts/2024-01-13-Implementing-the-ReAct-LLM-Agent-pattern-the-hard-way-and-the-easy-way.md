@@ -268,3 +268,7 @@ Without naming names, some articles in the (chemistry) agent literature seem to 
 ToJekyll["Implementing the ReAct LLM Agent pattern the hard way and the easy way", 
   "llm gpt4 gpt3.5 ai mathematica"]
 ```
+# Parerga and Paralipomena
+
+- (26 Jan 2024) OpenAI defines an AI system’s *agenticness* as "the degree to which it can adaptably achieve complex goals in complex environments with limited direct supervision" .  
+   - [Practices for Governing Agentic AI Systems](https://cdn.openai.com/papers/practices-for-governing-agentic-ai-systems.pdf)

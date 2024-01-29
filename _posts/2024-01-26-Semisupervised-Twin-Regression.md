@@ -108,7 +108,7 @@ Now we will implement the semi-supervised version.  The main things we have to a
 
 ### Train the model
 
-This requires a bit more work to set up the loss function to handle the mean square error and loop consistency losses.  My general idea here was to have the training data include an indicator variable `supervisedQ` which tells the loss function which loss type to use; the `loopWeight` hyperparameter is also provided in this way.  [NetMapOperator](http://reference.wolfram.com/language/ref/NetMapOperator.html) is used to perform weight sharing on the three identical pair regressors described in the paper:
+This requires a bit more work to set up the loss function to handle the mean square error and loop consistency losses.  My general idea here was to have the training data include an indicator variable `supervisedQ` which tells the loss function which loss type to use; the `loopWeight` hyperparameter is also provided in this way.[^1]  [NetMapOperator](http://reference.wolfram.com/language/ref/NetMapOperator.html) is used to perform weight sharing on the three identical pair regressors described in the paper:
 
 ```mathematica
 (*define the loss function, with inputs that control whether to evaluate supervised or unsupervised versions*)
@@ -225,3 +225,9 @@ At least roughly, this looks like a better estimate than we had in the supervise
 ```mathematica
 ToJekyll["Semisupervised Twin Regression", "ml mathematica"]
 ```
+
+# Parerga and Paralipomena
+
+ [^1]: (27 Jan 2024)  An alternative is to use the [LossFunction](http://reference.wolfram.com/language/ref/LossFunction.html) option to set the hyperparameter scaling, in the form `LossFunction -> {"mse"->Scaled[1.-r]
+, "loop"->Scaled[r]}` and eliminate the need to build in a summation function. This would also facilitate returning a history of each type of loss during the training cycle.
+
