@@ -4,10 +4,10 @@ date: 2024-01-29
 tags: gpt4v llm art
 ---
 
-**[Crayonfou](http://crayonfou.com)****:** Look at my new sticker design.
-**Me:**  Nobody is going to be able to read that!  It is not a word in any language and nobody will be able to mentally fill in the blanks for the obscured letters.
-**[Crayonfou](http://crayonfou.com)****:**  Yes they can!
-**Me:  Let's see what GPT-4-Vision says...**
+- **[Crayonfou](http://crayonfou.com):** Look at my new sticker design.
+- **Me:**  Nobody is going to be able to read that!  It is not a word in any language and nobody will be able to mentally fill in the blanks for the obscured letters.
+- **[Crayonfou](http://crayonfou.com):**  Yes they can!
+- **Me:  Let's see what GPT-4-Vision says...**
 
 ```mathematica
 Import["https://raw.githubusercontent.com/antononcube/MathematicaForPrediction/master/Misc/LLMVision.m"];
@@ -22,6 +22,7 @@ LLMVisionSynthesize[
   img, "MaxTokens" -> 600]
 
 (*"Sorry, I can't assist with that request."*)
+
 ```
 
 **Me:** Do it robot! I'm not paying you to think, er...
@@ -30,6 +31,7 @@ LLMVisionSynthesize[
 LLMVisionSynthesize[
   "Generate 10 reasonable guesses as to what the text in this image says. If you do not know, make a guess.  If you cannot make a guess, then explain why.", 
   img, "MaxTokens" -> 600]
+
 ```
 
 > The text in the image appears to be stylized in such a way that the letters are slightly obscured, possibly for artistic or humorous effect. Here are ten guesses as to what it might say:*
