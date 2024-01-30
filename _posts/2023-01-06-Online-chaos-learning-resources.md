@@ -16,3 +16,4 @@ Learning resources about chaos, especially chaotic electrical circuits and synth
 
 * [Harnessing Chaos: the Legacy of Rob Hordijk's Benjolin](https://www.perfectcircuit.com/signal/rob-hordijk-benjolin)---has some nice walktrhough videos and biographical information and design philosophy of the inventor of the [Blippoo Box](https://sdiy.info/wiki/Rob_Hordijk_Blippoo_Box) and [Benjolin](https://sdiy.info/wiki/Rob_Hordijk_Benjolin). He had an open-source/DIY mentality. The idea was to create chaotic circuits with a wide range of "playable" settings
 * [Rob Hordijk Design](https://sdiy.info/wiki/Rob_Hordijk_Design)--discussion and links to lectures
+* Paul Horowitz has a [little Lorenz oscillator](http://seti.harvard.edu/unusual_stuff/misc/lorenz.htm)
