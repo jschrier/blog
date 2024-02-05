@@ -53,6 +53,7 @@ There's clearly a shadow curriculum here, which is teaching students how to know
     - [Niccolo Tartaglia's wine-dilution problem](https://puzzling.stackexchange.com/questions/28776/turning-wine-into-water/28781) from "General Trattato di Numeri" (1556) 
     - *I was inspired to add these topics after seeing the example of * determining the pH of a sample of pinot noir with a noisy pH meter in [Cory Simon's recent tutorial on Bayesian inverse problems](https://doi.org/10.1063/5.0154773)
 - (Experimental) Archeology: [Understanding ancient Roman vinification by reference to modern georgian winemaking practice](https://dx.doi.org/10.15184/aqy.2023.193)---and an excuse to drink some Georgian wine.
+- Operations Research/Logistics:  [Wine transportation](https://www.dhl.com/global-en/delivered/globalization/the-art-of-wine-transportation.html)
 
 # Example tasting topics ("labs")
 
