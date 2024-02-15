@@ -33,7 +33,10 @@ I saw some work by [August Muth](https://www.augustmuth.com/about) in the [Vlade
 # Gadgets
 
 - [LitiHolo](https://www.litiholo.com/3d-hologram-printer.html) print holograms
-- [LookingGlass Factory](https://lookingglassfactory.com) digital light-field display---send your Unity/Blender/etc. models to this to view.  Small size is $300, large montiors available. Based in BK
+- [LookingGlass Factory](https://lookingglassfactory.com) digital light-field display---send your Unity/Blender/etc. models to this to view.  Small size is $300, large monitors available. Based in BK
+
+# Supplies
+- [International Holographics](https://www.integraf.com) sells a variety of holographic kits, lasers, film, books, etc.
 
 # Other ideas
 
