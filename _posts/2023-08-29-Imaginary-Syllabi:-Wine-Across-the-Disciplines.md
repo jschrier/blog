@@ -34,8 +34,11 @@ There's clearly a shadow curriculum here, which is teaching students how to know
 - Pyschology: Anchoring effects on the perception of wine quality, inability to perceive difference between red and white wine, .... [review article on wine psychology, basic and applied (2020)](https://cognitiveresearchjournal.springeropen.com/articles/10.1186/s41235-020-00225-6)
 - Psychology/Neurology: Addiction
 - Sociology: Class and wine throughout history; the invention of "wine culture" 
-- Chemistry: What does barrel aging do?
-- Organic chemistry: Relating [wine aromas by sniffing them](https://www.lenez.com/en/kits/wine/masterkit_54) to individual molecules and molecule types; basic organic nomenclature 
+- Chemistry: 
+    - What does barrel aging do?
+    - Analytical  chemistry:  [Acid-base and precipitation equilbria of potassium hydrogen tartarate in wine](https://doi.org/10.1021/ed081p94)...with a possible lab experiment, or at least some equilibrium calculation
+    - Organic chemistry: Relating [wine aromas by sniffing them](https://www.lenez.com/en/kits/wine/masterkit_54) to individual molecules and molecule types; basic organic nomenclature 
+
 - Business:  Guest speaker winemaker
 - Statistics:  ["Lady tasting tea" problems in statistics](https://en.wikipedia.org/wiki/Lady_tasting_tea), and how to make sense of wine ranking surveys, taste tests, etc.
 - Literature:  So many options to choose from....
