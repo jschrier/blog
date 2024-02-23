@@ -53,3 +53,7 @@ Describe how these ideas relate to the use of large-language models (such as Cha
 - The relevance to [Surfaces and Essences](https://amzn.to/48gL074) is to think about prompting strategies that draw on analogies 
 
 - Copycat articles: [https://pcl.sitehost.iu.edu/rgoldsto/courses/concepts/copycat.pdf ]
+
+# Parerga and paralipomena
+
+- [SciMON: Scientific Inspiration Machines Optimized for Novelty (2024)](https://arxiv.org/abs/2305.14259) is sort of a modern implementation of this idea.  Use your favorite LLM to find semantic neighbors, and then have a *retrieve-compare-update* scheme that returns new ideas 
