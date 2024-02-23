@@ -7,7 +7,7 @@ tags: ai leibniz llm gpt4
 
 Richard Halpern's *[Leibnizing: A Philosopher in Motion](https://amzn.to/3T8GHGN)* *(2023)* in Chapter 22 discusses [Douglas Hofstadter's](https://en.wikipedia.org/wiki/Douglas_Hofstadter) "[Leibnizian](https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz)" modes of though.  **Some notes on fluid concepts and how they might relate to LLM use...**
 
-Briefly summarize the following websites:
+**GPT4>> Briefly summarize the following websites:**
 - https://en.wikipedia.org/wiki/Copycat_(software)
 - https://en.wikipedia.org/wiki/Fluid_Concepts_and_Creative_Analogies
 - https://www.amazon.com/Surfaces-Essences-Analogy-Fuel-Thinking/dp/0465018475 
@@ -46,7 +46,7 @@ Describe how these ideas relate to the use of large-language models (such as Cha
 > 
 > In essence, the way large language models function is reminiscent of Hofstadter's view of human cognition: complex, parallel, and heavily reliant on the formation and use of analogies. These models don't 'think' in the human sense, but they simulate a form of understanding by leveraging statistical patterns in data, akin to how Hofstadter describes the human brain's ability to perceive, categorize, and ultimately make analogies.
 
-Schrier adds:  
+# Schrier adds:  
 
 - More explicitly, the analogy I see here is in the use of memory storage (either as RAG or something else) and tool use, with the LLM serving the role of a type of working memory.
 
