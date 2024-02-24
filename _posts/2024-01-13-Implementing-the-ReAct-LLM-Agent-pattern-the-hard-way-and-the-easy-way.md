@@ -6,7 +6,7 @@ tags: llm gpt4 gpt3.5 ai mathematica
 
 [ReAct prompting](https://www.promptingguide.ai/techniques/react) is a way to have large language models (LLM) combine reasoning traces and task-specific actions in an interleaved manner to use external programs and solve problems.  In effect, the LLM acts as an *agent* that combines tools to solve a problem.  **Let's implement it from scratch...**
 
-As usual [Lilian Weng has an authoritative introductory review (of agent-based strategies in general](https://lilianweng.github.io/posts/2023-06-23-agent/), not just ReAct). which is probably better than reading the primary articles.
+As usual [Lilian Weng has an authoritative introductory review (of agent-based strategies in general](https://lilianweng.github.io/posts/2023-06-23-agent/), not just ReAct. which is probably better than reading the primary articles.
 
 Anyway, here is the original article :
 

@@ -604,3 +604,11 @@ These next 2 results are also perfect answers.  So once again we have a perfect 
 ```mathematica
 ToJekyll["GPT-4 does acid (base chemistry)", "science teaching gpt4 llm mathematica"]
 ```
+
+# Parerga and Paralipomena
+
+- Reina et al (2024), [PLATA: Design of an Online Platform for Chemistry Undergraduate Fully Automated Assignments](https://doi.org/10.1021/acs.jchemed.3c00962) generates open-ended chemistry questions throughout the Gen Chem II curriculum.  
+     - 13 assignments, each containing 10 questions.  
+     - This could be a fun way to automate training/testing LLMs on gen-chem capability...from their [webpage](https://proyectoplata.com) it seems they also have Gen Chem I and analytical chemistry materials too.
+     - [Corresponding author Antonio Reina](mailto:antonio.reina.0711@quimica.unam.mx) and [Miguel Reina](mailto: mreina.2404@quimica.unam.mx)
+
