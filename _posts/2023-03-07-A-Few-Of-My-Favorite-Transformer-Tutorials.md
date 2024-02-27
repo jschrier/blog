@@ -10,4 +10,5 @@ So, you want to learn about [transformer models](https://en.wikipedia.org/wiki/T
 - Jay Alammar [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/): This seems to be perenially popular on hackernews...I guess if you are into pictures and youtube videos it would be your thing.  Included here for completeness, but I prefer the two above
 - My favorite [My Favorite Things](https://www.youtube.com/watch?v=UlFNy9iWrpE) is Coltrane, naturally, but that's a story for another post. 
 - *Addendum: 15 Mar 2023*:  [FastGPT](https://ondrejcertik.com/blog/2023/03/fastgpt-faster-than-pytorch-in-300-lines-of-fortran/)--GPT-2 in 300 lines of Fortran.  'Nuff said.
-- *Addendum: 15 Jan 2023*: [Random Transformer](https://osanseviero.github.io/hackerllama/blog/posts/random_transformer/) Nicely worked simple example, multiply the matrices yourself for concreteness. 
+- *Addendum: 15 Jan 2024*: [Random Transformer](https://osanseviero.github.io/hackerllama/blog/posts/random_transformer/) Nicely worked simple example, multiply the matrices yourself for concreteness. 
+- *Addendum: 24 Feb 2024*: [Implement GPT-2 in an Excel Spreadsheet](https://spreadsheets-are-all-you-need.ai).  This is just the thing you need to do to build your skills for the [Excel World Championships](https://fmworldcup.com/excel-esports/microsoft-excel-world-championship/)
