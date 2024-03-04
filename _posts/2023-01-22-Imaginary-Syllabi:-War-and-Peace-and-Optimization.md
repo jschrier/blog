@@ -26,6 +26,7 @@ A course for non-math majors on optimization and its role in hot- and cold-wars.
 * Presh Talwar, [The Joy of Game Theory](https://amzn.to/3ZXPFrt) --- essays about game theory topics for a popular audience
 * Ken Binmore, [Playing for Real: A Text on Game Theory](https://amzn.to/3iXl7Wk) --advanced undergraduate course on game theory for economists and social scientists
 * O'Conner & Robertson (1996) [History of matrices and determinants (website)](https://mathshistory.st-andrews.ac.uk/HistTopics/Matrices_and_determinants/)
+* [Marginal University: Economic History of the Soviet Union (online course)](https://mru.org/economic-history-soviet-union)---a 41 video course, but maybe particular selections are useful for our purpose
 
 # Other books on reserve
 
