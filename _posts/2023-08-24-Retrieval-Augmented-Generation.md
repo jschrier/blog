@@ -190,3 +190,4 @@ As you can see, this has reworded and paraphrased the retrieved text to answer t
 # Parerga and Paralipomena
 
 - [HYDE](https://arxiv.org/abs/2212.10496) is a strategy whereby you ask your generative model to create possible answers to the question (it doesn't matter whether they are right or wrong), and then you use the embeddings of those generated sentences to perform the retrieval.  The idea here is that the the embedding of the question and the embedding of an answer are likely to be different, and you will be more likely to retrieve a relevant answer text if you compare it to other answer-y type values
+- The new [GPTTokenizer resource function](https://resources.wolframcloud.com/FunctionRepository/resources/GPTTokenizer/) facilitates token counting
