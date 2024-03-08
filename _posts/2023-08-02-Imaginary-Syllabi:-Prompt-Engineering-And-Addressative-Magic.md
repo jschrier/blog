@@ -77,3 +77,4 @@ It's just a trick.  There's no magic.  [It's just linear algebra.](https://writi
 - The [fabric repository](https://github.com/danielmiessler/fabric?tab=readme-ov-file#just-use-the-patterns) has some useful prompting patterns for analyzing documents, etc.
 
 
+
