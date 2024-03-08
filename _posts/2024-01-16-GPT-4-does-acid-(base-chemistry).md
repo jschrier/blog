@@ -612,3 +612,5 @@ ToJekyll["GPT-4 does acid (base chemistry)", "science teaching gpt4 llm mathemat
      - This could be a fun way to automate training/testing LLMs on gen-chem capability...from their [webpage](https://proyectoplata.com) it seems they also have Gen Chem I and analytical chemistry materials too.
      - [Corresponding author Antonio Reina](mailto:antonio.reina.0711@quimica.unam.mx) and [Miguel Reina](mailto: mreina.2404@quimica.unam.mx)
 
+- A more "professional" and polished version of this blog post will appear in the *Journal of Chemical Education* 
+     - [Supporting Information (notebookarchive.org)](https://notebookarchive.org/2024-03-0jlwh6u)  This also contains the outputs generated from all of the variations. 

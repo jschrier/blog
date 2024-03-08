@@ -74,5 +74,6 @@ It's just a trick.  There's no magic.  [It's just linear algebra.](https://writi
     - **Task Examples:** Include task-specific examples in the prompt to illustrate the desired behavior. *(e.g., Task Examples: If the user expresses joy about the story-line, the model should identify and label it as a positive sentiment.)*
     - **Additional Information:** Supplement the prompt with any additional information that enhances the model’s understanding. *(e.g., Additional Information: The movie genre is a romantic comedy.)*
     - **Restrictions:** Set boundaries and restrictions to guide the model’s behavior within specific parameters. *(e.g., Restrictions: Limit the response to a maximum of three sentences.)*
+- The [fabric repository](https://github.com/danielmiessler/fabric?tab=readme-ov-file#just-use-the-patterns) has some useful prompting patterns for analyzing documents, etc.
 
 
