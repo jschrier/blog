@@ -273,3 +273,4 @@ ToJekyll["Implementing the ReAct LLM Agent pattern the hard way and the easy way
 - (26 Jan 2024) OpenAI defines an AI system’s *agenticness* as "the degree to which it can adaptably achieve complex goals in complex environments with limited direct supervision" .  
    - [Practices for Governing Agentic AI Systems](https://cdn.openai.com/papers/practices-for-governing-agentic-ai-systems.pdf)
 - (08 Mar 2024) [BabyAGI agent](https://community.wolfram.com/groups/-/m/t/3135678) demonstration of a minimal autonomous task agent to generate lectures in MMA
+- (13 Mar 2024) [AutoGen](https://microsoft.github.io/autogen/) is a multi-agent conversation framework from microsoft.  Looks pretty straightforward to use to define multi-agent scenarios (with user input). Has been used to implement a [protein design assistant](https://github.com/lamm-mit/ProtAgents) with user/planner/assistant/critic agents interacting

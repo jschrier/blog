@@ -8,7 +8,7 @@ tags: mathematica science data
 
 ## Google Scholar (using scholarly)
 
-GoogleScholar is not really intended for programmatic access, and you may also hit usage limits.  That being said, python packages like scholarly exist to do this, and if you make only a few requests, you should be fine: 
+GoogleScholar is not really intended for programmatic access, and you may also hit usage limits.  That being said, python packages like [scholarly](https://scholarly.readthedocs.io) exist to do this, and if you make only a few requests, you should be fine: 
 
 ```mathematica
 ResourceFunction["PythonPackageInstall"]["scholarly"]
@@ -21,7 +21,13 @@ session = StartExternalSession[
     <|"System" -> "Python", 
      "SessionProlog" -> "from scholarly import scholarly"|>] 
  
-searchPubs = ExternalFunction[session, "def search(terms):query = scholarly.search_pubs(terms)results = []for i in range(10):results.append(next(query))return results"]
+searchPubs = ExternalFunction[session, 
+  "def search(terms):
+    query = scholarly.search_pubs(terms)
+    results = []
+    for i in range(10):
+      results.append(next(query))
+    return results"]
 
 ```
 
