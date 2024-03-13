@@ -187,3 +187,7 @@ ToJekyll["For a Few Pixels More: A Page-Oriented Perspective on GPT-4-Vision for
   - Came across this in [Ju Li's CREST preprint](https://chemrxiv.org/engage/chemrxiv/article-details/655417d1dbd7c8b54b477786), where they use this to adjust settings for an SEM image.  
   - But as a redditor said, ["combine it with Meta's segment anything and profit"](https://www.reddit.com/r/MachineLearning/comments/17bcikh/r_setofmark_som_unleashes_extraordinary_visual/)
   - For quick hackery, just use the [YOLO v8 on the network repository](https://resources.wolframcloud.com/NeuralNetRepository/resources/YOLO-V8-Segment-Trained-on-MS-COCO-Data/)
+
+- There is some work on figure-specific extraction:
+  - [LineEx: Data Extraction from Scientific Line Charts](https://openaccess.thecvf.com/content/WACV2023/papers/P._LineEX_Data_Extraction_From_Scientific_Line_Charts_WACV_2023_paper.pdf)
+  - [MatGB: Materials Graph Digitizer](https://pubs.acs.org/doi/full/10.1021/acsami.3c14781)-YOLOv8x model fine tuned to segment images and label line-chart/not and then extract data from the line charts
