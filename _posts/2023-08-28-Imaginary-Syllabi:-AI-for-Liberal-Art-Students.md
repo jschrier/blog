@@ -43,4 +43,5 @@ tags: ai imaginary-syllabi llm teaching mathematica
 # Guest speakers
 
 - [Friar Paolo Benanti, TOR](https://en.wikipedia.org/wiki/Paolo_Benanti): vatican advisor on AI --- alas, it appears his writings are all in Italian
+- Dennis Yi Tennen @ Columbia, author of [Literary Theory for Robots (2024)](https://amzn.to/43tagGh) 
 

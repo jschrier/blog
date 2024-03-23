@@ -4,7 +4,7 @@ date: 2023-12-20
 tags: llm ai ml science gpt4v
 ---
 
-In a [previous post]( {{ site.baseurl }}{% post_url 2023-12-06-GPT-4-vision-preview-for-scientific-image-processing:-The-Bad,-The-Mediocre,-and-the-Tolerable %}), we explored some of the limitations of [gpt-4-vision-preview](https://platform.openai.com/docs/guides/vision) for interpreting scientific figures in papers. A [recent pre-print by Zhiling Zheng ](https://arxiv.org/abs/2312.05468)*[et al.](https://arxiv.org/abs/2312.05468)* demonstrated a useful strategy: Ask questions about images of the entire page. Surprisingly this does much better because it incorporates a variety of contextual information (figure captions, surrounding text, etc.).  **Here we demonstrate and adapt their strategy to solvent-solvent separation data...**
+In a [previous post]( {{ site.baseurl }}{% post_url 2023-12-06-GPT-4-vision-preview-for-scientific-image-processing:-The-Bad,-The-Mediocre,-and-the-Tolerable %}), we explored some of the limitations of [gpt-4-vision-preview](https://platform.openai.com/docs/guides/vision) for interpreting scientific figures in papers. A [recent pre-print by Zhiling Zheng ](https://arxiv.org/abs/2312.05468)*[et al.](https://arxiv.org/abs/2312.05468)*[^1] demonstrated a useful strategy: Ask questions about images of the entire page. Surprisingly this does much better because it incorporates a variety of contextual information (figure captions, surrounding text, etc.).  **Here we demonstrate and adapt their strategy to solvent-solvent separation data...**
 
 As in the previous post, we import the necessary library and use a sample file.  In this case we will use one of the page images we had examined before:
 
@@ -191,3 +191,6 @@ ToJekyll["For a Few Pixels More: A Page-Oriented Perspective on GPT-4-Vision for
 - There is some work on figure-specific extraction:
   - [LineEx: Data Extraction from Scientific Line Charts](https://openaccess.thecvf.com/content/WACV2023/papers/P._LineEX_Data_Extraction_From_Scientific_Line_Charts_WACV_2023_paper.pdf)
   - [MatGB: Materials Graph Digitizer](https://pubs.acs.org/doi/full/10.1021/acsami.3c14781)-YOLOv8x model fine tuned to segment images and label line-chart/not and then extract data from the line charts
+
+  [^1]: Now [published](https://doi.org/10.1039/D3DD00239J) in the March 2024 issue of *Digital Discovery*
+  
