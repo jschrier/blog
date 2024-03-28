@@ -12,7 +12,7 @@ Build a 3d-printer from parts to understand the mechanics of what is going on.
 [FDM](https://en.wikipedia.org/wiki/Fused_filament_fabrication) is the way to go when starting out...easier to work with, and can do many of the things you want.
 
 I had a good experience building the [Prusa MK3+](https://www.prusa3d.com) from a kit.
-It comes with a comprehensive build manual (which doubles as a "fix it" manual), and it has operated reliably for me. Additionally, as many of the parts are themselves 3D-printed, you'll learn some of the patterns of 3d-design (like embedded hex nuts, etc.)
+It comes with a comprehensive build manual (which doubles as a "fix it" manual), and it has operated reliably for me. Additionally, as many of the parts are themselves 3D-printed, you'll learn some of the patterns of 3d-design (like embedded hex nuts, etc.). Now-a-days, I would probably recommend [buying the Prusa MK4 kit](https://www.prusa3d.com/product/original-prusa-mk4-kit-2/?p2p=%40jschrier_303778)
 
 Having a printer to play with is very useful for getting the _Fingerspitzengefuhl_ of tolerances, ways of avoiding support structures (or using it as necessary), perimeter/infill design, and the properties of different materials. 
 Make lots of prints, and think about these issues.
