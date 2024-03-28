@@ -54,6 +54,9 @@ It's just a trick.  There's no magic.  [It's just linear algebra.](https://writi
 * [Jude Jones in the Philosophy department](https://www.fordham.edu/info/20945/philosophy_faculty_students_and_staff/7343/judith_jones) has ocasionally taught a course on [Harry Potter and Philosophy](https://fordhamobserver.com/32456/london/a-cup-of-tea-with-a-spoonful-of-magic/) and might be into this
 * Run this as an [Interdisciplinary Capstone course](https://bulletin.fordham.edu/undergraduate/fordham-college-core-curriculum/capstone-courses/) --- history, religion, philosophy, computer stuff
 
+# Possible field trips
+
+- NYPL has a collection of Late Antique Aramaic curse tablets---Rivka Elitzur-Leiman is a scholar at U Chicago? who has been researching them and gave a talk on the topic at Fordham.
 
 # Parerga and Paralipomena
 
