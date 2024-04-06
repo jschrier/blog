@@ -612,5 +612,7 @@ ToJekyll["GPT-4 does acid (base chemistry)", "science teaching gpt4 llm mathemat
      - This could be a fun way to automate training/testing LLMs on gen-chem capability...from their [webpage](https://proyectoplata.com) it seems they also have Gen Chem I and analytical chemistry materials too.
      - [Corresponding author Antonio Reina](mailto:antonio.reina.0711@quimica.unam.mx) and [Miguel Reina](mailto: mreina.2404@quimica.unam.mx)
 
-- A more "professional" and polished version of this blog post will appear in the *Journal of Chemical Education* 
+- (06 Apr 2024) A more "professional" and polished version of this blog post appears in the *Journal of Chemical Education* (2024)
+     - [Article](https://dx.doi.org/10.1021/acs.jchemed.4c00058)
      - [Supporting Information (notebookarchive.org)](https://notebookarchive.org/2024-03-0jlwh6u)  This also contains the outputs generated from all of the variations. 
+     - Olivia Vanden Assem '25 and I also did [some other experiments](https://www.wolframcloud.com/obj/jschrier0/Published/2024.02.24_llm_genchem.nb  ) on other [gen-chem problem studied by the same author](https://doi.org/10.1021/acs.jchemed.3c00027), and found similar results.  This style of prompting + calculator tool can get 90%+ correct answers. However, the editor declined to publish this followup, because he was concerned we might be demolishing the work of OSU faculty too much. :shrug:
