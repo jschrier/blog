@@ -1,16 +1,16 @@
 ---
 title: "Cura personalis versus Cura individualis"
-date: 2024-03-28
+date: 2024-04-01
 tags: jesuits teaching philosophy
 ---
 
-[Cura personalis](https://en.wikipedia.org/wiki/Cura_personalis) (often translated as "care for the entire person") is a catchphrase of Ignatian spirituality and Jesuit higher-education. (Although, as [Geger notes, not actually used by Ignatius or his companions, but originated in the 20th century](https://epublications.regis.edu/jhe/vol3/iss2/2/)) But after reading a recent [blog post by Edward Feser](https://en.wikipedia.org/wiki/Cura_personalis) on Jacque Maritain's reminder about the distinction between *persons* and *individuals* in Thomistic philosophy, I got to thinking:  **This is the right phrase, but maybe it is often mistaken for *cura individualis*...**
+[Cura personalis](https://en.wikipedia.org/wiki/Cura_personalis) (often translated as "care for the entire person") is a catchphrase of Ignatian spirituality and Jesuit higher-education. (Although, as [Geger notes, not actually used by Ignatius or his companions, but originated in the 20th century](https://epublications.regis.edu/jhe/vol3/iss2/2/)) After reading a recent [blog post by Edward Feser](https://en.wikipedia.org/wiki/Cura_personalis) on Jacque Maritain's distinction between *persons* and *individuals* in Thomistic philosophy, I got to thinking:  **This is the right phrase, but maybe it is often mistaken in practice for *cura individualis*...**
 
 # Definitions
 
 - *Person* is a substance (in the Aristotelian/Thomist sense) possessing intellect and will, which are immaterial. 
 
-- *Inidviduality*  is a property of physical substances, i.e., matter.  I can tell one bucket from another because they are made of different atoms. As such, individuals are subject to the the forces that govern the material world.
+- *Individuality*  is a property of physical substances, i.e., matter.  I can tell one bucket from another because they are made of different atoms. As such, individuals are subject to the the forces that govern the material world.
 
 # Quote (from Feser)
 

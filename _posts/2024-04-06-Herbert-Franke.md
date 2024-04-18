@@ -1,6 +1,6 @@
 ---
 title: "Herbert Franke"
-date: 2024-03-28
+date: 2024-04-06
 tags: art mathematica analog
 ---
 

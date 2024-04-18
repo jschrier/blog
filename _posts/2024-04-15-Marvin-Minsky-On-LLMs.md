@@ -1,6 +1,6 @@
 ---
 title: "Marvin Minsky On LLMs"
-date: 2024-01-28
+date: 2024-04-15
 tags: reading llm ai philosophy
 ---
 
