@@ -34,3 +34,7 @@ tags: audio synth pico drum
 
 * [Tayda electroncis](https://www.taydaelectronics.com) has some nice parts for making this shiny.
 * [binaural beat generator](https://syntherjack.net/binaural-beat-generator-1-5-arduino/) --- might be a good project along the way, regardless of how it is implemented. That said, one should be able to run the [stereo I2S through separate channels](https://github.com/elehobica/pico_sine_wave_i2s_32b/blob/main/my_pico_audio_i2s/audio_i2s.pio)
+
+# On second thought
+
+- (20 Apr 2024)  [Mortiz Klein has a new series of videos/kits for drum machines](https://www.youtube.com/playlist?list=PLHeL0JWdJLvQZb-Zapy-OnCdbzCdM2R4-)
