@@ -33,7 +33,7 @@ The resulting board has a character array:
 ```mathematica
 b["CharacterArray"]
 
-(*{{"\[BlackRook]", "\[BlackKnight]", "\[BlackBishop]", " ", "\[BlackKing]", "\[BlackBishop]", "\[BlackKnight]", "\[BlackRook]"}, {"\[BlackPawn]", " ", " ", "\[BlackPawn]", "\[BlackPawn]", " ", "\[BlackPawn]", "\[BlackPawn]"}, {" ", "\[BlackPawn]", " ", " ", " ", " ", "\[WhiteKnight]", " "}, {"\[BlackQueen]", "\[WhiteKnight]", "\[BlackPawn]", " ", " ", "\[BlackPawn]", " ", " "}, {" ", " ", " ", " ", " ", " ", " ", " "}, {" ", " ", " ", " ", " ", " ", " ", " "}, {"\[WhitePawn]", "\[WhitePawn]", "\[WhitePawn]", "\[WhitePawn]", "\[WhitePawn]", "\[WhitePawn]", "\[WhitePawn]", "\[WhitePawn]"}, {"\[WhiteRook]", " ", "\[WhiteBishop]", "\[WhiteQueen]", "\[WhiteKing]", "\[WhiteBishop]", " ", "\[WhiteRook]"}}*)
+(*{ {"\[BlackRook]", "\[BlackKnight]", "\[BlackBishop]", " ", "\[BlackKing]", "\[BlackBishop]", "\[BlackKnight]", "\[BlackRook]"}, {"\[BlackPawn]", " ", " ", "\[BlackPawn]", "\[BlackPawn]", " ", "\[BlackPawn]", "\[BlackPawn]"}, {" ", "\[BlackPawn]", " ", " ", " ", " ", "\[WhiteKnight]", " "}, {"\[BlackQueen]", "\[WhiteKnight]", "\[BlackPawn]", " ", " ", "\[BlackPawn]", " ", " "}, {" ", " ", " ", " ", " ", " ", " ", " "}, {" ", " ", " ", " ", " ", " ", " ", " "}, {"\[WhitePawn]", "\[WhitePawn]", "\[WhitePawn]", "\[WhitePawn]", "\[WhitePawn]", "\[WhitePawn]", "\[WhitePawn]", "\[WhitePawn]"}, {"\[WhiteRook]", " ", "\[WhiteBishop]", "\[WhiteQueen]", "\[WhiteKing]", "\[WhiteBishop]", " ", "\[WhiteRook]"}}*)
 ```
 
 Chessgame holds collections of board states plus metadata:
@@ -73,9 +73,6 @@ Export["sonification01.mp3", %]
 
 [sonification01.mp3](/blog/images/2024/4/24/sonification01.mp3)
 
-```
-(*"sonification01.mp3"*)
-```
 
 ## Sonification 2:  Pauses for absent pieces
 
