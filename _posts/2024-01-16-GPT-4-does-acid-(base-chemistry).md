@@ -1,7 +1,7 @@
 ---
 title: "GPT-4 does acid (base chemistry exam questions)"
 date: 2024-01-16
-tags: science teaching gpt4 llm mathematica
+tags: science teaching gpt4 llm mathematica chemistry
 ---
 
 A recent paper (Clark et al. "Comparing the Performance of College Chemistry Students with ChatGPT for Calculations Involving Acids and Bases", [J.Chem. Educ. 2023, 100, 3934-3944](https://doi.org/10.1021/acs.jchemed.3c00500) ) evaluated 10 acid base equilibrium questions on students and using ChatGPT 3.5, performing both qualitative assessments of the methodology and quantitative assessment of whether the correct answer was reached.  ChatGPT questions were evaluated 20 times to see the distribution of answers.  Simple questions about strong acids had high success rates, but some questions, like those about salts, did poorly.  For example, the question "Calculate the pH of 0.25 M NH4Cl. Kb for NH3 = 1.8 *10^-5." returned the correct answer only 10% of the time.  Another challenging question involved titrations. This raises two natural questions: **(i) Would they get better results by using GPT-4?  (ii) What about using modern prompting strategies (COT, ReAct) and tools?**
