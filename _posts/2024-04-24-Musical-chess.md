@@ -6,14 +6,13 @@ tags: mathematica music chess
 
 Could you use a chess game as a music sequencer? I have in mind live generative pieces generated while you play, perhaps using a [smart chess board as the interface](https://www.kickstarter.com/projects/bryghtlabs/chessup-2/description). **Some experiments at how this could sound...**  
 
-We will use the[ Chess paclet](https://resources.wolframcloud.com/PacletRepository/resources/Wolfram/Chess/) to perform the implementation.
+We will use the [Chess paclet](https://resources.wolframcloud.com/PacletRepository/resources/Wolfram/Chess/) to perform the implementation.
 
 ```mathematica
 PacletInstall["Wolfram/Chess"]
 Needs["Wolfram`Chess`"]
 ```
 
-[//]: # (Failed to export image)
 
 ## A quick overview of the Chess paclet 
 
@@ -23,15 +22,11 @@ Random boards (i.e., after a certain number of randomly chosen moves) can be gen
 b = RandomChessboard[10]
 ```
 
-[//]: # (Failed to export image)
-
 You can also load board states from a FEN description
 
 ```mathematica
 b = Chessboard["2kr1b1r/ppp1qppp/2n2n2/3p1b2/3P1N2/2P1B3/PP1NQPPP/2KR1B1R b - - 3 11"]
 ```
-
-[//]: # (Failed to export image)
 
 The resulting board has a character array:
 
@@ -46,8 +41,6 @@ Chessgame holds collections of board states plus metadata:
 ```mathematica
 game = Import["ExampleData/sample.pgn", {"ChessGames", 1}]
 ```
-
-[//]: # (Failed to export image)
 
 You can access the board state from the list of FENs in the game:
 
@@ -78,7 +71,7 @@ sonify@game
 Export["sonification01.mp3", %]
 ```
 
-[//]: # (Failed to export image)
+[sonification01.mp3](/blog/images/2024/4/24/sonification01.mp3)
 
 ```
 (*"sonification01.mp3"*)
@@ -97,7 +90,8 @@ sonify@game
 Export["sonification02.mp3", %]
 ```
 
-[//]: # (Failed to export image)
+[sonification02.mp3](/blog/images/2024/4/24/sonification02.mp3)
+
 
 ## Sonification 3:  Only play attacked pieces
 
@@ -118,14 +112,10 @@ sonify[board_Chessboard] :=
  
 sonify@game
 Export["sonification03.mp3", %]
-
 ```
 
-[//]: # (Failed to export image)
+[sonification03.mp3](/blog/images/2024/4/24/sonification03.mp3)
 
-```
-(*"sonification03.mp3"*)
-```
 
 ## Sonification 4: Drones
 
@@ -146,17 +136,14 @@ Export["sonification04.mp3", %]
 
 ```
 
-[//]: # (Failed to export image)
+[sonification04.mp3](/blog/images/2024/4/24/sonification04.mp3)
 
-```
-(*"sonification04.mp3"*)
-```
 
-Comment:  This sounds really harsh, even for a single state.  I wouldn\[CloseCurlyQuote]t want to listen to this 
+**Comment:**  This sounds really harsh, even for a single state.  I wouldn't want to listen to this.
 
 ## Sonification 4b:  Closer tones
 
-Idea: A neat trick with sine oscillators is the beating and interference patterns they form.  So instead let us use that as a basis. Suppose all 8 rows span 1 octave:  each row is a note, but within the row we have a subdivision until the next note.  This should lead us to have lots of beating early on and then start to pick out individual sounds.  This sounds like a demented [Edgard Vare'se](https://en.wikipedia.org/wiki/Edgard_Vare`se) to my ear...there are some interesting modulations, but it is still too sonically crowded.  And perhaps 1 second is too long for each move to occupy sonically: 
+**Idea:** A neat trick with sine oscillators is the beating and interference patterns they form.  So instead let us use that as a basis. Suppose all 8 rows span 1 octave:  each row is a note, but within the row we have a subdivision until the next note.  This should lead us to have lots of beating early on and then start to pick out individual sounds.  This sounds like a demented [Edgard Vare'se](https://en.wikipedia.org/wiki/Edgard_Varése) to my ear...there are some interesting modulations, but it is still too sonically crowded.  And perhaps 1 second is too long for each move to occupy sonically: 
 
 ```mathematica
 divisions[start_] := Subdivide[start, 2*start, 8]
@@ -174,15 +161,13 @@ sonify@game
 Export["sonification04b.mp3", %]
 ```
 
-[//]: # (Failed to export image)
+[sonification04b.mp3](/blog/images/2024/4/24/sonification04b.mp3)
 
-```
-(*"sonification04b.mp3"*)
-```
+
 
 ## Sonification 4c: Sine oscillators on attack
 
-Idea:  What if we only turn on the sine oscillator when a piece is attacked?  That should lead us to slowly dial in complexity.  It still is quite muddle in the middle, but has a kind of [bad B-movie theremin](https://en.wikipedia.org/wiki/Theremin) vibe:  
+**Idea:**  What if we only turn on the sine oscillator when a piece is attacked?  That should lead us to slowly dial in complexity.  It still is quite muddle in the middle, but has a kind of [bad B-movie theremin](https://en.wikipedia.org/wiki/Theremin) vibe:  
 
 ```mathematica
 attacked[s_String] := With[
@@ -204,11 +189,9 @@ sonify@game
 Export["sonification04c.mp3", %]
 ```
 
-[//]: # (Failed to export image)
 
-```
-(*"sonification04c.mp3"*)
-```
+[sonification04c.mp3](/blog/images/2024/4/24/sonification04c.mp3)
+
 
 ## Other ideas:
 
@@ -227,11 +210,3 @@ Export["sonification04c.mp3", %]
 ```mathematica
 ToJekyll["Musical chess", "mathematica music chess"]
 ```
-
-[//]: # (Failed to export image)
-
-[//]: # (Failed to export image)
-
-[//]: # (Failed to export image)
-
-[//]: # (Failed to export image)
