@@ -4,7 +4,7 @@ date: 2024-04-24
 tags: gpt4v llm chemistry cheminformatics
 ---
 
-I have had a few conversations in the past week about how one might build RAG-for-molecules to chat with molecular datasets.  An idea that I find appealing is to have a text representation of the molecule, motivated by [a paper in which Robocrystallographer was used to generate a text description of solids as an input for LLM use](http://arxiv.org/abs/2310.14029).   If you could generate text descriptions of molecules, perhaps this would serve as an alternative to [SMILES as inputs to LLMs](https://www.nature.com/articles/s42256-023-00788-1), which might help handle the [problems that LLM-based molecule property regressors have with handling 3d structure](https://arxiv.org/abs/2403.05075). There is a [Familiena"hnlichkeit](https://en.wikipedia.org/wiki/Family_resemblance) with the problem of molecule captioning, but that is typically presented in terms of properties, and here we want just a structural description.  **Here we try to see what gpt-4-vision can do for generating text descriptions from molecular images...**
+I have had a few conversations in the past week about how one might build RAG-for-molecules to chat with molecular datasets.  An idea that I find appealing is to have a text representation of the molecule, motivated by [a paper in which Robocrystallographer was used to generate a text description of solids as an input for LLM use](http://arxiv.org/abs/2310.14029).   If you could generate text descriptions of molecules, perhaps this would serve as an alternative to [SMILES as inputs to LLMs](https://www.nature.com/articles/s42256-023-00788-1), which might help handle the [problems that LLM-based molecule property regressors have with handling 3d structure](https://arxiv.org/abs/2403.05075). There is a [Familiena"hnlichkeit](https://en.wikipedia.org/wiki/Family_resemblance) with the problem of [molecule captioning](http://arxiv.org/abs/2306.06615), but that is typically presented in terms of properties, whereas here we want just a structural description.  **Here we try to see what gpt-4-vision can do for generating text descriptions from molecular images...**
 
 Start by defining an example.  [Who cares what games we choose? Little to win, but nothing to lose.](https://en.wikipedia.org/wiki/Incense_and_Peppermints)..so pick something whimsical:   
 
@@ -35,7 +35,7 @@ TextCell@
 
 ![108jdaw4kdff9](/blog/images/2024/4/24/108jdaw4kdff9.png)
 
-However if you ask about general properties you get some description.  It is pretty vanilla though: 
+However if you ask about general properties you get some description but it is pretty vanilla: 
 
 ```mathematica
 TextCell@
@@ -45,7 +45,7 @@ TextCell@
 
 ![0n2s5d9fzz7c9](/blog/images/2024/4/24/0n2s5d9fzz7c9.png)
 
-Let\[CloseCurlyQuote]s try another one: 
+Let's try another one: 
 
 ```mathematica
 TextCell@
