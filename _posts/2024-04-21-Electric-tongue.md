@@ -4,7 +4,7 @@ date: 2024-04-21
 tags: science chemistry wine
 ---
 
-[AlphaMOS sells a FET-based electric tongue](https://www.alpha-mos.com/taste-analysis-astree-electronic-tongue), which you can use for [wine-quality determination](https://www.hackster.io/news/an-e-tongue-that-whines-about-bad-wine-bd9cc0c50111) (advance prediction of spoilage)
+[AlphaMOS sells a FET-based electric tongue](https://www.alpha-mos.com/taste-analysis-astree-electronic-tongue), which you can use for [wine-quality determination](https://www.hackster.io/news/an-e-tongue-that-whines-about-bad-wine-bd9cc0c50111) (advance prediction of spoilage) **What can it do?...**
 
 
 They claim:
