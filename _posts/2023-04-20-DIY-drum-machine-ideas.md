@@ -1,7 +1,7 @@
 ---
 title: "DIY drum machine ideas"
 date: 2023-04-20
-tags: audio synth pico drum
+tags: audio synth pico drum electronics
 ---
 
 [My analog synthesizer](({{ site.baseurl }}{% post_url 2023-01-16-Building-the-mki-x-es.edu-synthesizer %})) lacks a drum machine.  I suppose you could just [Moog DFAM](https://www.moogmusic.com/products/dfam-drummer-another-mother) or ([clone](https://www.synthtopia.com/content/2023/05/26/behringer-edge-now-shipping-with-199-list-price/)), but... **A few thoughts towards a project, assuming you are not an analog purist and have a Raspberry Pi Pico floating around...**
@@ -38,3 +38,7 @@ tags: audio synth pico drum
 # On second thought
 
 - (20 Apr 2024)  [Mortiz Klein has a new series of videos/kits for drum machines](https://www.youtube.com/playlist?list=PLHeL0JWdJLvQZb-Zapy-OnCdbzCdM2R4-)
+
+# Prototyping hardware
+
+- [spark inducer](https://protorack.de/modules/spark-inducer) is pretty cool for prototyping eurorack stuff.  It's a chassis that provides power, knobs, and plug entries on a breadboard.
