@@ -112,6 +112,9 @@ It is estimated that you could eat out for breakfast, lunch, and dinner at a dif
 - **Roosevelt Blvd, Queens:** Take the [7 train](https://maps.app.goo.gl/vsLASRbGiGEbSHsK9) for authentic south american cuisine
 - [Arthur Avenue, The Bronx](https://maps.app.goo.gl/22YoAr1HtmYh1ryD6):  Take the Metro North to Fordham and go to the authentic Little Italy of New York. Great restaurants, bakeries, pastries, coffee. [Zero Otto Nove](https://maps.app.goo.gl/f9nZG5ZxZPuuMEsb9) is a favorite. Or, while you are in the hood, get some [Albanian food](https://maps.app.goo.gl/oaF5HRZR46N8rCFV8).  And have a coffee at [Prince Coffeeshop](https://maps.app.goo.gl/hVTkbK59mVWqCBGj8) (which is essentially the Starbucks of Albania)
 
+## Drinking
+
+- [Gary Shteyngart's 2024 ode to the martinis of New York](https://www.newyorker.com/culture/annals-of-gastronomy/a-martini-tour-of-new-york-city). Some highlights include The Lobby Bar at the Chelsea Hotel, Tigre, Dante, Aretsky's Patroon, Le Rock, 
 
 ## Museums and attractions
 
