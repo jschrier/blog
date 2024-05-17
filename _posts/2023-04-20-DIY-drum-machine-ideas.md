@@ -38,7 +38,16 @@ tags: audio synth pico drum electronics
 # On second thought
 
 - (20 Apr 2024)  [Mortiz Klein has a new series of videos/kits for drum machines](https://www.youtube.com/playlist?list=PLHeL0JWdJLvQZb-Zapy-OnCdbzCdM2R4-)
+- (10 May 2024) [Wavetable drum machine/sequencer](https://github.com/zircothc/DRUM_2004_V1?tab=readme-ov-file) based on ESP32
 
 # Prototyping hardware
 
 - [spark inducer](https://protorack.de/modules/spark-inducer) is pretty cool for prototyping eurorack stuff.  It's a chassis that provides power, knobs, and plug entries on a breadboard.
+
+# Sequencing (15 May 2024)
+
+- Use a clock + [clock dividers](https://www.youtube.com/watch?v=up5f4npoobQ) to generate rhythms
+    - There are definitely [kits](https://4mscompany.com/rcd-kit.php?c=11) to do this but the Doepfer A-160-2 is the classic (not too pricey)
+    - You want to think about sending trigger pulses versus constant cycles, number of divisisions, CV inputs, possible internal clock.  
+- Introduce patterns by binary pattterns (e.g., [Numeric Repetitor](https://manuals.noiseengineering.us/nr/))
+    - The discontinued [Pittsburgh Time Runner](https://pittsburghmodular.com/timerunner) has some interesting ideas

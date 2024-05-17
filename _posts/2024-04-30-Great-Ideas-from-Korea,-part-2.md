@@ -124,6 +124,7 @@ A continuation of [ideas from last time]({{ site.baseurl }}{% post_url  2023-06-
     - [reddit thread on 3d printable cases](https://www.reddit.com/r/modular/comments/wuzdgb/3d_printed_eurorack_case_plans/)
     - [laser cutable eurorack case designs](https://www.nonlinearcircuits.com/blog/2015/12/open-source-eurorack-cases.html)
     - [rackblox](https://musictech.com/news/gear/rackblox-3d-printable-modular-eurorack-case/) --- essentially each of these is a module in its own box (or a group that belong together) ... [on printables](https://www.printables.com/model/585275-rackblox-modular-eurorack-case-free-and-open-sourc)
+    - or...just go with a readymade.  The [Behringer Eurorack Go](https://www.musicstore.de/de_DE/EUR/Behringer-Eurorack-GO/art-SYN0007336-000) ($229) seems like a pretty good option. Capacious, has a carrying handle built in, lots of room to expand
 
 - many books in Amazon cart
 
