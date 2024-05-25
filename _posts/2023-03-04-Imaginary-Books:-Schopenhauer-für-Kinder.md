@@ -12,10 +12,13 @@ tags: imaginary-books children philosophy deutsch
 
 [[Introduction…who is Schopenhauer.  What is a philosopher.  What is he famous for.]]
 
+
 - [[Philosopher (what does a philosopher do?)]]
 - [[Daily routine: Philosophy, flute, walk, reading, theater]]
 - [[Emphasize his poodle, Atma]]
 - [[Maybe downplay kicking the landlady down the stairs and misogyny...]]
+
+- Arthur Schopenhauer (1788-1860) war ein Philosoph, der in Frankfurt am Main lebte. Was ist ein Philosoph? Ein Philosoph ist ein Denker über die wichtigsten Fragen der Realität.
 
 ## Erstes Buch:  Die Vorstellung unterworfen dem Satze vom Grunde: das Objekt der Erfahrung und Wissenschaft. 
 
@@ -40,16 +43,16 @@ tags: imaginary-books children philosophy deutsch
 
 ## Zweites Buch:  Die Objektivation des Willens. (*Book 2: Ontology*)
 
-- Was ist der Wille?   Alles ist der Wille.  Der Wille mag immer mehr.  Und der Wille hat dich kein lieb.  
+- Was ist der Wille? Alles ist der Wille. Der Wille will immer mehr. Und der Wille liebt dich nicht.
 - *Question mark.  Hazy cloud “Der Wille”*
 
-- Die Atome willen Molekülen werden.  Die Molekülen willen Sternen und Planeten werden.  
+- Die Atome wollen Moleküle werden. Die Moleküle wollen Sterne und Planeten werden.
 - *Atoms to molecules to sun + planets + galaxy*
 
-- Ein Kaninchen will Karotten fressen … eine hübsche Kanichenfrau lieben … Kanichenkinder … ein Kaninchenbau.
+- Ein Kaninchen will Karotten fressen, eine hübsche Kaninchenfrau lieben, Kaninchenkinder haben und in einem Kaninchenbau leben.
 - *Picture of rabbit in a bowtie eating a slice of carrot cake (taken from a cake that looks like a carrot), with another rabbit and a heart,  baby rabbits,  a rabbit house*
 
-- Ein Wolf will das Kaninchen fressen … um sein eigene Kinder zu füttern. 
+- Ein Wolf will das Kaninchen fressen ... um seine eigenen Kinder zu füttern.
 - *Wolf eating a rabbit-shaped cake (with ears)! … giving a slice to happy baby wolves around the table*
 
 - Du willst ein Spielzeug… einen Apfel …  einen Pulli … einen Verband.  Warum?   
@@ -76,7 +79,7 @@ tags: imaginary-books children philosophy deutsch
 - Deine Spielzeuge werden sich kaputt.  Diene Eltern und Freunde werden dich verlassen.
 - *Picture of broken toy.  Picture of a funeral.*
 
-- Du wirst enttäuschen … [sich?] kranken …  sterben.   Vielleicht ist es nicht so schlecht.  
+- Du wirst enttäuscht werden, krank werden, sterben. Vielleicht ist es nicht so schlecht.
 - *Picture of kid crying?, sick in bed, in a coffin, flower growing on grave & happy worms eating corpse*
 - ,,Jeden Abend sind wir um einen Tag ärmer.''
 
@@ -91,7 +94,7 @@ tags: imaginary-books children philosophy deutsch
 - Du hast eine Wahl: Unterstütze den Willen oder nicht.  Was willst du?
 - *Happy kid with exclamation point*
 
-- Der Wille macht das Leben voll Wünsche. Leb ohne Wünsche und tu wirst Freude haben.
+- Der Wille macht das Leben voll von Wünschen. Lebe ohne Wünsche, und du wirst Freude haben.
 - *return to picture of kid with thought bubbles.  Put a big “cancel” circle on each of the thought bubbles.*
 - ,,Wir denken selten an das, was wir haben, aber immer an das, was uns fehlt.''
 
