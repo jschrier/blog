@@ -6,7 +6,7 @@ tags: imaginary-syllabi teaching music
 
 *Premise:*  An interdisciplinary four-year undergraduate degree in electronic dance music practice and culture. **A US undergraduate major is typically 10-12 courses, so degree requirements include...**
 
-(naturally we will teach this at *Cal Tech*no...)
+(naturally we will teach this at *Cal Tech*-no...)
 
 
 
@@ -53,4 +53,6 @@ tags: imaginary-syllabi teaching music
     - [more on detroit techno today and past](https://theconversation.com/how-detroit-techno-is-preserving-the-citys-beating-heart-in-the-face-of-gentrification-228590)
 - Year 4: Berlin
     - Natürlich...
+    - [Catalyst Music School in Berlin has a BA. Hon (UK-style 3-year bachelor) program in electronic music](https://catalyst-berlin.com/music/course/electronic-music-production-performance)
+    
 
