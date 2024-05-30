@@ -1,13 +1,12 @@
 ---
 title: "Imaginary Syllabi: Major in Techno"
-date: 2025-05-25
+date: 2024-05-25
 tags: imaginary-syllabi teaching music
 ---
 
 *Premise:*  An interdisciplinary four-year undergraduate degree in electronic dance music practice and culture. **A US undergraduate major is typically 10-12 courses, so degree requirements include...**
 
 (naturally we will teach this at *Cal Tech*-no...)
-
 
 
 # Music
