@@ -13,3 +13,4 @@ Was turned on to the idea of [3d-printed model airplanes](https://blog.prusa3d.c
 # Parerga and paralipomena
 
 - (08 May 2024) [Report from a USAF 3d-printed drone workshop](https://interestingengineering.com/military/usaf-deploys-3d-printed-drones), which mentions startup company [Titan Dynamics](https://www.titandynamics.org/3dhangar), which sells [3d model designs](https://www.titandynamics.org/3dhangar), but more interestingly also develops [software for designing 3d-printable UAVs](https://www.titandynamics.org/software). Their [FAQ](https://www.titandynamics.org/3d-faq) recommends using Polymaker Polylite LW-PLA
+- (05 June 2024) [The Dyke Delta Flying Wing](https://hackaday.com/2024/06/04/the-dyke-delta-a-diy-flying-wing-fits-four/) would be a cool model...

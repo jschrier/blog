@@ -68,7 +68,7 @@ Histogram[#, Automatic, "PDF", AxesLabel -> {"Epochs", "PDF"}] & /@ {
 
 ### Quantifying the typical improvement size in a batch
 
-Suppose we look at a single batch:  How much improvement can be expected if we increase the batch size, given our normal distribution model?  (Asymptotically, the limit of the maximum of a large number of samples from a normal distribution defines an [ExtremeValueDistribution](http://reference.wolfram.com/language/ref/ExtremeValueDistribution.html) (commonly referred to as a Gumbel distribution, but Gumbel discovered a few distributions, and Mathematica uses GumbelDistribution for the minimum value...) :
+Suppose we look at a single batch:  How much improvement can be expected if we increase the batch size, given our normal distribution model?  (Asymptotically, the limit of the maximum of a large number of samples from a normal distribution defines an [ExtremeValueDistribution](http://reference.wolfram.com/language/ref/ExtremeValueDistribution.html) commonly referred to as a Gumbel distribution, but Gumbel discovered a few distributions, and Mathematica uses GumbelDistribution for the minimum value...) :
 
 ```mathematica
 improvementPerBatch[batchSize_, stdDev_ : 1] := Around@Table[
@@ -237,7 +237,9 @@ ToJekyll["Three mathematical models for machine learning and high-throughput exp
   "machine-learning, probability"]
 ```
 
-# Addenda
+# Parerga and Paralipomena
 
-**03 Feb 2023:** There are probably some nice analytical versions that one can devise using first-passage models in statistical physics. See [First look](https://arxiv.org/abs/2201.10048) and [textbook](https://amzn.to/3HY1AOY) by Sidney Redner.  That is, define a diffusive process of some type (corresponding to the above), and find a closed solution in 1D
+- **03 Feb 2023:** There are probably some nice analytical versions that one can devise using first-passage models in statistical physics. See [First look](https://arxiv.org/abs/2201.10048) and [textbook](https://amzn.to/3HY1AOY) by Sidney Redner.  That is, define a diffusive process of some type (corresponding to the above), and find a closed solution in 1D
+- **(summer 2023)**:  Some of the intuitions gleaned from this study made their way into a [perspective article in JACS](https://dx.doi.org/10.1021/jacs.3c04783)
+- **(03 Jun 2024)** A fourth model might be to consider a "product-of-Gaussians" type scenario.  For example there are different capabilities, each with a normal distribution, but to be successful one needs to combine them.  This was discussed in terms of [scientific productivity by Shockley (1957)](https://gwern.net/doc/iq/ses/1957-shockley.pdf) and for general business perfomance by [Boyle and Aguinus (2012)](https://gwern.net/doc/economics/2012-oboyle.pdf).   In this type of model, we might imagine that different types of synthesis and characterization capabilities are modeled as normal distributions; after Shockley, it would be easier for an 11-capability instrument to make a 10-capability discovery.  Parallelism of courses helps buy more samplign opportunities, but can be outsmarted with better methodology.
 
