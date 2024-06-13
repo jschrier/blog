@@ -1,7 +1,7 @@
 ---
 title: "Bytebeat (music)"
 date: 2023-04-25
-tags: audio synth 8bit mathematica
+tags: audio synth 8bit mathematica llm
 ---
 
 [Bytebeat](https://stellartux.github.io/websynth/guide.html) is a genre of electronic music defined by short C programs of the form:
@@ -99,6 +99,8 @@ bytebeat@mu6k@Range[2^19]
 # Other ideas
 
 * Could you learn a language generation model that tries to approximate a given waveform by generating Bytebeat code?  Try modifying a RNN/GRU/Transformer for [equational representations in Bernard Etienne's book](https://www.wolfram.com/language/introduction-machine-learning/deep-learning-methods/) for the task.
+
+* (added 12 June 2024) Somebody made a [grammar-constrained Llama-2 fine-tune that outputs bytebeat](https://replicate.com/andreasjansson/synth-one-liner)
 
 # devices
 
