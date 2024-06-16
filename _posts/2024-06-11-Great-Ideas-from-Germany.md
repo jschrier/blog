@@ -39,7 +39,7 @@ Project ideas from my recent trip to Berlin/Heidelberg...
 - Backstage pass- style micromosaic/leather jewerly
 - Leather "festival" bracelets: Could have a special RFID clasp that breaks when unlocked.
 - Hawaiian shirts in the style of [Karl Schmidt-Rottluff](https://www.bruecke-museum.de/en/sammlung/kuenstler/792/karl-schmidt-rottluff)
--
+
 
 # Home projects
 

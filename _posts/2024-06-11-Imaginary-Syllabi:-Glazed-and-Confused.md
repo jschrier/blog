@@ -1,6 +1,6 @@
 ---
-title: "Imaginary Syllabi: Major in Techno"
-date: 2024-05-25
+title: "Imaginary Syllabi: Glazed and Confused"
+date: 2024-06-11
 tags: imaginary-syllabi teaching art science
 ---
 
