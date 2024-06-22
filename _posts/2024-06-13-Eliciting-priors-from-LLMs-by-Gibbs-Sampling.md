@@ -1,7 +1,7 @@
 ---
 title: "Eliciting priors from LLMs by Gibbs Sampling"
 date: 2024-06-13
-tags: llm statistics gpt4
+tags: llm statistics gpt4 montecarlo
 ---
 
 In a recent pre-print, Zhu and Griffith describe  a method for [Eliciting the Priors of Large Language Models using Iterated In-Context Learning](https://arxiv.org/abs/2406.01860).  The core idea is to adapt a procedure used to perform [Markov Chain Monte Carlo with People](https://cocosci.princeton.edu/tom/papers/mcmcpeople.pdf). Effectively, this implements a [Gibbs sampler](https://en.wikipedia.org/wiki/Gibbs_sampling) for the joint distribution `p(d, h) = p(d|h)p(h)`, and the stationary distribution on hypotheses is the prior `p(h)`.  Samples from the prior are obtained by running the iterated learning process long enough to converge to the distribution. **Let's replicate their result and compare to direct sampling...**
