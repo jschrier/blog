@@ -32,7 +32,7 @@ However is easy to upload your own data files; they use the OpenAI JSONL format 
 
 One nice feature is an an "export weights" option on the model information page that lets you download  them (assuming you are not using GPT-3.5). Great for reproducibility! 
 
-What is frustrating is that you can't see what the automatically-chosen hyperparameters were. You're really in the dark here.
+What is frustrating is that you can't see what the automatically-chosen hyperparameters were. You're really in the dark here. (The exception is for fine-tuning the OpenAI models, in which case you can go to platform.openai.com and find all the goodies there.)
 
 You've got to use the web-interface; as of late-June 2024, the API for fine-tuning is still in beta.
 
