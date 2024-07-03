@@ -41,7 +41,7 @@ You've got to use the web-interface; as of late-June 2024, the API for fine-tuni
 
 [Predibase](https://predibase.com) is a business exclusively oriented around open-source model fine-tuning using [Lorax](https://loraexchange.ai).  A quick look at the docs suggests that they are very flexible about input data formats and they support a wide variety of models.  Unclear to me how you can export/share your models, but give it a shot. 
 
-Under the hood, it uses [Ludwig](https://Ludwig.ai) to configure fine-tuning and [Lorax](https://loraexchange.ai/) to serve the adapters efficiently.
+Under the hood, it uses [Ludwig](https://Ludwig.ai) to configure fine-tuning and [Lorax](https://loraexchange.ai/) to serve the adapters efficiently. You can run these locally.
 
 They also maintain a [useful leaderboard](https://predibase.com/fine-tuning-index) *(and check link there for their ArXiV paper)* comparing fine-tuning performance on a variety of tasks. As of late-June 2024, llama-3-8b is pretty much the best choice, fwiw.
 
