@@ -32,7 +32,7 @@ However is easy to upload your own data files; they use the OpenAI JSONL format 
 
 One nice feature is an an "export weights" option on the model information page that lets you download  them (assuming you are not using GPT-3.5). Great for reproducibility! 
 
-What is frustrating is that you can't see what the automatically-chosen hyperparameters were. You're really in the dark here.
+What is frustrating is that you can't see what the automatically-chosen hyperparameters were. You're really in the dark here. (The exception is for fine-tuning the OpenAI models, in which case you can go to platform.openai.com and find all the goodies there.)
 
 You've got to use the web-interface; as of late-June 2024, the API for fine-tuning is still in beta.
 
@@ -104,4 +104,4 @@ Folks have also done [fine-tuning of Mistral and Llama on M2Ultras](https://gith
 
 # Other things seen on the internet
 
-- Alex Strick van Linschoten has been following the same LLM fine-tuning course as me, and has written blog posts about his experiences doing a [local (4-bit quantized) fine-tune using Axolotl](https://mlops.systems/posts/2024-06-15-isafpr-first-finetune.html) and comparing [one-click fine-tuning on Predibase, OpenPipe, and OpenAI](https://mlops.systems/posts/2024-06-17-one-click-finetuning.html) 
+- Alex Strick van Linschoten has been following the same LLM fine-tuning course as me, and has written blog posts about his experiences doing a [local (4-bit quantized) fine-tune using Axolotl](https://mlops.systems/posts/2024-06-15-isafpr-first-finetune.html) and comparing [one-click fine-tuning on Predibase, OpenPipe, and OpenAI](https://mlops.systems/posts/2024-06-17-one-click-finetuning.html) and [head to head comparisons and evals of his fine-tuned models against GPT-4](https://mlops.systems/posts/2024-07-01-full-finetuned-model-evaluation.html)
