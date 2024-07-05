@@ -105,3 +105,4 @@ Folks have also done [fine-tuning of Mistral and Llama on M2Ultras](https://gith
 # Other things seen on the internet
 
 - Alex Strick van Linschoten has been following the same LLM fine-tuning course as me, and has written blog posts about his experiences doing a [local (4-bit quantized) fine-tune using Axolotl](https://mlops.systems/posts/2024-06-15-isafpr-first-finetune.html) and comparing [one-click fine-tuning on Predibase, OpenPipe, and OpenAI](https://mlops.systems/posts/2024-06-17-one-click-finetuning.html) and [head to head comparisons and evals of his fine-tuned models against GPT-4](https://mlops.systems/posts/2024-07-01-full-finetuned-model-evaluation.html)
+- [Distributed fine tuning Gemma 2 - 27B with Keras](https://developers.googleblog.com/zh-hans/fine-tuning-gemma-2-with-keras-hugging-face-update/) guide from Goog

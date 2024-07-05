@@ -24,3 +24,7 @@ tags: imaginary-syllabi teaching art science
 # Fordham stuff
 
 - Would make an interesting interdisciplinary capstone course, but nobody in the visual arts program appears to do ceramics...maybe a collaboration with [Lehman College](https://lehman-undergraduate.catalog.cuny.edu/departments/ART-LEH/courses)
+
+# Parerga and Paralipomena
+
+- [Building a database to store your glaze outcomes](https://www.alexreichert.com/blog/graph-based-ceramics) --- interesting point on this was the comment about "interaction of glazes", which sound like a predictable reaction question
