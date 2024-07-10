@@ -143,3 +143,4 @@ It is estimated that you could eat out for breakfast, lunch, and dinner at a dif
 - [Thrillist NYC](https://www.thrillist.com/new-york)
 - [Gothamist](https://gothamist.com)---more politics and local news oriented, but sometimes talks about events
 - [Eater NY](https://ny.eater.com) -- food news, at all price points
+    - Eater Guide to [cheap eats in the 5 boroughs in 2024]( https://ny.eater.com/2024/7/8/24191462/cheap-eats-24-hours-nyc)
