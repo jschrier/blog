@@ -100,3 +100,6 @@ I find the idea of the [Haskell School of Music](https://amzn.to/3BOhacs) amusin
 
 Alternatively [tidalcycles](https://sonic-pi.net) is a Haskell-based domain specific language for driving supercollider (comparable to, but with some differences from Sonic-Pi, mentioned above)
 
+# Glicol
+
+- (15 July 2024) [Glicol](https://glicol.org) is a minimalist programming language for music generation, designed for live coding.  Really slick: You specify a graph, not unlike modular synthesis.
