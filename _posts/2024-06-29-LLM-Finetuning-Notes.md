@@ -94,6 +94,9 @@ There's a [HF community for MLX users](https://huggingface.co/docs/hub/en/mlx) t
 
 Folks have also done [fine-tuning of Mistral and Llama on M2Ultras](https://github.com/ml-explore/mlx-examples/tree/main/lora) and [also](https://github.com/ml-explore/mlx-examples/blob/main/llms/mlx_lm/LORA.md) at 475 tokens/sec; given that our past work was about 1M tokens of fine-tuning, we could crank it out in 35 minutes which ain't bad.  
 
+# Unsloth
+
+Unsloth is a library for performance tunning LLMs and they have a worked example of [fine tuning Llama-3 with UnSloth and Export to Ollama on a Collab instance](https://docs.unsloth.ai/tutorials/how-to-finetune-llama-3-and-export-to-ollama) 
 
 
 
@@ -106,3 +109,4 @@ Folks have also done [fine-tuning of Mistral and Llama on M2Ultras](https://gith
 
 - Alex Strick van Linschoten has been following the same LLM fine-tuning course as me, and has written blog posts about his experiences doing a [local (4-bit quantized) fine-tune using Axolotl](https://mlops.systems/posts/2024-06-15-isafpr-first-finetune.html) and comparing [one-click fine-tuning on Predibase, OpenPipe, and OpenAI](https://mlops.systems/posts/2024-06-17-one-click-finetuning.html) and [head to head comparisons and evals of his fine-tuned models against GPT-4](https://mlops.systems/posts/2024-07-01-full-finetuned-model-evaluation.html)
 - [Distributed fine tuning Gemma 2 - 27B with Keras](https://developers.googleblog.com/zh-hans/fine-tuning-gemma-2-with-keras-hugging-face-update/) guide from Goog
+
