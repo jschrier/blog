@@ -8,7 +8,7 @@ tags: music drum
 
 # Books
 
-- Sethares, [Rhythm and Transforms](https://sethares.engr.wisc.edu/RT.html) --- "How can we build a device that can "tap its foot" along with the music?" [previously mentioned]()
+- Sethares, [Rhythm and Transforms](https://sethares.engr.wisc.edu/RT.html) --- "How can we build a device that can "tap its foot" along with the music?" [previously mentioned]({{ site.baseurl }}{% post_url 2024-04-19-Tuning-Timbe-Spectrum-Scale %})
 -  Toussaint, [Geometry of Musical Rhythm]() -- previously mentioned in relationship to the author's discovery of Euclidean rhythms.
 - Montfort, [Ancient Traditions - Future Possibilities: Rhymic Training Through the Traditions of Agrica, Bali and India](https://www.ancient-future.com/atfp.html) -- looks cool and emphasizes practice (no instruments required). Would be fun to take a class on this with some people or form a study group
 - Anderson [Learn Konnakol / Shortcut to Nirvana](https://www.henrikandersenwebshop.com/products/learn-konnakol) --- acclaimed western intro to [Konnakol](https://en.wikipedia.org/wiki/Konnakol)
