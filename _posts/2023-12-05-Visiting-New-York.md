@@ -77,8 +77,14 @@ It is estimated that you could eat out for breakfast, lunch, and dinner at a dif
 - [Ophelia (bar)](https://maps.app.goo.gl/89LwnJ7omUhiyY6n7) --- great views of the city at this rooftop bar.
 - [TsuKuShi](https://maps.app.goo.gl/aJSe1c8epbmnNVow7) --- mom and pop omeakse japanese place (literally...Pop is cooking and Mom is serving)  Excellent food with a very affordable seasonal fixed menu (which is your only choice).  I am always amazed that this place isn't better known and not packed. 
 - [Connoley's](https://maps.app.goo.gl/GR6AWNppJ6U9nnD46) -- epic Irish breakfast with a Guinness
-- [All'Antico Vinaio](https://maps.app.goo.gl/48DxuFYqvfPQCvs7A)-- hole in the wall Florentine sandwich spot in Times Square. 
 - Xian Famous Foods (local chain, scattered around the city).  Western chinese noodles. Get the spicy lamb.
+
+### Times Square
+
+Nobody goes to Times Square, because it is too crowded with tourists.  But...
+
+- [Eater NYC 2024 guide to Times Square](https://ny.eater.com/maps/best-restaurants-times-square-nyc) -- arguably some of these places are more like Rockefeller Center/Theater district, so the distinction is not so clear from the Midtown East above  
+- [All'Antico Vinaio](https://maps.app.goo.gl/48DxuFYqvfPQCvs7A)-- hole in the wall Florentine sandwich spot in Times Square. 
 
 ### Flatiron/NOMAD-ish
 
