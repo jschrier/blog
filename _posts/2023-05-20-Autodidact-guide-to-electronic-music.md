@@ -102,4 +102,5 @@ Alternatively [tidalcycles](https://sonic-pi.net) is a Haskell-based domain spec
 
 # Glicol
 
-- (15 July 2024) [Glicol](https://glicol.org) is a minimalist programming language for music generation, designed for live coding.  Really slick: You specify a graph, not unlike modular synthesis. Has built-in oscillators and filters.  Specifying notes and duration is not so clear in the tutorial, but the youtube videos help clarify some of this. Will write a longer post some day.
+- (15 July 2024) [Glicol](https://glicol.org) is a minimalist programming language for music generation, designed for live coding.  Really slick: You specify a graph, not unlike modular synthesis. Has built-in oscillators and filters.  Specifying notes and duration is not so clear in the tutorial, but a [youtube video](https://www.youtube.com/watch?v=LA78okAHtlM&list=PLT4REhRBWaOOrLQxCg5Uw97gEpN-woo1c&index=2) and the [author's GPT-4 prompt](https://github.com/chaosprint/glicol/discussions/125) help clarify some of this. 
+    
