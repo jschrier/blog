@@ -32,7 +32,7 @@ However is easy to upload your own data files; they use the OpenAI JSONL format 
 
 One nice feature is an an "export weights" option on the model information page that lets you download  them (assuming you are not using GPT-3.5). Great for reproducibility! 
 
-What is frustrating is that you can't see what the automatically-chosen hyperparameters were. You're really in the dark here. (The exception is for fine-tuning the OpenAI models, in which case you can go to platform.openai.com and find all the goodies there.)
+What is frustrating (*circa late June/early July 2024*) is that you can't see what the automatically-chosen hyperparameters were. You're really in the dark here. (The exception is for fine-tuning the OpenAI models, in which case you can go to platform.openai.com and find all the goodies there.)
 
 You've got to use the web-interface; as of late-June 2024, the API for fine-tuning is still in beta.
 
@@ -44,6 +44,14 @@ You've got to use the web-interface; as of late-June 2024, the API for fine-tuni
 Under the hood, it uses [Ludwig](https://Ludwig.ai) to configure fine-tuning and [Lorax](https://loraexchange.ai/) to serve the adapters efficiently. You can run these locally.
 
 They also maintain a [useful leaderboard](https://predibase.com/fine-tuning-index) *(and check link there for their ArXiV paper)* comparing fine-tuning performance on a variety of tasks. As of late-June 2024, llama-3-8b is pretty much the best choice, fwiw.
+
+# Fireworks
+
+[Fireworks](http://fireworks.ai) is yet another open-LLM-as-a-service provider also making a play for [finetuning](https://docs.fireworks.ai/fine-tuning/fine-tuning-models).  
+
+A strength (circa late July 2024) compared to the services mentioned above, is that they appear to support [grammar-based structured output](https://docs.fireworks.ai/structured-responses/structured-output-grammar-based)
+
+They also have a few fine-tuned models of their own, such as a [Llama3 that does better function calling](https://fireworks.ai/blog/firefunction-v2-launch-post) (claimed to be comparable to GPT-4o, but at 10% of the cost and 3x speed)
 
 # Huggingface / autotrain
 
