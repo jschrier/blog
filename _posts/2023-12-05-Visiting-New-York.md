@@ -97,13 +97,13 @@ Nobody goes to Times Square, because it is too crowded with tourists.  But...
  - [Eataly](https://maps.app.goo.gl/NM5ftK5JsTHDoz156) these are everywhere now, but this one is special somehow. Restaurants on the roof and down below, but other noshing experiences available. Or just stop in for a gelato
  - [Memo's Shish Kebab](https://maps.app.goo.gl/FmEo5XenqJHLy4AC7) excellent turkish sandwiches. Get the chicken and lamb combo on the Turkish bread with the works.
 
-### Village-ish
+### Village/LES-ish
 
 - There's a little Japan neighborhood near St. Mark's place.  Plenty of Udon, Japanese BBQ, etc. places to choose from, and hard to go wrong.
 - [Dolar Shop](https://maps.app.goo.gl/B5pmdwGSjucQidxq9) chinese hot pot
 - [So do fun](https://maps.app.goo.gl/75nm6XVEoZp51kf58) szechuan chain (from China) first US outpost, but maybe they have changed owners recently?
 - [Harbs](https://maps.app.goo.gl/P1RV2gBt6Bh3wiFw9) Japanese western-style cakes.  The location in Chelsea closed(?) but this one is still open.
-- 
+- [Kisa](https://ny.eater.com/2024/7/10/24193199/kisa-lower-east-side-review) (Allan & Houston) --- Korean taxi driver food (*kisa sadang*) sounds interesting and good, but I've never been
 
 ### Georgian food
 

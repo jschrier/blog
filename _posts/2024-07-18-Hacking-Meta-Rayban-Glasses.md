@@ -10,3 +10,5 @@ Confession:  I ordered a pair of [Meta Rayban smart glasses](https://www.meta.co
     - Indeed, there are [tutorials](https://www.youtube.com/watch?v=uN_MNOaoxBU) and [examples](https://github.com/gustavz/whatsbot) on how to build WhatsApp webhook apps in flask
 - Just use the bluetooth headset and route to [OpenAI app](https://www.reddit.com/r/ChatGPT/comments/18176er/can_i_use_chatgpt_for_handsfree_conversations/) to do hands free chat.  
     - Or if you're feeling frisky, try to use an [Android app that calls the underlying API](https://www.reddit.com/r/ChatGPT/comments/13cv0w5/i_made_a_free_opensource_gptpowered_voiceoperated/) ([recent versions can use Whisper and Anthropic API too](https://play.google.com/store/apps/details?id=org.mtopol.assistant))
+
+- Just in case you were wondering...you don't have to say 'Hey Meta..." to use the voice features.  They all work fine if you say "Ok Meta..." or...you can configure the touch button (touch and hold) to activate the assistant without any wake words.  I'm still waiting for someone to hack the wake word so you can say "Control..." (like in [Max Headroom](https://youtu.be/gCgIEgMpspI?si=2j3FoPuaWEL0PpGG))
