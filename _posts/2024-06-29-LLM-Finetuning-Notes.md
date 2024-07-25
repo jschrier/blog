@@ -51,7 +51,17 @@ They also maintain a [useful leaderboard](https://predibase.com/fine-tuning-inde
 
 A strength (circa late July 2024) compared to the services mentioned above, is that they appear to support [grammar-based structured output](https://docs.fireworks.ai/structured-responses/structured-output-grammar-based)
 
-They also have a few fine-tuned models of their own, such as a [Llama3 that does better function calling](https://fireworks.ai/blog/firefunction-v2-launch-post) (claimed to be comparable to GPT-4o, but at 10% of the cost and 3x speed)
+They also have a few fine-tuned models of their own, such as a [Llama3 that does better function calling](https://fireworks.ai/blog/firefunction-v2-launch-post) (claimed to be 
+comparable to GPT-4o, but at 10% of the cost and 3x speed)
+
+# OpenAI
+
+(24 July 2024) I [got my start in fine-tuning with gpt-3.5-turbo](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zJC_7roAAAAJ&sortby=pubdate&citation_for_view=zJC_7roAAAAJ:hkOj_22Ku90C) and there's something magical about how [polished the experience is](https://platform.openai.com/docs/guides/fine-tuning).  Having now done a bunch of fine-tuning with Llama-3 and Mistral, it's still easier to get good results on OpenAI---just let it pick hyperparameters and the results are pretty good.  
+
+Of course, the downside is that it is a black box. Another downside is that your fine-tuned model can only be used by people with an API key within your organization---in other words, you've got to pay the bill if you want external users to run the model.  This is kind of a drag for disseminating models to the public. But on the other hand, they're cheap enough to train that you can have someone else train them.
+
+But the new `gpt-4o-mini` fine-tuning that has been just released is great.  Super cheap to train and to do inference---about 1/3 of `gpt-3.5-turbo` and preliminary experiments suggest it is slightly better (or at least not worse).  
+
 
 # Huggingface / autotrain
 
