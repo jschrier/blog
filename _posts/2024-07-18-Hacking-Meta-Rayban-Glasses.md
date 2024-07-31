@@ -1,7 +1,7 @@
 ---
 title: "Hacking Meta Rayban Glasses"
 date: 2024-07-18
-tags: fashion diy webdev
+tags: fashion diy webdev llama3
 ---
 
 Confession:  I bought a pair of [Meta Rayban smart glasses](https://www.meta.com/smart-glasses/).  Built in functinality is cool, but of course, a hackers gotta hack.  **So how can you run other things on them?...**
