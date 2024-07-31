@@ -100,7 +100,7 @@ Next, we need to cluster them based on the bidirectional entailment.  Line 2235 
 
 ```mathematica
 (*base case when no clusters exist*)
-  cluster[q_String][{}, a_String] := {{a}} 
+  cluster[q_String][{}, a_String] := { {a} } 
    
   (* check if the current answer belongs to any existing clusters*) 
    cluster[q_String][clusters_List, a_String] := With[
@@ -122,7 +122,7 @@ We expect to have many clusters, and indeed we do:
 (*demo *)
   nc = cluster[question, answers]
 
-(*{{"The best pizza on Arthur Avenue is widely considered to be from Full Moon Pizzeria.", "The best pizza on Arthur Avenue is often attributed to Full Moon Pizzeria."}, {"The best pizza on Arthur Avenue is often said to be from Mario's Restaurant."}, {"Many consider Roberto's or Zero Otto Nove to make the best pizza on Arthur Avenue."}, {"Emilia's Restaurant is often praised for making the best pizza on Arthur Avenue."}, {"Bronx's Best Pizza on Arthur Avenue is often hailed as the top spot for pizza."}, {"Zero Otto Nove is widely acclaimed for making the best pizza on Arthur Avenue."}, {"opinions vary, but many people believe that Full Moon Pizzeria makes the best pizza on Arthur Avenue."}, {"Many people say that Zero Otto Nove makes the best pizza on Arthur Avenue."}, {"The best pizza on Arthur Avenue is often attributed to Roberto's."}}*)
+(*{ {"The best pizza on Arthur Avenue is widely considered to be from Full Moon Pizzeria.", "The best pizza on Arthur Avenue is often attributed to Full Moon Pizzeria."}, {"The best pizza on Arthur Avenue is often said to be from Mario's Restaurant."}, {"Many consider Roberto's or Zero Otto Nove to make the best pizza on Arthur Avenue."}, {"Emilia's Restaurant is often praised for making the best pizza on Arthur Avenue."}, {"Bronx's Best Pizza on Arthur Avenue is often hailed as the top spot for pizza."}, {"Zero Otto Nove is widely acclaimed for making the best pizza on Arthur Avenue."}, {"opinions vary, but many people believe that Full Moon Pizzeria makes the best pizza on Arthur Avenue."}, {"Many people say that Zero Otto Nove makes the best pizza on Arthur Avenue."}, {"The best pizza on Arthur Avenue is often attributed to Roberto's."} }*)
 ```
 
 ### 3. Entropy estimation:  Sum probabilities of sequences that share a meaning
@@ -282,12 +282,12 @@ extractQA [text_String] := StringSplit[#, "? - "]&@ StringReplace[{"?" -> "??", 
  (*demo*)
 extractQA[example]
 
-(*{{"What area of research is Joshua Schrier particularly known for?", "Computational materials science"}, 
+(*{ {"What area of research is Joshua Schrier particularly known for?", "Computational materials science"}, 
 {"Which field does Joshua Schrier mainly contribute to?", "Materials science"}, 
 {"What kind of impact has Joshua Schrier had in his field of study?", "Significant"}, 
 {"Joshua Schrier's work primarily advances which scientific discipline?", "Materials science"}, 
 {"In which area of scientific research has Joshua Schrier achieved notable recognition?", "Materials science"}, 
-{"What is a primary focus of Joshua Schrier's research activities?", "Computational chemistry in materials science"}}*)
+{"What is a primary focus of Joshua Schrier's research activities?", "Computational chemistry in materials science"} }*)
 ```
 
 Put these together and return the results as a dictionary:
@@ -384,7 +384,7 @@ Now just go ahead and perform the bidirection entailment clustering, using the f
  cluster[bioQuestion, answers] 
  discreteSemanticEntropy@%
 
-(*{{"Fordham University", "Fordham University", "Fordham University", "Fordham University", "Fordham University", "Fordham University", "Fordham University", "Fordham University", "Fordham University", "Fordham University", "Fordham University"}, {"Professor of Chemistry"}, {"Chemistry", "Chemistry", "Chemistry", "Chemistry"}, {"Professor"}, {"Professor at Fordham University", "Professor at Fordham University", "Professor at Fordham University", "Professor at Fordham University"}, {"Haverford College", "Haverford College"}, {"Chair of the Department of Chemistry at Fordham University"}}*)
+(*{ {"Fordham University", "Fordham University", "Fordham University", "Fordham University", "Fordham University", "Fordham University", "Fordham University", "Fordham University", "Fordham University", "Fordham University", "Fordham University"}, {"Professor of Chemistry"}, {"Chemistry", "Chemistry", "Chemistry", "Chemistry"}, {"Professor"}, {"Professor at Fordham University", "Professor at Fordham University", "Professor at Fordham University", "Professor at Fordham University"}, {"Haverford College", "Haverford College"}, {"Chair of the Department of Chemistry at Fordham University"} }*)
 
 (*1.55916*)
 ```
