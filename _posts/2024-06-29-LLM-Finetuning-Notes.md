@@ -60,7 +60,7 @@ comparable to GPT-4o, but at 10% of the cost and 3x speed)
 
 Of course, the downside is that it is a black box. Another downside is that your fine-tuned model can only be used by people with an API key within your organization---in other words, you've got to pay the bill if you want external users to run the model.  This is kind of a drag for disseminating models to the public. But on the other hand, they're cheap enough to train that you can have someone else train them.
 
-But the new `gpt-4o-mini` fine-tuning that has been just released is great.  Super cheap to train and to do inference---about 1/3 of `gpt-3.5-turbo` and preliminary experiments suggest it is slightly better (or at least not worse).  
+But the new `gpt-4o-mini` fine-tuning that has been just released is great.  Super cheap to train and to do inference---about 50% to train and 80% cheaper on inference of `gpt-3.5-turbo` and preliminary experiments suggest it is slightly better (or at least not worse).  This may have to do with the longer training context window 65k tokens (and that may also explain why it does better than some of our llama-3 fine tunes)
 
 
 # Huggingface / autotrain
