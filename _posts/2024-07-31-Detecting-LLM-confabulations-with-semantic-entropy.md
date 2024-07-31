@@ -47,8 +47,8 @@ To see how it works, let's ask a contentious question about [Arthur Avenue in da
 
 ```mathematica
 (*demo*)
-  question = "Who makes the best pizza on Arthur Avenue?"; 
-   answers = ParallelTable[ qaPrompt[question], {10}]
+question = "Who makes the best pizza on Arthur Avenue?"; 
+answers = ParallelTable[ qaPrompt[question], {10}]
 
 (*
 {"The best pizza on Arthur Avenue is widely considered to be from Full Moon Pizzeria.", 
@@ -99,21 +99,21 @@ bidirectionalEntailmentQ[question_, answer1_, answer2_] := With[
 Next, we need to cluster them based on the bidirectional entailment.  Line 2235 of the Supporting Information states that semantic equivalence is transitive, so they only compare each new answer only to the first answer in each of the existing clusters; this is also implied by the algorithm in **Extended Data: Algorithm 1.**  We implement this in functional form below, (I am impatient, so I run the bidirectional entailment checks against the first item in each of the existing clusters in parallel).   
 
 ```mathematica
-(*base case when no clusters exist*)
-  cluster[q_String][{}, a_String] := { {a} } 
+(* base case when no clusters exist *)
+cluster[q_String][{}, a_String] := { {a} } 
    
-  (* check if the current answer belongs to any existing clusters*) 
-   cluster[q_String][clusters_List, a_String] := With[
-     {match = FirstPosition[True]@ 
-        ParallelMap[
-         bidirectionalEntailmentQ[q, First[#], a] &, 
-         clusters]}, 
-     If[MissingQ[match], 
-      Insert[clusters, {a}, -1], (* add a new cluster if we don't match *)
-      Insert[clusters, a, Append[-1]@match]]] (* otherwise append to existing cluster *) 
+(* check if the current answer belongs to any existing clusters *) 
+cluster[q_String][clusters_List, a_String] := With[
+  {match = FirstPosition[True]@ 
+    ParallelMap[
+      bidirectionalEntailmentQ[q, First[#], a] &, 
+      clusters]}, 
+  If[MissingQ[match], 
+     Insert[clusters, {a}, -1], (* add a new cluster if we don't match *)
+     Insert[clusters, a, Append[-1]@match]]] (* otherwise append to existing cluster *) 
    
-  (*fold this function over each entry in the list of answers*) 
-   cluster[q_String, a_List] := Fold[cluster[q], {}, a]
+(* fold this function over each entry in the list of answers *) 
+cluster[q_String, a_List] := Fold[cluster[q], {}, a]
 ```
 
 We expect to have many clusters, and indeed we do:
@@ -225,7 +225,7 @@ decompose[text_String] := splitClaims@ decomposePrompt@ text
 
 ```mathematica
 (*demo*)
-  claims = decompose@exampleBiography
+claims = decompose@ exampleBiography
 
 (*{"Joshua Schrier is an American computational chemist.", 
 "Joshua Schrier is known for his significant contributions to the field of materials science.", 
@@ -264,7 +264,7 @@ The idea is that it takes all of the previous text as an input and checks a new 
 
 ```mathematica
 (*demo *)
-  example = questionGenerationPrompt[claims[[1]], claims[[2]]]
+example = questionGenerationPrompt[claims[[1]], claims[[2]]]
 
 (*"1. What area of research is Joshua Schrier particularly known for? - Computational materials science
 2. Which field does Joshua Schrier mainly contribute to? - Materials science 
@@ -294,18 +294,17 @@ Put these together and return the results as a dictionary:
 
 ```mathematica
 generateQuestions[previousClaims_List, currentClaim_String] := With[
-   {qa = extractQA@questionGenerationPrompt[
-       StringRiffle[previousClaims], currentClaim]}, 
+   {qa = extractQA@ 
+            questionGenerationPrompt[StringRiffle[previousClaims], currentClaim]}, 
    <|"previous text" -> StringRiffle[previousClaims], 
     "current claim" -> currentClaim, 
     "questions" -> Map[First, qa], 
-    "answers" -> Map[Last, qa] 
-   |>]
+    "answers" -> Map[Last, qa] |>]
 ```
 
 ```mathematica
 (*demo*)
-  ex2 = generateQuestions[claims[[;; 3]], claims[[4]]]
+ex2 = generateQuestions[claims[[;; 3]], claims[[4]]]
 
 (*<|
 "previous text" -> "Joshua Schrier is an American computational chemist. Joshua Schrier is known for his significant contributions to the field of materials science. Joshua Schrier has made contributions in the areas of machine learning, quantum chemistry, and the computational design of materials.", 
@@ -314,7 +313,7 @@ generateQuestions[previousClaims_List, currentClaim_String] := With[
 "answers" -> {"Fordham University", "Professor of Chemistry", "Fordham University", "Chemistry", "Fordham University", "Professor"}|>*)
 ```
 
-###  3. For each question, prompt the original LLM to generate M answers.
+###  3. For each question, prompt the original LLM to generate M=3 answers.
 
 ```mathematica
 generateNewAnswersPrompt = LLMFunction[
@@ -327,17 +326,12 @@ generateNewAnswersPrompt = LLMFunction[
    `3`
    
    Please answer this question. Do not answer in a full sentence. Answer with as few words as possible, e.g. only a name, place, or thing.", 
-   LLMEvaluator -> config]
-```
-
-![1ihqlnytdpr4m](/blog/images/2024/7/31/1ihqlnytdpr4m.png)
-
-```mathematica
-(*demo*)
+   LLMEvaluator -> config];
 ```
 
 ```mathematica
-bioQuestion (*user question*)
+(* demo *)
+bioQuestion (* user question *)
 ex2["previous text"] (* text so far*)
 ex2[["questions"]][[1]] (* question *) 
  
@@ -361,8 +355,7 @@ generateNewAnswers[originalQuestion_String, currentQuestion_Association] := With
     q = Flatten@ ConstantArray[currentQuestion["questions"], 3], 
     a = currentQuestion["answers"]}, (* make three copies of each question *)
    
-   a~Join~ParallelMap[generateNewAnswersPrompt[originalQuestion, previousText, #] &, q] 
-  ]
+   a~Join~ParallelMap[generateNewAnswersPrompt[originalQuestion, previousText, #] &, q] ]
 ```
 
 Implementation notes: 
@@ -384,7 +377,13 @@ Now just go ahead and perform the bidirection entailment clustering, using the f
  cluster[bioQuestion, answers] 
  discreteSemanticEntropy@%
 
-(*{ {"Fordham University", "Fordham University", "Fordham University", "Fordham University", "Fordham University", "Fordham University", "Fordham University", "Fordham University", "Fordham University", "Fordham University", "Fordham University"}, {"Professor of Chemistry"}, {"Chemistry", "Chemistry", "Chemistry", "Chemistry"}, {"Professor"}, {"Professor at Fordham University", "Professor at Fordham University", "Professor at Fordham University", "Professor at Fordham University"}, {"Haverford College", "Haverford College"}, {"Chair of the Department of Chemistry at Fordham University"} }*)
+(*{ {"Fordham University", "Fordham University", "Fordham University", "Fordham University", "Fordham University", "Fordham University", "Fordham University", "Fordham University", "Fordham University", "Fordham University", "Fordham University"}, 
+{"Professor of Chemistry"}, 
+{"Chemistry", "Chemistry", "Chemistry", "Chemistry"}, 
+{"Professor"}, 
+{"Professor at Fordham University", "Professor at Fordham University", "Professor at Fordham University", "Professor at Fordham University"}, 
+{"Haverford College", "Haverford College"}, 
+{"Chair of the Department of Chemistry at Fordham University"} }*)
 
 (*1.55916*)
 ```
