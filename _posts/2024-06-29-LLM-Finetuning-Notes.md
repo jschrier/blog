@@ -15,6 +15,9 @@ fine-tuning commercial LLMs like GPT-3.5 is pretty easy and cheap, but there are
 - **Ease of use:**  I'm interested in doing science, rather than screwing around with a lot of fiddly VM configurations.  Fine-tuning as a service is great! Chose my hyperparameters for me!  Make it easy for me to evaluate on test items! 
 - **Clarity/Reproducibility:**  We want to report things in scholarly work, so a clear indication of chosen hyperparameters, etc. is important so others can follow us without having to rely on a particular commercial service (which might disappear...).  Also valuable is some way of sharing trained models with others (e.g., by downloading weights). 
 
+# An educational resource
+
+- In May/June 2024 there was a fun LLM-fine-tuning course; the [videos are now available for free online](https://parlance-labs.com/education/).  The content below are some highlights based on my own experiences with the various services/tools presented in the course.  So if you want more details or examples on any of these, maybe check out that resource first.
 
 (presented in no particular order)
 
@@ -28,7 +31,7 @@ fine-tuning commercial LLMs like GPT-3.5 is pretty easy and cheap, but there are
 
 However is easy to upload your own data files; they use the OpenAI JSONL format for training data, but [add a key `split` which lets you specify train/test split (otherwise it will randomly select 10%)](https://docs.openpipe.ai/features/uploading-data#additional-fields).  But, (as of late-June 2024)there is no way to download these test results.  They want you to do LLM-based reranking and evaluation as a comparison, but don't support a simple data download. So you have to re-call the model to do inferences if you want this data (which is slightly wasteful, but so it is). Those [evaluation capabilities](https://docs.openpipe.ai/features/evaluations), are mostly based on GPT-4 rescoring rather than the types of supervised checking that we use.
 
- [Current base models support a few different things, including Llama-3 variants  and a pass-through to GPT-3.5](https://docs.openpipe.ai/base-models).  
+ [Current base models support a few different things, including Llama-3 variants  and a pass-through to GPT-3.5](https://docs.openpipe.ai/base-models).  (*update July 2024*) They are now supporting the newest Llama3 variants and pass-through to GPT-4o-mini fine tuning.
 
 One nice feature is an an "export weights" option on the model information page that lets you download  them (assuming you are not using GPT-3.5). Great for reproducibility! 
 
