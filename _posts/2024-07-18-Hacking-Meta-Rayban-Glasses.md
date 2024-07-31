@@ -21,10 +21,13 @@ Q: How do you like them? Pros/cons.
 A: In summary: they're a camera and bluetooth headphones/microphone that you wear as glasses.  Fit and finish is excellent. Battery life is minimum viable product level: you can drain them in a few hours by taking a bunch of photos or videos or bluetooth audio...maybe fine if you are an optional glasses wearer (and can thus take them off to charge), less good if you have to wear glasses all day.  It's useful to be able to take hands-free photos (I can see lots of opportunities for making tutorials). AI assistant features are hit-or-miss:  It's kind of neat to have "Hey meta, take a look and define this word" (use photo, interpret where finger is pointed, return a definition).  But translation failed on a chinese newspaper headline.   I am a very text-oriented person, so audio-based interactions are novel for me.
 
 
-Q: What are some missing features? 
+# Ideas for applications that should exist
 
-A: My running list of app ideas (probably using the Whatsapp hack)
+ My running list of app ideas (probably using the Whatsapp hack):
 
 - *You can't schedule a timer with the voice assistant (as of July 2024).*  Idea:  TimerApp -- This seems like it would be easy.  "OK meta, send message to timer on whatsapp.  Set timer to 34 minutes. (Or: Remind to take out the wash in 34 minutes)" (run a flask app, parse inputs with a lightweight model, put it in a cron-job queue, and then send the message back to whatsapp when the timer is up)
 
-- *The AI asssistant feels like a Llama-3-70B class model, with a system prompt that focuses on brevity.* (as of late July 2024...maybe we'll start seeing Llama-3.1 outputs?) Brevity is certainly valuable for voice assistants, but sometimes you want more.  Idea: More comprehensive research assistant:  "OK meta, send message to resarch on whatsapp.  Do a literature search on xxx." (intercepted by a flask app that runs an agent process, results in a written summary delivered via Whatsapp).  By default, when the assistant receives a sufficiently long whatsapp message, it does not read it aloud, and that seems like the right behavior for something like this. 
+- *The AI asssistant feels like a Llama-3-8B class model, with a system prompt that focuses on brevity.* (as of late July 2024...maybe we'll start seeing Llama-3.1 outputs?) Brevity is certainly valuable for voice assistants, but sometimes you want more.  Idea: More comprehensive research assistant:  "OK meta, send message to resarch on whatsapp.  Do a literature search on xxx." (intercepted by a flask app that runs an agent process, results in a written summary delivered via Whatsapp).  By default, when the assistant receives a sufficiently long whatsapp message, it does not read it aloud, and that seems like the right behavior for something like this. 
+
+- Games:  Take a photo and tell me what move I should make in chess/backgammon/go.  Apparently [the current generation of vision models is not good at even looking at schematic chess boards and deducing positions](https://www.linkedin.com/posts/aroraaman_given-an-input-image-of-a-chess-board-can-activity-7219166035889856513-tVS6). So maybe you would need to fine tuning a vision model to do this? Could "readily" be simulated (different angles of viewing the board, different colors, lighting, etc. by rendering).
+

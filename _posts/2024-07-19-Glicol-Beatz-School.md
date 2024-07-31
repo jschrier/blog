@@ -4,7 +4,7 @@ date: 2024-07-19
 tags: music synth glicol drum
 ---
 
-*My name is DJ Borscht, I'm full of beatz...* **Basic rhythm patterns from [Pocket Operations](https://shittyrecording.studio/) implemented in [Glicol](https://glicol.org/)... 
+*My name is DJ Borscht, I'm full of beatz...* **Basic rhythm patterns from [Pocket Operations](https://shittyrecording.studio/) implemented in [Glicol](https://glicol.org/)...** 
 
 # Basic Patterns
 

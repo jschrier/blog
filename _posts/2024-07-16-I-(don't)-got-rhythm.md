@@ -4,7 +4,7 @@ date: 2024-07-16
 tags: music drum
 ---
 
-(With apologies to the [Gershwin brothers](https://en.wikipedia.org/wiki/I_Got_Rhythm))  In my quest to build a drum machine, don't think I really understand musical rhythm and "beats" well enough.  Some resources...
+(With apologies to the [Gershwin brothers](https://en.wikipedia.org/wiki/I_Got_Rhythm))  In my quest to build a drum machine, don't think I really understand musical rhythm and "beats" well enough.  **Some resources and random thoughts...**
 
 # Books
 
