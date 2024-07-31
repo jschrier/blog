@@ -14,12 +14,15 @@ Confession:  I bought a pair of [Meta Rayban smart glasses](https://www.meta.com
 
 - Just in case you were wondering...you don't have to say 'Hey Meta..." to use the voice features.  They all work fine if you say "Ok Meta..." or...you can configure the touch button (touch and hold) to activate the assistant without any wake words.  I'm still waiting for someone to hack the wake word so you can say "Control..." (like in [Max Headroom](https://youtu.be/gCgIEgMpspI?si=2j3FoPuaWEL0PpGG))
 
-# Mini-review
+# Mini-review and FAQ
 
-Q: How do you like them? Pros/cons.
+- Q: How do you like them? Pros/cons.
+- A: In summary: they're a camera and bluetooth headphones/microphone that you wear as glasses.  Fit and finish is excellent. Battery life is minimum viable product level: you can drain them in a few hours by taking a bunch of photos or videos or bluetooth audio...maybe fine if you are an optional glasses wearer (and can thus take them off to charge), less good if you have to wear glasses all day.  It's useful to be able to take hands-free photos (I can see lots of opportunities for making tutorials). AI assistant features are hit-or-miss:  It's kind of neat to have "Hey meta, take a look and define this word" (use photo, interpret where finger is pointed, return a definition).  But translation failed on a chinese newspaper headline.   I am a very text-oriented person, so audio-based interactions are novel for me.  
+- A: One cool thing I did the other day while reading a book was ask the AI questions and examples related to terms in the book.  It was a nice way not to break the flow of reading.
 
-A: In summary: they're a camera and bluetooth headphones/microphone that you wear as glasses.  Fit and finish is excellent. Battery life is minimum viable product level: you can drain them in a few hours by taking a bunch of photos or videos or bluetooth audio...maybe fine if you are an optional glasses wearer (and can thus take them off to charge), less good if you have to wear glasses all day.  It's useful to be able to take hands-free photos (I can see lots of opportunities for making tutorials). AI assistant features are hit-or-miss:  It's kind of neat to have "Hey meta, take a look and define this word" (use photo, interpret where finger is pointed, return a definition).  But translation failed on a chinese newspaper headline.   I am a very text-oriented person, so audio-based interactions are novel for me.
 
+- Q: How can you connect multiple devices for audio?
+- A: [See these Reddit instructions](https://www.reddit.com/r/RayBanStories/comments/17xlych/comment/lfoqt7m/); tldr—-turn off bluetooth on your existing device, put them in the case, push the pairing button on the back of the case until the light turns blue, then just pair them.  You can pair multiple your glasses to multiple devices.  The AI and message functions still pass through from your phone.
 
 # Ideas for applications that should exist
 
