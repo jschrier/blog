@@ -278,6 +278,7 @@ Reduction to practice awaits getting back home to my printer. In the meantime, s
 - [Glass 3d-printing exists](https://all3dp.com/2/glass-3d-printing-simply-explained/). 
   - [Maple Glass (Australia) essentially does FDM with glass rods](https://www.youtube.com/@MapleGlassPrinting) in a kiln. (They also sell a gadget to melt glass and make filaments).  
   - [Glassomer sells a glass-based SLS resin](https://www.glassomer.com/products/glass-3d-printing.html) (formulated for 365nm, 385nm and 405nm--the latter being the wavelength of the [Prusa SL1S](https://www.prusa3d.com/category/original-prusa-sl1s-speed/)), but alas, the build area is only 5 x 3.14 inches, so too small for works like these.
+  - (*01 Aug 2024*) [Virtual Foundry sells a standard FDM-printer compatible borosilicate filament](https://shop.thevirtualfoundry.com/collections/glass-filament/products/pyrex-borosilicate-glass-filamet-2?variant=40032612843692)---print it on your ordinary printer and then debind and sinter it in a kiln to make a true glass object (some dimensions may change...) Sintered parts will not be optically clear.
 
 ```mathematica
 ToJekyll["Computational Sculpture: After Karen Bexfield, part 1", "art opencascade 3dprinting mathematica santafe sculpture"]
