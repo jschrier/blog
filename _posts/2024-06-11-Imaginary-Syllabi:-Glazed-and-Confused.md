@@ -28,3 +28,4 @@ tags: imaginary-syllabi teaching art science
 # Parerga and Paralipomena
 
 - [Building a database to store your glaze outcomes](https://www.alexreichert.com/blog/graph-based-ceramics) --- interesting point on this was the comment about "interaction of glazes", which sound like a predictable reaction question
+- Get a [ceramic extrusion 3d printer and make some cool things](https://www.eazao.com)

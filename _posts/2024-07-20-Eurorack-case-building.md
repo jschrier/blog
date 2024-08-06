@@ -25,6 +25,7 @@ This spring I [came to the conclusion that I needed to expand my Eurorack case](
 - Use [tip top bracket drawing](https://tiptopaudio.com/z-rails-brackets/) to extract dimensions
 - Could be a box with oversized edges this would support the rack above surface. Cut notches rathen than dovetail
 - Briefly considered (but rejected):  3d-print the end-plates with crevices to situate laser cut flat panels.  Disadvantage:  This will have a dimension of 11.2" inches in length, so its out of bounds of my Mk3+; maybe its OK if you have a large format printer. 
+    - Maybe not so terrible if you build in some joints.  
 - Still considering:  Laser cut/folded/riveted aluminum from SendCutSend.
 
 
