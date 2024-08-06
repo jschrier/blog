@@ -1,6 +1,6 @@
 ---
 title: "Imaginary Syllabi: Additive Manufacturing Lab"
-date: 2024-07-31
+date: 2024-08-05
 tags: 3dprinting diy art science teaching imaginary-syllabi
 ---
 
