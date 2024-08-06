@@ -29,12 +29,12 @@ tags: 3dprinting diy art science teaching imaginary-syllabi
 
 # Polymer
 
-- *Fused deposition modeling:* Obviously a must have, but also really easy.  Get a Prusa MK4 ($1K assembled or $700 DIY) or XL and be done with it. I've personally found the MK3S+ super reliable. MK4 has easy nozzle changes, which will be important for doing some of the sinter-based metal products
+- *Fused deposition modeling:* Obviously a must have, but also really easy.  Get a [Prusa MK4](https://www.prusa3d.com/product/original-prusa-mk4-2) ($1100 assembled or $700 DIY) or [XL $2K](https://www.prusa3d.com/product/original-prusa-xl/) and be done with it. I've personally found the MK3S+ super reliable. MK4 has easy nozzle changes, which will be important for doing some of the sinter-based metal products
     - Learning goals:  Polymer structure/property relations (PLA, PETG, TPU, ABS, etc.)
     - Basic tricks of the trade: modeling, 3d file formats, slicers
     - Good for introducing ideas about: anisotropy (of strength under compression and tension, which is more pronounced because of layering, design for manufacture, processing conditions (temperature, humidity, curing (in the case of PLA+)))
 
-- *Stereolithography printer.*  Dedicate one to polymers, Prusa SL1 would be fine ($1K?) and get an appropriate UV curing source (???) 
+- *Stereolithography printer.*  Dedicate one to polymers, [Prusa SL1](https://www.prusa3d.com/product/original-prusa-sl1s-speed-3d-printer-cw1s-bundle/) would be fine; bundled with appropriate UV curing source for $2600
 
 - Side-quest [electroplating](https://www.youtube.com/watch?v=pD73QydSlhw )
 
@@ -70,11 +70,11 @@ tags: 3dprinting diy art science teaching imaginary-syllabi
     - [Virtual Foundry](https://thevirtualfoundry.com/) sells a PLA+metal particle filament. Print in any FDM printer (a filament warmer helps...the filaments are quite brittle), then debind and sinter in a kiln to make metal parts.  Lots of different metals, also glass(!) and lunar regolith simulant(!)
         - [Starter kit is about $400](https://shop.thevirtualfoundry.com/collections/filamet-kits/products/getting-started-bundle?variant=39511194140844) --- seems easy to do
 
-    - [Cerametal](https://hackaday.com/2024/07/21/cerametal-lets-you-print-metal-cheaply-and-easily/) is another idea; you make a metal-powder infused clay and then squeeze it through your ceramic extruder, but you have to do some custom slicing
-        - What's neat is that its easy to mix your own so the cost can be low
+    - [Cerametal](https://hackaday.com/2024/07/21/cerametal-lets-you-print-metal-cheaply-and-easily/) is another idea; you make a metal-powder infused clay and then squeeze it through your ceramic extruder (see above; they use an Eazao), but you have to do some custom slicing
+        - What's neat is that its easy to mix your own so the operational cost can be very low
 
 - Directed energy deposition (like [MeltIO](https://meltio3d.com/)), powder bed fusion/selective laser sintering, etc. is too pricey for us to do at this scale.
-    - Field trip:  Go to the [GA Tech Advanced Manufacturing Pilot Facility](https://ampf.research.gatech.edu)
+    - **Field trip:**  Go to the [GA Tech Advanced Manufacturing Pilot Facility](https://ampf.research.gatech.edu)
 
 
 
