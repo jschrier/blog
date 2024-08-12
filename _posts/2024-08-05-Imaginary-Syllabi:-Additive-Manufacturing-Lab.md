@@ -43,7 +43,7 @@ tags: 3dprinting diy art science teaching imaginary-syllabi
 
 # Ceramics
 
-- **Kiln**  We're going to need to program this for other stuff, so get a fancier electric one; 2350 F (1288 C) is fine (might put porcelain out of reach, but enough for lots of other ceramics), smaller volume is fine.  [Available from Virtual Foundry for $3700](https://thevirtualfoundry.com/wp-content/uploads/2024/06/The-Virtual-Foundry-Kiln-Catalog-06_24.pdf).  Make sure that these can be run as an oxidizing environment (with blower fan) for doing ceramic stuff, as well as being run in a reducing (or at least not too much oxygen) environment for metal sintering
+- **Kiln:**  We're going to need to program this for other stuff, so get a fancier electric one; 2350 F (1288 C) is fine (might put porcelain out of reach, but enough for lots of other ceramics), smaller volume is fine.  [Available from Virtual Foundry for $3700](https://thevirtualfoundry.com/wp-content/uploads/2024/06/The-Virtual-Foundry-Kiln-Catalog-06_24.pdf).  Make sure that these can be run as an oxidizing environment (with blower fan) for doing ceramic stuff, as well as being run in a reducing (or at least not too much oxygen) environment for metal sintering
 
 - [Slip casting]({{ site.baseurl }}{% post_url 2023-11-23-Slip-Casting %}) --- make FDM positives, then pour plaster negatives, then do the casting.  Relatively gentle introduction to mold making processes and other ceramic-y stuff with minimal investment 
     - I suppose an even lighter introduction would be to 3d-print a tile mold, and just do rolled clay into the mold...use of [azulejo style motifs]({{ site.baseurl }}{% post_url 2024-05-10-Great-Ideas-from-Portugal %}) is optional...
@@ -55,6 +55,8 @@ tags: 3dprinting diy art science teaching imaginary-syllabi
 
 - **DLP ceramics:**  [Tethon Bison](https://tethon3d.com) is the winner here for SLS/DLP printing with ceramics.  You can buy the resins but results are iffy with other printers (according to random redditors who tried), and the ceramic fluids mess up your other printers, so it is worth specializing. Unfortunately these are above our typical threshold ([$19K, but there's an academic discount?](https://tethon3d.com/product/bison-1000-dlp-printer-2/)).  They have lots of cool resins, including [castalite](https://tethon3d.com/wp-content/uploads/Castalite-Guideline-1.pdf) which can be used to direct print investment molds and other stuff, well as [resin kits that can be used to embed your own nanoparticles](https://tethon3d.com/product/genesis/).
 
+- **Glass**: Glassomer sells an [SLS with hgih-quality silica](https://www.glassomer.com/technology.html), marketed with [Lithoz](https://lithoz.com/en/lithoz-and-glassomer-launch-innovation-partnership-presenting-lithaglass-powered-by-glassomer-a-3d-printable-quartz-glass-for-high-performance-applications/). Probably fine to do it with our polymer SLS printer?
+
 - **EHS Needs:** Venting for kiln, power and fire safety for kiln 
 
 # Metals
@@ -64,7 +66,8 @@ tags: 3dprinting diy art science teaching imaginary-syllabi
     - Ye-olde [Lost PLA casting](https://all3dp.com/2/lost-pla-casting-guide/)
     - [Print-wave casting with a microwave kiln](https://hackaday.com/2024/07/13/print-wave-metal-casting/)
     - Side quest:  Trip to the [Diamond District](https://en.wikipedia.org/wiki/47th_Street_(Manhattan)#Diamond_District) (which has plenty of casting-on-demand shops)
-    - **EHS**:  Molten metals are gonna be fun...but you can do this in a small space at small scales (the diamond district exists)
+    - [SolidScape](https://www.solidscape.com/s3duo-3d-printer-for-jewelry/) is a wax 3d printer especially for jewelers.  It's not my jam (I'm more into direct additive than doing lost-wax, but certainly fun to know about)
+    - **EHS**:  Molten metals are gonna be fun...but you can do this safely in a small space at small scales (the diamond district exists) if needed
 
 - **FDM/sintering workflows**:  These are cool and leverage tools from above
     - [Virtual Foundry](https://thevirtualfoundry.com/) sells a PLA+metal particle filament. Print in any FDM printer (a filament warmer helps...the filaments are quite brittle), then debind and sinter in a kiln to make metal parts.  Lots of different metals, also glass(!) and lunar regolith simulant(!)
