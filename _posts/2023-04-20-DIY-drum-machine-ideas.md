@@ -4,7 +4,7 @@ date: 2023-04-20
 tags: audio synth pico drum electronics diy
 ---
 
-[My analog synthesizer](({{ site.baseurl }}{% post_url 2023-01-16-Building-the-mki-x-es.edu-synthesizer %})) lacks a drum machine.  I suppose you could just [Moog DFAM](https://www.moogmusic.com/products/dfam-drummer-another-mother) or ([clone](https://www.synthtopia.com/content/2023/05/26/behringer-edge-now-shipping-with-199-list-price/)), but... **A few thoughts towards a project, assuming you are not an analog purist and have a Raspberry Pi Pico floating around...**
+[My analog synthesizer]({{ site.baseurl }}{% post_url 2023-01-16-Building-the-mki-x-es.edu-synthesizer %}) lacks a drum machine.  I suppose you could just [Moog DFAM](https://www.moogmusic.com/products/dfam-drummer-another-mother) or ([clone](https://www.synthtopia.com/content/2023/05/26/behringer-edge-now-shipping-with-199-list-price/)), but... **A few thoughts towards a project, assuming you are not an analog purist and have a Raspberry Pi Pico floating around...**
 
 # Circuit design
 
