@@ -14,6 +14,7 @@ A continuation of [ideas from last time]({{ site.baseurl }}{% post_url  2023-06-
     - acrylic/ laser cut versions (embrace his idea of mass production of art)
     - stained glass windows
     - Santa Fe "Indian-rugs" but with his line pattern work
+        - [3d-print your a table loom](https://hackaday.com/2024/08/17/simple-3d-printed-table-loom-for-complex-weavings/) to make some!
     - 3d-printed "flat" objects with angle sections
     - stained glass windows reimagined as interference between separated light and dark panels to get interference of sun and shade angles
 

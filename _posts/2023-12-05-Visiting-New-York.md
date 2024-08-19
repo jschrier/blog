@@ -61,6 +61,7 @@ Of course the [Blue Note](https://www.bluenotejazz.com/nyc/) and [Village Vangua
 - [Cellar Dog](http://cellar.dog/)--*west village*; around the block from Smalls/Mezznote, and down the street from Village Vanguard. Not strictly a music club...it's a bar with games(!) but they also have a live jazz band.  Cheap cover ($10?), beers are affordable, and you can bring food in, play some chess, pool, or ping pong and listen to some jazz. The house bands are pretty decent.
 
 Find out what is playing:
+- [Daily live jazz listings](http://jazz-nyc.com): no frills, but you can find out what's happening and where
 - [NYC Jazz Record](http://www.nycjazzrecord.com): you can pick up hard copies for free outside Grand Central
 - [Hot House Jazz](https://www.hothousejazz.com/calendar)
 - [WBGO.net](https://www.wbgo.org) local jazz radio station.
