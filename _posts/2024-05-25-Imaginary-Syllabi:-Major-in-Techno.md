@@ -18,6 +18,10 @@ tags: imaginary-syllabi teaching music
 - *Electives* in various subdisciplines, as guided by faculty
 - *Elective* analog synthesis
 
+# Math course
+
+- Two-semesters, based on the [Musimathics](http://www.musimathics.com) books
+
 # Physics/Electrical Engineering
 
 - Physics of sound (physiology and instrument modeling)
