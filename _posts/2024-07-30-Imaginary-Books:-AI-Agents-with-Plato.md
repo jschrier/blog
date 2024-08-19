@@ -1,7 +1,7 @@
 ---
 title: "Imaginary Book: AI Agents with Plato"
 date: 2024-07-30
-tags: llm ai philosophy imaginary-books gpt4o
+tags: llm ai philosophy imaginary-books gpt4
 ---
 
 **Premise:** Learn how to develop agentic LLM systems by building characters in Platonic dialogues...

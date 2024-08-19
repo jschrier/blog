@@ -1,7 +1,7 @@
 ---
 title: "Glicol Beatz School"
 date: 2024-07-19
-tags: music synth glicol drum
+tags: music synth drum
 ---
 
 *My name is DJ Borscht, I'm full of beatz...* **Basic rhythm patterns from [Pocket Operations](https://shittyrecording.studio/) implemented in [Glicol](https://glicol.org/)...** 
