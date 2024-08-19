@@ -228,7 +228,7 @@ The strategy looks OK, but it looks like some of the arithmetic went awry.  But.
 
 ### If you give an LLM a calculator...
 
-Just copy and paste the calculator code from the [previous post](({{ site.baseurl }}{% post_url 2024-01-09-Accurate-and-safe-LLM-numerical-calculations-using-Interpreter-and-LLMTools %})).  
+Just copy and paste the calculator code from the [previous post]({{ site.baseurl }}{% post_url 2024-01-09-Accurate-and-safe-LLM-numerical-calculations-using-Interpreter-and-LLMTools %}).  
 
 ```mathematica
 calculate = LLMTool[
@@ -368,7 +368,7 @@ Let's calculate the value of \( K_a \) of \( NH_4^+ \):
 
 ### Reflect on your result
 
-Chain of Thought and Self-Reflection are powerful strategies for creating LLM agents (see [previous post on LLM agents](({{ site.baseurl }}{% post_url 2024-01-13-Implementing-the-ReAct-LLM-Agent-pattern-the-hard-way-and-the-easy-way %}))). This is how we teach students too: When you calculate an answer, see if it is plausible--we wouldn't expect the salt of a strong base should be a weak acid, so we would expect a weakly acidic pH as the answer.  This would correct some of the errors we saw .  Here we try an experiment where we do NOT provide a calculator, but DO ask for self reflection:
+Chain of Thought and Self-Reflection are powerful strategies for creating LLM agents (see [previous post on LLM agents]({{ site.baseurl }}{% post_url 2024-01-13-Implementing-the-ReAct-LLM-Agent-pattern-the-hard-way-and-the-easy-way %})). This is how we teach students too: When you calculate an answer, see if it is plausible--we wouldn't expect the salt of a strong base should be a weak acid, so we would expect a weakly acidic pH as the answer.  This would correct some of the errors we saw .  Here we try an experiment where we do NOT provide a calculator, but DO ask for self reflection:
 
 ```mathematica
 reflect = LLMConfiguration[

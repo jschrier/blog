@@ -223,7 +223,7 @@ Dataset[#, MaxItems -> All] &@result["Messages"]
 
 ## Is any of this necessary?
 
-In our [introductory LLMTools post, where we implemented some basic chemistry tools, we found that GPT-4 was pretty good at stringing together a couple tools without any detailed prompting](({{ site.baseurl }}{% post_url 2023-11-27-LLMTools-demonstration %})).  So this may really not be strictly necessary. Perhaps a simple chain-of-thought prompt would suffice to lay out a plan.
+In our [introductory LLMTools post, where we implemented some basic chemistry tools, we found that GPT-4 was pretty good at stringing together a couple tools without any detailed prompting]({{ site.baseurl }}{% post_url 2023-11-27-LLMTools-demonstration %}).  So this may really not be strictly necessary. Perhaps a simple chain-of-thought prompt would suffice to lay out a plan.
 
 There is certainly more to learn from [Lilian Weng's review](https://lilianweng.github.io/posts/2023-06-23-agent/).
 
