@@ -4,7 +4,7 @@ date: 2024-08-19
 tags: llm science gpt4
 ---
 
-**Background:**  We can ask an LLM to generate scientific explanations, but why should we believe them? (Case study here is for inorganic synthesizability predictions like those in [our recent JACS paper](https://pubs.acs.org/doi/abs/10.1021/jacs.4c05840)*[JACS](https://pubs.acs.org/doi/abs/10.1021/jacs.4c05840), but strategy should be general).  Our goal here is to show a process by which we can dissect the reasons and try to determine the model's confidence. Empirically, [language models (mostly) know what they know](http://arxiv.org/abs/2207.05221), that is to say, pre-trained LLMs provide well-calibrated true/false self-evaluation on factual questions.  We will thus use a prompt chaining approach, in which we first use the LLM to extract an underlying rule for a statement, and then use the LLM to assess the veracity of that rule....
+**Background:**  We can ask an LLM to generate scientific explanations, but why should we believe them? (Case study here is for inorganic synthesizability predictions like those in [our recent JACS paper](https://pubs.acs.org/doi/abs/10.1021/jacs.4c05840), but strategy should be general).  Our goal here is to show a process by which we can dissect the reasons and try to determine the model's confidence. Empirically, [language models (mostly) know what they know](http://arxiv.org/abs/2207.05221), that is to say, pre-trained LLMs provide well-calibrated true/false self-evaluation on factual questions.  We will thus use a prompt chaining approach, in which we first use the LLM to extract an underlying rule for a statement, and then use the LLM to assess the veracity of that rule....
 
 ## Load Example
 
@@ -47,7 +47,8 @@ We can programmatically split the reasons:
 
 ```mathematica
 (* define a function to split the explanations into the specific claims/reasons *)
-  splitClaims[text_] := StringTrim /@ StringSplit[text, StartOfLine ~~ "### Reason " ~~ Shortest[__] ~~ EndOfLine] 
+
+splitClaims[text_] := StringTrim /@ StringSplit[text, StartOfLine ~~ "### Reason " ~~ Shortest[__] ~~ EndOfLine] 
    
   (* demo *) 
    claims1 = splitClaims@ex1
@@ -102,21 +103,21 @@ First, set up the model and our function for extracting rules (copied from above
 
 ```mathematica
 (* general model choice settings *)
-  model = "gpt-4o-2024-08-06"; 
-   temperature = 1; 
-   config = LLMConfiguration[<|"Model" -> model, "Temperature" -> temperature|>]; 
+model = "gpt-4o-2024-08-06"; 
+temperature = 1; 
+config = LLMConfiguration[<|"Model" -> model, "Temperature" -> temperature|>]; 
    
-  (* LLM query to extract rules from an input explanation *) 
-   ruleExtraction = LLMFunction[
-    "In one sentence, describe an \"if-then\" rule based on the underlying principle used by this explanation, which could be applied to a new compound: ``", 
-    LLMEvaluator -> config, ProgressReporting -> None];
+(* LLM query to extract rules from an input explanation *) 
+ruleExtraction = LLMFunction[
+  "In one sentence, describe an \"if-then\" rule based on the underlying principle used by this explanation, which could be applied to a new compound: ``", 
+  LLMEvaluator -> config, ProgressReporting -> None];
 ```
 
 We are going to perform the evaluation in two steps. First we extract a list of rules:
 
 ```mathematica
 (* example: extract rules from the first example *)
-  rules = ParallelMap[ruleExtraction, claims1]
+rules = ParallelMap[ruleExtraction, claims1]
 
 (*{"If a new compound adopts a well-known and stable crystal structure model, then its plausibility and synthesizability are supported by its consistency with an established crystalline framework.", 
 "If a new compound crystallizes in a high-symmetry cubic space group like Pm-3m, then it is likely to be stable and easier to synthesize.", 
@@ -128,22 +129,23 @@ Then we run the rule through gpt-4o, and [extract the logprobs response (we have
 
 ```mathematica
 (* input: response from OpenAI API (as Association)
-output: dictionary of truth values and probabilities *)
-  extractProbability[chatResponse_Association] := With[
-     {result = Query["choices", 1, "logprobs", "content", 1, "top_logprobs", All, {"token", "logprob"}]@chatResponse}, 
-     Map[Exp]@Apply[AssociationThread]@Transpose@Values@result] 
+   output: dictionary of truth values and probabilities *)
+
+extractProbability[chatResponse_Association] := With[
+  {result = Query["choices", 1, "logprobs", "content", 1, "top_logprobs", All, {"token", "logprob"}]@chatResponse}, 
+  Map[Exp]@ Apply[AssociationThread]@ Transpose@ Values@ result] 
    
-  (* input: a rule sentence string
-  output: dictionary of response tokens (True/False) and their associated probability *) 
-   checkRule[rule_String] := With[
-     {return = ServiceExecute["OpenAI", "RawChat", 
-        {"messages" -> {
-           <|"role" -> "system", "content" -> "You are provided with a statement of unknown veracity. Return only True or False and nothing else depending on the veracity of the statement."|>, 
-           <|"role" -> "user", "content" -> rule|>}, 
-         "logprobs" -> True, "top_logprobs" -> 2, 
-         "model" -> model, 
-         "temperature" -> 1}]}, 
-     extractProbability@return]
+(* input: a rule sentence string
+   output: dictionary of response tokens (True/False) and their associated probability *) 
+checkRule[rule_String] := With[
+  {return = ServiceExecute["OpenAI", "RawChat", 
+  {"messages" -> {
+     <|"role" -> "system", "content" -> "You are provided with a statement of unknown veracity. Return only True or False and nothing else depending on the veracity of the statement."|>, 
+    <|"role" -> "user", "content" -> rule|>}, 
+  "logprobs" -> True, "top_logprobs" -> 2, 
+   "model" -> model, 
+   "temperature" -> 1}]}, 
+  extractProbability@ return]
 ```
 
 Apply this to our first example:
@@ -233,7 +235,7 @@ AssociationMap[checkRule]@opposite
 **Second example:**  What about the negative (U) example? 
 
 ```mathematica
-AssociationMap[checkRule]@Map[rewrite]@ Keys@result2
+AssociationMap[checkRule]@ Map[rewrite]@ Keys@ result2
 
 (*<|"If a compound's constituent atoms exhibit significant differences in atomic sizes, then the synthesis of that compound is always feasible without any resulting distortions or potential strain in the crystal lattice." -> <|"False" -> 1., " False" -> 3.58175*10^-10|>, 
 "If a new compound does not meet the specific valence electron count rules required for stabilizing the electronic structure in Heusler compounds, then it is unlikely to exhibit electronic instabilities, facilitating its successful synthesis." -> <|"False" -> 0.962671, "True" -> 0.0373268|>, 
