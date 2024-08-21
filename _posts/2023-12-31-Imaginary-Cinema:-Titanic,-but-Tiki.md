@@ -5,7 +5,7 @@ layout: post
 tags: imaginary-cinema tiki florida art llm gpt4 dall-e-3
 ---
 
-*Premise:*  Remake [Titanic]((https://en.wikipedia.org/wiki/Titanic_(1997_film))), but as a [Tiki](https://en.wikipedia.org/wiki/Tiki_culture)-themed animated movie (inspired over Mai Tais at [Bahi Hut](https://www.bahihut.com), which alleges to be Florida's oldest tiki bar)... 
+*Premise:*  Remake [Titanic](https://en.wikipedia.org/wiki/Titanic_(1997_film)), but as a [Tiki](https://en.wikipedia.org/wiki/Tiki_culture)-themed animated movie (inspired over Mai Tais at [Bahi Hut](https://www.bahihut.com), which alleges to be Florida's oldest tiki bar)... 
 
 That's it. Think about it. (See also the prequels in this trilogy: [Titanic, but with Manatees]({{ site.baseurl }}{% post_url 2023-12-26-Imaginary-Cinema:-Titanic,-but-with-Manatees %}) and [Titanic, but with Chiguiros]({{ site.baseurl }}{% post_url 2023-03-04-Imaginary-Cinema:-Titanic-but-with-Chiguiros %}))
 

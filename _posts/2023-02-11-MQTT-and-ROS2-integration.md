@@ -21,7 +21,7 @@ But how do we set it up?  We'll use the [Eclipse Mosquitto broker](https://mosqu
 The latter takes care of the serialization of ROS2 standard messages for us. 
 
 0. We've [already got a RPi 3B+ setup with Ubuntu 20.04 and ROS2/Humble]({{ site.baseurl }}{% post_url 2023-02-04-ROS-Setup-For-Raspberry-Pi-and-Pico %}) .  No need for MicroROS, etc.  Just plain old ROS2 installed.
-1. We're running Ubuntu so we can [use a snap to install mosquitto]((https://mosquitto.org/documentation/using-the-snap/))---alternatively, instructions for [installing on Raspbian can be found elsewhere](https://peppe8o.com/mqtt-and-raspberry-pi-pico-w-start-with-mosquitto-micropython/)
+1. We're running Ubuntu so we can [use a snap to install mosquitto](https://mosquitto.org/documentation/using-the-snap/)---alternatively, instructions for [installing on Raspbian can be found elsewhere](https://peppe8o.com/mqtt-and-raspberry-pi-pico-w-start-with-mosquitto-micropython/)
 ```bash
 sudo snap install mosquitto
 ```

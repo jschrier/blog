@@ -64,7 +64,7 @@ Decimal address: 73 , Hex address:  0x49
 
 Let's do this using [jajberni/AS726X_LoPy](https://github.com/jajberni/AS726X_LoPy)'s library.
 
-Clone [the repository]((https://github.com/jajberni/AS726X_LoPy)) and copy the `Device.py` and `AS726X.py` files in `lib/` to a new `lib/` folder that you create on the Pico.  Then create a new file to blink the lights.
+Clone [the repository](https://github.com/jajberni/AS726X_LoPy) and copy the `Device.py` and `AS726X.py` files in `lib/` to a new `lib/` folder that you create on the Pico.  Then create a new file to blink the lights.
 
 ```python
 from machine import Pin, I2C
@@ -154,4 +154,4 @@ Now that you know how to get readings porogrammatically, the next step is to rea
 * Wait for a newline from `sys.stdin.read()` to trigger a reading (for example, once you've got a sample in place)
 * Read the values and print it in a desired format
 * Write a program for your laptop that reads these values and saves them...maybe with some type of annotation as to the sample you are considering?
-* Or...add a physical switch to the circuit and read from the switch to trigger the reading. Then [design and print]((({{ site.baseurl }}{% post_url 2022-12-31-Autodidact-guide-to-advanced-manufacturing %}))) a housing to keep everything oriented the way you want. 
+* Or...add a physical switch to the circuit and read from the switch to trigger the reading. Then [design and print]({{ site.baseurl }}{% post_url 2022-12-31-Autodidact-guide-to-advanced-manufacturing %}) a housing to keep everything oriented the way you want. 
