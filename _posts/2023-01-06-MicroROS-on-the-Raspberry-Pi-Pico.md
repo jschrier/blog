@@ -6,7 +6,7 @@ tags: ros pico electronics automation
 
 **Goal:** Attach small actuators and sensors to a Rasberry Pi Pico (RP2040) and have it attach to present to a ROS2 network running on some other device.  Build this into a larger project.
 **This Post:** Some collected notes on resources. 
-**Status:** See [how-to-guide post](({{ site.baseurl }}{% post_url 2023-02-04-ROS-Setup-For-Raspberry-Pi-and-Pico %}))
+**Status:** See [how-to-guide post]({{ site.baseurl }}{% post_url 2023-02-04-ROS-Setup-For-Raspberry-Pi-and-Pico %})
 
 
 # Setup ROS2 on a Raspberry Pi
@@ -42,4 +42,4 @@ Demonstration of [how to publish sonar readings](https://canonical.com/blog/hc-s
 
 # Next Steps
 
-**Status:** See [how-to-guide post](({{ site.baseurl }}{% post_url 2023-02-04-ROS-Setup-For-Raspberry-Pi-and-Pico %}))
+**Status:** See [how-to-guide post]({{ site.baseurl }}{% post_url 2023-02-04-ROS-Setup-For-Raspberry-Pi-and-Pico %})

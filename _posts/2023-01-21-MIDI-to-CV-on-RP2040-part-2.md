@@ -4,7 +4,7 @@ date: 2023-01-21
 tags: music electronics pico analog synth i2c python
 ---
 
-In a [previous post](({{ site.baseurl }}{% post_url 2022-12-31-MIDI-to-CV-on-RP2040 %})), we defined some of the ideas and resources for the system.  Along the way, we'll learn a bit about I2C programming on the Pico and MCP4728 DAC.  **In this post, we'll actually build the MIDI to CV gadget...** 
+In a [previous post]({{ site.baseurl }}{% post_url 2022-12-31-MIDI-to-CV-on-RP2040 %}), we defined some of the ideas and resources for the system.  Along the way, we'll learn a bit about I2C programming on the Pico and MCP4728 DAC.  **In this post, we'll actually build the MIDI to CV gadget...** 
 
 
 # Bill of materials
