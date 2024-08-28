@@ -4,7 +4,7 @@ date: 2024-07-19
 tags:  diy synth electronics drum
 ---
 
-[The Korg Volka Beats](https://www.korg.com/us/products/dj/volca_beats/) cool little portable drum machine, but how can you make it cooler by voiding your warranty?...
+[The Korg Volka Beats](https://www.korg.com/us/products/dj/volca_beats/) is a cool little portable drum machine, but how can you make it cooler by voiding your warranty?...
 
 - Batteries are included, but not a power supply. 
     - You could just buy one from Korg.  FYI if you want to get it from a third party, it is a [2.1 mm center-positive 9V plug](https://www.reddit.com/r/synthesizers/comments/7oaqnk/whos_stupid_idea_was_it_to_make_volca_power/), which is pretty standard for everything EXCEPT guitar pedals.  (The Volkas alledgedly have a reverse bias diode to protect against the wrong polarity, but still...)

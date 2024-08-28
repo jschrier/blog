@@ -4,7 +4,7 @@ date: 2024-07-18
 tags: fashion diy webdev llama3
 ---
 
-Confession:  I bought a pair of [Meta Rayban smart glasses](https://www.meta.com/smart-glasses/).  Built in functinality is cool, but of course, a hackers gotta hack.  **So how can you run other things on them?...**
+Confession:  I bought a pair of [Meta Rayban smart glasses](https://www.meta.com/smart-glasses/).  Built in functionality is cool, but of course, a hackers gotta hack.  **So how can you run other things on them?...**
 
 - [Write a WhatsApp server to intercept messages](https://jovanovski.medium.com/part-2-getting-chatgpt-working-on-meta-smart-glasses-82e74c9a6e1e).  The idea is that you can then tell the glasses to send a message to that WhatsApp name, and then your app on the other side can run something and send it back as a WhatsApp message. There's an [implementation that uses PHP](https://github.com/jovanovski/meta-glasses-gpt/tree/main/whatsapp-approach), but I'm sure you could cook up a little Flask app to do this. Heck...host it on Modal with all those credits burning a hole in my pocket 
     - Indeed, there are [tutorials](https://www.youtube.com/watch?v=uN_MNOaoxBU) and [examples](https://github.com/gustavz/whatsbot) on how to build WhatsApp webhook apps in flask.
