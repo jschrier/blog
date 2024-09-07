@@ -12,7 +12,6 @@ I was [comping](https://en.wikipedia.org/wiki/Comping_(jazz)) some [blues](https
 **Q: A flat and D are the major third and dominant 7th of what chord?**
 *A: (paraphrase) Llama3.1-70b says that it is E-flat-7 chord...but it's really E7!*
 
-```
 
 ![whateverdude](/blog/images/2024/9/7/screenshot.png)
 
