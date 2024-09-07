@@ -8,11 +8,10 @@ I was [comping](https://en.wikipedia.org/wiki/Comping_(jazz)) some [blues](https
 
 # So I asked...
 
-
 **Q: A flat and D are the major third and dominant 7th of what chord?**
+
 *A: (paraphrase) Llama3.1-70b says that it is E-flat-7 chord...but it's really E7!*
 
-```
 
 ![whateverdude](/blog/images/2024/9/7/screenshot.png)
 
@@ -24,9 +23,12 @@ I was [comping](https://en.wikipedia.org/wiki/Comping_(jazz)) some [blues](https
 
 
 **Q: Why is a large language model like a piano?**
+
 *A: Both need a good fine-tuning to hit the right notes!*
 
+
 **Q: What's the difference between a guitar and an LLM?**
+
 *A: With a guitar, you fine-tune the strings; with an LLM, you use strings to fine-tune!*
 
 
