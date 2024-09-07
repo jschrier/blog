@@ -15,7 +15,7 @@ tags: 3dprinting diy art science teaching imaginary-syllabi
 
 - Increase culture of materials science at Fordham / NYC.
 
-- Create opportunities for research projects (e.g., use of LLMs to assist in debugging?, use AI-directed experiment planning to optimize new materials/processing conditions)
+- Create opportunities for research projects (e.g., use of LLMs to assist in debugging?, use AI-directed experiment planning to optimize new materials/processing conditions?)
 
 
 # First principles and foundations

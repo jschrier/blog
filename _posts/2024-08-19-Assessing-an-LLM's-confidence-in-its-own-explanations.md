@@ -72,7 +72,7 @@ LLMFunction["In one sentence, describe the underlying principle used by this exp
 ![1tu25th2eho7x](/blog/images/2024/8/19/1tu25th2eho7x.png)
 
 ```mathematica
-LLMFunction["In one sentence, describe the underlying principle used by this explanation.  Do not use the phrase \"The underlying principle is\", but instead  just state the principle in the form \"X indicates Y\": ``"] /@ claims1 // TableForm
+LLMFunction["In one sentence, describe the underlying principle used by this explanation.  Do not use the phrase \"The underlying principle is\", but instead just state the principle in the form \"X indicates Y\": ``"] /@ claims1 // TableForm
 ```
 
 ![1kgtikmt65wpl](/blog/images/2024/8/19/1kgtikmt65wpl.png)

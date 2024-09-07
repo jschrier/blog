@@ -8,7 +8,7 @@ tags: art business 3dprinting dall-e-3
 
 It seems that the sweet spot are cases where:
 
-- You only want one (so making a mold is a waste of time)
+- You only want one (so [making a mold](https://youtu.be/DRcFh_Kop9U) is a waste of time)
 
 - You are trying to make a shape that is not easily produced in a mold (but also doesn't have excessive overhangs, etc. that would require printing with supports)
 
