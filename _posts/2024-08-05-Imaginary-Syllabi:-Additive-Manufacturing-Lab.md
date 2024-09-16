@@ -108,7 +108,11 @@ tags: 3dprinting diy art science teaching imaginary-syllabi
 
 # Professor, teach thyself
 
-- [MEng in additive manufacturing at PennState](https://www.worldcampus.psu.edu/degrees-and-certificates/penn-state-online-additive-manufacturing-and-design-masters-degree) (apply by 01 Sep to begin 06 Jan), 30 credits, 100% online (but you get to make an optional field trip to play with the metal stuff)
+- There's a [Certified Additive Manufacturing Technologist certificate exam](https://www.sme.org/training/additive-manufacturing-certification/certified-additive-manufacturing-technician-certification/) with a [recommended reading](https://www.sme.org/training/additive-manufacturing-certification/certified-additive-manufacturing-technician-certification/recommended-reading-materials/) list.  
+    - [CUNY offers an online prep course for the exam](https://careertraining.qcc.cuny.edu/training-programs/certified-additive-manufacturing-technician-camt/) for $2400
+    - But the video interviews from SME are mostly with people who said their test-prep was to buy and read the book, so you could save a few pesos that way.
+
+- [MEng in additive manufacturing at PennState](https://www.worldcampus.psu.edu/degrees-and-certificates/penn-state-online-additive-manufacturing-and-design-masters-degree) (apply by 01 Sep to begin 06 Jan), 30 credits, 100% online (but you get to make an optional field trip to play with the metal stuff).  Total tuition for the program is $35K +/-. Most importantly, after completing the degree you can list yourself as a `Prof. Dr. Ing.` on your German railway tickets.
 
 - [Additive Manufacturing Strategies](https://additivemanufacturingstrategies.com/ ) conference in NYC 04-06 Feb 2025
 
