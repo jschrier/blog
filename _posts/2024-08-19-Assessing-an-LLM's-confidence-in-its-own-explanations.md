@@ -261,3 +261,7 @@ Note the three edge case occurences where the two tokens returned are `False` an
 ```mathematica
 ToJekyll["Assessing an LLM's confidence in its own explanations", "llm science gpt4"]
 ```
+
+# Addendum
+
+- We put this to work at scale in a new preprint Kim S, Schrier J, Jung Y. Explainable Synthesizability Prediction of Inorganic Crystal Structures using Large Language Models. ChemRxiv. 2024; [doi:10.26434/chemrxiv-2024-ltncz](https://dx.doi.org/10.26434/chemrxiv-2024-ltncz) 
