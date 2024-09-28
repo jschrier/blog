@@ -23,7 +23,7 @@ chat //= ChatEvaluate[
   "Rewrite each of the scene descriptions replacing the human characters with capybaras. Describe how the capybaras' costumes and styling in detail, preserving as much similarity to the human characters as possible.  Return the results as a Wolfram language list."]
 ```
 
-![1kb1rrqe5plx5](/blog/images/2024/9/28/1kb1rrqe5plx5.png)
+![1kb1rrqe5plx5](/blog/images/2024/9/28/1ettgf04a1wfw.png)
 
 ```mathematica
 markdownToList[md_String] := ToExpression@ StringReplace[StartOfString ~~ "```wolfram\n" ~~ Longest[x___] ~~ "\n```" ~~ EndOfString :> x]@md 
