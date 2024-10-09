@@ -24,8 +24,8 @@ An interdisciplinary capstone course on luck, skill, and the games of everyday l
 * William Poundstone [Fortune's Formula](https://amzn.to/3wk1N8D) --- popular work on the Kelly criterion, with a side helping of Edward Thorp and Claude Shannon
 * Poker?  
 * Modern approaches to beating roulette sourced from a ([Bloomberberg 2023 article](https://archive.ph/7CmWl))---cross ref to books [The Eudaimonic Pie](https://amzn.to/3GuKAPl) and [Follow the Bouncing Ball](https://amzn.to/3nXo3Ek) 
-
+* Relative role of chance and skill in sports.  [SIAM News summary](https://www.siam.org/publications/siam-news/articles/feeling-lucky-the-relative-roles-of-skill-and-chance-in-sports/), links back to a [2018 SIAM Review article analyzing fantasy sports](https://doi.org/10.1137/16M1102094).  Core idea is to use the difference in win rates in the first and second half of the season to quantify skill. Interesting connection to the law: gambling laws apply when chance prevails, and so this has a regulatory consequence.
 
 # Field trips:
-* Union Square Park / Washington Square Park---to play chess husslers
+* Union Square Park / Washington Square Park---to play chess hustlers
 * A casino (Atlantic City? [Maybe they'll be in NYC](https://www.nytimes.com/2023/01/13/nyregion/saks-casino-nyc.html) by the time this course happens?)---to play blackjack
