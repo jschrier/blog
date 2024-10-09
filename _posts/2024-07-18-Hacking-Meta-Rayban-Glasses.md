@@ -14,6 +14,8 @@ Confession:  I bought a pair of [Meta Rayban smart glasses](https://www.meta.com
 - Just use the bluetooth headset and route to [OpenAI app](https://www.reddit.com/r/ChatGPT/comments/18176er/can_i_use_chatgpt_for_handsfree_conversations/) to do hands free chat.  
     - Or if you're feeling frisky, try to use an [Android app that calls the underlying API](https://www.reddit.com/r/ChatGPT/comments/13cv0w5/i_made_a_free_opensource_gptpowered_voiceoperated/) ([recent versions can use Whisper and Anthropic API too](https://play.google.com/store/apps/details?id=org.mtopol.assistant))
 
+- [Livestream the video to Instagram...and then have a separate process watch the video and send messages](https://www.theverge.com/2024/10/2/24260262/ray-ban-meta-smart-glasses-doxxing-privacy).  [Some documentation available](https://docs.google.com/document/d/1iWCqmaOUKhKjcKSktIwC3NNANoFP7vPsRvcbOIup_BA/edit)
+
 - Just in case you were wondering...you don't have to say 'Hey Meta..." to use the voice features.  They all work fine if you say "Ok Meta..." or...you can configure the touch button (touch and hold) to activate the assistant without any wake words.  I'm still waiting for someone to hack the wake word so you can say "Control..." (like in [Max Headroom](https://youtu.be/gCgIEgMpspI?si=2j3FoPuaWEL0PpGG))
 
 # Mini-review and FAQ
@@ -30,7 +32,7 @@ Confession:  I bought a pair of [Meta Rayban smart glasses](https://www.meta.com
 
  My running list of app ideas (probably using the Whatsapp hack):
 
-- *You can't schedule a timer with the voice assistant (as of July 2024).*  Idea:  TimerApp -- This seems like it would be easy.  "OK meta, send message to timer on whatsapp.  Set timer to 34 minutes. (Or: Remind to take out the wash in 34 minutes)" (run a flask app, parse inputs with a lightweight model, put it in a cron-job queue, and then send the message back to whatsapp when the timer is up)
+- ~~*You can't schedule a timer with the voice assistant (as of July 2024).*  Idea:  TimerApp -- This seems like it would be easy.  "OK meta, send message to timer on whatsapp.  Set timer to 34 minutes. (Or: Remind to take out the wash in 34 minutes)" (run a flask app, parse inputs with a lightweight model, put it in a cron-job queue, and then send the message back to whatsapp when the timer is up)~~ (**Update 10/2024** This got added as a feature in the latest update. I tested it while doing laundry and it worked great.)
 
 - *The AI asssistant feels like a Llama-3-8B class model, with a system prompt that focuses on brevity.* (as of late July 2024...maybe we'll start seeing Llama-3.1 outputs?) Brevity is certainly valuable for voice assistants, but sometimes you want more.  Idea: More comprehensive research assistant:  "OK meta, send message to resarch on whatsapp.  Do a literature search on xxx." (intercepted by a flask app that runs an agent process, results in a written summary delivered via Whatsapp).  By default, when the assistant receives a sufficiently long whatsapp message, it does not read it aloud, and that seems like the right behavior for something like this. 
 
