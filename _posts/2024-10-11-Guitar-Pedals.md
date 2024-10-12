@@ -12,7 +12,7 @@ In a way, there are only about 6 different types of guitar pedals.  Yet, there i
 
 # Circuits 
 
-- Alan Lanterman's [Guitar Amplification and Effects](https://youtube.com/playlist?list=PLOunECWxELQS7JV_KeeTJJpgGjOftoaAH&si=IN01nOACMy-fcZIm) course ([previously mentioned among his other music-EECS courses]({{ site.baseurl }}{% post_url 2024-05-22-Electrical-Engineering-for-Music %})).
+- Alan Lanterman's [Guitar Amplification and Effects](https://youtube.com/playlist?list=PLOunECWxELQS7JV_KeeTJJpgGjOftoaAH&si=IN01nOACMy-fcZIm) course ([previously mentioned among his other music-EECS courses]({{ site.baseurl }}{% post_url 2024-06-22-Electrical-Engineering-for-Music %})).
 
 - [Electrosmash](https://www.electrosmash.com) has some nice analysis of classic pedals
 
