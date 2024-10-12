@@ -1,7 +1,7 @@
 ---
 title: "Autodidact guide to electronic music making on digital computers"
 date: 2023-05-20
-tags: music synth autodidact
+tags: music synth autodidact analog dsp
 ---
 
 In the beginning, the LORD created [modular synthesizers]({{ site.baseurl }}{% post_url 2023-01-16-Building-the-mki-x-es.edu-synthesizer %}), and they were good. He sent his [Prophets](https://en.wikipedia.org/wiki/Prophet-5), [Bob](https://en.wikipedia.org/wiki/Robert_Moog) and [Don](https://en.wikipedia.org/wiki/Don_Buchla) and [Serge](https://en.wikipedia.org/wiki/Serge_Tcherepnin), who told all the peoples "Make a joyful noise unto the LORD all the earth, but thou shalt not eat of the fruit of the tree of the digital computer."  But the people hardened their hearts and did not listen.  So the LORD sent his prophet [Dieter](https://doepfer.de/home.htm), a voice crying in the wilderness, who said "Repent, repent! For the [Eurorack](https://en.wikipedia.org/wiki/Eurorack) is at hand." But the people said: "We have no King but [Gordon](https://en.wikipedia.org/wiki/Moore's_law)."  And so it came to pass that digital computers became numerous upon the face of the earth.  Then angel of the LORD came down and created a multitude of programs to confound their language, so that they may not understand one another's code.  "Now are you happy?" said the angel of the LORD.  [And the people said: "Do do do, do do do do, do do do do do..."](https://www.youtube.com/watch?v=PSafh_G3skU).  **A list of resources...**
@@ -104,3 +104,16 @@ Alternatively [tidalcycles](https://sonic-pi.net) is a Haskell-based domain spec
 
 - (15 July 2024) [Glicol](https://glicol.org) is a minimalist programming language for music generation, designed for live coding.  Really slick: You specify a graph, not unlike modular synthesis. Has built-in oscillators and filters.  Specifying notes and duration is not so clear in the tutorial, but a [youtube video](https://www.youtube.com/watch?v=LA78okAHtlM&list=PLT4REhRBWaOOrLQxCg5Uw97gEpN-woo1c&index=2) and the [author's GPT-4 prompt](https://github.com/chaosprint/glicol/discussions/125) help clarify some of this. 
     
+# Digital Signal Processsing
+
+- (03 Oct 2024) [Jonathan Dubois](https://scholar.google.com/citations?user=0WXE25AAAAAJ&hl=en&oi=ao) asks: *I do have a dumb question about analog synthesizers though..  Aside from the cool factor of actual analog, where are the open source digital patch panels?  it doesnt seem like it should be that hard to compute pretty much anything you want in real time.* 
+
+Indeed, it's a thing. 
+
+- I've seen the [DaisySeed](https://electro-smith.com/products/daisy-seed)-based [https://electro-smith.com/products/patch] as one example.  
+
+- Somewhat less polished in terms of final product is the [Pico Audio Development Kit](https://github.com/DatanoiseTV/PicoADK-Hardware?tab=readme-ov-file)
+
+- Closely related: The [VultDSP](https://www.vult-dsp.com/vult-language) language (supported on the PicoADK)
+
+- The [Digital Signal Processing Primer](https://amzn.to/4dIAbNF) has been languishing in my cart for a few years, as has [Hamming's Digital Filters](https://amzn.to/4gZ7ejx) book.
