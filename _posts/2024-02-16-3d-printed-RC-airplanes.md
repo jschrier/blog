@@ -16,3 +16,5 @@ Was turned on to the idea of [3d-printed model airplanes](https://blog.prusa3d.c
 - (05 June 2024) [The Dyke Delta Flying Wing](https://hackaday.com/2024/06/04/the-dyke-delta-a-diy-flying-wing-fits-four/) would be a cool model...
 - (02 Aug 2024) Same energy:  [Cardboard airplanes](https://hackaday.com/2024/08/01/cardboard-r-c-plane-actually-flies/)
 - (27 Aug 2024) What's an RC plane without an RC 3d-printed [cruise missile](https://youtu.be/fyHrbM_c0rw) to go along with it?
+- (11 Oct 2024) Definitely need [(electronically generated) engine and machine gun sounds](https://hackaday.io/project/198182-rc-plane-sound-machine)
+
