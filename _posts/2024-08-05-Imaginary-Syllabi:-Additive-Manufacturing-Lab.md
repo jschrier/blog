@@ -76,7 +76,7 @@ tags: 3dprinting diy art science teaching imaginary-syllabi
     - [Cerametal](https://hackaday.com/2024/07/21/cerametal-lets-you-print-metal-cheaply-and-easily/) is another idea; you make a metal-powder infused clay and then squeeze it through your ceramic extruder (see above; they use an Eazao), but you have to do some custom slicing
         - What's neat is that its easy to mix your own so the operational cost can be very low
 
-- Directed energy deposition (like [MeltIO](https://meltio3d.com/)), powder bed fusion/selective laser sintering, etc. is too pricey for us to do at this scale.
+- Directed energy deposition (like [MeltIO](https://meltio3d.com/)), powder bed fusion/selective laser sintering, etc. is too pricey for us to do at this scale.  Also, safety consideration around metal powder handling.
     - **Field trip:**  Go to the [GA Tech Advanced Manufacturing Pilot Facility](https://ampf.research.gatech.edu)
 
 
@@ -111,10 +111,18 @@ tags: 3dprinting diy art science teaching imaginary-syllabi
 - There's a [Certified Additive Manufacturing Technologist certificate exam](https://www.sme.org/training/additive-manufacturing-certification/certified-additive-manufacturing-technician-certification/) with a [recommended reading](https://www.sme.org/training/additive-manufacturing-certification/certified-additive-manufacturing-technician-certification/recommended-reading-materials/) list.  
     - [CUNY offers an online prep course for the exam](https://careertraining.qcc.cuny.edu/training-programs/certified-additive-manufacturing-technician-camt/) for $2400
     - But the video interviews from SME are mostly with people who said their test-prep was to buy and read the book, so you could save a few pesos that way.
-
+    
 - [MEng in additive manufacturing at PennState](https://www.worldcampus.psu.edu/degrees-and-certificates/penn-state-online-additive-manufacturing-and-design-masters-degree) (apply by 01 Sep to begin 06 Jan), 30 credits, 100% online (but you get to make an optional field trip to play with the metal stuff).  Total tuition for the program is $35K +/-. Most importantly, after completing the degree you can list yourself as a `Prof. Dr. Ing.` on your German railway tickets.
 
+- [SME's ToolingU is $79/mo for all-you-can-watch videos](https://learn.toolingu.com/catalog-landing/?n=12&r=SearchCategories[Training+Packages%7EAdditive+Manufacturing])
+
 - [Additive Manufacturing Strategies](https://additivemanufacturingstrategies.com/ ) conference in NYC 04-06 Feb 2025
+
+- University of Louisville runs a [4.5 day hands-on course on on additive metal technology](https://louisville.edu/amist/professional-training). Roughly every other month, $4500.  "This course covers our full one-day safety training along with build set up, design practices, machine set up/breakout, post-processing and hands-on machine time with machines like EOS M290.  Upon completion, participants will receive a training certificate and copies of the training materials."
+
+- [Accelerated Training in Defense Manufacturing](https://atdm.org/classes) runs a 4 month training bootcamp in Danville, VA, paid by uncle sam.
+
+- [Educational/training paths on how to pursue a career in additive manufacturing](https://www.additivemanufacturing.media/articles/how-to-pursue-a-career-in-additive-manufacturing) ---
 
 # Course ideas
  

@@ -21,6 +21,7 @@ tags: imaginary-syllabi teaching music
 # Math course
 
 - Two-semesters, based on the [Musimathics](http://www.musimathics.com) books
+- [Cool Math for Hot Music (2016)](https://amzn.to/3NnUxkT) also seems interesting, if you like an extra dose of category theory.
 
 # Physics/Electrical Engineering
 
