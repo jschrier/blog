@@ -79,7 +79,6 @@ tags: 3dprinting diy art science teaching imaginary-syllabi
 - Directed energy deposition (like [MeltIO](https://meltio3d.com/)), powder bed fusion/selective laser sintering, etc. is too pricey for us to do at this scale.  Also, safety consideration around metal powder handling.
     - **Field trip:**  Go to the [GA Tech Advanced Manufacturing Pilot Facility](https://ampf.research.gatech.edu)
 
-- [Metal injection molding](https://en.wikipedia.org/wiki/Metal_injection_molding). [Actionbox.ca](https://actionbox.ca) has a relatively-low cost ($2500 kit which includes a furnace and a kilo of materials), with 6% shrinkage. [Demo video online](https://www.youtube.com/watch?v=Ys-RMVJ89dk)
 
 
 # Biomaterials
