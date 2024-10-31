@@ -9,7 +9,7 @@ tags: imaginary-syllabi teaching art science
 # Science motivations
 
 - Sitting on a panel on structural ceramics
-- Thinking about the develop of new glazes as a thermodynamic prediction problem...
+- Thinking about the develop of new glazes as a thermodynamic prediction problem...essentially predicting different oxide producs given precursors. 
 
 # Reading List
 
@@ -29,3 +29,4 @@ tags: imaginary-syllabi teaching art science
 
 - [Building a database to store your glaze outcomes](https://www.alexreichert.com/blog/graph-based-ceramics) --- interesting point on this was the comment about "interaction of glazes", which sound like a predictable reaction question
 - Get a [ceramic extrusion 3d printer and make some cool things](https://www.eazao.com)
+- Ultrasonically mix 0.5% graphene oxide into kaolin to make it 3x stronger ([ACS Omega 2024](https://pubs.acs.org/doi/10.1021/acsomega.4c05748))
