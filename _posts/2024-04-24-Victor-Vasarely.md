@@ -10,3 +10,7 @@ I saw an epic retrospective on [Vasarely](https://en.wikipedia.org/wiki/Victor_V
     - Related:  [Bridget Riley - Movement in Squares and Circles](https://mathematica.stackexchange.com/questions/302187/bridget-riley-movement-in-squares-and-circles)
 - [Sliceforms](https://mathematica.stackexchange.com/questions/297114/how-can-we-produce-sliceforms)--tl;dr use `SliceContourPlot3D` for 3d and `ImageForwardTransformation` in 2D 
 - [Colored cuboids](https://mathematica.stackexchange.com/questions/297922/reproducing-two-of-victor-vasarelys-colored-cuboids-eroed-per-and-gestalt-bleu)
+
+# Parerga and Paralipomena
+
+- [Daniel Mullen](https://danielmullen.info) (Amsterdam, 1985-) does paintings within this tradition
