@@ -13,4 +13,4 @@ I saw an epic retrospective on [Vasarely](https://en.wikipedia.org/wiki/Victor_V
 
 # Parerga and Paralipomena
 
-- [Daniel Mullen](https://danielmullen.info) (Amsterdam, 1985-) does paintings within this tradition
+- [Daniel Mullen](https://danielmullen.info) (Amsterdam, 1985-) does paintings within this tradition (via [Colossal article](https://www.thisiscolossal.com/2024/11/daniel-mullen-geometric-paintings/))
