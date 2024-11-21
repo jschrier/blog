@@ -55,7 +55,7 @@ tags: 3dprinting diy art science teaching imaginary-syllabi
 
 - **DLP ceramics:**  [Tethon Bison](https://tethon3d.com) is the winner here for SLS/DLP printing with ceramics.  You can buy the resins but results are iffy with other printers (according to random redditors who tried), and the ceramic fluids mess up your other printers, so it is worth specializing. Unfortunately these are above our typical threshold ([$19K, but there's an academic discount?](https://tethon3d.com/product/bison-1000-dlp-printer-2/)).  They have lots of cool resins, including [castalite](https://tethon3d.com/wp-content/uploads/Castalite-Guideline-1.pdf) which can be used to direct print investment molds and other stuff, well as [resin kits that can be used to embed your own nanoparticles](https://tethon3d.com/product/genesis/).
 
-- **Glass**: Glassomer sells an [SLS with hgih-quality silica](https://www.glassomer.com/technology.html), marketed with [Lithoz](https://lithoz.com/en/lithoz-and-glassomer-launch-innovation-partnership-presenting-lithaglass-powered-by-glassomer-a-3d-printable-quartz-glass-for-high-performance-applications/). Probably fine to do it with our polymer SLS printer?
+- **Glass**: Glassomer sells an [SLS with high-quality silica](https://www.glassomer.com/technology.html), marketed with [Lithoz](https://lithoz.com/en/lithoz-and-glassomer-launch-innovation-partnership-presenting-lithaglass-powered-by-glassomer-a-3d-printable-quartz-glass-for-high-performance-applications/). Probably fine to do it with our polymer SLS printer?
 
 - **EHS Needs:** Venting for kiln, power and fire safety for kiln 
 
@@ -134,3 +134,10 @@ tags: 3dprinting diy art science teaching imaginary-syllabi
     - Frame it as an interdisciplinary capstone course?
 
 - Research projects?
+
+- 1-credit, 750 hour (10 weeks x 75 minute class) ["Symposium" course](https://bulletin.fordham.edu/courses/symp/). Aimed at a general audience. Possible accompanying books would include:
+    - Hall, [Materials: A Very Short Introduction](https://amzn.to/3Zf90Gq)
+    - Sutton, [Concepts of Materials Science](https://amzn.to/3Z3OkQe)
+    - Radhakrishnan, [Core Concepts for a Course on Materials Chemistry](https://amzn.to/4eNbmk9)
+
+
