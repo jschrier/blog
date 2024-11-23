@@ -39,6 +39,8 @@ What is frustrating (*circa late June/early July 2024*) is that you can't see wh
 
 You've got to use the web-interface; as of late-June 2024, the API for fine-tuning is still in beta.
 
+**(update: Nov 2024:)** I created a [short tutorial example](https://github.com/jschrier/KRICT_hackathon_phosphors/) of fine-tuning with various models on a chemistry prediction task using OpenPipe for a hackathon project. This shows off the convenience of the new 
+
 
 # Predibase
 
@@ -128,6 +130,6 @@ Unsloth is a library for performance tunning LLMs and they have a worked example
 
 # Other things seen on the internet
 
-- Alex Strick van Linschoten has been following the same LLM fine-tuning course as me, and has written blog posts about his experiences doing a [local (4-bit quantized) fine-tune using Axolotl](https://mlops.systems/posts/2024-06-15-isafpr-first-finetune.html) and comparing [one-click fine-tuning on Predibase, OpenPipe, and OpenAI](https://mlops.systems/posts/2024-06-17-one-click-finetuning.html) and [head to head comparisons and evals of his fine-tuned models against GPT-4](https://mlops.systems/posts/2024-07-01-full-finetuned-model-evaluation.html)
+- Alex Strick van Linschoten followed the same LLM fine-tuning course as me, and has written blog posts about his experiences doing a [local (4-bit quantized) fine-tune using Axolotl](https://mlops.systems/posts/2024-06-15-isafpr-first-finetune.html) and comparing [one-click fine-tuning on Predibase, OpenPipe, and OpenAI](https://mlops.systems/posts/2024-06-17-one-click-finetuning.html) and [head to head comparisons and evals of his fine-tuned models against GPT-4](https://mlops.systems/posts/2024-07-01-full-finetuned-model-evaluation.html)
 - [Distributed fine tuning Gemma 2 - 27B with Keras](https://developers.googleblog.com/zh-hans/fine-tuning-gemma-2-with-keras-hugging-face-update/) guide from Goog
 
