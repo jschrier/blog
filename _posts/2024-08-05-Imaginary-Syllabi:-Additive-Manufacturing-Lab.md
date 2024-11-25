@@ -20,7 +20,7 @@ tags: 3dprinting diy art science teaching imaginary-syllabi
 
 # First principles and foundations
 
-- *Conceptually comprehensive:* Include all of the major areas of materials (polymers, metals, ceramics) and try to include many (but not all) additive modalities.  Aim for illustrating basic transferable principles, that have a connection to underlying fundamental chemistry...sort of like the lab complement to [Shackelford's intro materials science textbook](https://amzn.to/3JNUFbz)   
+- *Conceptually comprehensive:* Include the major areas of materials (polymers, metals, ceramics) and try to include many (but not all) additive modalities.  Aim for illustrating basic transferable principles, that have a connection to underlying fundamental chemistry...sort of like the lab complement to [Shackelford's intro materials science textbook](https://amzn.to/3JNUFbz)   
 
 - *Safety:* We don't want powder explosion hazards, etc.  Focus on relatively safe methods
 
@@ -29,7 +29,7 @@ tags: 3dprinting diy art science teaching imaginary-syllabi
 
 # Polymer
 
-- *Fused deposition modeling:* Obviously a must have, but also really easy.  Get a [Prusa MK4](https://www.prusa3d.com/product/original-prusa-mk4-2) ($1100 assembled or $700 DIY) or [XL $2K](https://www.prusa3d.com/product/original-prusa-xl/) and be done with it. I've personally found the MK3S+ super reliable. MK4 has easy nozzle changes, which will be important for doing some of the sinter-based metal products
+- *Fused deposition modeling:* Obviously a must have, but also really easy.  Get a [Prusa MK4](https://www.prusa3d.com/product/original-prusa-mk4-2) ($1100 assembled or $700 DIY) or [XL $2K](https://www.prusa3d.com/product/original-prusa-xl/) or the new [Core 1](https://www.prusa3d.com/product/prusa-core-one/) ($1200 assembled or $900) and be done with it. I've personally found the MK3S+ super reliable. Easy nozzle changes, which will be important for doing some of the sinter-based metal products
     - Learning goals:  Polymer structure/property relations (PLA, PETG, TPU, ABS, etc.)
     - Basic tricks of the trade: modeling, 3d file formats, slicers
     - Good for introducing ideas about: anisotropy (of strength under compression and tension, which is more pronounced because of layering, design for manufacture, processing conditions (temperature, humidity, curing (in the case of PLA+)))
