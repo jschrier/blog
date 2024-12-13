@@ -46,7 +46,7 @@ Cabs are generally cheaper than Ubers.
     - East to St. Mark's Place (where the NYU students hangout)
     - Northwest towards Union Square. Go along Broadway and stop into [Strand Bookstore](https://maps.app.goo.gl/KPKByNyfL8ALz3CN7) which boasts 18 miles of used bookshelves.
     - Continue north from any of these points to the [Empire State Building](https://maps.app.goo.gl/43tNNTwyKzxPmPzz9) (and if it's business hours, stop into [Tannen's Magic Store](https://maps.app.goo.gl/vkKx4BsNWmdNPBKy8)) 
-    - Head up Irving Place, you can swing past [xxx bar](a favorite of NYC writers going back to O. Henry) for a beer and walk around the [XXXX park]() to see the Arts Club
+    - Head up Irving Place, you can swing past [Pete's Tavern](https://g.co/kgs/fWwp6cp) (a favorite of NYC writers going back to [O. Henry](https://en.wikipedia.org/wiki/Pete%27s_Tavern)) for a beer and walk around the [Grammercy park](https://en.wikipedia.org/wiki/Gramercy_Park) to see the [Arts Club](https://g.co/kgs/5EQ6i2n)
 
 
 
@@ -112,6 +112,7 @@ Nobody goes to Times Square, because it is too crowded with tourists.  But...
 
 - [Old Tblisi](https://maps.app.goo.gl/nZoaavwPXWAJLfPL9) *west village on Bleeker Street*.  The garden is charming. Great breads and stews.
 - [Aragavi](https://maps.app.goo.gl/JrXT6VCoAj62reu6A) *Midtown, near GCT/UN* A bit expensive, but a wide range of excellent dishes and wines (and Georgian moonshine)
+- [Ubani](https://maps.app.goo.gl/NwsqBLUDHb8upoZC9), *Midtown, near UN* a new contender, went here with [Bob The Chemistry](http://bobthechemist.com) and [Jon Friedrich](https://scholar.google.com/citations?user=I42Xxc4AAAAJ&hl=en&oi=ao) and everyone enjoyed it.
 
 ### Farther afield
 
