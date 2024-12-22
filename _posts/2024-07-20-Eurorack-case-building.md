@@ -43,3 +43,11 @@ This spring I [came to the conclusion that I needed to expand my Eurorack case](
 - Need to figure out mounting: a few screws in the corner, maybe run then through the case with some standoffs
 - Need a flying bus cable as we are running low on sockets. [Pretty easy to make our own](https://syntherjack.net/power-supply-ribbon-cable/) so as to chain a few nearby modules together with a minimum of excess cabling.
     - [Kit with wire and 10x 16pin and 20x 10 pin with crimping tool](https://amzn.to/46ffqHx) should suffice for this project. We'll be pretty modest and just run 2 modules per cable (keeping the ES-9 on its own as it is the most power hungry)
+
+# Final design (Dec 2024)
+- I want this to fit inside a bookshelf case with approximate bounding dimensions of 10" x 10"
+- Layout in [Eurorack planner](https://intafon.github.io/diyEurorackCasePlanner/planner.html): 60mm module depth, 2 rows, Row 1 angle: 20 degrees, Row 2 angle 45 degrees, material thickness 6.35mm (1/4")
+- Design in F360
+    - Resisted the urge to yakshave:  [boxes.py](https://github.com/florianfesti/boxes)
+    - [Refresher video on efficient ways to define tabs in F360](https://www.youtube.com/watch?v=9U2JPfkQpsE)
+- Plan for 0.5 mm kerf losses
