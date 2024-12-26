@@ -4,7 +4,7 @@ date: 2024-12-26
 tags: ai mathematica llm theology gpt4
 ---
 
-Last year I started my study of LLM programming by [implementing a retrieval augmented generation (RAG)]({{ site.baseurl }}{% post_url 2023-08-24-Retrieval-Augmented_Generation %}) over the [Catechism of the Catholic Church](https://www.vatican.va/archive/ENG0015/_INDEX.HTM) using the LLM functionality in Mathematica 13.3. (Cue [Tom Lehrer's Vatican Rag](https://www.youtube.com/watch?v=pvhYqeGp_Do).) Since then, I have learned a few tricks and there are some new features in Mathematica 14.1 that make this even easier...**time for an update!...**
+Last year I started my study of LLM programming by [implementing a retrieval augmented generation (RAG)]({{ site.baseurl }}{% post_url 2023-08-24-Retrieval-Augmented-Generation %}) over the [Catechism of the Catholic Church](https://www.vatican.va/archive/ENG0015/_INDEX.HTM) using the LLM functionality in Mathematica 13.3. (Cue [Tom Lehrer's Vatican Rag](https://www.youtube.com/watch?v=pvhYqeGp_Do).) Since then, I have learned a few tricks and there are some new features in Mathematica 14.1 that make this even easier...**time for an update!...**
 
 ## Control Experiment
 
@@ -26,7 +26,7 @@ LLMSynthesize["What must I do to gain eternal life?"]
 
 ## Pre-processing
 
-[As before]({{ site.baseurl }}{% post_url 2023-08-24-Retrieval-Augmented_Generation %}), we will use the English language version of the [Catechism of the Catholic Church](https://www.vatican.va/archive/ENG0015/_INDEX.HTM), which is a useful example because it is a large document that comes with a built-in segmentation into smaller pieces, is mostly plain-text HTML with minimal formatting, and is [available for free online](https://www.vatican.va/archive/ENG0015/_INDEX.HTM).   
+[As before]({{ site.baseurl }}{% post_url 2023-08-24-Retrieval-Augmented-Generation %}), we will use the English language version of the [Catechism of the Catholic Church](https://www.vatican.va/archive/ENG0015/_INDEX.HTM), which is a useful example because it is a large document that comes with a built-in segmentation into smaller pieces, is mostly plain-text HTML with minimal formatting, and is [available for free online](https://www.vatican.va/archive/ENG0015/_INDEX.HTM).   
 
 We'll retrieve the index page, and then use the links in the page to retrieve the remainder of the content:
 
@@ -41,7 +41,7 @@ Note that we do not even need to retrieve the texts...just the links.
 
 ## Create the Vector Database using CreateSemanticSearchIndex
 
-[Previously]({{ site.baseurl }}{% post_url 2023-08-24-Retrieval-Augmented_Generation %}), we retrieved the text, computed the embedding vectors by making an API call to OpenAI, and then used Nearest to create a lookup function. While there is an underlying lower-level [VectorDatabaseObject](http://reference.wolfram.com/language/ref/VectorDatabaseObject.html) that can be used to construct this, for text-related queries the new [SemanticSearch](http://reference.wolfram.com/language/ref/SemanticSearch.html) functionality streamlines this into a single function.  We can provide a list of texts (or in our case, a list of URLs from which to retrieve the text), handle the necessary chunking, and use a local copy of SentenceBERT to generate the embedding vectors, returning a searchable index.  This took about 5 minutes to retrieve and embed the text on my laptop:
+[Previously]({{ site.baseurl }}{% post_url 2023-08-24-Retrieval-Augmented-Generation %}), we retrieved the text, computed the embedding vectors by making an API call to OpenAI, and then used Nearest to create a lookup function. While there is an underlying lower-level [VectorDatabaseObject](http://reference.wolfram.com/language/ref/VectorDatabaseObject.html) that can be used to construct this, for text-related queries the new [SemanticSearch](http://reference.wolfram.com/language/ref/SemanticSearch.html) functionality streamlines this into a single function.  We can provide a list of texts (or in our case, a list of URLs from which to retrieve the text), handle the necessary chunking, and use a local copy of SentenceBERT to generate the embedding vectors, returning a searchable index.  This took about 5 minutes to retrieve and embed the text on my laptop:
 
 Let's also compare to the **default chunking**: 
 
@@ -183,7 +183,7 @@ LLMSynthesize[
   LLMEvaluator -> <|"Prompts" -> { LLMPrompt["Yoda" ], LLMPromptGenerator@indexOAI}|>]
 ```
 
-> Ah, seek eternal life you do. Into life, enter you must by keeping the commandments, as it is said. (Mt 19:16-17, hmm.) In God's grace and friendship, live; follow the path of love and righteousness. Through faith in Christ and His teachings, walk steady. Eternal life, to know the true God and Jesus Christ, whom sent He did."
+> Ah, seek eternal life you do. Into life, enter you must by keeping the commandments, as it is said. (Mt 19:16-17, hmm.) In God's grace and friendship, live; follow the path of love and righteousness. Through faith in Christ and His teachings, walk steady. Eternal life, to know the true God and Jesus Christ, whom sent He did.
 
 
 You can also specify RAG against the named persistent indices you have previously created on your machine, which is quite handy.  Here is a generation using the SentenceBERT with default settings:
@@ -194,7 +194,15 @@ LLMSynthesize[
   LLMEvaluator -> <|"Prompts" -> LLMPromptGenerator@SemanticSearchIndex["catechism_default"]|>]
 ```
 
-> According to the context provided, gaining eternal life involves several key components: 1. **Faith and Grace**: Eternal life is a supernatural gift that depends on God's gratuitous initiative. Belief in Christ and the grace infused by the Holy Spirit are essential.2. **Purification from Sin**: One must purify themselves in action, thought, and word, striving for a pure soul. This involves a life free from sin and its consequences through God's grace.3. **Following Christ's Example**: Emulate Christ's life and teachings, leading a life of charity and holiness. This is done by acting rightly and doing good as a reflection of one's faith.4. **Participating in the Sacraments**: Baptism and the Eucharist play a significant role in experiencing and receiving the grace that leads to eternal life.5. **Desiring Union with God**: Cultivate a desire to be with Christ, transforming one's death into an act of obedience and love towards God. This demonstrates trust in the promise of eternal life.6. **Practice of Charity**: A conversion with fervent charity helps in attaining complete purification, freeing one from the temporal punishment of sin.The Beatitudes and a life aligned with God's divine plan are also significant in this journey. These involve discernment in the use of earthly goods and aligning one's life with the vision and values of the Kingdom of Heaven.
+> According to the context provided, gaining eternal life involves several key components: 
+> 1. **Faith and Grace**: Eternal life is a supernatural gift that depends on God's gratuitous initiative. Belief in Christ and the grace infused by the Holy Spirit are essential.
+> 2. **Purification from Sin**: One must purify themselves in action, thought, and word, striving for a pure soul. This involves a life free from sin and its consequences through God's grace.
+> 3. **Following Christ's Example**: Emulate Christ's life and teachings, leading a life of charity and holiness. This is done by acting rightly and doing good as a reflection of one's faith.
+> 4. **Participating in the Sacraments**: Baptism and the Eucharist play a significant role in experiencing and receiving the grace that leads to eternal life.
+> 5. **Desiring Union with God**: Cultivate a desire to be with Christ, transforming one's death into an act of obedience and love towards God. This demonstrates trust in the promise of eternal life.
+> 6. **Practice of Charity**: A conversion with fervent charity helps in attaining complete purification, freeing one from the temporal punishment of sin.
+>
+> The Beatitudes and a life aligned with God's divine plan are also significant in this journey. These involve discernment in the use of earthly goods and aligning one's life with the vision and values of the Kingdom of Heaven.
 
 
 ## tl;dr--RAG in 3 easy steps:
