@@ -180,7 +180,7 @@ Prompts can take a list of inputs, which provides a way add other style modifier
 ```mathematica
 LLMSynthesize[
   "What must I do to gain eternal life?", 
-  LLMEvaluator -> <|"Prompts" -> { LLMPrompt["Yoda" ], LLMPromptGenerator@indexOAI}|>]
+  LLMEvaluator -> <|"Prompts" -> { LLMPrompt["Yoda"], LLMPromptGenerator@indexOAI}|>]
 ```
 
 > Ah, seek eternal life you do. Into life, enter you must by keeping the commandments, as it is said. (Mt 19:16-17, hmm.) In God's grace and friendship, live; follow the path of love and righteousness. Through faith in Christ and His teachings, walk steady. Eternal life, to know the true God and Jesus Christ, whom sent He did.
