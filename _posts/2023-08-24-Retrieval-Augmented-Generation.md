@@ -193,4 +193,4 @@ As you can see, this has reworded and paraphrased the retrieved text to answer t
 - The new [GPTTokenizer resource function](https://resources.wolframcloud.com/FunctionRepository/resources/GPTTokenizer/) facilitates token counting
 - (18 Apr 2024) OpenAI now supports [FileSearch](https://platform.openai.com/docs/assistants/tools/file-search) which will do the file parsing, chunking, embedding, and vector lookup for you...
 - (01 Aug 2024) The new [Mathematica 14.1 has built in semantic search and vector database capabilities](https://writings.stephenwolfram.com/2024/07/yet-more-new-ideas-and-new-functions-launching-version-14-1-of-wolfram-language-mathematica/#vector-databases-and-semantic-search)
-- (26 Dec 2024) I've created a [new tutorial on RAG using the Mathematica 14.1 capabilities](({{ site.baseurl }}{% post_url 2024-12-26-Retrieval-Augmented_Generation,-Revisited %}))
+- (26 Dec 2024) I've created a [new tutorial on RAG using the Mathematica 14.1 capabilities](({{ site.baseurl }}{% post_url 2024-12-26-Retrieval-Augmented-Generation,-Revisited %}))
