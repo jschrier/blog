@@ -34,7 +34,6 @@ We'll retrieve the index page, and then use the links in the page to retrieve th
 sectionLinks = With[
     {url = "https://www.vatican.va/archive/ENG0015/_INDEX.HTM"}, 
     Drop[#, 10] &@Import[url, "Hyperlinks"]]; (* first 10 links are navigation tools *)
-
 ```
 
 Note that we do not even need to retrieve the texts...just the links.  
@@ -50,7 +49,6 @@ CreateSemanticSearchIndex[
   URL /@ sectionLinks, (* retrieve URLs directly *)
   "catechism_default", (*optional index name*)
   DistanceFunction -> CosineDistance] (* traditional to use cosine distance*)
-
 ```
 
 ![1h140p0lwsex6](/blog/images/2024/12/26/1h140p0lwsex6.png)
