@@ -13,7 +13,7 @@ tags: sculpture 3dprinting
 
 # Fun things to print
 
-- [impressive compliant blaster](https://www.youtube.com/watch?v=7Y1OKlcw78g)
+- [impressive compliant blaster](https://www.youtube.com/watch?v=7Y1OKlcw78g):  definitely follow the instructions and print with 0.15 mm resolution; it works better that way, as the fits will be smoother
 - [flaming matchstick compliant crossbow](https://www.youtube.com/watch?v=gUvTxCBWYM0)
 - [3d printed nerf gun](https://www.youtube.com/watch?v=O33g62Kwq9s)
 - [print in place toggle](https://makerworld.com/en/models/467451#profileId-376540)
