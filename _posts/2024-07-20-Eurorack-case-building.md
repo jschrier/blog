@@ -45,9 +45,25 @@ This spring I [came to the conclusion that I needed to expand my Eurorack case](
     - [Kit with wire and 10x 16pin and 20x 10 pin with crimping tool](https://amzn.to/46ffqHx) should suffice for this project. We'll be pretty modest and just run 2 modules per cable (keeping the ES-9 on its own as it is the most power hungry)
 
 # Final design (Dec 2024)
-- I want this to fit inside a bookshelf case with approximate bounding dimensions of 10" x 10"
-- Layout in [Eurorack planner](https://intafon.github.io/diyEurorackCasePlanner/planner.html): 60mm module depth, 2 rows, Row 1 angle: 20 degrees, Row 2 angle 45 degrees, material thickness 6.35mm (1/4")
+
+![rendering of case](/blog/images/2024/12/26/eurorack_render.png)
+
+- I want this to fit inside a bookshelf case with approximate bounding dimensions of 10" x 10" x 104 HP
+- Layout in [Eurorack planner](https://intafon.github.io/diyEurorackCasePlanner/planner.html): 60mm module depth, 2 rows, Row 1 angle: 20 degrees, Row 2 angle 45 degrees, material thickness 6.35mm (1/4"); holes positioned for use with [Tip-top rails](http://www.tiptopaudio.com/manuals/z-rails.pdf)
+- Include mounting and switch holes for [my existing Erica MKI power supply](https://www.ericasynths.lv/shop/diy-kits-1/mki-x-esedu-diy-1x84hp-case/)---but you'll need extra screws which are longer and bolts to attach the power supply in place. 
+- Plan for 0.5 mm kerf losses, but it doesn't really matter in practice. You can just design it to notional fits and 
 - Design in F360
     - Resisted the urge to yakshave:  [boxes.py](https://github.com/florianfesti/boxes)
-    - [Refresher video on efficient ways to define tabs in F360](https://www.youtube.com/watch?v=9U2JPfkQpsE)
-- Plan for 0.5 mm kerf losses
+    - [Refresher video on efficient ways to define tabs cuts in F360](https://www.youtube.com/watch?v=9U2JPfkQpsE)
+    - [Use the Arrange feature in the `Manufacturing` tab to layout for manufacturing](https://www.youtube.com/watch?v=jeQPJHHwVN4)---the trick here is that you have to create components that contain sketches of the bounding box of material you are cutting 
+    - [Project the objects into the sketch plane](https://www.youtube.com/watch?v=CGeL6ot2mZ0)
+    - [Export sketch as DXF files](https://www.youtube.com/watch?v=eKoJa2913cQ)
+        - To fit this in the [trusty Trotec 300](https://wiki.fatcatfablab.org/wiki/Laser_Cutting) by dividing into two workpieces:  a 23"x15" and 12"x15" piece.  In practice, just buy a 2'x4' quarter inch baltic birch sheet and rip it into pieces that will fit inside the laser cutter.
+        - **HERE ARE THE FILES:** [cut1.dxf](/blog/images/2024/12/26/cut1.dxf) and [cut2.dxf](/blog/images/2024/12/26/cut2.dxf)
+- Laser cut it!
+- Assemble using the [Tip-top rails](http://www.tiptopaudio.com/manuals/z-rails.pdf) and glue the joints
+- Print some TPU feet to avoid scuffing the table:  [foot.stl](/blog/images/2024/12/26/foot.stl)
+- Mount the power supply and start filling it with modules
+
+
+
