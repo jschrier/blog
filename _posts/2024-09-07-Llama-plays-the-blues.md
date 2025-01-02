@@ -50,7 +50,9 @@ ServiceExecute["OpenAI", "ImageCreate",
 
 Skimming through the [citing reference](https://scholar.google.com/scholar?cites=862900746084543759&as_sdt=5,33&sciodt=0,33&hl=en), some highlights (as of 07 Sept 2024) include:
 
-- [Foundation Models for Music: A Survey](https://arxiv.org/abs/2408.14340)
+- [Foundation Models for Music: A Survey](https://arxiv.org/abs/2408.14340)...and [accompanying GitHub page of links and resources](https://github.com/nicolaus625/FM4Music)
 - [ComposerX: Multi-Agent Symbolic Music Composition with LLMs](https://arxiv.org/abs/2404.18081)
 
+# Parerga and Paralipomena
 
+- (31 Dec 2024) [Chordonomicon](https://arxiv.org/abs/2410.22046) - A Dataset of 666,000 Songs and their Chord Progressions 
