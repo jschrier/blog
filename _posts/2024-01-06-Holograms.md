@@ -2,7 +2,7 @@
 title: "Holograms"
 date: 2024-01-06
 layout: post
-tags: art science santafe holography nyc
+tags: art science santafe holography nyc laser
 ---
 
 I saw some work by [August Muth](https://www.augustmuth.com/about) in the [Vladem Contemporary](https://www.augustmuth.com/about), which turned me on to holography.  **Resources...** 
