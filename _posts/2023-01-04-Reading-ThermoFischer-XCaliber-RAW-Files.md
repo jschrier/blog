@@ -4,7 +4,7 @@ date: 2023-01-04
 tags: science python
 ---
 
-_[Sarah Maurer](https://directory.ccsu.edu/person/sarah-maurer) asks:  I'm using a [GC/MS](https://en.wikipedia.org/wiki/Gas_chromatography–mass_spectrometry) to analyze some samples, but the ThermoFischer XCalibur software on the instrument only allows us to export the data one CSV at a time, which is an error prone process.  Is there any way to automate this?_  **Here are some notes on how to do this in 2023...**
+_[Sarah Maurer](https://directory.ccsu.edu/person/sarah-maurer) asks:  I'm using a [GC/MS](https://en.wikipedia.org/wiki/Gas_chromatography–mass_spectrometry) to analyze some samples, but the ThermoFischer XCalibur software on the instrument only allows us to export the data one CSV at a time, which is an error prone process.  Is there any way to automate this?_  **Here are some notes on how to do this in January 2023...**
 
 
 # Using MSFileReader and the PyPiWin32 (not recommended)
@@ -54,6 +54,6 @@ Note that RawTools appears to be a standalone tool with a GUI, so it can probabl
 
 # Continued readings and gleanings
 
-*(updated 20 Jan 2023)*
-
-* Haas CP, Lübbesmeyer M, Jin EH, McDonald MA, Koscher BA, Guimond N, et al. Open-Source Chromatographic Data Analysis for Reaction Optimization and Screening. ChemRxiv 2022. [doi:10.26434/chemrxiv-2022-0pv2d](https://dx.doi.org/10.26434/chemrxiv-2022-0pv2d) --- describes a python library for reading and processing and extracting information from a variety of HPLC machines/vendors
+- (20 Jan 2023) Haas CP, Lübbesmeyer M, Jin EH, McDonald MA, Koscher BA, Guimond N, et al. Open-Source Chromatographic Data Analysis for Reaction Optimization and Screening. ChemRxiv 2022. [doi:10.26434/chemrxiv-2022-0pv2d](https://dx.doi.org/10.26434/chemrxiv-2022-0pv2d) --- describes a python library for reading and processing and extracting information from a variety of HPLC machines/vendors.  Subsequently published as MoccA in [ACS Central Sci 2023](https://pubs.acs.org/doi/10.1021/acscentsci.2c01042)
+- (06 Jan 2024) Hillenbrand et al, Automated Processing of Chromatograms: A comprehensive Python Package with GUI for Intelligent Peak Identification and Deconvolution in Chemical Reaction Analysis [ChemRxiv 2024](https://dx.doi.org10.26434/chemrxiv-2024-nmnzp)---upgrade to MoccA (consider this the latest version)
+- (06 Jan 2024) McDonald et al, "Calibration-free reaction yield quantification by HPLC with a machine-learning model of extinction coefficients" [Chem Sci 2024](https://doi.org/10.1039/D4SC01881H) --- perhaps not strictly necessary, but useful task to remember.
