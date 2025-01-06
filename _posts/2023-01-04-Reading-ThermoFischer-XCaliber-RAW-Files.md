@@ -42,6 +42,8 @@ Note that RawTools appears to be a standalone tool with a GUI, so it can probabl
 
 [RawFileReader](https://github.com/thermofisherlsms/RawFileReader) is a group of .Net Assemblies written in C# used to read Thermo Scientific RAW files. The assemblies can be used to read RAW files on Windows, Linux, and MacOS using C# or other languages that can acces a .Net assembly.
 
+[ThermoRawFileParser](https://github.com/compomics/ThermoRawFileParser) (see also [paper](https://pubmed.ncbi.nlm.nih.gov/31755270/)) is a 3rd party command line wrapper around RawFileReader
+
 
 # Other resources found in my readings
 
@@ -58,5 +60,6 @@ Note that RawTools appears to be a standalone tool with a GUI, so it can probabl
 - (06 Jan 2024) Hillenbrand et al, Automated Processing of Chromatograms: A comprehensive Python Package with GUI for Intelligent Peak Identification and Deconvolution in Chemical Reaction Analysis [Digital Discovery 2024](https://dx.doi.org/10.1039/D4DD00214H)---upgrade to MoccA (consider this the latest version) **Limitation:  Only the UV chromatogram, not mass spec**
 - (06 Jan 2024) McDonald et al, "Calibration-free reaction yield quantification by HPLC with a machine-learning model of extinction coefficients" [Chem Sci 2024] (https://doi.org/10.1039/D4SC01881H) --- perhaps not strictly necessary, but useful task to remember.
 - (06 Jan 2024) It seems that many packages for working with mass spec in python like [Mass-Suite](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-023-00741-9) and [pyOpenMS](https://github.com/OpenMS/pyopenms-docs) use mzML file formats, not .raw. 
-    - [PythoMS](https://pubs.acs.org/doi/10.1021/acs.jcim.9b00055) and [github](https://github.com/larsyunker/PythoMS) seems to support converting from RAW to mzML as well as doing processing, but hasn't been maintained since 2020
-    - [ProteoWizard](https://proteowizard.sourceforge.io) is another recommend tool for converting from RAW to mzML.  [youtube video tutorial](https://www.youtube.com/watch?v=sudY7UtkMQg)
+    - [PythoMS](https://pubs.acs.org/doi/10.1021/acs.jcim.9b00055) and [github](https://github.com/larsyunker/PythoMS) seems to support converting from RAW to mzML as well as doing processing, but hasn't been maintained since 2020. Also, [under the hood](https://github.com/larsyunker/PythoMS/blob/master/pythoms/mzml.py) it is just calling  [ProteoWizard](https://proteowizard.sourceforge.io) to call the conversion, and only works under windows
+    - [ProteoWizard](https://proteowizard.sourceforge.io) is another recommend tool for converting from RAW to mzML.  [youtube video tutorial](https://www.youtube.com/watch?v=sudY7UtkMQg). But appears to only exist for Windows and maybe Linux.
+    - [ThermoRawFileParser](https://github.com/compomics/ThermoRawFileParser) (see also [paper](https://pubmed.ncbi.nlm.nih.gov/31755270/)) is a wrapper around thermo's RawFileReader framework (see section above) 
