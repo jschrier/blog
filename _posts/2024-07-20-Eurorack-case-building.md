@@ -1,7 +1,7 @@
 ---
 title: "Eurorack case building"
 date: 2024-07-20
-tags: synth diy fusion360
+tags: synth diy fusion360 laser
 ---
 
 This spring I [came to the conclusion that I needed to expand my Eurorack case]({{ site.baseurl }}{% post_url 2024-04-30-Great-Ideas-from-Korea,-part-2 %}).  I had decided to buy one, but then again I don't need to expand it that much, and so naturally I am going to yak shave by **building a case...**
