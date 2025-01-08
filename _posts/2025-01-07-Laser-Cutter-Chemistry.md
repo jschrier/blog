@@ -4,7 +4,7 @@ date: 2025-01-07
 tags: science diy laser
 ---
 
-Nietzsche famously claimed to do philosophy with a hammer.  **But can you do chemistry with a commercial laser cutter?** Some notes on feasible projects with CO2 (10.6 um), 1064 nm NIR fiber, and blue diode (455 nm) lasers found in commercially available laser cutters...
+Nietzsche famously claimed to do [philosophy with a hammer](https://en.wikipedia.org/wiki/Twilight_of_the_Idols).  **But can you do chemistry with a commercial laser cutter?** Some notes on feasible projects with CO2 (10.6 um), 1064 nm NIR fiber, and blue diode (455 nm) lasers found in commercially available laser cutters...
 
 # What are we working with?
 
