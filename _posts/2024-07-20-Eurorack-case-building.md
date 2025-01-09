@@ -62,8 +62,9 @@ This spring I [came to the conclusion that I needed to expand my Eurorack case](
         - **HERE ARE THE FILES:** [cut1.dxf](/blog/images/2024/12/26/cut1.dxf) and [cut2.dxf](/blog/images/2024/12/26/cut2.dxf)
 - Laser cut it!
 - Assemble using the [Tip-top rails](http://www.tiptopaudio.com/manuals/z-rails.pdf) and glue the joints
-- Print some TPU feet to avoid scuffing the table:  [foot.stl](/blog/images/2024/12/26/foot.stl)
+- Print 4x TPU feet to avoid scuffing the table:  [foot.stl](/blog/images/2024/12/26/foot.stl)
 - Mount the power supply and start filling it with modules
+    - Print 8x TPU standoffs for the power supply. [power_standoffs.stl](/blog/images/2024/12/26/power_standoffs.stl)
 
 
 

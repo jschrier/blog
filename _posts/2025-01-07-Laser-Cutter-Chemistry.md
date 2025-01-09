@@ -4,14 +4,14 @@ date: 2025-01-07
 tags: science diy laser
 ---
 
-Nietzsche famously claimed to do philosophy with a hammer.  **But can you do chemistry with a commercial laser cutter?** Some notes on feasible projects with CO2 (10.6 um), 1064 nm NIR fiber, and blue diode (455 nm) lasers found in commercially available laser cutters...
+Nietzsche famously claimed to do [philosophy with a hammer](https://en.wikipedia.org/wiki/Twilight_of_the_Idols).  **But can you do chemistry with a commercial laser cutter?** Some notes on feasible projects with CO2 (10.6 um), 1064 nm NIR fiber, and blue diode (455 nm) lasers found in commercially available laser cutters...
 
 # What are we working with?
 
 - CO2 IR lasers (~10,000 nm) are pretty common; local hackerspace has an [80W Trotec Speedy 300](https://wiki.fatcatfablab.org/wiki/Laser_Cutting)
 - More recently higher power fiber (NIR 1064 nm) and diode (visible blue, 455 nm) based machines have become available.  One particularly nice one is the [XTool F1 Ultra](https://www.xtool.com/products/xtool-f1-ultra-20w-fiber-diode-dual-laser-engraver) which has 20W on both of these wavelengths.  Also neat is that the laser is moved by galvanometer, potentially allowing us to have higher resolution patterning.
 
-(I learned about the F1 Ultra from a recent description of [how to make surface mount PCBs on the laser](https://github.com/sphawes/fiber-laser-pcb-fab) corresponding [youtube video](https://www.youtube.com/watch?v=wAiGCyZZq6w))
+**Backstory:** I learned about the F1 Ultra from a recent description of [how to make surface mount PCBs on the laser](https://github.com/sphawes/fiber-laser-pcb-fab) corresponding [youtube video](https://www.youtube.com/watch?v=wAiGCyZZq6w) 
 
 
 # Relevant Review Articles
