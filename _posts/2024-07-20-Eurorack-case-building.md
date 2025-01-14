@@ -59,12 +59,16 @@ This spring I [came to the conclusion that I needed to expand my Eurorack case](
     - [Project the objects into the sketch plane](https://www.youtube.com/watch?v=CGeL6ot2mZ0)
     - [Export sketch as DXF files](https://www.youtube.com/watch?v=eKoJa2913cQ)
         - To fit this in the [trusty Trotec 300](https://wiki.fatcatfablab.org/wiki/Laser_Cutting) by dividing into two workpieces:  a 23"x15" and 12"x15" piece.  In practice, just buy a 2'x4' quarter inch baltic birch sheet and rip it into pieces that will fit inside the laser cutter.
-        - **HERE ARE THE FILES:** [cut1.dxf](/blog/images/2024/12/26/cut1.dxf) and [cut2.dxf](/blog/images/2024/12/26/cut2.dxf)
+        - **HERE ARE THE FILES:** [cut1.dxf](/blog/images/2024/12/26/cut1.dxf) and [cut2.dxf](/blog/images/2024/12/26/cut2.dxf) 
+            - **WARNING** The rectangular switch slot is slightly too small for the toggle switch provided with the power supply; you'll need to enlarge it.  It should be 8mm wide by 19mm high. But I damaged the switch while trying to desolder it, and therefore swapped it out for an [inline switch](https://www.adafruit.com/product/1125) instead. So you could also just remove this feature entirely.
+            - Existing case holes are sized for M3x16 screws, but if you made the case holes smaller, you could easily use M2.5 screws instead. Center positions are exactly correct.  
 - Laser cut it!
 - Assemble using the [Tip-top rails](http://www.tiptopaudio.com/manuals/z-rails.pdf) and glue the joints
 - Print 4x TPU feet to avoid scuffing the table:  [foot.stl](/blog/images/2024/12/26/foot.stl)
 - Mount the power supply and start filling it with modules
-    - Print 8x TPU standoffs for the power supply. [power_standoffs.stl](/blog/images/2024/12/26/power_standoffs.stl)
+    - Print 8x TPU standoffs for the power supply. [power_standoffs.stl](/blog/images/2024/12/26/power_standoffs.stl) 
+    - (As noted above, M3x16 screws work nicely for this purpose with the existing holes, but if you made the case holes smaller, you could easily use M2.5 screws instead.)
+    - As noted above, [make a flying bus cable](https://syntherjack.net/power-supply-ribbon-cable/) to power adjacent pairs of modules, using a [crimping kit](https://amzn.to/46ffqHx)
 
 
 
