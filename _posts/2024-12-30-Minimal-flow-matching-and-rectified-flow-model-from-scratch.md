@@ -17,7 +17,8 @@ In a [previous post we looked at implementing a diffusion-based generative machi
 [As before]({{ site.baseurl }}{% post_url 2023-03-22-Minimal-diffusion-model-from-scratch-for-generative-machine-learning   %}), we will try to learn a spiral distribution in 2 dimensions.  We start from an initial state (which does not *have* to be a Gaussian, but it is just simple).  To do this we will create some functions to generate data from each distribution (with noise) and a convenience function for plotting:
 
 ```mathematica
-createGaussianData[nPoints_:1000, scale_:1.0] := RandomVariate[NormalDistribution[], {nPoints, 2}]*scale 
+createGaussianData[nPoints_:1000, scale_:1.0] := 
+   RandomVariate[NormalDistribution[], {nPoints, 2}] * scale 
  
 createSpiralData[nPoints_:1000, scale_:1.0] := With[
     {spiral = (scale/(2 Pi))*{# Cos[#], # Sin[#]}& /@ RandomReal[{0, 6 Pi}, nPoints], 
@@ -25,7 +26,8 @@ createSpiralData[nPoints_:1000, scale_:1.0] := With[
     spiral + noise] 
  
 plot[data_, range_:{-Pi, Pi}] := ListPlot[ data, 
-   AspectRatio -> 1, PlotRange -> {range, range} , Frame -> True, PlotStyle -> Red, ImageSize -> Medium]
+   AspectRatio -> 1, PlotRange -> {range, range}, Frame -> True, 
+   PlotStyle -> Red, ImageSize -> Medium]
 ```
 
 Generate source and target examples, then plot them:
@@ -50,7 +52,7 @@ The initial velocities point every which way:
 
 ```mathematica
 With[
-  {velocities = assignVelocity[source, target]},(* vectorized! *)
+  {velocities = assignVelocity[source, target]}, (* vectorized! *)
   ListVectorPlot[ 
    Transpose[{source, velocities}], 
    VectorScaling -> Automatic, PlotLegends -> Automatic]]
@@ -119,8 +121,9 @@ Next, we use the trained neural network as a velocity field to move the particle
 ```mathematica
 fwdEuler[ model_, dt_][position_, time_] := With[
     {velocity = model[
-       <|"position" -> position, "time" -> ConstantArray[time, Length[position]] |>]}, 
-    position + velocity*dt] 
+      <|"position" -> position, 
+      "time" -> ConstantArray[time, Length[position]] |>]}, 
+    position + velocity*dt ] 
  
 integrate[stepFn_, model_, nSteps_ : 100][source_] := 
   Fold[
@@ -145,7 +148,7 @@ plot@ integrate[fwdEuler, trained]@ source
 
 ![1tzpmk3wltoyn](/blog/images/2024/12/30/1tzpmk3wltoyn.png)
 
-Let's have some fun and see how it evolves in time...the infamous "collapse inward and push outward behavior".  Easy enough to do in memory; we just replace Fold with FoldList, and then ListAnimate the collection of plots: 
+Let's have some fun and see how it evolves in time...the infamous "collapse inward and push outward behavior".  Easy enough to do in memory; we just replace `Fold` with `FoldList`, and then `ListAnimate` the collection of plots: 
 
 ```mathematica
 animatedIntegrate[stepFn_, model_, nSteps_ : 100][source_] := 
@@ -230,7 +233,7 @@ All that is left is to modify the sampler so that it uses the previously trained
 reflowSampler[teacherNet_] := Function[
     Module[{source, target, time}, 
      source = createGaussianData[#BatchSize]; 
-     target = integrate[rk4, teacherNet, 20]@source; 
+     target = integrate[rk4, teacherNet, 20]@ source; 
      time = warpTime@ RandomReal[{0, 1}, #BatchSize]; 
      <|"position" -> (1 - time)*source + time*target, 
       "time" -> time, 
@@ -244,7 +247,7 @@ reflowSampler[teacherNet_] := Function[
 
 ![1svswdr87xxhe](/blog/images/2024/12/30/1svswdr87xxhe.png)
 
-Now take a look:  We do not have to use the RK4 integrator here because the trajectories are quite simple:
+Now take a look:  We do not even have to use the RK4 integrator here because the trajectories are quite simple:
 
 ```mathematica
 animatedIntegrate[fwdEuler, reflow]@ source
