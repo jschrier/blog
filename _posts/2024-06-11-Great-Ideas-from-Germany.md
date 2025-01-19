@@ -30,15 +30,16 @@ Project ideas from my recent trip to Berlin/Heidelberg...
 - Imaginary Cinema:  Mad Max, but with Kangaroos
 - Convert [Caspar David Friedrich landscapes](https://www.smb.museum/en/exhibitions/detail/caspar-david-friedrich/) into [Rothko-style color-field](https://en.wikipedia.org/wiki/Mark_Rothko) paintings by taking the average color on each line
 - Use a style-transfer imagine transfer model to convert pornography into Picasso-style cubistic nudes ("art!")
-- Stable diffusion on Gerhard Richter schmear paitings...whats's the underlying pattern or structure
-- Augmented reality baroque overlay (especially fun if you make this site-specific for a place like the Bauahaus museum)
-- Making Baroque era arhcitectural drawings into photorealistic CAD
+- Stable diffusion on Gerhard Richter [schmear paintings](https://www.artnews.com/art-in-america/features/gerhard-richter-painting-58768/)...whats's the underlying pattern or structure
+- Augmented reality baroque overlay (especially fun if you make this site-specific for a place like the [Bauhaus museum](https://bauhaus-dessau.de))
+- Making Baroque era architectural drawings into photorealistic CAD
 
 # Fashion
 
 - Backstage pass- style micromosaic/leather jewerly
 - Leather "festival" bracelets: Could have a special RFID clasp that breaks when unlocked.
 - Hawaiian shirts in the style of [Karl Schmidt-Rottluff](https://www.bruecke-museum.de/en/sammlung/kuenstler/792/karl-schmidt-rottluff)
+    - (**UPDATE 01/2025**): [Reddit thread on Hawaiian shirt print-on-demand services](https://www.reddit.com/r/printondemand/comments/1cvqy1p/hawaiianstyle_shirts_on_demand/) ... and [print-on-demand in general](https://www.reddit.com/r/printondemand/comments/1b383kx/my_reviews_of_yoycol_printify_huge_pod_this_new/); reviews of [yoycol](https://www.yoycol.com/design/%7B%22type%22%3A%22new%22%2C%22spuCode%22%3A%223WCSTY05%22%7D) praise decent construction and good design interface, but shipping can be slow. Seems like the least bad option. [printify](https://printify.com/app/products/924/generic-brand/mens-hawaiian-shirt-aop) also seems decent but 3x cost. 
 
 
 # Home projects

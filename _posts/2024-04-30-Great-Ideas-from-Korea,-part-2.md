@@ -13,8 +13,10 @@ A continuation of [ideas from last time]({{ site.baseurl }}{% post_url  2023-06-
     - CNC marble tiles for floors
     - acrylic/ laser cut versions (embrace his idea of mass production of art)
     - stained glass windows
-    - Santa Fe "Indian-rugs" but with his line pattern work
+    - Santa Fe "Indian-rugs" but with Vasarely's line pattern work
         - [3d-print your a table loom](https://hackaday.com/2024/08/17/simple-3d-printed-table-loom-for-complex-weavings/) to make some!
+        - Or go with weave-on-demand via [Printify](https://printify.com/app/products/1626/generic-brand/woven-blanket?decoration_method=weaving)  or [Prodigi (blankets)](https://www.prodigi.com/products/home-and-living/rugs-and-blankets/jacquard-woven-blankets/) and [(wall hangings)](https://www.prodigi.com/products/home-and-living/home-decor/woven-wall-hangings/)
+
     - 3d-printed "flat" objects with angle sections
     - stained glass windows reimagined as interference between separated light and dark panels to get interference of sun and shade angles
 
