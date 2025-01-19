@@ -4,7 +4,7 @@ date: 2025-01-19
 tags: art mathematica
 ---
 
-[Crayonfou](http://crayonfou.com) asks:  *I want to estimate how much* *[smalti](https://en.wikipedia.org/wiki/Glass_tile)* *to purchase for a 71 inch by 112 inch mosaic for the * *[IT High School](https://infotechhs.net)**, based on a cartoon sketch....*
+[Crayonfou](http://crayonfou.com) asks:  *I want to estimate how much* [smalti](https://en.wikipedia.org/wiki/Glass_tile) *to purchase for a 71 inch by 112 inch mosaic for the* [IT High School](https://infotechhs.net)*, based on a cartoon sketch....*
 
 Begin by importing the cartoon image (quantizing the colors because [the artist](https://www.instagram.com/crayonfou/) failed to do so...)...
 
@@ -63,7 +63,7 @@ Total@ Ceiling@ masses
 
 ![0mz9z92rvy1g6](/blog/images/2025/1/19/0mz9z92rvy1g6.png)
 
-It became apparent that it would be helpful to be able to separate each channel into an image to see where each color is used, but ColorReplace did not initially give me the correct outputs.  Trying to understand why, I learned on [StackExchange](https://mathematica.stackexchange.com/questions/59400/why-colorreplace-does-not-follow-the-rules-specified) that you will need to specify a tighter-than-default tolerance with the third argument, otherwise the colors may collapse onto each other (which was indeed the error)
+It became apparent that it would be helpful to be able to separate each channel into an image to see where each color is used, but [ColorReplace](https://reference.wolfram.com/language/ref/ColorReplace.html) did not initially give me the correct outputs.  Trying to understand why, I learned on [StackExchange](https://mathematica.stackexchange.com/questions/59400/why-colorreplace-does-not-follow-the-rules-specified) that you will need to specify a tighter-than-default tolerance with the third argument, otherwise the colors may collapse onto each other (which was indeed the error)
 
 ```mathematica
 pickColor[img_, color_RGBColor] := 
@@ -140,6 +140,7 @@ CloudDeploy[form, Permissions -> "Public"]
 
 ![17x1s361kdnqx](/blog/images/2025/1/19/17x1s361kdnqx.png)
 
+` ***(URL available upon request)*** `
 
 Each query for a 517x800 BMP costs about 5 cloud credits  (so ~10 queries  costs $0.01 USD)
 
