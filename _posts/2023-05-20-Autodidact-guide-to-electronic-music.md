@@ -42,7 +42,7 @@ I can see the appeal, but it's not my style, because I like words and typing.  O
 *And there came a voice to him, Rise, Peter, make music with your computer.  But Peter said, Not so, Lord; for I have never made music with anything digital. And the voice spake unto him again the second time, What the LORD hath cleansed, that call not thou common. ... And then Peter laid aside his soldering iron and went down to Joppa...*
 
 
-It seems that [supercollider](https://supercollider.github.io) is an open-source, text-based music programming environment (it's the successor to [CSound]()).
+It seems that [supercollider](https://supercollider.github.io) is an open-source, text-based music programming environment (it's the successor to [CSound](https://csound.com)).
 Under the hood, it is a client/server model (like Max/MSP), programmed with an object-oriented programming language, with support for many primitives related to sound generation and processing.  
 There's a hardcopy book, but it's allegedly pretty outdated.
 The (online) built in *Getting Started With SuperCollider* tutorial is okay, but emphasizes programming (rather than sonic) qualities.
@@ -117,3 +117,7 @@ Indeed, it's a thing.
 - Closely related: The [VultDSP](https://www.vult-dsp.com/vult-language) language (supported on the PicoADK)
 
 - The [Digital Signal Processing Primer](https://amzn.to/4dIAbNF) has been languishing in my cart for a few years, as has [Hamming's Digital Filters](https://amzn.to/4gZ7ejx) book.
+
+# Ableton Live
+
+If you can't beat 'em, join 'em.  [Notes]({{ site.baseurl }}{% post_url 2025-01-27-Intro-to-EDM-101 %}) There's nothing really text-based about this, but under the hood the projects are just XML files which you can parse if you like. 
