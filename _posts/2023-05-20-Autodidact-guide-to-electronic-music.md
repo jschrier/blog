@@ -117,3 +117,7 @@ Indeed, it's a thing.
 - Closely related: The [VultDSP](https://www.vult-dsp.com/vult-language) language (supported on the PicoADK)
 
 - The [Digital Signal Processing Primer](https://amzn.to/4dIAbNF) has been languishing in my cart for a few years, as has [Hamming's Digital Filters](https://amzn.to/4gZ7ejx) book.
+
+# Ableton Live
+
+If you can't beat 'em, join 'em.  [Notes]({{ site.baseurl }}{% post_url 2025-01-27-Intro-to-EDM-101 }) There's nothing really text-based about this, but under the hood the projects are just XML files which you can parse if you like. 
