@@ -83,11 +83,13 @@ tags: 3dprinting diy art science teaching imaginary-syllabi
 
 # Biomaterials
 
-(I think biology is messy, but...we might still have to do this for a well-rounded course) Also tie into other [departmental efforts in biomaterials](https://pubmed.ncbi.nlm.nih.gov/37999189/)
+(I think biology is gross, but...we might still have to do this for a well-rounded course) Also tie into other [departmental efforts in biomaterials](https://pubmed.ncbi.nlm.nih.gov/37999189/)
 
 - [Chocolate 3d printer]({{ site.baseurl }}{% post_url 2024-01-08-What-to-do-with-a-chocolate-3d-printer? %}) not so gross, maybe delicious, but kind of a one-trick pony, and we wouldn't want to put it in a lab with all the gross stuff.
 
 - Bioprinter/hydrogels: There is a [BioX kicking around the department](https://now.fordham.edu/colleges-and-schools/fordham-college-at-rose-hill/next-generation-scientists-inside-a-fordham-chemistry-lab/)
+
+- (update: 01 Feb 2025) [Printess](https://printess.org/build/) is a DIY $250 bioprinter.  Looks easy to build.  Publication here ([Adv. Mater 2025](https://doi.org/10.1002/adma.202414971))
 
 
 # Testing
