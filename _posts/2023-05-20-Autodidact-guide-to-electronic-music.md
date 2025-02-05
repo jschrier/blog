@@ -28,6 +28,8 @@ In the beginning, the LORD created [modular synthesizers]({{ site.baseurl }}{% p
 If you are interested only in committing [venial sins](http://www.scborromeo.org/ccc/p3s1c1a8.htm), [VCV Rack](https://vcvrack.com) is a pretty decent open-source modular synthesis simulator.  
 It is certainly easier to copy paste a few more VCOs than it is to solder up a few more modules, but nobody said sloth was a virtue...
 
+N.B. Andrew Olney [Computational Thinking through Modular Sound Synthesis](https://olney.ai/ct-modular-book/index.html) is any interesting resource, worth deeper study.
+
 # Max/MSP visual programming environments
 
 It seems that [Max/MSP](https://cycling74.com/products/max) is a popular choice. 
