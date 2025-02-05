@@ -51,7 +51,7 @@ But [as Prof. White notes](https://x.com/andrewwhite01/status/188540691474359135
 
 One way to proceed might be to adopt the Multimodal Iterative LLM Solver (MILS) strategy recently introduced by Ashutosh et al. (*LLMs can see and hear without any training*, [arXiv:2501.18096](https://arxiv.org/abs/2501.18096)).  
 
-![0zylxw0t3xukq](/blog/images2025/2/5/0zylxw0t3xukq.png)
+![0zylxw0t3xukq](/blog/images/2025/2/5/0zylxw0t3xukq.png)
 (from Figure 2 of [arXiv:2501.18096](https://arxiv.org/abs/2501.18096))
 
 We define a scorer function that computes the Tanimoto similarity (of the RDKit fingerprints) between the graph specified by the query SMILES string and the graphs of the generated IUPAC names.  We then iteratively use an LLM as a generator function (in this case, the [Wolfram-special](https://writings.stephenwolfram.com/2024/12/useful-to-the-point-of-being-revolutionary-introducing-wolfram-notebook-assistant/), which feels like gpt-4o-mini) to try to improve the results, given the past history of scored results.  Prompts are just sort of made up, adapted from the [Ashutosh paper appendix](https://arxiv.org/abs/2501.18096):
