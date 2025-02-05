@@ -12,6 +12,8 @@ Conveniently, [Cardinal Dolan](https://archny.org/about/cardinal-dolan/) made a 
 newYork = Import["https://archny.org/our-parishes/", "Plaintext"];
 ```
 
+(**comment 05 Feb 2025:** *alternatively, one could use the  [Overpass API to perform queries on OpenStreetMap data](https://community.wolfram.com/groups/-/m/t/3377303) )
+
 Begin by processing the text. It is rather long, and we want to focus on the city of New York, so we will retain only lines that contain *Bronx*, *New York* (i.e., Manhattan), or *Staten Island*.  (Recall that [Queens and Brooklyn are in their own diocese](https://en.wikipedia.org/wiki/List_of_churches_in_the_Roman_Catholic_Diocese_of_Brooklyn).)  We include some spaces after Bronx to kick out Bronxville (which is in Yonkers):
 
 ```mathematica
@@ -125,3 +127,4 @@ This is surprisingly closer than I would have expected.
 ```mathematica
 ToJekyll["How far away is another Catholic Church in NYC?", "nyc mathematica llm"]
 ```
+

@@ -9,7 +9,7 @@ tags: travel nyc
 
 ## Transit
 
-Don't rent a car. 
+**Don't rent a car.** 
 
 For anything less than a mile...it is faster to walk than to take any type of transportation. 
 
@@ -119,6 +119,7 @@ Nobody goes to Times Square, because it is too crowded with tourists.  But...
 - **Flushing, Queens:** Take the [7-train out to Flushing](https://maps.app.goo.gl/8fNVdS3N6UgKgX6c8) and find great, authentic chinese food from all over china. 
 - **Roosevelt Blvd, Queens:** Take the [7 train](https://maps.app.goo.gl/vsLASRbGiGEbSHsK9) for authentic south american cuisine
 - [Arthur Avenue, The Bronx](https://maps.app.goo.gl/22YoAr1HtmYh1ryD6):  Take the Metro North to Fordham and go to the authentic Little Italy of New York. Great restaurants, bakeries, pastries, coffee. [Zero Otto Nove](https://maps.app.goo.gl/f9nZG5ZxZPuuMEsb9) is a favorite. Or, while you are in the hood, get some [Albanian food](https://maps.app.goo.gl/oaF5HRZR46N8rCFV8).  And have a coffee at [Prince Coffeeshop](https://maps.app.goo.gl/hVTkbK59mVWqCBGj8) (which is essentially the Starbucks of Albania)
+- **Industry City, Brooklyn** (*vide infra*)
 
 ## Drinking
 
@@ -129,7 +130,7 @@ Nobody goes to Times Square, because it is too crowded with tourists.  But...
 - Obviously you go to the [Metropolitan Museum](https://www.metmuseum.org/) which is arguably the finest art museum in the USA (dare I say, the world).  But many visitors overlook the [Met Cloisters](https://maps.app.goo.gl/S7tN9RqMu2rCRVwR9) in Inwood---Rockefeller bough a bunch of medieval castles and monasteries...disassembled them...and reassembled them here, filled them with art, and then bought the land on the opposite side of the river (now Palisades park) so that it wouldn't be developed and ruin the view. Especially nice in the Spring and early Summer, when the gardens are open.
 - And while you're up there, go to the [Hispanic Society](https://hispanicsociety.org)---a free museum of art of Spain, Portugal, and Latin America. Excellent collection of El Greco's and Sarollas.
 - [Poster House](http://www.posterhouse.org/) *Chelsea-ish*, nice collection of posters and graphic design, exhibits change every 3-4 months. The cafe is nice to.
-- [Fotografiska](https://www.fotografiska.com/nyc/) *NOMAD*.  Check the exhibits, sometimes quite excellent (the [David LaChapelle show was amazing](https://www.fotografiska.com/nyc/david-lachapelle/)).  If you go, be sure to have a drink at the bar, which is quite classy.
+- [Fotografiska](https://www.fotografiska.com/nyc/) *NOMAD*.  Check the exhibits, sometimes quite excellent (the [David LaChapelle show was amazing](https://www.fotografiska.com/nyc/david-lachapelle/)).  If you go, be sure to have a drink at the bar, which is quite classy. **UPDATE Feb 2025:  CLOSED**
 - Anyone can walk into [Christy's Auction House](http://www.christies.com/) *Rockefeller Center* and admire the art. Just walk in and act like you own the place, while wearing a bowtie. 
 - [Morgan Library](https://www.themorgan.org/) *midtown/nomad/curry hill* --- works on paper and interior design.  Free on the Friday evenings, but you have to reserve a ticket ahead of time.
 - [Society of Illustrators](https://maps.app.goo.gl/bqEj6XVHCsKjZupR8) *midtown east* -- excellent rotating exhibits, with a rooftop bar.
