@@ -4,7 +4,7 @@ date: 2025-02-05
 tags: mathematica llm o3 gpt4 chemistry cheminformatics
 ---
 
-Recently [Andrew White tweeted](https://x.com/andrewwhite01/status/1885406914743591352) about limitations of the [o3-mini model](https://openai.com/index/openai-o3-mini/) to convert SMILES to IUPAC names.  **Here we try to correct this by using a scorer/generator LLM patten...**  
+Recently [Andrew White tweeted](https://x.com/andrewwhite01/status/1885406914743591352) about limitations of the [o3-mini model](https://openai.com/index/openai-o3-mini/) to convert SMILES to IUPAC names.  **Here we try to correct this by using a** [scorer/generator LLM pattern]((https://arxiv.org/abs/2501.18096))**...**  
 
 For example given an input:
 
@@ -20,12 +20,16 @@ LLMSynthesize[
    "\n What would its IUPAC name be?"}, 
   LLMEvaluator -> <|"Model" -> {"OpenAI", "o3-mini-2025-01-31"}|>]
 
-(*"This structure is that of lanosterol. In full, the IUPAC name is often given as\:2003\:2003(3\[Beta],5\[Alpha],8\[Alpha],9\[Beta],10\[Alpha],13\[Beta],14\[Alpha],17\[Beta])-lanosta-8,24-dien-3-olLanosterol is a tetracyclic triterpenoid that serves as an important biosynthetic precursor for steroids. (Note that the SMILES string shown does not include explicit stereochemical "@" markers, so the stereochemistry is assumed to be that of the naturally occurring (3\[Beta],5\[Alpha],8\[Alpha],9\[Beta],10\[Alpha],13\[Beta],14\[Alpha],17\[Beta]) isomer.)"*)
+(*"This structure is that of lanosterol. In full, the IUPAC name is often given as:
+
+(3\[Beta],5\[Alpha],8\[Alpha],9\[Beta],10\[Alpha],13\[Beta],14\[Alpha],17\[Beta])-lanosta-8,24-dien-3-ol
+
+Lanosterol is a tetracyclic triterpenoid that serves as an important biosynthetic precursor for steroids. (Note that the SMILES string shown does not include explicit stereochemical "@" markers, so the stereochemistry is assumed to be that of the naturally occurring (3\[Beta],5\[Alpha],8\[Alpha],9\[Beta],10\[Alpha],13\[Beta],14\[Alpha],17\[Beta]) isomer.)"*)
 ```
 
 ## Why it is dumb to solve this problem with an LLM?
 
-You do not really need an LLM to do this.  The problem is trivially solved with built-in functions: 
+You do not really need an LLM to do this.  The problem is trivially solved with the built-in [MoleculeName](https://reference.wolfram.com/language/ref/MoleculeName.html) function: 
 
 ```mathematica
 MoleculeName[smiles]
@@ -47,7 +51,7 @@ But [as Prof. White notes](https://x.com/andrewwhite01/status/188540691474359135
 
 One way to proceed might be to adopt the Multimodal Iterative LLM Solver (MILS) strategy recently introduced by Ashutosh et al. (*LLMs can see and hear without any training*, [arXiv:2501.18096](https://arxiv.org/abs/2501.18096)).  
 
-![0zylxw0t3xukq](img/0zylxw0t3xukq.png)
+![0zylxw0t3xukq](/blog/images2025/2/5/0zylxw0t3xukq.png)
 (from Figure 2 of [arXiv:2501.18096](https://arxiv.org/abs/2501.18096))
 
 We define a scorer function that computes the Tanimoto similarity (of the RDKit fingerprints) between the graph specified by the query SMILES string and the graphs of the generated IUPAC names.  We then iteratively use an LLM as a generator function (in this case, the [Wolfram-special](https://writings.stephenwolfram.com/2024/12/useful-to-the-point-of-being-revolutionary-introducing-wolfram-notebook-assistant/), which feels like gpt-4o-mini) to try to improve the results, given the past history of scored results.  Prompts are just sort of made up, adapted from the [Ashutosh paper appendix](https://arxiv.org/abs/2501.18096):
@@ -74,13 +78,15 @@ generatePrompt = StringTemplate[
 
 ```mathematica
 scorer[smiles_String, candidateIUPAC_String] := 
-   ResourceFunction["MoleculeFingerprintSimilarity"][Molecule[smiles],Molecule[candidateIUPAC]] 
+   ResourceFunction["MoleculeFingerprintSimilarity"][
+    Molecule[smiles], Molecule[candidateIUPAC]] 
  
 scorer[smiles_String, candidates_List] := With[
     {scores =  Quiet[scorer[smiles, #]& /@ candidates]}, 
     ReverseSortBy[Last]@Pick[ Transpose[{candidates, scores}], NumericQ /@ scores]] 
  
-parse[answer_] := DeleteDuplicates@ StringCases[answer, Shortest["<answer>" ~~ x__ ~~ "</answer>"] :> x] 
+parse[answer_] := DeleteDuplicates@ 
+  StringCases[answer, Shortest["<answer>" ~~ x__ ~~ "</answer>"] :> x] 
  
 generator[smiles_, model_ : Automatic][{history_List, progress_List}] := With[
     {result = scorer[smiles, parse[
