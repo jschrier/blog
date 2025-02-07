@@ -20,9 +20,9 @@ tags: science teaching imaginary-syllabi
 
 Consider this as comprising seven courses: (yes, a typical minor is 6 courses, but, whatever...)
 
-1. Chem OR phys OR bio OR CS or Math courses outside your major (e.g., a computer science major takes a year of chem, a chem major takes two CS courses or one CS + one advanced math, etc. ). In general, we would expect lab ("natural") scientists to take these in CS/Math, and vice versa. At least one of these should be a programming course.
+1. Chem OR phys OR bio OR CS or Math courses outside your major requirements (e.g., a computer science major takes a year of chem, a chem major takes two CS courses or one CS + one advanced math, etc. ). In general, we would expect lab ("natural") scientists to take these in CS/Math, and vice versa. At least one of these should be a programming course.
 
-2.  A second Chem  or bio or CS or Math course outside your major
+2.  A second Chem  or bio or CS or Math course outside your major requirements
 
 3. Methods in Computational Science
 
@@ -50,7 +50,9 @@ Notice that these are all framed in a general way, but they lean chemistry-adjac
 
 - **Possible Reference points:** Model this on the [University of Toronto 4010 & 4132 microcredential courses  "Introduction to AI for Discovery Using Self-Driving Labs" and "Autonomous Systems for Self-Driving Labs" ](https://learn.utoronto.ca/programs-courses/certificates/autonomous-systems-discovery), each of which takes about a month to complete and only has "some familiarity with python programming" as a pre-req 
 
-- **Lab/practicum**:  Adopt a [frugal twin approach](https://doi.org/10.1039/D3DD00223C).  Students build/operate a [chemputer](https://doi.org/10.1038/s41557-022-01016-w), basic liquid handler (OT-2 or something more homebrew), maybe a robot-arm or two. 
+- **Lab/practicum**:  Adopt a [frugal twin approach](https://doi.org/10.1039/D3DD00223C).  Students build/operate a [chemputer](https://doi.org/10.1038/s41557-022-01016-w), basic liquid handler ([OT-2](https://opentrons.com/products/ot-2-robot) or [something more homebrew](https://doi.org/10.1016/j.slast.2024.100239)), maybe a robot-arm or two.  Learn some microcontroller programming/[internet of science things](https://chem.libretexts.org/Courses/Intercollegiate_Courses/Internet_of_Science_Things/1%3A_IOST_Modules) type skills with Raspberry Pi + various sensors and actuators.
+
+- **Additional Audience:**  Engineering physics majors
 
 ## Methods in Computational Science
 
@@ -63,6 +65,8 @@ Notice that these are all framed in a general way, but they lean chemistry-adjac
 
 - **Possible Reference points:** Model this on the [University of Toronto 4131 & 4133 microcredential courses  "AI and Materials Databse for Self-Driving Labs" and "Software Development for Self Driving Labs" ](https://learn.utoronto.ca/programs-courses/certificates/autonomous-systems-discovery), each of which takes about a month to complete, and only has "some familiarity with python programming" as a pre-req 
 
+- **Additional Audience**: Broad...computer science/applied math?
+
 ## Case Studies in Digital Science
 
 - **Premise**: Get students reading and reproducing the current literature.  Somewhere between a seminar/survey course and a capstone project course where students adapt one or more of the papers they read to solve their own problem or do something novel with one of the datasets.
@@ -71,9 +75,9 @@ Notice that these are all framed in a general way, but they lean chemistry-adjac
 
 - Could fulfil [EP3-style requirements](https://bulletin.fordham.edu/undergraduate/fordham-college-core-curriculum/distributive-requirements/#text) or whatever they are called in the new system
 
-## Additive manufacturing (aka Digital Materials Science)
+- **Additional Audience:**  Computer science majors?
 
-- **Audience:**  Very low pre-reqs, potentially open to visual art majors, etc. 
+## Additive manufacturing (aka Digital Materials Science)
 
 - **Learning goals:** An introduction to materials science (polymer / ceramics / metals), with the twist that it is done through 3d-printing as a tool.  Acquire competency in 3d-printing techniques and associated skillsets (e.g., CAD design)
 
@@ -81,6 +85,7 @@ Notice that these are all framed in a general way, but they lean chemistry-adjac
 
 - **Lab:** Use the lab do a bunch of AM modalities.  [See more extensive notes on specific methodologies and structure]({{ site.baseurl }}{% post_url 2024-08-05-Imaginary-Syllabi:-Additive-Manufacturing-Lab %} )  
 
+- **Additional Audience:**  Very low pre-reqs, potentially open to visual art majors, etc. 
 
 ## Computational Physics 
 
@@ -110,9 +115,12 @@ Notice that these are all framed in a general way, but they lean chemistry-adjac
     - [Full spectrum bioinformatics](https://github.com/zaneveld/full_spectrum_bioinformatics) free textbook, seems decent, but I like the previous one better
     - [Cheminformatics libretext](https://chem.libretexts.org/Courses/Intercollegiate_Courses/Cheminformatics )... It would be fun to develop a Project Rosalind-style resource for this too.
 
+- **Additional Audience:**  Bio majors? 
+
 ## Drug Design 
 
 - Focus on computational drug design
 - Repackage [Chem1102](https://bulletin.fordham.edu/courses/chem/), dropping the EP1 and business/social aspects to focus on the drug design component
 - Pre-reqs could be light, if we assume that we'll have to (re)teach some orgo and biochemistry
 
+- **Additional Audience:**  pre-meds and bio majors
