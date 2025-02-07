@@ -51,6 +51,7 @@ Notice that these are all framed in a general way, but they lean chemistry-adjac
 - **Possible Reference points:** Model this on the [University of Toronto 4010 & 4132 microcredential courses  "Introduction to AI for Discovery Using Self-Driving Labs" and "Autonomous Systems for Self-Driving Labs" ](https://learn.utoronto.ca/programs-courses/certificates/autonomous-systems-discovery), each of which takes about a month to complete and only has "some familiarity with python programming" as a pre-req 
 
 - **Lab/practicum**:  Adopt a [frugal twin approach](https://doi.org/10.1039/D3DD00223C).  Students build/operate a [chemputer](https://doi.org/10.1038/s41557-022-01016-w), basic liquid handler ([OT-2](https://opentrons.com/products/ot-2-robot) or [something more homebrew](https://doi.org/10.1016/j.slast.2024.100239)), maybe a robot-arm or two.  Learn some microcontroller programming/[internet of science things](https://chem.libretexts.org/Courses/Intercollegiate_Courses/Internet_of_Science_Things/1%3A_IOST_Modules) type skills with Raspberry Pi + various sensors and actuators.
+    - Maybe do some color mixing experiments or [pH/buffer relationship discovery](https://link.springer.com/article/10.1557/s43577-022-00430-2) or [electrochemistry](https://pubs.rsc.org/en/content/articlehtml/2024/dd/d4dd00186a) or [synthesize aspirin by chemputer](https://pubs.acs.org/doi/10.1021/acs.jchemed.2c00503)
 
 - **Additional Audience:**  Engineering physics majors
 
