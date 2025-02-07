@@ -1,6 +1,6 @@
 ---
 title: "Imaginary Syllabi: Digital Science"
-date: 2025-02-097
+date: 2025-02-07
 tags: science teaching imaginary-syllabi
 ---
 
