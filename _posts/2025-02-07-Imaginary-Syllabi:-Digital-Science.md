@@ -20,13 +20,17 @@ tags: science teaching imaginary-syllabi
 
 Consider this as comprising seven courses: (yes, a typical minor is 6 courses, but, whatever...)
 
-1/2.  Two Chem OR phys OR bio OR CS or Math courses outside your major (e.g., a computer science major takes a year of chem, a chem major takes two CS courses or one CS + one advanced math, etc. ). In general, we would expect lab ("natural") scientists to take these in CS/Math, and vice versa. At least one of these should be a programming course.
+1. Chem OR phys OR bio OR CS or Math courses outside your major (e.g., a computer science major takes a year of chem, a chem major takes two CS courses or one CS + one advanced math, etc. ). In general, we would expect lab ("natural") scientists to take these in CS/Math, and vice versa. At least one of these should be a programming course.
+
+2.  A second Chem  or bio or CS or Math course outside your major
 
 3. Methods in Computational Science
 
 4. Methods of Laboratory Automation
 
-5./6. Electives (x2) 
+5. Elective course (see below)
+
+6. Another elective course (see below)
 
 7. Case Studies in Digital Science
 
