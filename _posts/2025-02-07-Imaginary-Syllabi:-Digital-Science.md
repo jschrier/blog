@@ -4,13 +4,13 @@ date: 2025-02-07
 tags: science teaching imaginary-syllabi
 ---
 
-**Premise:** A multi-course undergraduate course sequence resulting in a concentration/minor in [digitalized science](https://doi.org/10.1039/D4DD00130C)...
+**Premise:** A multi-course undergraduate sequence resulting in a concentration/minor in [digitalized science](https://doi.org/10.1039/D4DD00130C)...
 
 # Backstory
 
-- Fordham core curriculum revision proposals leans us in this direction
+- Fordham core curriculum revision proposal leans us in this direction...
 
-- It's not a totally crazy idea, as other places are doing this:
+- It's not a totally crazy idea for a topic, as other places have recently created degree programs like this:
     - [University of Liverpool offers a 12-month MSc in Digital Chemistry:](https://www.liverpool.ac.uk/courses/2025/digital-chemistry-msc) AI, Machine Learning, Automation and Robotics which blends computational and electronics/mechatronics
     - [Imperial College London offers a 12 month MSc in Digital Chemistry with AI and Automation ](https://www.imperial.ac.uk/study/courses/postgraduate-taught/digital-chemistry/#Default)...more of a focus on computational skills
     - [University of York](https://www.york.ac.uk/chemistry/research/digital-chemistry/), [Leeds](https://www.york.ac.uk/chemistry/research/digital-chemistry/), and [Southampton](https://www.southampton.ac.uk/courses/digital-chemistry-masters-msc) also offer similar courses. 
@@ -18,7 +18,7 @@ tags: science teaching imaginary-syllabi
 
 # Requirements
 
-Consider this as comprising seven courses: (yes, a typical minor is 6 courses, but, whatever...)
+Consider this minor/concentration as comprising seven courses: (yes, a typical minor is 6 courses, but, whatever...)
 
 1. Chem OR phys OR bio OR CS or Math courses outside your major requirements (e.g., a computer science major takes a year of chem, a chem major takes two CS courses or one CS + one advanced math, etc. ). In general, we would expect lab ("natural") scientists to take these in CS/Math, and vice versa. At least one of these should be a programming course.
 
@@ -83,7 +83,7 @@ Notice that these are all framed in a general way, but they lean chemistry-adjac
 
 - **Textbook** At the level of [Shakelford's intro textbook]((https://amzn.to/3JNUFbz) ); implies a review of general chemistry concepts associated with bonding and thermo.
 
-- **Lab:** Use the lab do a bunch of AM modalities.  [See more extensive notes on specific methodologies and structure]({{ site.baseurl }}{% post_url 2024-08-05-Imaginary-Syllabi:-Additive-Manufacturing-Lab %} )  
+- **Lab:** Use the lab do a bunch of AM modalities.  [I have a lot of thoughts on this, see more extensive notes on specific methodologies and structure]({{ site.baseurl }}{% post_url 2024-08-05-Imaginary-Syllabi:-Additive-Manufacturing-Lab %} )  
 
 - **Additional Audience:**  Very low pre-reqs, potentially open to visual art majors, etc. 
 
