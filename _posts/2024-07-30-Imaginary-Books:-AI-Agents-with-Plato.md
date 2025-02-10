@@ -164,3 +164,9 @@ Appendices
 ---
 
 This outline provides a structured approach to learning multi-agent AI methods through the lens of Platonic dialogues, emphasizing both the theoretical and practical aspects.
+
+# Parerga and Paralipomena
+
+- (10 Feb 2025) Rajeev Assary  & co. have a preprint out on [The Hitchhiker's Guide to Socratic Methods in Prompting Large Language Models for Chemistry Applications](https://doi.org/10.26434/chemrxiv-2025-djf43) which unpacks this idea a bit more
+  - Digging into the references, it in turn largely draws upon a framework by Chang 2024 [Prompting Large Language Models With the Socratic Method](https://arxiv.org/abs/2303.08769)
+  
