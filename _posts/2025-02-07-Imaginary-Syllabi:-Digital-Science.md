@@ -106,9 +106,8 @@ Notice that these are all framed in a general way, but they lean chemistry-adjac
 - **Pre-req:**  some type of biochemistry & chemistry coursework? (but even this might not be necessary, see below)
 
 - **Learning goal**: Working with biological and chemical data (not as physical simulations)
-
-- Bioinformatics (There is already a [Bioinformatics minor](ht tps://www.fordham.edu/academics/departments/computer-and-information-science/academic-programs/undergraduate-programs/bioinformatics-minor/) offered by CIS)
-- Cheminformatics 
+    - Bioinformatics (There is already a [Bioinformatics minor](https://www.fordham.edu/academics/departments/computer-and-information-science/academic-programs/undergraduate-programs/bioinformatics-minor/) offered by CIS)
+    - Cheminformatics 
 
 - **Resources**:
     - Have students work through [Project Rosalind](https://rosalind.info/problems/locations/), perhaps in programming language of choice 
@@ -121,7 +120,7 @@ Notice that these are all framed in a general way, but they lean chemistry-adjac
 ## Drug Design 
 
 - Focus on computational drug design
-- Repackage [Chem1102](https://bulletin.fordham.edu/courses/chem/), dropping the EP1 and business/social aspects to focus on the drug design component
+- Repackage content from [Chem1102](https://bulletin.fordham.edu/courses/chem/), dropping the EP1 and business/social aspects to focus on the drug design component
 - Pre-reqs could be light, if we assume that we'll have to (re)teach some orgo and biochemistry
 
 - **Additional Audience:**  pre-meds and bio majors

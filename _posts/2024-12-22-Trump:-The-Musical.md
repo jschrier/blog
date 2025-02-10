@@ -328,3 +328,7 @@ As everything's coming up Trump's way.
 
 - Discussed with my lovely aunt on a Thanksgiving road trip and my personal trainer.
 - AI use:  gpt-4o used to help turn the outline into some suggested songs, with some iteration and rewrites and expansions.
+
+# Parerga and Paralipomena
+
+- [How do you write music for a musical](https://www.bax-shop.co.uk/blog/miscellaneous/how-do-you-write-music-for-a-musical/)
