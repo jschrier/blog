@@ -1,6 +1,6 @@
 ---
 title: "Norton White Tile Method"
-date: 2024-08-05
+date: 2025-02-13
 tags: diy art laser
 ---
 
