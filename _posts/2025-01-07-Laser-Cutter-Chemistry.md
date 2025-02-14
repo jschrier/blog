@@ -74,3 +74,9 @@ Nietzsche famously claimed to do [philosophy with a hammer](https://en.wikipedia
 **Feasibility:** Medium/Low. Possible practical complications:
 - Use the $60 [AS7265x triad sensors]({{ site.baseurl }}{% post_url 2023-02-01-Reading-AS726x-and-AS7265X-Spectral-Sensors-in-Micropython %}) to detect the light from 410nm (UV) to 940nm (IR); run a lense/fiber optic capble to the sensor. Resolution is not great, but it might be enough to reolve some different species
 - Generally the laser is pulsed and data is collected with a gate delay and gate width; these are on the order of 1-30 uS, and its not clear that we can synchronize the laser and the sensors with this level of precision.  Maybe it doesn't matter and we operate continuously. 
+
+# Thermal conversion and sintering of TiO2 from rutile 
+
+**Premise:** - A thin coating of rutile TiO2 is deposited on a glazed ceramic and/or glass surface. Application of heat using an IR or diode laser converts the anatase crystal form into the anatase crystal form, while simultaneously fusing it into the glaze oxide. This results in a black (anatase) marking which is fused into the glaze and thus resistant to photobleaching, scratching, etc.
+
+**Precedent/feasibility:** This is known as the [Norton White Tile method]({{ site.baseurl }}{% post_url 2025-02-13-Norton-White-Tile-Method %})
