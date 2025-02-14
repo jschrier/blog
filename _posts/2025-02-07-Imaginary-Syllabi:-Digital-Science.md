@@ -86,7 +86,7 @@ Notice that these are all framed in a general way, but they lean chemistry-adjac
 
 - **Lab:** Use the lab do a bunch of AM modalities.  [I have a lot of thoughts on this, see more extensive notes on specific methodologies and structure]({{ site.baseurl }}{% post_url 2024-08-05-Imaginary-Syllabi:-Additive-Manufacturing-Lab %} )  
 
-- **Additional Audience:**  Very low pre-reqs, potentially open to visual art majors, etc. 
+- **Additional Audience:**  Very low pre-reqs, potentially open to visual art majors, etc. (**First year seminar style course**)
 
 ## Computational Physics 
 
