@@ -13,7 +13,7 @@ tags: 3dprinting diy art science teaching imaginary-syllabi
 
 - Create an excuse to teach others while doing the things I like, and use university lab space.
 
-- Increase culture of materials science at Fordham / NYC.
+- Increase culture of materials science at Fordham / NYC. **Potential "First Year Seminar" course for the new core curriculum?**
 
 - Create opportunities for research projects (e.g., use of LLMs to assist in debugging?, use AI-directed experiment planning to optimize new materials/processing conditions?)
 
