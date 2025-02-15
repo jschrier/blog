@@ -55,11 +55,11 @@ Or:
 
 # Procedure
 
-0. If preparing your own paint: 
+0. If preparing your own paint: Combine 3 parts water, 1 part Elmer's glue, 1 part TiO2 powder in a glass jar. Seal the jar and shake well to mix.
 
 1. Clean the surface of the tile with 90% isopropyl alcohol
 
-2a. Apply two thin coats of TiO2-based paint. If spray painting, keep the recommended distance and rotate the tile between passes. If brushing, ideally you want to use a brush as wide as your tile (to minimize overlaps, brush NS+EW and then make a second pass.). Let the paint dry. (15-20 minutes for Elmer's glue based approach)
+2a. Apply two thin coats of TiO2-based paint. If spray painting, keep the recommended distance and rotate the tile between passes. If brushing, ideally you want to use a brush as wide as your tile (to minimize overlaps, brush NS+EW and then make a second pass.). Let the paint dry. (5-10 minutes for spray paint, 15-20 minutes for Elmer's glue based approach)
 
 3. Laser engrave a [test pattern](https://www.thingiverse.com/thing:2530600) 
 
@@ -70,14 +70,15 @@ Or:
 # Safety considerations
 
 - [Michigan State University has an extensive webpage on TiO2 safety](https://www.canr.msu.edu/news/what-s-the-risk-titanium-dioxide).  
-- TiO2 is not chemically toxic (it is used in powdered sugar, cosmetics, and sunscreen), but the powder is a potential inhalation hazard.  This is generally from [chronic exposure of large quantities, typically in an industrial setting may be weakly associated with lung cancer](https://pubmed.ncbi.nlm.nih.gov/21456955/); however other large scale epidemiological studies [do not suggest the existence of carcinogenic effects from chronic workplace explosure.](https://web.archive.org/web/20220121071247/https://academic.oup.com/annweh/article/49/6/461/176940) 
-- The use of water-based solvents for depositing the TiO2 on the surface avoids the risks associated with lasering paints.
-- PPE: When preparing mixtures with TiO2 powder, wear a dust mask to avoid inhalation.  
+- TiO2 is not chemically toxic (it is used in powdered sugar, cosmetics, and sunscreen), but the powder is a potential inhalation hazard.  This is generally from [chronic exposure of large quantities, typically in an industrial setting may be weakly associated with lung cancer](https://pubmed.ncbi.nlm.nih.gov/21456955/); however other large scale epidemiological studies [do not suggest the existence of carcinogenic effects from chronic workplace explosure.](https://web.archive.org/web/20220121071247/https://academic.oup.com/annweh/article/49/6/461/176940). **Mitigation:** Use pre-made paint or take precautions (careful transfer, consider use of N95 respirator mask to reduce exposure) when preparing your own paint from powder.
+
+- The use of water-based solvents for depositing the TiO2 on the surface avoids the risks associated with lasering paints. 
 - The amount of TiO2 vaporized during the laser process is minimal.
     - There is no specific metal fume toxicity associated with TiO2. [see reference article on metal fume toxicity](https://pubmed.ncbi.nlm.nih.gov/20108830/)
     - [Metal fume fever](https://en.wikipedia.org/wiki/Metal_fume_fever) is typically associated with Zn, Al, Mg, Cu, Cd, Pb
-    - (There is an isolated report of [acute titanium toxicity associated with titanium ethanolate exposure](https://pmc.ncbi.nlm.nih.gov/articles/PMC7767615/), but this is a highly reactive liquid used in chemical, not really relevant here.)
-- Cleaning the surface with isopropyl alcohol has typical ventilation, skin contact, and flamability hazards.  
+    - (There is an isolated report of [acute titanium toxicity associated with titanium ethanolate exposure](https://pmc.ncbi.nlm.nih.gov/articles/PMC7767615/), but this is a highly reactive liquid reagent, not really relevant here.)
+
+- Cleaning the surface with isopropyl alcohol has typical ventilation, skin contact, and flamability hazards.  [NJ Health](https://nj.gov/health/eoh/rtkweb/documents/fs/1076.pdf)
 - Application of spray paint has usual associated ventilation safety precautions.
 - Use of laser engraving has usual associated safety precautions. Tile substrate is non-flammable.
 - Post-engraving cleanup is conducted in water. There is no contact toxicity of TiO2, but it is recommended to use gloves when washing the surface. 
@@ -88,7 +89,8 @@ Or:
 # Variants
 
 - There are isolated reports of doing this with other metal oxides, such as iron oxide (which creates a red color). An article by Rachel Clark in [Ceramics montly (2017)](https://ceramicartsnetwork.org/ceramics-monthly/ceramics-monthly-article/Oxide-Fusion-Printing-A-New-Method) (also: [Archive](https://web.archive.org/web/20210517230437/https://ceramicartsnetwork.org/ceramics-monthly/ceramic-art-and-artists/ceramic-artists/oxide-fusion-printing-new-method/#)) describes doing this by mixing the metal oxides with isoproyl alcohol "to the consistency of heavy cream" and applying to the surface with a roller. (Unfortunately the internet archive does not preserve the images).  The unfused oxide powder can be brushed off for re-use. The image captions describe use of red copper oxide, black iron oxide, black copper oxide, cobalt oxide, nickel oxide, green chrome oxide, red iron oxide, and black nickel oxide. 
-    - Obviously some of these present new metal vapor hazards to reassess.
+    - Obviously some of these present new potential metal vapor hazards to reassess, although the iron oxide variants seem fine.
+    - Shades of [glazing chemistry]({{ site.baseurl }}{% post_url 2024-06-11-Imaginary-Syllabi:-Glazed-and-Confused %})...
 
 
 
