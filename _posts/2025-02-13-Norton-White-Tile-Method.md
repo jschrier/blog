@@ -32,6 +32,7 @@ Want to make black images that are fused into the glaze of white tile (or into c
 - [Corvus Moon recommends](https://www.youtube.com/watch?v=tffEH2fdm9o) using Rustoleum White Inverted Marking spray---he claims is water soluble. (**Comment: This is not what Rustolem product sheet says...but seems well attested in other forums**) Jeffrey Court white bathroom tile from Home Depot or Mohawk Bathroom tile from USA. (The glazes work well). Use 90% isopropyl alcohol to clean the surface of the tile, then spray 3 light coats of the marking spray. Let dry for 15-20 minutes (coating is chalky, don't touch the surface). [imag-r.com](https://imag-r.com) can be helpful for dithering in a way that is appropriate for Norton While Tile method. Wash with soap and water.  19% power on a 10W laser.
 - [Lasers and Saws recommends](https://www.youtube.com/watch?v=HwjCYH2iQF8). 50% (by volume) isopropyl alcohol and TiO2 powder in a spray bottle. You want a very fine mist. Use glass cleaner to clean the tile. Then spray and let it dry for 5 minutes. Apply more coats until it is dry and flat. Run a power scale test. Then just clean it with a toothbrush and water. 
     - In a [subsequent video](https://www.youtube.com/watch?v=QHCoeLrig6A) he instead recommends 3 parts water, 1 part elmer's glue, 1 part TiO2 powder, a few drops of food coloring. Shake it up in a jar.  Apply with a foam brush, pop bubbles using a torch.
+    -[Benson Chik](https://www.youtube.com/watch?v=rvNxZodOHZc) also attests to the 3:1:1 ratio, optionally with a drop of dish soap.
 - [RDWorks](https://www.youtube.com/watch?v=QwujeITphFs) found that a 1/3 to 2/3 (by volume) TiO2: Isopropyl alcohol mix airbrushed nicely. This is also affirmed by [James MicGinty, who found that a 1:3.5 v/v TiO2:Ethanol solution airbrushed nicely](https://web.archive.org/web/20220118051415/https://blog.workshop88.com/2021/04/06/norton-white-tile-principal-component-method/).  There are some nice examples of what this looks like in a [discussion thread](https://forum.lightburnsoftware.com/t/new-method-for-white-tile-engraving-norton-white-tile-principal-component-method/38053/152?page=2)
 - [Ron Clarke method](https://forum.lightburnsoftware.com/t/new-tile-engraving-method/73250). 2 Tablespoons H2O + 100 mL PVA + 1 Tablespoon TiO2. (Covers 12 7"x7" tiles.  Paint clean tile by brush and let dry. 1000 mm/m and 80% power on a 40W diode laser at 185 DPI. )
 
@@ -45,7 +46,7 @@ Either:
 
 Or: 
 
-- [TiO2 powder](https://shop.kremerpigments.com/us/shop/pigments/46200-titanium-white-rutile.html) - $10/ 100 grams, pop over to [Kremer on 29th Street btween 7th & 8th Ave.](https://maps.app.goo.gl/ryg9RTzzd7JGz6Go8) Open M-Sa 9-5pm . [SDS](https://shop.kremerpigments.com/elements/resources/products/files/46200_SDS.pdf)
+- [TiO2 powder](https://shop.kremerpigments.com/us/shop/pigments/46200-titanium-white-rutile.html) - $10/ 100 grams, pop over to [Kremer on 29th Street btween 7th & 8th Ave.](https://maps.app.goo.gl/ryg9RTzzd7JGz6Go8) Open M-Sa 9-5pm . [SDS](https://shop.kremerpigments.com/elements/resources/products/files/46200_SDS.pdf)  or you can [buy some food grade TiO2](https://amzn.to/4k3fSPI)
 - PVA-based glue (i.e., Elmer's Glue)
 - Water 
 - [Foam Paint roller](https://www.homedepot.com/p/4-in-High-Density-Foam-Mini-Paint-Roller-with-Frame-HD-MT-200-11-4/202097448) or brush
@@ -59,7 +60,7 @@ Or:
 
 1. Clean the surface of the tile with 90% isopropyl alcohol
 
-2a. Apply two thin coats of TiO2-based paint. If spray painting, keep the recommended distance and rotate the tile between passes. If brushing, ideally you want to use a brush as wide as your tile (to minimize overlaps, brush NS+EW and then make a second pass.). Let the paint dry. (5-10 minutes for spray paint, 15-20 minutes for Elmer's glue based approach)
+2a. Apply two thin coats of TiO2-based paint. If spray painting, keep the recommended distance and rotate the tile between passes. If brushing, ideally you want to use a brush as wide as your tile (to minimize overlaps, brush NS+EW and then make a second pass.). The important think is to get a uniform layer and avoid brushstrokes. Let the paint dry. (5-10 minutes for spray paint, 15-20 minutes for Elmer's glue based approach)
 
 3. Laser engrave a [test pattern](https://www.thingiverse.com/thing:2530600) 
 
@@ -92,5 +93,6 @@ Or:
     - Obviously some of these present new potential metal vapor hazards to reassess, although the iron oxide variants seem fine.
     - Shades of [glazing chemistry]({{ site.baseurl }}{% post_url 2024-06-11-Imaginary-Syllabi:-Glazed-and-Confused %})...
 
-
+- Also cool: Powder coating color fill (works on wood, acrylic, class, clay etc). [Official Trotec video, with parameters for Speedy 300 80W laser](https://www.youtube.com/watch?v=IvvaAvXJye0).  Premise is that you engrave a shallow trench, fill in the powder coating, and then run a pass which melts the powder coat where desired. This can achieve bright colors.  It's a fundamentally different process (organic versus inorganic)...but the color fill is reported to be stable for up to 40 years. 
+- Also cool: [Laser foil](https://www.youtube.com/watch?v=UJLY-26O4Yo). Fundamentally just an adhesive mylar coating, but can look cool.  Can be applied to wood or acrylic. Video shows settings.
 
