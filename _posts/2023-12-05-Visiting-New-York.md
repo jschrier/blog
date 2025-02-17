@@ -135,7 +135,8 @@ Nobody goes to Times Square, because it is too crowded with tourists.  But...
 - [Morgan Library](https://www.themorgan.org/) *midtown/nomad/curry hill* --- works on paper and interior design.  Free on the Friday evenings, but you have to reserve a ticket ahead of time.
 - [Society of Illustrators](https://maps.app.goo.gl/bqEj6XVHCsKjZupR8) *midtown east* -- excellent rotating exhibits, with a rooftop bar.
 - [Drawing Center](https://maps.app.goo.gl/1xu1n1BwW3kAJWUKA) *soho/chinatown* -- also excellent rotating exhibits. Free.
-- [Isamu Noguchi museum]() *long island city* --- dedicated to the work of the eponymous architect/sculptor.  There are plenty of breweries nearby, and the park offers a nice view of Manhattan. 
+- [Isamu Noguchi museum](https://www.noguchi.org) *long island city* --- dedicated to the work of the eponymous architect/sculptor.  There are plenty of breweries nearby, and the park offers a nice view of Manhattan. 
+- [The New York Art Deco Society](https://www.artdeco.org/nyc-deco) has maps for self-guided walking tours of deco architecture throughhout the city. (including: Manhattan, Queens, Brooklyn, and the Bronx)
 
 ## Brooklyn
 

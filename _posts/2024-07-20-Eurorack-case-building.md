@@ -70,6 +70,7 @@ This spring I [came to the conclusion that I needed to expand my Eurorack case](
     - (As noted above, M3x16 screws work nicely for this purpose with the existing holes, but if you made the case holes smaller, you could easily use M2.5 screws instead.)
     - As noted above, [make a flying bus cable](https://syntherjack.net/power-supply-ribbon-cable/) to power adjacent pairs of modules, using a [crimping kit](https://amzn.to/46ffqHx)
         - If lazy, [buy a premade flying bus cable](https://amzn.to/3CdD1hf), or else a [1->3 multi power cable](https://www.bhphotovideo.com/c/product/1774185-REG/4ms_multipowercable_10_pin_multi_power_cable_10_pin.html)
+- Fill in blank faceplates by lasercutting designs from this [online design tool to make filling panels](https://crowselectromusic.com/tools/eurorack/laser-panels/) or 3d-print from a [parametric openscad design tools](https://www.printables.com/model/573615-parametriccustomizable-eurorack-blank-panel/files).
 
 
 
