@@ -65,9 +65,11 @@ tags: 3dprinting diy art science teaching imaginary-syllabi
 - **Casting:**  Never underestimate the ability to make positives out of polymer and then make an investment mold/lost-wax process
     - Ye-olde [Lost PLA casting](https://all3dp.com/2/lost-pla-casting-guide/)
     - [Print-wave casting with a microwave kiln](https://hackaday.com/2024/07/13/print-wave-metal-casting/)
-    - Side quest:  Trip to the [Diamond District](https://en.wikipedia.org/wiki/47th_Street_(Manhattan)#Diamond_District) (which has plenty of casting-on-demand shops)
+    - **Field trip**:  Visit to the [Diamond District](https://en.wikipedia.org/wiki/47th_Street_(Manhattan)#Diamond_District) (which has plenty of casting-on-demand shops, including )
+    - **Field trip**: [Excalibur Bronze Foundry](https://exnyfoundry.com) in Brooklyn
     - [SolidScape](https://www.solidscape.com/s3duo-3d-printer-for-jewelry/) is a wax 3d printer especially for jewelers.  It's not my jam (I'm more into direct additive than doing lost-wax, but certainly fun to know about)
-    - **EHS**:  Molten metals are gonna be fun...but you can do this safely in a small space at small scales (the diamond district exists) if needed
+    - **EHS**:  Molten metals are gonna be fun...but you can do this safely in a small space at small scales (the diamond district exists) if needed.  
+    
 
 - **FDM/sintering workflows**:  These are cool and leverage tools from above
     - [Virtual Foundry](https://thevirtualfoundry.com/) sells a PLA+metal particle filament. Print in any FDM printer (a filament warmer helps...the filaments are quite brittle), then debind and sinter in a kiln to make metal parts.  Lots of different metals, also glass(!) and lunar regolith simulant(!)
@@ -141,5 +143,6 @@ tags: 3dprinting diy art science teaching imaginary-syllabi
     - Hall, [Materials: A Very Short Introduction](https://amzn.to/3Zf90Gq)
     - Sutton, [Concepts of Materials Science](https://amzn.to/3Z3OkQe)
     - Radhakrishnan, [Core Concepts for a Course on Materials Chemistry](https://amzn.to/4eNbmk9)
+    - Sass, [The Substance of Civilization](https://amzn.to/3EC5Mor) - general audience book on evolution of materials, covers the bases from a historical development point of view
 
 

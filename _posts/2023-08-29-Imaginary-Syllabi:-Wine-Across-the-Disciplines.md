@@ -38,6 +38,7 @@ There's clearly a shadow curriculum here, which is teaching students how to know
     - What does barrel aging do?
     - Analytical  chemistry:  [Acid-base and precipitation equilbria of potassium hydrogen tartarate in wine](https://doi.org/10.1021/ed081p94)...with a possible lab experiment, or at least some equilibrium calculation
     - Organic chemistry: Relating [wine aromas by sniffing them](https://www.lenez.com/en/kits/wine/masterkit_54) to individual molecules and molecule types; basic organic nomenclature 
+    - Textbook: Waterhouse et al, [Understanding Wine Chemistry (2024)](https://amzn.to/42WgyAb)
 
 - Business:  Guest speaker winemaker
 - Statistics:  ["Lady tasting tea" problems in statistics](https://en.wikipedia.org/wiki/Lady_tasting_tea), and how to make sense of wine ranking surveys, taste tests, etc.
