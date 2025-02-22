@@ -126,7 +126,7 @@ extractMaskResult@%
 
 (*
  {"jobId" -> "b40724d4-8875-478b-86b7-d4ac345514d0", 
- "result" -> {{"error" -> Null, "result" -> {"sequence" -> "MKLAARVSALTPSTTLAITAKAAPD"}, "type" -> "FILL_MASK"}}, 
+ "result" -> { {"error" -> Null, "result" -> {"sequence" -> "MKLAARVSALTPSTTLAITAKAAPD"}, "type" -> "FILL_MASK"}}, 
  "status" -> "COMPLETE", "timeElapsed" -> 684}
  *)
 
