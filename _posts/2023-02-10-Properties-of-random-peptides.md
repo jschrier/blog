@@ -1,7 +1,7 @@
 ---
 title: "Properties of Random Peptides"
 date: 2023-02-10
-tags: science statistics biology
+tags: science statistics biology proteins
 ---
 
 A seminar talk by [David Eliezer](https://vivo.weill.cornell.edu/display/cwid-dae2005) got me thinking about the properties of random peptides.  Do they fold? If so, into what?  Are they instrinsically disordered?  **As it turns out, there is some literature on this...**
