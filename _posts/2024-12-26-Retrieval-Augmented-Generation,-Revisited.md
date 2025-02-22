@@ -239,3 +239,7 @@ LLMSynthesize[
 ```mathematica
 ToJekyll["Retrieval Augmented Generation, Revisited", "ai mathematica llm theology gpt4"]
 ```
+
+# Parerga and Paralipomena
+
+- (Feb 2025) Interesting 024 Wolfram Technology Conference talk on [Converting OpenStax Textbooks for Use by LLMs, with an Example Application to Chemistry Education](https://www.youtube.com/watch?v=i8360BQq44c) demonstrating some advanced functionality for processing XML documents and running RAG against it. 
