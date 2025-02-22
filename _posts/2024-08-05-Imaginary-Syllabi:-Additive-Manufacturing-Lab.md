@@ -44,6 +44,7 @@ tags: 3dprinting diy art science teaching imaginary-syllabi
 # Ceramics
 
 - **Kiln:**  We're going to need to program this for other stuff, so get a fancier electric one; 2350 F (1288 C) is fine (might put porcelain out of reach, but enough for lots of other ceramics), smaller volume is fine.  [Available from Virtual Foundry for $3700](https://thevirtualfoundry.com/wp-content/uploads/2024/06/The-Virtual-Foundry-Kiln-Catalog-06_24.pdf).  Make sure that these can be run as an oxidizing environment (with blower fan) for doing ceramic stuff, as well as being run in a reducing (or at least not too much oxygen) environment for metal sintering
+    - [Maybe as a bonus add some cheaper small kilns](https://www.vevor.com/tabletop-kiln-melter-c_13250/vevor-tabletop-kiln-melter-1500w-electric-melting-furnace-stainless-steel-electric-furnace-max-temperature-2192-1200-for-wax-casting-metal-clay-diy-metal-tempering-glazing-on-pottery-p_010647912758)
 
 - [Slip casting]({{ site.baseurl }}{% post_url 2023-11-23-Slip-Casting %}) --- make FDM positives, then pour plaster negatives, then do the casting.  Relatively gentle introduction to mold making processes and other ceramic-y stuff with minimal investment 
     - I suppose an even lighter introduction would be to 3d-print a tile mold, and just do rolled clay into the mold...use of [azulejo style motifs]({{ site.baseurl }}{% post_url 2024-05-10-Great-Ideas-from-Portugal %}) is optional...
@@ -63,12 +64,15 @@ tags: 3dprinting diy art science teaching imaginary-syllabi
 
 
 - **Casting:**  Never underestimate the ability to make positives out of polymer and then make an investment mold/lost-wax process
+    - Burnaway [SLA resin](https://monocure3d.com.au/product/burnaway-castable-resin/)
     - Ye-olde [Lost PLA casting](https://all3dp.com/2/lost-pla-casting-guide/)
     - [Print-wave casting with a microwave kiln](https://hackaday.com/2024/07/13/print-wave-metal-casting/)
     - **Field trip**:  Visit to the [Diamond District](https://en.wikipedia.org/wiki/47th_Street_(Manhattan)#Diamond_District) (which has plenty of casting-on-demand shops, including )
     - **Field trip**: [Excalibur Bronze Foundry](https://exnyfoundry.com) in Brooklyn
     - [SolidScape](https://www.solidscape.com/s3duo-3d-printer-for-jewelry/) is a wax 3d printer especially for jewelers.  It's not my jam (I'm more into direct additive than doing lost-wax, but certainly fun to know about)
     - **EHS**:  Molten metals are gonna be fun...but you can do this safely in a small space at small scales (the diamond district exists) if needed.  
+    - Alternatively, also possible to [SLA print molds directly for low-melting metals](https://www.youtube.com/watch?v=FXZlLnCsAbg) (<550C, e.g., pewter, ZA12, [Roto202](https://www.rotometals.com/roto202f-low-melt-fusible-alloy-62-5-bismuth-37-5-tin-ingot-lead-free-alternative-to-roto203f/)) using [Monocure Thermocast resin](https://monocure3d.com.au/product/thermacast-3d-printer-resin/)
+        - Combine this with a [small electric crucible](https://www.vevor.com/melting-furnace-c_11137/vevor-electric-gold-melting-furnace-w-1kg-3kg-graphite-crucible-ingot-mold-p_010884087475)
     
 
 - **FDM/sintering workflows**:  These are cool and leverage tools from above
