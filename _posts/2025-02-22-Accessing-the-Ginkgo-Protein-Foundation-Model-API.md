@@ -258,6 +258,9 @@ match[examples, response, results] // Short[#, 8] &
 
 (Generalization to handle mask filling is left as an exercise for the reader.)
 
+# So you've got a bunch of embeddings to store
+
+Make it easy to share, and do what the cool kids are doing: [Parquet](https://minimaxir.com/2025/02/embeddings-parquet/)... added in [Mathematica 14.2](https://reference.wolframcloud.com/language/ref/format/Parquet.html)
 
 ```mathematica
 ToJekyll["Accessing the Ginkgo Protein Foundation Model API", 
