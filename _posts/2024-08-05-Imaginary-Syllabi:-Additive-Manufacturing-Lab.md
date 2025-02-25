@@ -71,10 +71,13 @@ tags: 3dprinting diy art science teaching imaginary-syllabi
     - **Field trips**:  
         - Visit to the [Diamond District](https://en.wikipedia.org/wiki/47th_Street_(Manhattan)#Diamond_District) (which has plenty of casting-on-demand shops, including )
         - [Excalibur Bronze Foundry](https://exnyfoundry.com) in Brooklyn
+        - [Modern Art Foundry](https://www.modernartfoundry.com/) in Astoria, Queens (focus on fine art)
     - [SolidScape](https://www.solidscape.com/s3duo-3d-printer-for-jewelry/) is a wax 3d printer especially for jewelers.  It's not my jam (I'm more into direct additive than doing lost-wax, but certainly fun to know about)
     - **EHS**:  Molten metals are gonna be fun...but you can do this safely in a small space at small scales (the diamond district exists) if needed.  
     - Alternatively, also possible to [SLA print molds directly for low-melting metals](https://www.youtube.com/watch?v=FXZlLnCsAbg) (<550C, e.g., pewter, ZA12, [Roto202](https://www.rotometals.com/roto202f-low-melt-fusible-alloy-62-5-bismuth-37-5-tin-ingot-lead-free-alternative-to-roto203f/)) using [Monocure Thermocast resin](https://monocure3d.com.au/product/thermacast-3d-printer-resin/)
         - Combine this with a [small electric crucible](https://www.vevor.com/melting-furnace-c_11137/vevor-electric-gold-melting-furnace-w-1kg-3kg-graphite-crucible-ingot-mold-p_010884087475)
+        - [Foundry in a Box](https://www.afsinc.org/demonstrations-foundry-box) might be a simple way to get started in this.
+        - Or even just a [small inexpensive melting pot](https://www.amazon.com/dp/B0DDTNYZSH) to focus on low-melt alloys 
     
 
 - **FDM/sintering workflows**:  These are cool and leverage tools from above
@@ -108,6 +111,8 @@ tags: 3dprinting diy art science teaching imaginary-syllabi
 
 
 # Computational / Design aspects
+
+- Defining objects with computational geometry (OpenSCAD or otherwise)
 
 - Simple modeling in Fusion360: Design a container with a lid
 
