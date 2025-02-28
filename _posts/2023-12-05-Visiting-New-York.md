@@ -39,7 +39,7 @@ Cabs are generally cheaper than Ubers.
 18. This puts you in (Manhattan) Little Italy.  Maybe yu want Italian food?  Or just stop for a pastry and espresso at [Ferrara](https://maps.app.goo.gl/ut3yotvqtMfjDzTC6)
 19. Keep heading north on Mulberry Street.  Stop into the [Old St. Patrick's](https://maps.app.goo.gl/fy84tZC1DkmAnf8u8)...
 20. Head north another block or two to Houston street (pronounced *How-stun*).  You've been South of Houston (SoHo)...now you are north of Houston (NoHo).  Make a right on Houston.
-21. Detour:  Stop for a nosh.  If smoked fish is your thing, [Russ and Daughters](https://maps.app.goo.gl/mp5YphtheeDh4G9Q8).  If a Jewish deli sandwich is your thing, then [Katz](https://maps.app.goo.gl/T6SkjGx4coBQYM1v6) is down the street (although...I think they're slightly overrated, and the meat sandwiches at [Sarge's](https://maps.app.goo.gl/tm7UnMvigMiuhSxL9) uptown is equally good if not better, without the lines).  Or maybe just get a  [Yonah Shimmel Knish](https://maps.app.goo.gl/sytveCvvHunYALMo9)
+21. Detour:  Stop for a nosh.  If smoked fish is your thing, [Russ and Daughters](https://maps.app.goo.gl/mp5YphtheeDh4G9Q8).  If a Jewish deli sandwich is your thing, then [Katz](https://maps.app.goo.gl/T6SkjGx4coBQYM1v6) is down the street (although...I think they're slightly overrated, and the meat sandwiches at [Sarge's](https://maps.app.goo.gl/tm7UnMvigMiuhSxL9) uptown is equally good if not better, without the lines).  Or maybe just get a [Yonah Shimmel Knish](https://maps.app.goo.gl/sytveCvvHunYALMo9)
 22. Head north up Bowery to [McSorley's Ale House](https://maps.app.goo.gl/KPKByNyfL8ALz3CN7) and have a beer. Actually get two: one light and one dark. Trust me.  And bring cash.  This place is so old, that Abraham Lincoln had a beer there after giving a speech at the Cooper Union next door, when he was running for president the first time... 
 23. **By this time, most tourists have been walked under the table.**  So you can just step outside and get a cab back to your hotel. Or better yet, pick up one of the nearby subway. **But...if you still have energy...**
     - West to Washington Square Park and New York University.   
@@ -59,6 +59,7 @@ Of course the [Blue Note](https://www.bluenotejazz.com/nyc/) and [Village Vangua
 - [Nublu](http://nublu.net) *lower east side* or rather *louisaida*. Lots of different things, but I have fond memories of listening to Georgian jazz there.
 - [Tomi Jazz](http://www.tomijazz.com/)---*midtown east*; japanese restaurant with jazz; I haven't been there since the 'Rona, because it is too crowded. Make of that what you will.
 - [Cellar Dog](http://cellar.dog/)--*west village*; around the block from Smalls/Mezznote, and down the street from Village Vanguard. Not strictly a music club...it's a bar with games(!) but they also have a live jazz band.  Cheap cover ($10?), beers are affordable, and you can bring food in, play some chess, pool, or ping pong and listen to some jazz. The house bands are pretty decent.
+- [Jazz Vespers at St. Peter's Church](https://www.saintpeters.org/jazz): 5pm on Sunday evenings. 
 
 Find out what is playing:
 - [Daily live jazz listings](http://jazz-nyc.com): no frills, but you can find out what's happening and where
@@ -141,10 +142,10 @@ Nobody goes to Times Square, because it is too crowded with tourists.  But...
 ## Brooklyn
 
 - [Industry city](https://maps.app.goo.gl/gqUGgzEfJ4NGZxND7):  Fasinating history, and lots of good Japanese food, and a [sake brewery (Brooklyn Kura)](https://maps.app.goo.gl/WZPWPt7vBn6BtaXG7)
-- [DUMBO](https://maps.app.goo.gl/eit6HmE5hWFp5LdEA): You can walk across the Brooklyn Bridge if you wish, ot else just take the train here.  [Take your photo](https://maps.app.goo.gl/eit6HmE5hWFp5LdEA), then have a coal-fired pizza at [Grimaldi's](https://maps.app.goo.gl/1ARzfFFLmQ3hRXFs5) before [the liberals make it illegal](https://nypost.com/2023/06/25/nyc-rules-crack-down-on-coal-wood-fired-pizzerias-must-cut-carbon-emissions-up-to-75/)
+- [DUMBO](https://maps.app.goo.gl/eit6HmE5hWFp5LdEA): You can walk across the Brooklyn Bridge if you wish, ot else just take the train here.  [Take your photo](https://maps.app.goo.gl/eit6HmE5hWFp5LdEA), then have a coal-fired pizza at [Grimaldi's](https://maps.app.goo.gl/1ARzfFFLmQ3hRXFs5)...or the spin-off, [Juliana's](https://maps.app.goo.gl/DF9M87HeZVJ3hnyZA) before [the liberals make it illegal](https://nypost.com/2023/06/25/nyc-rules-crack-down-on-coal-wood-fired-pizzerias-must-cut-carbon-emissions-up-to-75/)...**update:** [old man Grimaldi passed in Feb 2025](https://www.nytimes.com/2025/02/21/dining/patsy-grimaldi-dead.html)
 - Greenpoint
 - Williamsburg
-- [Bushwick](https://www.nyctourism.com/new-york/brooklyn/bushwick/): Be sure to stop by [Jupiter Disco](https://maps.app.goo.gl/wk8fVBKoQqr9tsYt5)
+- [Bushwick](https://www.nyctourism.com/new-york/brooklyn/bushwick/): Be sure to stop by [Jupiter Disco](https://maps.app.goo.gl/wk8fVBKoQqr9tsYt5) for drinks and electronic music and/or [Tabare](https://maps.app.goo.gl/kqZHviBGAaw2xSdA9) for Uraguayan food.  [Niteglow brewery](https://maps.app.goo.gl/PaZtRD4X7PWgRT1h8) does those crazy [Czech all-foam mliko pours](https://www.nytimes.com/2025/01/16/dining/drinks/mliko-czech-beers.html)
 - Bed Stuy:  I typically only come here to go to [Wonderville (a hipster indie videogame bar)](https://maps.app.goo.gl/vMXdrC5UheDQztX26) for [Electronic Music meetups](https://www.meetup.com/brooklyn-experimental-electronic-music-meetup/) (typically the last Thursday of the month, but somewhat irregular...)
 
 
