@@ -20,6 +20,10 @@ Some [nerds have made versions of the helmets-on-sticks for Halloween decoration
 
 ![12vgd6axgho22](/blog/images/2024/7/5/12vgd6axgho22.png)
 
+[Also a solid version](https://www.thingiverse.com/thing:2719006/files)
+
+[Another solid version on printables](https://www.printables.com/model/22904-storm-trooper-helmet-purist-and-alternative-option/files)
+
 **Design questions:**
 
 - Should flame be visible through the eyes (i.e., partially hollow interior cavity) or flame emerging from top of head? (solid head, paint the eye holds). No clear opinion.
