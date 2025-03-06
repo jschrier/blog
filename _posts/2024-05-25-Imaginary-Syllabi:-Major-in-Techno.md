@@ -13,7 +13,7 @@ tags: imaginary-syllabi teaching music
 
 - Survery of the History of Electronic Music
 - Music Theory I
-- EDM Production (practical lab)
+- [EDM Production (practical lab)]({{ site.baseurl }}{% post_url 2025-01-27-Intro-to-EDM-101 %})
 - DJ-ing (practical lab)
 - *Electives* in various subdisciplines, as guided by faculty
 - *Elective* analog synthesis
