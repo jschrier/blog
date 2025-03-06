@@ -291,3 +291,6 @@ ToJekyll["Minimal flow-matching and rectified flow model from scratch",
 - [David Koes](https://scholar.google.com/citations?user=nNB5I58AAAAJ&hl=en&oi=ao) & co. at Pitt has been working on flow-matching for molecule generation.
    - [Mixed Continuous and Categorical Flow Matching for 3D De Novo Molecule Generation (Apr 2024)](https://arxiv.org/abs/2404.19739v1)
    - [Exploring Discrete Flow Matching for 3D De Novo Molecule Generation (Nov 2024)](https://arxiv.orgabs/2411.16644v1)
+
+- [Diffusion and flow-matching video course (via HN)](https://news.ycombinator.com/item?id=43238893
+)
