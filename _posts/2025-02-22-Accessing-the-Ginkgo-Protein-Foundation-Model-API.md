@@ -168,7 +168,7 @@ One typically wants to perform the evaluation for a batch of sequences at once. 
 examples = {example, example};
 ```
 
-Overload the request function to catch a list argument containing multiple sequences.  Inside the function, generate a list of inputs and the endpoint URL is a bit different, but the changes are relatively minor.  (The documentation does not indicate what the maximum batch size should be, [but an example shows batches of 10](https://github.com/ginkgobioworks/ginkgo-ai-client/blob/main/examples/handling_large_batches.py), so maybe we can consider that as a guide.)
+Overload the request function to catch a list argument containing multiple sequences.  Inside the function, generate a list of inputs and the endpoint URL is a bit different, but the changes are relatively minor.  (The documentation does not indicate what the maximum batch size should be, [but an example shows batches of 10](https://github.com/ginkgobioworks/ginkgo-ai-client/blob/main/examples/handling_large_batches.py), so maybe we can consider that as a guide; in subsequent testing I had no problem with batches of 100 queries, although they can take 1-2 minutes to complete, depending on the model.)
 
 ```mathematica
 ginkgoModelRequest[sequences_List, (*overload to take a list *)
@@ -242,7 +242,7 @@ match[sequences_, response_, results_] := With[
    {jobs = Lookup[response, "jobIds"], 
     id2Embedding = AssociationThread[
       Query["requests", All, "jobId"]@results -> 
-       Query["requests", All, "result", 1, "result", "embedding", All]@results]}, 
+       Query["requests", All, "result", 1, "result", "embedding", All]@ results]}, 
    ToTabular[
     {TabularColumn[sequences], 
      TabularColumn[id2Embedding /@ jobs]}, 

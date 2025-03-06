@@ -228,6 +228,5 @@ ToJekyll["Semisupervised Twin Regression", "ml mathematica"]
 
 # Parerga and Paralipomena
 
- [^1]: (27 Jan 2024)  An alternative is to use the [LossFunction](http://reference.wolfram.com/language/ref/LossFunction.html) option to set the hyperparameter scaling, in the form `LossFunction -> {"mse"->Scaled[1.-r]
-, "loop"->Scaled[r]}` and eliminate the need to build in a summation function. This would also facilitate returning a history of each type of loss during the training cycle.
+ [^1]: (27 Jan 2024)  An alternative is to use the [LossFunction](http://reference.wolfram.com/language/ref/LossFunction.html) option to set the hyperparameter scaling, in the form `LossFunction -> {"mse"->Scaled[1.-r], "loop"->Scaled[r]}` and eliminate the need to build in a summation function. This would also facilitate returning a history of each type of loss during the training cycle.
 
