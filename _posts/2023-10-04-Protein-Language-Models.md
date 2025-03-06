@@ -1,7 +1,7 @@
 ---
 title: "Protein Language Models"
 date: 2023-10-04
-tags: machinelearning ml science proteins llm
+tags: machinelearning ml science proteins llm biology
 ---
 
 A chat with [Rudi Gunawan](https://scholar.google.com/citations?user=fx039lUAAAAJ&hl=en&oi=ao) turned me on to the idea of using language models for peptide problems, which came up again in a chat with [Yujia Xu](https://hunter.cuny.edu/people/yujia-xu/) about designer collagen.  **Some notes on protein language models...**
@@ -44,4 +44,7 @@ In general, the idea of a foundational model is that we pre-train it on a large 
 - [Mass2SMILES](https://doi.org/10.1101/2023.07.06.547963) is a transformer based model that takes MS/MS spectra as inputs and returns SMILES strings and functional group presence/absence
     - Mentions as an aside ways to compare spectra which may be useful for Maurer. Namely [Spec2Vec (Huber et al., 2021)](https://github.com/iomega/spec2vec), [MS2deepscore (Huber et al., 2021)](https://doi.org/10.1186/s13321-021-00558-4), [SIMILE (Treen 2022)](https://www.nature.com/articles/s41467-022-30118-9) 
     - [MS2Mol](https://doi.org/10.26434/chemrxiv-2023-vsmpx-v4) is a BART-style alternative to this for MS/MS prediction of molecules.  Again, you get a nice embedding of the MS/MS spectrum which may be useful for projects with Maurer... 
+
+- (Mar 2025) A [recent (2025) review of protein language models](https://doi.org/10.1016/j.sbi.2025.102997)
+
 
