@@ -56,7 +56,7 @@ I'm a contrarian, and the students taking this course aren't necessarily technic
 - Kircher's [Organum Mathematicum](https://gate.unigre.it/mediawiki/index.php/Athanasius_Kircher’s_Organum_mathematicum._On_the_Evolutionary_Improbability_of_an_Information_Processing_Innovation) --> Intro to computing
 - Kircher's [Polygraphia Nova](https://en.wikipedia.org/wiki/Polygraphia_Nova) --> [word/sentence embeddings](https://en.wikipedia.org/wiki/Word_embedding)
 - Kircher's writings on China --> [summarization methods]({{ site.baseurl }}{% post_url 2023-08-27-Three-LLM-Summarization-Strategies %})
-- Kircher's Hieroglyphic decipherng --> hallucinations
+- Kircher's Hieroglyphic deciphering --> hallucinations
 - Kircher's encyclopedism --> [retrieval augmented generation methods]({{ site.baseurl }}{% post_url 2023-08-24-Retrieval-Augmented-Generation %})
 - [Noah's ark](https://honorsbookculture.ace.fordham.edu/kirchers-encyclopedic-visions) --> [image generation]({{ site.baseurl }}{% post_url 2023-11-24-Dall-E-3-image-generation-in-Mathematica %})/CLIP/[exploration of latent space](https://writings.stephenwolfram.com/2023/07/generative-ai-space-and-the-mental-imagery-of-alien-minds/)
 
