@@ -59,6 +59,7 @@ There's clearly a shadow curriculum here, which is teaching students how to know
 - (Experimental) Archeology: [Understanding ancient Roman vinification by reference to modern georgian winemaking practice](https://dx.doi.org/10.15184/aqy.2023.193)---and an excuse to drink some Georgian wine.
 - Operations Research/Logistics:  [Wine transportation](https://www.dhl.com/global-en/delivered/globalization/the-art-of-wine-transportation.html)
 - Material's science: [The Glass of Wine: The Science, Technology, and Art of Glassware for Transporting and Enjoying Win](https://amzn.to/4bSx99K) (book)
+- Computer Science: [Winemaking and AI](https://nypost.com/2025/03/10/lifestyle/heres-how-ai-has-taken-over-the-winemaking-industry/)
 
 # Example tasting topics ("labs")
 
