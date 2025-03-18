@@ -155,3 +155,7 @@ Nobody goes to Times Square, because it is too crowded with tourists.  But...
 - [Gothamist](https://gothamist.com)---more politics and local news oriented, but sometimes talks about events
 - [Eater NY](https://ny.eater.com) -- food news, at all price points
     - Eater Guide to [cheap eats in the 5 boroughs in 2024]( https://ny.eater.com/2024/7/8/24191462/cheap-eats-24-hours-nyc)
+
+# Just for fun
+
+- (12 Mar 2025) [The NYTimes had ChatGPT plan a New York trip...with mixed results](https://www.nytimes.com/2025/03/07/travel/ai-travel-planning-nyc.html)
