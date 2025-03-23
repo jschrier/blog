@@ -54,8 +54,14 @@ tags: audio synth pico drum electronics diy
 
 # Retrospective: What I finally did (Aug 2024)
 
-1. Built [Mortiz Klein's drum bundle](https://www.thonk.co.uk/shop/mki-erica-edu-drums/) to learn the circuits and ideas, but then got limited musically... (Also, as a side note, analog drum circuits are really complicated! )
+1. Built [Mortiz Klein's drum bundle](https://www.thonk.co.uk/shop/mki-erica-edu-drums/) to learn the circuits and ideas, but then got limited musically... (Also, as a side note, analog drum circuits are really complicated! ).  I added some build notes on my [original build page]({{ site.baseurl }}{% post_url 2023-01-16-Building-the-mki-x-es.edu-synthesizer %}) 
 
 2. Bought a Korg Volka Beat (16 step sequencer) and [Pocket Operations book](https://amzn.to/3WQyrf1) to go more musical. (Not exactly DIY, but has some [hacking potential]({{ site.baseurl }}{% post_url 2024-07-19-Hacking-the-Korg-Volka-Beats %}) )
 
 3. Bought an [Akai MCP218](https://amzn.to/3AFBrDp) drum pad and enrolled in [Melodics](https://melodics.com) drum pad course to try to get a more intuitive musical sense (not at all DIY, but a realization that I was emphasizing the hardware rather than the music)
+
+4. (Jan 2025) [Bite the bullet and start playing with Ableton]({{ site.baseurl }}{% post_url 2025-01-27-Intro-EDM-101 %})
+
+# Seen around the web
+
+(22 Mar 2025) [Business card with a 533MHz Arm CPU and 32MB of embedded DDR RAMthat runs linux ... to emulate a drum machine](https://www.hackster.io/news/impressing-potential-clients-with-an-electronic-drum-kit-on-a-business-card-748d7e41b40c) --- far out!
