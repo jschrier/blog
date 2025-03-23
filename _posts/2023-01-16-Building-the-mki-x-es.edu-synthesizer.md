@@ -106,3 +106,16 @@ Several modules require calibration or tuning by adjusting a trimpot or two. An 
 # Appendix:  Parts and supplies
 
 - [Elecric Druid](https://electricdruid.net) source for analog ICs for VCOs, VCAs, delays, LFOs, etc.
+
+# Appendix: Drum modules
+
+(22 Mar 2025) Subsequently, they released an [analog drum kit](https://www.thonk.co.uk/shop/mki-erica-edu-drums/), which includes a kick, snare, hi-hat, an additional mixer, and a compressor.  
+
+The base kit, described above, has enough power for this, but not enough space, so this lead me to a side-quest of [building a new rack]({{ site.baseurl }}{% post_url 2024-07-20-Eurorack-case-building %})
+
+I found the kick and hi-hat to be interesting (and suggest building them in that order).  The snare is rather repetitive, as it builds on a lot of the other ideas, and the breadboarding is super dense.  To be honest, I got bored with the snare, and would probably suggest skipping it.  (*Still working on the compressor...*)
+
+The main limitation is that [mki x ES sequencer](https://www.ericasynths.lv/shop/diy-kits-1/edu-diy-sequencer/) doesn't support making interesting beats (not even ye-old 4-on-the-floor techno).  So you need a fancier setup to make something musical.
+
+
+

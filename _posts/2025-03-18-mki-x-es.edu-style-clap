@@ -1,0 +1,19 @@
+---
+title: "mki x es.edu-style clap"
+date: 2025-03-18
+tags: synth analog diy electronics drum
+---
+
+The admirable [Moritz Klein x Erica Synths .edu analog drum kit](https://www.thonk.co.uk/shop/mki-erica-edu-drums/) includes a kick, snare, and hi-hat, but (so far) no [clap](https://www.izotope.com/en/learn/music-technology-history-the-electronic-handclap.html). **Notes on how to build an MKxES.edu-style clap...**
+
+# Basic principles
+
+A clap is [essentially white-noise, run through a band-pass filter, with a sharp-attack, fast-decay envelope](https://www.attackmagazine.com/technique/tutorials/synthesizing-a-clap-with-white-noise/)
+
+To make it sound more realistic, you actually want a [3 or 4 these to be trigger with a short time delay  then run the result through a reverb.](https://www.modwiggler.com/forum/viewtopic.php?t=82834&sid=5d4410570b32478ea3e62633bbe718cd)   [Putting a small random variation on each filter frequency will make it sound more realistc.](https://modwiggler.com/forum/posting.php?mode=quote&p=3683824&sid=4c7a3793fb833275582011a5c6d710a8)  
+- A hack is to use 2 EG and 1 quick LFO to VCA, to "snap" the "clap" shut before feeding into a delay.
+- Another hack is to [make a single 3 triangle envelope](https://www.youtube.com/shorts/IFZeuuoFBpM) on the noise (maybe there's a simple way to analogue this...)
+
+# In the wild
+
+- [Syntherjack's SnapClap](https://syntherjack.net/snapclap-the-only-handclap-you-need/) is a pretty-tightly packed 12 HP module
