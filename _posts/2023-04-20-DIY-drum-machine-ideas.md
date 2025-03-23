@@ -60,7 +60,7 @@ tags: audio synth pico drum electronics diy
 
 3. Bought an [Akai MCP218](https://amzn.to/3AFBrDp) drum pad and enrolled in [Melodics](https://melodics.com) drum pad course to try to get a more intuitive musical sense (not at all DIY, but a realization that I was emphasizing the hardware rather than the music)
 
-4. (Jan 2025) [Bite the bullet and start playing with Ableton]({{ site.baseurl }}{% post_url 2025-01-27-Intro-EDM-101 %})
+4. (Jan 2025) [Bite the bullet and start playing with Ableton]({{ site.baseurl }}{% post_url 2025-01-27-Intro-to-EDM-101 %})
 
 # Seen around the web
 
