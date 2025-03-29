@@ -24,6 +24,8 @@ Some [nerds have made versions of the helmets-on-sticks for Halloween decoration
 
 [Another solid version on printables](https://www.printables.com/model/22904-storm-trooper-helmet-purist-and-alternative-option/files)
 
+(27 Mar 2025) [Informative step-by-step video on 3d-printing and casting with concrete](https://www.youtube.com/watch?v=tiydT2_OVLs) has recommendations for [casting cement](https://www.ctscement.com/product/cement-all) and [mold release](https://amzn.to/3RlMFC7)
+
 **Design questions:**
 
 - Should flame be visible through the eyes (i.e., partially hollow interior cavity) or flame emerging from top of head? (solid head, paint the eye holds). No clear opinion.
