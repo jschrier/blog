@@ -64,4 +64,4 @@ tags: audio synth pico drum electronics diy
 
 # Seen around the web
 
-(22 Mar 2025) [Business card with a 533MHz Arm CPU and 32MB of embedded DDR RAMthat runs linux ... to emulate a drum machine](https://www.hackster.io/news/impressing-potential-clients-with-an-electronic-drum-kit-on-a-business-card-748d7e41b40c) --- far out!
+(22 Mar 2025) [Business card with a 533MHz Arm CPU and 32MB of embedded DDR RAM that runs linux ... to emulate a drum machine](https://www.hackster.io/news/impressing-potential-clients-with-an-electronic-drum-kit-on-a-business-card-748d7e41b40c) --- far out!
