@@ -15,6 +15,7 @@ In the beginning, the LORD created [modular synthesizers]({{ site.baseurl }}{% p
 - (June 2024) The new Mki x Erica Synth [labor kit](https://www.ericasynths.lv/shop/diy-kits-1/edu-diy-labor/?v=3076) would be a nice way to experiment with prototyping different circuits
 - (book) Pinch, [Analog Days: The Invention and Impact of the Moog Synthesizer](https://amzn.to/3VoK77Z)
 - (June 2024) Just found Prof. Lanterman's [EECE4050: Analog Circuits for Music Synthesis](https://youtube.com/playlist?list=PLOunECWxELQS5bMdWo9VhmZtsCjhjYNcV&si=6XK93LHZXLvUXj0m) lecture videos
+- (Apr 2025) [Hackernews thread on a database of DIY synthesizers](https://news.ycombinator.com/item?id=43564890)
 
 # Field-Programmable analog arrays (added 27 June 2023)
 

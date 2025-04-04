@@ -10,7 +10,7 @@ Want to make black images that are fused into the glaze of white tile (or into c
 
 - A thin coating of rutile TiO2 is deposited on a glazed ceramic and/or glass surface.
 - Application of heat using an IR or diode laser converts the anatase crystal form into the anatase crystal form, while simultaneously fusing it into the glaze oxide
-- This results in a black (anatase) marking which is fused into the glaze and thus resistant to photobleaching, scratching, etc. (in contrast to [methods in which one engraves the surface of the tile to form defects, rubs in dye, and then seals the surface](https://www.youtube.com/watch?v=Ui1jFiDniao))
+- This results in a black (anatase) marking which is fused into the glaze and thus resistant to photobleaching, scratching, etc. (in contrast to [other methods in which one engraves the surface of the tile to form defects, rubs in dye, and then seals the surface](https://www.youtube.com/watch?v=Ui1jFiDniao))
 
 
 # Inspiring articles
@@ -94,5 +94,5 @@ Or:
     - Shades of [glazing chemistry]({{ site.baseurl }}{% post_url 2024-06-11-Imaginary-Syllabi:-Glazed-and-Confused %})...
 
 - Also cool: Powder coating color fill (works on wood, acrylic, class, clay etc). [Official Trotec video, with parameters for Speedy 300 80W laser](https://www.youtube.com/watch?v=IvvaAvXJye0).  Premise is that you engrave a shallow trench, fill in the powder coating, and then run a pass which melts the powder coat where desired. This can achieve bright colors.  It's a fundamentally different process (organic versus inorganic)...but the color fill is reported to be stable for up to 40 years. 
-- Also cool: [Laser foil](https://www.youtube.com/watch?v=UJLY-26O4Yo). Fundamentally just an adhesive mylar coating, but can look cool.  Can be applied to wood or acrylic. Video shows settings.
+- Also cool: [Laser foil](https://www.youtube.com/watch?v=UJLY-26O4Yo). Fundamentally just an adhesive mylar coating, but can look cool.  Can be applied to wood or acrylic. Video shows settings
 
