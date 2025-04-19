@@ -21,3 +21,5 @@ In a way, there are only about 6 different types of guitar pedals.  Yet, there i
 As much as I want to love analog, we live in the digital age.  [Open-source DSP pedal kit](https://clevelandmusicco.com/hothouse-diy-digital-signal-processing-platform-kit/) based on the [daisy seed](https://electro-smith.com/products/daisy-seed)
 
 (26 mar 2025) [Raspberry-Pi Pico multi-effect pedal](https://101-things.readthedocs.io/en/latest/guitar_effects.html) --- very low part count, well explained. Has some  very interesting links including to [musicDSP](https://www.musicdsp.org/en/latest/index.html) "a collection of algorithms, thoughts and snippets, gathered for the music dsp community"
+
+(12 apr 2025) Yet another [Raspberry-Pi pico guitar pedal design](https://www.youtube.com/watch?v=jpfROA2EMzo).   It appears to use a DAC for audio output (maybe better than doing PWM as in the previous one, but doesn't seem as well documented )

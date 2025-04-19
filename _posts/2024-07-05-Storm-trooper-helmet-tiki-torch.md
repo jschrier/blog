@@ -62,3 +62,9 @@ ToJekyll["Storm-trooper helmet tiki torch", "3dprinting tiki sculpture"]
 
 (*Missing["NotAvailable"]["Storm-trooper helmet tiki torch", "3dprinting tiki sculpture"]*)
 ```
+
+# How to do it.
+
+- Grab a copy of [Meshmixer off the Internet Archive](https://web.archive.org/web/20200220222607/http://www.meshmixer.com/download.html)
+- Download the "alternative" (1 piece solid) [helmet model](https://www.printables.com/model/22904-storm-trooper-helmet-purist-and-alternative-option/files)
+- [Follow the tutorial](https://www.youtube.com/watch?v=tiydT2_OVLs&t=1s)
