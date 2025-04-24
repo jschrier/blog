@@ -28,12 +28,13 @@ Jubilee uses Duet 3 Mini 5+ which [natively support laser engraver/cutter contro
 - JST XH2.54-3Pin cable [($7/amazon)](https://amzn.to/42Q9Wmi) --- 80 cm tends to be a common length, but maybe go longer instead?
 
 TODO: Write up circuit diagram
+TODO: Consider fabricating PCB with [DKRed service](https://www.digikey.com/en/resources/dkred) instead of the usual JLPCB
 TODO: [Design Jubilee tool](https://science-jubilee.readthedocs.io/en/latest/building/designing_custom_tools.html) to hold it in place.  Good practice in designing tools...good cad practice for students
 TODO: Test on Jubilee
 
 # Next Step: 5W 450nm diode laser
 
-**Objective:** After establishing that you can do this safely, go for MORE POWER! 
+**Objective:** After establishing that you can do this safely, go for MORE POWER! Class 4 laser 
 
 - LaserTree 5W 450nm laser module [($85/amazon)](https://amzn.to/4isFELd) seems to fit the bill: standard 12V power, 5V PWM control.
 - Get some [laser safety glasses](https://www.edmundoptics.com/f/laser-safety-eyewear/39552/) 
