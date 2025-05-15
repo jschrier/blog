@@ -42,3 +42,7 @@ TODO: Test on Jubilee
 TODO: Laser safety consultation
 TODO: Design Jubilee tool
 TODO: Test
+
+# Other things
+
+- [Acmer 10W diode + 2W IR laser module](https://acmerlaser.com/products/10w-diode-2w-ir-dual-laser-module-kit) $659 (but unclear how you interface the mode change)
