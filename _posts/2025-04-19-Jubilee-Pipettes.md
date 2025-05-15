@@ -27,6 +27,19 @@ tags: diy science jubilee
 **Cons:**
 - No ejectable tips; if worried about contamination, need to wash the end of the syringe
 
+# Digital Pipette (from Alan & co.)
+
+[build/use documentation](https://pubs.rsc.org/en/content/articlelanding/2023/dd/d3dd00115f)
+
+**Pros:**
+- Very simple construction/assembly
+
+**Cons**:
+- Really just a syringe
+- Notionally, 10 mL volume (not a micropipette)
+- No tip ejection/replacement
+
+
 # Open Lab Automation Pipette   
 
 [build/use documentation](https://docs.openlabautomata.xyz/Mini-Docs/Tools/Micropipetas/)
