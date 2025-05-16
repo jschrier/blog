@@ -18,6 +18,8 @@ Nietzsche famously claimed to do [philosophy with a hammer](https://en.wikipedia
 
 - Manshina et al "The Second Laser Revolution in Chemistry: Emerging Laser Technologies for Precise Fabrication of Multifunctional Nanomaterials and Nanostructures" [Adv Funct Mater 2024](https://dx.doi.org/10.1002/adfm.202405457)
 - Pinheiro et al "Direct Laser Writing: From Materials Synthesis and Conversion to Electronic Device Processing" [Adv Mater 2024](https://dx.doi.org/10.1002/adma.202402014)
+- Garetz & Hartmann "25+ Years of Research on Nonphotochemical Laser-Induced Nucleation (NPLIN)" [Cryst. Growth & Design 2025](https://dx.doi.org/10.1021/acs.cgd.5c00266)
+- Korede et al "A Review of Laser-Induced Crystallization from Solution" [Cryst. Growth & Design 2023](https://dx.doi.org/10.1021/acs.cgd.2c01526)
 
 # Laser-induced graphene
 
@@ -80,3 +82,9 @@ Nietzsche famously claimed to do [philosophy with a hammer](https://en.wikipedia
 **Premise:** - A thin coating of rutile TiO2 is deposited on a glazed ceramic and/or glass surface. Application of heat using an IR or diode laser converts the anatase crystal form into the anatase crystal form, while simultaneously fusing it into the glaze oxide. This results in a black (anatase) marking which is fused into the glaze and thus resistant to photobleaching, scratching, etc.
 
 **Precedent/feasibility:** This is known as the [Norton White Tile method]({{ site.baseurl }}{% post_url 2025-02-13-Norton-White-Tile-Method %})
+
+# Laser-induced crystallization
+
+**Premise** - Unfocused laser beam excites impurity nanoparticles, which generate cavitation bubbles, and crystals get nucleated at the surface
+
+**Precdent/feasibility**:  [Review article by Garetz & Hartmann](https://dx.doi.org/10.1021/acs.cgd.5c00266) cites several examples [1](https://scholar-google-com.avoserv2.library.fordham.edu/scholar_lookup?hl=en&volume=10&publication_year=2010&pages=4686-4688&journal=Cryst.+Growth+Des.&author=T.+Rungsimanon&author=K.+I.+Yuyama&author=T.+Sugiyama&author=H.+Masuhara&title=Crystallization+in+unsaturated+glycine+D2O+solution+achieved+by+irradiating+a+focused+continuous+wave+near+infrared+laser&doi=10.1021%2Fcg100830x) [2](https://scholar-google-com.avoserv2.library.fordham.edu/scholar_lookup?hl=en&volume=38&publication_year=2009&pages=482-483&journal=Chem.+Lett.&author=T.+Sugiyama&author=T.+Adachi&author=H.+Masuhara&title=Crystal+growth+of+glycine+controlled+by+a+focused+CW+near-infrared+laser+beam&doi=10.1246%2Fcl.2009.482) [3](https://scholar-google-com.avoserv2.library.fordham.edu/scholar_lookup?hl=en&volume=1&publication_year=2010&pages=599-603&journal=J.+Phys.+Chem.+Lett.&author=T.+Rungsimanon&author=K.+I.+Yuyama&author=T.+Sugiyama&author=H.+Masuhara&author=N.+Tohnai&author=M.+Miyata&title=Control+of+crystal+polymorph+of+glycine+by+photon+pressure+of+a+focused+continuous+wave+near-infrared+laser+beam&doi=10.1021%2Fjz900370x)of using continuous wave IR (typically Nd:YAG, but I suppose CO2 would work too...) lasers with 1 W power to induce crystallization of glycine.  Additionally, Kacker et al [Cryst. Growth & Design 2017](10.1021/acs.cgd.7b01277) found that crystal nucleation was indendent of wavelength (trying 355, 532, and 1064 nm)
