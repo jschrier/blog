@@ -264,4 +264,4 @@ ToJekyll["Assessing an LLM's confidence in its own explanations", "llm science g
 
 # Addendum
 
-- We put this to work at scale in a new preprint Kim S, Schrier J, Jung Y. Explainable Synthesizability Prediction of Inorganic Crystal Structures using Large Language Models. ChemRxiv. 2024; [doi:10.26434/chemrxiv-2024-ltncz](https://dx.doi.org/10.26434/chemrxiv-2024-ltncz) 
+- We put this to work at scale in a the (open-access) paper S. Kim, J. Schrier, Y. Jung, Explainable Synthesizability Prediction of Inorganic Crystal Polymorphs Using Large Language Models *Angew. Chemie Int. Ed.* 2025; [doi:10.1002/anie.202423950](https://dx.doi.org/10.1002/anie.202423950). Seungmin also wrote a [python implementation of this workflow](https://github.com/snu-micc/StructLLM/), if you swing that way. 
