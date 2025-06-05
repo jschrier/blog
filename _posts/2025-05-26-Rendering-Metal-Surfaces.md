@@ -28,7 +28,7 @@ g = CSGRegion["Difference", {#, negative}]&@ CSGRegion["Union", {positive, plane
 
 ## The Problem: CSGRegions do not render
 
-Except, there is a problem:  The resulting CSGRegion does not accept MaterialShading:
+Except, there is a problem:  The resulting `CSGRegion` does not accept `MaterialShading`:
 
 ```mathematica
 Graphics3D[{MaterialShading["Gold"], g}]
@@ -36,7 +36,7 @@ Graphics3D[{MaterialShading["Gold"], g}]
 
 ![0gug38dcblv28](/blog/images/2025/5/26/0gug38dcblv28.png)
 
-There is also another problem with the CSGRegion....it does not export to an STL file!  If we round trip this, we only get the flat sheet:
+There is also another problem with the `CSGRegion`....it does not export to an STL file!  If we round trip this, we only get the flat sheet:
 
 ```mathematica
 Export["~/Downloads/foo.stl", g]
@@ -51,7 +51,7 @@ How shall we fix this problem?
 
 ## OpenCascadeLink to the Rescue
 
-[OpenCascadeLink](http://reference.wolfram.com/language/OpenCascadeLink/tutorial/UsingOpenCascadeLink.html) help us in exporting this, but even then there are some tricks to consider. Conveniently, OpenCascadeShape accepts any CSGRegion as input, which is convenient:
+[OpenCascadeLink](http://reference.wolfram.com/language/OpenCascadeLink/tutorial/UsingOpenCascadeLink.html) help us in exporting this, but even then there are some tricks to consider. Conveniently, `OpenCascadeShape` accepts any `CSGRegion` as input, which is convenient:
 
 ```mathematica
 Needs["OpenCascadeLink`"]
