@@ -71,9 +71,12 @@ I'm a contrarian, and the students taking this course aren't necessarily technic
 - Riff on the idea of [word embeddings](https://en.wikipedia.org/wiki/Word_embedding) used in ML and Kircher's [Polygraphia Nova](https://en.wikipedia.org/wiki/Polygraphia_Nova).  c.f. Eco's [The Search for the Perfect Langauge](https://amzn.to/43f3UIX)
 - Kircher's [Organum Mathematicum](https://gate.unigre.it/mediawiki/index.php/Athanasius_Kircher’s_Organum_mathematicum._On_the_Evolutionary_Improbability_of_an_Information_Processing_Innovation) was a type of proto-computer, with a human-machine interface for creativity.  A great starting point for an interdisciplinary course.
 - The [cat organ](https://en.wikipedia.org/wiki/Cat_organ) would be an excellent addition to a [cat cafe]({{ site.baseurl }}{% post_url 2023-06-27-Great-ideas-from-Korea %})
-- [Arca Musarithmica](https://www.arca1650.info/about.html) super cool website implementing Kircher's automatic music compositional theme
+- [Arca Musarithmica](https://www.arca1650.info/about.html) super cool website implementing Kircher's automatic music compositional theme. 
+    - (06 June 2025) A video blogger [built an Arca Musarithmica](https://www.youtube.com/watch?v=ko3kZr5N61I) and describes how it works
 
 - [Deviant interdisciplinarity](https://www.jstor.org/stable/41932111?seq=1) 
+- (06 June 2025) 
+
 
 # Footnotes
 
