@@ -53,6 +53,7 @@ A continuation of [ideas from last time]({{ site.baseurl }}{% post_url  2023-06-
     - last supper advertisements
     - carboard box is like a bible
     - [pizza saver](https://en.wikipedia.org/wiki/Pizza_saver)has a crucifix design
+    - (addendum: 10 Jun 2025) [prestain grease on the lid](https://x.com/messedupfoods/status/1932240547772772359) to tap into [paraeidolia](https://en.wikipedia.org/wiki/Pareidolia)
 
 - Somebody needs to bring better nacho culture to Korea...
 
