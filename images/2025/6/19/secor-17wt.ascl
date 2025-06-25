@@ -1,0 +1,27 @@
+! secor-wt17
+!
+The 17-tone Well Temperatment Scale from George Secor's "The 17-tone Puzzle — And theNeo-medieval Key That Unlocks It"
+!
+17
+!
+66.741 !D♭/C=
+144.856 ! C♯/D♭
+214.441 ! D
+278.339 ! E♭/D=
+353.610. ! D♯/E♭
+428.882. ! E
+492.780. ! F
+562.364. !  G♭/F==
+640.479 ! F♯/G♭
+707.220 ! G
+771.118. ! A♭/G=
+849.233. ! G#/A♭
+921.661. ! A
+985.559 ! B♭/A=
+1057.987 ! A♯/B♭
+1136.102 ! B/C♭
+2/1 ! C
+!
+! @ABL NOTE_NAMES "D♭/C=" "C♯/D♭" "D" "E♭/D=" "D♯/E♭" "E" "F" " G♭/F==" "F♯/G♭" "G" "A♭/G=" "G♯/A♭" "A" "B♭/A=" "A♯/B♭" "B/C♭" "C"
+! @ABL REFERENCE_PITCH 4 16 264.0
+! @ABL LINK https://en.xen.wiki/w/Secor_wt17
