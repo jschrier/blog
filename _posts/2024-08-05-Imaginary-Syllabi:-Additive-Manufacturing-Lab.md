@@ -26,7 +26,6 @@ tags: 3dprinting diy art science teaching imaginary-syllabi
 
 - *Affordable purchase and operation:*  Try to limit ourselves to "prosumer" devices and processes;  things like powder bed and material jetting methods are probably out in our scope (unless it is a [sugar-based powder bed fusion device]({{ site.baseurl }}{% post_url 2023-12-16-Feuerzangenbowle-Zuckerhut-Designs %} )) Ideally no single item is above the $5000 capital equipment threshold, to minimize paperwork. Assemble this piecemeal using chair funds over a few years.
 
-
 # Polymer
 
 - *Fused deposition modeling:* Obviously a must have, but also really easy.  Get a [Prusa MK4](https://www.prusa3d.com/product/original-prusa-mk4-2) ($1100 assembled or $700 DIY) or [XL $2K](https://www.prusa3d.com/product/original-prusa-xl/) or the new [Core 1](https://www.prusa3d.com/product/prusa-core-one/) ($1200 assembled or $900) and be done with it. I've personally found the MK3S+ super reliable. Easy nozzle changes, which will be important for doing some of the sinter-based metal products
@@ -34,11 +33,13 @@ tags: 3dprinting diy art science teaching imaginary-syllabi
     - Basic tricks of the trade: modeling, 3d file formats, slicers
     - Good for introducing ideas about: anisotropy (of strength under compression and tension, which is more pronounced because of layering, design for manufacture, processing conditions (temperature, humidity, curing (in the case of PLA+)))
 
-- *Stereolithography printer.*  Dedicate one to polymers, [Prusa SL1](https://www.prusa3d.com/product/original-prusa-sl1s-speed-3d-printer-cw1s-bundle/) would be fine; bundled with appropriate UV curing source for $2600
+- **Stereolithography printer.**  Dedicate one to polymers, [Prusa SL1](https://www.prusa3d.com/product/original-prusa-sl1s-speed-3d-printer-cw1s-bundle/) would be fine; bundled with appropriate UV curing source for $2600
 
 - Side-quest [electroplating](https://www.youtube.com/watch?v=pD73QydSlhw )
 
-**EHS Needs:** Fume hood venting (snorkel), basic PPE for SLS processing
+- (update: July 2025) **Selective laser sintering** was originally not on this list, but the annoucement of the [SLS4All Inova MK1 Kit for $7k](https://all3dp.com/4/can-this-open-source-sub-10k-sls-printer-bring-polymer-powder-tech-to-the-masses/) amy change this
+
+**EHS Needs:** Fume hood venting (snorkel), basic PPE for sterolithography processing
 
 
 # Ceramics
@@ -86,6 +87,8 @@ tags: 3dprinting diy art science teaching imaginary-syllabi
 
     - [Cerametal](https://hackaday.com/2024/07/21/cerametal-lets-you-print-metal-cheaply-and-easily/) is another idea; you make a metal-powder infused clay and then squeeze it through your ceramic extruder (see above; they use an Eazao), but you have to do some custom slicing
         - What's neat is that its easy to mix your own so the operational cost can be very low
+
+- (update July 2025) **SLS/sintering workflow**:  With the advent of affordable polymer SLS machines, it is [possible to use special polymer-coated metal powders to do an SLS metal workflow to create green parts](https://all3dp.com/4/your-sls-3d-printer-can-now-print-metal-parts/).  The current lineup is "only" various steels and titanium(https://www.headmade-materials.de/en/materials), but they claim to make custom materials too.  
 
 - Directed energy deposition (like [MeltIO](https://meltio3d.com/)), powder bed fusion/selective laser sintering, etc. is too pricey for us to do at this scale.  Also, safety consideration around metal powder handling.
     - **Field trip:**  Go to the [GA Tech Advanced Manufacturing Pilot Facility](https://ampf.research.gatech.edu)
