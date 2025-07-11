@@ -8,6 +8,7 @@ tags: diy radio electronics
 
 # Resources
 
+- [Paul Nahin, Science of Radio](https://amzn.to/3ImLRvI) --- i really enjoy Nahin's books. This isn't about SDR, per se, but would set you up with the fundamentals.
 - [Clark & Clark, "Practical SDR](https://nostarch.com/practical-sdr) --- seems like a nice book to start with
 - [RTL-SDR](https://www.rtl-sdr.com/about-rtl-sdr/) is kind of the right place to start. $30, well documented and engineered. RX only.
 - [HackRF Pro](https://greatscottgadgets.com/hackrf/pro/) -- $400. RX/TX. Again, well supported and documented
