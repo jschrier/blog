@@ -128,3 +128,6 @@ This is surprisingly closer than I would have expected.
 ToJekyll["How far away is another Catholic Church in NYC?", "nyc mathematica llm"]
 ```
 
+# Parerga and Paralipomena
+
+ - (21 July 2025) Jonathan Barker shared with me an article on [liturgical tourism in NYC](https://cracksinpomo.substack.com/p/confessions-of-a-liturgical-tourist) which captured some of Alexei's intents.
