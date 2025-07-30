@@ -40,7 +40,11 @@ Take a look at an example:
 ```mathematica
 measurement[{0.1, 0.2, 0.3}]
 
-(*{"in" -> {0.1, 0.2, 0.3}, "out" -> {"415nm" -> 1549, "445nm" -> 11055, "480nm" -> 7418, "515nm" -> 16576, "555nm" -> 6108, "590nm" -> 6556, "630nm" -> 8111, "680nm" -> 5982, "clear" -> 46032, "nir" -> 7787}}*)
+(*
+{"in" -> {0.1, 0.2, 0.3}, 
+ "out" -> {"415nm" -> 1549, "445nm" -> 11055, "480nm" -> 7418, "515nm" -> 16576, 
+  "555nm" -> 6108, "590nm" -> 6556, "630nm" -> 8111, "680nm" -> 5982, "clear" -> 46032, "nir" -> 7787}}
+*)
 ```
 
 We are going to focus our model on learning one wavelength, so let us [Query](http://reference.wolfram.com/language/ref/Query.html) this output to see what happened at that one wavelength:
@@ -63,9 +67,10 @@ The default options are mostly reasonable:
 
 ```mathematica
 Options[ActivePrediction]
-
-(*{ClassPriors -> Automatic, FeatureExtractor -> Identity, FeatureNames -> Automatic, FeatureTypes -> Automatic, IndeterminateThreshold -> 0, InitialEvaluationHistory -> None, "InitialEvaluationNumber" -> Automatic, MaxIterations -> Automatic, Method -> "MaxEntropy", PerformanceGoal -> Automatic, RandomSeeding -> 1234, "ShowTrainingProgress" -> True, TimeConstraint -> \[Infinity], UtilityFunction -> Automatic, ValidationSet -> Automatic}*)
 ```
+
+> (* {ClassPriors -> Automatic, FeatureExtractor -> Identity, FeatureNames -> Automatic, FeatureTypes -> Automatic, IndeterminateThreshold -> 0, InitialEvaluationHistory -> None, "InitialEvaluationNumber" -> Automatic, MaxIterations -> Automatic, Method -> "MaxEntropy", PerformanceGoal -> Automatic, RandomSeeding -> 1234, "ShowTrainingProgress" -> True, TimeConstraint -> \[Infinity], UtilityFunction -> Automatic, ValidationSet -> Automatic} *)
+
 
 Notice how the default method chooses new configurations (i.e., RGB points) for which the learned predictor function has the maximum uncertainty.  (It is possible to specify a particular model choice with the Method option, and indeed, we expect [LinearRegression](http://reference.wolfram.com/language/ref/method/LinearRegression.html) to work fine for this type of problem, but we will let [ActivePrediction](http://reference.wolfram.com/language/ref/ActivePrediction.html) figure it out for us.)  Note also how [RandomSeeding](http://reference.wolfram.com/language/ref/RandomSeeding.html) is automatically specified for better reproducibility.   We will limit the number of function evaluations (MaxIterations), but it may also be useful to set a [TimeConstraint](http://reference.wolfram.com/language/ref/TimeConstraint.html) (this will be the time needed to acquire the data and build the models). 
 
@@ -87,7 +92,8 @@ Run this and you will see some interactive progress.  When completed, one can qu
 ```mathematica
 result["Properties"]
 
-(*{"OracleFunction", "EvaluationHistory", "Method", "Properties", "LearningCurve", "TrainingHistory", "PredictorFunction", "PredictorMeasurementsObject"}*)
+(* {"OracleFunction", "EvaluationHistory", "Method", "Properties", "LearningCurve",
+   "TrainingHistory", "PredictorFunction", "PredictorMeasurementsObject"} *)
 ```
 
 What were the sampled input configurations and returned values?
