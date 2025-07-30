@@ -35,7 +35,8 @@ tags: 3dprinting diy art science teaching imaginary-syllabi
 
 - **Stereolithography printer.**  Dedicate one to polymers, [Prusa SL1](https://www.prusa3d.com/product/original-prusa-sl1s-speed-3d-printer-cw1s-bundle/) would be fine; bundled with appropriate UV curing source for $2600
 
-- Side-quest [electroplating](https://www.youtube.com/watch?v=pD73QydSlhw )
+- Side-quest [electroplating](https://www.youtube.com/watch?v=pD73QydSlhw ).  This is also [done commercially](https://www.additivemanufacturing.media/articles/how-electroplating-works-for-polymer-3d-printed-parts-) 
+
 
 - (update: July 2025) **Selective laser sintering** was originally not on this list, but the annoucement of the [SLS4All Inova MK1 Kit for $7k](https://all3dp.com/4/can-this-open-source-sub-10k-sls-printer-bring-polymer-powder-tech-to-the-masses/) amy change this
 
@@ -94,6 +95,8 @@ tags: 3dprinting diy art science teaching imaginary-syllabi
     - **Field trip:**  Go to the [GA Tech Advanced Manufacturing Pilot Facility](https://ampf.research.gatech.edu)
 
 - [Metal injection molding](https://en.wikipedia.org/wiki/Metal_injection_molding). [Actionbox.ca](https://actionbox.ca) has a relatively-low cost ($2500 kit which includes a furnace and a kilo of materials), with 6% shrinkage. [Demo video online](https://www.youtube.com/watch?v=Ys-RMVJ89dk)
+
+
 
 # Biomaterials
 

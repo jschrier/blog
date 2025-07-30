@@ -4,7 +4,7 @@ date: 2025-05-14
 tags: art poetry
 ---
 
-In my office, I have a painting of Icarus. **Here are two poems inspired by [Breughel's treament of the theme](https://en.wikipedia.org/wiki/Landscape_with_the_Fall_of_Icarus).***
+In my office, I have a painting of Icarus. **Here are two poems inspired by [Breughel's treament of the theme](https://en.wikipedia.org/wiki/Landscape_with_the_Fall_of_Icarus)...**
 
 # Landscape with the Fall of Icarus
 
