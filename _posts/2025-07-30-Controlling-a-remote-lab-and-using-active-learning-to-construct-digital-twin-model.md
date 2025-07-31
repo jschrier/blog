@@ -1,7 +1,7 @@
 ---
-title: "Controlling a remote lab and using active learning to construct digital twin model, part 1"
+title: "Controlling a remote lab and using active learning to construct digital twin model"
 date: 2025-07-30
-tags: science sdl ml teaching mathematica
+tags: science claude-light sdl ml teaching mathematica
 ---
 
 [John Kitchin](https://scholar.google.com/citations?user=jD_4h7sAAAAJ&hl=en&oi=ao) recently described [Claude-Light ](https://doi.org/10.1063/5.0266757)(a REST API accessible Raspberry Pi that controls an RGB LED with a photometer that measures ten spectral outputs) as a lightweight, remotely accessible instrument for exploring the idea of self-driving laboratories.  **Here we demonstrate how to implement a very basic active learning loop using this remote instrument in Mathematica...**
@@ -80,8 +80,8 @@ In practice, this is simple; it could be a one-liner, but I shall comment each i
 
 ```mathematica
 result = ActivePrediction[
-   measure445nm, (* function to call to request a sample *)
-   Cuboid[], (* boundary of input: Unit cube from [0,1] on 3 axes *)
+   measure445nm,        (* function to call to request a sample *)
+   Cuboid[],            (* boundary of input: Unit cube from [0,1] on 3 axes *)
    MaxIterations -> 25] (* set upper bound on number of function calls allowed *)
 ```
 
@@ -145,7 +145,7 @@ Quantile[%, {0.025, 0.975}]
  
 Plot[
   PDF[prediction, x], 
-  Prepend[x]@MinMax@result["EvaluationHistory"][All, "Value"], 
+  Prepend[x]@ MinMax@ result["EvaluationHistory"][All, "Value"], 
   PlotRange -> All]
 
 (*NormalDistribution[25612.5, 95.5023]*)
@@ -167,7 +167,7 @@ However...remember that by construction, Claude-Light does not isolate the senso
 
 ## Possible Next Steps
 
-- Saving a shareable archive of your experimental data using [libSQL](https://docs.turso.tech/introduction)
+- Saving a shareable archive of your experimental data using [libSQL](https://docs.turso.tech/introduction)...[see the next episode on this blog]({{ site.baseurl }}{% post_url 2025-07-31-Distributed-data-storage-with-libSQL %}) 
 
 - Incorporating side information into the model (time of day, sun position, is it during working hours, etc.)
 
