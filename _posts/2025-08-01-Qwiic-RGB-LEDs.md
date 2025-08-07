@@ -24,7 +24,10 @@ The [QWIIC](https://www.sparkfun.com/qwiic)/[STEMMA-QT](https://learn.adafruit.c
 
 - [Sparkfun Qwiic LED Strip](https://www.sparkfun.com/sparkfun-qwiic-led-stick-apa102c.html) ($12.50) -- would fit the bill, but out of stock (and has 10 LEDs)
 - [Sparkfun Qwiic Green LED button](https://www.sparkfun.com/sparkfun-qwiic-button-green-led.html) ($5) -- only green (and is a button). [Also available in red](https://www.sparkfun.com/sparkfun-qwiic-button-red-led.html)
-- [Modulino Pixels](https://store.arduino.cc/products/modulino-pixels) ([$11 on Amazon](https://amzn.to/4flutUH)) -- **best option** 8 addressable RGB on a QWIIC-compatible substrate. ([Modulino is drop-incompatible with QWIIC](https://learn.adafruit.com/introducing-adafruit-stemma-qt/sparkfun-qwiic)) [Dimensioned drawings of the carrier board are available online](https://docs.arduino.cc/resources/datasheets/ABX00109-datasheet.pdf)
+- [Modulino Pixels](https://store.arduino.cc/products/modulino-pixels) ([$11 on Amazon](https://amzn.to/4flutUH)) -- **best option** 8 addressable RGB on a QWIIC-compatible substrate. ([Modulino is drop-incompatible with QWIIC](https://learn.adafruit.com/introducing-adafruit-stemma-qt/sparkfun-qwiic)) 
+    - [Dimensioned drawings of the carrier board are available online](https://docs.arduino.cc/resources/datasheets/ABX00109-datasheet.pdf)
+    - [Python Tutorial](https://docs.arduino.cc/tutorials/modulino-pixels/how-pixels-mp/#installing-the-modulino-library)
+    - [Github repository of the project](https://github.com/arduino-libraries/Modulino)
 - [DFRobotics I2C RGB LED Button](https://wiki.dfrobot.com/SKU_DFR0991_Gravity_I2C_RGB_LED_Button_Module) ($10) -- but note **electrical incompatibility** and also its a button...
 - [Sparkfun Qwiic RGB Rotary Encoder](https://www.sparkfun.com/sparkfun-qwiic-twist-rgb-rotary-encoder-breakout.html) (Sparkfun $25) -- but its really a button that happens to glow.
 - [M5 Stack RGB LED Unit](https://www.robotshop.com/products/m5stack-rgb-led-unit-sk6812) ($5) --- not what you want; has a grove connector, [but uses some other 1-wire digital signal, not I2C](https://docs.m5stack.com/en/unit/rgb)
