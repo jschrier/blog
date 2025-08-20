@@ -37,3 +37,14 @@ The [QWIIC](https://www.sparkfun.com/qwiic)/[STEMMA-QT](https://learn.adafruit.c
 - [Seeed Grove Chainable RGB LED](https://wiki.seeedstudio.com/Grove-Chainable_RGB_LED/) -- uses some other type of digital signal, not I2C
 - [Adafruit NeoDriver I2C to Neopixel](https://www.adafruit.com/product/5766) (Adafruit $7.50) --- **second best option** This allows you to drive a (potentially big) Neopixel LED setup. We only need one, so in principle we can get away with powering it over the RPi's STEMMA 5V connection (each pixel requires 10-30 mA of current, and our Pi can reliably give 20x that on the 5V GPIO pin). You'll either need to add a [Neopixel breakout with JST SH connectors](https://www.adafruit.com/product/5975) ($1.50) (and cut devise your own cable to connect it to the terminal blacok) or buy a [Neopixel button PCB](https://www.adafruit.com/product/1612) ($5/5) and solder on wires (which gets us back into soldering territory again)
 - [IO Rodeo](https://iorodeo.com/pages/led-boards) sells a variety of single-wavelength LED sources with Stemma-QT connectors, although it looks like they are intended to just be constant on. And they are only a single wavelength.
+
+# Programming
+
+Let's assume that we're going to use the Modulino and want to connect it to a Raspberry Pi. How do we control it?
+
+1. [Enable I2C on the Raspberry Pi](https://learn.sparkfun.com/tutorials/raspberry-pi-spi-and-i2c-tutorial/i2c-on-pi) and `sudo apt-get install -y i2c-tools` 
+2. Use `i2c-tools`  to [scan the bus and confirm connected devices](https://www.waveshare.com/wiki/Raspberry_Pi_Tutorial_Series:_I2C)
+3. **Either** [Use `py-smbus` to programmatically interact with the i2c devices](https://raspberrypi.stackexchange.com/questions/118927/what-is-the-most-basic-way-to-talk-i2c-using-python-on-raspberry-pi-os) from Raspberry Pi
+    - and then read the [datasheet](https://docs.rs-online.com/28eb/A700000013769158.pdf) and micropython code and just code up the raw py-smbus calls.  
+4. **OR** use [blinka](https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/circuitpython-raspi) to use premade circuitpython libraries on the Raspberry Pi.  This is probably preferable, as the [existing claude-light code uses blinka to interface with the spectral sensor](https://github.com/jkitchin/claude-light/blob/main/pyproject.toml)
+    - and then translate [existing Modulino micropython code](https://github.com/arduino/arduino-modulino-mpy/tree/main/src/modulino) to circuitpython
