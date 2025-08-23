@@ -130,14 +130,15 @@ A continuation of [ideas from last time]({{ site.baseurl }}{% post_url  2023-06-
     - [rackblox](https://musictech.com/news/gear/rackblox-3d-printable-modular-eurorack-case/) --- essentially each of these is a module in its own box (or a group that belong together) ... [on printables](https://www.printables.com/model/585275-rackblox-modular-eurorack-case-free-and-open-sourc)
     - or...just go with a readymade.  The [Behringer Eurorack Go](https://www.musicstore.de/de_DE/EUR/Behringer-Eurorack-GO/art-SYN0007336-000) ($229) seems like a pretty good option. Capacious, has a carrying handle built in, lots of room to expand
         - (18 July 2024) Tried to buy a Go case with some Amazon discounts, but backordered...Thinking  about a Yakshave where I use my existing MKI power supply (good for 1.25A on each rail, [ES-9](https://www.expert-sleepers.co.uk/downloads/manuals/es9_user_manual_1.3.pdf) needs 0.451A on +12V (less on -12V, no 5V requirement), and the [MKI documentation says](https://www.ericasynths.lv/media/instrukcija_2.pdf) that the whole system of initial kits needs only 0.32A, so that leaves some extra power for the drums, but maybe not the Neutron), buy some [tiptop z-rails](https://tiptopaudio.com/z-rails/) from B&H and [flying bus cable]() to get a few extra power ports, and [laser cut a case](https://ditheringstudio.wordpress.com/2018/11/24/open-source-eurorack-skiff-design/).  Would need to redesign the laser cutting to add mounting holes for the power supply (with standoffs) and mount the switches
+    - **Update 01/2025** [designed and built my own]({{ site.baseurl }}{% post_url 2024-07-20-Eurorack-case-building %} )
 
 - many books in Amazon cart
 
-- eye exam and new glasses; was on the fence about [Meta glasses](https://www.ray-ban.com/usa/ray-ban-meta-smart-glasses) before the trip, new upgrade makes them slightly more compelling.  But I like the idea of open hardware software of the [Brilliant labs glaseses](https://brilliant.xyz)
+- eye exam and new glasses; was on the fence about [Meta glasses](https://www.ray-ban.com/usa/ray-ban-meta-smart-glasses) before the trip, new upgrade makes them slightly more compelling.  But I like the idea of open hardware software of the [Brilliant labs glaseses](https://brilliant.xyz). **Update 07/2024**: [got a pair of the Raybans]({{ site.baseurl }}{% post_url  2024-07-18-Hacking-Meta-Rayban-Glasses %} )
 
 - Do the [zero to ASIC course](https://www.zerotoasiccourse.com) and design a chip! Consider this as the pre-req/post-req for [NAND2tetris](https://www.nand2tetris.org) 
 
 - Clothing
-    - [Jumpsuits](https://www.madepants.com/collections/mens-jumpsuits-coveralls/products/mens-slim-fit-zip-jumpsuit?variant=44828746055912)
-    - [Tweed suits](https://abitto.com)
+    - [Jumpsuits](https://www.madepants.com/collections/mens-jumpsuits-coveralls/products/mens-slim-fit-zip-jumpsuit?variant=44828746055912). **Update 08/2024**: Got a pair, and really enjoy wearing them.
+    - [Tweed suits](https://abitto.com). **Update 11/2024:** Had doubts about the quality from here, but got a nice one made at IndoChino instead.
     - Mix it up with some ties (beyond bowties), as inspired by my KRICT periodic table tie.
