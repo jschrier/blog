@@ -4,13 +4,13 @@ date: 2025-07-31
 tags: science claude-light sdl ml teaching mathematica sql
 ---
 
-In our [previous episode, we showed how to specify an experiment and retrieve the results from a claude-light device over HTTP, and then used active learning to construct a digital twin model of the outputs]({{ site.baseurl }}{% post_url 2025-07-30-Controlling-a-remote-lab-and-using-active-learning-to-construct-digital-twin-model %}).  **In this episode we will explore the use of libsql (https://turso.tech/), a new, cloud-native rewrite of sqlite that will enable distributed data sharing by sharing access tokens....** 
+In our [previous episode, we showed how to specify an experiment and retrieve the results from a claude-light device over HTTP, and then used active learning to construct a digital twin model of the outputs]({{ site.baseurl }}{% post_url 2025-07-30-Controlling-a-remote-lab-and-using-active-learning-to-construct-digital-twin-model %}).  **In this episode we will explore the use of [libsql](https://turso.tech/), a new, cloud-native rewrite of sqlite that will enable distributed data sharing by sharing access tokens....** 
 
 *(this is largely my thinking through notes originally composed by**[ Prof. John Kitchin](https://scholar.google.com/citations?user=jD_4h7sAAAAJ&hl=en&oi=ao)**, translating them into Mathematica, and editorializing on the process and code)*
 
 ## LibSQL Database Setup
 
-- Begin by getting a free account at https://turso.tech
+- Begin by getting a free account at [https://turso.tech]
 
 - Install the [turso CLI](https://docs.turso.tech/cli/introduction) and then create a database using the following commands from your terminal window:
 
