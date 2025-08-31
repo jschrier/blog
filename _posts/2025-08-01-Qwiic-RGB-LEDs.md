@@ -1,7 +1,7 @@
 ---
 title: "Qwiic RGB LEDs"
 date: 2025-08-01
-tags: diy electronics claude-light
+tags: diy electronics claude-light raspberrypi micropython
 ---
 
 The [QWIIC](https://www.sparkfun.com/qwiic)/[STEMMA-QT](https://learn.adafruit.com/introducing-adafruit-stemma-qt/stemma-qt-comparison) ecosystem is kind of neat...standard connectors for I2C gadgets to allow you to solderlessly connect hardware to your microcontroller.  **But it is suprisingly difficult to find an RGB LED in this ecosystem...**
@@ -13,6 +13,8 @@ The [QWIIC](https://www.sparkfun.com/qwiic)/[STEMMA-QT](https://learn.adafruit.c
 - **Our goal is to turn this into a completely solderless plug-and-play system to make it easy for others to replicate.** Eventually make a 3d-printed case for the sensor, LED, and camera.
 
 - Use a [Sparkfun QWIIC/Stemma-QT  SHIM for the raspberry pi](https://www.sparkfun.com/sparkfun-qwiic-shim-for-raspberry-pi.html)($2, also sold by [Adafruit for $2.50](https://www.adafruit.com/product/4463)) for the electrical connections and send information by I2C. In the Sparkfun reviews, some folks found it to be unreliable, and recommended instead just using a [female jumper to Qwiic](https://www.sparkfun.com/flexible-qwiic-cable-female-jumper-4-pin.html) ($2) connector instead.  Still admits solderless assembly approach with everything on the same digital I2C bus.
+    - In my testing of this, I found that the SHIM made a nice press-fit on an old Raspberry Pi 2, but was too loose to make a reliable connection on a Raspberry Pi 4b (the pins have a slightly different pitch?)
+    - More reliable was to use the [Qwiic HAT for Raspberry Pi](https://www.adafruit.com/product/4688) ($8) instead; this also removes any need for daisychaining devices
 
 # Background on standards
 
@@ -38,7 +40,7 @@ The [QWIIC](https://www.sparkfun.com/qwiic)/[STEMMA-QT](https://learn.adafruit.c
 - [Adafruit NeoDriver I2C to Neopixel](https://www.adafruit.com/product/5766) (Adafruit $7.50) --- **second best option** This allows you to drive a (potentially big) Neopixel LED setup. We only need one, so in principle we can get away with powering it over the RPi's STEMMA 5V connection (each pixel requires 10-30 mA of current, and our Pi can reliably give 20x that on the 5V GPIO pin). You'll either need to add a [Neopixel breakout with JST SH connectors](https://www.adafruit.com/product/5975) ($1.50) (and cut devise your own cable to connect it to the terminal blacok) or buy a [Neopixel button PCB](https://www.adafruit.com/product/1612) ($5/5) and solder on wires (which gets us back into soldering territory again)
 - [IO Rodeo](https://iorodeo.com/pages/led-boards) sells a variety of single-wavelength LED sources with Stemma-QT connectors, although it looks like they are intended to just be constant on. And they are only a single wavelength.
 
-# Programming
+# Programming the Modulino Pixels
 
 Let's assume that we're going to use the Modulino and want to connect it to a Raspberry Pi. How do we control it?
 
@@ -48,3 +50,52 @@ Let's assume that we're going to use the Modulino and want to connect it to a Ra
     - and then read the [datasheet](https://docs.rs-online.com/28eb/A700000013769158.pdf) and micropython code and just code up the raw py-smbus calls.  
 4. **OR** use [blinka](https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/circuitpython-raspi) to use premade circuitpython libraries on the Raspberry Pi.  This is probably preferable, as the [existing claude-light code uses blinka to interface with the spectral sensor](https://github.com/jkitchin/claude-light/blob/main/pyproject.toml)
     - and then translate [existing Modulino micropython code](https://github.com/arduino/arduino-modulino-mpy/tree/main/src/modulino) to circuitpython
+    - read up on [i2c control in CircuitPython](https://learn.adafruit.com/circuitpython-basics-i2c-and-spi/i2c-devices)
+
+# Under the hood of the Modulino Pixels
+
+It's easier to understand what is happening by reading the [C code](https://github.com/arduino-libraries/Arduino_Modulino/blob/main/src/Modulino.h) than the [micropython code](https://github.com/arduino/arduino-modulino-mpy/blob/main/src/modulino/pixels.py):
+- Each LED has a setting of R / G/ B/ Brightness.  R, G, B are uint8 values (0-255, of 0x00-0xFF), sent in that order. Brightness is only 5 bits (0-31 or 0x00-0x1F). It's unspecified how final global brighness is implemented under the hood, but my guess is that it just scales the PWM values again.
+- We pad out the remaining preceding (highest) 3-bits in the last byte with 0xE0 (11100000)
+- In practice this looks like: `r << 24 | g<<16| b << 8 | brightness | 0xE0`
+- Store an array of `NUM_LED` uints32  (i.e., `NUM_LED * 4` uint8s) containing the state of all pixels
+- A show() command just writes all 8x4 bytes down the I2C command. 
+- But device expects these send in little-endian order, whereas python's `bytearray` is naturally big-endian (at least on Raspberry Pi), so you can just send these as `bytearray([ brightness|0xE0, b ,g,r]*NUM_LEDS)` 
+- By default (unless you reprogram it), the Modulino Pixels is I2C device ID `0x36`
+
+# Minimal Circuit Python / Blinka Sample Code:
+
+```python
+import board
+from adafruit_bus_device.i2c_device import I2CDevice
+
+
+PIXELS_ADDRESS = 0x36
+NUM_LEDS = 8
+
+i2c = board.I2C()
+print("found i2c devices:", [hex(x) for x in i2c.scan()])
+
+pixels = I2CDevice(i2c, PIXELS_ADDRESS)
+
+# simply cycle around 
+with pixels:
+    while True:
+        clear_all = bytearray([0xE0, 0x00, 0x00, 0x00] * NUM_LEDS )
+        print("clear")
+        pixels.write(clear_all)
+        input("Press Enter to continue...")
+        red = bytearray([0x1F | 0xE0, 0x00, 0x00, 0xFF]*NUM_LEDS )
+        print("red")
+        pixels.write(red)
+        input("Press Enter to continue...")
+        green = bytearray([ 0x1F | 0xE0, 0x00, 0xFF, 0x00]*NUM_LEDS)
+        print("green")
+        pixels.write(green)
+        input("Press Enter to continue...")
+        blue = bytearray([0x1F | 0xE0, 0xFF, 0x00, 0x00]*NUM_LEDS )
+        pixels.write(blue)
+        input("Press Enter to continue...")
+
+print("done")
+```
