@@ -72,7 +72,7 @@ Notice that these are all framed in a general way, but they lean chemistry-adjac
 
 - **Premise**: Get students reading and reproducing the current literature.  Somewhere between a seminar/survey course and a capstone project course where students adapt one or more of the papers they read to solve their own problem or do something novel with one of the datasets.
 
-- Use [Digital Discovery](https://pubs.rsc.org/en/journals/journalissues/dd#!recentarticles&adv) as the resource...lots of variety, and we know that because of the [code/data review ploicy](https://www.rsc.org/journals-books-databases/about-journals/digital-discovery#guidelines-dd) that students should be able to reproduce the results. Open access journal.  [Good editorial board](https://www.rsc.org/journals-books-databases/about-journals/digital-discovery/#team)
+- Use [Digital Discovery](https://pubs.rsc.org/en/journals/journalissues/dd#!recentarticles&adv) as the resource...lots of variety, and we know that because of the [code/data review policy](https://www.rsc.org/journals-books-databases/about-journals/digital-discovery#guidelines-dd) that students should be able to reproduce the results. Open access journal.  [Good editorial board](https://www.rsc.org/journals-books-databases/about-journals/digital-discovery/#team)
 
 - Could fulfil [EP3-style requirements](https://bulletin.fordham.edu/undergraduate/fordham-college-core-curriculum/distributive-requirements/#text) or whatever they are called in the new system
 
