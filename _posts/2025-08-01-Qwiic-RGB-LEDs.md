@@ -1,7 +1,7 @@
 ---
 title: "Qwiic RGB LEDs"
 date: 2025-08-01
-tags: diy electronics claude-light raspberrypi micropython
+tags: diy electronics claude-light raspberrypi micropython i2c
 ---
 
 The [QWIIC](https://www.sparkfun.com/qwiic)/[STEMMA-QT](https://learn.adafruit.com/introducing-adafruit-stemma-qt/stemma-qt-comparison) ecosystem is kind of neat...standard connectors for I2C gadgets to allow you to solderlessly connect hardware to your microcontroller.  **But it is suprisingly difficult to find an RGB LED in this ecosystem...**
