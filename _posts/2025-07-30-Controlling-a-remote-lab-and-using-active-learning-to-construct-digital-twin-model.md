@@ -4,7 +4,7 @@ date: 2025-07-30
 tags: science claude-light sdl ml teaching mathematica
 ---
 
-[John Kitchin](https://scholar.google.com/citations?user=jD_4h7sAAAAJ&hl=en&oi=ao) recently described [Claude-Light ](https://doi.org/10.1063/5.0266757)(a REST API accessible Raspberry Pi that controls an RGB LED with a photometer that measures ten spectral outputs) as a lightweight, remotely accessible instrument for exploring the idea of self-driving laboratories.  **Here we demonstrate how to implement a very basic active learning loop using this remote instrument in Mathematica...**
+[John Kitchin](https://scholar.google.com/citations?user=jD_4h7sAAAAJ&hl=en&oi=ao) recently described [Claude-Light](https://doi.org/10.1063/5.0266757) (a REST API accessible Raspberry Pi that controls an RGB LED with a photometer that measures ten spectral outputs) as a lightweight, remotely accessible instrument for exploring the idea of self-driving laboratories.  **Here we demonstrate how to implement a very basic active learning loop using this remote instrument in Mathematica...**
 
 ## Backstory
 
