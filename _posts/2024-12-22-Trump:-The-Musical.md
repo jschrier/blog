@@ -70,6 +70,36 @@ With every twist and every turn,
 I'll find my winning way. 
 ```
 
+## 2.5 He Touched Me---In the Dressing Room!
+
+contributed by D. Beebe (added Sept 2025)
+to the tune of [He Touched Me](https://youtu.be/qstpimnLaV0?si=P6pXiP86l8Foc8jz) (Barbara Streisand, 1965)
+```
+He touched me
+He raised his naughty hand
+And then he touched me
+I felt a sudden tingle when he touched me
+I startled, oh no!
+
+He knew it
+It wasn't accidental, no, he knew it
+He smiled and seemed to tell me so, all through it
+He knew it, I know
+He admired my undies non stopping
+You meet the strangest people when shopping
+
+He touched me
+I simply have to face the fact
+He touched me
+Controlled himself and tried to act
+As if it was a flirting game
+
+But he touched me, he touched me
+And suddenly nothing is the same
+Cause he touched me, he touched me
+And suddenly, I can ruin his campaign.
+```
+
 ## 3. "Bulletproof in Butler"
 
 Adapted Song: ["I Got Rhythm" by George and Ira Gershwin](https://www.youtube.com/watch?v=oQdeTbUDCiw)
