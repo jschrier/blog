@@ -1,7 +1,7 @@
 ---
 title: "Solderless Claude-Light"
 date: 2025-09-07
-tags: diy electronics claude-light raspberrypi fusion360 3dprinting i2c glask
+tags: diy electronics claude-light raspberrypi fusion360 3dprinting i2c flask
 ---
 
 The [first-generation claude-light](https://doi.org/10.1063/5.0266757) requires the builder to hand-solder components on prototyping board, and provides no case or housing to organize the components. **Towards the goal of simplifying and standardizing construction, we present a solderless, snap-together modification...**
