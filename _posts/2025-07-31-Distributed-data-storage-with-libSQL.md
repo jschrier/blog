@@ -4,9 +4,13 @@ date: 2025-07-31
 tags: science claude-light sdl ml teaching mathematica sql
 ---
 
-In our [previous episode, we showed how to specify an experiment and retrieve the results from a claude-light device over HTTP, and then used active learning to construct a digital twin model of the outputs]({{ site.baseurl }}{% post_url 2025-07-30-Controlling-a-remote-lab-and-using-active-learning-to-construct-digital-twin-model %}).  **In this episode we will explore the use of [libsql](https://turso.tech/), a new, cloud-native rewrite of sqlite that will enable distributed data sharing by sharing access tokens....** 
+In our [previous episode, we showed how to specify an experiment and retrieve the results from a claude-light device over HTTP, and then used active learning to construct a digital twin model of the outputs]({{ site.baseurl }}{% post_url 2025-07-30-Controlling-a-remote-lab-and-using-active-learning-to-construct-digital-twin-model %}).  **In this episode we will explore the use of [libsql](https://turso.tech/), a new, cloud-native rewrite of sqlite, that will enable distributed data sharing by sharing access tokens....** 
 
 *(this is largely my thinking through notes originally composed by**[ Prof. John Kitchin](https://scholar.google.com/citations?user=jD_4h7sAAAAJ&hl=en&oi=ao)**, translating them into Mathematica, and editorializing on the process and code)*
+
+## Pre-reqs
+
+We assume basic knowledge of the [unix command line](https://cambiotraining.github.io/unix-shell/) --- creating files, changing directories, and running commands
 
 ## LibSQL Database Setup
 
@@ -19,7 +23,7 @@ turso auth login
 turso db create claude-light
 ```
 
-- Create a file names **setup.sql** with the following contents:
+- Create a file named **setup.sql** with the following contents:
 
 ```
 CREATE TABLE IF NOT EXISTS
@@ -38,12 +42,12 @@ turso db shell claude-light <setup.sql
 - As mentioned in the introduction, LibSQL/Turso allows you to have a local copy of the database which is synced to a cloud copy.  Furthermore, you give other people read+write or read-only access to the cloud version by providing them with an access token (this is like an API key).  To find out what the URL and tokens are, run the following commands in the terminal window:
 
 ```
+turso db show --url claude-light
 turso db tokens create claude-light
 turso db tokens create claude-light -r
-turso db show --url claude-light
 ```
 
-We want to save these for use later on. As we will be doing this in Mathematica, the best way is to define [SystemCredential](http://reference.wolfram.com/language/ref/SystemCredential.html) values for each of these:  
+We want to save these for use later on. As we will be doing this in Mathematica, the best way is to define [SystemCredential](http://reference.wolfram.com/language/ref/SystemCredential.html) values for each of these.  **From here onward we run all commands in Mathematica:**  
 
 ```mathematica
 SystemCredential["CLAUDELIGHT_DB_URL"] = "libsql://claude-light-jschrier.aws-us-east-1.turso.io" 
@@ -55,7 +59,7 @@ SystemCredential["CLAUDELIGHT_RO"] = "eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJhI
 
 ## Turning our measurement into a JSON object
 
-Previously, we defined a HTTP GET request that retrieved the experimental outputs for a given input:
+[Previously]({{ site.baseurl }}{% post_url 2025-07-30-Controlling-a-remote-lab-and-using-active-learning-to-construct-digital-twin-model %}), we defined a HTTP GET request that retrieved the experimental outputs for a given input:
 
 ```mathematica
 measurement[{r_, g_, b_}] := 

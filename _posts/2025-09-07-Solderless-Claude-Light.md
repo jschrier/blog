@@ -18,7 +18,7 @@ The [first-generation claude-light](https://doi.org/10.1063/5.0266757) requires 
 - [AS7341 breakout board](https://www.adafruit.com/product/4698)
 - **Two (2)** STEMMA/QWIIC cables...any length will suffice, [100mm is fine](https://www.adafruit.com/product/4210)
 - [Arducam autofocus camera](https://amzn.to/4fZadrY)
-- Some PLA filament for 3d printing
+- A few hundred grams of PLA (or whatever) filament for 3d printing.  My recommendation would be to use [transparent PLA](https://amzn.to/46atLqp) so as to allow for the most environmental lighting influence, consistent with our goal of deliberately adding noise to the system.
 
 # Physical assembly
 
@@ -28,10 +28,13 @@ The [first-generation claude-light](https://doi.org/10.1063/5.0266757) requires 
 
 # Software setup
 
-1. Install [Raspberry Pi Lite OS](https://www.raspberrypi.com/documentation/computers/getting-started.html#installing-the-operating-system) on the SD card (go to the "other" tab and install the 64-bit Lite OS).  Apply **customization rules** to configure WiFi, enable SSH, add create default user and hostnames.
+1. Install [Raspberry Pi Lite OS](https://www.raspberrypi.com/documentation/computers/getting-started.html#installing-the-operating-system) on the SD card (go to the "other" tab and install the 64-bit Lite OS).  Apply **customization rules** to configure WiFi, enable SSH, add create default user and hostnames, as you see fit.
+
 2. Plug the SD card into your Pi and boot it up. Then login via SSH.
-3. Turn on I2C: `sudo raspi-config`
-4. Update the OS and install necessary libraries
+
+3. Turn on I2C: Run `sudo raspi-config nonint do_i2c 0` to enable I2C, then reboot the Pi by running `sudo shutown -r now`, then log back in.  You should now see the I2C interface available, if you run `ls /dev/*i2c*`.  You can also do this interactively by running `sudo raspi-config` and select the Hardware interface control. (see also: [RPi documentation](https://www.raspberrypi.com/documentation/computers/configuration.html))
+
+4. Update the OS and install necessary libraries, by running the following commands in the command line:
 ```
 sudo apt update 
 sudo apt full-upgrade 
@@ -41,15 +44,20 @@ sudo apt install -y python3-picamera2 --no-install-recommends
 sudo apt install python3-simplejpeg 
 sudo apt install git
 ```
+
 5. Create a python virtual environment: `python -m venv --system-site-packages .venv` 
+
 6. Edit `.bashrc` (e.g., `pico .bashrc`) and add the following line at the end of the file to load this environment on login `source ~/.venv/bin/activate`
+
 7. Install python dependencies:
 ```
 pip install sysv_ipc
 pip install retry
 pip install git+git://github.com/jkitchin/claude-light
 ```
-8. **Replace** '~/claude-light/claude/app.py` with this [alternate file](https://gist.github.com/jschrier/131f4741202a30edf7c8ba3b3a3c3f16) (which substitutes direct PWM control of the LEDs for I2C-based control of the Modulino LED array, but otherwise only minimally changes the original  )
+
+
+8. **Replace** '~/claude-light/claude/app.py` with this [alternate file](https://gist.github.com/jschrier/131f4741202a30edf7c8ba3b3a3c3f16) (which substitutes direct PWM control of the LEDs for I2C-based control of the Modulino LED array, but otherwise only minimally changes the original version)
 
 9. Continue with the network service setup instructions and port-forwarding (as desired), as [described on the claude-light setup documentation](https://github.com/jkitchin/claude-light/tree/main?tab=readme-ov-file#setup-claude-as-a-service)
 
@@ -62,5 +70,5 @@ pip install git+git://github.com/jkitchin/claude-light
 
 # Dead Ends and Roads not travelled
 
-- I scavenged an old Raspberry Pi 2B v1.1; installed headless (lite) 32-bit OS (Debian Bookwork, released 2025-05-13), but had some trouble installing some of the python dependencies.
-- I initially tried the [mini QWIIC shim](https://www.sparkfun.com/sparkfun-qwiic-shim-for-raspberry-pi.html) but and while this made a nice press fit on the Pi 2B, it was too loose to make a good connection on the Pi 4B; I'm not alone on this, judging by the comments.    
+- I scavenged an old Raspberry Pi 2B v1.1; installed headless (lite) 32-bit OS (Debian Bookwork, released 2025-05-13), but had some trouble installing some of the python dependencies. Upgraded to the 8GB RPi4b for perfect with Kitchin's reference device.
+- I initially tried the [mini QWIIC shim](https://www.sparkfun.com/sparkfun-qwiic-shim-for-raspberry-pi.html) but and while this made a nice press fit on the Pi 2B, it was too loose to make a good connection on the Pi 4B; I'm not alone on this, judging by the comments. So while this is appealing, the hat suggested above is a better choice.     
