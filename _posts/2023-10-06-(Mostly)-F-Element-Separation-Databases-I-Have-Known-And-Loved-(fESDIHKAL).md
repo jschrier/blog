@@ -57,3 +57,11 @@ Got more?  [Tell me](mailto:jschrier@fordham.edu?subject=databases)
 
 
 [^1]: Who said: "Thank you for your enquiry about the database.  We stopped collecting new data about 2005 and formally handed the data to IUPAC who have made no use of the database.  We have completely retired (we are now 86) and disbanded Academic Software so I am surprised the email link you used still works. Regrettably our age means we are now out of touch with the subject. However you can download a copy of the final version of the database from: ..."
+
+
+# Update (September 2025)
+
+We have compiled these (and more!) data, along with a correcting typographical errors at the [SAFE database](http://safe.lanl.gov).  Please use that resource going forward and contribute your data to make this collection a comprehensive data source.
+
+You can read about the goals and structure of the SAFE database project in the [letter we wrote to SX&IX](https://dx.doi.org/10.1080/07366299.2025.2564381)
+

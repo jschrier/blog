@@ -77,4 +77,6 @@ pip install git+git://github.com/jkitchin/claude-light
 - I scavenged an old Raspberry Pi 2B v1.1; installed headless (lite) 32-bit OS (Debian Bookwork, released 2025-05-13), but had some trouble installing some of the python dependencies. Upgraded to the 8GB RPi4b to match Kitchin's reference device.
 
 - I initially tried the [mini QWIIC shim](https://www.sparkfun.com/
-sparkfun-qwiic-shim-for-raspberry-pi.html) but and while this made a nice press fit on the Pi 2B, it was too loose to make a good connection on the Pi 4B; I'm not alone on this, judging by the comments. So while this is appealing, the hat suggested above is a better choice.     
+sparkfun-qwiic-shim-for-raspberry-pi.html) but and while this made a nice press fit on the Pi 2B, it was too loose to make a good connection on the Pi 4B; I'm not alone on this, judging by the comments. So while this is appealing, the hat suggested above is a better choice.   
+
+- Consider [saving some energy by disabling HDMI interface](https://blues.com/blog/tips-tricks-optimizing-raspberry-pi-power/), but note that the USB interface also controls the ethernet ports, so we need to leave that on.

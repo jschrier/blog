@@ -14,6 +14,10 @@ tags: diy radio electronics
 - [HackRF Pro](https://greatscottgadgets.com/hackrf/pro/) -- $400. RX/TX. Again, well supported and documented
 - [PicoRX](https://101-things.readthedocs.io/en/latest/radio_receiver.html) --- use a raspberry pi pico to build a minimalistic SDR.  Appeals to my sensibilities.
 
+# What are you going to do?
+
+- (added 16 Sep 2025) [50 Things to do with SDR](https://blinry.org/50-things-with-sdr/) --- nice blog post using an RTL-SDR dongle, home-made antennas, and SDR++ software to explore 50 different signals you can check out.  Written by a beginner for beginners.
+
 # Backstory: Radio
 
 - As a kid, I thought ham radio was cool, but didn't have enough money to play around. I may have built a crystal radio though. 
