@@ -47,12 +47,16 @@ G1 S1           ; S parameter sets power, use the lowest for this test
 
 ## Physical structure
 
-TODO: [Design Jubilee tool](https://science-jubilee.readthedocs.io/en/latest/building/designing_custom_tools.html) to hold it in place.  Good practice in designing tools...good cad practice for students
+[Design Jubilee tool](https://science-jubilee.readthedocs.io/en/latest/building/designing_custom_tools.html) to hold it in place.  Good practice in designing tools...good cad practice for students.
+
+Here is [my design](https://a360.co/4pwxOox) --- there is an additional space to put in a heatset insert and use a set screw in the axis to lock the diode in place. Works just fine; no supports needed, just print in PLA lying on its back and the diode holder will be self-supporting.    I used a [vitamin kit from Luke's Lab](https://www.lukeslabonline.com/products/jubilee-generic-extra-tool-vitamin-kit) for the various screws, Delrin lock plate, etc.
 
 
 # Safety-third! 
 
 Everyone gets two changes at laser eye safety.  Don't look into the laser with your remaining eye.
+
+But seriously, folks.  It is worth learning about laser safety. [This is a nice intro video](https://www.youtube.com/watch?v=rd6rCU8ZMhY); I especially liked the [chart of recommended OD by wavelength](https://youtu.be/rd6rCU8ZMhY?si=oGdcjtHlRxkqiwM2&t=517)
 
 0. Get some [laser safety glasses](https://www.edmundoptics.com/f/laser-safety-eyewear/39552/) 
 
@@ -60,7 +64,11 @@ Everyone gets two changes at laser eye safety.  Don't look into the laser with y
 - [24"x12" for $35](https://jtechphotonics.com/?product=12x24_laser_safety_sheilding)
 - [Various sizes and wavelength ratings](https://lasersafetyindustries.com/collections/windows)
 
+
+
 # Next Step: 5W 450nm diode laser
+
+*update: 09/2025* currently on pause because of concerns about safety.
 
 **Objective:** After establishing that you can do this safely, go for MORE POWER! Class 4 laser 
 
@@ -74,7 +82,7 @@ Everyone gets two changes at laser eye safety.  Don't look into the laser with y
 
 ## Physical Structure
 
-TODO: Design Jubilee tool
+TODO: Design Jubilee tool for 5W laser module 
 
 ## Test
 
