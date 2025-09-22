@@ -113,7 +113,7 @@ Alternatively [tidalcycles](https://sonic-pi.net) is a Haskell-based domain spec
 
 Indeed, it's a thing. 
 
-- I've seen the [DaisySeed](https://electro-smith.com/products/daisy-seed)-based [https://electro-smith.com/products/patch] as one example.  
+- I've seen the [DaisySeed](https://electro-smith.com/products/daisy-seed)-based [eurorack modules](https://electro-smith.com/products/patch) as one example.  
 
 - Somewhat less polished in terms of final product is the [Pico Audio Development Kit](https://github.com/DatanoiseTV/PicoADK-Hardware?tab=readme-ov-file)
 
