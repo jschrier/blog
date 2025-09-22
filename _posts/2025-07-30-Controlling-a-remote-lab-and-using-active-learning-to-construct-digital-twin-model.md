@@ -179,3 +179,8 @@ However...remember that by construction, Claude-Light does not isolate the senso
 ```mathematica
 ToJekyll["Controlling a remote lab and using active learning to construct digital twin model, part 1", "science sdl ml teaching mathematica"]
 ```
+
+
+# Parerga and Paralipomena
+
+- [LabLands](https://labsland.com/) sells remote-lab experiences for electronics and chemistry (including some gen-chem style experiments).  They will sell you the hardware or just sell you a license to operate it remote-control. Learned about this from [a Digikey blog post.](https://www.digikey.com/en/blog/elevating-engineering-labs-with-labsland), which describes some deployments and pedagogy papers (mainly focused on electronics education, naturally) 
