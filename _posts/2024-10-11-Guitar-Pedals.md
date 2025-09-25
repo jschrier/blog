@@ -16,6 +16,8 @@ In a way, there are only about 6 different types of guitar pedals.  Yet, there i
 
 - [Electrosmash](https://www.electrosmash.com) has some nice analysis of classic pedals
 
+- (20 July 2025) [Guitarpedalcourse.com](https://www.guitarpedalcourse.com) offers an online course on pedal circuit design.  Looks a bit pricey, but interesting, particularly if you pair it with a [Labor kit](https://www.ericasynths.lv/shop/diy-kits-1/edu-diy-labor/) to facilitate prototyping the audio circuits.
+
 # DSP
 
 As much as I want to love analog, we live in the digital age.  [Open-source DSP pedal kit](https://clevelandmusicco.com/hothouse-diy-digital-signal-processing-platform-kit/) based on the [daisy seed](https://electro-smith.com/products/daisy-seed)
@@ -26,4 +28,4 @@ As much as I want to love analog, we live in the digital age.  [Open-source DSP 
 
 # Parerga and paralipomena
 
-- (20 July 2025) [Guitarpedalcourse.com](https://www.guitarpedalcourse.com) offers an online course on pedal circuit design.  Looks a bit pricey, but interesting, particularly if you pair it with a [Labor kit](https://www.ericasynths.lv/shop/diy-kits-1/edu-diy-labor/) to facilitate prototyping the audio circuits.
+- (25 Sept 2025) From a certain point of view, [chorus pedals can be thought of as microtonal shimmer chords](https://www.youtube.com/watch?v=YXdOmSYLKj4)
