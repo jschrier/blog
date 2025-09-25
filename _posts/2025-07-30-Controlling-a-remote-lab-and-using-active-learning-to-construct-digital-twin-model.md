@@ -172,6 +172,7 @@ However...remember that by construction, Claude-Light does not isolate the senso
 - Incorporating side information into the model (time of day, sun position, is it during working hours, etc.)
 
 - Explore combined [meta-learning / active learning](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zJC_7roAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=zJC_7roAAAAJ:kRWSkSYxWN8C) strategies for this problem
+  - One concrete direction would be to use [linear-model metalearning (LAMel)](https://arxiv.org/abs/2509.13527)
 
 - Reframe the problem as an optimization (minimize the difference between a target output and the generated output) and optimize it iteratively using [BayesianMinimization](http://reference.wolfram.com/language/ref/BayesianMinimization.html)
 
