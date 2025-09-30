@@ -24,7 +24,7 @@ tags: diy 3dprinting cnc autodidact
 
 ![credly_credentials](/blog/images/2025/3/16/credly.png)
 
-I found enjoyed the metal casting and CNC courses the most. (Also, you get a free PDF copy of M[Machining Dynamics](https://link.springer.com/book/10.1007/978-3-319-93707-6) if you complete the latter...)  The content in the composites courses was interesting, but the production quality on the videos and online coursework was not great. (very long videos, audio quality was often poor, typos and ambiguities in the quiz.) 
+I found enjoyed the metal casting and CNC courses the most. (Also, you get a free PDF copy of [Machining Dynamics](https://link.springer.com/book/10.1007/978-3-319-93707-6) if you complete the latter...)  The content in the composites courses was interesting, but the production quality on the videos and online coursework was not great. (very long videos, audio quality was often poor, typos and ambiguities in the quiz.) 
 
 # Reading list
 
