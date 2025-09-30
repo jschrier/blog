@@ -51,6 +51,7 @@ tags: audio synth pico drum electronics diy
     - You want to think about sending trigger pulses versus constant cycles, number of divisisions, CV inputs, possible internal clock.  
 - Introduce patterns by binary pattterns (e.g., [Numeric Repetitor](https://manuals.noiseengineering.us/nr/))
     - The discontinued [Pittsburgh Time Runner](https://pittsburghmodular.com/timerunner) has some interesting ideas
+- (29 Sept 2025) Moritz Klein has a [new video on making a totally-analog, 2-button drum sequencer](https://www.youtube.com/watch?v=s9HKXLPiX0w) 
 
 # Retrospective: What I finally did (Aug 2024)
 
