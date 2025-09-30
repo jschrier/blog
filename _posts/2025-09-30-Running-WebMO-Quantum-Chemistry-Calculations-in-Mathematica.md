@@ -57,7 +57,7 @@ The various REST API functionalities are accessed by different URLs (or more ped
 ```mathematica
 With[
   {url = PersistentSymbol["WebMO_URL"] <> "status"}, 
-  URLExecute[ url]]
+  URLExecute[url] ]
 
 (*{"url_cgi" -> "https://www.webmo.net/demoserver/cgi-bin/webmo", "jobs" -> 1755775, "timestamp" -> "9/30/2025 18:21", "url_html" -> "https://www.webmo.net/demoserver/webmo", "version" -> "25.1.002e"}*)
 ```
@@ -84,8 +84,7 @@ Aside from a status request, other operations involving calculation job informat
 ```mathematica
 auth = URLExecute@ HTTPRequest[
     URLBuild[{PersistentSymbol["WebMO_URL"], "sessions"}], 
-    <|"Method" -> "POST", "Body" -> First@ SystemCredential["WebMO"]|> 
-   ]
+    <|"Method" -> "POST", "Body" -> First@ SystemCredential["WebMO"]|> ]
 
 (*{"username" -> "guest", "token" -> "QfZaqJyHLX."}*)
 ```
@@ -115,7 +114,7 @@ To simplify the process, define a function to collect the jobID number, authoriz
 ```mathematica
 jobs[jobID_, auth_, property_ : Nothing] := URLExecute[
     URLBuild[{PersistentSymbol["WebMO_URL"], "jobs", ToString[jobID], property}], 
-    auth] 
+    auth ] 
   
  (*demo*)
 jobs[1755764, auth]
@@ -195,8 +194,7 @@ Now, we just send this to the *jobs* REST endpoint. The difference here is that 
 ```mathematica
 newJob =  URLExecute@ HTTPRequest[
     URLBuild[{PersistentSymbol["WebMO_URL"], "jobs"}], 
-    <|"Method" -> "POST", "Body" -> Join[jobInput, auth]|> 
-   ]
+    <|"Method" -> "POST", "Body" -> Join[jobInput, auth]|> ]
 
 (* {"jobNumber" -> 1755864} *)
 ```
@@ -238,7 +236,7 @@ We can pull information out of the results and bring it into Mathematica, as dem
 ```mathematica
 ListLinePlot[
   Query["properties", "geometry_sequence", "energies"]@ results, 
-  AxesLabel -> {"Step", Query["properties", "geometry_sequence", "units"]@ results}]
+  AxesLabel -> {"Step", Query["properties", "geometry_sequence", "units"]@ results} ]
 ```
 
 ![17os3u3nix6wb](/blog/images/2025/9/30/17os3u3nix6wb.png)
