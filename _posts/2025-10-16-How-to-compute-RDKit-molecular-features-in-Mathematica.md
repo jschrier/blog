@@ -40,6 +40,11 @@ Be a good citizen and clean up your session when you are finished:
 ```mathematica
 DeleteObject[session]
 ```
+# Parerga and Paralipomena
+
+- "Under the hood", Mathematica actually uses RDKit to compute many of the various [MoleculeValue](http://reference.wolfram.com/language/ref/MoleculeValue.html) properties; however these do not include all of the descriptors, nor do the names match.
+- If your goal is to compute binary fingerprint vectors, it is more elegant to use the [MoleculeFingerprints paclet](https://resources.wolframcloud.com/PacletRepository/search/?i=WolframChemistry/MoleculeFingerprints) instead
+
 
 ```mathematica
 ToJekyll["How to compute RDKit molecular features in Mathematica", "chemistry cheminformatics mathematica"]
