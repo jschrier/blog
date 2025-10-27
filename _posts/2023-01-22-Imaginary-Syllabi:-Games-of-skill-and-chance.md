@@ -25,6 +25,7 @@ An interdisciplinary capstone course on luck, skill, and the games of everyday l
 * Poker?  
 * Modern approaches to beating roulette sourced from a ([Bloomberberg 2023 article](https://archive.ph/7CmWl))---cross ref to books [The Eudaimonic Pie](https://amzn.to/3GuKAPl) and [Follow the Bouncing Ball](https://amzn.to/3nXo3Ek) 
 * Relative role of chance and skill in sports.  [SIAM News summary](https://www.siam.org/publications/siam-news/articles/feeling-lucky-the-relative-roles-of-skill-and-chance-in-sports/), links back to a [2018 SIAM Review article analyzing fantasy sports](https://doi.org/10.1137/16M1102094).  Core idea is to use the difference in win rates in the first and second half of the season to quantify skill. Interesting connection to the law: gambling laws apply when chance prevails, and so this has a regulatory consequence.
+* Roeder, [Seven Games: A Human History](https://amzn.to/4hzwuO8) (2022) --- a history of Checkers, backgammon, chess, and Go. Poker, Scrabble, and bridge and discussion of why their rules make them interesting/fun (*24 Oct 2024*)
 
 # Field trips:
 * Union Square Park / Washington Square Park---to play chess hustlers

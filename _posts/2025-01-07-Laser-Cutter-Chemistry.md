@@ -92,3 +92,7 @@ Nietzsche famously claimed to do [philosophy with a hammer](https://en.wikipedia
 # Nanocarbon (added: 29 Sep 2025)
 
 [Ismail et al. J Chem Educ 2025](https://dx.doi.org/10.1021/acs.jchemed.4c01467) describe an activity which uses polyphenol from tea and laser patterns it into conductive nanocarbon traces using a 2.7W diode laser. Operationally simple:  make a strong cup of tea, allow it to dry onto a glass slide, and laser it. Perhaps a bit simpler than [Shokorov et al. J Chem Educ 2023](https://dx.doi.org/10.1021/acs.jchemed.2c01237 ) which used polyimide films to make electrodes ([BobTheChemist](http://bobthechemist.com) tells me that he has been able to reproduce this using a diode laser)
+
+# Parerga and Paralipomena
+
+- [Preface to a special issue of JPCC on "Laser-Enabled Synthesis and Processing of Nanoparticles in Liquids (Oct 2025)](https://dx.doi.org/10.1021/acs.jpcc.5c06365)
