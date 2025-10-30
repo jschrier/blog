@@ -58,8 +58,9 @@ Of course the [Blue Note](https://www.bluenotejazz.com/nyc/) and [Village Vangua
 - [Jazz Gallery](https://jazzgallery.org) *Flatiron/NOMAD*--especially if you like to hear avant garde stuff.  They don't sell alcohol, but you can donate money for some wine or beer. Tickets reasonably priced.
 - [Nublu](http://nublu.net) *lower east side* or rather *louisaida*. Lots of different things, but I have fond memories of listening to Georgian jazz there.
 - [Tomi Jazz](http://www.tomijazz.com/)---*midtown east*; japanese restaurant with jazz; I haven't been there since the 'Rona, because it is too crowded. Make of that what you will.
-- [Cellar Dog](http://cellar.dog/)--*west village*; around the block from Smalls/Mezznote, and down the street from Village Vanguard. Not strictly a music club...it's a bar with games(!) but they also have a live jazz band.  Cheap cover ($10?), beers are affordable, and you can bring food in, play some chess, pool, or ping pong and listen to some jazz. The house bands are pretty decent.
-- [Jazz Vespers at St. Peter's Church](https://www.saintpeters.org/jazz): 5pm on Sunday evenings. 
+- [Cellar Dog](http://cellar.dog/)--*west village*; around the block from Smalls/Mezznote, and down the street from Village Vanguard. Not strictly a music club...it's a bar with games(!) but they also have a live jazz band.  Cheap cover ($5-10), beers are affordable, and you can bring food in, play some chess, pool, or ping pong and listen to some jazz. The house bands are pretty decent.
+- [Jazz Vespers at St. Peter's Church](https://www.saintpeters.org/jazz): 5pm on Sunday evenings in Midtown.
+- [Hot Club](https://hotclubny.org); historic (1910-1950s) shellac jazz records, played M 7:30-10:30 in the Flatiron district (with sporadic other events). BYOB.  Read the [NYTimes article Oct 2025](https://www.nytimes.com/2025/10/29/arts/music/hot-club-of-new-york-jazz-78s.html)   
 
 Find out what is playing:
 - [Daily live jazz listings](http://jazz-nyc.com): no frills, but you can find out what's happening and where
