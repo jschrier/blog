@@ -1,7 +1,7 @@
 ---
 title: "Frederick Copleston, SJ"
 date: 2025-10-17
-tags: jesuits philosophy
+tags: jesuits philosophy biography
 ---
 
 A recent [article on Frederick Copleston, SJ](https://www.americamagazine.org/arts-culture/2025/10/14/the-patron-saint-of-undergraduate-philosophers-frederick-copleston/) tickled my neurons about admiration for this historian of philosophy...
