@@ -61,6 +61,7 @@ Of course the [Blue Note](https://www.bluenotejazz.com/nyc/) and [Village Vangua
 - [Cellar Dog](http://cellar.dog/)--*west village*; around the block from Smalls/Mezznote, and down the street from Village Vanguard. Not strictly a music club...it's a bar with games(!) but they also have a live jazz band.  Cheap cover ($5-10), beers are affordable, and you can bring food in, play some chess, pool, or ping pong and listen to some jazz. The house bands are pretty decent.
 - [Jazz Vespers at St. Peter's Church](https://www.saintpeters.org/jazz): 5pm on Sunday evenings in Midtown.
 - [Hot Club](https://hotclubny.org); historic (1910-1950s) shellac jazz records, played M 7:30-10:30 in the Flatiron district (with sporadic other events). BYOB.  Read the [NYTimes article Oct 2025](https://www.nytimes.com/2025/10/29/arts/music/hot-club-of-new-york-jazz-78s.html)   
+- [Secret Parlor Jazz](https://www.eventbrite.com/e/secret-parlor-jazz-home-cooked-tunes-bbq-dinner-on-the-upper-east-side-registration-1563361348879) -- a home cooked meal, a glass of wine, and piano jazz, in the Upper East side apartment on a Sunday afternoon.
 
 Find out what is playing:
 - [Daily live jazz listings](http://jazz-nyc.com): no frills, but you can find out what's happening and where
@@ -131,7 +132,7 @@ Nobody goes to Times Square, because it is too crowded with tourists.  But...
 
 - Obviously you go to the [Metropolitan Museum](https://www.metmuseum.org/) which is arguably the finest art museum in the USA (dare I say, the world).  But many visitors overlook the [Met Cloisters](https://maps.app.goo.gl/S7tN9RqMu2rCRVwR9) in Inwood---Rockefeller bough a bunch of medieval castles and monasteries...disassembled them...and reassembled them here, filled them with art, and then bought the land on the opposite side of the river (now Palisades park) so that it wouldn't be developed and ruin the view. Especially nice in the Spring and early Summer, when the gardens are open.
 - And while you're up there, go to the [Hispanic Society](https://hispanicsociety.org)---a free museum of art of Spain, Portugal, and Latin America. Excellent collection of El Greco's and Sarollas.
-- [Poster House](http://www.posterhouse.org/) *Chelsea-ish*, nice collection of posters and graphic design, exhibits change every 3-4 months. The cafe is nice to.
+- [Poster House](http://www.posterhouse.org/) *Chelsea-ish*, nice collection of posters and graphic design, exhibits change every 3-4 months. The cafe is nice too.
 - [Fotografiska](https://www.fotografiska.com/nyc/) *NOMAD*.  Check the exhibits, sometimes quite excellent (the [David LaChapelle show was amazing](https://www.fotografiska.com/nyc/david-lachapelle/)).  If you go, be sure to have a drink at the bar, which is quite classy. **UPDATE Feb 2025:  CLOSED**
 - Anyone can walk into [Christy's Auction House](http://www.christies.com/) *Rockefeller Center* and admire the art. Just walk in and act like you own the place, while wearing a bowtie. 
 - [Morgan Library](https://www.themorgan.org/) *midtown/nomad/curry hill* --- works on paper and interior design.  Free on the Friday evenings, but you have to reserve a ticket ahead of time.
