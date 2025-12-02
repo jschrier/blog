@@ -6,7 +6,7 @@ tags: imaginary-cinema music
 
 Donald J. Trump (impersonator) stars in his long-awaited musical Christmas sequel to the [musical about his 2024 election campaign]({{ site.baseurl }}{% post_url 2024-12-22-Trump:-The-Musical %}) and [musical about his first 100 days in office]({{ site.baseurl }}{% post_url 2025-09-07-Trump,-The-Musical:-The-First-Hundred-Days %}). "The best, the best, the greatest...
 
-# Intro and FBI
+# Act 1: It's not Christmas without C(K)ash
 
 ## Home Improvement for the Holidays 
 
@@ -31,7 +31,7 @@ To the tune of [Deck the Halls](https://en.wikipedia.org/wiki/Deck_the_Halls)
 > *MA-GA-ga-ga-ga, ga ga ga ga.*  
 
 
-# Adeste Infidelis
+## Adeste Infidelis
 
 To the tune of [O Come, All ye Faithful aka Adeste Fidelis](https://en.wikipedia.org/wiki/O_Come,_All_Ye_Faithful)
 
@@ -47,7 +47,7 @@ To the tune of [O Come, All ye Faithful aka Adeste Fidelis](https://en.wikipedia
 > And...you're fired!  
 
 
-# Surveilance State
+## Surveilance State
 
 To the tune of [Santa Claus is Coming to Town](https://en.wikipedia.org/wiki/Santa_Claus_Is_Comin%27_to_Town)
 Contributed by Anonymous
@@ -82,7 +82,7 @@ Contributed by Anonymous
 > And FBI tum tums.  
 > Kash Patel is coming town!  
 
-# Kash Rules Everything Around Me
+## Kash Rules Everything Around Me
 
 To the tune of [Jingle Bells](https://en.wikipedia.org/wiki/Jingle_Bells)
 Contributed by Anonymous
@@ -125,6 +125,7 @@ Contributed by Anonymous
 > Oh, what fun it is to watch  
 > As justice takes a ride!  
 
+
 # Act 2: ICE Christmas
 
 ## Infeliz Navidad
@@ -155,28 +156,55 @@ Contributed by Anonymous
 
 ## Baby There's ICE Outside
 
-To the tune of [Baby It's Cold Outside](https://en.wikipedia.org/wiki/Baby,_It%27s_Cold_Outside)
-Contributed by Anonymous
+To the tune of [Baby It's Cold Outside](https://en.wikipedia.org/wiki/Baby,_It%27s_Cold_Outside). 
+Contributed by Anonymous.
 
 > I really can't stay  
-> -   Baby, there's ICE outside  
+>    *Baby, there's ICE outside*  
 > They'll send me away  
-> -   Baby, there's ICE outside  
+>    *Baby, there's ICE outside*  
 > This evening has been  
-> -   Worried they'd drop in  
+>    *Worried they'd drop in*  
 > I work for Kristy Noem  
-> -   I'll cuff your hands  
+>    *I'll cuff your hands*  
 > Mamacita will start to worry  
-> -   Bonita, what's your hurry?  
+>    *Bonita, what's your hurry?*  
 > My father will be pacing the floor  
-> -   Listen to that van engine roar  
+>    *Listen to that van engine roar!*  
 > I really can't stay  
-> -   Baby, there's ICE outside  
+>    *Baby, there's ICE outside!*  
 
 
-# Act 3: Elections 
+# Act 3: Elections Come But Once A Year
 
-## A Dashing VP
+## A President's Lament
+
+To the tune of [My Favorite Things](https://www.youtube.com/watch?v=0IagRZBvLtw) (Rodgers and Hammerstein, 1959). Contributed by D. Beebe.
+
+> Zohran Mamdani with socialist views  
+> Tariffs and riots and lots of fake news  
+> Wild supporters with red MAGA caps sing   
+> These are a few political things  
+> .  
+> Meeting world leaders as conflicts arise  
+> Secretly hoping a Nobel Peace prize  
+> Big Beaut'ful Bill,  confused tax filings  
+> These are a few political things  
+> .   
+> Pardoning allies no zealots excluded  
+> (Turkeys like Waddle and Gobble included)   
+> Illegal imigrants tied up with strings  
+> These are a few political things  
+> .  
+> When I make gaffs  
+> Everyone laughs  
+> When I'm being a cad  
+> I simply remember political things  
+> And never admit....  
+> I'm bad!  
+
+
+## The Dashing VP
 
 To the tune of [Jingle Bells](https://en.wikipedia.org/wiki/Jingle_Bells)
 Contributed by Anonymous
