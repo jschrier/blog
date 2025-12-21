@@ -1,6 +1,6 @@
 ---
 title: "Imaginary Syllabi: Material Science in Ancient Rome"
-date: 2025-12-01
+date: 2025-12-20
 tags: imaginary-syllabi science travel 
 ---
 
