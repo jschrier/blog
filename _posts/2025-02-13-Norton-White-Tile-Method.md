@@ -96,3 +96,6 @@ Or:
 - Also cool: Powder coating color fill (works on wood, acrylic, class, clay etc). [Official Trotec video, with parameters for Speedy 300 80W laser](https://www.youtube.com/watch?v=IvvaAvXJye0).  Premise is that you engrave a shallow trench, fill in the powder coating, and then run a pass which melts the powder coat where desired. This can achieve bright colors.  It's a fundamentally different process (organic versus inorganic)...but the color fill is reported to be stable for up to 40 years. 
 - Also cool: [Laser foil](https://www.youtube.com/watch?v=UJLY-26O4Yo). Fundamentally just an adhesive mylar coating, but can look cool.  Can be applied to wood or acrylic. Video shows settings
 
+# Parerga and Paralipomena
+
+- (28 Dec 2026) An aluminum hydroxide solution  (deposited on the surface of a coverslip coated with a layer of platinum) is lasered with 532 nm continuous wave to form structural colors. Low powers (3.7 mW); color is proportional to time. [ACS AMI 2025](https://dx.doi.org/10.1021/acsami.5c22132)

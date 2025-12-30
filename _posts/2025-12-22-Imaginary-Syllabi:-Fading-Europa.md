@@ -35,6 +35,9 @@ Invovles critical readings of literature and politics of European [alt-right](ht
 - Sarrazin 2010, [Deutschland schafft sich ab: Wie wir unser Land aufs Spiel setzen](https://en.wikipedia.org/wiki/Germany_Abolishes_Itself) --- basically a german flavored version
 - Zemmour 2014 [Le Suicide français](https://en.wikipedia.org/wiki/The_French_Suicide) --- a french version
 
+## Demographic shifts and population decline
+
+- UN Report (2000) [Replacement Migration: Is it A Solution to Declining and Ageing Populations?](https://www.un.org/development/desa/pd/sites/www.un.org.development.desa.pd/files/unpd-egm_200010_un_2001_replacementmigration.pdf) --- fertility declines, migration trends.  **Research Activity:** Retroactive look back at the accuracy of the various prediction scenarios.
 
 ## Fictional treatments and themes (popular reception)
 
