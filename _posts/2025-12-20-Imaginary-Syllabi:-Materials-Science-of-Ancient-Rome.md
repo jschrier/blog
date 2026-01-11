@@ -72,3 +72,6 @@ Other ideas:
 
 
 
+# Community notes
+
+- [Elizabeth Thrall](https://scholar.google.com/citations?user=i83RsVAAAAAJ&hl=en&oi=ao) suggests other possible topics:  (i) Lead pipes and plumbing...with a connection to [contemporary environmental justice issues in Flint, Michigan](https://en.wikipedia.org/wiki/Flint_water_crisis); (ii) phase separations using excellent olive oil and aged balsamic (with paired degustation); (iii) cultural heritage preservation and spectroscopy/analytical chemistry methods
