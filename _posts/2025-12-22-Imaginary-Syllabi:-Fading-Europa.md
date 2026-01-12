@@ -42,7 +42,10 @@ Invovles critical readings of literature and politics of European [alt-right](ht
 ## Fictional treatments and themes (popular reception)
 
 - Raspail 1973, [Le Camp des Saints (The Camp of the Saints)](https://en.wikipedia.org/wiki/The_Camp_of_the_Saints) ---  the classic dystopian migrant crisis/failure of the western ideals narrative
+- James 1992, [The Children of Men](https://en.wikipedia.org/wiki/The_Children_of_Men) --- what does a country look like when it doesn't have any more children
+     - [Film: Children of Men (2006)](https://en.wikipedia.org/wiki/Children_of_Men) --- based on the novel (above), different. More of an emphasis on migration. Compare and contrast.
 - Houellebecq 2015, [Soumission (Submission)](https://en.wikipedia.org/wiki/Submission_(novel)) --- like all Houllebecq novels, deliciously depressing misanthropy. Notice how the protagonist's escape route from Paris travels echoes the *Camp of Saints*, involves a stop at the shrine of Charles Martel, etc.  
     - This (or Sarrazin's book, *vide supra*) could also be used as a launching point into critical discussions of [Eurabia conspiracy theories](https://en.wikipedia.org/wiki/Eurabia_conspiracy_theory), and tracing out how these ideas spread through social media.
 
- 
+
+

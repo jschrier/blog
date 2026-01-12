@@ -19,4 +19,5 @@ Was turned on to the idea of [3d-printed model airplanes](https://blog.prusa3d.c
 - (11 Oct 2024) Definitely need [(electronically generated) engine and machine gun sounds](https://hackaday.io/project/198182-rc-plane-sound-machine)
 - (18 Mar 2025) [Fixed-wing drones with shotguns](https://armourersbench.com/2025/03/16/ukraines-fixed-wing-gun-drone/) now flying over Ukraine
 - (05 Jun 2025) [Minimal, mostly 3d-printed FPV fixed wing racer.](https://www.printables.com/model/1223219-fpv-wing-racer-rev2) files & build instructions.
+- (11 Jan 2026) [Eclipson](https://www.eclipson-airplanes.com)
 
