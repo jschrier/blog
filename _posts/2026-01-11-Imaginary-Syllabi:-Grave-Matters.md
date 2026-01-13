@@ -43,5 +43,7 @@ We will likely have to do some metal casting...(aluminum would be great for cost
 - *Writing Assignment:* Proposal on the reconstructed grave marker
 - *Writing Assignment:* Final report on final outcome, with reflections.
 
+# Fordham-related notes
 
+- Could count for "New York City Experience"?
 
