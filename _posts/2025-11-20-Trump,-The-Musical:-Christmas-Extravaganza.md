@@ -248,3 +248,16 @@ To the tune of [Rudolph The Red-Nosed Reindeer](https://en.wikipedia.org/wiki/Ru
 # Tips and tricks
 
 - [DJT AI Voice Generator](https://huggingface.co/spaces/selfit-camera/Trump-Ai-Voice)
+
+# Parerga and Paralipomena
+
+- (13 Jan 2026) New Yorker magazine reports that the [lads over at Sovereign House](https://www.newyorker.com/news/our-local-correspondents/the-party-politics-of-sovereign-house) wrote **“Trump Rest You Merry, Patriots,”** set to the tune of [God Rest Ye Merry, Gentlemen](https://en.wikipedia.org/wiki/God_Rest_Ye_Merry,_Gentlemen):
+
+> And so we stormed the Capitol
+> That January day
+> Turned over the election,
+> Hanged Mike Pence on our way.
+> Now Trump shall reign forever
+> With liberals kept at bay!
+> *O tidings of Trump-fort and joy...*
+
