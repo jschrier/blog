@@ -75,3 +75,4 @@ Other ideas:
 # Community notes
 
 - [Elizabeth Thrall](https://scholar.google.com/citations?user=i83RsVAAAAAJ&hl=en&oi=ao) suggests other possible topics:  (i) Lead pipes and plumbing...with a connection to [contemporary environmental justice issues in Flint, Michigan](https://en.wikipedia.org/wiki/Flint_water_crisis); (ii) phase separations using excellent olive oil and aged balsamic (with paired degustation); (iii) cultural heritage preservation and spectroscopy/analytical chemistry methods
+- (16 Jan 2026) [Recent insight from Pompeii](https://www.nature.com/articles/d41586-025-04080-7):  "Roman builders pre-mixed dry quicklime with pozzolan before adding water, initiating an exothermic reaction. This technique, known as hot mixing, results in a particularly durable, self-healing form of concrete."

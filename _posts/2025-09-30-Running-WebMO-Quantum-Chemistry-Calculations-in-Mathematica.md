@@ -244,3 +244,8 @@ ListLinePlot[
 ```mathematica
 ToJekyll["Running WebMO Quantum Chemistry Calculations in Mathematica", "chemistry teaching mathematica"]
 ```
+
+# Parerga and Paralipomena
+
+- (29 Jan 2026) Could be interesting to revisit this when the [new ServiceConnection framework](https://www.youtube.com/watch?v=pWuVCFlPTlc) is released
+- (29 Jan 2026) Alternatively, the new [QuantumChemistry paclet](https://resources.wolframcloud.com/PacletRepository/resources/WolframChemistry/QuantumChemistry/) allows you to run calculations (presumably locally).  See [WTC 2025 video demo](https://youtu.be/uVFUAroMnII?si=cjbXJcPEEpNH689D&t=1380)...you can use it now as a paclet, and it will be part of the official support in version 15.

@@ -29,3 +29,4 @@ As much as I want to love analog, we live in the digital age.  [Open-source DSP 
 # Parerga and paralipomena
 
 - (25 Sept 2025) From a certain point of view, [chorus pedals can be thought of as microtonal shimmer chords](https://www.youtube.com/watch?v=YXdOmSYLKj4)
+- (24 Jan 2026) The [Polyend Endless](https://polyend.com/endless/) is a user-programmable DSP pedal...they are also including a "vibecoding" mode for defining effects by LLM.  [Discussion at HackerNews](https://news.ycombinator.com/item?id=46726907)
