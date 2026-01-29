@@ -235,3 +235,4 @@ ToJekyll["Three LLM Summarization Strategies", "ai mathematica llm"]
 
 - (09 Jan 2024) The new Mathematica 14.0 has a new [TextSummarize](https://reference.wolfram.com/language/ref/TextSummarize.html) function that provides control of context padding and window sizes, etc. if you do not want to deal with implementing this yourself.
 - (18 Apr 2024) OpenAI now supports [FileSearch](https://platform.openai.com/docs/assistants/tools/file-search) which will RAG-like functions for you.
+- (22 Jan 2026) In Mathematica 14.3 the LLMGraph functionality enables a very efficient implementation. See [video from WTC 2025](https://youtu.be/M8zHoCm-jEs?si=-NBpuuB4dbAR7Q2S&t=1605)
