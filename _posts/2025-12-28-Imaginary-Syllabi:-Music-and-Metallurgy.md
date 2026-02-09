@@ -42,3 +42,5 @@ An article in [today's New York Times about the destruction of church bells duri
 - [Pythagoras and the blacksmith hammer](https://en.wikipedia.org/wiki/Pythagorean_hammers) in the origins of music theory
 - [Bellfounding](https://en.wikipedia.org/wiki/Bellfounding)
 - [Jesuit angle: Bells in the Reducciones](https://pure.mpg.de/rest/items/item_2305260_7/component/file_2354801/content#:~:text=Abstract,%2C%20the%20devil%2C%20and%20demons.)
+- (09 Feb 2026) While [listening to the history of philosophy podcast on the topic of music in ancient Chinese philosoph](https://historyofphilosophy.net/confucianism-music-brindley) I was reminded of the [Bianzhong of Marquis Yi Zeng](https://en.wikipedia.org/wiki/Bianzhong_of_Marquis_Yi_of_Zeng) --- for insight into ancient Chinese music theory (interestingly the shape means that the bells play two notes at once)
+    - There is a nice [*American Scientist* (1984) article on the topic of the acoustics of bells](https://www.jstor.org/stable/27852858?seq=1) in general and a nice [*Scientific American* (1987) article on Chinese bells](https://www.jstor.org/stable/24979367?seq=1) in particular, both on JSTOR
