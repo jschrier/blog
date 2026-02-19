@@ -30,3 +30,6 @@ Following up on our [Make America Make Again]({{ site.baseurl }}{% post_url 2025
 - [CUNY ASCR Nanofab](https://asrc.gc.cuny.edu/facilities/nanofabrication/) has gadgets, but training is unclear to me.  Maybe through one of the [MS in Nanoscience](https://www.gc.cuny.edu/nanoscience/curriculum-and-degree-requirements) lab courses?
 
 
+# Parerga and Paralipomena
+
+- Having watched a bunch of these videos, it is truly amazing. There is a pinacle of humanity's achievements in chemsitry, optics, and physics that is required. 

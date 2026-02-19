@@ -33,6 +33,7 @@ An article in [today's New York Times about the destruction of church bells duri
 - Computer:  Finite element simulation of a bell (direct simulation of physical process?)
 - Visit:  [Metropolitan Museum Bells](https://commons.wikimedia.org/wiki/Category:Bells_in_the_Metropolitan_Museum_of_Art) (including Chinese bronzes) --- [direct link to Met Collection query](https://www.metmuseum.org/art/collection/search?material=Bells)
 - Music activity: [Change ringing](https://en.wikipedia.org/wiki/Change_ringing) with handbells
+    - (16 Feb 2026) Hunt, "The Art of Changes: Bell-Ringing, Anagrams, and the Culture of Combination in Seventeenth-Century England" [Journal of Medieval and Early Modern Studies (2018) 48 (2): 387–412.](https://doi.org/10.1215/10829636-4403136) proposes that "change-ringing, and its need for so many bells, was a way of justifying the continued presence of these pre-Reformation objects into and beyond the seventeenth century."  There are some other article resources (chapters in PhD theses, mentioned in the text of this [youtube video on using change-ringing ideas for modular synthesis](https://www.youtube.com/watch?v=dLBUHpzOiGY))
 - Listen:  Musicology traditions related to bells
     - Excursion into Gamelan (which characteristically employes [metallophone instruments](https://en.wikipedia.org/wiki/Metallophone)) and non-western musical traditions/tunings
     - Excursion into 

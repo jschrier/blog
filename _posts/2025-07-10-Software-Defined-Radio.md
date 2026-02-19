@@ -26,3 +26,7 @@ tags: diy radio electronics
 - As a grad student/postdoc, used to read the [ARRL magazine](https://www.arrl.org/arrl-magazines) (among others) in the Berkeley public library on saturday afternoons, after going typing on the laptop at Caffe Strada in the morning and then going to the farmer's market. 
 - Generally thought the idea of VHF to satellites was cool.  I still think the idea of an "orbital hunting club" (sort of like duck hunt, but with radios and satellites) would be amusing. 
 - My buddy, [Bob the Chemist](http://bobthechemist.com), got into ham radio in the past few years, reawakening interest. 
+
+# Parerga and Paralipomena
+
+- (17 Feb 2026) Using the GPIO pins on a Raspberry Pi zero to do SDR (with a web interface to boot)...via [hackernews](https://news.ycombinator.com/item?id=47047559)
