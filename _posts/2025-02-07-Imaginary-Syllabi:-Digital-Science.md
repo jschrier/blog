@@ -16,6 +16,8 @@ tags: science teaching imaginary-syllabi
     - [University of York](https://www.york.ac.uk/chemistry/research/digital-chemistry/), [Leeds](https://www.york.ac.uk/chemistry/research/digital-chemistry/), and [Southampton](https://www.southampton.ac.uk/courses/digital-chemistry-masters-msc) also offer similar courses. 
     - [University of Gdansk also offers an Digital Chemistry MSc course](https://digital.chem.ug.edu.pl/), more of a focus on computational chemistry
 
+- It is also relevant to point to the [University of Toronto Acceleration Consortium online microcourses/credentials on AI, self-driving labs, etc.](https://learn.utoronto.ca/programs-courses/certificates/autonomous-systems-discovery). You can look at the [course materials online](https://ac-microcourses.readthedocs.io/en/latest/index.html)
+
 # Requirements
 
 Consider this minor/concentration as comprising seven courses: (yes, a typical minor is 6 courses, but, whatever...)
@@ -48,7 +50,9 @@ Notice that these are all framed in a general way, but they lean chemistry-adjac
 
 - **Learning goal:** Acquire basic data handling, ML, and electromechanical skills needed to use/operate automated experiments
 
-- **Possible Reference points:** Model this on the [University of Toronto 4010 & 4132 microcredential courses  "Introduction to AI for Discovery Using Self-Driving Labs" and "Autonomous Systems for Self-Driving Labs" ](https://learn.utoronto.ca/programs-courses/certificates/autonomous-systems-discovery), each of which takes about a month to complete and only has "some familiarity with python programming" as a pre-req 
+- **Possible Reference points:** Model this on the [University of Toronto 4010 & 4132 microcredential courses  "Introduction to AI for Discovery Using Self-Driving Labs" and "Autonomous Systems for Self-Driving Labs" ](https://learn.utoronto.ca/programs-courses/certificates/autonomous-systems-discovery), each of which takes about a month to complete and only has "some familiarity with python programming" as a pre-req
+    - [Course materials for 4010](https://ac-microcourses.readthedocs.io/en/latest/courses/hello-world/index.html): Setup a Raspberry Pi Pico, build an RGB color matcher, some basic optimization and data storage with MongoDB
+    - [Course materials for 4132](https://ac-microcourses.readthedocs.io/en/latest/courses/robotics/index.html): Controlling pumps, liquid handlers, ROS, computer vision
 
 - **Lab/practicum**:  Adopt a [frugal twin approach](https://doi.org/10.1039/D3DD00223C).  Students build/operate a [chemputer](https://doi.org/10.1038/s41557-022-01016-w), basic liquid handler ([OT-2](https://opentrons.com/products/ot-2-robot) or [something more homebrew](https://doi.org/10.1016/j.slast.2024.100239)), maybe a robot-arm or two.  Learn some microcontroller programming/[internet of science things](https://chem.libretexts.org/Courses/Intercollegiate_Courses/Internet_of_Science_Things/1%3A_IOST_Modules) type skills with Raspberry Pi + various sensors and actuators.
     - Maybe do some color mixing experiments or [pH/buffer relationship discovery](https://link.springer.com/article/10.1557/s43577-022-00430-2) or [electrochemistry](https://pubs.rsc.org/en/content/articlehtml/2024/dd/d4dd00186a) or [synthesize aspirin by chemputer](https://pubs.acs.org/doi/10.1021/acs.jchemed.2c00503)
@@ -65,6 +69,8 @@ Notice that these are all framed in a general way, but they lean chemistry-adjac
     - Machine Learning & AI for Science
 
 - **Possible Reference points:** Model this on the [University of Toronto 4131 & 4133 microcredential courses  "AI and Materials Databse for Self-Driving Labs" and "Software Development for Self Driving Labs" ](https://learn.utoronto.ca/programs-courses/certificates/autonomous-systems-discovery), each of which takes about a month to complete, and only has "some familiarity with python programming" as a pre-req 
+    - [Course materials for 4131](https://ac-microcourses.readthedocs.io/en/latest/courses/data-science/index.html): Bayesian optimization
+    - [Course materials for 4133](https://ac-microcourses.readthedocs.io/en/latest/courses/software-dev/index.html): Github, VSCode, software engineering practices, documentation, using cloud computer resources
 
 - **Additional Audience**: Broad...computer science/applied math?
 
