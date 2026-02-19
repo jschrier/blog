@@ -16,6 +16,8 @@ tags: science teaching imaginary-syllabi
     - [University of York](https://www.york.ac.uk/chemistry/research/digital-chemistry/), [Leeds](https://www.york.ac.uk/chemistry/research/digital-chemistry/), and [Southampton](https://www.southampton.ac.uk/courses/digital-chemistry-masters-msc) also offer similar courses. 
     - [University of Gdansk also offers an Digital Chemistry MSc course](https://digital.chem.ug.edu.pl/), more of a focus on computational chemistry
 
+- It is also relevant to point to the [University of Toronto Acceleration Consortium online microcourses/credentials on AI, self-driving labs, etc.](https://learn.utoronto.ca/programs-courses/certificates/autonomous-systems-discovery). You can look at the [course materials online](https://ac-microcourses.readthedocs.io/en/latest/index.html)
+
 # Requirements
 
 Consider this minor/concentration as comprising seven courses: (yes, a typical minor is 6 courses, but, whatever...)
