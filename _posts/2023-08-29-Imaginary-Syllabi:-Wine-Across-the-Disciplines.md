@@ -39,7 +39,7 @@ There's clearly a shadow curriculum here, which is teaching students how to know
     - Analytical  chemistry:  [Acid-base and precipitation equilbria of potassium hydrogen tartarate in wine](https://doi.org/10.1021/ed081p94)...with a possible lab experiment, or at least some equilibrium calculation
     - Organic chemistry: Relating [wine aromas by sniffing them](https://www.lenez.com/en/kits/wine/masterkit_54) to individual molecules and molecule types; basic organic nomenclature 
     - Textbook: Waterhouse et al, [Understanding Wine Chemistry (2024)](https://amzn.to/42WgyAb)
-
+    - (02/2026) NMR and data analysis of wine and adulturation, presented at a public outreach level [J Chem Educ 2026](https://dx.doi.org/10.1021/acs.jchemed.5c00652) (but you need a 700 MHz NMR)...uses [MagMet-W](https://pubs.acs.org/doi/10.1021/acsfoodscitech.4c00298) sofwtare
 - Business:  Guest speaker winemaker
 - Statistics:  ["Lady tasting tea" problems in statistics](https://en.wikipedia.org/wiki/Lady_tasting_tea), and how to make sense of wine ranking surveys, taste tests, etc.
 - Literature:  So many options to choose from....
@@ -60,6 +60,7 @@ There's clearly a shadow curriculum here, which is teaching students how to know
 - Operations Research/Logistics:  [Wine transportation](https://www.dhl.com/global-en/delivered/globalization/the-art-of-wine-transportation.html)
 - Material's science: [The Glass of Wine: The Science, Technology, and Art of Glassware for Transporting and Enjoying Win](https://amzn.to/4bSx99K) (book)
 - Computer Science: [Winemaking and AI](https://nypost.com/2025/03/10/lifestyle/heres-how-ai-has-taken-over-the-winemaking-industry/)
+- Relgion/History: [Monks and Wine](https://amzn.to/4awGANK) --- yes, that's the name of the book. 'nuff said.
 
 # Example tasting topics ("labs")
 
