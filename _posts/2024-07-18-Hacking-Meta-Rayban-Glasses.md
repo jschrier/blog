@@ -1,10 +1,14 @@
 ---
 title: "Hacking Meta Rayban Glasses"
 date: 2024-07-18
-tags: fashion diy webdev llama3
+tags: fashion diy webdev llama3 ai
 ---
 
 Confession:  I bought a pair of [Meta Rayban smart glasses](https://www.meta.com/smart-glasses/).  Built in functionality is cool, but of course, a hackers gotta hack.  **So how can you run other things on them?...**
+
+(There is steady progress, so I am breaking this up by year...)
+
+# 2024
 
 - [Write a WhatsApp server to intercept messages](https://jovanovski.medium.com/part-2-getting-chatgpt-working-on-meta-smart-glasses-82e74c9a6e1e).  The idea is that you can then tell the glasses to send a message to that WhatsApp name, and then your app on the other side can run something and send it back as a WhatsApp message. There's an [implementation that uses PHP](https://github.com/jovanovski/meta-glasses-gpt/tree/main/whatsapp-approach), but I'm sure you could cook up a little Flask app to do this. Heck...host it on Modal with all those credits burning a hole in my pocket 
     - Indeed, there are [tutorials](https://www.youtube.com/watch?v=uN_MNOaoxBU) and [examples](https://github.com/gustavz/whatsbot) on how to build WhatsApp webhook apps in flask.
@@ -18,7 +22,17 @@ Confession:  I bought a pair of [Meta Rayban smart glasses](https://www.meta.com
 
 - Just in case you were wondering...you don't have to say 'Hey Meta..." to use the voice features.  They all work fine if you say "Ok Meta..." or...you can configure the touch button (touch and hold) to activate the assistant without any wake words.  I'm still waiting for someone to hack the wake word so you can say "Control..." (like in [Max Headroom](https://youtu.be/gCgIEgMpspI?si=2j3FoPuaWEL0PpGG))
 
-# Mini-review and FAQ
+# 2026
+
+- The "send messages to WhatsApp" approach has been formalized as [metaphor](https://rsteckler.github.io/metaphor/).  Under the hood, it uses [whatsapp-api](https://rsteckler.github.io/metaphor/docs/whatsapp/) to intercept messages and then dispatch them to other applications.  [Code on github.](https://github.com/rsteckler/metaphor)
+
+- Back in November 2025, Meta released a preview of the [Wearables Device Access Toolkit](https://wearables.developer.meta.com) which allows you to develop iOS & Android apps to intercept camera, microphone, speaker, and wear-detection.  There's a special "developer' mode that you can enable to avoid the need for approvals. 
+    - They've even [made it easy for you](https://wearables.developer.meta.com/docs/ai-solutions) to use AI coding tools to assist in parsing the API
+
+- [VisionClaw](https://github.com/sseanliu/VisionClaw) uses the Wearables API to interface with Gemini and optionally [OpenClaw (formerly Clawdbot)](https://en.wikipedia.org/wiki/OpenClaw)...so now any of the reckless things you can do with OpenClaw you can do from your glasses. 
+
+
+# Mini-review and FAQ (circa 2024)
 
 - Q: How do you like them? Pros/cons.
 - A: In summary: they're a camera and bluetooth headphones/microphone that you wear as glasses.  Fit and finish is excellent. Battery life is minimum viable product level: you can drain them in a few hours by taking a bunch of photos or videos or bluetooth audio...maybe fine if you are an optional glasses wearer (and can thus take them off to charge), less good if you have to wear glasses all day.  It's useful to be able to take hands-free photos (I can see lots of opportunities for making tutorials). AI assistant features are hit-or-miss:  It's kind of neat to have "Hey meta, take a look and define this word" (use photo, interpret where finger is pointed, return a definition).  But translation failed on a chinese newspaper headline (as of 07/2024).   I am a very text-oriented person, so audio-based interactions are novel for me.  
@@ -28,7 +42,8 @@ Confession:  I bought a pair of [Meta Rayban smart glasses](https://www.meta.com
 - Q: How can you connect multiple devices for audio?
 - A: [See these Reddit instructions](https://www.reddit.com/r/RayBanStories/comments/17xlych/comment/lfoqt7m/); tldr—-turn off bluetooth on your existing device, put them in the case, push the pairing button on the back of the case until the light turns blue, then just pair them.  You can pair multiple your glasses to multiple devices.  The AI and message functions still pass through from your phone.
 
-# Ideas for applications that should exist
+
+# Ideas for applications that should exist (circa 2024)
 
  My running list of app ideas (probably using the Whatsapp hack):
 
