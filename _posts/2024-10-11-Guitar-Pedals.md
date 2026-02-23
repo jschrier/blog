@@ -10,6 +10,8 @@ Going to the [BK Synth and Pedal Expo](https://delicious-audio.com/brooklyn-synt
 
 In a way, there are only about 6 different types of guitar pedals.  Yet, there is tremendous variety in the offerings, most differentiated by microdifferences, user interface, and branding/packaging.  Make of that what you will.
 
+Background reading: [Pedal Crush](https://bjooks.com/products/pedal-crush-stompbox-effects-for-creative-music-making) seems great, but is no longer in print.
+
 # Analog Circuits 
 
 - Alan Lanterman's [Guitar Amplification and Effects](https://youtube.com/playlist?list=PLOunECWxELQS7JV_KeeTJJpgGjOftoaAH&si=IN01nOACMy-fcZIm) course ([previously mentioned among his other music-EECS courses]({{ site.baseurl }}{% post_url 2024-06-22-Electrical-Engineering-for-Music %})).
@@ -20,14 +22,17 @@ In a way, there are only about 6 different types of guitar pedals.  Yet, there i
 
 # DSP
 
-As much as I want to love analog, we live in the digital age.  [Open-source DSP pedal kit](https://clevelandmusicco.com/hothouse-diy-digital-signal-processing-platform-kit/) based on the [daisy seed](https://electro-smith.com/products/daisy-seed)
+As much as I want to love analog, we live in the digital age.  
 
-(26 mar 2025) [Raspberry-Pi Pico multi-effect pedal](https://101-things.readthedocs.io/en/latest/guitar_effects.html) --- very low part count, well explained. Has some  very interesting links including to [musicDSP](https://www.musicdsp.org/en/latest/index.html) "a collection of algorithms, thoughts and snippets, gathered for the music dsp community"
+- [Open-source DSP pedal kit](https://clevelandmusicco.com/hothouse-diy-digital-signal-processing-platform-kit/) based on the [daisy seed](https://electro-smith.com/products/daisy-seed)
 
-(12 apr 2025) Yet another [Raspberry-Pi pico guitar pedal design](https://www.youtube.com/watch?v=jpfROA2EMzo).   It appears to use a DAC for audio output (maybe better than doing PWM as in the previous one, but doesn't seem as well documented )
+- (26 mar 2025) [Raspberry-Pi Pico multi-effect pedal](https://101-things.readthedocs.io/en/latest/guitar_effects.html) --- very low part count, well explained. Has some  very interesting links including to [musicDSP](https://www.musicdsp.org/en/latest/index.html) "a collection of algorithms, thoughts and snippets, gathered for the music dsp community"
+
+- (12 apr 2025) Yet another [Raspberry-Pi pico guitar pedal design](https://www.youtube.com/watch?v=jpfROA2EMzo).   It appears to use a DAC for audio output (maybe better than doing PWM as in the previous one, but doesn't seem as well documented )
+
+- (24 Jan 2026) The [Polyend Endless](https://polyend.com/endless/) is a user-programmable DSP pedal...they are also including a "vibecoding" mode for defining effects by LLM.  [Discussion at HackerNews](https://news.ycombinator.com/item?id=46726907)
+    - (12 Feb 2026) Folks appear to be doing [open-source VST plugin design through vibecoding (e.g., APC)](https://github.com/Noizefield/audio-plugin-coder), so it doesn't seem like much of a lift to adapt that to devices like these.
 
 # Parerga and paralipomena
 
 - (25 Sept 2025) From a certain point of view, [chorus pedals can be thought of as microtonal shimmer chords](https://www.youtube.com/watch?v=YXdOmSYLKj4)
-- (24 Jan 2026) The [Polyend Endless](https://polyend.com/endless/) is a user-programmable DSP pedal...they are also including a "vibecoding" mode for defining effects by LLM.  [Discussion at HackerNews](https://news.ycombinator.com/item?id=46726907)
-    - (12 Feb 2026) Folks appear to be doing [open-source VST plugin design through vibecoding (e.g., APC)](https://github.com/Noizefield/audio-plugin-coder), so it doesn't seem like much of a lift to adapt that to devices like these.
