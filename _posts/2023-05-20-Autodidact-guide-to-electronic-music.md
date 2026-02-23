@@ -111,7 +111,7 @@ Alternatively [tidalcycles](https://sonic-pi.net) is a Haskell-based domain spec
 
 - (03 Oct 2024) [Jonathan Dubois](https://scholar.google.com/citations?user=0WXE25AAAAAJ&hl=en&oi=ao) asks: *I do have a dumb question about analog synthesizers though..  Aside from the cool factor of actual analog, where are the open source digital patch panels?  it doesnt seem like it should be that hard to compute pretty much anything you want in real time.* 
 
-Indeed, it's a thing. 
+Indeed, it's a thing.  And you're basically right.  
 
 - I've seen the [DaisySeed](https://electro-smith.com/products/daisy-seed)-based [eurorack modules](https://electro-smith.com/products/patch) as one example.  
 
@@ -121,6 +121,11 @@ Indeed, it's a thing.
 
 - The [Digital Signal Processing Primer](https://amzn.to/4dIAbNF) has been languishing in my cart for a few years, as has [Hamming's Digital Filters](https://amzn.to/4gZ7ejx) book.
 
+- (21 Feb 2026) [Ken Wessen wrote an excellent online book](https://thewessens.net/synthbook/) that introduces subtractive synthesis using WebAudio + the [Teensy Audio library](https://www.pjrc.com/teensy/td_libs_Audio.html), which is a popular alternative for digital synth building.
+    - Pair it with the [gingoduino music theory library](https://github.com/sauloverissimo/gingoduino) 
+
 # Ableton Live
 
 If you can't beat 'em, join 'em.  [Notes]({{ site.baseurl }}{% post_url 2025-01-27-Intro-to-EDM-101 %}) There's nothing really text-based about this, but under the hood the projects are just XML files which you can parse if you like. 
+
+ 
