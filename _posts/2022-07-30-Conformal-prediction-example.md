@@ -53,7 +53,7 @@ Show[data, predictions, conformancePlot]
 
 ![0hhefc7ct9yuf](/blog/images/2022/7/30/0hhefc7ct9yuf.png)
 
-Given a conformance function, S, the *conformal predictio*n gives a score by computing the rank of conformance at the point of interest among all possible scores at the samples.  Think about this in the following way:  Suppose we add some new point (x,y) to the training data and retrain the model, obtaining some new optimized parameters *w*.  With these optimized parameters, we can ask the rank that this new point would have relative to the existing points.  An extreme rank would suggest it is quite unlikely.  In practice this defines an interval around the predictions.
+Given a conformance function, S, the *conformal prediction* gives a score by computing the rank of conformance at the point of interest among all possible scores at the samples.  Think about this in the following way:  Suppose we add some new point (x,y) to the training data and retrain the model, obtaining some new optimized parameters *w*.  With these optimized parameters, we can ask the rank that this new point would have relative to the existing points.  An extreme rank would suggest it is quite unlikely.  In practice this defines an interval around the predictions.
 
 ```mathematica
 conformal[x0_, y0_][x_, y_] := With[

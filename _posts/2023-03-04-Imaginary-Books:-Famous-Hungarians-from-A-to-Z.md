@@ -6,7 +6,7 @@ tags: imaginary-books children
 
 **Premise:** A children's picture book with short biographies of famous Hungarians, with an emphasis on mathematics, science, engineering (but with occasional pop-culture figures to liven things up). Inspired by discussions with [Chris Görog](https://www.linkedin.com/in/chrisgorog/) about the *Erziehung* of his children.  **Entries to include...**
 
-- [Asboth, Oskar](https://en.wikipedia.org/wiki/Oszkár_Asboth) (1891-1960) Inventor of the Helicoper
+- [Asboth, Oskar](https://en.wikipedia.org/wiki/Oszkár_Asboth) (1891-1960) Inventor of the Helicopter
 - [Biro, Laszlo](https://en.wikipedia.org/wiki/László_B%C3%ADró) (1899-1985) Inventor of the modern ballpoint pen
 - **C**
 - **D**

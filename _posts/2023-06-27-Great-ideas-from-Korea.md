@@ -58,5 +58,5 @@ Business and art ideas inspired by my recent trip to Korea...
 - chinese/korean character LED backlit pushbuttons on synthesizers
 - incense vending machine (with altar where you can light incense to Buddha, etc.)
 - K-pop videos, but with chiguiros
-- airsoft target range in an empty retail storefront somewhere with high tourist foot-traffic. No human silloutes, only targets
+- airsoft target range in an empty retail storefront somewhere with high tourist foot-traffic. No human silhouettes, only targets
 - book on the lives of the Korean martyrs, and what western Christians can learn from their examples (specifically:  a lay-lead program of evangelization and catechesis, dedication, ...)

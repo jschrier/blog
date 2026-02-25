@@ -7,7 +7,7 @@ tags: imaginary-cinema art
 
 Benjamin ("Ben") Hur is a lawyer for a real-estate mogul, loosely based on [Donald J. Trump](https://en.wikipedia.org/wiki/Donald_Trump).  They went to private school together and have enjoyed many adventures out in the big city during their youth.  The Mogul is back from [Wharton](https://en.wikipedia.org/wiki/Wharton_School_of_the_University_of_Pennsylvania) and wants to make make a big real-estate development in the [Lower East Side](https://en.wikipedia.org/wiki/Lower_East_Side) and tries to get Ben-Hur to help him in some shady coercive evictions.  Ben Hur, being an honorable man, declines.
  
-Shortly afterwards, Ben Hur and the Mogul are at a club (loosely based on [Studio 54](https://en.wikipedia.org/wiki/Studio_54)).  During a big cocaine (or tax-evasion?) bust, the Mogul accuses Ben Hur of comlicity to avoid being tarnished, and Ben Hur is sent to  [Rikers Island](https://en.wikipedia.org/wiki/Rikers_Island) (instead of a Roman prison galley.)
+Shortly afterwards, Ben Hur and the Mogul are at a club (loosely based on [Studio 54](https://en.wikipedia.org/wiki/Studio_54)).  During a big cocaine (or tax-evasion?) bust, the Mogul accuses Ben Hur of complicity to avoid being tarnished, and Ben Hur is sent to  [Rikers Island](https://en.wikipedia.org/wiki/Rikers_Island) (instead of a Roman prison galley.)
 
 On the way, he is offered mercy by [Dorothy Day](https://en.wikipedia.org/wiki/Dorothy_Day). (Or maybe [Mychal Judge](https://en.wikipedia.org/wiki/Mychal_Judge))
 

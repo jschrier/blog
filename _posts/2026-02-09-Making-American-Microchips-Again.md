@@ -1,7 +1,7 @@
 ---
 title: "Making American Microchips Again"
 date: 2026-02-09
-tags: autodidact diy electronics nyc
+tags: autodidact diy electronics nyc sonnet46
 ---
 
 Following up on our [Make America Make Again]({{ site.baseurl }}{% post_url 2025-02-17-Make-America-Make-Again %}) post on manufacturing, **what about learning to make microchips?...**
@@ -19,11 +19,15 @@ Following up on our [Make America Make Again]({{ site.baseurl }}{% post_url 2025
 
 - [Maricopa Community College (in Arizona)](https://info.maricopacorporate.com/semiconductor) has a 10-day semiconductor technician quickstart course.  (roughly $400)
 
+- [NNCI](https://nnci.net/) (National Nanotechnology Coordinated Infrastructure) is an NSF-funded network of 16 open-access nanofabrication user facilities at universities across the country. Good way to find a real cleanroom near you.
+
 # In-Person (NY)
 
 - [NY Creates](https://ny-creates.org/) --- based in Albany has a series of [workforce development](https://ny-creates.org/workforce-development/) programs around semiconductor manufacture. (I've put my name on the [Faculty Technical Development Workshop](https://ny-creates.org/workforce-development/faculty-technical-workshops/) mailing list for a few months, but haven't heard anything)
 
 - [NORDTECH](https://www.nordtechub.org/) (Northeast Regional Defense Technology Hub) is, despite its name, focused on microelectronics rather than exothermic reactions. Consortium of universities and industry (and BNL) [facilities](https://www.nordtechub.org/facilities), mostly in New York.
+
+- [Cornell CNF](https://www.cnf.cornell.edu/) (Cornell NanoScale Science and Technology Facility) is part of NNCI and accepts ~50% external users. Their [Technology and Characterization at the Nanoscale short course](https://www.cnf.cornell.edu/education/tcn) runs twice yearly: a virtual January edition ($120 flat) and an in-person June edition in Ithaca ($425 academic rate, free for non-Cornell US grad students via NSF subsidy).
 
 # In-Person (NYC)
 
@@ -32,4 +36,6 @@ Following up on our [Make America Make Again]({{ site.baseurl }}{% post_url 2025
 
 # Parerga and Paralipomena
 
-- Having watched a bunch of these videos, it is truly amazing. There is a pinacle of humanity's achievements in chemsitry, optics, and physics that is required. 
+- Having watched a bunch of these videos, it is truly amazing. There is a pinnacle of humanity's achievements in chemistry, optics, and physics that is required.
+
+- [Sam Zeloof](https://sam.zeloof.xyz/) made working ICs in his parents' garage in NJ — a PMOS differential amplifier in 2018, then a 1200-transistor chip in 2022 — using repurposed 1970s equipment and extensively documented everything. 

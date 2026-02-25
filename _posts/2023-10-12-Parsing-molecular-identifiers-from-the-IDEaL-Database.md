@@ -623,7 +623,7 @@ Lookup["formula"]@Select[AssociationQ]@inconsistencies
 (*{"C35H57N5", "C23H9N5", "C22H20N6O", "C15H19N7O2", "C35H23N7O12S4", "C24H18N7"}*)
 ```
 
-**Comment:**   Only #4 has a chemdraw file consistent with the molecular formula, but give all the other discrepancies I think this should be 
+**Comment:**   Only #4 has a chemdraw file consistent with the molecular formula, but given all the other discrepancies I think this should be investigated further. 
 
 #### Investigating other problems
 

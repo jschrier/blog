@@ -140,7 +140,7 @@ Export["sonification04.mp3", %]
 
 ## Sonification 4b:  Closer tones
 
-**Idea:** A neat trick with sine oscillators is the beating and interference patterns they form.  So instead let us use that as a basis. Suppose all 8 rows span 1 octave:  each row is a note, but within the row we have a subdivision until the next note.  This should lead us to have lots of beating early on and then start to pick out individual sounds.  This sounds like a demented [Edgard Vare'se](https://en.wikipedia.org/wiki/Edgard_Varése) to my ear...there are some interesting modulations, but it is still too sonically crowded.  And perhaps 1 second is too long for each move to occupy sonically: 
+**Idea:** A neat trick with sine oscillators is the beating and interference patterns they form.  So instead let us use that as a basis. Suppose all 8 rows span 1 octave:  each row is a note, but within the row we have a subdivision until the next note.  This should lead us to have lots of beating early on and then start to pick out individual sounds.  This sounds like a demented [Edgard Varèse](https://en.wikipedia.org/wiki/Edgard_Varése) to my ear...there are some interesting modulations, but it is still too sonically crowded.  And perhaps 1 second is too long for each move to occupy sonically: 
 
 ```mathematica
 divisions[start_] := Subdivide[start, 2*start, 8]

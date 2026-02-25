@@ -12,7 +12,7 @@ I saw a fascinating talk by [Daniel Hummer](https://scholar.google.com/citations
 
 # Mineral Ecology (2015)
 
-**minerals** are solid, naturally occuring cyrstalline substances with well-defined chemical and atomic structure
+**minerals** are solid, naturally occurring crystalline substances with well-defined chemical and atomic structure
 
 **mineral ecology** is the large scale pattern of distribution in space and time
 
