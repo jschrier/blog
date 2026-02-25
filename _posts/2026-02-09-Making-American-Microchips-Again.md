@@ -1,7 +1,7 @@
 ---
 title: "Making American Microchips Again"
 date: 2026-02-09
-tags: autodidact diy electronics nyc
+tags: autodidact diy electronics nyc opus46
 ---
 
 Following up on our [Make America Make Again]({{ site.baseurl }}{% post_url 2025-02-17-Make-America-Make-Again %}) post on manufacturing, **what about learning to make microchips?...**
