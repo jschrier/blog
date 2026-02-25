@@ -11,8 +11,7 @@ tags: art imaginary-syllabi sculpture teaching
 
 - History of gongshi, etc.
 - Aesthetic theories of gongshi
-    - Gongshi as a subject for painting, including [contemporary movements](https://intellectdiscover.com/
-content/journals/10.1386/jcca.1.2-2.215_1)
+    - Gongshi as a subject for painting, including [contemporary movements](https://intellectdiscover.com/content/journals/10.1386/jcca.1.2-2.215_1)
     - Gongshi as a proto-[readymade](https://en.wikipedia.org/wiki/Readymades_of_Marcel_Duchamp), with reference back to Duchamp's art meta-project of curation and taste
     - How does this relate to generative AI as a natural process that creates items that are human-curated and modified?
     - 

@@ -8,7 +8,7 @@ Inspired by a [tweet from John Carlos Baez](https://twitter.com/johncarlosbaez/s
 
 ```mathematica
 NMaximize[{-p . Log[2, p], (*maximize the entropy = -\sum_i p_i log(p_i) *)
-   Total[p] == 1 && p . Range[6] == 5}, (*subject to contraints*)
+   Total[p] == 1 && p . Range[6] == 5}, (*subject to constraints*)
   p \[Element] Cuboid[{0, 0, 0, 0, 0, 0}, {1, 1, 1, 1, 1, 1}]] (*in this domain*)
 
 ```
@@ -25,7 +25,7 @@ The warning [is a consequence of the way numerical maximization is performed; it
 
 ```mathematica
 NMaximize[{Re[-p . Log[2, p]],(*maximize the entropy*)
-   Total[p] == 1 && p . Range[6] == 5},(*subject to contraints*)
+   Total[p] == 1 && p . Range[6] == 5},(*subject to constraints*)
   p \[Element] Cuboid[{0, 0, 0, 0, 0, 0}, {1, 1, 1, 1, 1, 1}]](*in this domain*)
 
 
@@ -58,7 +58,7 @@ NMaximize[{-Re[p . Log[2, p]],(*restrict to reals*)
 (*{1.97283, {p -> {0.0205324, 0.0385354, 0.0723234, 0.135737, 0.254752, 0.47812}}}*)
 ```
 
-But searching in the simplex is unnecessary.  You can just specify that p is a 6-dimensional positive vecotr and use the `Total` constraint to find the optimal solution.
+But searching in the simplex is unnecessary.  You can just specify that p is a 6-dimensional positive vector and use the `Total` constraint to find the optimal solution.
 
 ```mathematica
 NMaximize[{Re[-p . Log[2, p]], 

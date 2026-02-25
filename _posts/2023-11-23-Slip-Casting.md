@@ -15,7 +15,7 @@ I've never understood the fascination with pottery wheels---it seems labor inten
 A great discovery that I made during this exploration was the [VanTiki youtube channel](https://www.youtube.com/@vantikistudio).  Who knew that you could [make a small business out of custom tiki mugs](https://vantiki.com)?  But in addition, he has a great series of explanations
 
 - [How Slipcasting Works](https://www.youtube.com/watch?v=2tU6sBD9r_I) (19:20) -- clear explanation of the process at a microscopic and macroscopic level
-    - Part of the [Ceramic and Slip Casting How ToPlaylist](https://youtube.com/playlist?list=PLVz2HhcJdyqhu-FK2MizsomT6AWiT-Dvm&si=csjNH-t1yviOIhD0) which provides an overveiw of making slip, the above video, and mold making
+    - Part of the [Ceramic and Slip Casting How ToPlaylist](https://youtube.com/playlist?list=PLVz2HhcJdyqhu-FK2MizsomT6AWiT-Dvm&si=csjNH-t1yviOIhD0) which provides an overview of making slip, the above video, and mold making
     - He's also got a super detailed, multi-hour 7 part series on making a slipcast mug from start to production. [Start here...](https://www.youtube.com/watch?v=JX84i2L2d5k&t=14s)
 
 # Just want to try the process?
@@ -25,7 +25,7 @@ A great discovery that I made during this exploration was the [VanTiki youtube c
 # But what about 3d-printing?
 
 - You can use your FDM printer to make the postives for your slipcasting projects!
-    - [Example of making a positive then casting in plaster](https://claybucket.com/3d-printed-and-slipcast-cup/) --- one thing that is important is to sand your positive model to get rid of the layer lines; you can also spray with laquer/polyurethane for additional smoothing 
+    - [Example of making a positive then casting in plaster](https://claybucket.com/3d-printed-and-slipcast-cup/) --- one thing that is important is to sand your positive model to get rid of the layer lines; you can also spray with lacquer/polyurethane for additional smoothing 
 - Or even cooler---you can make a mold for the plaster directly(!)—just make the design, along with the indexing notches and be done with it; no need for cottle boards, etc. 
     - [Example mug](https://community.ceramicartsdaily.org/topic/37386-3d-printing-for-plaster-molds/)---print an exterior form into which you pour the plaster which will form the typical two part mold.
     - [Example ear cup mug](https://www.instructables.com/3D-Printing-a-Mold-for-a-Mold/) --- the idea here to to make a cylindrical vase-mode style mold into which you will pour the plaster; print without top and bottom. In the end, you destroy the 3d print to release the plaster.  

@@ -7,7 +7,7 @@ tags: music analog electronics youtube autodidact
 
 Prof. Aaron Lanternman (GATech) has some wonderful youtube videos for his electrical engineering courses on [Guitar Amplification and Effects](https://youtube.com/playlist?list=PLOunECWxELQS7JV_KeeTJJpgGjOftoaAH&si=IN01nOACMy-fcZIm) and [Analog Circuits for Music Synthesis](https://youtube.com/playlist?list=PLOunECWxELQS5bMdWo9VhmZtsCjhjYNcV&si=HSB849ZHMTS6vLNW)...  
 
-Both of these have a intro to EECS circuits course.  Lanternman explicitly mentions [Prof. Bonny Ferri's coursera courses as serving thsi role](https://www.coursera.org/instructor/bferri).  But he also flips through [Meresau and Jackson's, Circuit Analysis](https://amzn.to/4cppr6Y) textbook in a video, so I'll take that as an implicit recommendation.
+Both of these have a intro to EECS circuits course.  Lanternman explicitly mentions [Prof. Bonny Ferri's coursera courses as serving this role](https://www.coursera.org/instructor/bferri).  But he also flips through [Meresau and Jackson's, Circuit Analysis](https://amzn.to/4cppr6Y) textbook in a video, so I'll take that as an implicit recommendation.
 
 [On his blog, Lanterman recommends](https://edupocalypsenow.wordpress.com/2014/10/12/observations-about-courseras-fundamentals-of-ee-by-don-johnson/) [Don Johnson's Fundamentals of Electrical Engineering](https://www.ece.rice.edu/~dhj/courses/elec241/) --- going so far as to call it the 'SICP of Electrical Engineering'
 
