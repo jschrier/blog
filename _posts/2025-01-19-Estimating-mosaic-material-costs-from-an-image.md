@@ -156,3 +156,7 @@ Each query for a 517x800 BMP costs about 5 cloud credits  (so ~10 queries  costs
 ToJekyll["Estimating mosaic material costs from an image", 
   "art mathematica"]
 ```
+
+# Parerga and Paralipomena
+
+- (Feb 2026) To try to learn more about vibe coding, I tried implementing this as an HTML5 app using [Open AI codex (one shot it)](https://github.com/jschrier/mosaic_app) and [Claude Code (with an initial plan mode)](https://github.com/jschrier/claude_mosaic_app) (also in the hope of adding some additional features). Neither quite gets the color quantization correct.
