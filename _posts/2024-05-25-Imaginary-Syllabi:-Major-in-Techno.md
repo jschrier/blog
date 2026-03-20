@@ -60,3 +60,7 @@ tags: imaginary-syllabi teaching music
     - [Catalyst Music School in Berlin has a BA. Hon (UK-style 3-year bachelor) program in electronic music](https://catalyst-berlin.com/music/course/electronic-music-production-performance)
     
 
+# Fordham connection
+
+- [Kavita Kulkarni](https://www.kavita-kulkarni.com/bio) has written  *Syncopated Utopias: On Race, Place, and House Music* a media ethnography and collection of oral histories of house music and racialized gentrification in Fort Greene, Brooklyn in the 1990s through the early 2000s
+.
