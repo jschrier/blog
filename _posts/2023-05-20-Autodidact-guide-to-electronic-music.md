@@ -107,6 +107,14 @@ Alternatively [tidalcycles](https://sonic-pi.net) is a Haskell-based domain spec
 
 - (15 July 2024) [Glicol](https://glicol.org) is a minimalist programming language for music generation, designed for live coding.  Really slick: You specify a graph, not unlike modular synthesis. Has built-in oscillators and filters.  Specifying notes and duration is not so clear in the tutorial, but a [youtube video](https://www.youtube.com/watch?v=LA78okAHtlM&list=PLT4REhRBWaOOrLQxCg5Uw97gEpN-woo1c&index=2) and the [author's GPT-4 prompt](https://github.com/chaosprint/glicol/discussions/125) help clarify some of this. 
     
+# Loopmaster
+
+- (02 Apr 2026) [Loopmaster](https://loopmaster.xyz) is a web-based synthesis programming language for live coding. Some neat visualizations. Code makes extensive use of pipes/function composition, with python-like arrays
+
+```
+saw(440) |> lp($) |> tube($) |> out($)
+```
+
 # Digital Signal Processsing
 
 - (03 Oct 2024) [Jonathan Dubois](https://scholar.google.com/citations?user=0WXE25AAAAAJ&hl=en&oi=ao) asks: *I do have a dumb question about analog synthesizers though..  Aside from the cool factor of actual analog, where are the open source digital patch panels?  it doesnt seem like it should be that hard to compute pretty much anything you want in real time.* 
