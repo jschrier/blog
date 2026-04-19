@@ -45,5 +45,5 @@ We will likely have to do some metal casting...(aluminum would be great for cost
 
 # Fordham-related notes
 
-- Could count for "New York City Experience"?
+- Could count for "New York City Experience" in the new core curriculum?
 

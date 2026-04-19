@@ -39,3 +39,5 @@ Following up on our [Make America Make Again]({{ site.baseurl }}{% post_url 2025
 - Having watched a bunch of these videos, it is truly amazing. There is a pinnacle of humanity's achievements in chemistry, optics, and physics that is required.
 
 - [Sam Zeloof](https://sam.zeloof.xyz/) made working ICs in his parents' garage in NJ — a PMOS differential amplifier in 2018, then a 1200-transistor chip in 2022 — using repurposed 1970s equipment and extensively documented everything. 
+
+- (22 Mar 2026) [Vibecoding a RISC-V tapeout](https://blog.adafruit.com/2026/03/22/prompt-to-tape-out-autonomous-ai-agent-builds-1-5-ghz-risc-v-cpu/)
