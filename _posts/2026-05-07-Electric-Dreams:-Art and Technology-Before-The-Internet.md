@@ -45,14 +45,13 @@ A modern take might be to use the [BBP algorithm](https://en.wikipedia.org/wiki/
 
 # Vladimir Bonačić (pp. 124-125)
 
-[Galois fields](https://en.wikipedia.org/wiki/Finite_field) visualized with moving lights with custom hardware---a rejection of randomness: "“I am especially sceptical of the attempts to produce computer art through play with randomness and the deliberate intro­ duction of errors in programs prepared for non­artistic pur­poses"
+[Galois fields](https://en.wikipedia.org/wiki/Finite_field) visualized with moving lights with custom hardware---a rejection of randomness: "I am especially sceptical of the attempts to produce computer art through play with randomness and the deliberate intro­ duction of errors in programs prepared for non­artistic pur­poses"
 
 - [Video of DIN. GF100 V.b. 1969](https://www.youtube.com/watch?v=Qw764twB0CM)
 - [hour long lecture/panel on Bonačić (2011) *auf deutsch*](https://zkm.de/en/media/videos/vladimir-bonacic-bcd-cyberneticart-team-cyberneticart)
 
 - Article: "Kinetic Art: Application of Abstract Algebra to Objects with Computer-Controlled Flashing Lights and Sound Combinations" (Leonardo, 1974) [pdf](https://monoskop.org/images/c/c4/Bonacic%2C_Vladimir_%281974%29_-_Kinetic_Art.pdf) in which he describes his notional construction of 32x32 lights, and constructions where the lights are mapped onto audio tones.
-
-- [Notes towards implementation](http://reference.wolfram.com/language/guide/FiniteFields.html)---*frankly, this is an area of mathematics I don't understand well enough to try to implement*
+  - [Notes towards implementation](http://reference.wolfram.com/language/guide/FiniteFields.html)---*frankly, this is an area of mathematics I don't understand well enough to implement*
 
 # Vera Molnár (pp. 126-127 )
 
@@ -81,12 +80,13 @@ https://www.rightclicksave.com/article/an-interview-with-frieder-nake): comments
     - [Modwiggler thread on plans](https://www.modwiggler.com/forum/viewtopic.php?t=52490)...very few are still operational and they are hard to reconstruct now because of some odd parts. ONe that is still operational in Chicago has a [users manual](https://jameshconnolly.com/sandin-ip-doc.html)
 
 - His later *Beck Video Weaver (1974)* [was digital](https://www.vasulka.org/archive/eigenwelt/pdf/122-125.pdf)...made out of 60x 7400 TTL logic circuits (which he recreated in 1992 with two ASICs)
-  - [Video Weaving (1976)](https://www.youtube.com/watch?v=EjX8aCRQ8Ms) (as a video, still shwon in book), with original groovy jazz background music. Makes sense that this is digital when you watch it, but this isn't obvious in the book's image
+  - [Video Weaving (1976)](https://www.youtube.com/watch?v=EjX8aCRQ8Ms) (as a video, still shown in book), with original groovy jazz background music. Makes sense that this is digital when you watch it, but this isn't obvious in the book's image
   - [Wikipedia: Video Synthesizer](https://en.wikipedia.org/wiki/Video_synthesizer) tries to put this in context with other developments...such as the [Atari Video Synthesizer](https://en.wikipedia.org/wiki/Atari_Video_Music).  
+  - Would be fun to recreate this as a [Tiny Tapeout project]({{ site.baseurl }}{% post_url 2026-02-09-Making-American-Microchips-Again %})
 
 # Garnet Hertz, "Art + DIY Electronics" (2023) (p. 165)
 
-- [book](https://amzn.to/48JSVwW)...ties together [Survival Research Lab](https://www.srl.org) and [Nam Jun Paik](https://www.paikstudios.com)
+- [book](https://amzn.to/48JSVwW)...ties together [Survival Research Lab](https://www.srl.org) and [Nam Jun Paik](https://www.paikstudios.com), but seems more like an art criticism and history book than a how-to manual.
 
 # Suzanne Treister (pp. 204-215)
 
