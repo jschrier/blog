@@ -106,4 +106,6 @@ https://www.rightclicksave.com/article/an-interview-with-frieder-nake): comments
 
 - [LZX Industries](https://lzxindustries.net) carrying on the mantle of modular video synthesis ala the Sandin Image Processor (and cheaper FPGA video synth in a box )
 
-- [WaveFarm](https://wavefarm.org/ta/about) (in Acra NY...outside Hudson, NY) is dedicated to transmission art
+- [WaveFarm](https://wavefarm.org/ta/about) (in Acra NY...outside Hudson, NY) is dedicated to transmission art.
+
+- The book leaves out [Herbert Franke]({{ site.baseurl }}{% post_url 2024-04-06-Herbert-Franke %})

@@ -204,3 +204,6 @@ One way to print these without support is to make them stackable separate object
 ```mathematica
 ToJekyll["Computational Sculpture: After Herbert Bayer, part 1", "sculpture santafe 3dprinting art llm"]
 ```
+# Parerga and Paralipomena
+
+- (22 May 2026) [Recent advances in LLMs and harnesses have gotten quite good at reproducing objects from photographs (in OpenSCAD)](https://news.ycombinator.com/item?id=48234090), so this may be worth revisiting...

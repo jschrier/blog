@@ -132,6 +132,8 @@ Indeed, it's a thing.  And you're basically right.
 - (21 Feb 2026) [Ken Wessen wrote an excellent online book](https://thewessens.net/synthbook/) that introduces subtractive synthesis using WebAudio + the [Teensy Audio library](https://www.pjrc.com/teensy/td_libs_Audio.html), which is a popular alternative for digital synth building.
     - Pair it with the [gingoduino music theory library](https://github.com/sauloverissimo/gingoduino) 
 
+- (23 May 2026) [AMYBoard](https://www.amyboard.com) looks promising. $30 for an ESP-based, python programmable system with all the typical modular synth/eurorack affordances, (but also easy to hook up I2C peripherals) and a powerful synthesis library.  The [web based simulator and config](https://www.amyboard.com/editor/) is a neat feature---do it all in a web-browser without even buying any hardware. Program synths, effects, etc.
+
 # Ableton Live
 
 If you can't beat 'em, join 'em.  [Notes]({{ site.baseurl }}{% post_url 2025-01-27-Intro-to-EDM-101 %}) There's nothing really text-based about this, but under the hood the projects are just XML files which you can parse if you like. 
