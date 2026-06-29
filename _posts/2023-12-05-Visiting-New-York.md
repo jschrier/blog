@@ -13,7 +13,9 @@ tags: travel nyc
 
 For anything less than a mile...it is faster to walk than to take any type of transportation. 
 
-You can use any "tap"-capable credit card to take buses and subways.  Just do that.  Google Maps is a reliable guide to trains and buses; ask for transit directions. 
+You can use any "tap"-capable credit card to take buses and subways.  Just do that.  
+
+Google Maps is a reliable guide to trains and buses; ask for transit directions. 
 
 Cabs are generally cheaper than Ubers.  
 
@@ -62,6 +64,8 @@ Of course the [Blue Note](https://www.bluenotejazz.com/nyc/) and [Village Vangua
 - [Jazz Vespers at St. Peter's Church](https://www.saintpeters.org/jazz): 5pm on Sunday evenings in Midtown.
 - [Hot Club](https://hotclubny.org); historic (1910-1950s) shellac jazz records, played M 7:30-10:30 in the Flatiron district (with sporadic other events). BYOB.  Read the [NYTimes article Oct 2025](https://www.nytimes.com/2025/10/29/arts/music/hot-club-of-new-york-jazz-78s.html)   
 - [Secret Parlor Jazz](https://www.eventbrite.com/e/secret-parlor-jazz-home-cooked-tunes-bbq-dinner-on-the-upper-east-side-registration-1563361348879) -- a home cooked meal, a glass of wine, and piano jazz, in the Upper East side apartment on a Sunday afternoon.
+- [Jazz Genius](https://maps.app.goo.gl/bUq946kvoAYcBUKw7) (SOHO)
+- [Jazz Cultural](https://www.jazzcultural.com) -- [W46th street, near times square](https://maps.app.goo.gl/d6eVP669P6cNSJWr7). What's cool is that they open the cafe/bar at noon, and typically have (free) jams at 2pm. $25 seats at the bar and $40 seats in the studio for shows at 7 & 10pm, and organ Wednesdays.
 
 Find out what is playing:
 - [Daily live jazz listings](http://jazz-nyc.com): no frills, but you can find out what's happening and where
@@ -88,7 +92,7 @@ It is estimated that you could eat out for breakfast, lunch, and dinner at a dif
 Nobody goes to Times Square, because it is too crowded with tourists.  But...
 
 - [Eater NYC 2024 guide to Times Square](https://ny.eater.com/maps/best-restaurants-times-square-nyc) -- arguably some of these places are more like Rockefeller Center/Theater district, so the distinction is not so clear from the Midtown East above  
-- [All'Antico Vinaio](https://maps.app.goo.gl/48DxuFYqvfPQCvs7A)-- hole in the wall Florentine sandwich spot in Times Square. 
+- [All'Antico Vinaio](https://maps.app.goo.gl/48DxuFYqvfPQCvs7A)-- hole in the wall Florentine sandwich spot in Times Square, which has since expanded to half a dozen spots across Manhattan (near GCT, midtown East, etc.).  They sometimes have a nice afternoon apperitivo (half sandwich + wine/spritz offer). 
 
 ### Flatiron/NOMAD-ish
 
@@ -105,7 +109,6 @@ Nobody goes to Times Square, because it is too crowded with tourists.  But...
 
 - There's a little Japan neighborhood near St. Mark's place.  Plenty of Udon, Japanese BBQ, etc. places to choose from, and hard to go wrong.
 - [Dolar Shop](https://maps.app.goo.gl/B5pmdwGSjucQidxq9) chinese hot pot
-- [So do fun](https://maps.app.goo.gl/75nm6XVEoZp51kf58) szechuan chain (from China) first US outpost, but maybe they have changed owners recently?
 - [Harbs](https://maps.app.goo.gl/P1RV2gBt6Bh3wiFw9) Japanese western-style cakes.  The location in Chelsea closed(?) but this one is still open.
 - [Kisa](https://ny.eater.com/2024/7/10/24193199/kisa-lower-east-side-review) (Allan & Houston) --- Korean taxi driver food (*kisa sadang*) sounds interesting and good, but I've never been
 
@@ -133,8 +136,7 @@ Nobody goes to Times Square, because it is too crowded with tourists.  But...
 - Obviously you go to the [Metropolitan Museum](https://www.metmuseum.org/) which is arguably the finest art museum in the USA (dare I say, the world).  But many visitors overlook the [Met Cloisters](https://maps.app.goo.gl/S7tN9RqMu2rCRVwR9) in Inwood---Rockefeller bough a bunch of medieval castles and monasteries...disassembled them...and reassembled them here, filled them with art, and then bought the land on the opposite side of the river (now Palisades park) so that it wouldn't be developed and ruin the view. Especially nice in the Spring and early Summer, when the gardens are open.
 - And while you're up there, go to the [Hispanic Society](https://hispanicsociety.org)---a free museum of art of Spain, Portugal, and Latin America. Excellent collection of El Greco's and Sarollas.
 - [Poster House](http://www.posterhouse.org/) *Chelsea-ish*, nice collection of posters and graphic design, exhibits change every 3-4 months. The cafe is nice too.
-- [Fotografiska](https://www.fotografiska.com/nyc/) *NOMAD*.  Check the exhibits, sometimes quite excellent (the [David LaChapelle show was amazing](https://www.fotografiska.com/nyc/david-lachapelle/)).  If you go, be sure to have a drink at the bar, which is quite classy. **UPDATE Feb 2025:  CLOSED**
-- Anyone can walk into [Christy's Auction House](http://www.christies.com/) *Rockefeller Center* and admire the art. Just walk in and act like you own the place, while wearing a bowtie. 
+- Anyone can walk into [Christy's Auction House](http://www.christies.com/) *Rockefeller Center* and admire the art. Just walk in and act like you own the place, while wearing a bowtie. Same goes with the new [Soetheby's](https://www.sothebys.com/en/about/locations/new-york) in the old Whitney/Met Breuer building
 - [Morgan Library](https://www.themorgan.org/) *midtown/nomad/curry hill* --- works on paper and interior design.  Free on the Friday evenings, but you have to reserve a ticket ahead of time.
 - [Society of Illustrators](https://maps.app.goo.gl/bqEj6XVHCsKjZupR8) *midtown east* -- excellent rotating exhibits, with a rooftop bar.
 - [Drawing Center](https://maps.app.goo.gl/1xu1n1BwW3kAJWUKA) *soho/chinatown* -- also excellent rotating exhibits. Free.
@@ -150,6 +152,15 @@ Nobody goes to Times Square, because it is too crowded with tourists.  But...
 - [Bushwick](https://www.nyctourism.com/new-york/brooklyn/bushwick/): Be sure to stop by [Jupiter Disco](https://maps.app.goo.gl/wk8fVBKoQqr9tsYt5) for drinks and electronic music and/or [Tabare](https://maps.app.goo.gl/kqZHviBGAaw2xSdA9) for Uraguayan food.  [Niteglow brewery](https://maps.app.goo.gl/PaZtRD4X7PWgRT1h8) does those crazy [Czech all-foam mliko pours](https://www.nytimes.com/2025/01/16/dining/drinks/mliko-czech-beers.html)
 - Bed Stuy:  I typically only come here to go to [Wonderville (a hipster indie videogame bar)](https://maps.app.goo.gl/vMXdrC5UheDQztX26) for [Electronic Music meetups](https://www.meetup.com/brooklyn-experimental-electronic-music-meetup/) (typically the last Thursday of the month, but somewhat irregular...)
 
+## Beach day
+
+NYC can be overwhelming for first time visitors.  If you feel like you need a beach day, bring your bathing suit and a towel to go to some of NYC's public (free) beaches, accessible by mass transit:
+
+- [Coney Island](https://maps.app.goo.gl/ozAooUbvRGE2HHyW7) (via subway)--- [Wikipedia](https://en.wikipedia.org/wiki/Coney_Island).  Amusement park, Nathan's hot dogs, fireworks every friday night during the summer.  If you get bored, walk over to Brighton Beach and eat some Russian food. (I've had some excellent lamb dishes as [Omar Khayyam](https://maps.app.goo.gl/BXmm7yn9DwNKvtkBA))
+
+- [Rockaway Beach](https://maps.app.goo.gl/DT4K9fnsctdVuaFs6) (ideally by [ferry](https://www.ferry.nyc/routes-and-schedules/rockaway-soundview/) which offers great views of Manhattan and Brooklyn waterfronts along the way, but you can also get there by subway). [Home of the Ramones.](https://nysmusic.com/2025/02/05/new-york-series-the-ramones-rockaway-beach/) Much chiller vibe than Coney Island. The [Rockaway Beach Hotel rooftop](https://maps.app.goo.gl/xRxkCfiRoziUHgJS6) has stunning views both inland (towards Manhattan and JFK airport) and outward (to the Atlantic Ocean)
+
+- [City Island](https://maps.app.goo.gl/ovFo9cSwQYBS8ih27) (via Bus/subway) --- no real "beach" opportunities (its mostly yacht clubs) unless you make a detour to [Ocean Beach](https://maps.app.goo.gl/57EhjMcaMYfBywDE9), but some good eating and small-town New England vibes. [Sammy's](https://maps.app.goo.gl/iDTMtud5h8fcWpTi6) is an institution. 
 
 ## Keep up on the latest
 
