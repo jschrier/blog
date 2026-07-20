@@ -4,7 +4,7 @@ date: 2026-07-20
 tags: imaginary-syllabi science gpt5
 ---
 
-**Premise:  A semester-long course on the science and history of barbecue...**
+**Premise:**  A semester-long course on the science and history of barbecue...
 
 # Learning Goals
 
