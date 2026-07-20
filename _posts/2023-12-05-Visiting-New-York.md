@@ -161,6 +161,7 @@ NYC can be overwhelming for first time visitors.  If you feel like you need a be
 - [Rockaway Beach](https://maps.app.goo.gl/DT4K9fnsctdVuaFs6) (ideally by [ferry](https://www.ferry.nyc/routes-and-schedules/rockaway-soundview/) which offers great views of Manhattan and Brooklyn waterfronts along the way, but you can also get there by subway). [Home of the Ramones.](https://nysmusic.com/2025/02/05/new-york-series-the-ramones-rockaway-beach/) Much chiller vibe than Coney Island. The [Rockaway Beach Hotel rooftop](https://maps.app.goo.gl/xRxkCfiRoziUHgJS6) has stunning views both inland (towards Manhattan and JFK airport) and outward (to the Atlantic Ocean)
 
 - [City Island](https://maps.app.goo.gl/ovFo9cSwQYBS8ih27) (via Bus/subway) --- no real "beach" opportunities (its mostly yacht clubs) unless you make a detour to [Ocean Beach](https://maps.app.goo.gl/57EhjMcaMYfBywDE9), but some good eating and small-town New England vibes. [Sammy's](https://maps.app.goo.gl/iDTMtud5h8fcWpTi6) is an institution. 
+    - You could also potentially make a detour to the [Barton-Pell Mansion](https://www.bartowpellmansionmuseum.org/visit/) on your way. 
 
 ## Keep up on the latest
 
