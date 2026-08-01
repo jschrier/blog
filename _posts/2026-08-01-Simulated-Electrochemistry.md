@@ -301,7 +301,8 @@ To go even faster, the brute force way is just to parallelize over more cores (I
 Our simulation is instructive, but quite inefficient.  As we saw in the chronoamperometric simulation, only 18% of the particles reach the electrode. Similar statistics are observed in this simulation:
 
 ```mathematica
-pContributing = (1. - #/10^5) &@Total@ParallelTable[Boole@ContainsOnly[{0}]@sweepF[v], {i, 10^5}]
+pContributing = (1. - #/10^5)&@
+  Total@ParallelTable[Boole@ContainsOnly[{0}]@sweepF[v], {i, 10^5}]
 
 (*0.135*)
 ```
@@ -375,13 +376,23 @@ ListPlot[
 
 ![0qm5j70vas3w6](/blog/images/2026/8/1/0qm5j70vas3w6.png)
 
-Quack quack! *(As an aside, the voltammogram in the generated cartoon appears to follow the US convention rather than the IUPAC convention, illustrating the US-bias of frontier AI models.)* 
+## Gratuitous GenAI content
+
+Now that we've generated our cyclic voltagram: **Quack quack!** *(As an aside, the voltammogram in the generated cartoon appears to follow the US convention rather than the IUPAC convention, illustrating the US-bias of frontier AI models.)* 
 
 ```mathematica
 ImageSynthesize["Generate a cyclic voltammetry duck"]
 ```
 
 ![0lgv4hb5divwj](/blog/images/2026/8/1/0lgv4hb5divwj.png)
+
+However: it appears [chiguiros]({{ '/tag/chiguiro' | relative_url }}) are superior because they use the IUPAC standard convention by default: 
+
+```mathematica
+ImageSynthesize["Generate a cyclic voltammetry capybara"]
+```
+
+![0wtg337mx5018](/blog/images/2026/8/1/0wtg337mx5018.png)
 
 ```mathematica
 ToJekyll["Simulated Electrochemistry", "chemistry mathematica montecarlo science teaching"]
