@@ -301,7 +301,8 @@ To go even faster, the brute force way is just to parallelize over more cores (I
 Our simulation is instructive, but quite inefficient.  As we saw in the chronoamperometric simulation, only 18% of the particles reach the electrode. Similar statistics are observed in this simulation:
 
 ```mathematica
-pContributing = (1. - #/10^5) &@Total@ParallelTable[Boole@ContainsOnly[{0}]@sweepF[v], {i, 10^5}]
+pContributing = (1. - #/10^5)&@
+  Total@ParallelTable[Boole@ContainsOnly[{0}]@sweepF[v], {i, 10^5}]
 
 (*0.135*)
 ```
