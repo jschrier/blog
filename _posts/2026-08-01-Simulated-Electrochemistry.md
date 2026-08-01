@@ -386,7 +386,7 @@ ImageSynthesize["Generate a cyclic voltammetry duck"]
 
 ![0lgv4hb5divwj](/blog/images/2026/8/1/0lgv4hb5divwj.png)
 
-However: it appears [chiguiros]({{ '/tag/chiguiro' | relative_url }}) are superior because they use the IUPAC standard convention by default: 
+However: it appears [chiguiros]({{ '/tag/chiguiro' | relative_url }}) are superior because they use the IUPAC standard convention by default...although they appear to have difficulty connecting the electrodes properly...
 
 ```mathematica
 ImageSynthesize["Generate a cyclic voltammetry capybara"]
