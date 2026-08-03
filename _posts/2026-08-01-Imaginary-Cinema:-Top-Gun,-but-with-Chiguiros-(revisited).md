@@ -4,7 +4,7 @@ date: 2026-08-01
 tags: imaginary-cinema art chiguiro gpt5
 ---
 
-**Premise:** Use Agentic AI to revisit our [earlier Imaginary Cinema experiment to remake *Top Gun*]({{ site.baseurl }}{% post_url 2024-09-28-Imaginary-Cinema:-Top-Gun,-but-with-Chiguiros %}) but with chiguiros...
+**Premise:** Use Agentic AI to revisit our [earlier Imaginary Cinema experiment to remake *Top Gun*, but with chiguiros]({{ site.baseurl }}{% post_url 2024-09-28-Imaginary-Cinema:-Top-Gun,-but-with-Chiguiros %}) ...
 
 
 ## The Experiment

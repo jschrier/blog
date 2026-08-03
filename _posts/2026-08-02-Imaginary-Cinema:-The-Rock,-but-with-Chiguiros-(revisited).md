@@ -4,7 +4,7 @@ date: 2026-08-02
 tags: imaginary-cinema art chiguiro gpt5
 ---
 
-**Premise:** Use Agentic AI to revisit [*The Rock*, but with Chiguiros]({{ site.baseurl }}{% post_url 2023-12-12-Imaginary-Cinema:-The-Rock,-but-with-Chiguiros %}): a hostage thriller on Alcatraz in which every character is a chiguiro.
+**Premise:** Use Agentic AI to revisit [*The Rock*, but with Chiguiros]({{ site.baseurl }}{% post_url 2023-12-12-Imaginary-Cinema:-The-Rock,-but-with-Chiguiros %})...
 
 ## The Experiment
 

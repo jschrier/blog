@@ -4,7 +4,7 @@ date: 2026-08-03
 tags: imaginary-cinema art chiguiro gpt5
 ---
 
-**Premise:** Use Agentic AI to revisit [*Doctor Zhivago*, but with Chiguiros]({{ site.baseurl }}{% post_url 2023-02-24-Imaginary-Cinema:-Doctor-Zhivago-but-with-Chiguiros %}) by treating its six image collages as visual source material...
+**Premise:** Use Agentic AI to revisit [*Doctor Zhivago*, but with Chiguiros]({{ site.baseurl }}{% post_url 2023-02-24-Imaginary-Cinema:-Doctor-Zhivago-but-with-Chiguiros %})...
 
 ## The Experiment
 
