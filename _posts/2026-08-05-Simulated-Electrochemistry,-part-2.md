@@ -13,14 +13,14 @@ In our [previous episode]({{ site.baseurl }}{% post_url 2026-08-01-Simulated-Ele
 ```mathematica
 Clear[cv]
 cv[v0_, time_Integer] := With[
-   {v = N@Rest@Subdivide[v0, -v0, time/2] }, 
-   Join[v, Rest@Reverse[v]]]
+   {v = N@ Rest@ Subdivide[v0, -v0, time/2] }, 
+   Join[v, Rest@ Reverse[v]]]
 ```
 
 ...and then use it to define several different one-pass cyclic voltammetry experiments:
 
 ```mathematica
-expts = cv[10., #] & /@ {60, 120, 200, 250, 400};
+expts = cv[10., #]& /@ {60, 120, 200, 250, 400};
 ListLinePlot[%, AxesLabel -> {"time", "nF(E-E')/RT"}]
 ```
 
@@ -65,6 +65,8 @@ sweepF = FunctionCompile@Function[
 
 (While we are at it, we may simplify the random number sampling by replacing our `xi/(1.+ xi)` with `1./(1.+ Exp[-vv[[t]]])`; this is algebraically equivalent, avoids the need to define the `xi` variable, and defends against a possible rounding errors should `vv[[t]]` become really large.)
 
+(Sure, we could get away with `Integer8` here, but I'm living high on the hog, profligately squandering 8 bits as if RAM was cheap...)
+
 ## How well are simulations described by the Randles-Ševčík equation?
 
 Determine the maximum distance over which to sample for all of the simulations based on the last (longest) experiment:
@@ -92,13 +94,13 @@ ListLinePlot@ MapThread[Transpose[{#1, #2}] &]@ {expts, obs}
 Extract the peak currents (using a Gaussian blurring at the scale of 5 adjacent elements in the list) in the oxidation and reduction directions:
 
 ```mathematica
-peakOxCurrent = (Last@Last@FindPeaks[#, 5]) & /@ obs
+peakOxCurrent = (Last@ Last@ FindPeaks[#, 5])& /@ obs
 
 (*{16038, 12167, 10125, 9260, 7548}*)
 ```
 
 ```mathematica
-peakRedCurrent = -(Last@Last@FindPeaks[-#, 5]) & /@ obs (*multiply by -1 to find min*)
+peakRedCurrent = -(Last@ Last@ FindPeaks[-#, 5])& /@ obs (*multiply by -1 to find min*)
 
 (*{5359, 3796, 2961, 2610, 2061}*)
 ```
@@ -108,7 +110,7 @@ The [Randles-Ševčík equation](https://en.wikipedia.org/wiki/Randles-Sevcik_eq
 ```mathematica
 Transpose[{Sqrt[rates], peakOxCurrent}];
 ModelFit[%, "Linear"]
-ListPlot[ %%, PlotFit -> %, 
+ListPlot[%%, PlotFit -> %, 
   PlotStyle -> Red, AxesLabel -> {"sqrt(scan rate)", "max current"}]
 ```
 
@@ -119,7 +121,7 @@ ListPlot[ %%, PlotFit -> %,
 ```mathematica
 Transpose[{Sqrt[rates], peakRedCurrent}];
 ModelFit[%, "Linear"]
-ListPlot[ %%, PlotFit -> %, 
+ListPlot[%%, PlotFit -> %, 
   PlotStyle -> Red, AxesLabel -> {"sqrt(scan rate)", "max current"}]
 ```
 
