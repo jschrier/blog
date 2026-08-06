@@ -65,7 +65,7 @@ sweepF = FunctionCompile@Function[
 
 (While we are at it, we may simplify the random number sampling by replacing our `xi/(1.+ xi)` with `1./(1.+ Exp[-vv[[t]]])`; this is algebraically equivalent, avoids the need to define the `xi` variable, and defends against a possible rounding errors should `vv[[t]]` become really large.)
 
-## Randles-Ševčík
+## How well are simulations described by the Randles-Ševčík equation?
 
 Determine the maximum distance over which to sample for all of the simulations based on the last (longest) experiment:
 
@@ -151,7 +151,7 @@ ListPlot[%%, PlotFit -> %,
 
 ![07ok81mur0cwu](/blog/images/2026/8/5/07ok81mur0cwu.png)
 
-## Random Chiguiro Content
+## Gratuitous Chiguiro Content
 
 [Chiguiros]({{ '/tag/chiguiro' | relative_url }}) are not very good at remembering equations:
 
@@ -164,7 +164,8 @@ ImageSynthesize["Capybara explaining the Randles-Ševčík equation"]
 But they can look things up on the internet:
 
 ```mathematica
-ImageSynthesize["Capybara explaining the following wikipedia page" <> Import["https://en.wikipedia.org/wiki/Randles-Sevcik_equation"]]
+ImageSynthesize["Capybara explaining the following wikipedia page" <> 
+  Import["https://en.wikipedia.org/wiki/Randles-Sevcik_equation"]]
 ```
 
 ![11mnwovrirkay](/blog/images/2026/8/5/11mnwovrirkay.png)
@@ -172,7 +173,9 @@ ImageSynthesize["Capybara explaining the following wikipedia page" <> Import["ht
 Remember to tell them to dress properly to deliver their lecture:
 
 ```mathematica
-ImageSynthesize["Capybara wearing a bowtie, glasses, and a tweed jacket explaining the following wikipedia page" <> Import["https://en.wikipedia.org/wiki/Randles\[Dash]Sevcik_equation"]]
+ImageSynthesize[
+  "Capybara wearing a bowtie, glasses, and a tweed jacket explaining the following wikipedia page" <>
+  Import["https://en.wikipedia.org/wiki/Randles\[Dash]Sevcik_equation"]]
 ```
 
 ![1qch9moz35osj](/blog/images/2026/8/5/1qch9moz35osj.png)
