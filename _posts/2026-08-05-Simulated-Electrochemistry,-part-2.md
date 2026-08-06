@@ -151,6 +151,33 @@ ListPlot[%%, PlotFit -> %,
 
 ![07ok81mur0cwu](/blog/images/2026/8/5/07ok81mur0cwu.png)
 
+## Random Chiguiro Content
+
+[Chiguiros]({{ '/tag/chiguiro' | relative_url }}) are not very good at remembering equations:
+
+```mathematica
+ImageSynthesize["Capybara explaining the Randles-Ševčík equation"]
+```
+
+![15o5gil6rqery](/blog/images/2026/8/5/15o5gil6rqery.png)
+
+But they can look things up on the internet:
+
+```mathematica
+ImageSynthesize["Capybara explaining the following wikipedia page" <> Import["https://en.wikipedia.org/wiki/Randles-Sevcik_equation"]]
+```
+
+![11mnwovrirkay](/blog/images/2026/8/5/11mnwovrirkay.png)
+
+Remember to tell them to dress properly to deliver their lecture:
+
+```mathematica
+ImageSynthesize["Capybara wearing a bowtie, glasses, and a tweed jacket explaining the following wikipedia page" <> Import["https://en.wikipedia.org/wiki/Randles\[Dash]Sevcik_equation"]]
+```
+
+![1qch9moz35osj](/blog/images/2026/8/5/1qch9moz35osj.png)
+
+
 ```mathematica
 ToJekyll["Simulated Electrochemistry, part 2", "chemistry mathematica montecarlo science teaching electrochem"]
 ```
