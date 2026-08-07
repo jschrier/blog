@@ -88,9 +88,7 @@ When the jobs are completed, retrieve the observed results (a vector of observed
 
 ```mathematica
 obs = jobs["EvaluationResults"];
-```
 
-```mathematica
 ListLinePlot[
   Map[Transpose[{expt, #}] &]@ obs , 
   PlotStyle -> ColorData[40, "ColorList"], 
