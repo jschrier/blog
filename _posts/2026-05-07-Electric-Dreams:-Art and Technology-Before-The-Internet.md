@@ -106,6 +106,8 @@ https://www.rightclicksave.com/article/an-interview-with-frieder-nake): comments
 
 - [LZX Industries](https://lzxindustries.net) carrying on the mantle of modular video synthesis ala the Sandin Image Processor (and cheaper FPGA video synth in a box )
 
-- [WaveFarm](https://wavefarm.org/ta/about) (in Acra NY...outside Hudson, NY) is dedicated to transmission art.
+- [WaveFarm](https://wavefarm.org/) (in Acra NY...outside Hudson, NY) is dedicated to transmission art.
 
 - The book leaves out [Herbert Franke]({{ site.baseurl }}{% post_url 2024-04-06-Herbert-Franke %})
+
+- (07 Aug 2026) The compelling modern approach to video synthesis would probably be something like a [fruit jam](https://learn.adafruit.com/demo-jam-fruit-scene)---enough constraints to make it interesting, but no need to solder a bunch of TTL chips together like Stephen Beck.

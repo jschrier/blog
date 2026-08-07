@@ -397,3 +397,9 @@ ImageSynthesize["Generate a cyclic voltammetry capybara"]
 ```mathematica
 ToJekyll["Simulated Electrochemistry", "chemistry mathematica montecarlo science teaching"]
 ```
+
+## Monte Carlo Simulations of Electrochemistry
+
+- **Part 1:** Monte Carlo Simulation of Diffusion, Chronoamperometry, Linear & Cyclic Voltammetry — *this post*
+- **Part 2:** [Reproducing the Randles–Ševčík Relation]({{ site.baseurl }}{% post_url 2026-08-05-Simulated-Electrochemistry,-part-2 %})
+- **Part 3:** [Irreversible Cyclic Voltammetry and Quantification]({{ site.baseurl }}{% post_url 2026-08-07-Simulated-Electrochemistry,-part-3:-Irreversible-CV %})
