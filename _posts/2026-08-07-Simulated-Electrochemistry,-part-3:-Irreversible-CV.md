@@ -140,7 +140,7 @@ Show[
 
 [BoB The Chemist](https://bobthechemist.com) notes:
 
-> The pedantic electrochemist would specify chemically irreversible due to the coupled chemical reaction. I'm also a bit suspicious about the return feature shape. See for example here  [PSAN0201-Vitamin-C-Detection-with-ItalSens-Carbon-SPE.pdf](https://share.google/YJWxtSrsbhK02zgof) The return feature has a more pronounced sigmoidal shape than what I see in your Sims. This might be due to radial vs linear diffusion.
+> The pedantic electrochemist would specify **chemically irreversible** due to the coupled chemical reaction. I'm also a bit suspicious about the return feature shape. See for example here  [PSAN0201-Vitamin-C-Detection-with-ItalSens-Carbon-SPE.pdf](https://share.google/YJWxtSrsbhK02zgof) The return feature has a more pronounced sigmoidal shape than what I see in your Sims. This might be due to radial vs linear diffusion.
 
 ```mathematica
 ImageSynthesize["A capybara working as an old-time newspaper copy editor with a green visor reviewing documents. Do not include any text."]
