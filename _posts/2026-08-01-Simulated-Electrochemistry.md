@@ -1,7 +1,7 @@
 ---
 title: "Simulated Electrochemistry"
 date: 2026-08-01
-tags: chemistry mathematica montecarlo science teaching electrochem
+tags: chemistry mathematica montecarlo science teaching electrochem chiguiro
 ---
 
 I spent some time this summer diving into electrochemistry, which included vibe coding some [HTML5](https://github.com/jschrier/potentiostat) and [Mathematica](https://github.com/jschrier/rodeostat_wolfram) potentiostat interfacing software, and reading Eliaz and Gileadi, *[Physical Electrochemistry: Fundamentals, Techniques, and Applications](https://amzn.to/4vBHtfn)* and Honeychurch, *[Simulating electrochemical reactions with Mathematica](https://amzn.to/4fwlIaR)* (but skip the book and use [updated version posted by the author on github](https://github.com/mikeh1980/Simulating-Electrochemical-Reactions-with-Mathematica)), the latter having been recommended to me many years ago by [BobTheChemist](https://bobthechemist.com).   While I enjoyed the premise of Honeychurch's book, in working through it myself, I found many opportunities to improve the presentation and simplicity of the code. **Implementing improved and simplified Monte Carlo simulations of chronoamperometry, linear sweep voltammetry, and cyclic voltammetry helped me solidify my atomistic mental picture...** 
