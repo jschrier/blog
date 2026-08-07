@@ -1,7 +1,7 @@
 ---
 title: "Simulated Electrochemistry, part 2"
 date: 2026-08-05
-tags: chemistry mathematica montecarlo science teaching electrochem
+tags: chemistry mathematica montecarlo science teaching electrochem chiguiro
 ---
 
 In our [previous episode]({{ site.baseurl }}{% post_url 2026-08-01-Simulated-Electrochemistry %}), we implemented a Monte Carlo simulation of chronoamperometry, linear sweep voltammetry, and cyclic voltammetry.  In this episode, we adapt this to study the current dependence on scan rate and reproduce the [Randles-Ševčík equation](https://en.wikipedia.org/wiki/Randles-Sevcik_equation)...
