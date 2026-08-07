@@ -10,7 +10,7 @@ In our previous episodes, we implemented [Monte Carlo simulations of chronoamper
 
 [Chiguiros]({{ '/tag/chiguiro' | relative_url }}) (like humans, guinea pigs, and a few other species) lack the [L-gulonolactone oxidase enzyme](https://en.wikipedia.org/wiki/L-gulonolactone_oxidase) needed to synthesize their own vitamin C, and thus [must consume about 1000mg/day to avoid scurvy](https://rousfoundation.com/health/).   A classic way to determine ascorbic acid concentration is to measure the peak current during [ irreversible oxidation by cyclic voltammetry](https://blog.iorodeo.com/irreversible-cyclic-voltammetry/). To simulate this, we will need to adapt our [previous Monte Carlo simulation code]({{ site.baseurl }}{% post_url 2026-08-05-Simulated-Electrochemistry,-part-2 %}) to model an *irreversible* process. We will also need to properly account for concentration effects in the simulation. The desired outcome is to simulate the type of calibration standard curve that one would make in the laboratory. 
 
-![165stq983twhm](img/165stq983twhm.png)
+![165stq983twhm](/blog/images/2026/8/7/165stq983twhm.png)
 
 (image courtesy of [BoB the Chemist](https://bobthechemist.com)) 
 
@@ -68,9 +68,7 @@ To get good statistics, we will run each simulation for 10^7 trials. Rather than
 ```mathematica
 maxConc = Ceiling[6*Sqrt[0.5*400]];
 concentrations  = {1.0, 0.9, 0.8, 0.6, 0.5, .25, .1};
-```
 
-```mathematica
 jobs = RemoteBatchMapSubmit[ (* ...or just use Map to run locally *)
    ParallelSum[irreversibleF[expt, #], {i, 10^7}] &, 
    Round[(maxConc/concentrations)]]
