@@ -135,9 +135,22 @@ Show[
 
 ![0tm0ur5xoenzq](/blog/images/2026/8/7/0tm0ur5xoenzq.png)
 
+
+## Peer Review 
+
+[BoB The Chemist](https://bobthechemist.com) notes:
+
+> The pedantic electrochemist would specify chemically irreversible due to the coupled chemical reaction. I'm also a bit suspicious about the return feature shape. See for example here  [PSAN0201-Vitamin-C-Detection-with-ItalSens-Carbon-SPE.pdf](https://share.google/YJWxtSrsbhK02zgof) The return feature has a more pronounced sigmoidal shape than what I see in your Sims. This might be due to radial vs linear diffusion.
+
+```mathematica
+ImageSynthesize["A capybara working as an old-time newspaper copy editor with a green visor reviewing documents. Do not include any text."]
+```
+
+![1mle213kpogdf](/blog/images/2026/8/7/1mle213kpogdf.png)
+
 ## Conclusion
 
-We have successfully modeled an irreversible CV experiment, and the simulated peak currents show the ideal linear relationship to concentration that would be needed to quantify an unknown concentration.
+We have successfully modeled a chemically irreversible CV experiment, and the simulated peak currents show the ideal linear relationship to concentration that would be needed to quantify an unknown concentration.
 
 What does a [chiguiro]({{ '/tag/chiguiro' | relative_url }}) think about this?  [Chiguiros have high social intelligence, but are challenged by complex cognitive tasks](https://grumpycapy.com/guides/how-smart-are-capybaras).  As we can see in the image below, they still struggle to distinguish between irreversible and reversible processes even after reading this post. 
 
