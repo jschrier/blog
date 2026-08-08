@@ -1,5 +1,5 @@
 ---
-title: "Simulated Electrochemistry, part 2"
+title: "Simulated Electrochemistry, part 2: The Randles-Ševčík Equation"
 date: 2026-08-05
 tags: chemistry mathematica montecarlo science teaching electrochem chiguiro
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Simulated Electrochemistry"
+title: "Simulated Electrochemistry: From Random Walks to Chronoamperometry & Voltammetry"
 date: 2026-08-01
 tags: chemistry mathematica montecarlo science teaching electrochem chiguiro
 ---
