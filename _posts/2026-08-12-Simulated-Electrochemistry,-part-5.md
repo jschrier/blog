@@ -79,9 +79,10 @@ sweepF2 = FunctionCompile@Function[
          x += dx[[t]]; 
           If[x == 0, 
            If[RandomReal[] < 1./(1. + Exp[-vv[[t]]]), 
-             If[state == -1, obs[[t]]++; state = +1; x = 1;],  (*!! increment, not assign *)
-             If[state == +1, obs[[t]]--; state = -1; x = 1;]   (*!! decrement, not assign *) 
+             If[state == -1, obs[[t]]++; state = +1;],      (*!! increment, not assign *)
+             If[state == +1, obs[[t]]--; state = -1;]       (*!! decrement, not assign *) 
             ]; 
+           x = 1;                                           (* even if no reaction occurs, return to solution *) 
           ]; 
          , {t, maxTime}]; 
        , nMC]; 
