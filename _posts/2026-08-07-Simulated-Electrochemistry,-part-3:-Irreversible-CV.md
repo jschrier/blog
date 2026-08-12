@@ -171,3 +171,4 @@ ToJekyll["Simulated Electrochemistry, part 3: Irreversible CV",
 - **Part 2:** [Reproducing the Randles–Ševčík Relation]({{ site.baseurl }}{% post_url 2026-08-05-Simulated-Electrochemistry,-part-2 %})
 - **Part 3:** Irreversible Cyclic Voltammetry and Quantification — *this post*
 - **Part 4:** [Anodic Stripping Voltammetry]({{ site.baseurl }}{% post_url 2026-08-10-Simulated-Electrochemistry,-part-4:-Anodic-Stripping-Voltammetry %})
+- **Part 5:** [Optimizing the Monte Carlo Simulation]({{ site.baseurl }}{% post_url 2026-08-12-Simulated-Electrochemistry,-part-5 %})
