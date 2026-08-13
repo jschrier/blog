@@ -98,7 +98,7 @@ sweepF2[expt, 86, 10^6]; // AbsoluteTiming
 (*{3.65595, Null}*)
 ```
 
-These modifications speed up the wall time (i.e., elapsed real time) by 2x, but use only one (not 8!) core to achieve that goal, so it is  16x more efficient.  We can now use [ParallelMap](https://reference.wolfram.com/language/ref/ParallelMap.html) operations over different experimental conditions to advance our electrochemistry studies.
+**These modifications speed up the wall time (i.e., elapsed real time) by 2x, but use only one (not 8!) core to achieve that goal, so it is  16x more efficient.**  We can now use [ParallelMap](https://reference.wolfram.com/language/ref/ParallelMap.html) operations over different experimental conditions to advance our electrochemistry studies.
 
 ## Conclusion
 
