@@ -53,8 +53,8 @@ asvF = FunctionCompile@Function[
       If[state == +1, x += dx[[t]];];                         (*!! only oxidized metal is mobile *)
        If[x == 0, 
         If[RandomReal[] < 1./(1. + Exp[-vv[[t]]]), 
-          If[state == -1, obs[[t]] = +1; state = +1; x = 1;], (*!! M-->M+ and moves back to soln *)
-          If[state == +1, obs[[t]] = -1; state = -1; x = 0;]  (*!! M+->M and added to surface *) 
+          If[state == -1, (obs[[t]] = +1; state = +1; x = 1;), x = 1;], (*!! M-->M+ and moves back to soln, or unreacted M+ returns to soln *)
+          If[state == +1, (obs[[t]] = -1; state = -1; x = 0;), x = 0;]  (*!! M+->M and added to surface, or unreacted M remains on surface *) 
          ]; 
        ]; 
       , {t, Length[vv]}]; 
@@ -65,6 +65,7 @@ asvF = FunctionCompile@Function[
 ![1tjmflviui4i2](/blog/images/2026/8/10/1tjmflviui4i2.png)
 
 All of the previously discussed caveats apply: This model omits convection, migration, double-layer current, surface saturation, competing reactions, and re-deposition after stripping.  Additionally, the stripping-potential distribution is an ideal reversible thermodynamic model rather than a detailed treatment of nucleation, alloy formation, heterogeneous kinetics, or diffusion and re-deposition of stripped ions.  Nevertheless, our premise is that this simplified model suffices to describe the key aspects of preconcentration and release phenomena observed in an ASV experiment. 
+
 
 ## Notional Experiment
 
