@@ -294,7 +294,9 @@ ListPlot[
 
 Running 10x faster means that we can run more trajectories for the same total computation time, which would allow us to improve the signal-to-noise ratio by about 3x (= `Sqrt[10]`) for a fixed computational budget of our original interpreted code.   
  
-To go even faster, the brute force way is just to parallelize over more cores (I only have 8 on my laptop) locally or to use a [RemoteBatch job](http://reference.wolfram.com/language/guide/RemoteBatchJobs.html) (although the initialization time is non-trivial).  The smarter way would be to simulate multiple particle events inside the `sweepF` function so that it accumulates multiple trials in the same obs (saving a lot of arithmetic and memory), but this would move away from our initial design strategy of having each function simulate a single particle. If you pursue this, be sure to do something like `obs[[t]]++`  (instead of `obs[[t]]=+1`) to account for the fact that multiple events are being accumulated.  
+To go even faster, the brute force way is just to parallelize over more cores (I only have 8 on my laptop) locally or to use a [RemoteBatch job](http://reference.wolfram.com/language/guide/RemoteBatchJobs.html) (demonstrated in [Part 3]({{ site.baseurl }}{% post_url 2026-08-07-Simulated-Electrochemistry,-part-3:-Irreversible-CV %})).  The smarter way would be to simulate multiple particle events inside the `sweepF` function so that it accumulates multiple trials in the same `obs` (saving a lot of arithmetic and memory), but this would move away from our initial design strategy of having each function simulate a single particle. If you pursue this, be sure to do something like `obs[[t]]++`  (instead of `obs[[t]]=+1`) to account for the fact that multiple events are being accumulated.  
+
+*If you are interested in an additional 15x speed by this "smarter way", then skip ahead to [Part 5]({{ site.baseurl }}{% post_url 2026-08-12-Simulated-Electrochemistry,-part-5 %})...*
 
 ## Optimization without compilation by skipping non-events
 
