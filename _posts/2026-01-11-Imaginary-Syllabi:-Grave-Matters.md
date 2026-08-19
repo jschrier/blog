@@ -45,5 +45,6 @@ We will likely have to do some metal casting...(aluminum would be great for cost
 
 # Fordham-related notes
 
-- Could count for "New York City Experience" in the new core curriculum?
+- Could count for "New York City Experience" in the [new core curriculum](https://now.fordham.edu/university-news/fordham-approves-revised-core-curriculum/)?
+- Existing course: [THEO 4010: Death and Dying. ](https://bulletin.fordham.edu/search/?search=THEO+4010) "This course represents an exploration of attempts to confront the reality of death, its practical consequences and its religious significance through historical, contextual, and theological frames (4 credits). This theology course fulfills the senior values requirement in the college core. Note: Four-credit courses that meet for 150 minutes per week require three additional hours of class preparation per week on the part of the student in lieu of an additional hour of formal instruction."
 
