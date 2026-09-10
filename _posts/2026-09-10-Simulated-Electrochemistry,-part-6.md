@@ -73,7 +73,7 @@ ListAnimate@ Table[
       
       ListPlot[charge[[All, t]], 
        Frame -> True, FrameLabel -> {"distance from interface", "net charge"}, 
-       PlotRange -> {{0, 60}, MinMax[charge]}]}], 
+       PlotRange -> { {0, 60}, MinMax[charge]}]}], 
     {t, 1, 399}] 
 ```
 
