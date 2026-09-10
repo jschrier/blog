@@ -1,7 +1,7 @@
 ---
 title: "Great Ideas from Korea"
 date: 2023-06-27
-tags: travel
+tags: travel korea
 ---
 
 Business and art ideas inspired by my recent trip to Korea...
