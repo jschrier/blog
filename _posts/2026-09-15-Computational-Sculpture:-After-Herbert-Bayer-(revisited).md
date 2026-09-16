@@ -61,7 +61,7 @@ articulatedWall[OptionsPattern[]] := Module[
              (phase + i step) Degree, {0, 0, 1}, {0, 0, 0}], 
            {i, 0, n - 1}]}, 
        Boxed -> False, Axes -> False, 
-       Lighting -> {{"Ambient", GrayLevel[.45]}, 
+       Lighting -> { {"Ambient", GrayLevel[.45]}, 
            {"Directional", GrayLevel[.8], ImageScaled[{2, -2, 3}]}, 
            {"Directional", GrayLevel[.3], ImageScaled[{-2, 1, 1}]}}, 
        Background -> RGBColor[.95, .96, .98], 
@@ -81,7 +81,7 @@ articulatedWall[]
 ## Compare viewpoints
 
 ```mathematica
-GraphicsRow[Table[Show[articulatedWall["View" -> v], ImageSize -> {270, 410}], {v, {{0, -4, 0}, {3, -4, 1}, {0, 0, 4}}}], ImageSize -> 1000]
+GraphicsRow[Table[Show[articulatedWall["View" -> v], ImageSize -> {270, 410}], {v, { {0, -4, 0}, {3, -4, 1}, {0, 0, 4}}}], ImageSize -> 1000]
 ```
 
 ![1sa9jcubc2yeh](/blog/images/2026/9/15/1sa9jcubc2yeh.png)
@@ -97,10 +97,10 @@ The defaults reproduce the model above. Changing beam count preserves the 85-foo
   Manipulate[
    articulatedWall["BeamCount" -> n, "StepAngle" -> step, 
      "PhaseAngle" -> phase, "Gap" -> gap], 
-   {{n, 33, "Beam count"}, 8, 48, 1, Appearance -> "Labeled"}, 
-   {{step, 22.5, "Turn per beam (degrees)"}, -30, 30, .5, Appearance -> "Labeled"}, 
-   {{phase, 0, "Overall rotation (degrees)"}, 0, 180, 1, Appearance -> "Labeled"}, 
-   {{gap, 0, "Exploded spacing (feet)"}, 0, 2, .1, Appearance -> "Labeled"}, 
+   { {n, 33, "Beam count"}, 8, 48, 1, Appearance -> "Labeled"}, 
+   { {step, 22.5, "Turn per beam (degrees)"}, -30, 30, .5, Appearance -> "Labeled"}, 
+   { {phase, 0, "Overall rotation (degrees)"}, 0, 180, 1, Appearance -> "Labeled"}, 
+   { {gap, 0, "Exploded spacing (feet)"}, 0, 2, .1, Appearance -> "Labeled"}, 
    ControlPlacement -> Left, SaveDefinitions -> True, 
    TrackedSymbols :> {n, step, phase, gap} 
   ]
