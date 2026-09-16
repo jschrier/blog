@@ -207,3 +207,5 @@ ToJekyll["Computational Sculpture: After Herbert Bayer, part 1", "sculpture sant
 # Parerga and Paralipomena
 
 - (22 May 2026) [Recent advances in LLMs and harnesses have gotten quite good at reproducing objects from photographs (in OpenSCAD)](https://news.ycombinator.com/item?id=48234090), so this may be worth revisiting...
+
+- (15 September 2026) [Revisited with GPT-6-Astra]({{ site.baseurl }}{% post_url 2026-09-15-Computational-Sculpture:-After-Herbert-Bayer-(revisited) %}) (tl;dr--it solves all the problems above and delivers nice results)
