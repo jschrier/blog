@@ -266,3 +266,10 @@ ToJekyll["Generating 3d-designs with OpenCASCADE Link", "3dprinting opencascade"
 
 (*"/Users/jschrier/Dropbox/journals/3dprinting/2021.05.11_caddy_v3.nb"*)
 ```
+
+# Parerga and Paralipomena
+
+- (01 Aug 2026) Additional design ideas from [Do Plants Know Math?: Unwinding the Story of Plant Spirals, from Leonardo da Vinci to Now](https://amzn.to/4wF8nnU) 
+  - (p.124) [Hofmeister](https://en.wikipedia.org/wiki/Wilhelm_Hofmeister) stacking: insert new entries where least crowded. And continuously grow radius over time during the simulation.  
+  - (p.133) [Schwendener](https://en.wikipedia.org/wiki/Simon_Schwendener) stacking: place disks from bottom to top of surface. Place new disks at the lowest place above existing disks without overload and tangent to at least two disks below it.
+  
