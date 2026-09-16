@@ -118,7 +118,7 @@ Export[FileNameJoin[{NotebookDirectory[], "ArticulatedWall-export.png"}],articul
 
 ## Concluding Commentary (added by the Human) 
 
-GPT-6-Astra did a remarkable end-to-end job at retrieving the images, performing geometry estimation, and writing working code and visualizations with minimal human input.  The failutres of December 2023's GPT-4-vision have been overcome.   
+GPT-6-Astra did a remarkable end-to-end job at retrieving the images, performing geometry estimation, and writing working code and visualizations with minimal human input.  The [previous failures of December 2023's GPT-4-vision]({{ site.baseurl }}{% post_url 2023-12-11-Computational-Sculpture:-After-Herbert-Bayer,-part-1 %}) have been overcome.   
 
 
 ```mathematica
