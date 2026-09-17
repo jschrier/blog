@@ -34,7 +34,7 @@ Text that follow are all `GPT-6-astra-medium`I' generated output from this last 
 
 The discussion below is adapted from the notebook's narrative. The code lives in the downloadable notebook; the images are its existing outputs. **This is a reconstruction of the musical design, not a surveyed replica of the monument.** The files have been checked computationally, but have not yet been physically printed or fabricated.
 
-![Assembled reconstruction of Neugeboren's Bach sculpture, with three colored musical voices on a rounded rectangular base]({{ '/images/09/16/neugeboren-assembled-preview.png' | relative_url }})
+![Assembled reconstruction of Neugeboren's Bach sculpture, with three colored musical voices on a rounded rectangular base]({{ 'images/09/16/neugeboren-assembled-preview.png' | relative_url }})
 
 *The colors distinguish the voices. This preview shows nominal panel surfaces; the STL contains finite-thickness walls joined to the base.*
 
@@ -54,7 +54,7 @@ The sculptural subset begins the bass at quarter-note offset 0, alto at 1, and s
 
 A sustained note produces a straight panel along the time axis. A pitch change produces a connecting panel in the depth direction, with a sloping top. The top edges lie in a common plane: height above the base is proportional to pitch above an editable ground pitch. With equal height and depth scales, the side elevation has the documented 45-degree slope. The default time-to-pitch proportion is two semitone units per quarter note. Voice spacing follows the pitches; the walls are not arbitrarily shifted apart.
 
-![Ground plan of the three musical voices and their mounting positions]({{ '/images/09/16/neugeboren-ground-plan.png' | relative_url }})
+![Ground plan of the three musical voices and their mounting positions]({{ '/images/2026/09/16/neugeboren-ground-plan.png' | relative_url }})
 
 Both fabrication routes use the same panel-and-fold representation: voice identifiers, panel endpoints, top heights, fold axes, and signed turns. One configuration association collects the sizes, proportions, thicknesses, bend parameters, wave dimensions, tabs, and clearances. Changing overall size does not automatically scale material thickness or fitting clearance.
 
@@ -71,7 +71,7 @@ The underside carries two centered lines:
 
 The inscription is **debossed 0.6 mm**, leaving 2.4 mm of base material above it. Its geometry is mirrored during construction so it reads normally when viewed from below.
 
-![Underside of the rounded base with the two-line debossed inscription]({{ '/images/09/16/neugeboren-underside-preview.png' | relative_url }})
+![Underside of the rounded base with the two-line debossed inscription]({{ '/images/2026/09/16/neugeboren-underside-preview.png' | relative_url }})
 
 The model fits the [Prusa MK3S+ build volume](https://www.prusa3d.com/product/original-prusa-i3-mk3s-10th-anniversary-edition-3d-printer/), including room for a 5 mm brim. Import the STL as millimeters at 100% scale and place the base on the bed. The 1.2 mm walls suit roughly three extrusion tracks with a 0.4 mm nozzle, although the actual toolpaths depend on the slicer's line widths. A 0.20 mm layer-height PLA profile is a starting point.
 
@@ -85,17 +85,17 @@ Each ideal right-angle fold is replaced by a tangent circular bend along an effe
 
 Following [SendCutSend's wave-bending guidance](https://sendcutsend.com/blog/wave-bending-sheet-metal/), the bend zones contain curved cutouts separated by retained webs. These are actual cutting contours, not etched fold marks. The default cut widths and webs start at the sheet thickness, and reliefs remain clear of edges and tabs. Three tabs on sufficiently long straight panels locate each voice in the base.
 
-![Developed bass wall with wave cutouts, mounting tabs, and labeled fold centers]({{ '/images/09/16/neugeboren-layout-bass.png' | relative_url }})
+![Developed bass wall with wave cutouts, mounting tabs, and labeled fold centers]({{ '/images/2026/09/16/neugeboren-layout-bass.png' | relative_url }})
 
-![Developed alto wall with wave cutouts, mounting tabs, and labeled fold centers]({{ '/images/09/16/neugeboren-layout-alto.png' | relative_url }})
+![Developed alto wall with wave cutouts, mounting tabs, and labeled fold centers]({{ '/images/2026/09/16/neugeboren-layout-alto.png' | relative_url }})
 
-![Developed soprano wall with wave cutouts, mounting tabs, and labeled fold centers]({{ '/images/09/16/neugeboren-layout-soprano.png' | relative_url }})
+![Developed soprano wall with wave cutouts, mounting tabs, and labeled fold centers]({{ '/images/2026/09/16/neugeboren-layout-soprano.png' | relative_url }})
 
 *Red fold references and labels appear in these assembly previews only. The cutting DXF and SVG files contain closed contours without annotations.*
 
 The bass, alto, and soprano strips are approximately 695.92, 687.72, and 589.32 mm long. The largest wall blank is about 589.32 × 299.18 mm including its tabs, so the flat parts require more space than the assembled footprint suggests. Across the three walls there are 2,897 wave cutouts: this is a prototype with many laser pierces, not an optimized production quote. The small wave geometry preserves the short low-bass folds.
 
-![Rounded aluminum base layout with nine locating slots]({{ '/images/09/16/neugeboren-layout-base.png' | relative_url }})
+![Rounded aluminum base layout with nine locating slots]({{ '/images/2026/09/16/neugeboren-layout-base.png' | relative_url }})
 
 Cut the wave and tab coupons in wall stock, and the separate six-slot coupon in base stock. Its trial clearances are 0.10, 0.20, 0.25, 0.35, 0.50, and 0.70 mm of **total added width**, not clearance per side. The default assembly slots are 1.266 mm wide in a 3 mm base; confirm that the chosen laser service can cut them. Fit changes belong in the parameters, rather than scaling a finished DXF or adding kerf compensation twice.
 
@@ -111,6 +111,6 @@ Those results establish computational consistency. They do not establish the act
 
 ## Downloads
 
-- [Download the project plan (Markdown)]({{ '/images/09/16/NeugeborenBachSculpture-Plan.md' | relative_url }}), preserving the approved implementation plan and the subsequent rounded-base and inscription requests.
-- [Download the complete notebook and fabrication assets (ZIP)]({{ '/images/09/16/NeugeborenBachSculpture.zip' | relative_url }}): the self-contained Mathematica notebook, readable Wolfram Language source, STL, individual DXF/SVG cutting files, calibration coupons, PNG previews, HTML assembly guide, schedules, and validation reports.
+- [Download the project plan (Markdown)]({{ '/images/2026/09/16/NeugeborenBachSculpture-Plan.md' | relative_url }}), preserving the approved implementation plan and the subsequent rounded-base and inscription requests.
+- [Download the complete notebook and fabrication assets (ZIP)]({{ '/images/2026/09/16/NeugeborenBachSculpture.zip' | relative_url }}): the self-contained Mathematica notebook, readable Wolfram Language source, STL, individual DXF/SVG cutting files, calibration coupons, PNG previews, HTML assembly guide, schedules, and validation reports.
 
