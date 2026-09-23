@@ -40,7 +40,7 @@ The discussion below is adapted from the notebook's narrative. The code lives in
 
 ## Bach, folded into space
 
-Neugeboren devised the project during his 1928 visit to the Bauhaus. Stephanie Probst's [“Pen, Paper, Steel: Visualizing Bach's Polyphony at the Bauhaus” (2020)](https://mtosmt.org/issues/mto.20.26.4/mto.20.26.4.probst.html) identifies the music as the three-voice stretto in Bach's E-flat-minor fugue, BWV 853, measures 52–55. The central idea is that pitch controls both the height and depth of the sculpture, while musical time extends along its other horizontal axis.
+Neugeboren devised the project during his 1928 visit to the Bauhaus. Stephanie Probst's [“Pen, Paper, Steel: Visualizing Bach's Polyphony at the Bauhaus” (2020)](https://mtosmt.org/issues/mto.20.26.4/mto.20.26.4.probst.html) identifies the music as the three-voice stretto in Bach's E-flat-minor fugue, BWV 853,[^music] measures 52–55. The central idea is that pitch controls both the height and depth of the sculpture, while musical time extends along its other horizontal axis.
 
 [Probst's illustrated examples](https://mtosmt.org/issues/mto.20.26.4/probst_examples.pdf), especially the score in Example 10, provide the musical starting point. The [historical Gerda Marx maquette and Konrad Püschel drawing reproduced from *La Revue Musicale* (1960)](https://continuo-docs.tumblr.com/post/12111025275/romanian-born-composer-henrik-neugeboren) help clarify the staggered beginnings of the three voices. The notebook's reconstruction also drew on front and side photographs of the realized work. [NRWskulptur](https://nrw-skulptur.net/en/skulptur/hommage-a-j-s-bach/) dates the stainless-steel monument in Leverkusen to 1968/70 and lists dimensions of 6.5 × 6.5 × 6 m.
 
@@ -113,3 +113,5 @@ Those results establish computational consistency. They do not establish the act
 
 - [Download the project plan (Markdown)](/blog/images/2026/9/16/NeugeborenBachSculpture-Plan.md), preserving the approved implementation plan and the subsequent rounded-base and inscription requests.
 - [Download the complete notebook and fabrication assets (ZIP)](/blog/images/2026/9/16/NeugeborenBachSculpture.zip): the self-contained Mathematica notebook, readable Wolfram Language source, STL, individual DXF/SVG cutting files, calibration coupons, PNG previews, HTML assembly guide, schedules, and validation reports.
+
+[^music] Human notes: [Prelude and Fugue in E flat Minor (WKI), BWV 853](https://www.youtube.com/watch?v=S9XgDPmaKFQ)
