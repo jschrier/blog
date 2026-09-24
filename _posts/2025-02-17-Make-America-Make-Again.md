@@ -26,6 +26,8 @@ tags: diy 3dprinting cnc autodidact
 
 I found enjoyed the metal casting and CNC courses the most. (Also, you get a free PDF copy of [Machining Dynamics](https://link.springer.com/book/10.1007/978-3-319-93707-6) if you complete the latter...)  The content in the composites courses was interesting, but the production quality on the videos and online coursework was not great. (very long videos, audio quality was often poor, typos and ambiguities in the quiz.) 
 
+(24 Sep 2026) I also completed in the in-person metal casting course at Penn State (in January 2026) as well as the subsequent online courses on advanced casting and magnesium metallurgy.
+
 # Reading list
 
 - There's an new open access [npj Advanced Manufacturing](https://www.nature.com/npjadvmanuf/) journal (started late 2024), which might be a source for ideas...
