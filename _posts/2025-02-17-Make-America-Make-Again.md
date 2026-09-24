@@ -33,3 +33,4 @@ I found enjoyed the metal casting and CNC courses the most. (Also, you get a fre
 # Field trip
 
 - [American Precision Musem](https://americanprecision.org) in Windsor Vermont; Amtrak goes there (Vermonter Line)
+- [Irish Bloomery](https://www.irishbloomeryiron.com/courses.html) does 3-day summer courses on traditional bog iron production in Ireland over the summer. [Video via Hackaday] (https://hackaday.com/2026/09/23/smelting-bog-ore-as-it-should-be-done/) 
