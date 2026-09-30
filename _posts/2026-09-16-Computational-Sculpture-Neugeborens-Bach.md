@@ -114,4 +114,4 @@ Those results establish computational consistency. They do not establish the act
 - [Download the project plan (Markdown)](/blog/images/2026/9/16/NeugeborenBachSculpture-Plan.md), preserving the approved implementation plan and the subsequent rounded-base and inscription requests.
 - [Download the complete notebook and fabrication assets (ZIP)](/blog/images/2026/9/16/NeugeborenBachSculpture.zip): the self-contained Mathematica notebook, readable Wolfram Language source, STL, individual DXF/SVG cutting files, calibration coupons, PNG previews, HTML assembly guide, schedules, and validation reports.
 
-[^music] Human notes: [Prelude and Fugue in E flat Minor (WKI), BWV 853](https://www.youtube.com/watch?v=S9XgDPmaKFQ)
+[^music]: Human notes: [Prelude and Fugue in E flat Minor (WKI), BWV 853](https://www.youtube.com/watch?v=S9XgDPmaKFQ)
