@@ -31,4 +31,4 @@ tags: imaginary-syllabi teaching chemistry books
 
 
 
-[^1] I also had day-dreams of taking the graduate certificate, masters, or PhD in [explosive engineering at Missouri S&T](https://mee.mst.edu/degrees/)
+[^1]: I also had day-dreams of taking the graduate certificate, masters, or PhD in [explosive engineering at Missouri S&T](https://mee.mst.edu/degrees/)
