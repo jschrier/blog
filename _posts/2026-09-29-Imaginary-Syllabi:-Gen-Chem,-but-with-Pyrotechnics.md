@@ -11,18 +11,21 @@ tags: imaginary-syllabi teaching chemistry books
 # Advantages
 
 - Motivates stoichiometry and limiting reagents in a powerful way
-- Atomic structure and spectroscopy (understand different colors) 
-- Computing redox is highly relevant (use of pyrovalent indices)
+- Atomic structure and spectroscopy (understand different colors from atomic emission) 
+- Computing redox is highly relevant (use of pyrovalent indices): connection to oxidizer/fuel ratios
 - Transition metal complexes are important too!
-- Phases of matter (especially solids and gases)
-- Thermochemistry (heat, work, equilibrium)
-- Kinetics
-- Acid/Base needed to discuss possible side reactions
+- Phases of matter (especially solids and gases)---more generally phase changes and vaporization
+- Gas laws: Gas generation, pressure, effects of confinement
+- Thermochemistry (heat, work, enthalpy, entropy, equilibrium)
+- Arrhenius theory & activation energy: Why a reaction can be thermodynamically favorable, but still need ignition 
+- Kinetics: Rate laws, particle size effects, chain reactonions
+- Acid/Base needed to discuss possible side reactions in storage
 - Labs could be a blast!
+- Motivates safety and risk analyzis before lab, importance of hazard classifications storage and disposal
+- Societal connection: (e.g., perchlorates, green pyrotechnics)
 
 # Weak areas (relevance is less clear)
 
-- Gas laws
 - Solutions
 - Electrochemistry
 - Solubility and precipitation
