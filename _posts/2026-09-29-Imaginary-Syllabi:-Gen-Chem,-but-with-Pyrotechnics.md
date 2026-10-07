@@ -18,10 +18,10 @@ tags: imaginary-syllabi teaching chemistry books
 - Gas laws: Gas generation, pressure, effects of confinement
 - Thermochemistry (heat, work, enthalpy, entropy, equilibrium)
 - Arrhenius theory & activation energy: Why a reaction can be thermodynamically favorable, but still need ignition 
-- Kinetics: Rate laws, particle size effects, chain reactonions
+- Kinetics: Rate laws, particle size effects, chain reactions
 - Acid/Base needed to discuss possible side reactions in storage
 - Labs could be a blast!
-- Motivates safety and risk analyzis before lab, importance of hazard classifications storage and disposal
+- Motivates safety and risk analysis before lab, importance of hazard classifications storage and disposal
 - Societal connection: (e.g., perchlorates, green pyrotechnics)
 
 # Weak areas (relevance is less clear)
