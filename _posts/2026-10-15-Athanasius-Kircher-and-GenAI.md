@@ -45,7 +45,7 @@ The previous talk introduced our guide: Athanasius Kircher (1602–1680), a Germ
 
 ... and medicine, China, music, Egyptology, Biblical history, mathematics, optics, and mechanical devices, drawing upon his own experimentation and information gathered through correspondence with the global network of Jesuits missionaries.
 
-It would be [easy to joke that Kircher was the ChatGPT of the seventeenth century]({{ site.baseurl }}{% post_url 2023-07-08-Imaginary-Syllabi:-Athanasius-Kircher-and-Generative-AI %})---not only because he seemingly knew everything and could generate voluminous outputs on all of these topics, but also because he was capable of spectacular confabulations.[^5]  For example his monumental *Oedipus Aegyptiacus* purported to decipher Egyptian hieroglyphics, yet despite genuine linguistic knowledge and some correct premises, the resulting translations were fantastically wrong.
+It would be [easy to joke that Kircher was the ChatGPT of the seventeenth century]({{ site.baseurl }}{% post_url 2023-07-08-Imaginary-Syllabi:-Athanasius-Kircher-and-Generative-AI %})---not only because he seemingly knew everything and could generate voluminous outputs on all of these topics, but also because he was capable of spectacular confabulations.[^5]  For example his monumental [*Oedipus Aegyptiacus*](https://archive.org/details/A027084) purported to decipher Egyptian hieroglyphics, yet despite genuine linguistic knowledge and some correct premises, the resulting translations were fantastically wrong.
 
 ![](/blog/images/2026/10/15/Slide6.png)
 
@@ -53,7 +53,7 @@ But my goal is a bit more subtle.  I’d like to use Kircher as our Virgil to in
 
 ![](/blog/images/2026/10/15/Slide7.png)
 
-Polygraphia Nova (1663) was written at the request of the Holy Roman Emperor Ferdinand III for a *lingua universalis* for written diplomatic communication.  Kircher approached this with a strategy like modern AI: separating language from the particular words in which it is expressed.
+[Polygraphia Nova](https://en.wikipedia.org/wiki/Polygraphia_Nova) (1663) was written at the request of the Holy Roman Emperor Ferdinand III for a *lingua universalis* for written diplomatic communication.  Kircher approached this with a strategy like modern AI: separating language from the particular words in which it is expressed.
 
 ![](/blog/images/2026/10/15/Slide7a.png)
 
@@ -69,13 +69,13 @@ This procedural decoding also admits a form of encryption, and Kircher invents a
 
 ![](/blog/images/2026/10/15/Slide9.png)
 
-Conceptually, modern language models rely on a similar conceptual strategy: *text is converted into an intermediate representation, and that representation becomes the substrate from which new linguistic output can be produced by an algorithmic process.* Decoder-based generative language models—such as ChatGPT or Claude—break up text into tokens (words or fragments of words) which are in turn represented as numerical vectors. The directions of these vectors are learned during the training process. Unlike Kircher, these representations are not fixed dictionary entries set by a human but are learned statistically from the training text, with the implicit assumption that direction of the vector encodes patterns of syntax, semantics, association, and use.
+Conceptually, modern language models rely on a similar conceptual strategy: *text is converted into an intermediate representation, and that representation becomes the substrate from which new linguistic output can be produced by an algorithmic process.* Decoder-based generative language models—--such as ChatGPT or Claude—--break up text into tokens (words or fragments of words) which are in turn represented as numerical vectors. The directions of these vectors are learned during the training process. Unlike Kircher, these representations are not fixed dictionary entries set by a human but are learned statistically from the training text, with the implicit assumption that direction of the vector encodes patterns of syntax, semantics, association, and use.
 
 Each token’s vector is fed into another statistically-learned mathematical function updating its internal state. (In practice, this mathematical function is a certain type of neural network; for our purpose, these are just an efficiently learnable type of way of approximating functions.) After every input token has been entered, the decoder uses that internal state to generate a probability distribution over possible next tokens which will comprise the output, feeding those back in, and repeating this sampling process to generate the output until a “STOP” token is encountered.  Note the differences: Whereas Kircher’s representation was discrete, symbolic, and manually curated, an LLM’s representation is continuous, contextual, and learned.  Curiously, Kircher’s hypothesis of a shared universal linguistic code also appears in the emergent capability of LLMs to move between languages.[^6]
 
 ![](/blog/images/2026/10/15/Slide10.png)
 
-Musurgia Universalis *(1650)* hints at the promise and perils of generative AI. Skipping past the first 700 pages describing the physical and anatomical principles of sound production, animal songs, musical anthropology, music theory, and the construction of instruments, we arrive at his *Musurgia Mirifica*--—a generative algorithm that enables anyone to compose music.
+[Musurgia Universalis](https://archive.org/details/chepfl-lipr-AXC19_01) *(1650)* hints at the promise and perils of generative AI. Skipping past the first 700 pages describing the physical and anatomical principles of sound production, animal songs, musical anthropology, music theory, and the construction of instruments, we arrive at his [*Musurgia Mirifica*](https://archive.org/details/chepfl-lipr-AXC19_02)--—a generative algorithm that enables anyone to compose music.
 
 ![](/blog/images/2026/10/15/Slide20.png)
 
@@ -87,7 +87,7 @@ Kircher is an astute guide for us:  He is clear that the quality of the artistic
 
 ![](/blog/images/2026/10/15/Slide12.png)
 
-Back in 2023 and 2024, most of you would have used a simple base model LLM, but since then the common user-facing services integrate other methods to improve the results. China Illustrata (1667) provides a helpful motivational example. Kircher never traveled to China—his mental “generative decoder model,” if you will—had no direct experience or training that would allow him to describe the language or social customs of China. Instead, he assembled his account from correspondence and earlier reports from a network of Jesuit missionaries. His own internal knowledge—of logic, the natural world, reading and writing Latin—was supplemented by the documents and observations in these letters, serving as context for his writings. This was not without flaws: Even with *genuine* reports and images from China, his interpretation through a European conceptual framework could distort their meaning.
+Back in 2023 and 2024, most of you would have used a simple base model LLM, but since then the common user-facing services integrate other methods to improve the results. [China Illustrata](https://archive.org/details/McGillLibrary-126082-3028) (1667) provides a helpful motivational example. Kircher never traveled to China—his mental “generative decoder model,” if you will—had no direct experience or training that would allow him to describe the language or social customs of China. Instead, he assembled his account from correspondence and earlier reports from a network of Jesuit missionaries. His own internal knowledge—--of logic, the natural world, reading and writing Latin—was supplemented by the documents and observations in these letters, serving as context for his writings. This was not without flaws: Even with *genuine* reports and images from China, his interpretation through a European conceptual framework could distort their meaning.
 
 For example, Chinese dragon imagery, meant symbolically to describe geographical features, was interpreted to imply the existence of literal dragons.
 
@@ -99,11 +99,11 @@ Identifying similar texts may be operationalized by using those intermediate rep
 
 ![](/blog/images/2026/10/15/Slide14.png)
 
-These semantic vectors can be precomputed for a variety of textual chunks, and both the underlying original text and its associated semantic vector stored in a database for subsequent lookup. This allows us to pull in relevant new information—like Kircher’s Jesuit correspondence network— into the chat session in a selective way.  (By the way, the “memory” features in the various Chat apps, are essentially doing this to bring in relevant context from your past conversations.) China Illustrata shows the central limitation of retrieval augmentation: access to evidence is not the same as correct interpretation of evidence. Retrieval can reduce errors caused by missing information, but it does not guarantee that the retrieved material will be relevant, correctly weighted, or properly interpreted.
+These semantic vectors can be precomputed for a variety of textual chunks, and both the underlying original text and its associated semantic vector stored in a database for subsequent lookup. This allows us to pull in relevant new information—--like Kircher’s Jesuit correspondence network— into the chat session in a selective way.  (By the way, the “memory” features in the various Chat apps, are essentially doing this to bring in relevant context from your past conversations.) China Illustrata shows the central limitation of retrieval augmentation: access to evidence is not the same as correct interpretation of evidence. Retrieval can reduce errors caused by missing information, but it does not guarantee that the retrieved material will be relevant, correctly weighted, or properly interpreted.
 
 ![](/blog/images/2026/10/15/Slide15a.png)
 
-How might one do better?  Kircher’s Organum Mathematicum, later systematized and published by Gaspar Schott, suggests the strategy of *tool use*. The *Organum* was a cabinet containing specialized sets of rods and tables for arithmetic, geometry, fortification, chronology, sundials, astronomy, cryptography, and music.
+How might one do better?  Kircher’s [Organum Mathematicum](https://archive.org/details/bub_gb_BkgIUz8DuhoC), later systematized and published by Gaspar Schott, suggests the strategy of *tool use*. The *Organum* was a cabinet containing specialized sets of rods and tables for arithmetic, geometry, fortification, chronology, sundials, astronomy, cryptography, and music.
 
 ![](/blog/images/2026/10/15/Slide15b.png)
 
@@ -119,7 +119,7 @@ The analogy to the Organum Mathematicum is quite direct: a general reasoning sys
 
 ![](/blog/images/2026/10/15/Slide17.png)
 
-Kircher’s Great Art of Light and Shadow[^9] points toward the next step: experiment.
+Kircher’s [Great Art of Light and Shadow](https://archive.org/details/athanasiikircher00kirc_8)[^9] points toward the next step: experiment.
 
 Beyond simply reasoning about the properties of light from texts, he reports on his **experimental** construction and manipulations of mirrors, lenses, and camera-obscuras, etc. Rather than rely solely upon theory, we observe him use theory as a guide to generate a test, perform the experiment in the real world, and then update his theory and future actions accordingly.
 
