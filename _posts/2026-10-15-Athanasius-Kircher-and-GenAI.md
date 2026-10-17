@@ -38,7 +38,7 @@ This is an important distinction because while LLMs on their own display behavio
 
 ![An engraved portrait of Athanasius Kircher appears beside his illustration of an erupting Mount Etna from Mundus Subterraneus. The slide identifies him as a Jesuit who lived from 1602 to 1680.](/blog/images/2026/10/15/Slide4.png)
 
-The previous talk introduced our guide: Athanasius Kircher (1602–1680), a German Jesuit polymath who spent 40 years teaching at the Collegium Romanum (now the Gregorian University). As was mentioned, he wrote more than thirty weighty tomes on geology...
+The previous talk introduced our guide: [Athanasius Kircher (1602–1680)](https://en.wikipedia.org/wiki/Athanasius_Kircher), a German Jesuit polymath who spent 40 years teaching at the [Collegium Romanum](https://en.wikipedia.org/wiki/Roman_College) (now the [Gregorian University](https://en.wikipedia.org/wiki/Pontifical_Gregorian_University)). As was mentioned, he wrote more than thirty weighty tomes on geology...
 
 
 ![Frontispieces from Kircher’s book on plague and China Illustrata appear beside his engraved portrait. The elaborate images combine religious figures, symbolic imagery, and representations of the subjects he studied.](/blog/images/2026/10/15/Slide5.png)
@@ -87,7 +87,7 @@ Kircher is an astute guide for us:  He is clear that the quality of the artistic
 
 ![Pages from China Illustrata show Chinese characters, a fortified hilltop settlement, and dragons among rocky mountains. The juxtaposition introduces Kircher’s use and interpretation of reports from China.](/blog/images/2026/10/15/Slide12.png)
 
-Back in 2023 and 2024, most of you would have used a simple base model LLM, but since then the common user-facing services integrate other methods to improve the results. [China Illustrata](https://archive.org/details/McGillLibrary-126082-3028) (1667) provides a helpful motivational example. Kircher never traveled to China—his mental “generative decoder model,” if you will—had no direct experience or training that would allow him to describe the language or social customs of China. Instead, he assembled his account from correspondence and earlier reports from a network of Jesuit missionaries. His own internal knowledge—--of logic, the natural world, reading and writing Latin—was supplemented by the documents and observations in these letters, serving as context for his writings. This was not without flaws: Even with *genuine* reports and images from China, his interpretation through a European conceptual framework could distort their meaning.
+Back in 2023 and 2024, most of you would have used a simple base model LLM, but since then the common user-facing services integrate other methods to improve the results. [China Illustrata](https://archive.org/details/McGillLibrary-126082-3028) (1667) provides a helpful motivational example. Kircher never traveled to China—--his mental “generative decoder model,” if you will—--had no direct experience or training that would allow him to describe the language or social customs of China. Instead, he assembled his account from correspondence and earlier reports from a network of Jesuit missionaries. His own internal knowledge—--of logic, the natural world, reading and writing Latin—--was supplemented by the documents and observations in these letters, serving as context for his writings. This was not without flaws: Even with *genuine* reports and images from China, his interpretation through a European conceptual framework could distort their meaning.
 
 For example, Chinese dragon imagery, meant symbolically to describe geographical features, was interpreted to imply the existence of literal dragons.
 
@@ -99,7 +99,7 @@ Identifying similar texts may be operationalized by using those intermediate rep
 
 ![A retrieval-augmented generation flowchart shows document and query embeddings being compared in a vector database, with retrieved context added to the query before an LLM generates a response. Kircher’s dragon illustration appears alongside it.](/blog/images/2026/10/15/Slide14.png)
 
-These semantic vectors can be precomputed for a variety of textual chunks, and both the underlying original text and its associated semantic vector stored in a database for subsequent lookup. This allows us to pull in relevant new information—--like Kircher’s Jesuit correspondence network— into the chat session in a selective way.  (By the way, the “memory” features in the various Chat apps, are essentially doing this to bring in relevant context from your past conversations.) China Illustrata shows the central limitation of retrieval augmentation: access to evidence is not the same as correct interpretation of evidence. Retrieval can reduce errors caused by missing information, but it does not guarantee that the retrieved material will be relevant, correctly weighted, or properly interpreted.
+These semantic vectors can be precomputed for a variety of textual chunks, and both the underlying original text and its associated semantic vector stored in a database for subsequent lookup. This allows us to pull in relevant new information—--like Kircher’s Jesuit correspondence network— into the chat session in a selective way.  (By the way, the “memory” features in the various Chat apps, are essentially doing this to bring in relevant context from your past conversations.) *China Illustrata* shows the central limitation of retrieval augmentation: access to evidence is not the same as correct interpretation of evidence. Retrieval can reduce errors caused by missing information, but it does not guarantee that the retrieved material will be relevant, correctly weighted, or properly interpreted.
 
 ![An engraving and a photograph show the Organum Mathematicum, a sloping cabinet containing rows of labeled rods. The slide associates the device with Kircher and Gaspar Schott’s 1668 publication.](/blog/images/2026/10/15/Slide15a.png)
 
@@ -133,7 +133,7 @@ The LLM can generate the text of a program, specify a command to execute it, and
 
 ![The CodeSim workflow passes a programming problem through planning, coding, testing, and debugging agents, looping back when checks fail. The slide defines code writing and documentation lookup as actions, and program outputs and test results as observations.](/blog/images/2026/10/15/Slide19.png)
 
-This is the technical pattern behind modern coding agents like [Codex](http://openai.com/codex/) and [Claude Code](https://claude.com/product/claude-code). An LLM—acting as an agent—operates within a computer programming environment, taking actions of writing and executing code, searching documentation, et cetera, and modifying its actions based on the outputs of those programs, until the specifications are met and the validation tests are passed.
+This is the technical pattern behind modern coding agents like [Codex](http://openai.com/codex/) and [Claude Code](https://claude.com/product/claude-code). An LLM—acting as an agent—operates within a computer programming environment, taking actions of writing and executing code, searching documentation, *et cetera*, and modifying its actions based on the outputs of those programs, until the specifications are met and the validation tests are passed.
 
 ![Kircher’s engraving of an erupting Mount Vesuvius appears beside a modern fluid-flow visualization labeled inward spiral and axial stretching. The slide introduces agentic mathematics through a Navier–Stokes proof example.](/blog/images/2026/10/15/Slide20a.png)
 
@@ -159,13 +159,13 @@ I particularly like [Cory Doctorow’s take on this](https://pluralistic.net/202
 
 > The Hugging Face hack isn't a mysterious, supernatural occurrence. It's a Python loop and a chatbot. The people responsible didn't accidentally create god: they created autonomous malicious software and then failed to closely monitor it, resulting in it doing something both foreseeable and bad. It's fine to worry about this new suite of tools that give even stupider people the ability to trash even more computers. You should worry about that—and demand better security practices from firms and governments.
 
-Stated another way it’s analogous to leaving your car in neutral at the top of a hill—if it rolls down and kills someone, it’s not a rogue car—it’s a negligent human.[^14]
+Stated another way it’s analogous to leaving your car in neutral at the top of a hill—--if it rolls down and kills someone, it’s not a rogue car—--it’s a negligent human.[^14]
 
 More generally, this illustrates a classic failure in reinforcement learning, in which algorithms exploit loopholes in the reward signal (in this case, “capturing the flag”) instead of solving the intended problem.  [Fordham alumnus, Aaron Dharna, has written an insightful survey of this problem as part of his doctoral work](https://arxiv.org/abs/2608.23875).[^15]
 
 ![A title page for Musaeum Kircherianum, drawings of mechanical and scientific apparatus, and an engraving of the museum’s vaulted interior illustrate the Kircherian Museum. The interior contains display cases, instruments, and visitors.](/blog/images/2026/10/15/Slide24.png)
 
-But back to Kircher: His Museum at the Collegio Romano is the culmination of this project.  Its collection included natural specimens, antiquities and objects arriving through the global Jesuit network,along with mathematical and scientific instruments, demonstrations, and mechanical inventions.  The museum was not merely a cabinet of curiosities, but a place where physical objects and instruments could be used for experiments.
+But back to Kircher: His [Museum](https://en.wikipedia.org/wiki/Kircherian_Museum) at the Collegio Romano is the culmination of this project.  Its collection included natural specimens, antiquities and objects arriving through the global Jesuit network,along with mathematical and scientific instruments, demonstrations, and mechanical inventions.  The museum was not merely a cabinet of curiosities, but a place where physical objects and instruments could be used for experiments.
 
 ![An NSF dashboard maps 20 Programmable Cloud Laboratory test-bed nodes across the United States. A sidebar lists connections to three Department of Energy national laboratories, 201 industry partners, and 409 institutional collaborators.](/blog/images/2026/10/15/Slide25.png)
 
@@ -183,7 +183,7 @@ Unfortunately, many of the popular claims about the water use of AI data centers
 
 ![A red prohibition symbol covers Empire of AI, and the thousandfold water-use claim is crossed out. The slide says the calculation was 10,000 to 45,000 times too high, citing unit errors and confusion between permitted and actual use, and between withdrawal and consumption.](/blog/images/2026/10/15/Slide29.png)
 
-The author has admitted that this was an incorrect calculation—it makes an elementary dimensional error, conflates permit application with actual use, and confuses the notions of water withdrawal and consumption—resulting in a figure that is 10,000 -45,000 times too high!  Although the author has corrected this in the most recent edition, the original false number was widely trumpeted in the popular press.
+The author has admitted that this was an incorrect calculation—--it makes an elementary dimensional error, conflates permit application with actual use, and confuses the notions of water withdrawal and consumption—--resulting in a figure that is 10,000-45,000 times too high!  Although the author has corrected this in the most recent edition, the original false number was widely trumpeted in the popular press.
 
 ![A cooling-system diagram traces water between server racks and an evaporative cooling tower, identifying escaping water vapor as consumptive use. A second diagram shows a dry loop cooler transferring heat to air without evaporating water.](/blog/images/2026/10/15/Slide30.png)
 
@@ -191,7 +191,7 @@ How is water used in a data center? (We will leave aside the water used in manuf
 
 The evaporation of hot water results in water vapor going into the air, with the remaining cooled water being recycled into the system.  This is a crucial point:  The water is not contaminated in any way, nor is it toxic. It has merely *evaporated* into the air*,* like water from the surface of a pond or swimming pool.  Replacing this evaporated water comprises the consumptive use of the data center. While this is the most common form of cooling in current generation data centers, a new trend is towards dry loop coolers.
 
-These circulate a cooling fluid through a closed loop, using fans blowing past the tubes to transfer heat to the air—essentially a scaled-up version of your home air conditioner.  There are various CAPEX and OPEX tradeoffs, but these are increasingly competitive with liquid cooling.
+These circulate a cooling fluid through a closed loop, using fans blowing past the tubes to transfer heat to the air—--essentially a scaled-up version of your home air conditioner.  There are various CAPEX and OPEX tradeoffs, but these are increasingly competitive with liquid cooling.
 
 ![A bar chart compares daily consumptive water use in the lower 48 states: crop irrigation at 78.4 billion gallons, corn ethanol at 2.69 billion, golf courses at an estimated 0.64 billion, and data centers at 0.0478 billion. Irrigation dominates the chart.](/blog/images/2026/10/15/Slide31.png)
 
