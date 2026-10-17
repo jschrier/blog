@@ -4,7 +4,7 @@ date: 2026-10-15
 tags: ai llm history jesuits
 ---
 
-**Premise:**  I was invited to give a keynote talk for an [Ignatian AI conference](https://www.fordham.edu/ai-for-the-greater-good/ai-conference-2026/) the was supposed to give an “up-to-date introduction” to modern AI for a general audience (naturally with a focus on LLM-based stuff).  Knowing that I would have to gloss over rigorous technical details but still wanting to clarify terminology to facilitate breakout discussion session, I decided to be bold and unpack my [previous exploration of Athanasius Kircher, SJ (1602–1680) as a guide to LLMs](TODO: link) into a full-length talk. Based on some audience encourage, I decided to turn this into a blog post (with small revisions and addition of hyperlinks).  **Strap in….**
+**Premise:**  I was invited to give a keynote talk for an [Ignatian AI conference](https://www.fordham.edu/ai-for-the-greater-good/ai-conference-2026/) the was supposed to give an “up-to-date introduction” to modern AI for a general audience (naturally with a focus on LLM-based stuff).  Knowing that I would have to gloss over rigorous technical details but still wanting to clarify terminology to facilitate breakout discussion session, I decided to be bold and unpack my [previous exploration of Athanasius Kircher, SJ (1602–1680) as a guide to LLMs]({{ site.baseurl }}{% post_url 2023-07-08-Imaginary-Syllabi:-Athanasius-Kircher-and-Generative-AI %}) into a full-length talk. Based on some audience encourage, I decided to turn this into a blog post (with small revisions and addition of hyperlinks).  **Strap in….**
 
 ![](/blog/images/2026/10/15/Slide2.png)
 
@@ -45,7 +45,7 @@ The previous talk introduced our guide: Athanasius Kircher (1602–1680), a Germ
 
 ... and medicine, China, music, Egyptology, Biblical history, mathematics, optics, and mechanical devices, drawing upon his own experimentation and information gathered through correspondence with the global network of Jesuits missionaries.
 
-It would be [easy to joke that Kircher was the ChatGPT of the seventeenth century](TODO: Link to prior Kircher post)---not only because he seemingly knew everything and could generate voluminous outputs on all of these topics, but also because he was capable of spectacular confabulations.[^5]  For example his monumental *Oedipus Aegyptiacus* purported to decipher Egyptian hieroglyphics, yet despite genuine linguistic knowledge and some correct premises, the resulting translations were fantastically wrong.
+It would be [easy to joke that Kircher was the ChatGPT of the seventeenth century]({{ site.baseurl }}{% post_url 2023-07-08-Imaginary-Syllabi:-Athanasius-Kircher-and-Generative-AI %})---not only because he seemingly knew everything and could generate voluminous outputs on all of these topics, but also because he was capable of spectacular confabulations.[^5]  For example his monumental *Oedipus Aegyptiacus* purported to decipher Egyptian hieroglyphics, yet despite genuine linguistic knowledge and some correct premises, the resulting translations were fantastically wrong.
 
 ![](/blog/images/2026/10/15/Slide6.png)
 
@@ -256,9 +256,9 @@ A few closing thoughts: Language models are one subdiscipline within the broader
 
 [^7]: You can play with a digital simulation of this online [https://www.arca1650.info](https://www.arca1650.info)
 
-[^8]: For a slightly more practical dive (which Kircher would whole-heartedly approve of), see also my previous posts on building a RAG system against the Catechism…the Vatican RAG, if you will. [link] [link]
+[^8]: For a slightly more practical dive (which Kircher would whole-heartedly approve of), see also my previous posts on building a RAG system against the Catechism…the Vatican RAG, if you will: [Retrieval Augmented Generation]({{ site.baseurl }}{% post_url 2023-08-24-Retrieval-Augmented-Generation %}) and [Retrieval Augmented Generation, Revisited]({{ site.baseurl }}{% post_url 2024-12-26-Retrieval-Augmented-Generation,-Revisited %}).
 
-[^9]: It seemed too pretentious of me to say “*Ars Magna Lucis et Umbrae”* during my lecture, so I [sprezaturra’d](TODO: link to Birth of the Cool post) a translation on the fly.
+[^9]: It seemed too pretentious of me to say “*Ars Magna Lucis et Umbrae”* during my lecture, so I [sprezaturra’d]({{ site.baseurl }}{% post_url 2023-04-22-Birth-of-the-Cool %}) a translation on the fly.
 
 [^10]: However—and I should say this was announced a few days after my talk!—there is a preprint suggesting that the “human readable” and Lean proofs don’t match.  [ArXiv  preprint](https://arxiv.org/abs/2610.08144) and [HackerNew thread](https://news.ycombinator.com/item?id=49994145)
 
