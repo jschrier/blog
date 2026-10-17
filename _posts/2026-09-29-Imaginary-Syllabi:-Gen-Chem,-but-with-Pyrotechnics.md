@@ -32,6 +32,9 @@ tags: imaginary-syllabi teaching chemistry books
 - Nuclear chemistry/isotopes (unless you include atomic bombs, which would be cool)
 - Won't appeal to premeds
 
+# Parerga and Paralipomena
+
+- Teaching relativistic quantum chemistry with an application to fireworks [J Chem Educ 2026](https://doi.org/10.1021/acs.jchemed.6c00006)
 
 
 [^1]: I also had day-dreams of taking the graduate certificate, masters, or PhD in [explosive engineering at Missouri S&T](https://mee.mst.edu/degrees/)
