@@ -18,10 +18,10 @@ tags: imaginary-syllabi teaching chemistry books
 - Gas laws: Gas generation, pressure, effects of confinement
 - Thermochemistry (heat, work, enthalpy, entropy, equilibrium)
 - Arrhenius theory & activation energy: Why a reaction can be thermodynamically favorable, but still need ignition 
-- Kinetics: Rate laws, particle size effects, chain reactonions
+- Kinetics: Rate laws, particle size effects, chain reactions
 - Acid/Base needed to discuss possible side reactions in storage
 - Labs could be a blast!
-- Motivates safety and risk analyzis before lab, importance of hazard classifications storage and disposal
+- Motivates safety and risk analysis before lab, importance of hazard classifications storage and disposal
 - Societal connection: (e.g., perchlorates, green pyrotechnics)
 
 # Weak areas (relevance is less clear)
@@ -32,6 +32,9 @@ tags: imaginary-syllabi teaching chemistry books
 - Nuclear chemistry/isotopes (unless you include atomic bombs, which would be cool)
 - Won't appeal to premeds
 
+# Parerga and Paralipomena
+
+- Teaching relativistic quantum chemistry with an application to fireworks [J Chem Educ 2026](https://doi.org/10.1021/acs.jchemed.6c00006)
 
 
 [^1]: I also had day-dreams of taking the graduate certificate, masters, or PhD in [explosive engineering at Missouri S&T](https://mee.mst.edu/degrees/)

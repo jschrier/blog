@@ -239,7 +239,7 @@ ListPlot[
 
 ![08v47091dwsar](/blog/images/2026/8/1/08v47091dwsar.png)
 
-Our simulation captures the shape observed in the measured I-V curve of a reversible reaction;  recall that we started the experiment with potential = +10, so read this from right to left. Initially, no current is observed because the potential is insufficiently negative to reduce the oxidized species and everything is already oxidized at the beginning of the simulation anyway. As the voltage is lowered, the surface concentration ratio between oxidized and reduced species is driven by the Nernst equation relationship, resulting in reduction of the molecules (negative current). A local minimum results because of the diffusion limit of getting new oxidized molecules to the electrode.   
+Our simulation captures the shape observed in the measured I-V curve of a reversible reaction;  recall that we started the experiment with potential = +10, so read this from right to left. Initially, no current is observed because the potential is insufficiently negative to reduce the oxidized species and everything is already oxidized at the beginning of the simulation anyway. As the voltage is lowered, the surface concentration ratio between oxidized and reduced species is driven by the Nernst equation relationship, resulting in reduction of the molecules (negative current). A local minimum results because of the diffusion limit of getting new oxidized molecules to the electrode. See [part 6]({{ site.baseurl }}{% post_url 2026-09-10-Simulated-Electrochemistry,-part-6 %}) for an animation of how the concentration profile evolves during cyclic voltammetry.
 
 The result is noisy, as only a few hundred events are observed at any particular value of the potential, and the only straightforward path for improving that is to run more trajectories (with the signal-to-noise ratio scaling with the square-root of examples) or else to try some fitting/smoothing to the results.
 
@@ -407,3 +407,4 @@ ToJekyll["Simulated Electrochemistry", "chemistry mathematica montecarlo science
 - **Part 3:** [Irreversible Cyclic Voltammetry and Quantification]({{ site.baseurl }}{% post_url 2026-08-07-Simulated-Electrochemistry,-part-3:-Irreversible-CV %})
 - **Part 4:** [Anodic Stripping Voltammetry]({{ site.baseurl }}{% post_url 2026-08-10-Simulated-Electrochemistry,-part-4:-Anodic-Stripping-Voltammetry %})
 - **Part 5:** [Optimizing the Monte Carlo Simulation]({{ site.baseurl }}{% post_url 2026-08-12-Simulated-Electrochemistry,-part-5 %})
+- **Part 6:** [Concentration Profiles During Cyclic Voltammetry]({{ site.baseurl }}{% post_url 2026-09-10-Simulated-Electrochemistry,-part-6 %})

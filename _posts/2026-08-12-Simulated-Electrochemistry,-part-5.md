@@ -4,7 +4,7 @@ date: 2026-08-12
 tags: chemistry mathematica montecarlo science teaching electrochem chiguiro
 ---
 
-Our electrochemical Monte Carlo simulations require many evaluations to limit the noise in the simulated results and explorations over many different experimental conditions.  While our [initial implementation]({{ site.baseurl }}{% post_url 2026-08-01-Simulated-Electrochemistry %}) was aimed at conceptual simplicity, **we will explore here how to make further modifications to achieve an additional 16x speedup in computational efficiency to unlock more ambitious simulations...**
+Our electrochemical Monte Carlo simulations require many evaluations to limit the noise in the simulated results and explorations over many different experimental conditions.  While our [initial implementation]({{ site.baseurl }}{% post_url 2026-08-01-Simulated-Electrochemistry %}) was aimed at conceptual simplicity, **we will explore here how to make further modifications to achieve an additional 16x speedup in computational efficiency to unlock [more ambitious simulations]({{ site.baseurl }}{% post_url 2026-09-10-Simulated-Electrochemistry,-part-6 %})...**
 
 ## Notional Experiment
 
@@ -122,3 +122,4 @@ ToJekyll["Simulated Electrochemistry, part 5",
 - **Part 3:** [Irreversible Cyclic Voltammetry and Quantification]({{ site.baseurl }}{% post_url 2026-08-07-Simulated-Electrochemistry,-part-3:-Irreversible-CV %})
 - **Part 4:** [Anodic Stripping Voltammetry]({{ site.baseurl }}{% post_url 2026-08-10-Simulated-Electrochemistry,-part-4:-Anodic-Stripping-Voltammetry %})
 - **Part 5:** Optimizing the Monte Carlo Simulation — *this post*
+- **Part 6:** [Concentration Profiles During Cyclic Voltammetry]({{ site.baseurl }}{% post_url 2026-09-10-Simulated-Electrochemistry,-part-6 %})

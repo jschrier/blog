@@ -323,3 +323,4 @@ ToJekyll["Simulated Electrochemistry, part 4: Anodic Stripping Voltammetry",
 - **Part 3:** [Irreversible Cyclic Voltammetry and Quantification]({{ site.baseurl }}{% post_url 2026-08-07-Simulated-Electrochemistry,-part-3:-Irreversible-CV %})
 - **Part 4:** Anodic Stripping Voltammetry — *this post*
 - **Part 5:** [Optimizing the Monte Carlo Simulation]({{ site.baseurl }}{% post_url 2026-08-12-Simulated-Electrochemistry,-part-5 %})
+- **Part 6:** [Concentration Profiles During Cyclic Voltammetry]({{ site.baseurl }}{% post_url 2026-09-10-Simulated-Electrochemistry,-part-6 %})
