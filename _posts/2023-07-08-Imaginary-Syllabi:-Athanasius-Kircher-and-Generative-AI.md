@@ -76,7 +76,7 @@ I'm a contrarian, and the students taking this course aren't necessarily technic
     - (06 June 2025) A video blogger [built an Arca Musarithmica](https://www.youtube.com/watch?v=ko3kZr5N61I) and describes how it works
 
 - [Deviant interdisciplinarity](https://www.jstor.org/stable/41932111?seq=1) 
-- (06 June 2025) 
+- (17 Oct 2026) In October 2026 I delivered a keynote talk at a conference on [Ignatian AI](https://www.fordham.edu/ai-for-the-greater-good/ai-conference-2026/) which [tried to introduce modern LLM-based technology through the work of Kircher, and I have posted the text and extended notes on the blog.]({{ site.baseurl }}{% post_url 2026-10-15-Athanasius-Kircher-and-GenAI %})
 
 
 # Footnotes
