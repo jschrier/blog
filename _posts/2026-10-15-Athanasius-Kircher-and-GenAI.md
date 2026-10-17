@@ -224,6 +224,10 @@ Are data centers particularly unpleasant or exploitative?  It would be quite a s
 
 A few closing thoughts: Language models are one subdiscipline within the broader field of artificial intelligence. They are not inherently mysterious—a neural network, after all is just matrix multiplication, approximating a probability function to predict the next token. But magical things do happen when you integrate them with databases and external program tools, and run an iterative loop in a computed or real-world environment. The water and energy requirements are modest compared to any other use, and innocuous compared to any other type of industry. Above all, I think Athanasius Kircher would *totally* dig them.
 
+
+
+# Footnotes
+
 [^1]: Folklore has it that this gang coined “Artificial Intelligence” because some of them had a beef with [Norbert Wiener](https://en.wikipedia.org/wiki/Norbert_Wiener), who was “Mr Cybernetics” back in the day.
 
 [^2]: The proposal was written 31 Aug 1955, with the conference held during the Summer of 1956.
@@ -248,9 +252,9 @@ A few closing thoughts: Language models are one subdiscipline within the broader
 
 [^5]: *Confabulation* is a more precise way of referring to the phenomenon popularly referred to as *hallucination*; the latter is problematic as there are no sensory perceptions for an LLM.  Alternatively, I equally approve of  [Harry Frankfurt](https://en.wikipedia.org/wiki/Harry_Frankfurt) (1929-2023) colorful technical term: *bullshit* ([introduced in his book of the same title](https://en.wikipedia.org/wiki/On_Bullshit)): speech intended to persuade without regard for truth. Kircher's problem was neither ignorance, nor a lack of concern for the truth. Rather, his problem was that he possessed the methods for producing plausible connections faster than he possessed the means for checking them—a situation not unlike what we face today with LLMs.
 
-[^6]: For a more technical deep-dive, my standing recommendations are Stephen Wolfram’s [*What is ChatGPT Doing…and Why Does It Work?*](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/) (2023) and [3Blue1Brown’s Neural network video series](https://www.3blue1brown.com/?topic=neural-networks).
+[^6]: For a more technical deep-dive on how LLMs work, my standing recommendations are Stephen Wolfram’s [*What is ChatGPT Doing…and Why Does It Work?*](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/) (2023) and [3Blue1Brown’s Neural network video series](https://www.3blue1brown.com/?topic=neural-networks).
 
-[^7]: You can play with a digital simulation of this online [https://www.arca1650.info](https://www.arca1650.info)
+[^7]: You can play with a digital simulation of the Arca Musarithmica online [https://www.arca1650.info](https://www.arca1650.info)
 
 [^8]: For a slightly more practical dive (which Kircher would whole-heartedly approve of), see also my previous posts on building a RAG system against the Catechism…the Vatican RAG, if you will: [Retrieval Augmented Generation]({{ site.baseurl }}{% post_url 2023-08-24-Retrieval-Augmented-Generation %}) and [Retrieval Augmented Generation, Revisited]({{ site.baseurl }}{% post_url 2024-12-26-Retrieval-Augmented-Generation,-Revisited %}).
 
