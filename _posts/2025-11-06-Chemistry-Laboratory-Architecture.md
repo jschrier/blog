@@ -1,7 +1,7 @@
 ---
 title: "Chemistry laboratory architecture"
 date: 2025-11-06
-tags: chemistry sdl reading
+tags: chemistry sdl reading history
 ---
 
 Thoughts on Morris, [The Matter Factory: A History of the Chemistry Laboratory](https://amzn.to/48WfrDB)...
