@@ -260,7 +260,7 @@ A few closing thoughts: Language models are one subdiscipline within the broader
 
 [^9]: It seemed too pretentious of me to say “*Ars Magna Lucis et Umbrae*” during my lecture, so I [sprezaturra’d]({{ site.baseurl }}{% post_url 2023-04-22-Birth-of-the-Cool %}) a translation on the fly.
 
-[^10]: However—and I should say this was announced a few days after my talk!—there is a preprint suggesting that the “human readable” and Lean proofs don’t match.  [ArXiv  preprint](https://arxiv.org/abs/2610.08144) and [HackerNew thread](https://news.ycombinator.com/item?id=49994145)
+[^10]: See also coverage in [Science magazine](https://dx.doi.org/10.1126/science.z8pi0tt), etc. However—and I should say this was announced a few days after my talk!—there is a preprint suggesting that the “human readable” and Lean proofs don’t match.  [ArXiv  preprint](https://arxiv.org/abs/2610.08144) and [HackerNew thread](https://news.ycombinator.com/item?id=49994145)
 
 [^11]: Learn more: My Fordham math colleague, Heather Macbeth teaches the [intro-to-proofs class based on Lean](https://hrmacbeth.github.io/math2001/); As associate Editor, I handled a 2024 article on using [Lean for chemical physics problems](https://pubs.rsc.org/dd/article/3/2/264/804885/Formalizing-chemical-physics-using-the-Lean).
 
